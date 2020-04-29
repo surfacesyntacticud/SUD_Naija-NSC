@@ -109,7 +109,7 @@
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=18744|AlignEnd=19018|Gloss=PUNCT
 12	where	where	ADV	_	PronType=Int	10	mod	_	AlignBegin=19018|AlignEnd=19138|Gloss=where.Q
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=19138|AlignEnd=19258|Gloss=NOM.SG.1
-14	dey	dey	AUX	_	Aspect=Imp	12	dep	_	AlignBegin=19258|AlignEnd=19408|Gloss=IPFV
+14	dey	dey	AUX	_	Aspect=Imp	12	mod@relcl	_	AlignBegin=19258|AlignEnd=19408|Gloss=IPFV
 15	sell	sell	VERB	_	_	14	comp:aux	_	AlignBegin=19408|AlignEnd=19584|Gloss=sell
 16	provision	provision	NOUN	_	_	15	comp:obj	_	AlignBegin=19584|AlignEnd=20130|Gloss=provision
 17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=20130|AlignEnd=20160|Gloss=PUNCT
@@ -180,7 +180,7 @@
 21	//)	//)	PUNCT	_	_	17	punct	_	AlignBegin=30030|AlignEnd=30060|Gloss=PUNCT
 22	#	#	PUNCT	_	_	4	punct	_	AlignBegin=30060|AlignEnd=30420|Gloss=PUNCT
 23	naim	naim	ADV	_	_	24	mod	_	AlignBegin=30420|AlignEnd=30660|Gloss=then
-24	come	con	AUX	_	Aspect=Cons	3	dep	_	AlignBegin=30690|AlignEnd=30880|Gloss=CONS
+24	come	con	AUX	_	Aspect=Cons	3	mod@relcl	_	AlignBegin=30690|AlignEnd=30880|Gloss=CONS
 25	tell	tell	VERB	_	_	24	comp:aux	_	AlignBegin=30880|AlignEnd=31057|Gloss=tell
 26	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	comp:obl	_	AlignBegin=31057|AlignEnd=31193|Gloss=ACC.SG.1
 27	sey	sey	SCONJ	_	_	25	comp:obj	_	AlignBegin=31193|AlignEnd=31481|Gloss=COMP
@@ -437,12 +437,11 @@
 # text = # and I no & //
 # text_en = And I don't…
 # text_ortho = And I no...
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=73640|AlignEnd=74040|Gloss=PUNCT
-2	and	and	CCONJ	_	_	5	cc	_	AlignBegin=74040|AlignEnd=74270|Gloss=and
-3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=74270|AlignEnd=74390|Gloss=NOM.SG.1
-4	no	no	PART	_	Polarity=Neg	5	mod	_	AlignBegin=74390|AlignEnd=74551|Gloss=NEG
-5	&	&	X	_	_	0	root	_	AlignBegin=74551|AlignEnd=74581|Gloss=X
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=74551|AlignEnd=74581|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=73640|AlignEnd=74040|Gloss=PUNCT
+2	and	and	CCONJ	_	_	0	cc	_	AlignBegin=74040|AlignEnd=74270|Gloss=and
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	subj	_	AlignBegin=74270|AlignEnd=74390|Gloss=NOM.SG.1
+4	no	no	PART	_	Polarity=Neg	0	root@scrap	_	AlignBegin=74390|AlignEnd=74551|Gloss=NEG
+5	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=74551|AlignEnd=74581|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__19
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
@@ -1018,9 +1017,8 @@
 8	<+	<+	PUNCT	_	_	2	punct	_	AlignBegin=159013|AlignEnd=159043|Gloss=PUNCT
 9	#	#	PUNCT	_	_	2	punct	_	AlignBegin=159043|AlignEnd=159362|Gloss=PUNCT
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=159362|AlignEnd=159552|Gloss=NOM.SG.1
-11	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=159552|AlignEnd=159842|Gloss=CONT
-12	&	&	X	_	_	11	comp:aux	_	AlignBegin=159842|AlignEnd=159872|Gloss=X
-13	//	//	PUNCT	_	_	11	punct	_	AlignBegin=159842|AlignEnd=159872|Gloss=PUNCT
+11	go	go	AUX	_	Aspect=Prosp	0	root@scrap	_	AlignBegin=159552|AlignEnd=159842|Gloss=CONT
+12	&//	//	PUNCT	_	_	11	punct	_	AlignBegin=159842|AlignEnd=159872|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__44
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3

@@ -17,7 +17,7 @@
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=2060|AlignEnd=2940|Gloss=PUNCT
 2	when	when	ADV	_	PronType=Int	7	mod:periph	_	AlignBegin=2940|AlignEnd=3151|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=3151|AlignEnd=3290|Gloss=NOM.2
-4	reach	reach	VERB	_	_	2	comp:obj	_	AlignBegin=3290|AlignEnd=3700|Gloss=reach
+4	reach	reach	VERB	_	_	2	mod@relcl	_	AlignBegin=3290|AlignEnd=3700|Gloss=reach
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=3700|AlignEnd=3730|Gloss=PUNCT
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=3730|AlignEnd=3790|Gloss=NOM.2
 7	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=3790|AlignEnd=3920|Gloss=CONT
@@ -496,10 +496,10 @@
 9	blood	blood	NOUN	_	_	5	conj:coord	_	AlignBegin=77460|AlignEnd=77750|Gloss=blood
 10	}	}	PUNCT	_	_	5	punct	_	AlignBegin=77750|AlignEnd=77780|Gloss=PUNCT
 11	>+	>+	PUNCT	_	_	12	punct	_	AlignBegin=77750|AlignEnd=77780|Gloss=PUNCT
-12	na	na	PART	_	PartType=Cop	2	comp:cleft	_	AlignBegin=77780|AlignEnd=77890|Gloss=be.COP
-13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	comp:pred	_	AlignBegin=77890|AlignEnd=78020|Gloss=NOM.SG.3
+12	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	2	comp:cleft	_	AlignBegin=77780|AlignEnd=77890|Gloss=be.COP
+13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	comp:pred@fixed	_	AlignBegin=77890|AlignEnd=78020|Gloss=NOM.SG.3
 14	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=78020|AlignEnd=78140|Gloss=NOM.SG.1
-15	pour	pour	VERB	_	_	13	mod@relcl	_	AlignBegin=78140|AlignEnd=78360|Gloss=pour
+15	pour	pour	VERB	_	_	13	comp:obj	_	AlignBegin=78140|AlignEnd=78360|Gloss=pour
 16	for	for	ADP	_	_	15	comp:obl	_	AlignBegin=78360|AlignEnd=78490|Gloss=for
 17	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	16	comp:obj	_	AlignBegin=78490|AlignEnd=78670|Gloss=ACC.PL.2
 18	so	so	ADV	_	_	15	mod	_	AlignBegin=78670|AlignEnd=78970|Gloss=so
@@ -907,7 +907,7 @@
 12	when	when	ADV	_	PronType=Int	9	mod	_	AlignBegin=151500|AlignEnd=151640|Gloss=when.Q
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=151640|AlignEnd=151720|Gloss=NOM.SG.1
 14	still	still	ADV	_	_	15	mod	_	AlignBegin=151720|AlignEnd=151940|Gloss=still
-15	dey	dey	VERB	_	VerbType=Cop	12	comp:obj	_	AlignBegin=151940|AlignEnd=152070|Gloss=dey.COP
+15	dey	dey	VERB	_	VerbType=Cop	12	mod@relcl	_	AlignBegin=151940|AlignEnd=152070|Gloss=dey.COP
 16	wit	wit	ADP	_	_	15	comp:pred	_	AlignBegin=152070|AlignEnd=152270|Gloss=with
 17	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	16	comp:obj	_	AlignBegin=152270|AlignEnd=152410|Gloss=ACC.PL.2
 18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=152410|AlignEnd=152440|Gloss=PUNCT
@@ -930,7 +930,7 @@
 10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=155440|AlignEnd=155540|Gloss=DEF.ART
 11	one	one	NOUN	_	_	6	conj:coord	_	AlignBegin=155540|AlignEnd=155770|Gloss=one
 12	wey	wey	SCONJ	_	gloss=REL	11	mod@relcl	_	AlignBegin=155770|AlignEnd=155904|Gloss=which
-13	dem	dem	DET	_	Number=Plur|PronType=Art	14	det	_	AlignBegin=155904|AlignEnd=156110|Gloss=PL.ART
+13	dem	dem	PRON	_	Number=Plur|PronType=Art	14	mod:poss	_	AlignBegin=155904|AlignEnd=156110|Gloss=PL.ART
 14	prophet	prophet	NOUN	_	_	15	subj	_	AlignBegin=156110|AlignEnd=156600|Gloss=prophet
 15	write	write	VERB	_	_	12	comp:obj	_	AlignBegin=156600|AlignEnd=156835|Gloss=write
 16	{	{	PUNCT	_	_	18	punct	_	AlignBegin=156835|AlignEnd=156865|Gloss=PUNCT
@@ -1167,7 +1167,7 @@
 10	when	when	ADV	_	PronType=Int	9	comp:obj	_	AlignBegin=204450|AlignEnd=204640|Gloss=when.Q
 11	dis	dis	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=204640|AlignEnd=204820|Gloss=SG.PROX.DEM
 12	world	world	NOUN	_	_	13	subj	_	AlignBegin=204820|AlignEnd=205310|Gloss=world
-13	go	go	AUX	_	Aspect=Prosp	10	comp:obj	_	AlignBegin=205310|AlignEnd=205490|Gloss=CONT
+13	go	go	AUX	_	Aspect=Prosp	10	mod@relcl	_	AlignBegin=205310|AlignEnd=205490|Gloss=CONT
 14	end	end	VERB	_	_	13	comp:aux	_	AlignBegin=205490|AlignEnd=205979|Gloss=end
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=205979|AlignEnd=206009|Gloss=PUNCT
 

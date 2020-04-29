@@ -59,9 +59,8 @@
 # text_ortho = I want...
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=12980|AlignEnd=14640|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=14640|AlignEnd=14809|Gloss=NOM.SG.1
-3	want	want	VERB	_	_	0	root	_	AlignBegin=14809|AlignEnd=15563|Gloss=want
-4	&	&	X	_	_	3	comp:obj	_	AlignBegin=15563|AlignEnd=15593|Gloss=X
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=15563|AlignEnd=15593|Gloss=PUNCT
+3	want	want	VERB	_	_	0	root@scrap	_	AlignBegin=14809|AlignEnd=15563|Gloss=want
+4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=15563|AlignEnd=15593|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__6
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -435,9 +434,8 @@
 8	#	#	PUNCT	_	_	2	punct	_	AlignBegin=100342|AlignEnd=101614|Gloss=PUNCT
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=101614|AlignEnd=101724|Gloss=NOM.SG.1
 10	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=101724|AlignEnd=101832|Gloss=CONT
-11	con	con	AUX	_	Aspect=Cons	10	comp:aux	_	AlignBegin=101832|AlignEnd=102447|Gloss=CONS
-12	&	&	X	_	_	11	comp:aux	_	AlignBegin=102447|AlignEnd=102477|Gloss=X
-13	//	//	PUNCT	_	_	10	punct	_	AlignBegin=102447|AlignEnd=102477|Gloss=PUNCT
+11	con	con	AUX	_	Aspect=Cons	10	comp:aux@scrap	_	AlignBegin=101832|AlignEnd=102447|Gloss=CONS
+12	&//	//	PUNCT	_	_	10	punct	_	AlignBegin=102447|AlignEnd=102477|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__22
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -449,7 +447,7 @@
 2	when	when	ADV	_	PronType=Int	9	mod:periph	_	AlignBegin=103000|AlignEnd=103220|Gloss=when.Q
 3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=103220|AlignEnd=103290|Gloss=DEF.ART
 4	cocoyam	cocoyam	NOUN	_	_	5	subj	_	AlignBegin=103290|AlignEnd=103710|Gloss=cocoyam
-5	don	don	AUX	_	Aspect=Perf	2	comp:obj	_	AlignBegin=103710|AlignEnd=103928|Gloss=PRF
+5	don	don	AUX	_	Aspect=Perf	2	mod@relcl	_	AlignBegin=103710|AlignEnd=103928|Gloss=PRF
 6	done	do	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	AlignBegin=103928|AlignEnd=104242|Gloss=do.PST.PTCP
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=104242|AlignEnd=104272|Gloss=PUNCT
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=104272|AlignEnd=104400|Gloss=NOM.SG.1
@@ -676,7 +674,7 @@
 # text_ortho = When e boil well-well, I put my Maggi, put my ogiri, put everything, put my salt make e taste well-well.
 1	when	when	ADV	_	PronType=Int	11	mod:periph	_	AlignBegin=140850|AlignEnd=140980|Gloss=when.Q
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=140980|AlignEnd=141060|Gloss=NOM.SG.3
-3	boil	boil	VERB	_	_	1	comp:obj	_	AlignBegin=141060|AlignEnd=141334|Gloss=boil
+3	boil	boil	VERB	_	_	1	mod@relcl	_	AlignBegin=141060|AlignEnd=141334|Gloss=boil
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=141334|AlignEnd=141364|Gloss=PUNCT
 5	well	well	ADV	_	_	3	mod	_	AlignBegin=141364|AlignEnd=141476|Gloss=well
 6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=141476|AlignEnd=141506|Gloss=PUNCT
@@ -1070,48 +1068,46 @@
 7	{	{	PUNCT	_	_	9	punct	_	AlignBegin=209530|AlignEnd=209560|Gloss=PUNCT
 8	Warri	Warri	PROPN	_	_	9	compound	_	AlignBegin=209560|AlignEnd=209950|Gloss=Warri
 9	people	people	NOUN	_	Number=Plur	5	comp:pred	_	AlignBegin=209950|AlignEnd=210150|Gloss=people.PL
-10	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=210150|AlignEnd=210180|Gloss=PUNCT
-11	and	and	CCONJ	_	_	13	cc	_	AlignBegin=210180|AlignEnd=210410|Gloss=and
-12	ehn	ehn	INTJ	_	_	13	discourse	_	AlignBegin=210440|AlignEnd=210628|Gloss=ehn
-13	&	&	X	_	_	9	conj:coord	_	AlignBegin=210628|AlignEnd=210658|Gloss=X
-14	}	}	PUNCT	_	_	9	punct	_	AlignBegin=210628|AlignEnd=210658|Gloss=PUNCT
-15	||	||	PUNCT	_	_	19	punct	_	AlignBegin=210628|AlignEnd=210658|Gloss=PUNCT
-16	#	#	PUNCT	_	_	19	punct	_	AlignBegin=210658|AlignEnd=211847|Gloss=PUNCT
-17	{	{	PUNCT	_	_	19	punct	_	AlignBegin=211817|AlignEnd=211847|Gloss=PUNCT
-18	Warri	Warri	PROPN	_	_	19	compound	_	AlignBegin=211847|AlignEnd=212237|Gloss=Warri
-19	people	people	NOUN	_	Number=Plur	9	conj:dicto	_	AlignBegin=212237|AlignEnd=212488|Gloss=people.PL
-20	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=212488|AlignEnd=212518|Gloss=PUNCT
-21	and	and	CCONJ	_	_	23	cc	_	AlignBegin=212518|AlignEnd=212717|Gloss=and
-22	ehn	ehn	INTJ	_	_	23	discourse	_	AlignBegin=212747|AlignEnd=213289|Gloss=ehn
-23	&	&	X	_	_	19	conj:coord	_	AlignBegin=213289|AlignEnd=213319|Gloss=X
-24	}	}	PUNCT	_	_	19	punct	_	AlignBegin=213289|AlignEnd=213319|Gloss=PUNCT
-25	||	||	PUNCT	_	_	29	punct	_	AlignBegin=213289|AlignEnd=213319|Gloss=PUNCT
-26	#	#	PUNCT	_	_	29	punct	_	AlignBegin=213319|AlignEnd=217660|Gloss=PUNCT
-27	{	{	PUNCT	_	_	29	punct	_	AlignBegin=217630|AlignEnd=217660|Gloss=PUNCT
-28	Warri	Warri	PROPN	_	_	29	compound	_	AlignBegin=217660|AlignEnd=217990|Gloss=Warri
-29	people	people	NOUN	_	Number=Plur	9	conj:dicto	_	AlignBegin=217990|AlignEnd=218217|Gloss=people.PL
-30	|c	|c	PUNCT	_	_	39	punct	_	AlignBegin=218217|AlignEnd=218247|Gloss=PUNCT
-31	and	and	CCONJ	_	_	39	cc	_	AlignBegin=218247|AlignEnd=218410|Gloss=and
-32	ehn	ehn	INTJ	_	_	39	discourse	_	AlignBegin=218440|AlignEnd=218660|Gloss=ehn
-33	{	{	PUNCT	_	_	34	punct	_	AlignBegin=218660|AlignEnd=218690|Gloss=PUNCT
-34	ban-	X	X	_	_	39	compound	_	AlignBegin=218690|AlignEnd=218939|Gloss=X
-35	||	||	PUNCT	_	_	37	punct	_	AlignBegin=218939|AlignEnd=218969|Gloss=PUNCT
-36	ehn	ehn	INTJ	_	_	37	discourse	_	AlignBegin=218969|AlignEnd=219386|Gloss=ehn
-37	Bayelsa	Bayelsa	PROPN	_	_	34	conj:dicto	_	AlignBegin=219416|AlignEnd=219890|Gloss=Bayelsa
-38	}	}	PUNCT	_	_	34	punct	_	AlignBegin=219890|AlignEnd=219920|Gloss=PUNCT
-39	people	people	NOUN	_	Number=Plur	29	conj:coord	_	AlignBegin=219920|AlignEnd=220090|Gloss=people.PL
-40	}	}	PUNCT	_	_	29	punct	_	AlignBegin=220090|AlignEnd=220120|Gloss=PUNCT
-41	}	}	PUNCT	_	_	9	punct	_	AlignBegin=220090|AlignEnd=220120|Gloss=PUNCT
-42	>+	>+	PUNCT	_	_	43	punct	_	AlignBegin=220090|AlignEnd=220120|Gloss=PUNCT
-43	dey	dey	AUX	_	Aspect=Imp	5	comp:cleft	_	AlignBegin=220120|AlignEnd=220280|Gloss=IPFV
-44	chop	chop	VERB	_	_	43	comp:aux	_	AlignBegin=220280|AlignEnd=220500|Gloss=eat
-45	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	44	comp:obj	_	AlignBegin=220500|AlignEnd=220650|Gloss=ACC.SG.3
-46	{	{	PUNCT	_	_	47	punct	_	AlignBegin=220650|AlignEnd=220680|Gloss=PUNCT
-47	well	well	ADV	_	_	44	mod	_	AlignBegin=220680|AlignEnd=220783|Gloss=well
-48	|r	|r	PUNCT	_	_	49	punct	_	AlignBegin=220783|AlignEnd=220813|Gloss=PUNCT
-49	well	well	ADV	_	_	47	compound:redup	_	AlignBegin=220813|AlignEnd=220990|Gloss=well
-50	}	}	PUNCT	_	_	47	punct	_	AlignBegin=220990|AlignEnd=221020|Gloss=PUNCT
-51	//	//	PUNCT	_	_	5	punct	_	AlignBegin=220990|AlignEnd=221020|Gloss=PUNCT
+10	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=210150|AlignEnd=210180|Gloss=PUNCT
+11	and	and	CCONJ	_	_	9	cc	_	AlignBegin=210180|AlignEnd=210410|Gloss=and
+12	ehn	ehn	INTJ	_	_	9	conj:coord@scrap	_	AlignBegin=210440|AlignEnd=210628|Gloss=ehn
+13	}	}	PUNCT	_	_	9	punct	_	AlignBegin=210628|AlignEnd=210658|Gloss=PUNCT
+14	||	||	PUNCT	_	_	18	punct	_	AlignBegin=210628|AlignEnd=210658|Gloss=PUNCT
+15	#	#	PUNCT	_	_	18	punct	_	AlignBegin=210658|AlignEnd=211847|Gloss=PUNCT
+16	{	{	PUNCT	_	_	18	punct	_	AlignBegin=211817|AlignEnd=211847|Gloss=PUNCT
+17	Warri	Warri	PROPN	_	_	18	compound	_	AlignBegin=211847|AlignEnd=212237|Gloss=Warri
+18	people	people	NOUN	_	Number=Plur	9	conj:dicto	_	AlignBegin=212237|AlignEnd=212488|Gloss=people.PL
+19	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=212488|AlignEnd=212518|Gloss=PUNCT
+20	and	and	CCONJ	_	_	18	cc	_	AlignBegin=212518|AlignEnd=212717|Gloss=and
+21	ehn	ehn	INTJ	_	_	18	conj:coord@scrap	_	AlignBegin=212747|AlignEnd=213289|Gloss=ehn
+22	}	}	PUNCT	_	_	18	punct	_	AlignBegin=213289|AlignEnd=213319|Gloss=PUNCT
+23	||	||	PUNCT	_	_	27	punct	_	AlignBegin=213289|AlignEnd=213319|Gloss=PUNCT
+24	#	#	PUNCT	_	_	27	punct	_	AlignBegin=213319|AlignEnd=217660|Gloss=PUNCT
+25	{	{	PUNCT	_	_	27	punct	_	AlignBegin=217630|AlignEnd=217660|Gloss=PUNCT
+26	Warri	Warri	PROPN	_	_	27	compound	_	AlignBegin=217660|AlignEnd=217990|Gloss=Warri
+27	people	people	NOUN	_	Number=Plur	9	conj:dicto	_	AlignBegin=217990|AlignEnd=218217|Gloss=people.PL
+28	|c	|c	PUNCT	_	_	37	punct	_	AlignBegin=218217|AlignEnd=218247|Gloss=PUNCT
+29	and	and	CCONJ	_	_	37	cc	_	AlignBegin=218247|AlignEnd=218410|Gloss=and
+30	ehn	ehn	INTJ	_	_	37	discourse	_	AlignBegin=218440|AlignEnd=218660|Gloss=ehn
+31	{	{	PUNCT	_	_	32	punct	_	AlignBegin=218660|AlignEnd=218690|Gloss=PUNCT
+32	ban-	X	X	_	_	37	compound	_	AlignBegin=218690|AlignEnd=218939|Gloss=X
+33	||	||	PUNCT	_	_	35	punct	_	AlignBegin=218939|AlignEnd=218969|Gloss=PUNCT
+34	ehn	ehn	INTJ	_	_	35	discourse	_	AlignBegin=218969|AlignEnd=219386|Gloss=ehn
+35	Bayelsa	Bayelsa	PROPN	_	_	32	conj:dicto	_	AlignBegin=219416|AlignEnd=219890|Gloss=Bayelsa
+36	}	}	PUNCT	_	_	32	punct	_	AlignBegin=219890|AlignEnd=219920|Gloss=PUNCT
+37	people	people	NOUN	_	Number=Plur	27	conj:coord	_	AlignBegin=219920|AlignEnd=220090|Gloss=people.PL
+38	}	}	PUNCT	_	_	27	punct	_	AlignBegin=220090|AlignEnd=220120|Gloss=PUNCT
+39	}	}	PUNCT	_	_	9	punct	_	AlignBegin=220090|AlignEnd=220120|Gloss=PUNCT
+40	>+	>+	PUNCT	_	_	41	punct	_	AlignBegin=220090|AlignEnd=220120|Gloss=PUNCT
+41	dey	dey	AUX	_	Aspect=Imp	5	comp:cleft	_	AlignBegin=220120|AlignEnd=220280|Gloss=IPFV
+42	chop	chop	VERB	_	_	41	comp:aux	_	AlignBegin=220280|AlignEnd=220500|Gloss=eat
+43	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	42	comp:obj	_	AlignBegin=220500|AlignEnd=220650|Gloss=ACC.SG.3
+44	{	{	PUNCT	_	_	45	punct	_	AlignBegin=220650|AlignEnd=220680|Gloss=PUNCT
+45	well	well	ADV	_	_	42	mod	_	AlignBegin=220680|AlignEnd=220783|Gloss=well
+46	|r	|r	PUNCT	_	_	47	punct	_	AlignBegin=220783|AlignEnd=220813|Gloss=PUNCT
+47	well	well	ADV	_	_	45	compound:redup	_	AlignBegin=220813|AlignEnd=220990|Gloss=well
+48	}	}	PUNCT	_	_	45	punct	_	AlignBegin=220990|AlignEnd=221020|Gloss=PUNCT
+49	//	//	PUNCT	_	_	5	punct	_	AlignBegin=220990|AlignEnd=221020|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__44
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -1404,9 +1400,8 @@
 11	<	<	PUNCT	_	_	3	punct	_	AlignBegin=260514|AlignEnd=260544|Gloss=PUNCT
 12	#	#	PUNCT	_	_	3	punct	_	AlignBegin=260544|AlignEnd=261220|Gloss=PUNCT
 13	everything	everything	PRON	_	_	14	subj	_	AlignBegin=261220|AlignEnd=261760|Gloss=everything
-14	don	don	AUX	_	Aspect=Perf	0	root	_	AlignBegin=261760|AlignEnd=262090|Gloss=PRF
-15	&	&	X	_	_	14	comp:aux	_	AlignBegin=262090|AlignEnd=262120|Gloss=X
-16	//	//	PUNCT	_	_	14	punct	_	AlignBegin=262090|AlignEnd=262120|Gloss=PUNCT
+14	don	don	AUX	_	Aspect=Perf	0	root@scrap	_	AlignBegin=261760|AlignEnd=262090|Gloss=PRF
+15	&//	//	PUNCT	_	_	14	punct	_	AlignBegin=262090|AlignEnd=262120|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__57
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -1503,7 +1498,7 @@
 # text_ortho = When I boil am finish, I go con pound am.
 1	when	when	ADV	_	PronType=Int	9	mod:periph	_	AlignBegin=281729|AlignEnd=281820|Gloss=when.Q
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=281820|AlignEnd=281940|Gloss=NOM.SG.1
-3	boil	boil	VERB	_	_	1	comp:obj	_	AlignBegin=281940|AlignEnd=282220|Gloss=boil
+3	boil	boil	VERB	_	_	1	mod@relcl	_	AlignBegin=281940|AlignEnd=282220|Gloss=boil
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=282220|AlignEnd=282340|Gloss=ACC.SG.3
 5	finish	finish	VERB	_	_	3	compound:svc	_	AlignBegin=282340|AlignEnd=282880|Gloss=finish
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=282880|AlignEnd=282910|Gloss=PUNCT
@@ -1732,9 +1727,8 @@
 8	#	#	PUNCT	_	_	3	punct	_	AlignBegin=316660|AlignEnd=317300|Gloss=PUNCT
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=317300|AlignEnd=317410|Gloss=NOM.SG.1
 10	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=317410|AlignEnd=317480|Gloss=CONT
-11	con	con	AUX	_	Aspect=Cons	10	comp:aux	_	AlignBegin=317480|AlignEnd=318050|Gloss=CONS
-12	&	&	X	_	_	11	comp:aux	_	AlignBegin=318050|AlignEnd=318080|Gloss=X
-13	//	//	PUNCT	_	_	10	punct	_	AlignBegin=318050|AlignEnd=318080|Gloss=PUNCT
+11	con	con	AUX	_	Aspect=Cons	10	comp:aux@scrap	_	AlignBegin=317480|AlignEnd=318050|Gloss=CONS
+12	&//	//	PUNCT	_	_	10	punct	_	AlignBegin=318050|AlignEnd=318080|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__70
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -1756,7 +1750,7 @@
 12	<	<	PUNCT	_	_	3	punct	_	AlignBegin=320062|AlignEnd=320092|Gloss=PUNCT
 13	when	when	ADV	_	PronType=Int	32	mod:periph	_	AlignBegin=320092|AlignEnd=320169|Gloss=when.Q
 14	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=320169|AlignEnd=320250|Gloss=NOM.SG.1
-15	see	see	VERB	_	_	13	comp:obj	_	AlignBegin=320250|AlignEnd=320389|Gloss=see
+15	see	see	VERB	_	_	13	mod@relcl	_	AlignBegin=320250|AlignEnd=320389|Gloss=see
 16	sey	sey	SCONJ	_	_	15	comp:obj	_	AlignBegin=320389|AlignEnd=320490|Gloss=COMP
 17	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	subj	_	AlignBegin=320490|AlignEnd=320560|Gloss=NOM.SG.3
 18	don	don	AUX	_	Aspect=Perf	16	comp:obj	_	AlignBegin=320560|AlignEnd=320730|Gloss=PRF
@@ -1916,10 +1910,9 @@
 4	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	5	mod	_	AlignBegin=346890|AlignEnd=347030|Gloss=PL.1.POSS
 5	banga	banga	NOUN	_	_	3	comp:obj	_	AlignBegin=347030|AlignEnd=347460|Gloss=palm_kernel
 6	chop	chop	VERB	_	_	3	compound:svc	_	AlignBegin=347460|AlignEnd=347762|Gloss=eat
-7	#	#	PUNCT	_	_	9	punct	_	AlignBegin=347762|AlignEnd=348540|Gloss=PUNCT
-8	ehn	ehn	INTJ	_	_	9	discourse	_	AlignBegin=348540|AlignEnd=349272|Gloss=ehn
-9	&	&	X	_	_	6	comp:obj	_	AlignBegin=349272|AlignEnd=349302|Gloss=X
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=349272|AlignEnd=349302|Gloss=PUNCT
+7	#	#	PUNCT	_	_	6	punct	_	AlignBegin=347762|AlignEnd=348540|Gloss=PUNCT
+8	ehn	ehn	INTJ	_	_	6	comp:obj@scrap	_	AlignBegin=348540|AlignEnd=349272|Gloss=ehn
+9	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=349272|AlignEnd=349302|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__76
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3

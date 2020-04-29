@@ -91,7 +91,7 @@
 7	where	where	ADV	_	PronType=Int	5	conj:dicto	_	AlignBegin=11015|AlignEnd=11150|Gloss=where.Q
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=11150|AlignEnd=11180|Gloss=PUNCT
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=11180|AlignEnd=11326|Gloss=NOM.SG.1
-10	bin	bin	AUX	_	Tense=Past	7	dep	_	AlignBegin=11326|AlignEnd=11482|Gloss=PST
+10	bin	bin	AUX	_	Tense=Past	7	mod@relcl	_	AlignBegin=11326|AlignEnd=11482|Gloss=PST
 11	stop	stop	VERB	_	_	10	comp:aux	_	AlignBegin=11482|AlignEnd=11890|Gloss=stop
 12	last	last	ADJ	_	_	13	mod	_	AlignBegin=11890|AlignEnd=12230|Gloss=last
 13	week	week	NOUN	_	_	11	comp:obj	_	AlignBegin=12230|AlignEnd=12366|Gloss=week
@@ -110,10 +110,9 @@
 # text = # I & //
 # text_en = I…
 # text_ortho = I…
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=13394|AlignEnd=13500|Gloss=PUNCT
-2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=13500|AlignEnd=13940|Gloss=NOM.SG.1
-3	&	&	X	_	_	0	root	_	AlignBegin=13940|AlignEnd=13970|Gloss=X
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=13940|AlignEnd=13970|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=13394|AlignEnd=13500|Gloss=PUNCT
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root@scrap	_	AlignBegin=13500|AlignEnd=13940|Gloss=NOM.SG.1
+3	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=13940|AlignEnd=13970|Gloss=PUNCT
 
 # sent_id = WAZP_03_Education_MG__7
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZP_03_Education_MG.mp3
@@ -888,7 +887,7 @@
 2	den	den	ADV	_	_	14	mod:periph	_	AlignBegin=126989|AlignEnd=127158|Gloss=den
 3	when	when	ADV	_	PronType=Int	14	mod:periph	_	AlignBegin=127158|AlignEnd=127296|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=127296|AlignEnd=127398|Gloss=NOM.2
-5	see	see	VERB	_	_	3	comp:obj	_	AlignBegin=127398|AlignEnd=127635|Gloss=see
+5	see	see	VERB	_	_	3	mod@relcl	_	AlignBegin=127398|AlignEnd=127635|Gloss=see
 6	man	man	NOUN	_	_	5	comp:obj	_	AlignBegin=127635|AlignEnd=127828|Gloss=man
 7	of	of	ADP	_	_	6	mod	_	AlignBegin=127828|AlignEnd=127988|Gloss=of
 8	twenty	twenty	NUM	_	NumType=Card	9	compound	_	AlignBegin=127988|AlignEnd=128278|Gloss=twenty.CARD
@@ -1546,7 +1545,7 @@
 5	realize	realize	VERB	_	_	4	comp:aux	_	AlignBegin=228508|AlignEnd=228972|Gloss=realize
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=228972|AlignEnd=229002|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=229002|AlignEnd=229058|Gloss=NOM.2
-8	don	don	AUX	_	Aspect=Perf	0	dep	_	AlignBegin=229058|AlignEnd=229208|Gloss=PRF
+8	don	don	AUX	_	Aspect=Perf	0	root	_	AlignBegin=229058|AlignEnd=229208|Gloss=PRF
 9	turn	turn	VERB	_	_	8	comp:aux	_	AlignBegin=229208|AlignEnd=229409|Gloss=turn
 10	forty	forty	NUM	_	NumType=Card	9	comp:obj	_	AlignBegin=229409|AlignEnd=229748|Gloss=forty.CARD
 11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=229748|AlignEnd=229778|Gloss=PUNCT
@@ -1562,9 +1561,9 @@
 3	forty	forty	NUM	_	NumType=Card	2	comp:obj	_	AlignBegin=230068|AlignEnd=230505|Gloss=forty.CARD
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=230505|AlignEnd=230535|Gloss=PUNCT
 5	#	#	PUNCT	_	_	6	punct	_	AlignBegin=230535|AlignEnd=231005|Gloss=PUNCT
-6	na	na	PART	_	PartType=Cop	1	comp:cleft	_	AlignBegin=231005|AlignEnd=231083|Gloss=be.COP
-7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=231083|AlignEnd=231161|Gloss=NOM.SG.3
-8	want	want	VERB	_	_	7	dep	_	AlignBegin=231161|AlignEnd=231325|Gloss=want
+6	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	1	comp:cleft	_	AlignBegin=231005|AlignEnd=231083|Gloss=be.COP
+7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	comp:pred@fixed	_	AlignBegin=231083|AlignEnd=231161|Gloss=NOM.SG.3
+8	want	want	VERB	_	_	7	comp:obj	_	AlignBegin=231161|AlignEnd=231325|Gloss=want
 9	con	con	AUX	_	Aspect=Cons	8	comp:pred	_	AlignBegin=231325|AlignEnd=231525|Gloss=CONS
 10	dey	dey	AUX	_	Aspect=Imp	9	comp:aux	_	AlignBegin=231525|AlignEnd=231655|Gloss=IPFV
 11	realize	realize	VERB	_	_	10	comp:aux	_	AlignBegin=231655|AlignEnd=232059|Gloss=realize
@@ -2150,7 +2149,7 @@
 29	morning	morning	NOUN	_	_	45	mod:periph	_	AlignBegin=314646|AlignEnd=314964|Gloss=morning
 30	when	when	SCONJ	_	PronType=Int	45	mod:periph	_	AlignBegin=314964|AlignEnd=315104|Gloss=when
 31	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	subj	_	AlignBegin=315104|AlignEnd=315254|Gloss=NOM.2
-32	wake	wake	VERB	_	_	30	comp:obj	_	AlignBegin=315254|AlignEnd=315454|Gloss=wake
+32	wake	wake	VERB	_	_	30	mod@relcl	_	AlignBegin=315254|AlignEnd=315454|Gloss=wake
 33	up	up	ADP	_	_	32	compound:prt	_	AlignBegin=315454|AlignEnd=315644|Gloss=up
 34	<	<	PUNCT	_	_	45	punct	_	AlignBegin=315644|AlignEnd=315674|Gloss=PUNCT
 35	{	{	PUNCT	_	_	37	punct	_	AlignBegin=315644|AlignEnd=315674|Gloss=PUNCT
@@ -2159,7 +2158,7 @@
 38	|c	|c	PUNCT	_	_	39	punct	_	AlignBegin=316134|AlignEnd=316164|Gloss=PUNCT
 39	why	why	ADV	_	PronType=Int	37	conj:coord	_	AlignBegin=316164|AlignEnd=316304|Gloss=why.Q
 40	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	41	subj	_	AlignBegin=316304|AlignEnd=316424|Gloss=NOM.2
-41	dey	dey	AUX	_	Aspect=Imp	39	dep	_	AlignBegin=316424|AlignEnd=316544|Gloss=IPFV
+41	dey	dey	AUX	_	Aspect=Imp	39	mod@relcl	_	AlignBegin=316424|AlignEnd=316544|Gloss=IPFV
 42	go	go	VERB	_	_	41	comp:aux	_	AlignBegin=316544|AlignEnd=316734|Gloss=go
 43	work	work	NOUN	_	_	42	comp:obj	_	AlignBegin=316734|AlignEnd=316844|Gloss=work
 44	}	}	PUNCT	_	_	37	punct	_	AlignBegin=316844|AlignEnd=316874|Gloss=PUNCT
@@ -2289,7 +2288,7 @@
 6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	AlignBegin=334410|AlignEnd=334520|Gloss=INDF.ART
 7	man	man	NOUN	_	_	5	comp:obj	_	AlignBegin=334520|AlignEnd=334760|Gloss=man
 8	who	who	PRON	_	PronType=Int	7	dep	_	AlignBegin=334760|AlignEnd=334860|Gloss=who.Q
-9	cannot	cannot	AUX	_	_	8	comp:obj	_	AlignBegin=334860|AlignEnd=335115|Gloss=can.NEG
+9	cannot	cannot	AUX	_	_	8	mod@relcl	_	AlignBegin=334860|AlignEnd=335115|Gloss=can.NEG
 10	afford	afford	VERB	_	_	9	comp:aux	_	AlignBegin=335115|AlignEnd=335481|Gloss=afford
 11	three	three	NUM	_	NumType=Card	13	det@num	_	AlignBegin=335481|AlignEnd=335632|Gloss=three.CARD
 12	square	square	ADJ	_	_	13	mod	_	AlignBegin=335632|AlignEnd=335861|Gloss=square

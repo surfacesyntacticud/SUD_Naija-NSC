@@ -98,7 +98,7 @@
 11	|c	|c	PUNCT	_	_	36	punct	_	AlignBegin=22036|AlignEnd=22066|Gloss=PUNCT
 12	but	but	CCONJ	_	_	36	cc	_	AlignBegin=22066|AlignEnd=22296|Gloss=but
 13	when	when	ADV	_	PronType=Int	36	mod:periph	_	AlignBegin=22296|AlignEnd=22566|Gloss=when.Q
-14	be	be	VERB	_	PartType=Cop	13	comp:obj	_	AlignBegin=22566|AlignEnd=22695|Gloss=be.COP
+14	be	be	VERB	_	PartType=Cop	13	mod@relcl	_	AlignBegin=22566|AlignEnd=22695|Gloss=be.COP
 15	sey	sey	SCONJ	_	_	14	comp:pred	_	AlignBegin=22695|AlignEnd=22808|Gloss=COMP
 16	[	[	PUNCT	_	_	17	punct	_	AlignBegin=22808|AlignEnd=22838|Gloss=PUNCT
 17	na	na	PART	_	PartType=Cop	15	comp:obj	_	AlignBegin=22838|AlignEnd=23046|Gloss=be.COP
@@ -414,7 +414,7 @@
 # text = wetin Thompson do ?//
 # text_en = What did Thompson do?
 # text_ortho = Wetin Thompson do?
-1	wetin	wetin	PRON	_	PronType=Int	0	comp:obj	3:@comp	AlignBegin=70689|AlignEnd=71013|Gloss=what.Q
+1	wetin	wetin	PRON	_	PronType=Int	0	root	3:@comp	AlignBegin=70689|AlignEnd=71013|Gloss=what.Q
 2	Thompson	Thompson	PROPN	_	_	3	subj	_	AlignBegin=71013|AlignEnd=71425|Gloss=Thompson
 3	do	do	VERB	_	_	1	comp:cleft	_	AlignBegin=71425|AlignEnd=71653|Gloss=do
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=71653|AlignEnd=71683|Gloss=PUNCT
@@ -528,7 +528,7 @@
 8	policy	policy	NOUN	_	_	4	comp:obj	_	AlignBegin=88255|AlignEnd=88755|Gloss=policy
 9	of	of	ADP	_	_	8	mod	_	AlignBegin=88755|AlignEnd=88915|Gloss=of
 10	{	{	PUNCT	_	_	12	punct	_	AlignBegin=88915|AlignEnd=88945|Gloss=PUNCT
-11	dem	dem	ADJ	_	Number=Plur|Person=3|Poss=Yes	12	mod	_	AlignBegin=88945|AlignEnd=89135|Gloss=PL.3.POSS
+11	dem	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	12	mod:poss	_	AlignBegin=88945|AlignEnd=89135|Gloss=PL.3.POSS
 12	government	government	NOUN	_	_	9	comp:obj	_	AlignBegin=89135|AlignEnd=89825|Gloss=government
 13	of	of	ADP	_	_	12	mod	_	AlignBegin=89825|AlignEnd=90005|Gloss=of
 14	President	president	NOUN	_	_	13	comp:obj	_	AlignBegin=90005|AlignEnd=90572|Gloss=president
@@ -715,7 +715,7 @@
 8	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	subj	_	AlignBegin=120560|AlignEnd=120735|Gloss=NOM.PL.3
 9	sign	sign	VERB	_	_	7	comp:obj	_	AlignBegin=120735|AlignEnd=120940|Gloss=sign
 10	by	by	ADP	_	_	9	comp:obl@agent	_	AlignBegin=120940|AlignEnd=121020|Gloss=by
-11	dem	dem	ADJ	_	Number=Plur|Person=3|Poss=Yes	13	mod	_	AlignBegin=121050|AlignEnd=121179|Gloss=PL.3.POSS
+11	dem	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	13	mod:poss	_	AlignBegin=121050|AlignEnd=121179|Gloss=PL.3.POSS
 12	Deputy	deputy	NOUN	_	_	13	mod	_	AlignBegin=121179|AlignEnd=121500|Gloss=deputy
 13	Director	director	NOUN	_	_	10	comp:obj	_	AlignBegin=121500|AlignEnd=121924|Gloss=director
 14	Timothy	Timothy	PROPN	_	_	13	mod:appos	_	AlignBegin=121954|AlignEnd=122393|Gloss=Timothy
@@ -775,7 +775,7 @@
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=130084|AlignEnd=130284|Gloss=PUNCT
 2	why	why	ADV	_	PronType=Int	6	subj	_	AlignBegin=130284|AlignEnd=130501|Gloss=why.Q
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=130501|AlignEnd=130658|Gloss=NOM.PL.3
-4	dey	dey	AUX	_	Aspect=Imp	2	dep	_	AlignBegin=130658|AlignEnd=130804|Gloss=IPFV
+4	dey	dey	AUX	_	Aspect=Imp	2	mod@relcl	_	AlignBegin=130658|AlignEnd=130804|Gloss=IPFV
 5	insist	insist	VERB	_	_	4	comp:aux	_	AlignBegin=130804|AlignEnd=131104|Gloss=insist
 6	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=131104|AlignEnd=131202|Gloss=be.COP
 7	sey	sey	SCONJ	_	_	6	comp:pred	_	AlignBegin=131202|AlignEnd=131464|Gloss=COMP
@@ -802,7 +802,7 @@
 28	|c	|c	PUNCT	_	_	29	punct	_	AlignBegin=135605|AlignEnd=135635|Gloss=PUNCT
 29	how	how	ADV	_	PronType=Int	24	conj:coord	_	AlignBegin=135635|AlignEnd=135895|Gloss=how.Q
 30	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	subj	_	AlignBegin=135895|AlignEnd=136125|Gloss=NOM.SG.3
-31	take	take	VERB	_	_	29	dep	_	AlignBegin=136125|AlignEnd=136388|Gloss=take
+31	take	take	VERB	_	_	29	mod@relcl	_	AlignBegin=136125|AlignEnd=136388|Gloss=take
 32	waka	waka	VERB	_	_	31	compound:svc	_	AlignBegin=136388|AlignEnd=136861|Gloss=walk
 33	}	}	PUNCT	_	_	16	punct	_	AlignBegin=136861|AlignEnd=136891|Gloss=PUNCT
 34	//	//	PUNCT	_	_	6	punct	_	AlignBegin=136861|AlignEnd=136891|Gloss=PUNCT
@@ -837,12 +837,11 @@
 # text = # or else Aijebe & //
 # text_en = Or else Aijebe...
 # text_ortho = Or else Aijebe...
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=140302|AlignEnd=140527|Gloss=PUNCT
-2	or	or	CCONJ	_	_	5	cc	_	AlignBegin=140527|AlignEnd=140707|Gloss=or
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=140302|AlignEnd=140527|Gloss=PUNCT
+2	or	or	CCONJ	_	_	0	cc	_	AlignBegin=140527|AlignEnd=140707|Gloss=or
 3	else	else	ADJ	_	_	2	mod	_	AlignBegin=140707|AlignEnd=141249|Gloss=else
-4	Aijebe	Aijebe	PROPN	_	_	5	subj	_	AlignBegin=141249|AlignEnd=141999|Gloss=Aijebe
-5	&	&	X	_	_	0	root	_	AlignBegin=141999|AlignEnd=142181|Gloss=X
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=141999|AlignEnd=142181|Gloss=PUNCT
+4	Aijebe	Aijebe	PROPN	_	_	0	root@scrap	_	AlignBegin=141249|AlignEnd=141999|Gloss=Aijebe
+5	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=141999|AlignEnd=142181|Gloss=PUNCT
 
 # sent_id = IBA_33_News-Comments_MG__27
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_33_News-Comments_MG.mp3
@@ -868,7 +867,7 @@
 2	matter	matter	NOUN	_	_	5	dislocated	_	AlignBegin=143203|AlignEnd=143561|Gloss=matter
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=143561|AlignEnd=143591|Gloss=PUNCT
 4	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=143591|AlignEnd=143694|Gloss=NOM.SG.3
-5	go	go	AUX	_	Aspect=Prosp	0	comp:cleft	_	AlignBegin=143694|AlignEnd=143811|Gloss=CONT
+5	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=143694|AlignEnd=143811|Gloss=CONT
 6	be	be	VERB	_	PartType=Cop	5	comp:aux	_	AlignBegin=143811|AlignEnd=143931|Gloss=be.COP
 7	as	as	ADP	_	_	6	comp:obl@x	_	AlignBegin=143931|AlignEnd=144141|Gloss=as
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	AlignBegin=144141|AlignEnd=144171|Gloss=NOM.SG.3
@@ -1024,9 +1023,9 @@
 16	}	}	PUNCT	_	_	4	punct	_	AlignBegin=164530|AlignEnd=164560|Gloss=PUNCT
 17	>+	>+	PUNCT	_	_	19	punct	_	AlignBegin=164530|AlignEnd=164560|Gloss=PUNCT
 18	#	#	PUNCT	_	_	19	punct	_	AlignBegin=164560|AlignEnd=164860|Gloss=PUNCT
-19	na	na	PART	_	PartType=Cop	1	comp:cleft	_	AlignBegin=164860|AlignEnd=164958|Gloss=be.COP
-20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	comp:pred	_	AlignBegin=164958|AlignEnd=165090|Gloss=NOM.SG.3
-21	go	go	AUX	_	Aspect=Prosp	20	dep	_	AlignBegin=165090|AlignEnd=165190|Gloss=CONT
+19	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	1	comp:cleft	_	AlignBegin=164860|AlignEnd=164958|Gloss=be.COP
+20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	comp:pred@fixed	_	AlignBegin=164958|AlignEnd=165090|Gloss=NOM.SG.3
+21	go	go	AUX	_	Aspect=Prosp	20	comp:obj	_	AlignBegin=165090|AlignEnd=165190|Gloss=CONT
 22	enter	enter	VERB	_	_	21	comp:aux	_	AlignBegin=165190|AlignEnd=165500|Gloss=enter
 23	trouble	trouble	NOUN	_	_	22	comp:obj	_	AlignBegin=165500|AlignEnd=165780|Gloss=trouble
 24	//	//	PUNCT	_	_	1	punct	_	AlignBegin=165780|AlignEnd=165810|Gloss=PUNCT
@@ -1204,7 +1203,7 @@
 23	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	24	subj	_	AlignBegin=209961|AlignEnd=210099|Gloss=NOM.2
 24	con	con	AUX	_	Aspect=Cons	22	comp:obj	_	AlignBegin=210099|AlignEnd=210344|Gloss=CONS
 25	employ	employ	VERB	_	_	24	comp:aux	_	AlignBegin=210344|AlignEnd=210834|Gloss=employ
-26	con	con	AUX	_	Aspect=Cons	20	comp:obj	_	AlignBegin=210834|AlignEnd=211091|Gloss=CONS
+26	con	con	AUX	_	Aspect=Cons	20	mod@relcl	_	AlignBegin=210834|AlignEnd=211091|Gloss=CONS
 27	kill	kill	VERB	_	_	26	comp:aux	_	AlignBegin=211091|AlignEnd=211335|Gloss=kill
 28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	27	comp:obj	_	AlignBegin=211335|AlignEnd=211542|Gloss=NOM.2
 29	nkor	nko	INTJ	_	_	20	discourse	_	AlignBegin=211572|AlignEnd=211747|Gloss=right.Q
@@ -2417,7 +2416,7 @@
 18	Ibom	Ibom	PROPN	_	_	17	flat	_	AlignBegin=392222|AlignEnd=392474|Gloss=Ibom
 19	where	where	ADV	_	PronType=Int	17	mod	_	AlignBegin=392474|AlignEnd=392661|Gloss=where.Q
 20	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	subj	_	AlignBegin=392661|AlignEnd=392766|Gloss=NOM.F.SG.3
-21	for	for	AUX	_	Mood=Cond	19	dep	_	AlignBegin=392766|AlignEnd=392932|Gloss=COND
+21	for	for	AUX	_	Mood=Cond	19	mod@relcl	_	AlignBegin=392766|AlignEnd=392932|Gloss=COND
 22	come	come	VERB	_	_	21	comp:aux	_	AlignBegin=392932|AlignEnd=393212|Gloss=come
 23	o	o	PART	_	PartType=Disc	22	mod:emph	_	AlignBegin=393212|AlignEnd=393367|Gloss=EMPH
 24	//	//	PUNCT	_	_	2	punct	_	AlignBegin=393367|AlignEnd=393397|Gloss=PUNCT
@@ -2768,7 +2767,7 @@
 6	suspect	suspect	NOUN	_	_	4	comp:obj	_	AlignBegin=454645|AlignEnd=455233|Gloss=suspect
 7	when	when	ADV	_	PronType=Int	4	mod	_	AlignBegin=455233|AlignEnd=455438|Gloss=when.Q
 8	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	subj	_	AlignBegin=455438|AlignEnd=455550|Gloss=NOM.PL.3
-9	go	go	VERB	_	_	7	comp:obj	_	AlignBegin=455550|AlignEnd=455710|Gloss=go
+9	go	go	VERB	_	_	7	mod@relcl	_	AlignBegin=455550|AlignEnd=455710|Gloss=go
 10	complain	complain	VERB	_	_	9	comp:obj@x	_	AlignBegin=455710|AlignEnd=456195|Gloss=complain
 11	by	by	ADP	_	_	10	comp:obl@agent	_	AlignBegin=456195|AlignEnd=456320|Gloss=by
 12	{	{	PUNCT	_	_	14	punct	_	AlignBegin=456320|AlignEnd=456350|Gloss=PUNCT
@@ -2871,7 +2870,7 @@
 54	suspect	suspect	NOUN	_	_	57	dislocated	_	AlignBegin=477527|AlignEnd=478376|Gloss=suspect
 55	#	#	PUNCT	_	_	54	punct	_	AlignBegin=478376|AlignEnd=478554|Gloss=PUNCT
 56	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	57	subj	_	AlignBegin=478554|AlignEnd=478634|Gloss=NOM.SG.3
-57	say	say	VERB	_	_	52	comp:obj	_	AlignBegin=478634|AlignEnd=478809|Gloss=say
+57	say	say	VERB	_	_	52	mod@relcl	_	AlignBegin=478634|AlignEnd=478809|Gloss=say
 58	[	[	PUNCT	_	_	60	punct	_	AlignBegin=478809|AlignEnd=478839|Gloss=PUNCT
 59	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	60	subj	_	AlignBegin=478839|AlignEnd=478888|Gloss=NOM.SG.3
 60	go	go	AUX	_	Aspect=Prosp	57	parataxis:obj	_	AlignBegin=478888|AlignEnd=478999|Gloss=CONT
@@ -2936,7 +2935,7 @@
 43	#	#	PUNCT	_	_	44	punct	_	AlignBegin=490746|AlignEnd=490949|Gloss=PUNCT
 44	where	where	ADV	_	PronType=Int	42	mod	_	AlignBegin=490949|AlignEnd=491119|Gloss=where.Q
 45	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	46	subj	_	AlignBegin=491119|AlignEnd=491279|Gloss=NOM.PL.3
-46	go	go	AUX	_	Aspect=Prosp	44	dep	_	AlignBegin=491279|AlignEnd=491422|Gloss=CONT
+46	go	go	AUX	_	Aspect=Prosp	44	mod@relcl	_	AlignBegin=491279|AlignEnd=491422|Gloss=CONT
 47	for	for	AUX	_	Mood=Cond	46	comp:aux	_	AlignBegin=491422|AlignEnd=491569|Gloss=COND
 48	do	do	VERB	_	_	47	comp:aux	_	AlignBegin=491569|AlignEnd=491689|Gloss=do
 49	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	48	comp:obj	_	AlignBegin=491689|AlignEnd=491899|Gloss=ACC.SG.3
@@ -2966,7 +2965,7 @@
 1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=493318|AlignEnd=493476|Gloss=PUNCT
 2	when	when	ADV	_	PronType=Int	21	mod:periph	_	AlignBegin=493476|AlignEnd=493778|Gloss=when.Q
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=493778|AlignEnd=493978|Gloss=NOM.PL.3
-4	con	con	AUX	_	Aspect=Cons	2	comp:obj	_	AlignBegin=493978|AlignEnd=494178|Gloss=CONS
+4	con	con	AUX	_	Aspect=Cons	2	mod@relcl	_	AlignBegin=493978|AlignEnd=494178|Gloss=CONS
 5	reach	reach	VERB	_	_	4	comp:aux	_	AlignBegin=494178|AlignEnd=494388|Gloss=reach
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=494388|AlignEnd=494548|Gloss=DEF.ART
 7	place	place	NOUN	_	_	5	comp:obj	_	AlignBegin=494548|AlignEnd=494898|Gloss=place
@@ -3001,18 +3000,17 @@
 3	run	run	VERB	_	_	0	root	_	AlignBegin=497352|AlignEnd=497538|Gloss=run
 4	away	away	ADV	_	_	3	mod	_	AlignBegin=497538|AlignEnd=497749|Gloss=away
 5	with	wit	ADP	_	_	3	comp:obl	_	AlignBegin=497749|AlignEnd=497868|Gloss=with
-6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=497868|AlignEnd=498024|Gloss=DEF.ART
-7	&	&	X	_	_	5	comp:obj	_	AlignBegin=498024|AlignEnd=498054|Gloss=X
-8	||	||	PUNCT	_	_	12	punct	_	AlignBegin=498024|AlignEnd=498054|Gloss=PUNCT
-9	#	#	PUNCT	_	_	12	punct	_	AlignBegin=498054|AlignEnd=499407|Gloss=PUNCT
-10	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	AlignBegin=499407|AlignEnd=499578|Gloss=NOM.SG.3
-11	sha	sha	PART	_	PartType=Disc	10	mod:emph	_	AlignBegin=499578|AlignEnd=499870|Gloss=really
-12	run	run	VERB	_	_	3	conj:dicto	_	AlignBegin=499870|AlignEnd=500131|Gloss=run
-13	away	away	ADV	_	_	12	mod	_	AlignBegin=500131|AlignEnd=500374|Gloss=away
-14	with	wit	ADP	_	_	12	comp:obl	_	AlignBegin=500374|AlignEnd=500493|Gloss=with
-15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=500493|AlignEnd=500644|Gloss=DEF.ART
-16	ATM	ATM	NOUN	_	_	14	comp:obj	_	AlignBegin=500644|AlignEnd=501129|Gloss=ATM
-17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=501129|AlignEnd=501159|Gloss=PUNCT
+6	di	the	DET	_	Definite=Def|PronType=Art	5	comp:obj@scrap	_	AlignBegin=497868|AlignEnd=498024|Gloss=DEF.ART
+7	||	||	PUNCT	_	_	11	punct	_	AlignBegin=498024|AlignEnd=498054|Gloss=PUNCT
+8	#	#	PUNCT	_	_	11	punct	_	AlignBegin=498054|AlignEnd=499407|Gloss=PUNCT
+9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	AlignBegin=499407|AlignEnd=499578|Gloss=NOM.SG.3
+10	sha	sha	PART	_	PartType=Disc	9	mod:emph	_	AlignBegin=499578|AlignEnd=499870|Gloss=really
+11	run	run	VERB	_	_	3	conj:dicto	_	AlignBegin=499870|AlignEnd=500131|Gloss=run
+12	away	away	ADV	_	_	11	mod	_	AlignBegin=500131|AlignEnd=500374|Gloss=away
+13	with	wit	ADP	_	_	11	comp:obl	_	AlignBegin=500374|AlignEnd=500493|Gloss=with
+14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=500493|AlignEnd=500644|Gloss=DEF.ART
+15	ATM	ATM	NOUN	_	_	13	comp:obj	_	AlignBegin=500644|AlignEnd=501129|Gloss=ATM
+16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=501129|AlignEnd=501159|Gloss=PUNCT
 
 # sent_id = IBA_33_News-Comments_MG__108
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_33_News-Comments_MG.mp3
@@ -3179,7 +3177,7 @@
 11	suspect	suspect	NOUN	_	_	14	dislocated	_	AlignBegin=524511|AlignEnd=525029|Gloss=suspect
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=525029|AlignEnd=525059|Gloss=PUNCT
 13	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	subj	_	AlignBegin=525059|AlignEnd=525231|Gloss=NOM.PL.3
-14	catch	catch	VERB	_	_	9	comp:obj	_	AlignBegin=525231|AlignEnd=525511|Gloss=catch
+14	catch	catch	VERB	_	_	9	mod@relcl	_	AlignBegin=525231|AlignEnd=525511|Gloss=catch
 15	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=525511|AlignEnd=525844|Gloss=ACC.SG.3
 16	//	//	PUNCT	_	_	5	punct	_	AlignBegin=525844|AlignEnd=525874|Gloss=PUNCT
 
@@ -3639,7 +3637,7 @@
 10	tomorrow	tomorrow	NOUN	_	_	9	comp:obj	_	AlignBegin=595695|AlignEnd=596076|Gloss=tomorrow
 11	when	when	ADV	_	PronType=Int	10	mod	_	AlignBegin=596076|AlignEnd=596263|Gloss=when.Q
 12	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=596263|AlignEnd=596403|Gloss=NOM.SG.1
-13	go	go	AUX	_	Aspect=Prosp	11	comp:obj	_	AlignBegin=596403|AlignEnd=596553|Gloss=CONT
+13	go	go	AUX	_	Aspect=Prosp	11	mod@relcl	_	AlignBegin=596403|AlignEnd=596553|Gloss=CONT
 14	come	come	VERB	_	_	13	comp:aux	_	AlignBegin=596553|AlignEnd=596753|Gloss=come
 15	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	16	mod	_	AlignBegin=596753|AlignEnd=596953|Gloss=PL.2.POSS
 16	way	way	NOUN	_	_	14	comp:obj	_	AlignBegin=596953|AlignEnd=597136|Gloss=way

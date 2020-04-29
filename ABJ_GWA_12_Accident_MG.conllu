@@ -164,7 +164,7 @@
 # text_ortho = When we eat finish, e say mah carry am go Wazobia Park, im wan go buy market.
 1	when	when	ADV	_	PronType=Int	7	mod:periph	_	AlignBegin=14603|AlignEnd=14706|Gloss=when.Q
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=14706|AlignEnd=14817|Gloss=NOM.PL.1
-3	eat	eat	VERB	_	_	1	comp:obj	_	AlignBegin=14817|AlignEnd=14995|Gloss=eat
+3	eat	eat	VERB	_	_	1	mod@relcl	_	AlignBegin=14817|AlignEnd=14995|Gloss=eat
 4	finish	finish	VERB	_	_	3	compound:svc	_	AlignBegin=14995|AlignEnd=15143|Gloss=finish
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=15143|AlignEnd=15173|Gloss=PUNCT
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=15173|AlignEnd=15228|Gloss=NOM.SG.3
@@ -421,7 +421,7 @@
 # text_ortho = When time go reach, wey I go climb up dey go, I no just see my guy again.
 1	when	when	ADV	_	PronType=Int	21	mod:periph	_	AlignBegin=44620|AlignEnd=44740|Gloss=when.Q
 2	time	time	NOUN	_	_	3	subj	_	AlignBegin=44740|AlignEnd=44970|Gloss=time
-3	go	go	AUX	_	Aspect=Prosp	1	comp:obj	_	AlignBegin=44970|AlignEnd=45120|Gloss=CONT
+3	go	go	AUX	_	Aspect=Prosp	1	mod@relcl	_	AlignBegin=44970|AlignEnd=45120|Gloss=CONT
 4	reach	reach	VERB	_	_	3	comp:aux	_	AlignBegin=45120|AlignEnd=45406|Gloss=reach
 5	<	<	PUNCT	_	_	7	punct	_	AlignBegin=45406|AlignEnd=45436|Gloss=PUNCT
 6	#	#	PUNCT	_	_	7	punct	_	AlignBegin=45436|AlignEnd=45800|Gloss=PUNCT
@@ -487,7 +487,7 @@
 2	till	till	ADP	_	_	11	mod:periph	_	AlignBegin=54378|AlignEnd=54678|Gloss=till
 3	when	when	ADV	_	PronType=Int	2	comp:obj	_	AlignBegin=54678|AlignEnd=54878|Gloss=when.Q
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=54878|AlignEnd=55018|Gloss=NOM.SG.1
-5	don	don	AUX	_	Aspect=Perf	3	dep	_	AlignBegin=55018|AlignEnd=55278|Gloss=PRF
+5	don	don	AUX	_	Aspect=Perf	3	mod@relcl	_	AlignBegin=55018|AlignEnd=55278|Gloss=PRF
 6	cross	cross	VERB	_	_	5	comp:aux	_	AlignBegin=55278|AlignEnd=55822|Gloss=cross
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=55822|AlignEnd=55852|Gloss=PUNCT
 8	#	#	PUNCT	_	_	2	punct	_	AlignBegin=55852|AlignEnd=56140|Gloss=PUNCT
@@ -692,13 +692,12 @@
 # text = # and me < I & //
 # text_en = And me, I…
 # text_ortho = And me, I...
-1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=72556|AlignEnd=72880|Gloss=PUNCT
-2	and	and	CCONJ	_	_	6	cc	_	AlignBegin=72880|AlignEnd=72980|Gloss=and
-3	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	dislocated	_	AlignBegin=72980|AlignEnd=73010|Gloss=NOM.SG.1
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=72556|AlignEnd=72880|Gloss=PUNCT
+2	and	and	CCONJ	_	_	0	cc	_	AlignBegin=72880|AlignEnd=72980|Gloss=and
+3	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	dislocated	_	AlignBegin=72980|AlignEnd=73010|Gloss=NOM.SG.1
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=73010|AlignEnd=73040|Gloss=PUNCT
-5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=73040|AlignEnd=73232|Gloss=NOM.SG.1
-6	&	&	X	_	_	0	root	_	AlignBegin=73232|AlignEnd=73262|Gloss=X
-7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=73232|AlignEnd=73262|Gloss=PUNCT
+5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root@scrap	_	AlignBegin=73040|AlignEnd=73232|Gloss=NOM.SG.1
+6	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=73232|AlignEnd=73262|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__35
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -763,9 +762,8 @@
 # text_ortho = And I gats...
 1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=78350|AlignEnd=78490|Gloss=and
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=78490|AlignEnd=78600|Gloss=NOM.SG.1
-3	gats	gats	AUX	_	Mood=Deontic	0	root	_	AlignBegin=78600|AlignEnd=78888|Gloss=OBLG
-4	&	&	X	_	_	3	comp:aux	_	AlignBegin=78888|AlignEnd=78918|Gloss=X
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=78888|AlignEnd=78918|Gloss=PUNCT
+3	gats	gats	AUX	_	Mood=Deontic	0	root@scrap	_	AlignBegin=78600|AlignEnd=78888|Gloss=OBLG
+4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=78888|AlignEnd=78918|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -1128,9 +1126,8 @@
 4	#	#	PUNCT	_	_	2	punct	_	AlignBegin=123720|AlignEnd=124260|Gloss=PUNCT
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=124260|AlignEnd=124360|Gloss=NOM.SG.1
 6	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=124360|AlignEnd=124534|Gloss=CONS
-7	ask	ask	VERB	_	_	6	comp:aux	_	AlignBegin=124534|AlignEnd=124819|Gloss=ask
-8	&	&	X	_	_	7	comp:obj	_	AlignBegin=124819|AlignEnd=124849|Gloss=X
-9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=124819|AlignEnd=124849|Gloss=PUNCT
+7	ask	ask	VERB	_	_	6	comp:aux@scrap	_	AlignBegin=124534|AlignEnd=124819|Gloss=ask
+8	&//	//	PUNCT	_	_	6	punct	_	AlignBegin=124819|AlignEnd=124849|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -1241,9 +1238,8 @@
 4	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=135480|AlignEnd=135610|Gloss=CONS
 5	tell	tell	VERB	_	_	4	comp:aux	_	AlignBegin=135610|AlignEnd=135730|Gloss=tell
 6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=135730|AlignEnd=135790|Gloss=ACC.SG.1
-7	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=135790|AlignEnd=136000|Gloss=COMP
-8	&	&	X	_	_	7	comp:obj	_	AlignBegin=136000|AlignEnd=136030|Gloss=X
-9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=136000|AlignEnd=136030|Gloss=PUNCT
+7	sey	sey	SCONJ	_	_	5	comp:obj@scrap	_	AlignBegin=135790|AlignEnd=136000|Gloss=COMP
+8	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=136000|AlignEnd=136030|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__62
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -1309,9 +1305,8 @@
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=143570|AlignEnd=143600|Gloss=NOM.SG.1
 4	for	for	AUX	_	Mood=Cond	0	root	_	AlignBegin=143600|AlignEnd=143694|Gloss=COND
 5	ask	ask	VERB	_	_	4	comp:aux	_	AlignBegin=143694|AlignEnd=143970|Gloss=ask
-6	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	7	mod	_	AlignBegin=143970|AlignEnd=144290|Gloss=SG.1.POSS
-7	&	&	X	_	_	5	comp:obj	_	AlignBegin=144290|AlignEnd=144320|Gloss=X
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=144290|AlignEnd=144320|Gloss=PUNCT
+6	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	5	comp:obj@scrap	_	AlignBegin=143970|AlignEnd=144290|Gloss=SG.1.POSS
+7	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=144290|AlignEnd=144320|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__66
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -1441,9 +1436,8 @@
 5	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=159330|AlignEnd=159520|Gloss=CONS
 6	go	go	VERB	_	_	5	comp:aux	_	AlignBegin=159520|AlignEnd=159740|Gloss=go
 7	join	join	VERB	_	_	6	comp:obj@x	_	AlignBegin=159740|AlignEnd=159950|Gloss=join
-8	di	the	DET	_	Definite=Def|PronType=Art	9	orphan	_	AlignBegin=159950|AlignEnd=160230|Gloss=DEF.ART
-9	&	&	X	_	_	7	comp:obj	_	AlignBegin=160230|AlignEnd=160260|Gloss=X
-10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=160230|AlignEnd=160260|Gloss=PUNCT
+8	di	the	DET	_	Definite=Def|PronType=Art	7	comp:obj@scrap	_	AlignBegin=159950|AlignEnd=160230|Gloss=DEF.ART
+9	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=160230|AlignEnd=160260|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__72
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -1561,9 +1555,8 @@
 # text_en = He said…
 # text_ortho = Im say...
 1	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=169380|AlignEnd=169410|Gloss=NOM.SG.3
-2	say	say	VERB	_	_	0	root	_	AlignBegin=169410|AlignEnd=169500|Gloss=say
-3	&	&	X	_	_	2	parataxis:obj	_	AlignBegin=169500|AlignEnd=169530|Gloss=X
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=169500|AlignEnd=169530|Gloss=PUNCT
+2	say	say	VERB	_	_	0	root@scrap	_	AlignBegin=169410|AlignEnd=169500|Gloss=say
+3	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=169500|AlignEnd=169530|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__79
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2007,7 +2000,7 @@
 9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=216920|AlignEnd=216950|Gloss=PUNCT
 10	&	&	X	_	_	6	comp:obj	_	AlignBegin=216920|AlignEnd=216950|Gloss=X
 11	//]	//]	PUNCT	_	_	10	punct	_	AlignBegin=216920|AlignEnd=216950|Gloss=PUNCT
-12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=216920|AlignEnd=216950|Gloss=PUNCT
+12	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=216920|AlignEnd=216950|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__102
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2093,9 +2086,8 @@
 3	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=223250|AlignEnd=223388|Gloss=CONS
 4	tell	tell	VERB	_	_	3	comp:aux	_	AlignBegin=223388|AlignEnd=223500|Gloss=tell
 5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=223500|AlignEnd=223630|Gloss=ACC.SG.1
-6	sey	sey	SCONJ	_	_	4	comp:obj	_	AlignBegin=223630|AlignEnd=223920|Gloss=COMP
-7	&	&	X	_	_	6	comp:obj	_	AlignBegin=223920|AlignEnd=223950|Gloss=X
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=223920|AlignEnd=223950|Gloss=PUNCT
+6	sey	sey	SCONJ	_	_	4	comp:obj@scrap	_	AlignBegin=223630|AlignEnd=223920|Gloss=COMP
+7	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=223920|AlignEnd=223950|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__108
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2134,7 +2126,7 @@
 # text_ortho = I dey interested for dat work because I just see as you dey go.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=226660|AlignEnd=226720|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=226660|AlignEnd=226720|Gloss=NOM.SG.1
-3	dey	dey	VERB	_	VerbType=Cop	0	conj:dicto	_	AlignBegin=226720|AlignEnd=226850|Gloss=dey.COP
+3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=226720|AlignEnd=226850|Gloss=dey.COP
 4	interested	interested	ADJ	_	_	3	comp:pred	_	AlignBegin=226850|AlignEnd=227440|Gloss=interested
 5	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=227440|AlignEnd=227590|Gloss=for
 6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=227590|AlignEnd=227786|Gloss=SG.DIST.DEM
@@ -2481,9 +2473,8 @@
 14	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=268330|AlignEnd=268600|Gloss=ACC.SG.3
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=268600|AlignEnd=268630|Gloss=PUNCT
 16	or	or	CCONJ	_	_	17	cc	_	AlignBegin=268630|AlignEnd=268690|Gloss=or
-17	wheder	wheder	SCONJ	_	_	4	conj:coord	_	AlignBegin=268690|AlignEnd=269021|Gloss=whether
-18	&	&	X	_	_	17	comp:obj	_	AlignBegin=269021|AlignEnd=269051|Gloss=X
-19	//	//	PUNCT	_	_	2	punct	_	AlignBegin=269021|AlignEnd=269051|Gloss=PUNCT
+17	wheder	wheder	SCONJ	_	_	4	conj:coord@scrap	_	AlignBegin=268690|AlignEnd=269021|Gloss=whether
+18	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=269021|AlignEnd=269051|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__125
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2667,10 +2658,9 @@
 # text = # naim & //
 # text_en = That was how…
 # text_ortho = Naim...
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=288119|AlignEnd=288693|Gloss=PUNCT
-2	naim	naim	ADV	_	_	3	mod:periph	_	AlignBegin=288693|AlignEnd=288899|Gloss=then
-3	&	&	X	_	_	0	root	_	AlignBegin=288899|AlignEnd=288929|Gloss=X
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=288899|AlignEnd=288929|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=288119|AlignEnd=288693|Gloss=PUNCT
+2	naim	naim	ADV	_	_	0	root@scrap	_	AlignBegin=288693|AlignEnd=288899|Gloss=then
+3	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=288899|AlignEnd=288929|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__135
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2680,9 +2670,8 @@
 # text_ortho = Im c-...
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=288929|AlignEnd=289351|Gloss=PUNCT
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=289351|AlignEnd=289569|Gloss=NOM.SG.3
-3	c-	X	X	_	_	0	root	_	AlignBegin=289569|AlignEnd=289609|Gloss=X
-4	&	&	X	_	_	3	comp:aux	_	AlignBegin=289609|AlignEnd=289639|Gloss=X
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=289609|AlignEnd=289639|Gloss=PUNCT
+3	c-	X	X	_	_	0	root@scrap	_	AlignBegin=289569|AlignEnd=289609|Gloss=X
+4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=289609|AlignEnd=289639|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__136
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2735,7 +2724,7 @@
 1	#	#	PUNCT	_	_	24	punct	_	AlignBegin=293509|AlignEnd=293760|Gloss=PUNCT
 2	when	when	ADV	_	PronType=Int	24	mod:periph	_	AlignBegin=293760|AlignEnd=293870|Gloss=when.Q
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=293870|AlignEnd=293980|Gloss=NOM.SG.1
-4	con	con	AUX	_	Aspect=Cons	2	comp:obj	_	AlignBegin=293980|AlignEnd=294150|Gloss=CONS
+4	con	con	AUX	_	Aspect=Cons	2	mod@relcl	_	AlignBegin=293980|AlignEnd=294150|Gloss=CONS
 5	stand	stand	VERB	_	_	4	comp:aux	_	AlignBegin=294150|AlignEnd=294310|Gloss=stand
 6	up	up	ADP	_	_	5	compound:prt	_	AlignBegin=294310|AlignEnd=294440|Gloss=up
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=294440|AlignEnd=294470|Gloss=PUNCT
@@ -2770,7 +2759,7 @@
 36	ehen	ehen	INTJ	_	_	33	discourse	_	AlignBegin=299490|AlignEnd=299781|Gloss=ehen
 37	&	&	X	_	_	33	comp:aux	_	AlignBegin=299781|AlignEnd=299811|Gloss=X
 38	//]	//]	PUNCT	_	_	33	punct	_	AlignBegin=299781|AlignEnd=299811|Gloss=PUNCT
-39	//	//	PUNCT	_	_	24	punct	_	AlignBegin=299781|AlignEnd=299811|Gloss=PUNCT
+39	&//	//	PUNCT	_	_	24	punct	_	AlignBegin=299781|AlignEnd=299811|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__139
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2782,9 +2771,8 @@
 2	tell	tell	VERB	_	_	0	root	_	AlignBegin=300240|AlignEnd=300320|Gloss=tell
 3	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	AlignBegin=300320|AlignEnd=300390|Gloss=ACC.SG.1
 4	sey	sey	SCONJ	_	_	2	comp:obj	_	AlignBegin=300390|AlignEnd=300580|Gloss=COMP
-5	meh	make	AUX	_	Mood=Sub	4	comp:obj	_	AlignBegin=300580|AlignEnd=300720|Gloss=SBJV
-6	&	&	X	_	_	5	subj	_	AlignBegin=300720|AlignEnd=300750|Gloss=X
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=300720|AlignEnd=300750|Gloss=PUNCT
+5	meh	make	AUX	_	Mood=Sub	4	comp:obj@scrap	_	AlignBegin=300580|AlignEnd=300720|Gloss=SBJV
+6	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=300720|AlignEnd=300750|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__140
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2820,9 +2808,8 @@
 3	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	4	mod	_	AlignBegin=303420|AlignEnd=303510|Gloss=SG.1.POSS
 4	oga	oga	NOUN	_	_	6	subj	_	AlignBegin=303510|AlignEnd=303770|Gloss=boss
 5	just	just	ADV	_	_	6	mod	_	AlignBegin=303770|AlignEnd=304020|Gloss=just
-6	wan	want	VERB	_	_	0	root	_	AlignBegin=304020|AlignEnd=304230|Gloss=want
-7	&	&	X	_	_	6	comp:pred	_	AlignBegin=304230|AlignEnd=304260|Gloss=X
-8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=304260|AlignEnd=304388|Gloss=PUNCT
+6	wan	want	VERB	_	_	0	root@scrap	_	AlignBegin=304020|AlignEnd=304230|Gloss=want
+7	&//	//	PUNCT	_	_	6	punct	_	AlignBegin=304260|AlignEnd=304388|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_12_Accident_MG__142
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_12_Accident_MG.mp3
@@ -2841,7 +2828,7 @@
 9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=306170|AlignEnd=306560|Gloss=PUNCT
 10	when	when	ADV	_	PronType=Int	4	conj:coord	_	AlignBegin=306560|AlignEnd=306760|Gloss=when.Q
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=306760|AlignEnd=306870|Gloss=NOM.SG.1
-12	join	join	VERB	_	_	10	comp:obj	_	AlignBegin=306870|AlignEnd=307180|Gloss=join
+12	join	join	VERB	_	_	10	mod@relcl	_	AlignBegin=306870|AlignEnd=307180|Gloss=join
 13	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=307180|AlignEnd=307414|Gloss=ACC.SG.3
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=307414|AlignEnd=307444|Gloss=PUNCT
 
@@ -2932,12 +2919,12 @@
 2	#	#	PUNCT	_	_	1	punct	_	AlignBegin=316333|AlignEnd=316900|Gloss=PUNCT
 3	where	where	ADV	_	PronType=Int	10	mod:periph	_	AlignBegin=316900|AlignEnd=317140|Gloss=where.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=317140|AlignEnd=317320|Gloss=NOM.2
-5	wan	want	VERB	_	_	3	dep	_	AlignBegin=317320|AlignEnd=317517|Gloss=want
+5	wan	want	VERB	_	_	3	mod@relcl	_	AlignBegin=317320|AlignEnd=317517|Gloss=want
 6	learn	learn	VERB	_	_	5	comp:obj@x	_	AlignBegin=317517|AlignEnd=317760|Gloss=learn
 7	someting	someting	PRON	_	_	6	comp:obj	_	AlignBegin=317760|AlignEnd=318160|Gloss=something
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=318160|AlignEnd=318190|Gloss=PUNCT
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	subj	_	AlignBegin=318190|AlignEnd=318250|Gloss=NOM.2
-10	carry	carry	VERB	_	_	0	mod:periph	_	AlignBegin=318250|AlignEnd=318420|Gloss=carry
+10	carry	carry	VERB	_	_	0	root	_	AlignBegin=318250|AlignEnd=318420|Gloss=carry
 11	yourself	yoursef	PRON	_	Case=Acc|Person=2|PronType=Prs|Reflex=Yes	10	comp:obj	_	AlignBegin=318420|AlignEnd=318880|Gloss=ACC.2.REFL
 12	come	come	VERB	_	_	10	compound:svc	_	AlignBegin=318880|AlignEnd=319090|Gloss=come
 13	say	say	VERB	_	_	12	comp:obj@x	_	AlignBegin=319090|AlignEnd=319210|Gloss=say

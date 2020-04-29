@@ -134,7 +134,7 @@
 18	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	19	mod	_	AlignBegin=25800|AlignEnd=26020|Gloss=PL.1.POSS
 19	establishment	establishment	NOUN	_	_	21	subj	_	AlignBegin=26020|AlignEnd=27020|Gloss=establishment
 20	#	#	PUNCT	_	_	21	punct	_	AlignBegin=27020|AlignEnd=27425|Gloss=PUNCT
-21	kick	kick	VERB	_	_	16	dep	_	AlignBegin=27425|AlignEnd=27620|Gloss=kick
+21	kick	kick	VERB	_	_	16	mod@relcl	_	AlignBegin=27425|AlignEnd=27620|Gloss=kick
 22	start	start	VERB	_	_	21	unk@fixed	_	AlignBegin=27620|AlignEnd=28210|Gloss=start
 23	//	//	PUNCT	_	_	4	punct	_	AlignBegin=28210|AlignEnd=28240|Gloss=PUNCT
 
@@ -206,7 +206,7 @@
 # text_ortho = When she dey young young, before she even born us, na athlete, she be.
 1	when	when	ADV	_	PronType=Int	14	mod:periph	_	AlignBegin=41300|AlignEnd=41403|Gloss=when.Q
 2	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=41403|AlignEnd=41530|Gloss=NOM.F.SG.3
-3	dey	dey	AUX	_	Aspect=Imp	1	comp:obj	_	AlignBegin=41530|AlignEnd=41749|Gloss=IPFV
+3	dey	dey	AUX	_	Aspect=Imp	1	mod@relcl	_	AlignBegin=41530|AlignEnd=41749|Gloss=IPFV
 4	young	young	ADJ	_	_	3	comp:aux	_	AlignBegin=41749|AlignEnd=41980|Gloss=young
 5	young	young	ADJ	_	_	3	comp:aux	_	AlignBegin=41749|AlignEnd=41980|Gloss=young
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=41749|AlignEnd=41980|Gloss=PUNCT
@@ -230,37 +230,36 @@
 # text = # so # { as she & || # as she } { come retire |c # come born us finish } < # she come set up di gym //
 # text_en = So, since she... since she's retired now and has given birth to us all, now she's set up the gym.
 # text_ortho = So as she… as she come retire, come born us finish, she come set up di gym.
-1	#	#	PUNCT	_	_	26	punct	_	AlignBegin=44660|AlignEnd=45830|Gloss=PUNCT
-2	so	so	ADV	_	_	26	discourse	_	AlignBegin=45830|AlignEnd=46450|Gloss=so
+1	#	#	PUNCT	_	_	25	punct	_	AlignBegin=44660|AlignEnd=45830|Gloss=PUNCT
+2	so	so	ADV	_	_	25	discourse	_	AlignBegin=45830|AlignEnd=46450|Gloss=so
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=46480|AlignEnd=47080|Gloss=PUNCT
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=47050|AlignEnd=47080|Gloss=PUNCT
-5	as	as	ADP	_	_	26	mod:periph	_	AlignBegin=47080|AlignEnd=47190|Gloss=as
-6	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=47190|AlignEnd=47780|Gloss=NOM.F.SG.3
-7	&	&	X	_	_	5	comp:obj	_	AlignBegin=47780|AlignEnd=47810|Gloss=X
-8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=47780|AlignEnd=47810|Gloss=PUNCT
-9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=47810|AlignEnd=48360|Gloss=PUNCT
-10	as	as	ADP	_	_	5	conj:dicto	_	AlignBegin=48360|AlignEnd=48440|Gloss=as
-11	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=48440|AlignEnd=48550|Gloss=NOM.F.SG.3
-12	}	}	PUNCT	_	_	5	punct	_	AlignBegin=48550|AlignEnd=48580|Gloss=PUNCT
-13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=48550|AlignEnd=48580|Gloss=PUNCT
-14	come	con	AUX	_	Aspect=Cons	10	comp:obj	_	AlignBegin=48580|AlignEnd=48810|Gloss=CONS
-15	retire	retire	VERB	_	_	14	comp:aux	_	AlignBegin=48810|AlignEnd=49309|Gloss=retire
-16	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=49309|AlignEnd=49339|Gloss=PUNCT
-17	#	#	PUNCT	_	_	18	punct	_	AlignBegin=49339|AlignEnd=50280|Gloss=PUNCT
-18	come	con	AUX	_	Aspect=Cons	14	conj:coord	_	AlignBegin=50280|AlignEnd=50460|Gloss=CONS
-19	born	born	VERB	_	_	18	comp:aux	_	AlignBegin=50460|AlignEnd=50650|Gloss=give_birth
-20	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	19	comp:obj	_	AlignBegin=50650|AlignEnd=50840|Gloss=ACC.PL.1
-21	finish	finish	VERB	_	_	19	compound:svc	_	AlignBegin=50840|AlignEnd=51270|Gloss=finish
-22	}	}	PUNCT	_	_	14	punct	_	AlignBegin=51270|AlignEnd=51300|Gloss=PUNCT
-23	<	<	PUNCT	_	_	5	punct	_	AlignBegin=51270|AlignEnd=51300|Gloss=PUNCT
-24	#	#	PUNCT	_	_	5	punct	_	AlignBegin=51300|AlignEnd=52628|Gloss=PUNCT
-25	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	AlignBegin=52628|AlignEnd=52786|Gloss=NOM.F.SG.3
-26	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=52786|AlignEnd=52958|Gloss=CONS
-27	set	set	VERB	_	_	26	comp:aux	_	AlignBegin=52958|AlignEnd=53220|Gloss=set
-28	up	up	ADP	_	_	27	compound:prt	_	AlignBegin=53220|AlignEnd=53430|Gloss=up
-29	di	the	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=53430|AlignEnd=53671|Gloss=DEF.ART
-30	gym	gym	NOUN	_	_	27	comp:obj	_	AlignBegin=53671|AlignEnd=53940|Gloss=gym
-31	//	//	PUNCT	_	_	26	punct	_	AlignBegin=53940|AlignEnd=53970|Gloss=PUNCT
+5	as	as	ADP	_	_	25	mod:periph	_	AlignBegin=47080|AlignEnd=47190|Gloss=as
+6	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	comp:obj@scrap	_	AlignBegin=47190|AlignEnd=47780|Gloss=NOM.F.SG.3
+7	||	||	PUNCT	_	_	9	punct	_	AlignBegin=47780|AlignEnd=47810|Gloss=PUNCT
+8	#	#	PUNCT	_	_	9	punct	_	AlignBegin=47810|AlignEnd=48360|Gloss=PUNCT
+9	as	as	ADP	_	_	5	conj:dicto	_	AlignBegin=48360|AlignEnd=48440|Gloss=as
+10	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	AlignBegin=48440|AlignEnd=48550|Gloss=NOM.F.SG.3
+11	}	}	PUNCT	_	_	5	punct	_	AlignBegin=48550|AlignEnd=48580|Gloss=PUNCT
+12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=48550|AlignEnd=48580|Gloss=PUNCT
+13	come	con	AUX	_	Aspect=Cons	9	comp:obj	_	AlignBegin=48580|AlignEnd=48810|Gloss=CONS
+14	retire	retire	VERB	_	_	13	comp:aux	_	AlignBegin=48810|AlignEnd=49309|Gloss=retire
+15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=49309|AlignEnd=49339|Gloss=PUNCT
+16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=49339|AlignEnd=50280|Gloss=PUNCT
+17	come	con	AUX	_	Aspect=Cons	13	conj:coord	_	AlignBegin=50280|AlignEnd=50460|Gloss=CONS
+18	born	born	VERB	_	_	17	comp:aux	_	AlignBegin=50460|AlignEnd=50650|Gloss=give_birth
+19	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	comp:obj	_	AlignBegin=50650|AlignEnd=50840|Gloss=ACC.PL.1
+20	finish	finish	VERB	_	_	18	compound:svc	_	AlignBegin=50840|AlignEnd=51270|Gloss=finish
+21	}	}	PUNCT	_	_	13	punct	_	AlignBegin=51270|AlignEnd=51300|Gloss=PUNCT
+22	<	<	PUNCT	_	_	5	punct	_	AlignBegin=51270|AlignEnd=51300|Gloss=PUNCT
+23	#	#	PUNCT	_	_	5	punct	_	AlignBegin=51300|AlignEnd=52628|Gloss=PUNCT
+24	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	subj	_	AlignBegin=52628|AlignEnd=52786|Gloss=NOM.F.SG.3
+25	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=52786|AlignEnd=52958|Gloss=CONS
+26	set	set	VERB	_	_	25	comp:aux	_	AlignBegin=52958|AlignEnd=53220|Gloss=set
+27	up	up	ADP	_	_	26	compound:prt	_	AlignBegin=53220|AlignEnd=53430|Gloss=up
+28	di	the	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=53430|AlignEnd=53671|Gloss=DEF.ART
+29	gym	gym	NOUN	_	_	26	comp:obj	_	AlignBegin=53671|AlignEnd=53940|Gloss=gym
+30	//	//	PUNCT	_	_	25	punct	_	AlignBegin=53940|AlignEnd=53970|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__13
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -295,10 +294,9 @@
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=56597|AlignEnd=56629|Gloss=PUNCT
 6	for	for	AUX	_	Mood=Cond	0	root	_	AlignBegin=56629|AlignEnd=57313|Gloss=COND
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=56629|AlignEnd=57313|Gloss=PUNCT
-8	na	na	PART	_	PartType=Cop	6	conj:dicto	_	AlignBegin=57313|AlignEnd=57495|Gloss=be.COP
-9	&	&	X	_	_	8	comp:pred	_	AlignBegin=57495|AlignEnd=57510|Gloss=X
-10	}	}	PUNCT	_	_	6	punct	_	AlignBegin=57495|AlignEnd=57510|Gloss=PUNCT
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=57495|AlignEnd=57510|Gloss=PUNCT
+8	na	na	PART	_	PartType=Cop	6	conj:dicto@scrap	_	AlignBegin=57313|AlignEnd=57495|Gloss=be.COP
+9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=57495|AlignEnd=57510|Gloss=PUNCT
+10	&//	//	PUNCT	_	_	6	punct	_	AlignBegin=57495|AlignEnd=57510|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__15
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -543,7 +541,7 @@
 2	but	but	CCONJ	_	_	9	cc	_	AlignBegin=94600|AlignEnd=94950|Gloss=but
 3	where	where	ADV	_	PronType=Int	9	mod:periph	_	AlignBegin=94980|AlignEnd=95130|Gloss=where.Q
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=95130|AlignEnd=95346|Gloss=NOM.SG.1
-5	dey	dey	VERB	_	VerbType=Cop	3	dep	_	AlignBegin=95346|AlignEnd=95530|Gloss=dey.COP
+5	dey	dey	VERB	_	VerbType=Cop	3	mod@relcl	_	AlignBegin=95346|AlignEnd=95530|Gloss=dey.COP
 6	now	now	ADV	_	_	5	mod	_	AlignBegin=95530|AlignEnd=95760|Gloss=now
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=95760|AlignEnd=95790|Gloss=PUNCT
 8	#	#	PUNCT	_	_	3	punct	_	AlignBegin=95790|AlignEnd=96044|Gloss=PUNCT
@@ -560,7 +558,7 @@
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=96755|AlignEnd=96915|Gloss=PUNCT
 2	where	where	ADV	_	PronType=Int	6	conj:appos	_	AlignBegin=96915|AlignEnd=97055|Gloss=where.Q
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=97055|AlignEnd=97135|Gloss=NOM.PL.1
-4	dey	dey	VERB	_	VerbType=Cop	2	comp:obj	_	AlignBegin=97135|AlignEnd=97305|Gloss=dey.COP
+4	dey	dey	VERB	_	VerbType=Cop	2	mod@relcl	_	AlignBegin=97135|AlignEnd=97305|Gloss=dey.COP
 5	now	now	ADV	_	_	4	mod	_	AlignBegin=97305|AlignEnd=97505|Gloss=now
 6	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=97505|AlignEnd=98170|Gloss=be.COP
 7	Kaduna	Kaduna	PROPN	_	_	6	comp:pred	_	AlignBegin=98170|AlignEnd=98615|Gloss=Kaduna
@@ -788,9 +786,8 @@
 2	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	3	mod	_	AlignBegin=135280|AlignEnd=135365|Gloss=SG.1.POSS
 3	mama	mama	NOUN	_	_	4	subj	_	AlignBegin=135365|AlignEnd=136090|Gloss=mama
 4	talk	talk	VERB	_	_	0	root	_	AlignBegin=136090|AlignEnd=136310|Gloss=talk
-5	sey	sey	SCONJ	_	_	4	comp:obj	_	AlignBegin=136310|AlignEnd=136540|Gloss=COMP
-6	&	&	X	_	_	5	comp:obj	_	AlignBegin=136540|AlignEnd=136570|Gloss=X
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=136540|AlignEnd=136570|Gloss=PUNCT
+5	sey	sey	SCONJ	_	_	4	comp:obj@scrap	_	AlignBegin=136310|AlignEnd=136540|Gloss=COMP
+6	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=136540|AlignEnd=136570|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__34
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -863,9 +860,8 @@
 9	#	#	PUNCT	_	_	3	punct	_	AlignBegin=146687|AlignEnd=147660|Gloss=PUNCT
 10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=147660|AlignEnd=147770|Gloss=DEF.ART
 11	lawyer	lawyer	NOUN	_	_	12	subj	_	AlignBegin=147770|AlignEnd=148040|Gloss=lawyer
-12	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=148040|AlignEnd=148688|Gloss=CONS
-13	&	&	X	_	_	12	comp:aux	_	AlignBegin=148688|AlignEnd=148736|Gloss=X
-14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=148688|AlignEnd=148736|Gloss=PUNCT
+12	come	con	AUX	_	Aspect=Cons	0	root@scrap	_	AlignBegin=148040|AlignEnd=148688|Gloss=CONS
+13	&//	//	PUNCT	_	_	12	punct	_	AlignBegin=148688|AlignEnd=148736|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__37
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -998,10 +994,9 @@
 22	no	no	PART	_	Polarity=Neg	23	mod	_	AlignBegin=166410|AlignEnd=166490|Gloss=NEG
 23	go	go	AUX	_	Aspect=Prosp	15	conj:coord	_	AlignBegin=166490|AlignEnd=166580|Gloss=CONT
 24	dey	dey	AUX	_	Aspect=Imp	23	comp:aux	_	AlignBegin=166580|AlignEnd=166804|Gloss=IPFV
-25	pack	pack	VERB	_	_	24	comp:aux	_	AlignBegin=166804|AlignEnd=167040|Gloss=pack
-26	&	&	X	_	_	25	comp:obj	_	AlignBegin=167040|AlignEnd=167070|Gloss=X
-27	]	]	PUNCT	_	_	15	punct	_	AlignBegin=167040|AlignEnd=167070|Gloss=PUNCT
-28	//	//	PUNCT	_	_	11	punct	_	AlignBegin=167040|AlignEnd=167070|Gloss=PUNCT
+25	pack	pack	VERB	_	_	24	comp:aux@scrap	_	AlignBegin=166804|AlignEnd=167040|Gloss=pack
+26	]	]	PUNCT	_	_	15	punct	_	AlignBegin=167040|AlignEnd=167070|Gloss=PUNCT
+27	&//	//	PUNCT	_	_	11	punct	_	AlignBegin=167040|AlignEnd=167070|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__42
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -1298,7 +1293,7 @@
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=215560|AlignEnd=216000|Gloss=PUNCT
 2	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=216000|AlignEnd=216140|Gloss=how.Q
 3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=216140|AlignEnd=216274|Gloss=NOM.PL.3
-4	start	start	VERB	_	_	2	dep	_	AlignBegin=216274|AlignEnd=216480|Gloss=start
+4	start	start	VERB	_	_	2	mod@relcl	_	AlignBegin=216274|AlignEnd=216480|Gloss=start
 5	to	to	ADP	_	_	4	comp:pred	_	AlignBegin=216480|AlignEnd=216570|Gloss=to
 6	dey	dey	AUX	_	Aspect=Imp	5	comp:obj	_	AlignBegin=216570|AlignEnd=216690|Gloss=IPFV
 7	call	call	VERB	_	_	6	comp:aux	_	AlignBegin=216690|AlignEnd=216900|Gloss=call
@@ -1341,9 +1336,8 @@
 7	people	people	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=222230|AlignEnd=222540|Gloss=people.PL
 8	dey	dey	AUX	_	Aspect=Imp	6	comp:pred	_	AlignBegin=222540|AlignEnd=222694|Gloss=IPFV
 9	talk	talk	VERB	_	_	8	comp:aux	_	AlignBegin=222694|AlignEnd=223027|Gloss=talk
-10	sey	sey	SCONJ	_	_	9	comp:obj	_	AlignBegin=223027|AlignEnd=223307|Gloss=COMP
-11	&	&	X	_	_	10	comp:obj	_	AlignBegin=223307|AlignEnd=223360|Gloss=X
-12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=223307|AlignEnd=223360|Gloss=PUNCT
+10	sey	sey	SCONJ	_	_	9	comp:obj@scrap	_	AlignBegin=223027|AlignEnd=223307|Gloss=COMP
+11	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=223307|AlignEnd=223360|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -1428,10 +1422,9 @@
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=232754|AlignEnd=232774|Gloss=PUNCT
 11	want	want	VERB	_	_	9	conj:dicto	_	AlignBegin=232774|AlignEnd=232955|Gloss=want
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=232955|AlignEnd=232975|Gloss=PUNCT
-13	give	give	VERB	_	_	11	comp:obj@x	_	AlignBegin=232975|AlignEnd=233159|Gloss=give
+13	give	give	VERB	_	_	11	comp:obj@scrap	_	AlignBegin=232975|AlignEnd=233159|Gloss=give
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	comp:obj	_	AlignBegin=233159|AlignEnd=233220|Gloss=NOM.2
-15	&	&	X	_	_	13	comp:obj	_	AlignBegin=233220|AlignEnd=233240|Gloss=X
-16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=233240|AlignEnd=233260|Gloss=PUNCT
+15	&//	//	PUNCT	_	_	1	punct	_	AlignBegin=233240|AlignEnd=233260|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__60
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -1553,9 +1546,8 @@
 13	people	people	NOUN	_	Number=Plur	15	subj	_	AlignBegin=249860|AlignEnd=250110|Gloss=people.PL
 14	no	no	PART	_	Polarity=Neg	15	mod	_	AlignBegin=250110|AlignEnd=250400|Gloss=NEG
 15	know	know	VERB	_	_	12	comp:aux	_	AlignBegin=250400|AlignEnd=250623|Gloss=know
-16	sey	sey	SCONJ	_	_	15	comp:obj	_	AlignBegin=250623|AlignEnd=250933|Gloss=COMP
-17	&	&	X	_	_	16	comp:obj	_	AlignBegin=250933|AlignEnd=250980|Gloss=X
-18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=250933|AlignEnd=250980|Gloss=PUNCT
+16	sey	sey	SCONJ	_	_	15	comp:obj@scrap	_	AlignBegin=250623|AlignEnd=250933|Gloss=COMP
+17	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=250933|AlignEnd=250980|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__65
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -1765,12 +1757,11 @@
 7	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=278590|AlignEnd=278620|Gloss=PUNCT
 8	#	#	PUNCT	_	_	10	punct	_	AlignBegin=278620|AlignEnd=279425|Gloss=PUNCT
 9	and	and	CCONJ	_	_	10	cc	_	AlignBegin=279425|AlignEnd=280135|Gloss=and
-10	na	na	PART	_	PartType=Cop	5	parataxis:conj	_	AlignBegin=280135|AlignEnd=280302|Gloss=be.COP
+10	na	na	PART	_	PartType=Cop	5	parataxis:conj@scrap	_	AlignBegin=280135|AlignEnd=280302|Gloss=be.COP
 11	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	13	mod	_	AlignBegin=280302|AlignEnd=280465|Gloss=F.SG.3.POSS
 12	boy	boy	NOUN	_	_	13	compound	_	AlignBegin=280465|AlignEnd=280743|Gloss=boy
 13	friend	friend	NOUN	_	_	10	comp:pred	_	AlignBegin=280743|AlignEnd=281035|Gloss=friend
-14	&	&	X	_	_	10	comp:cleft	_	AlignBegin=281035|AlignEnd=281065|Gloss=X
-15	//	//	PUNCT	_	_	5	punct	_	AlignBegin=281035|AlignEnd=281065|Gloss=PUNCT
+14	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=281035|AlignEnd=281065|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__75
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -1978,10 +1969,9 @@
 5	come	come	VERB	_	_	2	parataxis:obj	_	AlignBegin=302970|AlignEnd=303212|Gloss=come
 6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=302970|AlignEnd=303212|Gloss=PUNCT
 7	make	make	AUX	_	Mood=Sub	5	parataxis:conj	_	AlignBegin=303212|AlignEnd=303430|Gloss=SBJV
-8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=303430|AlignEnd=303640|Gloss=ACC.SG.1
-9	&	&	X	_	_	7	comp:aux	_	AlignBegin=303640|AlignEnd=303670|Gloss=X
-10	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=303640|AlignEnd=303670|Gloss=PUNCT
-11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=303640|AlignEnd=303670|Gloss=PUNCT
+8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:aux@scrap	_	AlignBegin=303430|AlignEnd=303640|Gloss=ACC.SG.1
+9	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=303640|AlignEnd=303670|Gloss=PUNCT
+10	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=303640|AlignEnd=303670|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__88
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -1999,7 +1989,7 @@
 8	}	}	PUNCT	_	_	3	punct	_	AlignBegin=304708|AlignEnd=304738|Gloss=PUNCT
 9	chairman	chairman	NOUN	_	_	11	vocative	_	AlignBegin=304738|AlignEnd=305106|Gloss=chairman
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=305106|AlignEnd=305136|Gloss=PUNCT
-11	come	con	AUX	_	Aspect=Cons	0	conj:dicto	_	AlignBegin=305136|AlignEnd=305270|Gloss=CONS
+11	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=305136|AlignEnd=305270|Gloss=CONS
 12	!//=	!//=	PUNCT	_	_	13	punct	_	AlignBegin=305270|AlignEnd=305280|Gloss=PUNCT
 13	moh	make	AUX	_	Mood=Sub	11	parataxis:conj	_	AlignBegin=305280|AlignEnd=305420|Gloss=SBJV
 14	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	subj	_	AlignBegin=305420|AlignEnd=305517|Gloss=NOM.PL.1
@@ -2180,10 +2170,9 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=331242|AlignEnd=332120|Gloss=PUNCT
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=332120|AlignEnd=332190|Gloss=NOM.PL.1
 3	get	get	VERB	_	_	0	root	_	AlignBegin=332190|AlignEnd=332310|Gloss=get
-4	oder	oder	ADJ	_	_	6	mod	_	AlignBegin=332310|AlignEnd=332607|Gloss=other
-5	four	four	NUM	_	NumType=Card	6	det@num	_	AlignBegin=332607|AlignEnd=332891|Gloss=four.CARD
-6	&	&	X	_	_	3	comp:obj	_	AlignBegin=332891|AlignEnd=332921|Gloss=X
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=332891|AlignEnd=332921|Gloss=PUNCT
+4	oder	oder	ADJ	_	_	3	mod	_	AlignBegin=332310|AlignEnd=332607|Gloss=other
+5	four	four	NUM	_	NumType=Card	3	comp:obj@scrap	_	AlignBegin=332607|AlignEnd=332891|Gloss=four.CARD
+6	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=332891|AlignEnd=332921|Gloss=PUNCT
 
 # sent_id = KAD_09_Kabir-Gymnasium_MG__97
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_09_Kabir-Gymnasium_MG.mp3
@@ -2314,7 +2303,7 @@
 10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=352612|AlignEnd=352642|Gloss=PUNCT
 11	#	#	PUNCT	_	_	4	punct	_	AlignBegin=352642|AlignEnd=353900|Gloss=PUNCT
 12	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	subj	_	AlignBegin=353900|AlignEnd=353980|Gloss=NOM.PL.1
-13	con	con	AUX	_	Aspect=Cons	0	conj:coord	_	AlignBegin=353980|AlignEnd=354180|Gloss=CONS
+13	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=353980|AlignEnd=354180|Gloss=CONS
 14	move	move	VERB	_	_	13	comp:obj@x	_	AlignBegin=354180|AlignEnd=354460|Gloss=move
 15	from	from	ADP	_	_	14	comp:obl	_	AlignBegin=354460|AlignEnd=354670|Gloss=from
 16	Murtala	Murtala	PROPN	_	_	15	comp:obj	_	AlignBegin=354670|AlignEnd=355080|Gloss=Murtala

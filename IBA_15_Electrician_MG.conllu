@@ -31,7 +31,7 @@
 6	#	#	PUNCT	_	_	7	punct	_	AlignBegin=7551|AlignEnd=8700|Gloss=PUNCT
 7	which	which	DET	_	PronType=Int	5	det	_	AlignBegin=8700|AlignEnd=8858|Gloss=which
 8	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	subj	_	AlignBegin=8858|AlignEnd=8960|Gloss=NOM.PL.3
-9	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=8960|AlignEnd=9112|Gloss=IPFV
+9	dey	dey	AUX	_	Aspect=Imp	7	mod@relcl	_	AlignBegin=8960|AlignEnd=9112|Gloss=IPFV
 10	call	call	VERB	_	_	9	comp:aux	_	AlignBegin=9112|AlignEnd=9478|Gloss=call
 11	[yor	[yor	PUNCT	_	_	12	punct	_	AlignBegin=9478|AlignEnd=9508|Gloss=PUNCT
 12	onise	onise	NOUN	_	_	10	comp:pred	_	AlignBegin=9508|AlignEnd=9862|Gloss=worker
@@ -63,9 +63,8 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=12512|AlignEnd=13603|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=13603|AlignEnd=13710|Gloss=NOM.SG.1
 3	don	don	AUX	_	Aspect=Perf	0	root	_	AlignBegin=13710|AlignEnd=13880|Gloss=PRF
-4	serve	serve	VERB	_	_	3	comp:aux	_	AlignBegin=13880|AlignEnd=14173|Gloss=serve
-5	&	&	X	_	_	4	comp:obj	_	AlignBegin=14173|AlignEnd=14203|Gloss=X
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=14173|AlignEnd=14203|Gloss=PUNCT
+4	serve	serve	VERB	_	_	3	comp:aux@scrap	_	AlignBegin=13880|AlignEnd=14173|Gloss=serve
+5	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=14173|AlignEnd=14203|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__5
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -73,11 +72,10 @@
 # text = I almost eh & //
 # text_en = I almost uh…
 # text_ortho = I almost eh…
-1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=14203|AlignEnd=14345|Gloss=NOM.SG.1
-2	almost	almost	ADV	_	_	4	mod	_	AlignBegin=14345|AlignEnd=14780|Gloss=almost
-3	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=14780|AlignEnd=14950|Gloss=eh
-4	&	&	X	_	_	0	root	_	AlignBegin=14950|AlignEnd=14980|Gloss=X
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=14950|AlignEnd=14980|Gloss=PUNCT
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	subj	_	AlignBegin=14203|AlignEnd=14345|Gloss=NOM.SG.1
+2	almost	almost	ADV	_	_	0	mod	_	AlignBegin=14345|AlignEnd=14780|Gloss=almost
+3	eh	eh	INTJ	_	_	0	root@scrap	_	AlignBegin=14780|AlignEnd=14950|Gloss=eh
+4	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=14950|AlignEnd=14980|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__6
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -321,7 +319,7 @@
 6	but	but	CCONJ	_	_	35	cc	_	AlignBegin=63200|AlignEnd=63370|Gloss=but
 7	when	when	ADV	_	PronType=Int	35	mod:periph	_	AlignBegin=63370|AlignEnd=63580|Gloss=when.Q
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=63580|AlignEnd=63680|Gloss=NOM.PL.1
-9	want	want	VERB	_	_	7	comp:obj	_	AlignBegin=63680|AlignEnd=63830|Gloss=want
+9	want	want	VERB	_	_	7	mod@relcl	_	AlignBegin=63680|AlignEnd=63830|Gloss=want
 10	lay	lay	VERB	_	_	9	comp:obj@x	_	AlignBegin=63830|AlignEnd=64020|Gloss=lay
 11	cable	cable	NOUN	_	_	10	comp:obj	_	AlignBegin=64020|AlignEnd=64310|Gloss=cable
 12	#	#	PUNCT	_	_	28	punct	_	AlignBegin=64340|AlignEnd=65540|Gloss=PUNCT
@@ -659,9 +657,9 @@
 16	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	17	mod	_	AlignBegin=134030|AlignEnd=134242|Gloss=PL.1.POSS
 17	section	section	NOUN	_	_	15	comp:pred	_	AlignBegin=134242|AlignEnd=134510|Gloss=section
 18	>+	>+	PUNCT	_	_	19	punct	_	AlignBegin=134510|AlignEnd=134540|Gloss=PUNCT
-19	na	na	PART	_	PartType=Cop	15	comp:cleft	_	AlignBegin=134540|AlignEnd=134667|Gloss=be.COP
-20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	comp:pred	_	AlignBegin=134667|AlignEnd=134760|Gloss=NOM.SG.3
-21	dey	dey	AUX	_	Aspect=Imp	20	dep	_	AlignBegin=134760|AlignEnd=134920|Gloss=IPFV
+19	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	15	comp:cleft	_	AlignBegin=134540|AlignEnd=134667|Gloss=be.COP
+20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	comp:pred@fixed	_	AlignBegin=134667|AlignEnd=134760|Gloss=NOM.SG.3
+21	dey	dey	AUX	_	Aspect=Imp	20	comp:obj	_	AlignBegin=134760|AlignEnd=134920|Gloss=IPFV
 22	do	do	VERB	_	_	21	comp:aux	_	AlignBegin=134920|AlignEnd=135030|Gloss=do
 23	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	comp:obj	_	AlignBegin=135030|AlignEnd=135177|Gloss=ACC.SG.3
 24	//	//	PUNCT	_	_	15	punct	_	AlignBegin=135177|AlignEnd=135207|Gloss=PUNCT
@@ -809,11 +807,10 @@
 # text = # oh ehn & //
 # text_en = Oh uh…
 # text_ortho = Oh ehn…
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=161938|AlignEnd=163020|Gloss=PUNCT
-2	oh	oh	INTJ	_	_	4	discourse	_	AlignBegin=163020|AlignEnd=163290|Gloss=oh
-3	ehn	ehn	INTJ	_	_	4	discourse	_	AlignBegin=163290|AlignEnd=164037|Gloss=ehn
-4	&	&	X	_	_	0	root	_	AlignBegin=164037|AlignEnd=164067|Gloss=X
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=164037|AlignEnd=164067|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=161938|AlignEnd=163020|Gloss=PUNCT
+2	oh	oh	INTJ	_	_	0	discourse	_	AlignBegin=163020|AlignEnd=163290|Gloss=oh
+3	ehn	ehn	INTJ	_	_	0	root@scrap	_	AlignBegin=163290|AlignEnd=164037|Gloss=ehn
+4	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=164037|AlignEnd=164067|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__34
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -821,10 +818,9 @@
 # text = # mey & //
 # text_en = We should…
 # text_ortho = Mey…
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=164067|AlignEnd=164740|Gloss=PUNCT
-2	mey	make	AUX	_	Mood=Sub	3	orphan	_	AlignBegin=164740|AlignEnd=165050|Gloss=SBJV
-3	&	&	X	_	_	0	root	_	AlignBegin=165050|AlignEnd=165080|Gloss=X
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=165050|AlignEnd=165080|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=164067|AlignEnd=164740|Gloss=PUNCT
+2	mey	make	AUX	_	Mood=Sub	0	root@scrap	_	AlignBegin=164740|AlignEnd=165050|Gloss=SBJV
+3	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=165050|AlignEnd=165080|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__35
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -923,9 +919,8 @@
 # text_ortho = We get…
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=182332|AlignEnd=182860|Gloss=PUNCT
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=182860|AlignEnd=182973|Gloss=NOM.PL.1
-3	get	get	VERB	_	_	0	root	_	AlignBegin=182973|AlignEnd=183177|Gloss=get
-4	&	&	X	_	_	3	comp:obj	_	AlignBegin=183177|AlignEnd=183207|Gloss=X
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=183177|AlignEnd=183207|Gloss=PUNCT
+3	get	get	VERB	_	_	0	root@scrap	_	AlignBegin=182973|AlignEnd=183177|Gloss=get
+4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=183177|AlignEnd=183207|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -1232,7 +1227,7 @@
 5	how	how	ADV	_	PronType=Int	4	comp:pred	_	AlignBegin=233990|AlignEnd=234170|Gloss=how.Q
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	subj	_	AlignBegin=234170|AlignEnd=234270|Gloss=NOM.PL.1
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=234270|AlignEnd=234300|Gloss=PUNCT
-8	do	do	VERB	_	_	5	dep	_	AlignBegin=234300|AlignEnd=234630|Gloss=do
+8	do	do	VERB	_	_	5	mod@relcl	_	AlignBegin=234300|AlignEnd=234630|Gloss=do
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=234630|AlignEnd=234660|Gloss=PUNCT
 10	divided	divide	VERB	_	Tense=Past|VerbForm=Part	8	conj:dicto	_	AlignBegin=234660|AlignEnd=235160|Gloss=divide.PST.PTCP
 11	}	}	PUNCT	_	_	4	punct	_	AlignBegin=235160|AlignEnd=235190|Gloss=PUNCT
@@ -1318,9 +1313,8 @@
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=245130|AlignEnd=245160|Gloss=PUNCT
 4	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=245160|AlignEnd=245247|Gloss=be.COP
 5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	comp:pred	_	AlignBegin=245247|AlignEnd=245340|Gloss=NOM.SG.3
-6	dis	dis	PRON	_	Number=Sing|PronType=Dem	7	orphan	_	AlignBegin=245340|AlignEnd=245708|Gloss=SG.PROX.DEM
-7	&	&	X	_	_	4	comp:cleft	_	AlignBegin=245708|AlignEnd=245738|Gloss=X
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=245708|AlignEnd=245738|Gloss=PUNCT
+6	dis	dis	PRON	_	Number=Sing|PronType=Dem	4	comp:cleft@scrap	_	AlignBegin=245340|AlignEnd=245708|Gloss=SG.PROX.DEM
+7	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=245708|AlignEnd=245738|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__51
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -1387,7 +1381,7 @@
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=251680|AlignEnd=252040|Gloss=PUNCT
 2	when	when	ADV	_	PronType=Int	10	mod:periph	_	AlignBegin=252040|AlignEnd=252200|Gloss=when.Q
 3	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	AlignBegin=252200|AlignEnd=252387|Gloss=NOM.NT.SG.3
-4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=252387|AlignEnd=252590|Gloss=be.IND.SG.3.PRS.FIN
+4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	AlignBegin=252387|AlignEnd=252590|Gloss=be.IND.SG.3.PRS.FIN
 5	two	two	NUM	_	NumType=Card	4	comp:pred	_	AlignBegin=252590|AlignEnd=252770|Gloss=two.CARD
 6	o'clock	o'clock	ADV	_	_	5	mod	_	AlignBegin=252930|AlignEnd=253280|Gloss=o'clock
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=253280|AlignEnd=253310|Gloss=PUNCT
@@ -1533,7 +1527,7 @@
 3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=278203|AlignEnd=278314|Gloss=be.IND.SG.3.PRS.FIN
 4	how	how	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=278314|AlignEnd=278490|Gloss=how.Q
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	AlignBegin=278490|AlignEnd=278580|Gloss=NOM.PL.1
-6	dey	dey	AUX	_	Aspect=Imp	4	dep	_	AlignBegin=278580|AlignEnd=278710|Gloss=IPFV
+6	dey	dey	AUX	_	Aspect=Imp	4	mod@relcl	_	AlignBegin=278580|AlignEnd=278710|Gloss=IPFV
 7	work	work	VERB	_	_	6	comp:aux	_	AlignBegin=278710|AlignEnd=278970|Gloss=work
 8	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	9	det	_	AlignBegin=278970|AlignEnd=279230|Gloss=PL.1.POSS
 9	work	work	NOUN	_	_	7	comp:obj	_	AlignBegin=279230|AlignEnd=279528|Gloss=work

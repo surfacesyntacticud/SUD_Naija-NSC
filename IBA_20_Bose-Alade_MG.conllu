@@ -41,7 +41,7 @@
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=7560|AlignEnd=7590|Gloss=PUNCT
 9	how	how	ADV	_	PronType=Int	7	conj:dicto	_	AlignBegin=7590|AlignEnd=7820|Gloss=how.Q
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=7820|AlignEnd=7890|Gloss=NOM.SG.1
-11	dey	dey	AUX	_	Aspect=Imp	9	dep	_	AlignBegin=7890|AlignEnd=8008|Gloss=IPFV
+11	dey	dey	AUX	_	Aspect=Imp	9	mod@relcl	_	AlignBegin=7890|AlignEnd=8008|Gloss=IPFV
 12	use	use	VERB	_	_	11	comp:aux	_	AlignBegin=8008|AlignEnd=8260|Gloss=use
 13	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	14	mod	_	AlignBegin=8260|AlignEnd=8483|Gloss=SG.1.POSS
 14	day	day	NOUN	_	_	12	comp:obj	_	AlignBegin=8483|AlignEnd=8710|Gloss=day
@@ -188,7 +188,7 @@
 4	in	in	ADP	_	_	6	orphan	_	AlignBegin=31033|AlignEnd=31157|Gloss=in
 5	di	the	DET	_	Definite=Def|PronType=Art	4	orphan	_	AlignBegin=31157|AlignEnd=31263|Gloss=DEF.ART
 6	&	&	X	_	_	0	root	_	AlignBegin=31263|AlignEnd=31293|Gloss=X
-7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=31263|AlignEnd=31293|Gloss=PUNCT
+7	&//	//	PUNCT	_	_	6	punct	_	AlignBegin=31263|AlignEnd=31293|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__10
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -204,9 +204,8 @@
 6	finish	finish	VERB	_	_	4	compound:svc	_	AlignBegin=32303|AlignEnd=32543|Gloss=finish
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=32543|AlignEnd=32573|Gloss=PUNCT
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=32573|AlignEnd=32683|Gloss=NOM.SG.1
-9	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=32683|AlignEnd=32983|Gloss=CONT
-10	&	&	X	_	_	9	comp:aux	_	AlignBegin=32983|AlignEnd=33013|Gloss=X
-11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=32983|AlignEnd=33013|Gloss=PUNCT
+9	go	go	AUX	_	Aspect=Prosp	0	root@scrap	_	AlignBegin=32683|AlignEnd=32983|Gloss=CONT
+10	&//	//	PUNCT	_	_	9	punct	_	AlignBegin=32983|AlignEnd=33013|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__11
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -269,24 +268,24 @@
 5	month	month	NOUN	_	_	3	comp:pred	_	AlignBegin=41429|AlignEnd=41760|Gloss=month
 6	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=41760|AlignEnd=41790|Gloss=PUNCT
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=41760|AlignEnd=41790|Gloss=PUNCT
-8	na	na	PART	_	PartType=Cop	3	comp:cleft	_	AlignBegin=41790|AlignEnd=41919|Gloss=be.COP
-9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	comp:pred	_	AlignBegin=41919|AlignEnd=41970|Gloss=NOM.SG.3
+8	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	3	comp:cleft	_	AlignBegin=41790|AlignEnd=41919|Gloss=be.COP
+9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	comp:pred@fixed	_	AlignBegin=41919|AlignEnd=41970|Gloss=NOM.SG.3
 10	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	AlignBegin=41970|AlignEnd=42133|Gloss=NOM.PL.3
-11	dey	dey	AUX	_	Aspect=Imp	9	mod@relcl	_	AlignBegin=42133|AlignEnd=42570|Gloss=IPFV
+11	dey	dey	AUX	_	Aspect=Imp	9	comp:obj	_	AlignBegin=42133|AlignEnd=42570|Gloss=IPFV
 12	||	||	PUNCT	_	_	14	punct	_	AlignBegin=42570|AlignEnd=42600|Gloss=PUNCT
 13	#	#	PUNCT	_	_	14	punct	_	AlignBegin=42600|AlignEnd=43225|Gloss=PUNCT
-14	na	na	PART	_	PartType=Cop	8	conj:dicto	_	AlignBegin=43225|AlignEnd=43401|Gloss=be.COP
-15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	comp:pred	_	AlignBegin=43401|AlignEnd=43458|Gloss=NOM.SG.3
+14	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	8	conj:dicto	_	AlignBegin=43225|AlignEnd=43401|Gloss=be.COP
+15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	comp:pred@fixed	_	AlignBegin=43401|AlignEnd=43458|Gloss=NOM.SG.3
 16	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	subj	_	AlignBegin=43458|AlignEnd=43566|Gloss=NOM.PL.3
-17	dey	dey	AUX	_	Aspect=Imp	15	mod@relcl	_	AlignBegin=43566|AlignEnd=43690|Gloss=IPFV
+17	dey	dey	AUX	_	Aspect=Imp	15	comp:obj	_	AlignBegin=43566|AlignEnd=43690|Gloss=IPFV
 18	pay	pay	VERB	_	_	17	comp:aux	_	AlignBegin=43690|AlignEnd=43900|Gloss=pay
 19	for	for	ADP	_	_	18	comp:obl	_	AlignBegin=43900|AlignEnd=44694|Gloss=for
 20	inside	inside	ADP	_	_	19	unk@fixed	_	AlignBegin=44694|AlignEnd=45145|Gloss=inside
 21	||	||	PUNCT	_	_	22	punct	_	AlignBegin=45145|AlignEnd=45175|Gloss=PUNCT
-22	na	na	PART	_	PartType=Cop	14	conj:dicto	_	AlignBegin=45175|AlignEnd=45312|Gloss=be.COP
-23	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	comp:pred	_	AlignBegin=45312|AlignEnd=45360|Gloss=NOM.SG.3
+22	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	14	conj:dicto	_	AlignBegin=45175|AlignEnd=45312|Gloss=be.COP
+23	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	comp:pred@fixed	_	AlignBegin=45312|AlignEnd=45360|Gloss=NOM.SG.3
 24	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	subj	_	AlignBegin=45360|AlignEnd=45430|Gloss=NOM.PL.3
-25	dey	dey	AUX	_	Aspect=Imp	23	mod@relcl	_	AlignBegin=45430|AlignEnd=45520|Gloss=IPFV
+25	dey	dey	AUX	_	Aspect=Imp	23	comp:obj	_	AlignBegin=45430|AlignEnd=45520|Gloss=IPFV
 26	pay	pay	VERB	_	_	25	comp:aux	_	AlignBegin=45520|AlignEnd=45670|Gloss=pay
 27	for	for	ADP	_	_	26	comp:obl	_	AlignBegin=45670|AlignEnd=45834|Gloss=for
 28	}	}	PUNCT	_	_	14	punct	_	AlignBegin=45834|AlignEnd=45864|Gloss=PUNCT
@@ -760,17 +759,16 @@
 # text = # for inside barrack here < # we no & //
 # text_en = Inside the barracks here, we don’t...
 # text_ortho = For inside barrack here, we no…
-1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=112820|AlignEnd=113100|Gloss=PUNCT
-2	for	for	ADP	_	_	10	mod:periph	_	AlignBegin=113100|AlignEnd=113280|Gloss=for
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=112820|AlignEnd=113100|Gloss=PUNCT
+2	for	for	ADP	_	_	0	mod:periph	_	AlignBegin=113100|AlignEnd=113280|Gloss=for
 3	inside	inside	ADP	_	_	2	unk@fixed	_	AlignBegin=113280|AlignEnd=113570|Gloss=inside
 4	barrack	barracks	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=113570|AlignEnd=114045|Gloss=barracks.PL
 5	here	here	ADV	_	_	4	mod	_	AlignBegin=114045|AlignEnd=114187|Gloss=here
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=114187|AlignEnd=114217|Gloss=PUNCT
 7	#	#	PUNCT	_	_	2	punct	_	AlignBegin=114217|AlignEnd=114760|Gloss=PUNCT
-8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	subj	_	AlignBegin=114760|AlignEnd=114958|Gloss=NOM.PL.1
-9	no	no	PART	_	Polarity=Neg	10	mod	_	AlignBegin=114958|AlignEnd=115221|Gloss=NEG
-10	&	&	X	_	_	0	root	_	AlignBegin=115221|AlignEnd=115251|Gloss=X
-11	//	//	PUNCT	_	_	10	punct	_	AlignBegin=115221|AlignEnd=115251|Gloss=PUNCT
+8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	subj	_	AlignBegin=114760|AlignEnd=114958|Gloss=NOM.PL.1
+9	no	no	PART	_	Polarity=Neg	0	root@scrap	_	AlignBegin=114958|AlignEnd=115221|Gloss=NEG
+10	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=115221|AlignEnd=115251|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__34
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -1033,9 +1031,8 @@
 # text_en = We…
 # text_ortho = We dey…
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=158805|AlignEnd=158920|Gloss=NOM.PL.1
-2	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=158920|AlignEnd=159100|Gloss=IPFV
-3	&	&	X	_	_	2	comp:aux	_	AlignBegin=159100|AlignEnd=159130|Gloss=X
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=159100|AlignEnd=159130|Gloss=PUNCT
+2	dey	dey	AUX	_	Aspect=Imp	0	root@scrap	_	AlignBegin=158920|AlignEnd=159100|Gloss=IPFV
+3	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=159100|AlignEnd=159130|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__43
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -1700,9 +1697,8 @@
 # text_ortho = E dey…
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=242985|AlignEnd=243305|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=243305|AlignEnd=243405|Gloss=NOM.SG.3
-3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=243405|AlignEnd=243535|Gloss=IPFV
-4	&	&	X	_	_	3	comp:aux	_	AlignBegin=243535|AlignEnd=243565|Gloss=X
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=243535|AlignEnd=243565|Gloss=PUNCT
+3	dey	dey	AUX	_	Aspect=Imp	0	root@scrap	_	AlignBegin=243405|AlignEnd=243535|Gloss=IPFV
+4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=243535|AlignEnd=243565|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__76
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -1769,7 +1765,7 @@
 2	but	but	CCONJ	_	_	35	cc	_	AlignBegin=251381|AlignEnd=251521|Gloss=but
 3	when	when	ADV	_	PronType=Int	35	mod:periph	_	AlignBegin=251521|AlignEnd=251635|Gloss=when.Q
 4	dem	dem	DET	_	Number=Plur|PronType=Art	5	subj	_	AlignBegin=251635|AlignEnd=251761|Gloss=PL.ART
-5	talk	talk	VERB	_	_	3	comp:obj	_	AlignBegin=251761|AlignEnd=251931|Gloss=talk
+5	talk	talk	VERB	_	_	3	mod@relcl	_	AlignBegin=251761|AlignEnd=251931|Gloss=talk
 6	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=251931|AlignEnd=252141|Gloss=COMP
 7	[	[	PUNCT	_	_	18	punct	_	AlignBegin=252141|AlignEnd=252171|Gloss=PUNCT
 8	person	person	NOUN	_	_	18	dislocated	_	AlignBegin=252171|AlignEnd=252501|Gloss=person
@@ -1922,9 +1918,8 @@
 # text_en = We're…
 # text_ortho = We dey…
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=277721|AlignEnd=277910|Gloss=NOM.PL.1
-2	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=277910|AlignEnd=278190|Gloss=IPFV
-3	&	&	X	_	_	2	comp:aux	_	AlignBegin=278190|AlignEnd=278220|Gloss=X
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=278190|AlignEnd=278220|Gloss=PUNCT
+2	dey	dey	AUX	_	Aspect=Imp	0	root@scrap	_	AlignBegin=277910|AlignEnd=278190|Gloss=IPFV
+3	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=278190|AlignEnd=278220|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__88
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -1936,9 +1931,8 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=278710|AlignEnd=278740|Gloss=PUNCT
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=278740|AlignEnd=278860|Gloss=NOM.SG.1
 4	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=278860|AlignEnd=278980|Gloss=CONT
-5	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=278980|AlignEnd=279640|Gloss=go
-6	&	&	X	_	_	5	comp:obj	_	AlignBegin=279640|AlignEnd=279670|Gloss=X
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=279640|AlignEnd=279670|Gloss=PUNCT
+5	go	go	VERB	_	_	4	comp:aux@scrap	_	AlignBegin=278980|AlignEnd=279640|Gloss=go
+6	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=279640|AlignEnd=279670|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__89
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -2031,9 +2025,8 @@
 # text_ortho = We go go…
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=291861|AlignEnd=291931|Gloss=NOM.PL.1
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=291931|AlignEnd=292111|Gloss=CONT
-3	go	go	VERB	_	_	2	comp:aux	_	AlignBegin=292111|AlignEnd=292370|Gloss=go
-4	&	&	X	_	_	3	comp:obj	_	AlignBegin=292370|AlignEnd=292400|Gloss=X
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=292370|AlignEnd=292400|Gloss=PUNCT
+3	go	go	VERB	_	_	2	comp:aux@scrap	_	AlignBegin=292111|AlignEnd=292370|Gloss=go
+4	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=292370|AlignEnd=292400|Gloss=PUNCT
 
 # sent_id = IBA_20_Bose-Alade_MG__94
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -2100,7 +2093,7 @@
 5	why	why	ADV	_	PronType=Int	4	comp:pred	_	AlignBegin=303160|AlignEnd=303220|Gloss=why.Q
 6	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=303220|AlignEnd=303280|Gloss=PUNCT
 7	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	subj	_	AlignBegin=303220|AlignEnd=303280|Gloss=NOM.PL.3
-8	dey	dey	AUX	_	Aspect=Imp	5	dep	_	AlignBegin=303280|AlignEnd=303500|Gloss=IPFV
+8	dey	dey	AUX	_	Aspect=Imp	5	mod@relcl	_	AlignBegin=303280|AlignEnd=303500|Gloss=IPFV
 9	do	do	VERB	_	_	8	comp:aux	_	AlignBegin=303500|AlignEnd=303600|Gloss=do
 10	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	11	mod	_	AlignBegin=303600|AlignEnd=303794|Gloss=3.PL.POSS
 11	programme	programme	NOUN	_	_	9	comp:obj	_	AlignBegin=303794|AlignEnd=304340|Gloss=programme
@@ -2125,12 +2118,12 @@
 8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=306756|AlignEnd=306897|Gloss=SG.DIST.DEM
 9	one	one	NOUN	_	_	6	comp:pred	_	AlignBegin=306897|AlignEnd=307107|Gloss=one
 10	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=307107|AlignEnd=307137|Gloss=PUNCT
-11	na	na	PART	_	PartType=Cop	6	comp:cleft	_	AlignBegin=307137|AlignEnd=307210|Gloss=be.COP
-12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	comp:pred	_	AlignBegin=307210|AlignEnd=307260|Gloss=NOM.SG.3
+11	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	6	comp:cleft	_	AlignBegin=307137|AlignEnd=307210|Gloss=be.COP
+12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	comp:pred@fixed	_	AlignBegin=307210|AlignEnd=307260|Gloss=NOM.SG.3
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=307260|AlignEnd=307367|Gloss=NOM.SG.1
 14	still	still	ADV	_	_	16	mod	_	AlignBegin=307367|AlignEnd=307696|Gloss=still
 15	#	#	PUNCT	_	_	16	punct	_	AlignBegin=307696|AlignEnd=308137|Gloss=PUNCT
-16	get	get	VERB	_	_	12	mod@relcl	_	AlignBegin=308137|AlignEnd=308296|Gloss=get
+16	get	get	VERB	_	_	12	comp:obj	_	AlignBegin=308137|AlignEnd=308296|Gloss=get
 17	for	for	ADP	_	_	16	comp:obl	_	AlignBegin=308296|AlignEnd=308611|Gloss=for
 18	hand	hand	NOUN	_	_	17	comp:obj	_	AlignBegin=308611|AlignEnd=308850|Gloss=hand
 19	//	//	PUNCT	_	_	6	punct	_	AlignBegin=308850|AlignEnd=308880|Gloss=PUNCT
@@ -2155,14 +2148,14 @@
 12	pikin	pikin	NOUN	_	_	9	comp:pred	_	AlignBegin=310800|AlignEnd=311187|Gloss=child
 13	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=311187|AlignEnd=311217|Gloss=PUNCT
 14	#	#	PUNCT	_	_	15	punct	_	AlignBegin=311217|AlignEnd=311610|Gloss=PUNCT
-15	na	na	PART	_	PartType=Cop	9	comp:cleft	_	AlignBegin=311610|AlignEnd=311750|Gloss=be.COP
-16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	comp:pred	_	AlignBegin=311750|AlignEnd=311850|Gloss=NOM.SG.3
+15	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	9	comp:cleft	_	AlignBegin=311610|AlignEnd=311750|Gloss=be.COP
+16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	comp:pred@fixed	_	AlignBegin=311750|AlignEnd=311850|Gloss=NOM.SG.3
 17	{	{	PUNCT	_	_	18	punct	_	AlignBegin=311850|AlignEnd=311880|Gloss=PUNCT
 18	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	subj	_	AlignBegin=311880|AlignEnd=312167|Gloss=NOM.PL.3
 19	||	||	PUNCT	_	_	21	punct	_	AlignBegin=312167|AlignEnd=312197|Gloss=PUNCT
 20	#	#	PUNCT	_	_	21	punct	_	AlignBegin=312197|AlignEnd=312671|Gloss=PUNCT
 21	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	conj:dicto	_	AlignBegin=312671|AlignEnd=312980|Gloss=NOM.PL.3
 22	}	}	PUNCT	_	_	18	punct	_	AlignBegin=312980|AlignEnd=313010|Gloss=PUNCT
-23	be	be	VERB	_	PartType=Cop	16	mod@relcl	_	AlignBegin=313010|AlignEnd=313385|Gloss=be.COP
+23	be	be	VERB	_	PartType=Cop	16	comp:obj	_	AlignBegin=313010|AlignEnd=313385|Gloss=be.COP
 24	//	//	PUNCT	_	_	9	punct	_	AlignBegin=313385|AlignEnd=313415|Gloss=PUNCT
 

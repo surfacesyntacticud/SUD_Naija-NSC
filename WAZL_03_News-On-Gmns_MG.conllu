@@ -795,7 +795,7 @@
 4	#	#	PUNCT	_	_	5	punct	_	AlignBegin=134979|AlignEnd=135315|Gloss=PUNCT
 5	sey	sey	SCONJ	_	_	3	unk@fixed	_	AlignBegin=135315|AlignEnd=135430|Gloss=COMP
 6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=135430|AlignEnd=135530|Gloss=NOM.PL.3
-7	go	go	AUX	_	Aspect=Prosp	0	conj:coord	_	AlignBegin=135530|AlignEnd=135660|Gloss=CONT
+7	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=135530|AlignEnd=135660|Gloss=CONT
 8	receive	receive	VERB	_	_	7	comp:aux	_	AlignBegin=135660|AlignEnd=135900|Gloss=receive
 9	the	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=135900|AlignEnd=136080|Gloss=DEF.ART
 10	best	best	ADJ	_	Degree=Sup	8	compound:svc	_	AlignBegin=136080|AlignEnd=136560|Gloss=good.SUP
@@ -982,9 +982,9 @@
 41	im	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	42	mod	_	AlignBegin=171900|AlignEnd=172073|Gloss=M.SG.3.POSS
 42	doctor	doctor	NOUN	_	_	39	comp:pred	_	AlignBegin=172073|AlignEnd=172474|Gloss=doctor
 43	>+	>+	PUNCT	_	_	44	punct	_	AlignBegin=172474|AlignEnd=172504|Gloss=PUNCT
-44	na	na	PART	_	PartType=Cop	39	comp:cleft	_	AlignBegin=172504|AlignEnd=172594|Gloss=be.COP
-45	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	44	comp:pred	_	AlignBegin=172594|AlignEnd=172710|Gloss=NOM.SG.3
-46	fit	fit	AUX	_	Mood=Ability	45	dep	_	AlignBegin=172710|AlignEnd=172940|Gloss=ABIL
+44	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	39	comp:cleft	_	AlignBegin=172504|AlignEnd=172594|Gloss=be.COP
+45	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	44	comp:pred@fixed	_	AlignBegin=172594|AlignEnd=172710|Gloss=NOM.SG.3
+46	fit	fit	AUX	_	Mood=Ability	45	comp:obj	_	AlignBegin=172710|AlignEnd=172940|Gloss=ABIL
 47	talk	talk	VERB	_	_	46	comp:aux	_	AlignBegin=172940|AlignEnd=173199|Gloss=talk
 48	that	dat	SCONJ	_	_	49	det	_	AlignBegin=173199|AlignEnd=173380|Gloss=that
 49	one	one	NOUN	_	_	47	comp:obj	_	AlignBegin=173380|AlignEnd=173560|Gloss=one
@@ -1686,7 +1686,7 @@
 24	when	when	ADV	_	PronType=Int	23	comp:obj	_	AlignBegin=289970|AlignEnd=290180|Gloss=when.Q
 25	things	ting	NOUN	_	Number=Plur	27	subj	_	AlignBegin=290180|AlignEnd=290420|Gloss=thing.PL
 26	no	no	PART	_	Polarity=Neg	27	mod	_	AlignBegin=290420|AlignEnd=290552|Gloss=NEG
-27	dey	dey	AUX	_	Aspect=Imp	24	dep	_	AlignBegin=290552|AlignEnd=290670|Gloss=IPFV
+27	dey	dey	AUX	_	Aspect=Imp	24	mod@relcl	_	AlignBegin=290552|AlignEnd=290670|Gloss=IPFV
 28	favour	favour	VERB	_	_	27	comp:aux	_	AlignBegin=290670|AlignEnd=291041|Gloss=favour
 29	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	comp:obj	_	AlignBegin=291041|AlignEnd=291480|Gloss=ACC.PL.3
 30	//	//	PUNCT	_	_	7	punct	_	AlignBegin=291480|AlignEnd=291510|Gloss=PUNCT
@@ -1759,11 +1759,10 @@
 60	}	}	PUNCT	_	_	53	punct	_	AlignBegin=303253|AlignEnd=303283|Gloss=PUNCT
 61	}	}	PUNCT	_	_	27	punct	_	AlignBegin=303253|AlignEnd=303283|Gloss=PUNCT
 62	on	on	ADP	_	_	36	comp:obl	_	AlignBegin=303283|AlignEnd=303423|Gloss=on
-63	all	all	ADV	_	_	65	det	_	AlignBegin=303423|AlignEnd=303641|Gloss=all
-64	di	the	DET	_	Definite=Def|PronType=Art	65	det	_	AlignBegin=303641|AlignEnd=303833|Gloss=DEF.ART
-65	&	&	X	_	_	62	comp:obj	_	AlignBegin=303833|AlignEnd=303863|Gloss=X
-66	]	]	PUNCT	_	_	27	punct	_	AlignBegin=303833|AlignEnd=303863|Gloss=PUNCT
-67	//	//	PUNCT	_	_	4	punct	_	AlignBegin=303833|AlignEnd=303863|Gloss=PUNCT
+63	all	all	ADV	_	_	62	det	_	AlignBegin=303423|AlignEnd=303641|Gloss=all
+64	di	the	DET	_	Definite=Def|PronType=Art	62	comp:obj@scrap	_	AlignBegin=303641|AlignEnd=303833|Gloss=DEF.ART
+65	]	]	PUNCT	_	_	27	punct	_	AlignBegin=303833|AlignEnd=303863|Gloss=PUNCT
+66	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=303833|AlignEnd=303863|Gloss=PUNCT
 
 # sent_id = WAZL_03_News-On-Gmns_MG__38
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_03_News-On-Gmns_MG.mp3
@@ -1814,7 +1813,7 @@
 41	}	}	PUNCT	_	_	22	punct	_	AlignBegin=311201|AlignEnd=311231|Gloss=PUNCT
 42	when	when	ADV	_	PronType=Int	39	mod	_	AlignBegin=311231|AlignEnd=311376|Gloss=when.Q
 43	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	44	subj	_	AlignBegin=311376|AlignEnd=311550|Gloss=NOM.PL.3
-44	bin	bin	AUX	_	Tense=Past	42	comp:obj	_	AlignBegin=311550|AlignEnd=311670|Gloss=PST
+44	bin	bin	AUX	_	Tense=Past	42	mod@relcl	_	AlignBegin=311550|AlignEnd=311670|Gloss=PST
 45	get	get	VERB	_	_	44	comp:aux	_	AlignBegin=311670|AlignEnd=311871|Gloss=get
 46	any	any	DET	_	_	48	det	_	AlignBegin=311871|AlignEnd=312060|Gloss=any
 47	kind	kind	ADJ	_	_	48	mod	_	AlignBegin=312060|AlignEnd=312302|Gloss=kind
@@ -1943,9 +1942,9 @@
 12	Audu	Audu	PROPN	_	_	11	flat	_	AlignBegin=335990|AlignEnd=336410|Gloss=Audu
 13	}	}	PUNCT	_	_	5	punct	_	AlignBegin=336410|AlignEnd=336440|Gloss=PUNCT
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=336410|AlignEnd=336440|Gloss=PUNCT
-15	na	na	PART	_	PartType=Cop	2	comp:cleft	_	AlignBegin=336440|AlignEnd=336590|Gloss=be.COP
-16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	comp:pred	_	AlignBegin=336590|AlignEnd=336771|Gloss=NOM.SG.3
-17	yarn	yarn	VERB	_	_	16	dep	_	AlignBegin=336771|AlignEnd=336990|Gloss=talk
+15	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	2	comp:cleft	_	AlignBegin=336440|AlignEnd=336590|Gloss=be.COP
+16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	comp:pred@fixed	_	AlignBegin=336590|AlignEnd=336771|Gloss=NOM.SG.3
+17	yarn	yarn	VERB	_	_	16	comp:obj	_	AlignBegin=336771|AlignEnd=336990|Gloss=talk
 18	dis	dis	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=336990|AlignEnd=337197|Gloss=SG.PROX.DEM
 19	one	one	NOUN	_	_	17	comp:obj	_	AlignBegin=337197|AlignEnd=337439|Gloss=one
 20	yesterday	yesterday	NOUN	_	_	17	mod	_	AlignBegin=337439|AlignEnd=337798|Gloss=yesterday
@@ -1994,14 +1993,14 @@
 2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=343707|AlignEnd=343851|Gloss=DEF.ART
 3	things	ting	NOUN	_	Number=Plur	11	dislocated	_	AlignBegin=343851|AlignEnd=344060|Gloss=thing.PL
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=344060|AlignEnd=344090|Gloss=PUNCT
-5	some	some	DET	_	_	11	dislocated	_	AlignBegin=344090|AlignEnd=344250|Gloss=some
+5	some	some	PRON	_	_	11	dislocated	_	AlignBegin=344090|AlignEnd=344250|Gloss=some
 6	of	of	ADP	_	_	5	mod	_	AlignBegin=344250|AlignEnd=344370|Gloss=of
 7	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=344370|AlignEnd=344483|Gloss=ACC.PL.3
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=344483|AlignEnd=344513|Gloss=PUNCT
 9	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	AlignBegin=344513|AlignEnd=344610|Gloss=NOM.PL.3
 10	no	no	PART	_	Polarity=Neg	11	mod	_	AlignBegin=344610|AlignEnd=344770|Gloss=NEG
 11	get	get	VERB	_	_	0	root	_	AlignBegin=344770|AlignEnd=344980|Gloss=get
-12	any	any	DET	_	_	11	comp:obj	_	AlignBegin=344980|AlignEnd=345160|Gloss=any
+12	any	any	PRON	_	_	11	comp:obj	_	AlignBegin=344980|AlignEnd=345160|Gloss=any
 13	of	of	ADP	_	_	12	mod	_	AlignBegin=345160|AlignEnd=345290|Gloss=of
 14	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=345290|AlignEnd=345480|Gloss=ACC.PL.3
 15	//	//	PUNCT	_	_	11	punct	_	AlignBegin=345480|AlignEnd=345510|Gloss=PUNCT
@@ -2012,14 +2011,14 @@
 # text = some of dem < de no get some of di materials again //
 # text_en = Some of them don’t have some of the materials again.
 # text_ortho = Some of dem, de no get some of di materials again.
-1	some	some	DET	_	_	7	dislocated	_	AlignBegin=345510|AlignEnd=345710|Gloss=some
+1	some	some	PRON	_	_	7	dislocated	_	AlignBegin=345510|AlignEnd=345710|Gloss=some
 2	of	of	ADP	_	_	1	mod	_	AlignBegin=345710|AlignEnd=345820|Gloss=of
 3	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=345820|AlignEnd=345880|Gloss=ACC.PL.3
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=345880|AlignEnd=345910|Gloss=PUNCT
 5	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=345910|AlignEnd=345970|Gloss=NOM.PL.3
 6	no	no	PART	_	Polarity=Neg	7	mod	_	AlignBegin=345970|AlignEnd=346068|Gloss=NEG
 7	get	get	VERB	_	_	0	root	_	AlignBegin=346068|AlignEnd=346184|Gloss=get
-8	some	some	DET	_	_	7	comp:obj	_	AlignBegin=346184|AlignEnd=346330|Gloss=some
+8	some	some	PRON	_	_	7	comp:obj	_	AlignBegin=346184|AlignEnd=346330|Gloss=some
 9	of	of	ADP	_	_	8	mod	_	AlignBegin=346330|AlignEnd=346400|Gloss=of
 10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=346400|AlignEnd=346484|Gloss=DEF.ART
 11	materials	material	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=346484|AlignEnd=347020|Gloss=material.PL
@@ -2105,7 +2104,7 @@
 39	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	subj	_	AlignBegin=359363|AlignEnd=359479|Gloss=NOM.PL.3
 40	no	no	PART	_	Polarity=Neg	41	mod	_	AlignBegin=359479|AlignEnd=359620|Gloss=NEG
 41	get	get	VERB	_	_	35	comp:obj	_	AlignBegin=359620|AlignEnd=359759|Gloss=get
-42	some	some	DET	_	_	41	comp:obj	_	AlignBegin=359759|AlignEnd=359930|Gloss=some
+42	some	some	PRON	_	_	41	comp:obj	_	AlignBegin=359759|AlignEnd=359930|Gloss=some
 43	of	of	ADP	_	_	42	mod	_	AlignBegin=359930|AlignEnd=360020|Gloss=of
 44	dis	dis	DET	_	Number=Sing|PronType=Dem	45	det	_	AlignBegin=360020|AlignEnd=360232|Gloss=SG.PROX.DEM
 45	materials	material	NOUN	_	Number=Plur	43	comp:obj	_	AlignBegin=360232|AlignEnd=360949|Gloss=material.PL
@@ -2479,9 +2478,9 @@
 27	na	na	PART	_	PartType=Cop	24	comp:obj	_	AlignBegin=430600|AlignEnd=430740|Gloss=be.COP
 28	Macron	Macron	PROPN	_	_	27	comp:pred	_	AlignBegin=430740|AlignEnd=431130|Gloss=Macron
 29	>+	>+	PUNCT	_	_	30	punct	_	AlignBegin=431130|AlignEnd=431160|Gloss=PUNCT
-30	na	na	PART	_	PartType=Cop	27	comp:cleft	_	AlignBegin=431160|AlignEnd=431288|Gloss=be.COP
-31	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	comp:pred	_	AlignBegin=431288|AlignEnd=431390|Gloss=NOM.SG.3
-32	chopulate	chopulate	VERB	_	_	31	dep	_	AlignBegin=431390|AlignEnd=431880|Gloss=eat
+30	na	na	PART	_	EXTPOS=SCONJ|PartType=Cop	27	comp:cleft	_	AlignBegin=431160|AlignEnd=431288|Gloss=be.COP
+31	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	comp:pred@fixed	_	AlignBegin=431288|AlignEnd=431390|Gloss=NOM.SG.3
+32	chopulate	chopulate	VERB	_	_	31	comp:obj	_	AlignBegin=431390|AlignEnd=431880|Gloss=eat
 33	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	32	comp:obj	_	AlignBegin=431880|AlignEnd=432000|Gloss=ACC.SG.3
 34	//]	//]	PUNCT	_	_	27	punct	_	AlignBegin=432000|AlignEnd=432030|Gloss=PUNCT
 35	]	]	PUNCT	_	_	18	punct	_	AlignBegin=432000|AlignEnd=432030|Gloss=PUNCT
@@ -2783,7 +2782,7 @@
 3	see	see	VERB	_	_	1	comp:aux	_	AlignBegin=478355|AlignEnd=478523|Gloss=see
 4	how	how	ADV	_	PronType=Int	3	comp:obj	_	AlignBegin=478523|AlignEnd=478709|Gloss=how.Q
 5	weather	weather	NOUN	_	_	6	subj	_	AlignBegin=478709|AlignEnd=478955|Gloss=weather
-6	go	go	AUX	_	Aspect=Prosp	4	dep	_	AlignBegin=478955|AlignEnd=479075|Gloss=CONT
+6	go	go	AUX	_	Aspect=Prosp	4	mod@relcl	_	AlignBegin=478955|AlignEnd=479075|Gloss=CONT
 7	be	be	VERB	_	PartType=Cop	6	comp:aux	_	AlignBegin=479075|AlignEnd=479205|Gloss=be.COP
 8	for	for	ADP	_	_	7	comp:pred	_	AlignBegin=479205|AlignEnd=479485|Gloss=for
 9	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=479485|AlignEnd=479603|Gloss=ACC.PL.1

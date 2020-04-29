@@ -862,7 +862,7 @@
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=169640|AlignEnd=170000|Gloss=PUNCT
 2	when	when	ADV	_	PronType=Int	13	mod:periph	_	AlignBegin=170000|AlignEnd=170180|Gloss=when.Q
 3	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=170180|AlignEnd=170280|Gloss=NOM.NT.SG.3
-4	becomes	become	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=170280|AlignEnd=170699|Gloss=become.IND.SG.3.PRS.FIN
+4	becomes	become	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	AlignBegin=170280|AlignEnd=170699|Gloss=become.IND.SG.3.PRS.FIN
 5	thicken	thicken	VERB	_	_	4	comp:obj@x	_	AlignBegin=170699|AlignEnd=171250|Gloss=thicken
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=171250|AlignEnd=171280|Gloss=PUNCT
 7	#	#	PUNCT	_	_	2	punct	_	AlignBegin=171280|AlignEnd=172020|Gloss=PUNCT
@@ -1282,7 +1282,7 @@
 4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=254520|AlignEnd=254590|Gloss=be.IND.SG.3.PRS.FIN
 5	how	how	ADV	_	PronType=Int	4	comp:pred	_	AlignBegin=254590|AlignEnd=254696|Gloss=how.Q
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	subj	_	AlignBegin=254696|AlignEnd=254820|Gloss=NOM.PL.1
-7	take	take	VERB	_	_	5	dep	_	AlignBegin=254820|AlignEnd=255120|Gloss=take
+7	take	take	VERB	_	_	5	mod@relcl	_	AlignBegin=254820|AlignEnd=255120|Gloss=take
 8	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=255120|AlignEnd=255390|Gloss=NOM.NT.SG.3
 9	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=255390|AlignEnd=255420|Gloss=PUNCT
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=255390|AlignEnd=255420|Gloss=PUNCT
@@ -1494,7 +1494,7 @@
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=298340|AlignEnd=298370|Gloss=PUNCT
 4	when	when	ADV	_	PronType=Int	19	mod:periph	_	AlignBegin=298370|AlignEnd=298609|Gloss=when.Q
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=298609|AlignEnd=298894|Gloss=NOM.2
-6	sick	sick	ADJ	_	_	4	comp:obj	_	AlignBegin=298894|AlignEnd=299370|Gloss=sick
+6	sick	sick	ADJ	_	_	4	mod@relcl	_	AlignBegin=298894|AlignEnd=299370|Gloss=sick
 7	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=299370|AlignEnd=299400|Gloss=PUNCT
 8	#	#	PUNCT	_	_	12	punct	_	AlignBegin=299400|AlignEnd=299630|Gloss=PUNCT
 9	and	and	CCONJ	_	_	12	cc	_	AlignBegin=299630|AlignEnd=299830|Gloss=and
@@ -1562,10 +1562,9 @@
 10	good	good	ADJ	_	_	8	comp:pred	_	AlignBegin=313420|AlignEnd=313671|Gloss=good
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=313800|AlignEnd=314360|Gloss=PUNCT
 12	for	for	ADP	_	_	10	comp:obl	_	AlignBegin=314360|AlignEnd=314515|Gloss=for
-13	every	every	DET	_	_	14	det	_	AlignBegin=314515|AlignEnd=314890|Gloss=every
-14	&	&	X	_	_	12	comp:obj	_	AlignBegin=314890|AlignEnd=314920|Gloss=X
-15	eng]	eng]	PUNCT	_	_	8	punct	_	AlignBegin=314890|AlignEnd=314920|Gloss=PUNCT
-16	//	//	PUNCT	_	_	8	punct	_	AlignBegin=314890|AlignEnd=314920|Gloss=PUNCT
+13	every	every	DET	_	_	12	comp:obj@scrap	_	AlignBegin=314515|AlignEnd=314890|Gloss=every
+14	eng]	eng]	PUNCT	_	_	8	punct	_	AlignBegin=314890|AlignEnd=314920|Gloss=PUNCT
+15	&//	//	PUNCT	_	_	8	punct	_	AlignBegin=314890|AlignEnd=314920|Gloss=PUNCT
 
 # sent_id = JOS_12_How-To-Prepare-Gote-Soup_MG__65
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_12_How-To-Prepare-Gote-Soup_MG.mp3
