@@ -5,7 +5,7 @@
 # text_en = Good morning!
 # text_ortho = Una good morning o!
 1	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	vocative	_	AlignBegin=1996|AlignEnd=2150|Gloss=NOM.PL.2
-2	good	good	ADJ	_	_	3	dep	_	AlignBegin=2150|AlignEnd=2299|Gloss=good
+2	good	good	ADJ	_	_	3	mod	_	AlignBegin=2150|AlignEnd=2299|Gloss=good
 3	morning	morning	NOUN	_	_	0	root	_	AlignBegin=2299|AlignEnd=2700|Gloss=morning
 4	o	o	PART	_	PartType=Disc	3	mod:emph	_	AlignBegin=2700|AlignEnd=2830|Gloss=EMPH
 5	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=2830|AlignEnd=2860|Gloss=PUNCT
@@ -21,7 +21,7 @@
 3	say	say	VERB	_	_	0	root	_	AlignBegin=4500|AlignEnd=4841|Gloss=say
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=4841|AlignEnd=4871|Gloss=PUNCT
 5	make	make	AUX	_	Mood=Sub	3	parataxis:obj	_	AlignBegin=4871|AlignEnd=5040|Gloss=SBJV
-6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=5040|AlignEnd=5170|Gloss=NOM.SG.1
+6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=5040|AlignEnd=5170|Gloss=NOM.SG.1
 7	greet	greet	VERB	_	_	5	comp:aux	_	AlignBegin=5170|AlignEnd=5500|Gloss=greet
 8	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=5500|AlignEnd=5700|Gloss=ACC.PL.2
 9	dis	dis	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=5700|AlignEnd=5950|Gloss=SG.PROX.DEM
@@ -48,12 +48,12 @@
 11	#	#	PUNCT	_	_	14	punct	_	AlignBegin=10624|AlignEnd=10972|Gloss=PUNCT
 12	di	the	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=10972|AlignEnd=11070|Gloss=DEF.ART
 13	Unit	unit	NOUN	_	_	14	compound	_	AlignBegin=11070|AlignEnd=11390|Gloss=unit
-14	Commander	commander	NOUN	_	_	10	dep	_	AlignBegin=11390|AlignEnd=11830|Gloss=commander
+14	Commander	commander	NOUN	_	_	10	mod	_	AlignBegin=11390|AlignEnd=11830|Gloss=commander
 15	Isolo	Isolo	PROPN	_	_	14	flat	_	AlignBegin=11830|AlignEnd=12365|Gloss=Isolo
 16	}	}	PUNCT	_	_	5	punct	_	AlignBegin=12365|AlignEnd=12395|Gloss=PUNCT
 17	#	#	PUNCT	_	_	18	punct	_	AlignBegin=12395|AlignEnd=12701|Gloss=PUNCT
-18	for	for	ADP	_	_	10	dep	_	AlignBegin=12701|AlignEnd=12812|Gloss=for
-19	Federal	federal	ADJ	_	_	22	dep	_	AlignBegin=12812|AlignEnd=13170|Gloss=federal
+18	for	for	ADP	_	_	10	mod	_	AlignBegin=12701|AlignEnd=12812|Gloss=for
+19	Federal	federal	ADJ	_	_	22	mod	_	AlignBegin=12812|AlignEnd=13170|Gloss=federal
 20	Road	road	NOUN	_	_	21	compound	_	AlignBegin=13170|AlignEnd=13260|Gloss=road
 21	Safety	safety	NOUN	_	_	22	compound	_	AlignBegin=13260|AlignEnd=13753|Gloss=safety
 22	Corp	corp	PROPN	_	_	18	comp:obj	_	AlignBegin=13753|AlignEnd=14004|Gloss=corp
@@ -73,7 +73,7 @@
 6	#	#	PUNCT	_	_	5	punct	_	AlignBegin=16183|AlignEnd=16270|Gloss=PUNCT
 7	people	people	NOUN	_	Number=Plur	4	comp:pred	_	AlignBegin=16270|AlignEnd=16626|Gloss=people.PL
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=16626|AlignEnd=16656|Gloss=PUNCT
-9	wey	when	SCONJ	_	_	7	dep	_	AlignBegin=16656|AlignEnd=17080|Gloss=when
+9	wey	wey	SCONJ	_	gloss=REL	7	mod@relcl	_	AlignBegin=16656|AlignEnd=17080|Gloss=when
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=17080|AlignEnd=17614|Gloss=PUNCT
 11	dey	dey	VERB	_	VerbType=Cop	9	comp:obj	_	AlignBegin=17614|AlignEnd=17760|Gloss=dey.COP
 12	for	for	ADP	_	_	11	comp:pred	_	AlignBegin=17760|AlignEnd=17998|Gloss=for
@@ -115,9 +115,9 @@
 5	no	no	PART	_	Polarity=Neg	6	mod	_	AlignBegin=25280|AlignEnd=25430|Gloss=NEG
 6	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=25430|AlignEnd=25540|Gloss=be.COP
 7	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=25540|AlignEnd=25650|Gloss=DEF.ART
-8	only	only	ADJ	_	_	9	dep	_	AlignBegin=25650|AlignEnd=25858|Gloss=only
+8	only	only	ADJ	_	_	9	mod	_	AlignBegin=25650|AlignEnd=25858|Gloss=only
 9	ting	ting	NOUN	_	_	6	comp:pred	_	AlignBegin=25858|AlignEnd=25980|Gloss=thing
-10	wey	when	SCONJ	_	_	9	dep	_	AlignBegin=26010|AlignEnd=26154|Gloss=when
+10	wey	wey	SCONJ	_	gloss=REL	9	mod@relcl	_	AlignBegin=26010|AlignEnd=26154|Gloss=when
 11	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	subj	_	AlignBegin=26154|AlignEnd=26270|Gloss=NOM.PL.1
 12	dey	dey	VERB	_	VerbType=Cop	10	comp:obj	_	AlignBegin=26270|AlignEnd=26490|Gloss=dey.COP
 13	dey	dey	AUX	_	Aspect=Imp	12	comp:pred	_	AlignBegin=26490|AlignEnd=26650|Gloss=IPFV
@@ -133,7 +133,7 @@
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=26900|AlignEnd=28060|Gloss=PUNCT
 2	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	3	det	_	AlignBegin=28060|AlignEnd=28290|Gloss=PL.1.POSS
 3	work	work	NOUN	_	_	7	subj	_	AlignBegin=28290|AlignEnd=28549|Gloss=work
-4	for	for	ADP	_	_	3	dep	_	AlignBegin=28549|AlignEnd=28710|Gloss=for
+4	for	for	ADP	_	_	3	mod	_	AlignBegin=28549|AlignEnd=28710|Gloss=for
 5	road	road	NOUN	_	_	6	compound	_	AlignBegin=28710|AlignEnd=28856|Gloss=road
 6	safety	safety	NOUN	_	_	4	comp:obj	_	AlignBegin=28856|AlignEnd=29190|Gloss=safety
 7	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=29190|AlignEnd=29389|Gloss=be.COP
@@ -141,7 +141,7 @@
 9	teach	teach	VERB	_	_	8	comp:obj	_	AlignBegin=29656|AlignEnd=30240|Gloss=teach
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=30240|AlignEnd=30540|Gloss=PUNCT
 11	people	people	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=30540|AlignEnd=30790|Gloss=people.PL
-12	wey	when	SCONJ	_	_	11	dep	_	AlignBegin=30790|AlignEnd=30920|Gloss=when
+12	wey	wey	SCONJ	_	gloss=REL	11	mod@relcl	_	AlignBegin=30790|AlignEnd=30920|Gloss=when
 13	dey	dey	AUX	_	Aspect=Imp	12	comp:obj	_	AlignBegin=30920|AlignEnd=31190|Gloss=IPFV
 14	use	use	VERB	_	_	13	comp:aux	_	AlignBegin=31190|AlignEnd=31480|Gloss=use
 15	road	road	NOUN	_	_	14	comp:obj	_	AlignBegin=31480|AlignEnd=31810|Gloss=road
@@ -204,7 +204,7 @@
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=41980|AlignEnd=42050|Gloss=NOM.PL.1
 3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=42050|AlignEnd=42170|Gloss=IPFV
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=42170|AlignEnd=42450|Gloss=go
-5	talk	talk	VERB	_	_	4	comp:pred	_	AlignBegin=42450|AlignEnd=42650|Gloss=talk
+5	talk	talk	VERB	_	_	4	comp:obj@x	_	AlignBegin=42450|AlignEnd=42650|Gloss=talk
 6	to	to	ADP	_	_	5	comp:obl	_	AlignBegin=42650|AlignEnd=42799|Gloss=to
 7	people	people	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=42799|AlignEnd=43182|Gloss=people.PL
 8	about	about	ADP	_	_	5	comp:obl	_	AlignBegin=43182|AlignEnd=43950|Gloss=about
@@ -228,26 +228,26 @@
 8	all	all	ADV	_	_	9	mod	_	AlignBegin=46588|AlignEnd=46845|Gloss=all
 9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=46845|AlignEnd=47021|Gloss=DEF.ART
 10	things	ting	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=47021|AlignEnd=47278|Gloss=thing.PL
-11	wey	when	SCONJ	_	_	10	dep	_	AlignBegin=47278|AlignEnd=47368|Gloss=when
+11	wey	wey	SCONJ	_	gloss=REL	10	mod@relcl	_	AlignBegin=47278|AlignEnd=47368|Gloss=when
 12	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	subj	_	AlignBegin=47368|AlignEnd=47498|Gloss=NOM.PL.3
 13	suppose	suppose	VERB	_	_	11	comp:obj	_	AlignBegin=47498|AlignEnd=48027|Gloss=suppose
-14	do	do	VERB	_	_	13	comp:pred	_	AlignBegin=48027|AlignEnd=48200|Gloss=do
+14	do	do	VERB	_	_	13	comp:obj@x	_	AlignBegin=48027|AlignEnd=48200|Gloss=do
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=48200|AlignEnd=48230|Gloss=PUNCT
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=48230|AlignEnd=49020|Gloss=PUNCT
 17	wey	when	SCONJ	_	_	11	conj:coord	_	AlignBegin=49020|AlignEnd=49110|Gloss=when
 18	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	subj	_	AlignBegin=49110|AlignEnd=49257|Gloss=NOM.PL.3
 19	need	need	VERB	_	_	17	comp:obj	_	AlignBegin=49257|AlignEnd=49410|Gloss=need
-20	to	to	ADP	_	_	19	comp:pred	_	AlignBegin=49410|AlignEnd=49610|Gloss=to
+20	to	to	ADP	_	_	19	comp:obl@x	_	AlignBegin=49410|AlignEnd=49610|Gloss=to
 21	do	do	VERB	_	_	20	comp:obj	_	AlignBegin=49610|AlignEnd=49841|Gloss=do
 22	}	}	PUNCT	_	_	10	punct	_	AlignBegin=49841|AlignEnd=49871|Gloss=PUNCT
 23	#	#	PUNCT	_	_	24	punct	_	AlignBegin=49871|AlignEnd=50090|Gloss=PUNCT
-24	to	to	ADP	_	_	4	comp:pred	_	AlignBegin=50090|AlignEnd=50230|Gloss=to
+24	to	to	ADP	_	_	4	comp:obl@x	_	AlignBegin=50090|AlignEnd=50230|Gloss=to
 25	make	make	VERB	_	_	24	comp:obj	_	AlignBegin=50230|AlignEnd=50460|Gloss=make
-26	sure	sure	ADJ	_	_	25	comp:lvc	_	AlignBegin=50460|AlignEnd=50787|Gloss=sure
+26	sure	sure	ADJ	_	_	25	comp:obj@lvc	_	AlignBegin=50460|AlignEnd=50787|Gloss=sure
 27	gbe	gbe	PART	_	_	26	mod:emph	_	AlignBegin=50787|AlignEnd=50955|Gloss=carry
 28	sey	sey	SCONJ	_	_	25	comp:obj	_	AlignBegin=50955|AlignEnd=51200|Gloss=COMP
 29	[	[	PUNCT	_	_	34	punct	_	AlignBegin=51200|AlignEnd=51472|Gloss=PUNCT
-30	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	31	dep	_	AlignBegin=51200|AlignEnd=51472|Gloss=3.PL.POSS
+30	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	31	mod	_	AlignBegin=51200|AlignEnd=51472|Gloss=3.PL.POSS
 31	motor	motor	NOUN	_	_	34	dislocated	_	AlignBegin=51472|AlignEnd=51890|Gloss=motor
 32	#	#	PUNCT	_	_	31	punct	_	AlignBegin=51890|AlignEnd=52180|Gloss=PUNCT
 33	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	34	subj	_	AlignBegin=52180|AlignEnd=52299|Gloss=NOM.SG.3
@@ -273,8 +273,8 @@
 7	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=55154|AlignEnd=55184|Gloss=PUNCT
 8	person	person	NOUN	_	_	9	subj	_	AlignBegin=55184|AlignEnd=55420|Gloss=person
 9	suppose	suppose	VERB	_	_	4	comp:cleft	_	AlignBegin=55420|AlignEnd=55760|Gloss=suppose
-10	carry	carry	VERB	_	_	9	comp:pred	_	AlignBegin=55760|AlignEnd=56034|Gloss=carry
-11	to	to	ADP	_	_	10	comp:pred	_	AlignBegin=56034|AlignEnd=56130|Gloss=to
+10	carry	carry	VERB	_	_	9	comp:obj@x	_	AlignBegin=55760|AlignEnd=56034|Gloss=carry
+11	to	to	ADP	_	_	10	comp:obl@x	_	AlignBegin=56034|AlignEnd=56130|Gloss=to
 12	enter	enter	VERB	_	_	11	comp:obj	_	AlignBegin=56130|AlignEnd=56440|Gloss=enter
 13	road	road	NOUN	_	_	12	comp:obj	_	AlignBegin=56440|AlignEnd=56725|Gloss=road
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=56725|AlignEnd=56755|Gloss=PUNCT
@@ -330,7 +330,7 @@
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	subj	_	AlignBegin=63070|AlignEnd=63220|Gloss=NOM.2
 15	#	#	PUNCT	_	_	14	punct	_	AlignBegin=63220|AlignEnd=63807|Gloss=PUNCT
 16	on	on	VERB	_	_	11	parataxis:conj	_	AlignBegin=63807|AlignEnd=63990|Gloss=switch_on
-17	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	18	dep	_	AlignBegin=63990|AlignEnd=64180|Gloss=PL.2.POSS
+17	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	18	mod	_	AlignBegin=63990|AlignEnd=64180|Gloss=PL.2.POSS
 18	engine	engine	NOUN	_	_	16	comp:obj	_	AlignBegin=64180|AlignEnd=64430|Gloss=engine
 19	//=	//=	PUNCT	_	_	21	punct	_	AlignBegin=64430|AlignEnd=64460|Gloss=PUNCT
 20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	subj	_	AlignBegin=64460|AlignEnd=64560|Gloss=NOM.2
@@ -362,7 +362,7 @@
 17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	subj	_	AlignBegin=67630|AlignEnd=67700|Gloss=NOM.2
 18	go	go	AUX	_	Aspect=Prosp	14	parataxis:conj	_	AlignBegin=67700|AlignEnd=67760|Gloss=CONT
 19	begin	begin	VERB	_	_	18	comp:aux	_	AlignBegin=67760|AlignEnd=68050|Gloss=begin
-20	complain	complain	VERB	_	_	19	comp:pred	_	AlignBegin=68050|AlignEnd=68477|Gloss=complain
+20	complain	complain	VERB	_	_	19	comp:obj@x	_	AlignBegin=68050|AlignEnd=68477|Gloss=complain
 21	//	//	PUNCT	_	_	14	punct	_	AlignBegin=68477|AlignEnd=68507|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__15
@@ -375,7 +375,7 @@
 2	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=69740|AlignEnd=69830|Gloss=be.COP
 3	wetin	wetin	PRON	_	PronType=Int	2	comp:pred	_	AlignBegin=69830|AlignEnd=70120|Gloss=what.Q
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=70120|AlignEnd=70200|Gloss=NOM.PL.1
-5	dey	dey	AUX	_	Aspect=Imp	3	dep	_	AlignBegin=70200|AlignEnd=70320|Gloss=IPFV
+5	dey	dey	AUX	_	Aspect=Imp	3	mod@relcl	_	AlignBegin=70200|AlignEnd=70320|Gloss=IPFV
 6	talk	talk	VERB	_	_	5	comp:aux	_	AlignBegin=70320|AlignEnd=70560|Gloss=talk
 7	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=70560|AlignEnd=70590|Gloss=PUNCT
 8	be	be	VERB	_	PartType=Cop	2	comp:cleft	_	AlignBegin=70590|AlignEnd=70660|Gloss=be.COP
@@ -392,14 +392,14 @@
 2	before	before	ADP	_	_	11	mod:periph	_	AlignBegin=70960|AlignEnd=71342|Gloss=before
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=71342|AlignEnd=71510|Gloss=NOM.2
 4	move	move	VERB	_	_	2	comp:obj	_	AlignBegin=71510|AlignEnd=71810|Gloss=move
-5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	dep	_	AlignBegin=71810|AlignEnd=71980|Gloss=PL.2.POSS
+5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	mod	_	AlignBegin=71810|AlignEnd=71980|Gloss=PL.2.POSS
 6	motor	motor	NOUN	_	_	4	comp:obj	_	AlignBegin=71980|AlignEnd=72340|Gloss=motor
 7	for	for	ADP	_	_	4	mod	_	AlignBegin=72340|AlignEnd=72510|Gloss=for
 8	morning	morning	NOUN	_	_	7	comp:obj	_	AlignBegin=72510|AlignEnd=73012|Gloss=morning
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=73012|AlignEnd=73042|Gloss=PUNCT
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=73042|AlignEnd=73166|Gloss=NOM.2
 11	suppose	suppose	VERB	_	_	0	root	_	AlignBegin=73166|AlignEnd=73879|Gloss=suppose
-12	check	check	VERB	_	_	11	comp:pred	_	AlignBegin=73879|AlignEnd=74286|Gloss=check
+12	check	check	VERB	_	_	11	comp:obj@x	_	AlignBegin=73879|AlignEnd=74286|Gloss=check
 13	//	//	PUNCT	_	_	11	punct	_	AlignBegin=74286|AlignEnd=74316|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__17
@@ -412,10 +412,10 @@
 2	some	some	DET	_	_	3	det	_	AlignBegin=74780|AlignEnd=75010|Gloss=some
 3	tings	tings	NOUN	_	Number=Plur	4	subj	_	AlignBegin=75010|AlignEnd=75370|Gloss=thing.PL
 4	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=75370|AlignEnd=75525|Gloss=IPFV
-5	wey	when	SCONJ	_	_	3	dep	_	AlignBegin=75525|AlignEnd=75620|Gloss=when
+5	wey	wey	SCONJ	_	gloss=REL	3	mod@relcl	_	AlignBegin=75525|AlignEnd=75620|Gloss=when
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=75620|AlignEnd=75700|Gloss=NOM.2
 7	suppose	suppose	VERB	_	_	5	comp:obj	_	AlignBegin=75700|AlignEnd=76180|Gloss=suppose
-8	look	look	VERB	_	_	7	comp:pred	_	AlignBegin=76180|AlignEnd=76485|Gloss=look
+8	look	look	VERB	_	_	7	comp:obj@x	_	AlignBegin=76180|AlignEnd=76485|Gloss=look
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=76485|AlignEnd=76515|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__18
@@ -427,7 +427,7 @@
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=76515|AlignEnd=76929|Gloss=PUNCT
 2	suppose	suppose	VERB	_	_	0	root	_	AlignBegin=76929|AlignEnd=77310|Gloss=suppose
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=77310|AlignEnd=77510|Gloss=PUNCT
-4	check	check	VERB	_	_	2	comp:pred	_	AlignBegin=77310|AlignEnd=77510|Gloss=check
+4	check	check	VERB	_	_	2	comp:obj@x	_	AlignBegin=77310|AlignEnd=77510|Gloss=check
 5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=77510|AlignEnd=77661|Gloss=DEF.ART
 6	radiator	radiator	NOUN	_	_	4	comp:obj	_	AlignBegin=77661|AlignEnd=78142|Gloss=radiator
 7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=78142|AlignEnd=78172|Gloss=PUNCT
@@ -435,8 +435,8 @@
 9	check	check	VERB	_	_	4	conj:coord	_	AlignBegin=78500|AlignEnd=78739|Gloss=check
 10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=78739|AlignEnd=78860|Gloss=DEF.ART
 11	level	level	NOUN	_	_	9	conj:coord	_	AlignBegin=78860|AlignEnd=79340|Gloss=level
-12	wey	when	SCONJ	_	_	11	dep	_	AlignBegin=79340|AlignEnd=79460|Gloss=when
-13	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	14	dep	_	AlignBegin=79460|AlignEnd=79640|Gloss=PL.2.POSS
+12	wey	wey	SCONJ	_	gloss=REL	11	mod@relcl	_	AlignBegin=79340|AlignEnd=79460|Gloss=when
+13	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	14	mod	_	AlignBegin=79460|AlignEnd=79640|Gloss=PL.2.POSS
 14	water	water	NOUN	_	_	15	subj	_	AlignBegin=79640|AlignEnd=80009|Gloss=water
 15	reach	reach	VERB	_	_	12	comp:obj	_	AlignBegin=80009|AlignEnd=80370|Gloss=reach
 16	}	}	PUNCT	_	_	4	punct	_	AlignBegin=80370|AlignEnd=80400|Gloss=PUNCT
@@ -452,7 +452,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=81220|AlignEnd=81300|Gloss=NOM.2
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=81300|AlignEnd=81450|Gloss=CONT
 4	check	check	VERB	_	_	3	comp:aux	_	AlignBegin=81450|AlignEnd=81760|Gloss=check
-5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	dep	_	AlignBegin=81760|AlignEnd=81950|Gloss=PL.2.POSS
+5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	mod	_	AlignBegin=81760|AlignEnd=81950|Gloss=PL.2.POSS
 6	oil	oil	NOUN	_	_	4	comp:obj	_	AlignBegin=81950|AlignEnd=82230|Gloss=oil
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=82230|AlignEnd=82260|Gloss=PUNCT
 
@@ -464,7 +464,7 @@
 # text_ortho = Make you look wheder dat motor even due… if e don due for service, or wheder di oil still... (e get ah… wetin we dey call viscosity) wheder di, di, di oil still soft wey you go feel dey carry you.
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=82260|AlignEnd=82720|Gloss=PUNCT
 2	make	make	AUX	_	Mood=Sub	0	root	_	AlignBegin=82720|AlignEnd=82920|Gloss=SBJV
-3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=82920|AlignEnd=83040|Gloss=NOM.2
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=82920|AlignEnd=83040|Gloss=NOM.2
 4	look	look	VERB	_	_	2	comp:aux	_	AlignBegin=83040|AlignEnd=83249|Gloss=look
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=83040|AlignEnd=83249|Gloss=PUNCT
 6	wheder	wheder	SCONJ	_	_	4	comp:obj	_	AlignBegin=83249|AlignEnd=83462|Gloss=whether
@@ -490,9 +490,9 @@
 26	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	27	subj@expl	_	AlignBegin=88050|AlignEnd=88170|Gloss=NOM.SG.3
 27	get	get	VERB	_	_	21	comp:obj	_	AlignBegin=88170|AlignEnd=88340|Gloss=get
 28	ah	ah	INTJ	_	_	29	discourse	_	AlignBegin=88370|AlignEnd=88470|Gloss=ah
-29	wetin	wetin	PRON	_	PronType=Int	27	comp:quasi	_	AlignBegin=88500|AlignEnd=88706|Gloss=what.Q
+29	wetin	wetin	PRON	_	PronType=Int	27	comp:obj@agent	_	AlignBegin=88500|AlignEnd=88706|Gloss=what.Q
 30	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	subj	_	AlignBegin=88736|AlignEnd=88830|Gloss=NOM.PL.1
-31	dey	dey	AUX	_	Aspect=Imp	29	dep	_	AlignBegin=88830|AlignEnd=89035|Gloss=IPFV
+31	dey	dey	AUX	_	Aspect=Imp	29	mod@relcl	_	AlignBegin=88830|AlignEnd=89035|Gloss=IPFV
 32	call	call	VERB	_	_	31	comp:aux	_	AlignBegin=89035|AlignEnd=89440|Gloss=call
 33	#	#	PUNCT	_	_	34	punct	_	AlignBegin=89440|AlignEnd=89800|Gloss=PUNCT
 34	viscosity	viscosity	NOUN	_	_	32	comp:obj	_	AlignBegin=89800|AlignEnd=90550|Gloss=viscosity
@@ -514,7 +514,7 @@
 50	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	51	subj	_	AlignBegin=93591|AlignEnd=93661|Gloss=NOM.2
 51	go	go	AUX	_	Aspect=Prosp	49	comp:obj	_	AlignBegin=93661|AlignEnd=93770|Gloss=CONT
 52	feel	feel	VERB	_	_	51	comp:aux	_	AlignBegin=93770|AlignEnd=93980|Gloss=feel
-53	dey	dey	AUX	_	Aspect=Imp	52	comp:obj	_	AlignBegin=93980|AlignEnd=94220|Gloss=IPFV
+53	dey	dey	AUX	_	Aspect=Imp	52	comp:obj@x	_	AlignBegin=93980|AlignEnd=94220|Gloss=IPFV
 54	#	#	PUNCT	_	_	55	punct	_	AlignBegin=94220|AlignEnd=94580|Gloss=PUNCT
 55	carry	carry	VERB	_	_	53	comp:aux	_	AlignBegin=94580|AlignEnd=94870|Gloss=carry
 56	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	55	comp:obj	_	AlignBegin=94870|AlignEnd=95068|Gloss=NOM.2
@@ -547,7 +547,7 @@
 # text_ortho = Check your tyre.
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=97220|AlignEnd=97520|Gloss=PUNCT
 2	check	check	VERB	_	_	0	root	_	AlignBegin=97520|AlignEnd=97800|Gloss=check
-3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	4	dep	_	AlignBegin=97800|AlignEnd=98003|Gloss=PL.2.POSS
+3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	4	mod	_	AlignBegin=97800|AlignEnd=98003|Gloss=PL.2.POSS
 4	tyre	tyre	NOUN	_	_	2	comp:obj	_	AlignBegin=98003|AlignEnd=98425|Gloss=tyre
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=98425|AlignEnd=98460|Gloss=PUNCT
 
@@ -576,7 +576,7 @@
 4	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=101392|AlignEnd=101610|Gloss=SG.DIST.DEM
 5	#	#	PUNCT	_	_	4	punct	_	AlignBegin=101610|AlignEnd=101893|Gloss=PUNCT
 6	thing	ting	NOUN	_	_	3	comp:pred	_	AlignBegin=101893|AlignEnd=102138|Gloss=thing
-7	wey	when	SCONJ	_	_	6	dep	_	AlignBegin=102138|AlignEnd=102411|Gloss=when
+7	wey	wey	SCONJ	_	gloss=REL	6	mod@relcl	_	AlignBegin=102138|AlignEnd=102411|Gloss=when
 8	#	#	PUNCT	_	_	12	punct	_	AlignBegin=102411|AlignEnd=103386|Gloss=PUNCT
 9	[	[	PUNCT	_	_	12	punct	_	AlignBegin=103356|AlignEnd=103386|Gloss=PUNCT
 10	only	only	ADJ	_	_	11	mod	_	AlignBegin=103386|AlignEnd=103718|Gloss=only
@@ -610,11 +610,11 @@
 14	#	#	PUNCT	_	_	16	punct	_	AlignBegin=109000|AlignEnd=109420|Gloss=PUNCT
 15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=109420|AlignEnd=109570|Gloss=DEF.ART
 16	motor	motor	NOUN	_	_	13	comp:obj	_	AlignBegin=109570|AlignEnd=110034|Gloss=motor
-17	wey	when	SCONJ	_	_	16	dep	_	AlignBegin=110129|AlignEnd=110250|Gloss=when
+17	wey	wey	SCONJ	_	gloss=REL	16	mod@relcl	_	AlignBegin=110129|AlignEnd=110250|Gloss=when
 18	dey	dey	AUX	_	Aspect=Imp	17	comp:obj	_	AlignBegin=110250|AlignEnd=110370|Gloss=IPFV
 19	make	make	VERB	_	_	18	comp:aux	_	AlignBegin=110370|AlignEnd=110580|Gloss=make
 20	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=110580|AlignEnd=110696|Gloss=ACC.SG.3
-21	move	move	VERB	_	_	19	comp:pred	_	AlignBegin=110696|AlignEnd=110839|Gloss=move
+21	move	move	VERB	_	_	19	comp:obj@x	_	AlignBegin=110696|AlignEnd=110839|Gloss=move
 22	//	//	PUNCT	_	_	9	punct	_	AlignBegin=110839|AlignEnd=110869|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__26
@@ -669,9 +669,9 @@
 9	[	[	PUNCT	_	_	11	punct	_	AlignBegin=116850|AlignEnd=116880|Gloss=PUNCT
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=116880|AlignEnd=117040|Gloss=NOM.2
 11	need	need	VERB	_	_	8	comp:obj	_	AlignBegin=117040|AlignEnd=117260|Gloss=need
-12	to	to	ADP	_	_	11	comp:pred	_	AlignBegin=117260|AlignEnd=117400|Gloss=to
+12	to	to	ADP	_	_	11	comp:obl@x	_	AlignBegin=117260|AlignEnd=117400|Gloss=to
 13	check	check	VERB	_	_	12	comp:obj	_	AlignBegin=117400|AlignEnd=117700|Gloss=check
-14	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	dep	_	AlignBegin=117700|AlignEnd=117870|Gloss=PL.2.POSS
+14	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	mod	_	AlignBegin=117700|AlignEnd=117870|Gloss=PL.2.POSS
 15	tyre	tyre	NOUN	_	_	13	comp:obj	_	AlignBegin=117870|AlignEnd=118140|Gloss=tyre
 16	]	]	PUNCT	_	_	11	punct	_	AlignBegin=118140|AlignEnd=118170|Gloss=PUNCT
 17	//	//	PUNCT	_	_	5	punct	_	AlignBegin=118140|AlignEnd=118170|Gloss=PUNCT
@@ -690,7 +690,7 @@
 6	look	look	VERB	_	_	0	root	_	AlignBegin=119280|AlignEnd=119691|Gloss=look
 7	di	the	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=119691|AlignEnd=119942|Gloss=DEF.ART
 8	date	date	NOUN	_	_	6	comp:obj	_	AlignBegin=119942|AlignEnd=120298|Gloss=date
-9	of	of	ADP	_	_	8	dep	_	AlignBegin=120298|AlignEnd=120530|Gloss=of
+9	of	of	ADP	_	_	8	mod	_	AlignBegin=120298|AlignEnd=120530|Gloss=of
 10	manufacture	manufacture	NOUN	_	_	9	comp:obj	_	AlignBegin=120530|AlignEnd=121226|Gloss=manufacture
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=121226|AlignEnd=121256|Gloss=PUNCT
 
@@ -722,12 +722,12 @@
 2	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=124097|AlignEnd=124262|Gloss=be.COP
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=124262|AlignEnd=124292|Gloss=PUNCT
 4	date	date	NOUN	_	_	2	comp:pred	_	AlignBegin=124292|AlignEnd=124534|Gloss=date
-5	of	of	ADP	_	_	4	dep	_	AlignBegin=124534|AlignEnd=124730|Gloss=of
+5	of	of	ADP	_	_	4	mod	_	AlignBegin=124534|AlignEnd=124730|Gloss=of
 6	manufacture	manufacture	NOUN	_	_	5	comp:obj	_	AlignBegin=124730|AlignEnd=125168|Gloss=manufacture
 7	|a	|a	PUNCT	_	_	9	punct	_	AlignBegin=125168|AlignEnd=125198|Gloss=PUNCT
 8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=125198|AlignEnd=125370|Gloss=DEF.ART
 9	day	day	NOUN	_	_	4	conj:appos	_	AlignBegin=125370|AlignEnd=125600|Gloss=day
-10	wey	when	SCONJ	_	_	9	dep	_	AlignBegin=125600|AlignEnd=125790|Gloss=when
+10	wey	wey	SCONJ	_	gloss=REL	9	mod@relcl	_	AlignBegin=125600|AlignEnd=125790|Gloss=when
 11	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	subj	_	AlignBegin=125790|AlignEnd=126020|Gloss=NOM.PL.3
 12	make	make	VERB	_	_	10	comp:obj	_	AlignBegin=126020|AlignEnd=126200|Gloss=make
 13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=126200|AlignEnd=126426|Gloss=SG.DIST.DEM
@@ -760,10 +760,10 @@
 # text_en = The first two numbers on the tire…
 # text_ortho = Di first two number wey dey for dat tyre...
 1	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=128753|AlignEnd=128920|Gloss=DEF.ART
-2	first	first	ADJ	_	NumType=Ord	4	dep	_	AlignBegin=128920|AlignEnd=129370|Gloss=first.ORD
-3	two	two	NUM	_	NumType=Card	4	dep	_	AlignBegin=129370|AlignEnd=129528|Gloss=two.CARD
+2	first	first	ADJ	_	NumType=Ord	4	mod	_	AlignBegin=128920|AlignEnd=129370|Gloss=first.ORD
+3	two	two	NUM	_	NumType=Card	4	det@num	_	AlignBegin=129370|AlignEnd=129528|Gloss=two.CARD
 4	number	number	NOUN	_	_	10	orphan	_	AlignBegin=129528|AlignEnd=129920|Gloss=number
-5	wey	when	SCONJ	_	_	4	dep	_	AlignBegin=129920|AlignEnd=130020|Gloss=when
+5	wey	wey	SCONJ	_	gloss=REL	4	mod@relcl	_	AlignBegin=129920|AlignEnd=130020|Gloss=when
 6	dey	dey	VERB	_	VerbType=Cop	5	comp:obj	_	AlignBegin=130020|AlignEnd=130130|Gloss=dey.COP
 7	for	for	ADP	_	_	6	comp:pred	_	AlignBegin=130130|AlignEnd=130300|Gloss=for
 8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=130300|AlignEnd=130496|Gloss=SG.DIST.DEM
@@ -778,7 +778,7 @@
 # text_en = You'll see four numbers but the first two numbers are for the week that the tire was produced.
 # text_ortho = Na four number, you go see, but di first two number na di week wey dem produce dat tyre.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=130804|AlignEnd=130950|Gloss=be.COP
-2	four	four	NUM	_	NumType=Card	3	dep	_	AlignBegin=130950|AlignEnd=131190|Gloss=four.CARD
+2	four	four	NUM	_	NumType=Card	3	det@num	_	AlignBegin=130950|AlignEnd=131190|Gloss=four.CARD
 3	number	number	NOUN	_	_	1	comp:pred	_	AlignBegin=131190|AlignEnd=131560|Gloss=number
 4	#	#	PUNCT	_	_	7	punct	_	AlignBegin=131560|AlignEnd=132504|Gloss=PUNCT
 5	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=132474|AlignEnd=132504|Gloss=PUNCT
@@ -789,13 +789,13 @@
 10	#	#	PUNCT	_	_	16	punct	_	AlignBegin=133000|AlignEnd=133360|Gloss=PUNCT
 11	but	but	CCONJ	_	_	16	cc	_	AlignBegin=133360|AlignEnd=133479|Gloss=but
 12	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=133479|AlignEnd=133580|Gloss=DEF.ART
-13	first	first	ADJ	_	NumType=Ord	15	dep	_	AlignBegin=133580|AlignEnd=133910|Gloss=first.ORD
-14	two	two	NUM	_	NumType=Card	15	dep	_	AlignBegin=133910|AlignEnd=134040|Gloss=two.CARD
+13	first	first	ADJ	_	NumType=Ord	15	mod	_	AlignBegin=133580|AlignEnd=133910|Gloss=first.ORD
+14	two	two	NUM	_	NumType=Card	15	det@num	_	AlignBegin=133910|AlignEnd=134040|Gloss=two.CARD
 15	number	number	NOUN	_	_	16	subj	_	AlignBegin=134040|AlignEnd=134350|Gloss=number
 16	na	na	PART	_	PartType=Cop	1	conj:coord	_	AlignBegin=134350|AlignEnd=134470|Gloss=be.COP
 17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=134470|AlignEnd=134600|Gloss=DEF.ART
 18	week	week	NOUN	_	_	16	comp:pred	_	AlignBegin=134600|AlignEnd=134880|Gloss=week
-19	wey	when	SCONJ	_	_	18	dep	_	AlignBegin=134880|AlignEnd=135010|Gloss=when
+19	wey	wey	SCONJ	_	gloss=REL	18	mod@relcl	_	AlignBegin=134880|AlignEnd=135010|Gloss=when
 20	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	subj	_	AlignBegin=135010|AlignEnd=135320|Gloss=NOM.PL.3
 21	#	#	PUNCT	_	_	20	punct	_	AlignBegin=133360|AlignEnd=136900|Gloss=PUNCT
 22	produce	produce	VERB	_	_	19	comp:obj	_	AlignBegin=136078|AlignEnd=136420|Gloss=produce
@@ -812,8 +812,8 @@
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=136900|AlignEnd=137400|Gloss=PUNCT
 2	den	den	ADV	_	_	7	mod:periph	_	AlignBegin=137400|AlignEnd=137550|Gloss=den
 3	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=137550|AlignEnd=137679|Gloss=DEF.ART
-4	last	last	ADJ	_	_	6	dep	_	AlignBegin=137679|AlignEnd=138075|Gloss=last
-5	two	two	NUM	_	NumType=Card	6	dep	_	AlignBegin=138075|AlignEnd=138310|Gloss=two.CARD
+4	last	last	ADJ	_	_	6	mod	_	AlignBegin=137679|AlignEnd=138075|Gloss=last
+5	two	two	NUM	_	NumType=Card	6	det@num	_	AlignBegin=138075|AlignEnd=138310|Gloss=two.CARD
 6	number	number	NOUN	_	_	7	subj	_	AlignBegin=138310|AlignEnd=138770|Gloss=number
 7	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=138770|AlignEnd=138941|Gloss=CONT
 8	tell	tell	VERB	_	_	7	comp:aux	_	AlignBegin=138941|AlignEnd=139171|Gloss=tell
@@ -836,7 +836,7 @@
 5	see	see	VERB	_	_	3	comp:obj	_	AlignBegin=140966|AlignEnd=141330|Gloss=see
 6	tyre	tyre	NOUN	_	_	5	comp:obj	_	AlignBegin=141330|AlignEnd=141570|Gloss=tyre
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=141570|AlignEnd=141600|Gloss=PUNCT
-8	wey	when	SCONJ	_	_	6	dep	_	AlignBegin=141600|AlignEnd=141720|Gloss=when
+8	wey	wey	SCONJ	_	gloss=REL	6	mod@relcl	_	AlignBegin=141600|AlignEnd=141720|Gloss=when
 9	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=141720|AlignEnd=141957|Gloss=NOM.PL.3
 10	make	make	AUX	_	Mood=Sub	8	comp:obj	_	AlignBegin=141957|AlignEnd=142290|Gloss=SBJV
 11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=142290|AlignEnd=142320|Gloss=PUNCT
@@ -862,10 +862,10 @@
 31	#	#	PUNCT	_	_	32	punct	_	AlignBegin=147160|AlignEnd=147420|Gloss=PUNCT
 32	in	in	ADP	_	_	30	comp:pred	_	AlignBegin=147420|AlignEnd=147546|Gloss=in
 33	di	the	DET	_	Definite=Def|PronType=Art	35	det	_	AlignBegin=147546|AlignEnd=147650|Gloss=DEF.ART
-34	eleventh	eleventh	ADJ	_	NumType=Ord	35	dep	_	AlignBegin=147650|AlignEnd=148328|Gloss=eleventh.ORD
+34	eleventh	eleventh	ADJ	_	NumType=Ord	35	mod	_	AlignBegin=147650|AlignEnd=148328|Gloss=eleventh.ORD
 35	week	week	NOUN	_	_	32	comp:obj	_	AlignBegin=148328|AlignEnd=148580|Gloss=week
 36	#	#	PUNCT	_	_	37	punct	_	AlignBegin=148580|AlignEnd=148730|Gloss=PUNCT
-37	of	of	ADP	_	_	35	dep	_	AlignBegin=148730|AlignEnd=149022|Gloss=of
+37	of	of	ADP	_	_	35	mod	_	AlignBegin=148730|AlignEnd=149022|Gloss=of
 38	twenty	twenty	NUM	_	NumType=Card	39	compound	_	AlignBegin=149022|AlignEnd=149480|Gloss=twenty.CARD
 39	fourteen	fourteen	NUM	_	NumType=Card	37	comp:obj	_	AlignBegin=149480|AlignEnd=150050|Gloss=fourteen.CARD
 40	>+	>+	PUNCT	_	_	42	punct	_	AlignBegin=150050|AlignEnd=150080|Gloss=PUNCT
@@ -874,7 +874,7 @@
 43	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	42	comp:pred	_	AlignBegin=150500|AlignEnd=150799|Gloss=NOM.SG.3
 44	{	{	PUNCT	_	_	46	punct	_	AlignBegin=150799|AlignEnd=150829|Gloss=PUNCT
 45	dat	dat	DET	_	Number=Sing|PronType=Dem	46	det	_	AlignBegin=150829|AlignEnd=151229|Gloss=SG.DIST.DEM
-46	tyre	tyre	NOUN	_	_	43	dep	_	AlignBegin=151229|AlignEnd=151560|Gloss=tyre
+46	tyre	tyre	NOUN	_	_	43	mod	_	AlignBegin=151229|AlignEnd=151560|Gloss=tyre
 47	||	||	PUNCT	_	_	49	punct	_	AlignBegin=151560|AlignEnd=151590|Gloss=PUNCT
 48	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	49	subj	_	AlignBegin=151590|AlignEnd=151770|Gloss=NOM.PL.3
 49	make	make	VERB	_	_	46	conj:dicto	_	AlignBegin=151770|AlignEnd=151918|Gloss=make
@@ -894,7 +894,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=152635|AlignEnd=152780|Gloss=NOM.2
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=152780|AlignEnd=152930|Gloss=CONT
 4	count	count	VERB	_	_	3	comp:aux	_	AlignBegin=152930|AlignEnd=153250|Gloss=count
-5	four	four	NUM	_	NumType=Card	6	dep	_	AlignBegin=153250|AlignEnd=153527|Gloss=four.CARD
+5	four	four	NUM	_	NumType=Card	6	det@num	_	AlignBegin=153250|AlignEnd=153527|Gloss=four.CARD
 6	years	year	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=153527|AlignEnd=153887|Gloss=year.PL
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=153887|AlignEnd=153919|Gloss=PUNCT
 
@@ -929,7 +929,7 @@
 5	to	to	ADP	_	_	4	comp:pred	_	AlignBegin=158330|AlignEnd=158460|Gloss=to
 6	dey	dey	AUX	_	Aspect=Imp	5	comp:obj	_	AlignBegin=158460|AlignEnd=158637|Gloss=IPFV
 7	check	check	VERB	_	_	6	comp:aux	_	AlignBegin=158637|AlignEnd=158960|Gloss=check
-8	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	9	dep	_	AlignBegin=158960|AlignEnd=159050|Gloss=PL.2.POSS
+8	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	9	mod	_	AlignBegin=158960|AlignEnd=159050|Gloss=PL.2.POSS
 9	tyre	tyre	NOUN	_	_	7	comp:obj	_	AlignBegin=159050|AlignEnd=159320|Gloss=tyre
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=159320|AlignEnd=159350|Gloss=PUNCT
 
@@ -963,7 +963,7 @@
 22	}	}	PUNCT	_	_	19	punct	_	AlignBegin=163382|AlignEnd=163412|Gloss=PUNCT
 23	//=	//=	PUNCT	_	_	24	punct	_	AlignBegin=163382|AlignEnd=163412|Gloss=PUNCT
 24	na	na	PART	_	PartType=Cop	17	parataxis:conj	_	AlignBegin=163412|AlignEnd=163580|Gloss=be.COP
-25	good	good	ADJ	_	_	26	dep	_	AlignBegin=163580|AlignEnd=163800|Gloss=good
+25	good	good	ADJ	_	_	26	mod	_	AlignBegin=163580|AlignEnd=163800|Gloss=good
 26	tyre	tyre	NOUN	_	_	24	comp:pred	_	AlignBegin=163800|AlignEnd=164117|Gloss=tyre
 27	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=164117|AlignEnd=164147|Gloss=PUNCT
 28	//	//	PUNCT	_	_	3	punct	_	AlignBegin=164117|AlignEnd=164147|Gloss=PUNCT
@@ -985,7 +985,7 @@
 # text_ortho = Check your tyre!
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=164370|AlignEnd=164680|Gloss=PUNCT
 2	check	check	VERB	_	_	0	root	_	AlignBegin=164680|AlignEnd=164930|Gloss=check
-3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	4	dep	_	AlignBegin=164930|AlignEnd=165060|Gloss=PL.2.POSS
+3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	4	mod	_	AlignBegin=164930|AlignEnd=165060|Gloss=PL.2.POSS
 4	tyre	tyre	NOUN	_	_	2	comp:obj	_	AlignBegin=165060|AlignEnd=165360|Gloss=tyre
 5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=165360|AlignEnd=165390|Gloss=PUNCT
 
@@ -1005,16 +1005,16 @@
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=167410|AlignEnd=167500|Gloss=NOM.2
 9	wan	want	VERB	_	_	7	comp:obj	_	AlignBegin=167500|AlignEnd=167745|Gloss=want
 10	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=167745|AlignEnd=168006|Gloss=eh
-11	check	check	VERB	_	_	9	comp:pred	_	AlignBegin=168006|AlignEnd=168260|Gloss=check
-12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	dep	_	AlignBegin=168260|AlignEnd=168398|Gloss=PL.2.POSS
+11	check	check	VERB	_	_	9	comp:obj@x	_	AlignBegin=168006|AlignEnd=168260|Gloss=check
+12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	mod	_	AlignBegin=168260|AlignEnd=168398|Gloss=PL.2.POSS
 13	tyre	tyre	NOUN	_	_	11	comp:obj	_	AlignBegin=168398|AlignEnd=168710|Gloss=tyre
 14	<	<	PUNCT	_	_	7	punct	_	AlignBegin=168710|AlignEnd=168740|Gloss=PUNCT
 15	#	#	PUNCT	_	_	7	punct	_	AlignBegin=168740|AlignEnd=169420|Gloss=PUNCT
 16	look	look	VERB	_	_	0	root	_	AlignBegin=169420|AlignEnd=169750|Gloss=look
 17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=169750|AlignEnd=169870|Gloss=DEF.ART
 18	body	body	NOUN	_	_	16	comp:obj	_	AlignBegin=169870|AlignEnd=170350|Gloss=body
-19	of	of	ADP	_	_	18	dep	_	AlignBegin=170350|AlignEnd=170620|Gloss=of
-20	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	21	dep	_	AlignBegin=170620|AlignEnd=171041|Gloss=PL.2.POSS
+19	of	of	ADP	_	_	18	mod	_	AlignBegin=170350|AlignEnd=170620|Gloss=of
+20	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	21	mod	_	AlignBegin=170620|AlignEnd=171041|Gloss=PL.2.POSS
 21	door	door	NOUN	_	_	19	comp:obj	_	AlignBegin=171041|AlignEnd=171210|Gloss=door
 22	//	//	PUNCT	_	_	16	punct	_	AlignBegin=171210|AlignEnd=171240|Gloss=PUNCT
 
@@ -1028,7 +1028,7 @@
 2	if	if	SCONJ	_	_	9	mod:periph	_	AlignBegin=171640|AlignEnd=171800|Gloss=if
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=171800|AlignEnd=171873|Gloss=NOM.2
 4	open	open	VERB	_	_	2	comp:obj	_	AlignBegin=171873|AlignEnd=172123|Gloss=open
-5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	dep	_	AlignBegin=172123|AlignEnd=172316|Gloss=PL.2.POSS
+5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	mod	_	AlignBegin=172123|AlignEnd=172316|Gloss=PL.2.POSS
 6	door	door	NOUN	_	_	4	comp:obj	_	AlignBegin=172316|AlignEnd=172474|Gloss=door
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=172474|AlignEnd=172504|Gloss=PUNCT
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=172504|AlignEnd=172600|Gloss=NOM.2
@@ -1036,7 +1036,7 @@
 10	see	see	VERB	_	_	9	comp:aux	_	AlignBegin=172680|AlignEnd=172870|Gloss=see
 11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=172870|AlignEnd=172960|Gloss=DEF.ART
 12	side	side	NOUN	_	_	10	comp:obj	_	AlignBegin=172960|AlignEnd=173330|Gloss=side
-13	of	of	ADP	_	_	12	dep	_	AlignBegin=173330|AlignEnd=173465|Gloss=of
+13	of	of	ADP	_	_	12	mod	_	AlignBegin=173330|AlignEnd=173465|Gloss=of
 14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=173465|AlignEnd=173657|Gloss=DEF.ART
 15	door	door	NOUN	_	_	13	comp:obj	_	AlignBegin=173657|AlignEnd=173778|Gloss=door
 16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=173778|AlignEnd=173808|Gloss=PUNCT
@@ -1051,9 +1051,9 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	AlignBegin=175122|AlignEnd=175195|Gloss=NOM.SG.3
 3	get	get	VERB	_	_	0	root	_	AlignBegin=175195|AlignEnd=175379|Gloss=get
 4	one	one	DET	_	Definite=Spec|PronType=Art	5	det	_	AlignBegin=175379|AlignEnd=175620|Gloss=SPEC.ART
-5	iron	iron	NOUN	_	_	3	comp:quasi	_	AlignBegin=175620|AlignEnd=175960|Gloss=iron
+5	iron	iron	NOUN	_	_	3	comp:obj@agent	_	AlignBegin=175620|AlignEnd=175960|Gloss=iron
 6	dere	dere	ADV	_	_	3	comp:pred	_	AlignBegin=175960|AlignEnd=176110|Gloss=there
-7	wey	when	SCONJ	_	_	5	dep	_	AlignBegin=176110|AlignEnd=176262|Gloss=when
+7	wey	wey	SCONJ	_	gloss=REL	5	mod@relcl	_	AlignBegin=176110|AlignEnd=176262|Gloss=when
 8	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	subj	_	AlignBegin=176262|AlignEnd=176375|Gloss=NOM.PL.3
 9	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=176375|AlignEnd=176523|Gloss=IPFV
 10	call	call	VERB	_	_	9	comp:aux	_	AlignBegin=176523|AlignEnd=176680|Gloss=call
@@ -1073,14 +1073,14 @@
 5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=178340|AlignEnd=178492|Gloss=DEF.ART
 6	tyre	tyre	NOUN	_	_	7	compound	_	AlignBegin=178492|AlignEnd=178904|Gloss=tyre
 7	pressure	pressure	NOUN	_	_	4	comp:obj	_	AlignBegin=178904|AlignEnd=179300|Gloss=pressure
-8	wey	when	SCONJ	_	_	7	dep	_	AlignBegin=179300|AlignEnd=179663|Gloss=when
+8	wey	wey	SCONJ	_	gloss=REL	7	mod@relcl	_	AlignBegin=179300|AlignEnd=179663|Gloss=when
 9	#	#	PUNCT	_	_	14	punct	_	AlignBegin=179663|AlignEnd=179800|Gloss=PUNCT
 10	each	each	DET	_	_	14	subj	_	AlignBegin=179800|AlignEnd=180100|Gloss=each
-11	of	of	ADP	_	_	10	dep	_	AlignBegin=180100|AlignEnd=180260|Gloss=of
-12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	dep	_	AlignBegin=180260|AlignEnd=180403|Gloss=PL.2.POSS
+11	of	of	ADP	_	_	10	mod	_	AlignBegin=180100|AlignEnd=180260|Gloss=of
+12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	mod	_	AlignBegin=180260|AlignEnd=180403|Gloss=PL.2.POSS
 13	tyre	tyre	NOUN	_	_	11	comp:obj	_	AlignBegin=180403|AlignEnd=180691|Gloss=tyre
 14	suppose	suppose	VERB	_	_	8	comp:obj	_	AlignBegin=180691|AlignEnd=181140|Gloss=suppose
-15	carry	carry	VERB	_	_	14	comp:pred	_	AlignBegin=181140|AlignEnd=181430|Gloss=carry
+15	carry	carry	VERB	_	_	14	comp:obj@x	_	AlignBegin=181140|AlignEnd=181430|Gloss=carry
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=181430|AlignEnd=181460|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__47
@@ -1110,7 +1110,7 @@
 19	inside	inside	ADP	_	_	18	unk@fixed	_	AlignBegin=186210|AlignEnd=186556|Gloss=inside
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=186556|AlignEnd=186586|Gloss=PUNCT
 21	pump	pump	VERB	_	_	14	conj:coord	_	AlignBegin=186586|AlignEnd=186870|Gloss=pump
-22	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	23	dep	_	AlignBegin=186870|AlignEnd=187014|Gloss=PL.2.POSS
+22	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	23	mod	_	AlignBegin=186870|AlignEnd=187014|Gloss=PL.2.POSS
 23	tyre	tyre	NOUN	_	_	21	comp:obj	_	AlignBegin=187014|AlignEnd=187250|Gloss=tyre
 24	}	}	PUNCT	_	_	12	punct	_	AlignBegin=187250|AlignEnd=187280|Gloss=PUNCT
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=187250|AlignEnd=187280|Gloss=PUNCT
@@ -1126,7 +1126,7 @@
 3	if	if	SCONJ	_	_	23	mod:periph	_	AlignBegin=187890|AlignEnd=187990|Gloss=if
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=187990|AlignEnd=188134|Gloss=NOM.2
 5	pump	pump	VERB	_	_	3	comp:obj	_	AlignBegin=188134|AlignEnd=188390|Gloss=pump
-6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	dep	_	AlignBegin=188390|AlignEnd=188551|Gloss=PL.2.POSS
+6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	mod	_	AlignBegin=188390|AlignEnd=188551|Gloss=PL.2.POSS
 7	tyre	tyre	NOUN	_	_	5	comp:obj	_	AlignBegin=188551|AlignEnd=188840|Gloss=tyre
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=188840|AlignEnd=188870|Gloss=PUNCT
 9	within	within	ADP	_	_	5	comp:obl	_	AlignBegin=188870|AlignEnd=189376|Gloss=within
@@ -1134,7 +1134,7 @@
 11	with	wit	ADP	_	_	9	conj:dicto	_	AlignBegin=189406|AlignEnd=189710|Gloss=with
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=189710|AlignEnd=189740|Gloss=PUNCT
 13	limit	limit	NOUN	_	_	11	comp:obj	_	AlignBegin=189740|AlignEnd=190078|Gloss=limit
-14	wey	when	SCONJ	_	_	13	dep	_	AlignBegin=190078|AlignEnd=190235|Gloss=when
+14	wey	wey	SCONJ	_	gloss=REL	13	mod@relcl	_	AlignBegin=190078|AlignEnd=190235|Gloss=when
 15	dey	dey	VERB	_	VerbType=Cop	14	comp:obj	_	AlignBegin=190235|AlignEnd=190374|Gloss=dey.COP
 16	for	for	ADP	_	_	15	comp:pred	_	AlignBegin=190374|AlignEnd=190544|Gloss=for
 17	dat	dat	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=190544|AlignEnd=190980|Gloss=SG.DIST.DEM
@@ -1161,18 +1161,18 @@
 5	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=194151|AlignEnd=194263|Gloss=CONT
 6	get	get	VERB	_	_	5	comp:aux	_	AlignBegin=194263|AlignEnd=194563|Gloss=get
 7	case	case	NOUN	_	_	6	comp:obj	_	AlignBegin=194563|AlignEnd=194833|Gloss=case
-8	of	of	ADP	_	_	7	dep	_	AlignBegin=194833|AlignEnd=194984|Gloss=of
+8	of	of	ADP	_	_	7	mod	_	AlignBegin=194833|AlignEnd=194984|Gloss=of
 9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=194984|AlignEnd=195160|Gloss=PUNCT
 10	sey	sey	SCONJ	_	_	8	unk@fixed	_	AlignBegin=195160|AlignEnd=195330|Gloss=COMP
 11	[	[	PUNCT	_	_	14	punct	_	AlignBegin=195330|AlignEnd=195360|Gloss=PUNCT
-12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	dep	_	AlignBegin=195360|AlignEnd=195545|Gloss=PL.2.POSS
+12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	mod	_	AlignBegin=195360|AlignEnd=195545|Gloss=PL.2.POSS
 13	tyre	tyre	NOUN	_	_	14	subj	_	AlignBegin=195545|AlignEnd=195920|Gloss=tyre
 14	over-	X	X	_	_	8	comp:obj	_	AlignBegin=195920|AlignEnd=196260|Gloss=over-
 15	||	||	PUNCT	_	_	18	punct	_	AlignBegin=196260|AlignEnd=196290|Gloss=PUNCT
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	subj	_	AlignBegin=196290|AlignEnd=196400|Gloss=NOM.2
 17	over-	X	X	_	_	18	goeswith	_	AlignBegin=196400|AlignEnd=196640|Gloss=over-
 18	inflate	inflate	VERB	_	_	14	conj:dicto	_	AlignBegin=196670|AlignEnd=197170|Gloss=inflate
-19	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	20	dep	_	AlignBegin=197170|AlignEnd=197287|Gloss=PL.2.POSS
+19	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	20	mod	_	AlignBegin=197170|AlignEnd=197287|Gloss=PL.2.POSS
 20	tyre	tyre	NOUN	_	_	18	comp:obj	_	AlignBegin=197287|AlignEnd=197539|Gloss=tyre
 21	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=197539|AlignEnd=197569|Gloss=PUNCT
 22	sey	sey	SCONJ	_	_	26	cc	_	AlignBegin=197569|AlignEnd=197810|Gloss=COMP
@@ -1256,10 +1256,10 @@
 17	just	just	ADV	_	_	18	mod	_	AlignBegin=207390|AlignEnd=207606|Gloss=just
 18	carry	carry	VERB	_	_	15	comp:obj	_	AlignBegin=207606|AlignEnd=207820|Gloss=carry
 19	{	{	PUNCT	_	_	21	punct	_	AlignBegin=207820|AlignEnd=207850|Gloss=PUNCT
-20	sharp	sharp	ADJ	_	_	21	dep	_	AlignBegin=207850|AlignEnd=208369|Gloss=sharp
+20	sharp	sharp	ADJ	_	_	21	mod	_	AlignBegin=207850|AlignEnd=208369|Gloss=sharp
 21	object	object	NOUN	_	_	18	comp:obj	_	AlignBegin=208369|AlignEnd=208865|Gloss=object
 22	||	||	PUNCT	_	_	24	punct	_	AlignBegin=208865|AlignEnd=208895|Gloss=PUNCT
-23	sharp	sharp	ADJ	_	_	24	dep	_	AlignBegin=208895|AlignEnd=209230|Gloss=sharp
+23	sharp	sharp	ADJ	_	_	24	mod	_	AlignBegin=208895|AlignEnd=209230|Gloss=sharp
 24	thing	ting	NOUN	_	_	21	conj:dicto	_	AlignBegin=209230|AlignEnd=209556|Gloss=thing
 25	}	}	PUNCT	_	_	21	punct	_	AlignBegin=209556|AlignEnd=209586|Gloss=PUNCT
 26	touch	touch	VERB	_	_	18	compound:svc	_	AlignBegin=209586|AlignEnd=209890|Gloss=touch
@@ -1323,7 +1323,7 @@
 4	make	make	VERB	_	_	1	comp:cleft	_	AlignBegin=214480|AlignEnd=214655|Gloss=make
 5	dat	dat	PRON	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=214655|AlignEnd=214818|Gloss=SG.DEM
 6	tyre	tyre	NOUN	_	_	4	comp:obj	_	AlignBegin=214818|AlignEnd=215090|Gloss=tyre
-7	burst	burst	VERB	_	_	4	comp:pred	_	AlignBegin=215090|AlignEnd=215291|Gloss=burst
+7	burst	burst	VERB	_	_	4	comp:obj@x	_	AlignBegin=215090|AlignEnd=215291|Gloss=burst
 8	because	because	SCONJ	_	_	1	mod	_	AlignBegin=215291|AlignEnd=215613|Gloss=because
 9	#	#	PUNCT	_	_	18	punct	_	AlignBegin=215643|AlignEnd=215880|Gloss=PUNCT
 10	as	as	ADP	_	_	18	mod:periph	_	AlignBegin=215880|AlignEnd=216050|Gloss=as
@@ -1358,7 +1358,7 @@
 # text = our weather again dey affect am //
 # text_en = Our weather affects it as well.
 # text_ortho = Our weather again dey affect am.
-1	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	2	dep	_	AlignBegin=219340|AlignEnd=219575|Gloss=PL.1.POSS
+1	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	2	mod	_	AlignBegin=219340|AlignEnd=219575|Gloss=PL.1.POSS
 2	weather	weather	NOUN	_	_	4	subj	_	AlignBegin=219575|AlignEnd=220013|Gloss=weather
 3	again	again	ADV	_	_	2	mod	_	AlignBegin=220013|AlignEnd=220363|Gloss=again
 4	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=220363|AlignEnd=220469|Gloss=IPFV
@@ -1439,10 +1439,10 @@
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=231696|AlignEnd=231856|Gloss=NOM.2
 9	}	}	PUNCT	_	_	5	punct	_	AlignBegin=231856|AlignEnd=231886|Gloss=PUNCT
 10	need	need	VERB	_	_	0	root	_	AlignBegin=231886|AlignEnd=232136|Gloss=need
-11	to	to	ADP	_	_	10	comp:pred	_	AlignBegin=232136|AlignEnd=232445|Gloss=to
+11	to	to	ADP	_	_	10	comp:obl@x	_	AlignBegin=232136|AlignEnd=232445|Gloss=to
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=232445|AlignEnd=232475|Gloss=PUNCT
 13	put	put	VERB	_	_	11	comp:obj	_	AlignBegin=232475|AlignEnd=232756|Gloss=put
-14	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	dep	_	AlignBegin=232756|AlignEnd=232969|Gloss=PL.2.POSS
+14	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	mod	_	AlignBegin=232756|AlignEnd=232969|Gloss=PL.2.POSS
 15	tyre	tyre	NOUN	_	_	13	comp:obj	_	AlignBegin=232969|AlignEnd=233408|Gloss=tyre
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=233408|AlignEnd=233438|Gloss=PUNCT
 17	put	put	VERB	_	_	13	conj:dicto	_	AlignBegin=233438|AlignEnd=233700|Gloss=put
@@ -1451,7 +1451,7 @@
 20	di	the	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=234166|AlignEnd=234356|Gloss=DEF.ART
 21	tyre	tyre	NOUN	_	_	19	comp:obj	_	AlignBegin=234356|AlignEnd=234666|Gloss=tyre
 22	}	}	PUNCT	_	_	13	punct	_	AlignBegin=234666|AlignEnd=234696|Gloss=PUNCT
-23	wey	when	SCONJ	_	_	18	dep	_	AlignBegin=234696|AlignEnd=234836|Gloss=when
+23	wey	wey	SCONJ	_	gloss=REL	18	mod@relcl	_	AlignBegin=234696|AlignEnd=234836|Gloss=when
 24	go	go	AUX	_	Aspect=Prosp	23	comp:obj	_	AlignBegin=234836|AlignEnd=235016|Gloss=CONT
 25	measure	measure	VERB	_	_	24	comp:pred	_	AlignBegin=235016|AlignEnd=235551|Gloss=measure
 26	#	#	PUNCT	_	_	27	punct	_	AlignBegin=235551|AlignEnd=236031|Gloss=PUNCT
@@ -1469,7 +1469,7 @@
 3	again	again	ADV	_	_	25	mod:periph	_	AlignBegin=236859|AlignEnd=237169|Gloss=again
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=237169|AlignEnd=237199|Gloss=PUNCT
 5	if	if	SCONJ	_	_	25	mod:periph	_	AlignBegin=237199|AlignEnd=237399|Gloss=if
-6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	dep	_	AlignBegin=237399|AlignEnd=237614|Gloss=PL.2.POSS
+6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	mod	_	AlignBegin=237399|AlignEnd=237614|Gloss=PL.2.POSS
 7	tyre	tyre	NOUN	_	_	8	subj	_	AlignBegin=237614|AlignEnd=237909|Gloss=tyre
 8	don	don	AUX	_	Aspect=Perf	5	comp:obj	_	AlignBegin=237909|AlignEnd=238260|Gloss=PRF
 9	less	less	ADJ	_	Degree=Cmp	12	mod	_	AlignBegin=238260|AlignEnd=238859|Gloss=little.CMPR
@@ -1477,7 +1477,7 @@
 11	[	[	PUNCT	_	_	12	punct	_	AlignBegin=239410|AlignEnd=239440|Gloss=PUNCT
 12	na	na	PART	_	PartType=Cop	8	comp:aux	_	AlignBegin=239440|AlignEnd=239530|Gloss=be.COP
 13	one	one	NOUN	_	_	12	comp:pred	_	AlignBegin=239530|AlignEnd=239688|Gloss=one
-14	wey	when	SCONJ	_	_	13	dep	_	AlignBegin=239688|AlignEnd=239820|Gloss=when
+14	wey	wey	SCONJ	_	gloss=REL	13	mod@relcl	_	AlignBegin=239688|AlignEnd=239820|Gloss=when
 15	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	subj	_	AlignBegin=239820|AlignEnd=239880|Gloss=NOM.PL.1
 16	dey	dey	AUX	_	Aspect=Imp	14	comp:obj	_	AlignBegin=239880|AlignEnd=239980|Gloss=IPFV
 17	call	call	VERB	_	_	16	comp:aux	_	AlignBegin=239980|AlignEnd=240192|Gloss=call
@@ -1552,7 +1552,7 @@
 14	chop	chop	VERB	_	_	13	comp:aux	_	AlignBegin=251130|AlignEnd=251440|Gloss=eat
 15	for	for	ADP	_	_	14	comp:obl	_	AlignBegin=251440|AlignEnd=251760|Gloss=for
 16	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=251760|AlignEnd=251950|Gloss=DEF.ART
-17	two	two	NUM	_	NumType=Card	18	dep	_	AlignBegin=251950|AlignEnd=252172|Gloss=two.CARD
+17	two	two	NUM	_	NumType=Card	18	det@num	_	AlignBegin=251950|AlignEnd=252172|Gloss=two.CARD
 18	sides	side	NOUN	_	Number=Plur	15	comp:obj	_	AlignBegin=252172|AlignEnd=252783|Gloss=side.PL
 19	]	]	PUNCT	_	_	13	punct	_	AlignBegin=252783|AlignEnd=252813|Gloss=PUNCT
 20	//	//	PUNCT	_	_	8	punct	_	AlignBegin=252783|AlignEnd=252813|Gloss=PUNCT
@@ -1602,7 +1602,7 @@
 8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=258512|AlignEnd=258785|Gloss=DEF.ART
 9	air	air	NOUN	_	_	6	conj:dicto	_	AlignBegin=258785|AlignEnd=258950|Gloss=air
 10	}	}	PUNCT	_	_	6	punct	_	AlignBegin=258950|AlignEnd=258980|Gloss=PUNCT
-11	inside	inside	ADP	_	_	9	dep	_	AlignBegin=258980|AlignEnd=259306|Gloss=inside
+11	inside	inside	ADP	_	_	9	mod	_	AlignBegin=258980|AlignEnd=259306|Gloss=inside
 12	no	no	PART	_	Polarity=Neg	13	mod	_	AlignBegin=259306|AlignEnd=259470|Gloss=NEG
 13	plenty	plenty	ADJ	_	_	16	mod:periph	_	AlignBegin=259470|AlignEnd=260010|Gloss=plenty
 14	<	<	PUNCT	_	_	16	punct	_	AlignBegin=260010|AlignEnd=260040|Gloss=PUNCT
@@ -1629,10 +1629,10 @@
 2	sey	sey	SCONJ	_	_	1	comp:obj	_	AlignBegin=261302|AlignEnd=261390|Gloss=COMP
 3	[	[	PUNCT	_	_	11	punct	_	AlignBegin=261390|AlignEnd=261420|Gloss=PUNCT
 4	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=261420|AlignEnd=261595|Gloss=DEF.ART
-5	two	two	NUM	_	NumType=Card	6	dep	_	AlignBegin=261595|AlignEnd=261836|Gloss=two.CARD
+5	two	two	NUM	_	NumType=Card	6	det@num	_	AlignBegin=261595|AlignEnd=261836|Gloss=two.CARD
 6	sides	side	NOUN	_	Number=Plur	11	subj	_	AlignBegin=261836|AlignEnd=262150|Gloss=side.PL
-7	of	of	ADP	_	_	6	dep	_	AlignBegin=262150|AlignEnd=262270|Gloss=of
-8	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	9	dep	_	AlignBegin=262270|AlignEnd=262374|Gloss=PL.2.POSS
+7	of	of	ADP	_	_	6	mod	_	AlignBegin=262150|AlignEnd=262270|Gloss=of
+8	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	9	mod	_	AlignBegin=262270|AlignEnd=262374|Gloss=PL.2.POSS
 9	tyre	tyre	NOUN	_	_	7	comp:obj	_	AlignBegin=262374|AlignEnd=262690|Gloss=tyre
 10	#	#	PUNCT	_	_	6	punct	_	AlignBegin=262690|AlignEnd=262920|Gloss=PUNCT
 11	go	go	AUX	_	Aspect=Prosp	2	comp:obj	_	AlignBegin=262920|AlignEnd=263060|Gloss=CONT
@@ -1670,10 +1670,10 @@
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=266200|AlignEnd=266476|Gloss=PUNCT
 2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=266476|AlignEnd=266640|Gloss=DEF.ART
 3	air	air	NOUN	_	_	12	dislocated	_	AlignBegin=266640|AlignEnd=266864|Gloss=air
-4	wey	when	SCONJ	_	_	3	dep	_	AlignBegin=266864|AlignEnd=266980|Gloss=when
+4	wey	wey	SCONJ	_	gloss=REL	3	mod@relcl	_	AlignBegin=266864|AlignEnd=266980|Gloss=when
 5	dey	dey	VERB	_	VerbType=Cop	4	comp:obj	_	AlignBegin=266980|AlignEnd=267100|Gloss=dey.COP
 6	inside	inside	ADP	_	_	5	comp:pred	_	AlignBegin=267100|AlignEnd=267390|Gloss=inside
-7	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	8	dep	_	AlignBegin=267390|AlignEnd=267699|Gloss=PL.2.POSS
+7	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	8	mod	_	AlignBegin=267390|AlignEnd=267699|Gloss=PL.2.POSS
 8	tyre	tyre	NOUN	_	_	6	comp:obj	_	AlignBegin=267699|AlignEnd=268072|Gloss=tyre
 9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=268072|AlignEnd=268102|Gloss=PUNCT
 10	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	subj	_	AlignBegin=268102|AlignEnd=268230|Gloss=NOM.SG.3
@@ -1691,11 +1691,11 @@
 2	so	so	ADV	_	_	4	discourse	_	AlignBegin=269400|AlignEnd=269580|Gloss=so
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=269610|AlignEnd=269800|Gloss=NOM.2
 4	suppose	suppose	VERB	_	_	0	root	_	AlignBegin=269800|AlignEnd=270369|Gloss=suppose
-5	check	check	VERB	_	_	4	comp:pred	_	AlignBegin=270369|AlignEnd=270690|Gloss=check
-6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	dep	_	AlignBegin=270690|AlignEnd=270861|Gloss=PL.2.POSS
+5	check	check	VERB	_	_	4	comp:obj@x	_	AlignBegin=270369|AlignEnd=270690|Gloss=check
+6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	mod	_	AlignBegin=270690|AlignEnd=270861|Gloss=PL.2.POSS
 7	tyre	tyre	NOUN	_	_	5	comp:obj	_	AlignBegin=270861|AlignEnd=271460|Gloss=tyre
 8	make	make	AUX	_	Mood=Sub	5	mod	_	AlignBegin=271460|AlignEnd=271650|Gloss=SBJV
-9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=271650|AlignEnd=271690|Gloss=NOM.SG.3
+9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=271650|AlignEnd=271690|Gloss=NOM.SG.3
 10	no	no	PART	_	Polarity=Neg	14	mod	_	AlignBegin=271690|AlignEnd=271960|Gloss=NEG
 11	#	#	PUNCT	_	_	14	punct	_	AlignBegin=271960|AlignEnd=272260|Gloss=PUNCT
 12	{	{	PUNCT	_	_	14	punct	_	AlignBegin=272230|AlignEnd=272260|Gloss=PUNCT
@@ -1715,9 +1715,9 @@
 # text = anoda ting wey we dey tell people < # if you must drive o < if e be sey you must drive motor ( you don buy motor //= you get licence //) < # make you no take alcohol > # { alcohol |a all dis ogogoro |a all dis tings wey dem dey sell for road } //
 # text_en = Another thing we tell people is if you must drive, if you have to drive a car (you have bought a car and you have a license), don't drink alcohol, alcohol, all brands of distilled liquor, all these drinks which are being sold by the roadsides.
 # text_ortho = Anoda ting wey we dey tell people, if you must drive o, if e be sey you must drive motor (you don buy motor, you get licence), make you no take alcohol, alcohol, all dis ogogoro, all dis tings wey dem dey sell for road.
-1	anoda	anoda	DET	_	_	2	dep	_	AlignBegin=275073|AlignEnd=275470|Gloss=another
+1	anoda	anoda	DET	_	_	2	det	_	AlignBegin=275073|AlignEnd=275470|Gloss=another
 2	ting	ting	NOUN	_	_	36	dislocated	_	AlignBegin=275470|AlignEnd=275650|Gloss=thing
-3	wey	when	SCONJ	_	_	2	dep	_	AlignBegin=275650|AlignEnd=275797|Gloss=when
+3	wey	wey	SCONJ	_	gloss=REL	2	mod@relcl	_	AlignBegin=275650|AlignEnd=275797|Gloss=when
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=275797|AlignEnd=275900|Gloss=NOM.PL.1
 5	dey	dey	AUX	_	Aspect=Imp	3	comp:obj	_	AlignBegin=275900|AlignEnd=276092|Gloss=IPFV
 6	tell	tell	VERB	_	_	5	comp:aux	_	AlignBegin=276092|AlignEnd=276380|Gloss=tell
@@ -1751,7 +1751,7 @@
 34	<	<	PUNCT	_	_	16	punct	_	AlignBegin=281700|AlignEnd=282020|Gloss=PUNCT
 35	#	#	PUNCT	_	_	16	punct	_	AlignBegin=281700|AlignEnd=282020|Gloss=PUNCT
 36	make	make	AUX	_	Mood=Sub	0	root	_	AlignBegin=282020|AlignEnd=282140|Gloss=SBJV
-37	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	36	subj	_	AlignBegin=282140|AlignEnd=282220|Gloss=NOM.2
+37	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	39	subj	_	AlignBegin=282140|AlignEnd=282220|Gloss=NOM.2
 38	no	no	PART	_	Polarity=Neg	39	mod	_	AlignBegin=282220|AlignEnd=282357|Gloss=NEG
 39	take	take	VERB	_	_	36	comp:aux	_	AlignBegin=282357|AlignEnd=282570|Gloss=take
 40	alcohol	alcohol	NOUN	_	_	39	comp:obj	_	AlignBegin=282570|AlignEnd=283045|Gloss=alcohol
@@ -1767,7 +1767,7 @@
 50	all	all	ADV	_	_	51	mod	_	AlignBegin=284764|AlignEnd=284900|Gloss=all
 51	dis	dis	DET	_	Number=Sing|PronType=Dem	52	det	_	AlignBegin=284900|AlignEnd=285100|Gloss=SG.PROX.DEM
 52	tings	tings	NOUN	_	Number=Plur	48	conj:coord	_	AlignBegin=285100|AlignEnd=285270|Gloss=thing.PL
-53	wey	when	SCONJ	_	_	52	dep	_	AlignBegin=285270|AlignEnd=285330|Gloss=when
+53	wey	wey	SCONJ	_	gloss=REL	52	mod@relcl	_	AlignBegin=285270|AlignEnd=285330|Gloss=when
 54	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	55	subj	_	AlignBegin=285330|AlignEnd=285460|Gloss=NOM.PL.3
 55	dey	dey	AUX	_	Aspect=Imp	53	comp:obj	_	AlignBegin=285460|AlignEnd=285582|Gloss=IPFV
 56	sell	sell	VERB	_	_	55	comp:aux	_	AlignBegin=285582|AlignEnd=285828|Gloss=sell
@@ -1788,7 +1788,7 @@
 4	things	ting	NOUN	_	Number=Plur	5	subj	_	AlignBegin=287128|AlignEnd=287370|Gloss=thing.PL
 5	get	get	VERB	_	_	0	root	_	AlignBegin=287370|AlignEnd=287747|Gloss=get
 6	things	ting	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=287747|AlignEnd=287950|Gloss=thing.PL
-7	wey	when	SCONJ	_	_	6	dep	_	AlignBegin=287950|AlignEnd=288050|Gloss=when
+7	wey	wey	SCONJ	_	gloss=REL	6	mod@relcl	_	AlignBegin=287950|AlignEnd=288050|Gloss=when
 8	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=288050|AlignEnd=288234|Gloss=IPFV
 9	affect	affect	VERB	_	_	8	comp:aux	_	AlignBegin=288234|AlignEnd=288746|Gloss=affect
 10	person	person	NOUN	_	_	9	comp:obj	_	AlignBegin=288746|AlignEnd=289061|Gloss=person
@@ -1818,14 +1818,14 @@
 14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=292760|AlignEnd=292961|Gloss=DEF.ART
 15	way	way	NOUN	_	_	20	subj	_	AlignBegin=292961|AlignEnd=293198|Gloss=way
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	subj	_	AlignBegin=293198|AlignEnd=293330|Gloss=NOM.2
-17	go	go	AUX	_	Aspect=Prosp	15	dep	_	AlignBegin=293330|AlignEnd=293460|Gloss=CONT
+17	go	go	AUX	_	Aspect=Prosp	15	mod@relcl	_	AlignBegin=293330|AlignEnd=293460|Gloss=CONT
 18	dey	dey	AUX	_	Aspect=Imp	17	comp:aux	_	AlignBegin=293460|AlignEnd=293610|Gloss=IPFV
 19	see	see	VERB	_	_	18	comp:aux	_	AlignBegin=293610|AlignEnd=293992|Gloss=see
 20	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=293992|AlignEnd=294164|Gloss=CONT
 21	different	different	ADJ	_	_	20	comp:pred	_	AlignBegin=294164|AlignEnd=294500|Gloss=different
-22	from	from	ADP	_	_	21	dep	_	AlignBegin=294500|AlignEnd=294706|Gloss=from
+22	from	from	ADP	_	_	21	mod	_	AlignBegin=294500|AlignEnd=294706|Gloss=from
 23	person	person	NOUN	_	_	22	comp:obj	_	AlignBegin=294706|AlignEnd=294980|Gloss=person
-24	wey	when	SCONJ	_	_	23	dep	_	AlignBegin=294980|AlignEnd=295098|Gloss=when
+24	wey	wey	SCONJ	_	gloss=REL	23	mod@relcl	_	AlignBegin=294980|AlignEnd=295098|Gloss=when
 25	no	no	PART	_	Polarity=Neg	26	mod	_	AlignBegin=295098|AlignEnd=295489|Gloss=NEG
 26	dey	dey	VERB	_	VerbType=Cop	24	comp:obj	_	AlignBegin=295489|AlignEnd=295700|Gloss=dey.COP
 27	under	under	ADP	_	_	26	comp:pred	_	AlignBegin=295700|AlignEnd=296090|Gloss=under
@@ -1869,7 +1869,7 @@
 15	somebody	somebody	PRON	_	_	16	subj	_	AlignBegin=301770|AlignEnd=302160|Gloss=somebody
 16	don	don	AUX	_	Aspect=Perf	13	comp:obj	_	AlignBegin=302160|AlignEnd=302350|Gloss=PRF
 17	enter	enter	VERB	_	_	16	comp:aux	_	AlignBegin=302350|AlignEnd=302582|Gloss=enter
-18	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	19	dep	_	AlignBegin=302582|AlignEnd=302680|Gloss=PL.2.POSS
+18	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	19	mod	_	AlignBegin=302582|AlignEnd=302680|Gloss=PL.2.POSS
 19	front	front	NOUN	_	_	17	comp:obj	_	AlignBegin=302680|AlignEnd=302962|Gloss=front
 20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=302962|AlignEnd=302992|Gloss=PUNCT
 
@@ -1890,7 +1890,7 @@
 9	ride	ride	VERB	_	_	7	comp:aux	_	AlignBegin=304536|AlignEnd=304720|Gloss=ride
 10	bicycle	bicycle	NOUN	_	_	9	comp:obj	_	AlignBegin=304720|AlignEnd=305130|Gloss=bicycle
 11	enter	enter	VERB	_	_	9	compound:svc	_	AlignBegin=305130|AlignEnd=305340|Gloss=enter
-12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	dep	_	AlignBegin=305340|AlignEnd=305432|Gloss=PL.2.POSS
+12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	mod	_	AlignBegin=305340|AlignEnd=305432|Gloss=PL.2.POSS
 13	front	front	NOUN	_	_	11	comp:obj	_	AlignBegin=305432|AlignEnd=305564|Gloss=front
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=305564|AlignEnd=305594|Gloss=PUNCT
 
@@ -1910,7 +1910,7 @@
 8	don	don	AUX	_	Aspect=Perf	6	comp:obj	_	AlignBegin=306873|AlignEnd=307050|Gloss=PRF
 9	take	take	VERB	_	_	8	comp:aux	_	AlignBegin=307050|AlignEnd=307200|Gloss=take
 10	something	someting	PRON	_	_	9	comp:obj	_	AlignBegin=307200|AlignEnd=307580|Gloss=something
-11	wey	when	SCONJ	_	_	10	dep	_	AlignBegin=307580|AlignEnd=307840|Gloss=when
+11	wey	wey	SCONJ	_	gloss=REL	10	mod@relcl	_	AlignBegin=307580|AlignEnd=307840|Gloss=when
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=307840|AlignEnd=308180|Gloss=PUNCT
 13	dey	dey	AUX	_	Aspect=Imp	11	comp:obj	_	AlignBegin=308180|AlignEnd=308405|Gloss=IPFV
 14	prevent	prevent	VERB	_	_	13	comp:aux	_	AlignBegin=308405|AlignEnd=308910|Gloss=prevent
@@ -1958,7 +1958,7 @@
 7	get	get	VERB	_	_	6	comp:aux	_	AlignBegin=314738|AlignEnd=314877|Gloss=get
 8	wetin	wetin	PRON	_	PronType=Int	7	comp:obj	_	AlignBegin=314877|AlignEnd=315120|Gloss=what.Q
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	subj	_	AlignBegin=315120|AlignEnd=315190|Gloss=NOM.PL.1
-10	dey	dey	AUX	_	Aspect=Imp	8	dep	_	AlignBegin=315190|AlignEnd=315290|Gloss=IPFV
+10	dey	dey	AUX	_	Aspect=Imp	8	mod@relcl	_	AlignBegin=315190|AlignEnd=315290|Gloss=IPFV
 11	say	say	VERB	_	_	10	comp:aux	_	AlignBegin=315290|AlignEnd=315452|Gloss=say
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=315452|AlignEnd=315482|Gloss=PUNCT
 
@@ -1971,13 +1971,13 @@
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=315482|AlignEnd=315675|Gloss=NOM.2
 2	drive	drive	VERB	_	_	0	root	_	AlignBegin=315675|AlignEnd=316034|Gloss=drive
 3	with	wit	ADP	_	_	2	comp:obl	_	AlignBegin=316034|AlignEnd=316240|Gloss=with
-4	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	5	dep	_	AlignBegin=316240|AlignEnd=316433|Gloss=PL.2.POSS
+4	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	5	mod	_	AlignBegin=316240|AlignEnd=316433|Gloss=PL.2.POSS
 5	eye	eye	NOUN	_	_	3	comp:obj	_	AlignBegin=316433|AlignEnd=316690|Gloss=eye
 6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=316690|AlignEnd=316720|Gloss=PUNCT
 7	and	and	CCONJ	_	_	8	cc	_	AlignBegin=316720|AlignEnd=316987|Gloss=and
 8	see	see	VERB	_	_	2	conj:coord	_	AlignBegin=316987|AlignEnd=317260|Gloss=see
 9	with	wit	ADP	_	_	8	comp:obl	_	AlignBegin=317260|AlignEnd=317470|Gloss=with
-10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	dep	_	AlignBegin=317470|AlignEnd=317600|Gloss=PL.2.POSS
+10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	mod	_	AlignBegin=317470|AlignEnd=317600|Gloss=PL.2.POSS
 11	mind	mind	NOUN	_	_	9	comp:obj	_	AlignBegin=317600|AlignEnd=318037|Gloss=mind
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=318037|AlignEnd=318067|Gloss=PUNCT
 
@@ -2004,7 +2004,7 @@
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=320993|AlignEnd=321023|Gloss=PUNCT
 16	but	but	CCONJ	_	_	17	cc	_	AlignBegin=321023|AlignEnd=321141|Gloss=but
 17	na	na	PART	_	PartType=Cop	8	conj:coord	_	AlignBegin=321141|AlignEnd=321250|Gloss=be.COP
-18	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	19	dep	_	AlignBegin=321250|AlignEnd=321410|Gloss=PL.2.POSS
+18	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	19	mod	_	AlignBegin=321250|AlignEnd=321410|Gloss=PL.2.POSS
 19	mind	mind	NOUN	_	_	17	comp:pred	_	AlignBegin=321410|AlignEnd=321670|Gloss=mind
 20	>+	>+	PUNCT	_	_	22	punct	_	AlignBegin=321670|AlignEnd=321700|Gloss=PUNCT
 21	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	22	subj	_	AlignBegin=321700|AlignEnd=321804|Gloss=NOM.2

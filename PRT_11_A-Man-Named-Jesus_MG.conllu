@@ -4,11 +4,11 @@
 # text = good afternoon > people wey dey listen to me !//
 # text_en = Good afternoon, people listening to me!
 # text_ortho = Good afternoon, people wey dey listen to me!
-1	good	good	ADJ	_	_	2	dep	_	AlignBegin=2340|AlignEnd=2550|Gloss=good
+1	good	good	ADJ	_	_	2	mod	_	AlignBegin=2340|AlignEnd=2550|Gloss=good
 2	afternoon	afternoon	NOUN	_	_	0	root	_	AlignBegin=2550|AlignEnd=3239|Gloss=afternoon
 3	>	>	PUNCT	_	_	4	punct	_	AlignBegin=3239|AlignEnd=3510|Gloss=PUNCT
 4	people	people	NOUN	_	Number=Plur	2	vocative	_	AlignBegin=3239|AlignEnd=3510|Gloss=people.PL
-5	wey	when	SCONJ	_	_	4	dep	_	AlignBegin=3510|AlignEnd=3645|Gloss=when
+5	wey	wey	SCONJ	_	gloss=REL	4	mod@relcl	_	AlignBegin=3510|AlignEnd=3645|Gloss=when
 6	dey	dey	AUX	_	Aspect=Imp	5	comp:obj	_	AlignBegin=3645|AlignEnd=3764|Gloss=IPFV
 7	listen	listen	VERB	_	_	6	comp:aux	_	AlignBegin=3764|AlignEnd=4127|Gloss=listen
 8	to	to	ADP	_	_	7	comp:obl	_	AlignBegin=4127|AlignEnd=4280|Gloss=to
@@ -24,7 +24,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=4538|AlignEnd=5200|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=5200|AlignEnd=5330|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=5330|AlignEnd=5500|Gloss=want
-4	to	to	ADP	_	_	3	comp:pred	_	AlignBegin=5500|AlignEnd=5710|Gloss=to
+4	to	to	ADP	_	_	3	comp:obl@x	_	AlignBegin=5500|AlignEnd=5710|Gloss=to
 5	talk	talk	VERB	_	_	4	comp:obj	_	AlignBegin=5710|AlignEnd=5918|Gloss=talk
 6	to	to	ADP	_	_	5	comp:obl	_	AlignBegin=5918|AlignEnd=6140|Gloss=to
 7	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=6140|AlignEnd=6441|Gloss=ACC.PL.2
@@ -74,8 +74,8 @@
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=14480|AlignEnd=15740|Gloss=PUNCT
 2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=15740|AlignEnd=15990|Gloss=SG.PROX.DEM
 3	person	person	NOUN	_	_	9	subj	_	AlignBegin=15990|AlignEnd=16311|Gloss=person
-4	wey	when	SCONJ	_	_	3	dep	_	AlignBegin=16311|AlignEnd=16458|Gloss=when
-5	im	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	dep	_	AlignBegin=16458|AlignEnd=16540|Gloss=M.SG.3.POSS
+4	wey	wey	SCONJ	_	gloss=REL	3	mod@relcl	_	AlignBegin=16311|AlignEnd=16458|Gloss=when
+5	im	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	mod	_	AlignBegin=16458|AlignEnd=16540|Gloss=M.SG.3.POSS
 6	name	name	NOUN	_	_	7	subj	_	AlignBegin=16540|AlignEnd=16710|Gloss=name
 7	na	na	PART	_	PartType=Cop	4	comp:obj	_	AlignBegin=16710|AlignEnd=16883|Gloss=be.COP
 8	Jesus	Jesus	PROPN	_	_	7	comp:pred	_	AlignBegin=16883|AlignEnd=17501|Gloss=Jesus
@@ -84,7 +84,7 @@
 11	>	>	PUNCT	_	_	9	punct	_	AlignBegin=18685|AlignEnd=18715|Gloss=PUNCT
 12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=18715|AlignEnd=18870|Gloss=DEF.ART
 13	person	person	NOUN	_	_	9	dislocated	_	AlignBegin=18870|AlignEnd=19150|Gloss=person
-14	wey	when	SCONJ	_	_	13	dep	_	AlignBegin=19150|AlignEnd=19350|Gloss=when
+14	wey	wey	SCONJ	_	gloss=REL	13	mod@relcl	_	AlignBegin=19150|AlignEnd=19350|Gloss=when
 15	God	God	PROPN	_	_	16	subj	_	AlignBegin=19350|AlignEnd=19620|Gloss=God
 16	send	send	VERB	_	_	14	comp:obj	_	AlignBegin=19620|AlignEnd=20168|Gloss=send
 17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=20168|AlignEnd=20198|Gloss=PUNCT
@@ -101,7 +101,7 @@
 4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=21191|AlignEnd=21340|Gloss=DEF.ART
 5	person	person	NOUN	_	_	3	comp:pred	_	AlignBegin=21340|AlignEnd=21557|Gloss=person
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=21557|AlignEnd=21587|Gloss=PUNCT
-7	wey	when	SCONJ	_	_	5	dep	_	AlignBegin=21587|AlignEnd=21800|Gloss=when
+7	wey	wey	SCONJ	_	gloss=REL	5	mod@relcl	_	AlignBegin=21587|AlignEnd=21800|Gloss=when
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=21800|AlignEnd=21922|Gloss=NOM.PL.1
 9	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=21922|AlignEnd=22064|Gloss=IPFV
 10	worship	worship	VERB	_	_	9	comp:aux	_	AlignBegin=22064|AlignEnd=22450|Gloss=worship
@@ -109,10 +109,10 @@
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=22480|AlignEnd=23240|Gloss=PUNCT
 13	wey	when	SCONJ	_	_	7	conj:coord	_	AlignBegin=23240|AlignEnd=23508|Gloss=when
 14	dey	dey	VERB	_	VerbType=Cop	13	comp:obj	_	AlignBegin=23508|AlignEnd=23656|Gloss=dey.COP
-15	like	like	VERB	_	_	14	comp:pred	_	AlignBegin=23656|AlignEnd=23930|Gloss=like
-16	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	17	dep	_	AlignBegin=23930|AlignEnd=24050|Gloss=PL.2.POSS
+15	like	like	VERB	_	_	14	comp:obj@x	_	AlignBegin=23656|AlignEnd=23930|Gloss=like
+16	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	17	mod	_	AlignBegin=23930|AlignEnd=24050|Gloss=PL.2.POSS
 17	papa	papa	NOUN	_	_	15	comp:obj	_	AlignBegin=24050|AlignEnd=24500|Gloss=papa
-18	wey	when	SCONJ	_	_	17	dep	_	AlignBegin=24500|AlignEnd=24714|Gloss=when
+18	wey	wey	SCONJ	_	gloss=REL	17	mod@relcl	_	AlignBegin=24500|AlignEnd=24714|Gloss=when
 19	born	born	VERB	_	_	18	comp:obj	_	AlignBegin=24714|AlignEnd=24967|Gloss=give_birth
 20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	comp:obj	_	AlignBegin=24967|AlignEnd=25070|Gloss=NOM.2
 21	for	for	ADP	_	_	19	comp:obl	_	AlignBegin=25070|AlignEnd=25305|Gloss=for
@@ -128,7 +128,7 @@
 # text_ortho = As your papa born you, feed you, train you, house you, na so, our God for heaven, na im bring im own son too wey im name na Jesus come tell us sey if we must come to him, we go come through dis Jesus.
 1	#	#	PUNCT	_	_	29	punct	_	AlignBegin=25777|AlignEnd=26440|Gloss=PUNCT
 2	as	as	ADP	_	_	29	mod:periph	_	AlignBegin=26440|AlignEnd=26660|Gloss=as
-3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	4	dep	_	AlignBegin=26660|AlignEnd=26740|Gloss=PL.2.POSS
+3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	4	mod	_	AlignBegin=26660|AlignEnd=26740|Gloss=PL.2.POSS
 4	papa	papa	NOUN	_	_	6	subj	_	AlignBegin=26740|AlignEnd=27110|Gloss=papa
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=27110|AlignEnd=27140|Gloss=PUNCT
 6	born	born	VERB	_	_	2	comp:obj	_	AlignBegin=27140|AlignEnd=27411|Gloss=give_birth
@@ -140,7 +140,7 @@
 12	train	train	VERB	_	_	9	conj:coord	_	AlignBegin=28548|AlignEnd=28930|Gloss=train
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	comp:obj	_	AlignBegin=28930|AlignEnd=29229|Gloss=NOM.2
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=29229|AlignEnd=29259|Gloss=PUNCT
-15	house	house	VERB	_	_	12	comp:obj	_	AlignBegin=29259|AlignEnd=29720|Gloss=house
+15	house	house	VERB	_	_	12	comp:obj@x	_	AlignBegin=29259|AlignEnd=29720|Gloss=house
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	comp:obj	_	AlignBegin=29720|AlignEnd=29868|Gloss=NOM.2
 17	}	}	PUNCT	_	_	6	punct	_	AlignBegin=29868|AlignEnd=29898|Gloss=PUNCT
 18	<	<	PUNCT	_	_	2	punct	_	AlignBegin=29868|AlignEnd=29898|Gloss=PUNCT
@@ -148,21 +148,21 @@
 20	na	na	PART	_	PartType=Cop	29	mod:periph	_	AlignBegin=30160|AlignEnd=30300|Gloss=be.COP
 21	so	so	ADV	_	_	20	comp:pred	_	AlignBegin=30300|AlignEnd=30630|Gloss=so
 22	<	<	PUNCT	_	_	20	punct	_	AlignBegin=30300|AlignEnd=30630|Gloss=PUNCT
-23	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	24	dep	_	AlignBegin=30660|AlignEnd=31088|Gloss=PL.1.POSS
+23	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	24	mod	_	AlignBegin=30660|AlignEnd=31088|Gloss=PL.1.POSS
 24	God	God	PROPN	_	_	29	dislocated	_	AlignBegin=31088|AlignEnd=31430|Gloss=God
-25	for	for	ADP	_	_	24	dep	_	AlignBegin=31430|AlignEnd=31639|Gloss=for
+25	for	for	ADP	_	_	24	mod	_	AlignBegin=31430|AlignEnd=31639|Gloss=for
 26	heaven	heaven	NOUN	_	_	25	comp:obj	_	AlignBegin=31639|AlignEnd=32020|Gloss=heaven
 27	<	<	PUNCT	_	_	24	punct	_	AlignBegin=32020|AlignEnd=32420|Gloss=PUNCT
 28	#	#	PUNCT	_	_	24	punct	_	AlignBegin=32020|AlignEnd=32420|Gloss=PUNCT
 29	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=32420|AlignEnd=32650|Gloss=be.COP
 30	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	comp:pred	_	AlignBegin=32650|AlignEnd=32870|Gloss=NOM.SG.3
 31	bring	bring	VERB	_	_	30	dep	_	AlignBegin=32900|AlignEnd=33245|Gloss=bring
-32	im	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	34	dep	_	AlignBegin=33245|AlignEnd=33425|Gloss=M.SG.3.POSS
-33	own	own	ADJ	_	_	34	dep	_	AlignBegin=33425|AlignEnd=33626|Gloss=own
+32	im	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	34	mod	_	AlignBegin=33245|AlignEnd=33425|Gloss=M.SG.3.POSS
+33	own	own	ADJ	_	_	34	mod	_	AlignBegin=33425|AlignEnd=33626|Gloss=own
 34	son	son	NOUN	_	_	31	comp:obj	_	AlignBegin=33626|AlignEnd=34000|Gloss=son
-35	too	too	ADV	_	_	34	dep	_	AlignBegin=34000|AlignEnd=34432|Gloss=too
-36	wey	when	SCONJ	_	_	34	dep	_	AlignBegin=34432|AlignEnd=34739|Gloss=when
-37	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	38	dep	_	AlignBegin=34739|AlignEnd=34960|Gloss=NOM.SG.3
+35	too	too	ADV	_	_	34	mod	_	AlignBegin=34000|AlignEnd=34432|Gloss=too
+36	wey	wey	SCONJ	_	gloss=REL	34	mod@relcl	_	AlignBegin=34432|AlignEnd=34739|Gloss=when
+37	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	38	mod:poss	_	AlignBegin=34739|AlignEnd=34960|Gloss=NOM.SG.3
 38	name	name	NOUN	_	_	39	subj	_	AlignBegin=34960|AlignEnd=35240|Gloss=name
 39	na	na	PART	_	PartType=Cop	36	comp:obj	_	AlignBegin=35240|AlignEnd=35600|Gloss=be.COP
 40	Jesus	Jesus	PROPN	_	_	39	comp:pred	_	AlignBegin=35600|AlignEnd=36140|Gloss=Jesus
@@ -229,17 +229,17 @@
 15	#	#	PUNCT	_	_	14	punct	_	AlignBegin=47219|AlignEnd=48140|Gloss=PUNCT
 16	John	John	PROPN	_	_	12	comp:obj	_	AlignBegin=48140|AlignEnd=48804|Gloss=John
 17	chapter	chapter	NOUN	_	_	16	flat	_	AlignBegin=48804|AlignEnd=49225|Gloss=chapter
-18	three	three	NUM	_	NumType=Card	17	dep	_	AlignBegin=49225|AlignEnd=49770|Gloss=three.CARD
+18	three	three	NUM	_	NumType=Card	17	det@num	_	AlignBegin=49225|AlignEnd=49770|Gloss=three.CARD
 19	verse	verse	NOUN	_	_	17	flat	_	AlignBegin=49770|AlignEnd=50081|Gloss=verse
-20	three	three	NUM	_	NumType=Card	19	dep	_	AlignBegin=50081|AlignEnd=50370|Gloss=three.CARD
+20	three	three	NUM	_	NumType=Card	19	det@num	_	AlignBegin=50081|AlignEnd=50370|Gloss=three.CARD
 21	<	<	PUNCT	_	_	7	punct	_	AlignBegin=50370|AlignEnd=50400|Gloss=PUNCT
-22	#	#	PUNCT	_	_	7	punct	8:punct	AlignBegin=50400|AlignEnd=51020|Gloss=PUNCT
+22	#	#	PUNCT	_	_	7|8	punct|punct	_	AlignBegin=50400|AlignEnd=51020|Gloss=PUNCT
 23	a	a	DET	_	Definite=Ind|PronType=Art	24	det	_	AlignBegin=51020|AlignEnd=51191|Gloss=INDF.ART
 24	man	man	NOUN	_	_	27	subj	_	AlignBegin=51191|AlignEnd=51580|Gloss=man
 25	name	name	VERB	_	_	24	dep	_	AlignBegin=51580|AlignEnd=51860|Gloss=name
 26	Nicodemus	Nicodemus	PROPN	_	_	25	comp:pred	_	AlignBegin=51860|AlignEnd=52601|Gloss=Nicodemus
 27	go	go	VERB	_	_	0	root	_	AlignBegin=52601|AlignEnd=52800|Gloss=go
-28	meet	meet	VERB	_	_	27	comp:pred	_	AlignBegin=52800|AlignEnd=53038|Gloss=meet
+28	meet	meet	VERB	_	_	27	comp:obj@x	_	AlignBegin=52800|AlignEnd=53038|Gloss=meet
 29	Jesus	Jesus	PROPN	_	_	28	comp:obj	_	AlignBegin=53038|AlignEnd=53410|Gloss=Jesus
 30	one	one	DET	_	Definite=Spec|PronType=Art	31	det	_	AlignBegin=53410|AlignEnd=53620|Gloss=SPEC.ART
 31	day	day	NOUN	_	_	28	mod	_	AlignBegin=53620|AlignEnd=53850|Gloss=day
@@ -255,7 +255,7 @@
 41	see	see	VERB	_	_	40	comp:aux	_	AlignBegin=55710|AlignEnd=55944|Gloss=see
 42	di	the	DET	_	Definite=Def|PronType=Art	43	det	_	AlignBegin=55944|AlignEnd=56063|Gloss=DEF.ART
 43	tings	tings	NOUN	_	Number=Plur	41	comp:obj	_	AlignBegin=56063|AlignEnd=56343|Gloss=thing.PL
-44	wey	when	SCONJ	_	_	43	dep	_	AlignBegin=56343|AlignEnd=56460|Gloss=when
+44	wey	wey	SCONJ	_	gloss=REL	43	mod@relcl	_	AlignBegin=56343|AlignEnd=56460|Gloss=when
 45	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	46	subj	_	AlignBegin=56460|AlignEnd=56570|Gloss=NOM.2
 46	dey	dey	AUX	_	Aspect=Imp	44	comp:obj	_	AlignBegin=56570|AlignEnd=56700|Gloss=IPFV
 47	do	do	VERB	_	_	46	comp:aux	_	AlignBegin=56700|AlignEnd=56970|Gloss=do
@@ -276,14 +276,14 @@
 3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=58046|AlignEnd=58183|Gloss=IPFV
 4	do	do	VERB	_	_	3	comp:aux	_	AlignBegin=58183|AlignEnd=58304|Gloss=do
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=58304|AlignEnd=58334|Gloss=PUNCT
-6	so	so	ADV	_	_	11	dep	_	AlignBegin=58334|AlignEnd=58450|Gloss=so
+6	so	so	ADV	_	_	11	mod	_	AlignBegin=58334|AlignEnd=58450|Gloss=so
 7	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=58450|AlignEnd=58480|Gloss=PUNCT
 8	so	so	ADV	_	_	6	compound:redup	_	AlignBegin=58480|AlignEnd=58640|Gloss=so
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=58640|AlignEnd=58670|Gloss=PUNCT
-10	good	good	ADJ	_	_	11	dep	_	AlignBegin=58670|AlignEnd=58890|Gloss=good
+10	good	good	ADJ	_	_	11	mod	_	AlignBegin=58670|AlignEnd=58890|Gloss=good
 11	work	work	NOUN	_	_	4	comp:obj	_	AlignBegin=58890|AlignEnd=59090|Gloss=work
 12	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=59090|AlignEnd=59250|Gloss=for
-13	people	people	NOUN	_	Number=Plur	14	dep	_	AlignBegin=59250|AlignEnd=59539|Gloss=people.PL
+13	people	people	NOUN	_	Number=Plur	14	mod	_	AlignBegin=59250|AlignEnd=59539|Gloss=people.PL
 14	life	life	NOUN	_	_	12	comp:obj	_	AlignBegin=59539|AlignEnd=59811|Gloss=life
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=59811|AlignEnd=59841|Gloss=PUNCT
 
@@ -294,7 +294,7 @@
 # text_en = People's lives are getting better.
 # text_ortho = People life dey better.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=59841|AlignEnd=60180|Gloss=PUNCT
-2	people	people	NOUN	_	Number=Plur	3	dep	_	AlignBegin=60180|AlignEnd=60414|Gloss=people.PL
+2	people	people	NOUN	_	Number=Plur	3	mod	_	AlignBegin=60180|AlignEnd=60414|Gloss=people.PL
 3	life	life	NOUN	_	_	4	subj	_	AlignBegin=60414|AlignEnd=60630|Gloss=life
 4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=60630|AlignEnd=60770|Gloss=dey.COP
 5	better	beta	ADJ	_	Degree=Cmp	4	comp:pred	_	AlignBegin=60770|AlignEnd=61070|Gloss=good.CMPR
@@ -309,12 +309,12 @@
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=61100|AlignEnd=61380|Gloss=PUNCT
 2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=61380|AlignEnd=61450|Gloss=DEF.ART
 3	one	one	NOUN	_	_	11	dislocated	_	AlignBegin=61450|AlignEnd=61620|Gloss=one
-4	wey	when	SCONJ	_	_	3	dep	_	AlignBegin=61620|AlignEnd=61760|Gloss=when
+4	wey	wey	SCONJ	_	gloss=REL	3	mod@relcl	_	AlignBegin=61620|AlignEnd=61760|Gloss=when
 5	get	get	VERB	_	_	4	comp:obj	_	AlignBegin=61760|AlignEnd=61890|Gloss=get
 6	blind	blind	ADJ	_	_	7	compound	_	AlignBegin=61890|AlignEnd=62170|Gloss=blind
 7	eye	eye	NOUN	_	_	5	comp:obj	_	AlignBegin=62170|AlignEnd=62567|Gloss=eye
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=62567|AlignEnd=62597|Gloss=PUNCT
-9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	dep	_	AlignBegin=62597|AlignEnd=62740|Gloss=NOM.SG.3
+9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	mod:poss	_	AlignBegin=62597|AlignEnd=62740|Gloss=NOM.SG.3
 10	eye	eye	NOUN	_	_	11	subj	_	AlignBegin=62740|AlignEnd=62941|Gloss=eye
 11	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=62941|AlignEnd=63076|Gloss=CONT
 12	see	see	VERB	_	_	11	comp:aux	_	AlignBegin=63076|AlignEnd=63350|Gloss=see
@@ -322,7 +322,7 @@
 14	#	#	PUNCT	_	_	23	punct	_	AlignBegin=63380|AlignEnd=63600|Gloss=PUNCT
 15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=63600|AlignEnd=63708|Gloss=DEF.ART
 16	one	one	NOUN	_	_	23	dislocated	_	AlignBegin=63708|AlignEnd=63860|Gloss=one
-17	wey	when	SCONJ	_	_	16	dep	_	AlignBegin=63860|AlignEnd=63987|Gloss=when
+17	wey	wey	SCONJ	_	gloss=REL	16	mod@relcl	_	AlignBegin=63860|AlignEnd=63987|Gloss=when
 18	no	no	PART	_	Polarity=Neg	19	mod	_	AlignBegin=63987|AlignEnd=64110|Gloss=NEG
 19	fit	fit	AUX	_	Mood=Ability	17	comp:obj	_	AlignBegin=64110|AlignEnd=64330|Gloss=ABIL
 20	eat	eat	VERB	_	_	19	comp:aux	_	AlignBegin=64330|AlignEnd=64530|Gloss=eat
@@ -336,7 +336,7 @@
 28	#	#	PUNCT	_	_	38	punct	_	AlignBegin=65440|AlignEnd=65640|Gloss=PUNCT
 29	di	the	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=65640|AlignEnd=65744|Gloss=DEF.ART
 30	one	one	NOUN	_	_	38	dislocated	_	AlignBegin=65744|AlignEnd=65880|Gloss=one
-31	wey	when	SCONJ	_	_	30	dep	_	AlignBegin=65880|AlignEnd=65992|Gloss=when
+31	wey	wey	SCONJ	_	gloss=REL	30	mod@relcl	_	AlignBegin=65880|AlignEnd=65992|Gloss=when
 32	no	no	PART	_	Polarity=Neg	33	mod	_	AlignBegin=65992|AlignEnd=66160|Gloss=NEG
 33	get	get	VERB	_	_	31	comp:obj	_	AlignBegin=66160|AlignEnd=66322|Gloss=get
 34	leg	leg	NOUN	_	_	33	comp:obj	_	AlignBegin=66322|AlignEnd=66594|Gloss=leg
@@ -347,7 +347,7 @@
 39	fit	fit	AUX	_	Mood=Ability	38	comp:aux	_	AlignBegin=67030|AlignEnd=67180|Gloss=ABIL
 40	make	make	VERB	_	_	39	comp:aux	_	AlignBegin=67180|AlignEnd=67380|Gloss=make
 41	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	40	comp:obj	_	AlignBegin=67380|AlignEnd=67490|Gloss=ACC.SG.3
-42	waka	waka	VERB	_	_	40	comp:pred	_	AlignBegin=67490|AlignEnd=67830|Gloss=walk
+42	waka	waka	VERB	_	_	40	comp:obj@x	_	AlignBegin=67490|AlignEnd=67830|Gloss=walk
 43	//	//	PUNCT	_	_	11	punct	_	AlignBegin=67830|AlignEnd=67860|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__12
@@ -359,7 +359,7 @@
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=67860|AlignEnd=68360|Gloss=PUNCT
 2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=68360|AlignEnd=68690|Gloss=SG.PROX.DEM
 3	ting	ting	NOUN	_	_	10	dislocated	_	AlignBegin=68690|AlignEnd=68865|Gloss=thing
-4	wey	when	SCONJ	_	_	3	dep	_	AlignBegin=68865|AlignEnd=69010|Gloss=when
+4	wey	wey	SCONJ	_	gloss=REL	3	mod@relcl	_	AlignBegin=68865|AlignEnd=69010|Gloss=when
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=69010|AlignEnd=69070|Gloss=NOM.2
 6	dey	dey	AUX	_	Aspect=Imp	4	comp:obj	_	AlignBegin=69070|AlignEnd=69170|Gloss=IPFV
 7	do	do	VERB	_	_	6	comp:aux	_	AlignBegin=69170|AlignEnd=69322|Gloss=do
@@ -378,7 +378,7 @@
 # text_en = You are good at heart.
 # text_ortho = Your mind, you dey good.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=70464|AlignEnd=70682|Gloss=PUNCT
-2	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	3	dep	_	AlignBegin=70682|AlignEnd=70892|Gloss=PL.2.POSS
+2	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	3	mod	_	AlignBegin=70682|AlignEnd=70892|Gloss=PL.2.POSS
 3	mind	mind	NOUN	_	_	6	dislocated	_	AlignBegin=70892|AlignEnd=71252|Gloss=mind
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=71252|AlignEnd=71282|Gloss=PUNCT
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=71282|AlignEnd=71392|Gloss=NOM.2
@@ -444,14 +444,14 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=77620|AlignEnd=77932|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=77932|AlignEnd=78090|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=78090|AlignEnd=78260|Gloss=want
-4	to	to	ADP	_	_	3	comp:pred	_	AlignBegin=78260|AlignEnd=78410|Gloss=to
+4	to	to	ADP	_	_	3	comp:obl@x	_	AlignBegin=78260|AlignEnd=78410|Gloss=to
 5	begin	begin	VERB	_	_	4	comp:obj	_	AlignBegin=78410|AlignEnd=78697|Gloss=begin
-6	to	to	ADP	_	_	5	comp:pred	_	AlignBegin=78697|AlignEnd=78856|Gloss=to
+6	to	to	ADP	_	_	5	comp:obl@x	_	AlignBegin=78697|AlignEnd=78856|Gloss=to
 7	do	do	VERB	_	_	6	comp:obj	_	AlignBegin=78856|AlignEnd=78974|Gloss=do
 8	dis	dis	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=78974|AlignEnd=79140|Gloss=SG.PROX.DEM
-9	kind	kind	ADJ	_	_	10	dep	_	AlignBegin=79140|AlignEnd=79340|Gloss=kind
+9	kind	kind	ADJ	_	_	10	mod	_	AlignBegin=79140|AlignEnd=79340|Gloss=kind
 10	ting	ting	NOUN	_	_	7	comp:obj	_	AlignBegin=79340|AlignEnd=79487|Gloss=thing
-11	wey	when	SCONJ	_	_	10	dep	_	AlignBegin=79487|AlignEnd=79650|Gloss=when
+11	wey	wey	SCONJ	_	gloss=REL	10	mod@relcl	_	AlignBegin=79487|AlignEnd=79650|Gloss=when
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	subj	_	AlignBegin=79650|AlignEnd=79737|Gloss=NOM.2
 13	dey	dey	AUX	_	Aspect=Imp	11	comp:obj	_	AlignBegin=79737|AlignEnd=79861|Gloss=IPFV
 14	do	do	VERB	_	_	13	comp:aux	_	AlignBegin=79861|AlignEnd=80050|Gloss=do
@@ -483,14 +483,14 @@
 18	do	do	VERB	_	_	17	comp:obj	_	AlignBegin=84590|AlignEnd=84710|Gloss=do
 19	wetin	wetin	PRON	_	PronType=Int	18	comp:obj	_	AlignBegin=84710|AlignEnd=84990|Gloss=what.Q
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	subj	_	AlignBegin=84990|AlignEnd=85139|Gloss=NOM.SG.1
-21	dey	dey	AUX	_	Aspect=Imp	19	dep	_	AlignBegin=85139|AlignEnd=85253|Gloss=IPFV
+21	dey	dey	AUX	_	Aspect=Imp	19	mod@relcl	_	AlignBegin=85139|AlignEnd=85253|Gloss=IPFV
 22	do	do	VERB	_	_	21	comp:aux	_	AlignBegin=85253|AlignEnd=85391|Gloss=do
 23	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=85391|AlignEnd=85421|Gloss=PUNCT
 24	but	but	CCONJ	_	_	26	cc	_	AlignBegin=85421|AlignEnd=85575|Gloss=but
 25	dere	dere	ADV	_	_	26	subj@expl	_	AlignBegin=85575|AlignEnd=85790|Gloss=there
 26	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	AlignBegin=85790|AlignEnd=85930|Gloss=be.IND.SG.3.PRS.FIN
 27	a	a	DET	_	Definite=Ind|PronType=Art	28	det	_	AlignBegin=85930|AlignEnd=86074|Gloss=INDF.ART
-28	condition	condition	NOUN	_	_	26	comp:quasi	_	AlignBegin=86074|AlignEnd=86630|Gloss=condition
+28	condition	condition	NOUN	_	_	26	comp:obj@agent	_	AlignBegin=86074|AlignEnd=86630|Gloss=condition
 29	eng]	eng]	PUNCT	_	_	11	punct	_	AlignBegin=86630|AlignEnd=86660|Gloss=PUNCT
 30	//]	//]	PUNCT	_	_	11	punct	_	AlignBegin=86630|AlignEnd=86660|Gloss=PUNCT
 31	//	//	PUNCT	_	_	3	punct	_	AlignBegin=86630|AlignEnd=86660|Gloss=PUNCT
@@ -512,7 +512,7 @@
 9	be	be	VERB	_	PartType=Cop	8	comp:cleft	_	AlignBegin=88690|AlignEnd=88795|Gloss=be.COP
 10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=88795|AlignEnd=88952|Gloss=DEF.ART
 11	condition	condition	NOUN	_	_	9	comp:pred	_	AlignBegin=88952|AlignEnd=89458|Gloss=condition
-12	wey	when	SCONJ	_	_	11	dep	_	AlignBegin=89458|AlignEnd=89590|Gloss=when
+12	wey	wey	SCONJ	_	gloss=REL	11	mod@relcl	_	AlignBegin=89458|AlignEnd=89590|Gloss=when
 13	go	go	AUX	_	Aspect=Prosp	12	comp:obj	_	AlignBegin=89590|AlignEnd=89730|Gloss=CONT
 14	make	make	VERB	_	_	13	comp:aux	_	AlignBegin=89730|AlignEnd=89900|Gloss=make
 15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	AlignBegin=89900|AlignEnd=90008|Gloss=ACC.SG.1
@@ -564,9 +564,9 @@
 19	in	in	ADP	_	_	4	mod	_	AlignBegin=99720|AlignEnd=100020|Gloss=in
 20	John	John	PROPN	_	_	19	comp:obj	_	AlignBegin=100020|AlignEnd=100452|Gloss=John
 21	chapter	chapter	NOUN	_	_	20	flat	_	AlignBegin=100452|AlignEnd=100877|Gloss=chapter
-22	three	three	NUM	_	NumType=Card	21	dep	_	AlignBegin=100877|AlignEnd=101260|Gloss=three.CARD
+22	three	three	NUM	_	NumType=Card	21	det@num	_	AlignBegin=100877|AlignEnd=101260|Gloss=three.CARD
 23	verse	verse	NOUN	_	_	21	flat	_	AlignBegin=101260|AlignEnd=101635|Gloss=verse
-24	three	three	NUM	_	NumType=Card	23	dep	_	AlignBegin=101635|AlignEnd=101820|Gloss=three.CARD
+24	three	three	NUM	_	NumType=Card	23	det@num	_	AlignBegin=101635|AlignEnd=101820|Gloss=three.CARD
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=101820|AlignEnd=101850|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__21
@@ -586,14 +586,14 @@
 9	except	except	ADP	_	_	30	mod:periph	_	AlignBegin=103980|AlignEnd=104470|Gloss=except
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=104470|AlignEnd=104630|Gloss=NOM.2
 11	change	change	VERB	_	_	9	comp:obj	_	AlignBegin=104630|AlignEnd=104960|Gloss=change
-12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	dep	_	AlignBegin=104960|AlignEnd=105130|Gloss=PL.2.POSS
+12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	mod	_	AlignBegin=104960|AlignEnd=105130|Gloss=PL.2.POSS
 13	lifestyle	lifestyle	NOUN	_	_	11	comp:obj	_	AlignBegin=105130|AlignEnd=105880|Gloss=lifestyle
 14	#	#	PUNCT	_	_	16	punct	_	AlignBegin=105880|AlignEnd=106360|Gloss=PUNCT
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=106330|AlignEnd=106360|Gloss=PUNCT
-16	to	to	ADP	_	_	11	comp:pred	_	AlignBegin=106360|AlignEnd=106500|Gloss=to
+16	to	to	ADP	_	_	11	comp:obl@x	_	AlignBegin=106360|AlignEnd=106500|Gloss=to
 17	become	become	VERB	_	_	16	comp:obj	_	AlignBegin=106500|AlignEnd=107020|Gloss=become
 18	#	#	PUNCT	_	_	19	punct	_	AlignBegin=107020|AlignEnd=107320|Gloss=PUNCT
-19	like	like	VERB	_	_	17	comp:pred	_	AlignBegin=107320|AlignEnd=107634|Gloss=like
+19	like	like	VERB	_	_	17	comp:obj@x	_	AlignBegin=107320|AlignEnd=107634|Gloss=like
 20	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	comp:obj	_	AlignBegin=107634|AlignEnd=107770|Gloss=ACC.SG.1
 21	||	||	PUNCT	_	_	23	punct	_	AlignBegin=107770|AlignEnd=107800|Gloss=PUNCT
 22	eh	eh	INTJ	_	_	23	discourse	_	AlignBegin=107800|AlignEnd=107987|Gloss=eh
@@ -618,7 +618,7 @@
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=109030|AlignEnd=109060|Gloss=PUNCT
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=109060|AlignEnd=109150|Gloss=NOM.2
 4	change	change	VERB	_	_	1	comp:obj	_	AlignBegin=109150|AlignEnd=109390|Gloss=change
-5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	dep	_	AlignBegin=109390|AlignEnd=109511|Gloss=PL.2.POSS
+5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	mod	_	AlignBegin=109390|AlignEnd=109511|Gloss=PL.2.POSS
 6	lifestyle	lifestyle	NOUN	_	_	4	comp:obj	_	AlignBegin=109511|AlignEnd=110110|Gloss=lifestyle
 7	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=110110|AlignEnd=110140|Gloss=PUNCT
 8	#	#	PUNCT	_	_	10	punct	_	AlignBegin=110140|AlignEnd=110500|Gloss=PUNCT
@@ -637,18 +637,18 @@
 21	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	22	subj	_	AlignBegin=113130|AlignEnd=113250|Gloss=NOM.2
 22	leave	leave	VERB	_	_	19	comp:obj	_	AlignBegin=113250|AlignEnd=113450|Gloss=leave
 23	di	the	DET	_	Definite=Def|PronType=Art	25	det	_	AlignBegin=113450|AlignEnd=113591|Gloss=DEF.ART
-24	old	old	ADJ	_	_	25	dep	_	AlignBegin=113591|AlignEnd=113862|Gloss=old
+24	old	old	ADJ	_	_	25	mod	_	AlignBegin=113591|AlignEnd=113862|Gloss=old
 25	way	way	NOUN	_	_	22	comp:obj	_	AlignBegin=113862|AlignEnd=114135|Gloss=way
-26	wey	when	SCONJ	_	_	25	dep	_	AlignBegin=114135|AlignEnd=114290|Gloss=when
+26	wey	wey	SCONJ	_	gloss=REL	25	mod@relcl	_	AlignBegin=114135|AlignEnd=114290|Gloss=when
 27	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	28	subj	_	AlignBegin=114290|AlignEnd=114392|Gloss=NOM.2
 28	dey	dey	AUX	_	Aspect=Imp	26	comp:obj	_	AlignBegin=114392|AlignEnd=114527|Gloss=IPFV
 29	worship	worship	VERB	_	_	28	comp:aux	_	AlignBegin=114527|AlignEnd=114904|Gloss=worship
 30	{	{	PUNCT	_	_	32	punct	_	AlignBegin=114904|AlignEnd=114934|Gloss=PUNCT
-31	oder	oder	ADJ	_	_	32	dep	_	AlignBegin=114934|AlignEnd=115370|Gloss=other
+31	oder	oder	ADJ	_	_	32	mod	_	AlignBegin=114934|AlignEnd=115370|Gloss=other
 32	juju	juju	NOUN	_	_	29	comp:obj	_	AlignBegin=115370|AlignEnd=115690|Gloss=juju
 33	|c	|c	PUNCT	_	_	36	punct	_	AlignBegin=115690|AlignEnd=115720|Gloss=PUNCT
 34	#	#	PUNCT	_	_	36	punct	_	AlignBegin=115720|AlignEnd=116000|Gloss=PUNCT
-35	oder	oder	ADJ	_	_	36	dep	_	AlignBegin=116000|AlignEnd=116360|Gloss=other
+35	oder	oder	ADJ	_	_	36	mod	_	AlignBegin=116000|AlignEnd=116360|Gloss=other
 36	tings	tings	NOUN	_	Number=Plur	32	conj:coord	_	AlignBegin=116360|AlignEnd=116762|Gloss=thing.PL
 37	}	}	PUNCT	_	_	32	punct	_	AlignBegin=116762|AlignEnd=116792|Gloss=PUNCT
 38	|c	|c	PUNCT	_	_	40	punct	_	AlignBegin=116762|AlignEnd=116792|Gloss=PUNCT
@@ -657,9 +657,9 @@
 41	dey	dey	AUX	_	Aspect=Imp	40	comp:pred	_	AlignBegin=117190|AlignEnd=117327|Gloss=IPFV
 42	worship	worship	VERB	_	_	41	comp:aux	_	AlignBegin=117327|AlignEnd=117749|Gloss=worship
 43	di	the	DET	_	Definite=Def|PronType=Art	45	det	_	AlignBegin=117749|AlignEnd=117917|Gloss=DEF.ART
-44	true	true	ADJ	_	_	45	dep	_	AlignBegin=117917|AlignEnd=118146|Gloss=true
+44	true	true	ADJ	_	_	45	mod	_	AlignBegin=117917|AlignEnd=118146|Gloss=true
 45	God	God	PROPN	_	_	42	comp:obj	_	AlignBegin=118146|AlignEnd=118367|Gloss=God
-46	wey	when	SCONJ	_	_	45	dep	_	AlignBegin=118367|AlignEnd=118475|Gloss=when
+46	wey	wey	SCONJ	_	gloss=REL	45	mod@relcl	_	AlignBegin=118367|AlignEnd=118475|Gloss=when
 47	dey	dey	VERB	_	VerbType=Cop	46	comp:obj	_	AlignBegin=118475|AlignEnd=118621|Gloss=dey.COP
 48	heaven	heaven	NOUN	_	_	47	comp:pred	_	AlignBegin=118621|AlignEnd=119037|Gloss=heaven
 49	}	}	PUNCT	_	_	29	punct	_	AlignBegin=119037|AlignEnd=119067|Gloss=PUNCT
@@ -671,7 +671,7 @@
 55	do	do	VERB	_	_	54	comp:aux	_	AlignBegin=119706|AlignEnd=119850|Gloss=do
 56	wetin	wetin	PRON	_	PronType=Int	55	comp:obj	_	AlignBegin=119850|AlignEnd=120224|Gloss=what.Q
 57	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	58	subj	_	AlignBegin=120224|AlignEnd=120370|Gloss=NOM.SG.1
-58	dey	dey	AUX	_	Aspect=Imp	56	dep	_	AlignBegin=120370|AlignEnd=120501|Gloss=IPFV
+58	dey	dey	AUX	_	Aspect=Imp	56	mod@relcl	_	AlignBegin=120370|AlignEnd=120501|Gloss=IPFV
 59	do	do	VERB	_	_	58	comp:aux	_	AlignBegin=120501|AlignEnd=120670|Gloss=do
 60	//	//	PUNCT	_	_	53	punct	_	AlignBegin=120670|AlignEnd=120700|Gloss=PUNCT
 
@@ -707,11 +707,11 @@
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=125130|AlignEnd=125290|Gloss=go
 5	back	back	ADV	_	_	4	mod	_	AlignBegin=125290|AlignEnd=125490|Gloss=back
 6	to	to	ADP	_	_	4	comp:obl	_	AlignBegin=125490|AlignEnd=125590|Gloss=to
-7	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	9	dep	_	AlignBegin=125590|AlignEnd=125720|Gloss=SG.1.POSS
-8	mama	mama	NOUN	_	_	9	dep	_	AlignBegin=125720|AlignEnd=126000|Gloss=mama
+7	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	9	mod	_	AlignBegin=125590|AlignEnd=125720|Gloss=SG.1.POSS
+8	mama	mama	NOUN	_	_	9	mod	_	AlignBegin=125720|AlignEnd=126000|Gloss=mama
 9	belle	belle	NOUN	_	_	6	comp:obj	_	AlignBegin=126000|AlignEnd=126546|Gloss=belly
 10	make	make	AUX	_	Mood=Sub	4	comp:pred	_	AlignBegin=126546|AlignEnd=126690|Gloss=SBJV
-11	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	AlignBegin=126690|AlignEnd=126940|Gloss=NOM.F.SG.3
+11	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	AlignBegin=126690|AlignEnd=126940|Gloss=NOM.F.SG.3
 12	born	born	VERB	_	_	10	comp:aux	_	AlignBegin=126940|AlignEnd=127134|Gloss=give_birth
 13	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=127134|AlignEnd=127240|Gloss=ACC.SG.1
 14	again	again	ADV	_	_	12	mod	_	AlignBegin=127240|AlignEnd=127580|Gloss=again
@@ -731,7 +731,7 @@
 6	am	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	AlignBegin=128327|AlignEnd=128604|Gloss=be.IND.SG.1.PRS.FIN
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=128604|AlignEnd=128634|Gloss=PUNCT
 8	eighty	eighty	NUM	_	NumType=Card	9	compound	_	AlignBegin=128634|AlignEnd=128920|Gloss=eighty.CARD
-9	five	five	NUM	_	NumType=Card	10	dep	_	AlignBegin=128920|AlignEnd=129210|Gloss=five.CARD
+9	five	five	NUM	_	NumType=Card	10	det@num	_	AlignBegin=128920|AlignEnd=129210|Gloss=five.CARD
 10	years	year	NOUN	_	Number=Plur	6	comp:pred	_	AlignBegin=129210|AlignEnd=129480|Gloss=year.PL
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=129480|AlignEnd=129510|Gloss=PUNCT
 
@@ -755,7 +755,7 @@
 # text_ortho = """Even my mama don die."""
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=130360|AlignEnd=130639|Gloss=PUNCT
 2	even	even	ADV	_	_	5	mod	_	AlignBegin=130639|AlignEnd=130888|Gloss=even
-3	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	4	dep	_	AlignBegin=130888|AlignEnd=131000|Gloss=SG.1.POSS
+3	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	4	mod	_	AlignBegin=130888|AlignEnd=131000|Gloss=SG.1.POSS
 4	mama	mama	NOUN	_	_	5	subj	_	AlignBegin=131000|AlignEnd=131270|Gloss=mama
 5	don	don	AUX	_	Aspect=Perf	0	root	_	AlignBegin=131270|AlignEnd=131470|Gloss=PRF
 6	die	die	VERB	_	_	5	comp:aux	_	AlignBegin=131470|AlignEnd=131710|Gloss=die
@@ -787,9 +787,9 @@
 6	Bible	Bible	PROPN	_	_	4	comp:obj	_	AlignBegin=134550|AlignEnd=134900|Gloss=Bible
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=134900|AlignEnd=134930|Gloss=PUNCT
 8	go	go	VERB	_	_	0	root	_	AlignBegin=134930|AlignEnd=135150|Gloss=go
-9	read	read	VERB	_	_	8	comp:pred	_	AlignBegin=135150|AlignEnd=135290|Gloss=read
+9	read	read	VERB	_	_	8	comp:obj@x	_	AlignBegin=135150|AlignEnd=135290|Gloss=read
 10	verse	verse	NOUN	_	_	9	comp:obj	_	AlignBegin=135290|AlignEnd=135536|Gloss=verse
-11	six	six	NUM	_	NumType=Card	10	dep	_	AlignBegin=135536|AlignEnd=135929|Gloss=six.CARD
+11	six	six	NUM	_	NumType=Card	10	det@num	_	AlignBegin=135536|AlignEnd=135929|Gloss=six.CARD
 12	!//	!//	PUNCT	_	_	8	punct	_	AlignBegin=135929|AlignEnd=135959|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__30
@@ -811,7 +811,7 @@
 # text_ortho = Dat except you are born of water, and of the spirit, you will not be able to enter the kingdom of God .
 1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=136700|AlignEnd=136960|Gloss=PUNCT
 2	[eng	[eng	PUNCT	_	_	21	punct	_	AlignBegin=136700|AlignEnd=136960|Gloss=PUNCT
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	21	cc	_	AlignBegin=136960|AlignEnd=137160|Gloss=SG.DIST.DEM
+3	dat	dat	PRON	_	Number=Sing|PronType=Dem	21	cc	_	AlignBegin=136960|AlignEnd=137160|Gloss=SG.DIST.DEM
 4	except	except	ADP	_	_	21	mod:periph	_	AlignBegin=137160|AlignEnd=137670|Gloss=except
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=137670|AlignEnd=137801|Gloss=NOM.2
 6	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	comp:obj	_	AlignBegin=137801|AlignEnd=137954|Gloss=be.IND.PRS.FIN
@@ -837,7 +837,7 @@
 26	enter	enter	VERB	_	_	25	comp:obj	_	AlignBegin=142270|AlignEnd=142722|Gloss=enter
 27	the	the	DET	_	Definite=Def|PronType=Art	28	det	_	AlignBegin=142722|AlignEnd=142880|Gloss=DEF.ART
 28	kingdom	kingdom	NOUN	_	_	26	comp:obj	_	AlignBegin=142880|AlignEnd=143742|Gloss=kingdom
-29	of	of	ADP	_	_	28	dep	_	AlignBegin=143742|AlignEnd=144086|Gloss=of
+29	of	of	ADP	_	_	28	mod	_	AlignBegin=143742|AlignEnd=144086|Gloss=of
 30	God	God	PROPN	_	_	29	comp:obj	_	AlignBegin=144086|AlignEnd=144438|Gloss=God
 31	eng]	eng]	PUNCT	_	_	21	punct	_	AlignBegin=144438|AlignEnd=144468|Gloss=PUNCT
 32	//	//	PUNCT	_	_	21	punct	_	AlignBegin=144438|AlignEnd=144468|Gloss=PUNCT
@@ -854,7 +854,7 @@
 4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:cleft	_	AlignBegin=145050|AlignEnd=145221|Gloss=be.IND.SG.3.PRS.FIN
 5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=145221|AlignEnd=145380|Gloss=SG.DIST.DEM
 6	kingdom	kingdom	NOUN	_	_	4	subj	_	AlignBegin=145380|AlignEnd=145760|Gloss=kingdom
-7	of	of	ADP	_	_	6	dep	_	AlignBegin=145760|AlignEnd=145890|Gloss=of
+7	of	of	ADP	_	_	6	mod	_	AlignBegin=145760|AlignEnd=145890|Gloss=of
 8	God	God	PROPN	_	_	7	comp:obj	_	AlignBegin=145890|AlignEnd=146164|Gloss=God
 9	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=146164|AlignEnd=146194|Gloss=PUNCT
 10	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=146164|AlignEnd=146194|Gloss=PUNCT
@@ -872,7 +872,7 @@
 5	be	be	VERB	_	PartType=Cop	2	comp:cleft	_	AlignBegin=146740|AlignEnd=146830|Gloss=be.COP
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=146830|AlignEnd=146975|Gloss=DEF.ART
 7	message	message	NOUN	_	_	5	comp:pred	_	AlignBegin=146975|AlignEnd=147336|Gloss=message
-8	wey	when	SCONJ	_	_	7	dep	_	AlignBegin=147336|AlignEnd=147450|Gloss=when
+8	wey	wey	SCONJ	_	gloss=REL	7	mod@relcl	_	AlignBegin=147336|AlignEnd=147450|Gloss=when
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=147450|AlignEnd=147550|Gloss=NOM.SG.1
 10	carry	carry	VERB	_	_	8	comp:obj	_	AlignBegin=147550|AlignEnd=147827|Gloss=carry
 11	come	come	VERB	_	_	10	compound:svc	_	AlignBegin=147827|AlignEnd=148010|Gloss=come
@@ -890,14 +890,14 @@
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=148740|AlignEnd=149140|Gloss=PUNCT
 2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=149140|AlignEnd=149310|Gloss=SG.DIST.DEM
 3	kingdom	kingdom	NOUN	_	_	7	dislocated	_	AlignBegin=149310|AlignEnd=149720|Gloss=kingdom
-4	of	of	ADP	_	_	3	dep	_	AlignBegin=149720|AlignEnd=149901|Gloss=of
+4	of	of	ADP	_	_	3	mod	_	AlignBegin=149720|AlignEnd=149901|Gloss=of
 5	God	God	PROPN	_	_	4	comp:obj	_	AlignBegin=149901|AlignEnd=150230|Gloss=God
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=150230|AlignEnd=150260|Gloss=PUNCT
 7	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=150260|AlignEnd=150539|Gloss=be.COP
 8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=150539|AlignEnd=150700|Gloss=DEF.ART
 9	ting	ting	NOUN	_	_	7	comp:pred	_	AlignBegin=150700|AlignEnd=150840|Gloss=thing
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=150840|AlignEnd=150870|Gloss=PUNCT
-11	wey	when	SCONJ	_	_	9	dep	_	AlignBegin=150870|AlignEnd=151060|Gloss=when
+11	wey	wey	SCONJ	_	gloss=REL	9	mod@relcl	_	AlignBegin=150870|AlignEnd=151060|Gloss=when
 12	God	God	PROPN	_	_	13	subj	_	AlignBegin=151060|AlignEnd=151270|Gloss=God
 13	don	don	AUX	_	Aspect=Perf	11	comp:obj	_	AlignBegin=151270|AlignEnd=151485|Gloss=PRF
 14	prepare	prepare	VERB	_	_	13	comp:aux	_	AlignBegin=151485|AlignEnd=151920|Gloss=prepare
@@ -920,7 +920,7 @@
 31	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	subj	_	AlignBegin=155570|AlignEnd=155660|Gloss=NOM.PL.1
 32	go	go	AUX	_	Aspect=Prosp	30	comp:obj	_	AlignBegin=155660|AlignEnd=155800|Gloss=CONT
 33	go	go	VERB	_	_	32	comp:aux	_	AlignBegin=155800|AlignEnd=155950|Gloss=go
-34	meet	meet	VERB	_	_	33	comp:pred	_	AlignBegin=155950|AlignEnd=156120|Gloss=meet
+34	meet	meet	VERB	_	_	33	comp:obj@x	_	AlignBegin=155950|AlignEnd=156120|Gloss=meet
 35	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	34	comp:obj	_	AlignBegin=156120|AlignEnd=156220|Gloss=ACC.SG.3
 36	for	for	ADP	_	_	34	comp:obl	_	AlignBegin=156220|AlignEnd=156386|Gloss=for
 37	heaven	heaven	NOUN	_	_	36	comp:obj	_	AlignBegin=156386|AlignEnd=156710|Gloss=heaven
@@ -936,7 +936,7 @@
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=156740|AlignEnd=157180|Gloss=PUNCT
 2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=157180|AlignEnd=157350|Gloss=SG.DIST.DEM
 3	kingdom	kingdom	NOUN	_	_	10	dislocated	_	AlignBegin=157350|AlignEnd=157720|Gloss=kingdom
-4	of	of	ADP	_	_	3	dep	_	AlignBegin=157720|AlignEnd=157883|Gloss=of
+4	of	of	ADP	_	_	3	mod	_	AlignBegin=157720|AlignEnd=157883|Gloss=of
 5	God	God	PROPN	_	_	4	comp:obj	_	AlignBegin=157883|AlignEnd=158196|Gloss=God
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=158196|AlignEnd=158226|Gloss=PUNCT
 7	#	#	PUNCT	_	_	3	punct	_	AlignBegin=158226|AlignEnd=158440|Gloss=PUNCT
@@ -947,7 +947,7 @@
 12	#	#	PUNCT	_	_	20	punct	_	AlignBegin=159440|AlignEnd=159780|Gloss=PUNCT
 13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=159780|AlignEnd=159988|Gloss=SG.DIST.DEM
 14	kingdom	kingdom	NOUN	_	_	20	dislocated	_	AlignBegin=159988|AlignEnd=160360|Gloss=kingdom
-15	of	of	ADP	_	_	14	dep	_	AlignBegin=160360|AlignEnd=160510|Gloss=of
+15	of	of	ADP	_	_	14	mod	_	AlignBegin=160360|AlignEnd=160510|Gloss=of
 16	God	God	PROPN	_	_	15	comp:obj	_	AlignBegin=160510|AlignEnd=160760|Gloss=God
 17	<	<	PUNCT	_	_	14	punct	_	AlignBegin=160760|AlignEnd=160790|Gloss=PUNCT
 18	no	no	PART	_	Polarity=Neg	19	mod	_	AlignBegin=160790|AlignEnd=161040|Gloss=NEG
@@ -957,7 +957,7 @@
 22	#	#	PUNCT	_	_	30	punct	_	AlignBegin=161740|AlignEnd=162020|Gloss=PUNCT
 23	dat	dat	DET	_	Number=Sing|PronType=Dem	24	det	_	AlignBegin=162020|AlignEnd=162170|Gloss=SG.DIST.DEM
 24	kingdom	kingdom	NOUN	_	_	30	dislocated	_	AlignBegin=162170|AlignEnd=162540|Gloss=kingdom
-25	of	of	ADP	_	_	24	dep	_	AlignBegin=162540|AlignEnd=162710|Gloss=of
+25	of	of	ADP	_	_	24	mod	_	AlignBegin=162540|AlignEnd=162710|Gloss=of
 26	God	God	PROPN	_	_	25	comp:obj	_	AlignBegin=162710|AlignEnd=162931|Gloss=God
 27	<	<	PUNCT	_	_	24	punct	_	AlignBegin=162931|AlignEnd=162961|Gloss=PUNCT
 28	no	no	PART	_	Polarity=Neg	29	mod	_	AlignBegin=162961|AlignEnd=163224|Gloss=NEG
@@ -967,7 +967,7 @@
 32	#	#	PUNCT	_	_	40	punct	_	AlignBegin=163900|AlignEnd=164140|Gloss=PUNCT
 33	dat	dat	DET	_	Number=Sing|PronType=Dem	34	det	_	AlignBegin=164140|AlignEnd=164280|Gloss=SG.DIST.DEM
 34	kingdom	kingdom	NOUN	_	_	40	dislocated	_	AlignBegin=164280|AlignEnd=164630|Gloss=kingdom
-35	of	of	ADP	_	_	34	dep	_	AlignBegin=164630|AlignEnd=164760|Gloss=of
+35	of	of	ADP	_	_	34	mod	_	AlignBegin=164630|AlignEnd=164760|Gloss=of
 36	God	God	PROPN	_	_	35	comp:obj	_	AlignBegin=164760|AlignEnd=164947|Gloss=God
 37	<	<	PUNCT	_	_	34	punct	_	AlignBegin=164947|AlignEnd=164977|Gloss=PUNCT
 38	no	no	PART	_	Polarity=Neg	39	mod	_	AlignBegin=164977|AlignEnd=165230|Gloss=NEG
@@ -977,7 +977,7 @@
 42	#	#	PUNCT	_	_	48	punct	_	AlignBegin=166043|AlignEnd=166320|Gloss=PUNCT
 43	dat	dat	DET	_	Number=Sing|PronType=Dem	44	det	_	AlignBegin=166320|AlignEnd=166500|Gloss=SG.DIST.DEM
 44	kingdom	kingdom	NOUN	_	_	48	dislocated	_	AlignBegin=166500|AlignEnd=166870|Gloss=kingdom
-45	of	of	ADP	_	_	44	dep	_	AlignBegin=166870|AlignEnd=167030|Gloss=of
+45	of	of	ADP	_	_	44	mod	_	AlignBegin=166870|AlignEnd=167030|Gloss=of
 46	God	God	PROPN	_	_	45	comp:obj	_	AlignBegin=167030|AlignEnd=167239|Gloss=God
 47	<	<	PUNCT	_	_	44	punct	_	AlignBegin=167239|AlignEnd=167269|Gloss=PUNCT
 48	na	na	PART	_	PartType=Cop	40	parataxis:conj	_	AlignBegin=167269|AlignEnd=167570|Gloss=be.COP
@@ -1043,7 +1043,7 @@
 3	be	be	VERB	_	PartType=Cop	2	comp:cleft	_	AlignBegin=179010|AlignEnd=179160|Gloss=be.COP
 4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=179160|AlignEnd=179290|Gloss=DEF.ART
 5	water	water	NOUN	_	_	3	comp:pred	_	AlignBegin=179290|AlignEnd=179640|Gloss=water
-6	wey	when	SCONJ	_	_	5	dep	_	AlignBegin=179640|AlignEnd=179800|Gloss=when
+6	wey	wey	SCONJ	_	gloss=REL	5	mod@relcl	_	AlignBegin=179640|AlignEnd=179800|Gloss=when
 7	Jesus	Jesus	PROPN	_	_	8	subj	_	AlignBegin=179800|AlignEnd=180161|Gloss=Jesus
 8	mean	mean	VERB	_	_	6	comp:obj	_	AlignBegin=180161|AlignEnd=180350|Gloss=mean
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=180350|AlignEnd=180380|Gloss=PUNCT
@@ -1072,11 +1072,11 @@
 16	the	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=183580|AlignEnd=183829|Gloss=DEF.ART
 17	Bible	Bible	PROPN	_	_	14	comp:obj	_	AlignBegin=183829|AlignEnd=184430|Gloss=Bible
 18	[eng	[eng	PUNCT	_	_	19	punct	_	AlignBegin=184430|AlignEnd=184460|Gloss=PUNCT
-19	which	which	DET	_	PronType=Int	17	dep	_	AlignBegin=184460|AlignEnd=184660|Gloss=which
+19	which	which	DET	_	PronType=Int	17	det	_	AlignBegin=184460|AlignEnd=184660|Gloss=which
 20	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	AlignBegin=184660|AlignEnd=184830|Gloss=be.IND.SG.3.PRS.FIN
 21	the	the	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=184830|AlignEnd=184968|Gloss=DEF.ART
 22	word	word	NOUN	_	_	20	comp:pred	_	AlignBegin=184968|AlignEnd=185328|Gloss=word
-23	of	of	ADP	_	_	22	dep	_	AlignBegin=185328|AlignEnd=185630|Gloss=of
+23	of	of	ADP	_	_	22	mod	_	AlignBegin=185328|AlignEnd=185630|Gloss=of
 24	God	God	PROPN	_	_	23	comp:obj	_	AlignBegin=185630|AlignEnd=185987|Gloss=God
 25	eng]	eng]	PUNCT	_	_	19	punct	_	AlignBegin=185987|AlignEnd=186017|Gloss=PUNCT
 26	<	<	PUNCT	_	_	8	punct	_	AlignBegin=185987|AlignEnd=186017|Gloss=PUNCT
@@ -1088,7 +1088,7 @@
 32	understand	understand	VERB	_	_	31	comp:aux	_	AlignBegin=187070|AlignEnd=187688|Gloss=understand
 33	who	who	PRON	_	PronType=Int	32	comp:obj	_	AlignBegin=187688|AlignEnd=187870|Gloss=who.Q
 34	God	God	PROPN	_	_	35	subj	_	AlignBegin=187870|AlignEnd=188208|Gloss=God
-35	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	dep	_	AlignBegin=188208|AlignEnd=188608|Gloss=be.IND.SG.3.PRS.FIN
+35	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	mod@relcl	_	AlignBegin=188208|AlignEnd=188608|Gloss=be.IND.SG.3.PRS.FIN
 36	//=	//=	PUNCT	_	_	39	punct	_	AlignBegin=188608|AlignEnd=188638|Gloss=PUNCT
 37	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	39	subj	_	AlignBegin=188638|AlignEnd=188759|Gloss=NOM.2
 38	no	no	PART	_	Polarity=Neg	39	mod	_	AlignBegin=188759|AlignEnd=188890|Gloss=NEG
@@ -1097,7 +1097,7 @@
 41	know	know	VERB	_	_	39	comp:aux	_	AlignBegin=189243|AlignEnd=189360|Gloss=know
 42	wetin	wetin	PRON	_	PronType=Int	41	comp:obj	_	AlignBegin=189360|AlignEnd=189650|Gloss=what.Q
 43	God	God	PROPN	_	_	44	subj	_	AlignBegin=189650|AlignEnd=189888|Gloss=God
-44	fit	fit	AUX	_	Mood=Ability	42	dep	_	AlignBegin=189888|AlignEnd=190056|Gloss=ABIL
+44	fit	fit	AUX	_	Mood=Ability	42	mod@relcl	_	AlignBegin=189888|AlignEnd=190056|Gloss=ABIL
 45	do	do	VERB	_	_	44	comp:aux	_	AlignBegin=190056|AlignEnd=190190|Gloss=do
 46	for	for	ADP	_	_	45	comp:obl	_	AlignBegin=190190|AlignEnd=190443|Gloss=for
 47	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	46	comp:obj	_	AlignBegin=190443|AlignEnd=190610|Gloss=NOM.2
@@ -1115,12 +1115,12 @@
 3	so	so	ADV	_	_	14	discourse	_	AlignBegin=190859|AlignEnd=191052|Gloss=so
 4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=191052|AlignEnd=191198|Gloss=DEF.ART
 5	way	way	NOUN	_	_	14	subj	_	AlignBegin=191198|AlignEnd=191420|Gloss=way
-6	to	to	ADP	_	_	5	dep	_	AlignBegin=191420|AlignEnd=191700|Gloss=to
+6	to	to	ADP	_	_	5	mod	_	AlignBegin=191420|AlignEnd=191700|Gloss=to
 7	#	#	PUNCT	_	_	8	punct	_	AlignBegin=191700|AlignEnd=192260|Gloss=PUNCT
 8	enter	enter	VERB	_	_	6	comp:obj	_	AlignBegin=192260|AlignEnd=192607|Gloss=enter
 9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=192607|AlignEnd=192730|Gloss=DEF.ART
 10	kingdom	kingdom	NOUN	_	_	8	comp:obj	_	AlignBegin=192730|AlignEnd=193050|Gloss=kingdom
-11	of	of	ADP	_	_	10	dep	_	AlignBegin=193050|AlignEnd=193190|Gloss=of
+11	of	of	ADP	_	_	10	mod	_	AlignBegin=193050|AlignEnd=193190|Gloss=of
 12	God	God	PROPN	_	_	11	comp:obj	_	AlignBegin=193190|AlignEnd=193500|Gloss=God
 13	#	#	PUNCT	_	_	5	punct	_	AlignBegin=193500|AlignEnd=193695|Gloss=PUNCT
 14	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=193695|AlignEnd=193920|Gloss=be.IND.SG.3.PRS.FIN
@@ -1145,7 +1145,7 @@
 3	now	now	ADV	_	_	4	mod	_	AlignBegin=196590|AlignEnd=196800|Gloss=now
 4	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=196800|AlignEnd=196986|Gloss=CONS
 5	use	use	VERB	_	_	4	comp:aux	_	AlignBegin=196986|AlignEnd=197190|Gloss=use
-6	anoda	anoda	DET	_	_	7	dep	_	AlignBegin=197190|AlignEnd=197590|Gloss=another
+6	anoda	anoda	DET	_	_	7	det	_	AlignBegin=197190|AlignEnd=197590|Gloss=another
 7	phrase	phrase	NOUN	_	_	5	comp:obj	_	AlignBegin=197590|AlignEnd=198180|Gloss=phrase
 8	say	say	VERB	_	_	5	compound:svc	_	AlignBegin=198180|AlignEnd=198480|Gloss=say
 9	#	#	PUNCT	_	_	12	punct	_	AlignBegin=198480|AlignEnd=198816|Gloss=PUNCT
@@ -1189,9 +1189,9 @@
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=203485|AlignEnd=203515|Gloss=PUNCT
 13	di	the	DET	_	Definite=Def|PronType=Art	10	conj:dicto	_	AlignBegin=203515|AlignEnd=203691|Gloss=DEF.ART
 14	}	}	PUNCT	_	_	10	punct	_	AlignBegin=203515|AlignEnd=203691|Gloss=PUNCT
-15	real	real	ADJ	_	_	16	dep	_	AlignBegin=203691|AlignEnd=203905|Gloss=real
+15	real	real	ADJ	_	_	16	mod	_	AlignBegin=203691|AlignEnd=203905|Gloss=real
 16	person	person	NOUN	_	_	23	dislocated	_	AlignBegin=203935|AlignEnd=204255|Gloss=person
-17	wey	when	SCONJ	_	_	16	dep	_	AlignBegin=204255|AlignEnd=204481|Gloss=when
+17	wey	wey	SCONJ	_	gloss=REL	16	mod@relcl	_	AlignBegin=204255|AlignEnd=204481|Gloss=when
 18	be	be	VERB	_	PartType=Cop	17	comp:obj	_	AlignBegin=204481|AlignEnd=204665|Gloss=be.COP
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	comp:pred	_	AlignBegin=204665|AlignEnd=204894|Gloss=NOM.2
 20	<	<	PUNCT	_	_	16	punct	_	AlignBegin=204894|AlignEnd=204924|Gloss=PUNCT
@@ -1200,7 +1200,7 @@
 23	be	be	VERB	_	PartType=Cop	5	comp:obj	_	AlignBegin=205435|AlignEnd=205515|Gloss=be.COP
 24	dis	dis	DET	_	Number=Sing|PronType=Dem	25	det	_	AlignBegin=205515|AlignEnd=205705|Gloss=SG.PROX.DEM
 25	body	body	NOUN	_	_	23	comp:pred	_	AlignBegin=205705|AlignEnd=205976|Gloss=body
-26	wey	when	SCONJ	_	_	25	dep	_	AlignBegin=205976|AlignEnd=206075|Gloss=when
+26	wey	wey	SCONJ	_	gloss=REL	25	mod@relcl	_	AlignBegin=205976|AlignEnd=206075|Gloss=when
 27	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	28	subj	_	AlignBegin=206075|AlignEnd=206205|Gloss=NOM.2
 28	carry	carry	VERB	_	_	26	comp:obj	_	AlignBegin=206205|AlignEnd=206435|Gloss=carry
 29	>+	>+	PUNCT	_	_	30	punct	_	AlignBegin=206435|AlignEnd=206465|Gloss=PUNCT
@@ -1219,7 +1219,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=206954|AlignEnd=207175|Gloss=PUNCT
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=207175|AlignEnd=207375|Gloss=NEG
 3	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=207375|AlignEnd=207485|Gloss=be.COP
-4	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	5	dep	_	AlignBegin=207485|AlignEnd=207705|Gloss=PL.2.POSS
+4	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	5	mod	_	AlignBegin=207485|AlignEnd=207705|Gloss=PL.2.POSS
 5	mind	mind	NOUN	_	_	3	comp:pred	_	AlignBegin=207705|AlignEnd=207965|Gloss=mind
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=207965|AlignEnd=207995|Gloss=PUNCT
 7	be	be	VERB	_	PartType=Cop	3	comp:cleft	_	AlignBegin=207995|AlignEnd=208155|Gloss=be.COP
@@ -1238,13 +1238,13 @@
 3	dere	dere	ADV	_	_	4	subj@expl	_	AlignBegin=208655|AlignEnd=208955|Gloss=there
 4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=208955|AlignEnd=209055|Gloss=be.IND.SG.3.PRS.FIN
 5	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	AlignBegin=209055|AlignEnd=209261|Gloss=INDF.ART
-6	real	real	ADJ	_	_	7	dep	_	AlignBegin=209261|AlignEnd=209535|Gloss=real
-7	person	person	NOUN	_	_	4	comp:quasi	_	AlignBegin=209535|AlignEnd=209922|Gloss=person
+6	real	real	ADJ	_	_	7	mod	_	AlignBegin=209261|AlignEnd=209535|Gloss=real
+7	person	person	NOUN	_	_	4	comp:obj@agent	_	AlignBegin=209535|AlignEnd=209922|Gloss=person
 8	inside	inside	ADP	_	_	4	comp:pred	_	AlignBegin=209922|AlignEnd=210315|Gloss=inside
 9	of	of	ADP	_	_	8	comp:obj	_	AlignBegin=210315|AlignEnd=210515|Gloss=of
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=210515|AlignEnd=210615|Gloss=NOM.2
 11	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=210515|AlignEnd=210615|Gloss=PUNCT
-12	wey	when	SCONJ	_	_	7	dep	_	AlignBegin=210615|AlignEnd=210765|Gloss=when
+12	wey	wey	SCONJ	_	gloss=REL	7	mod@relcl	_	AlignBegin=210615|AlignEnd=210765|Gloss=when
 13	be	be	VERB	_	PartType=Cop	12	comp:obj	_	AlignBegin=210765|AlignEnd=210915|Gloss=be.COP
 14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=210915|AlignEnd=211075|Gloss=DEF.ART
 15	spirit	spirit	NOUN	_	_	13	comp:pred	_	AlignBegin=211075|AlignEnd=211642|Gloss=spirit
@@ -1300,7 +1300,7 @@
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=218668|AlignEnd=218860|Gloss=be.COP
 2	the	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=218860|AlignEnd=219013|Gloss=DEF.ART
 3	word	word	NOUN	_	_	1	comp:pred	_	AlignBegin=219013|AlignEnd=219280|Gloss=word
-4	of	of	ADP	_	_	3	dep	_	AlignBegin=219280|AlignEnd=219420|Gloss=of
+4	of	of	ADP	_	_	3	mod	_	AlignBegin=219280|AlignEnd=219420|Gloss=of
 5	God	God	PROPN	_	_	4	comp:obj	_	AlignBegin=219420|AlignEnd=219647|Gloss=God
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=219647|AlignEnd=219677|Gloss=PUNCT
 
@@ -1339,11 +1339,11 @@
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=222727|AlignEnd=222757|Gloss=PUNCT
 6	make	make	AUX	_	Mood=Sub	4	parataxis:obj	_	AlignBegin=222757|AlignEnd=222967|Gloss=SBJV
 7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=222967|AlignEnd=223240|Gloss=SG.DIST.DEM
-8	word	word	NOUN	_	_	6	subj	_	AlignBegin=223240|AlignEnd=223460|Gloss=word
-9	of	of	ADP	_	_	8	dep	_	AlignBegin=223460|AlignEnd=223596|Gloss=of
+8	word	word	NOUN	_	_	11	subj	_	AlignBegin=223240|AlignEnd=223460|Gloss=word
+9	of	of	ADP	_	_	8	mod	_	AlignBegin=223460|AlignEnd=223596|Gloss=of
 10	God	God	PROPN	_	_	9	comp:obj	_	AlignBegin=223596|AlignEnd=223820|Gloss=God
 11	enter	enter	VERB	_	_	6	comp:aux	_	AlignBegin=223820|AlignEnd=224180|Gloss=enter
-12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	dep	_	AlignBegin=224180|AlignEnd=224360|Gloss=PL.2.POSS
+12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	mod	_	AlignBegin=224180|AlignEnd=224360|Gloss=PL.2.POSS
 13	heart	heart	NOUN	_	_	11	comp:obj	_	AlignBegin=224360|AlignEnd=224788|Gloss=heart
 14	!//]	!//]	PUNCT	_	_	6	punct	_	AlignBegin=224788|AlignEnd=224818|Gloss=PUNCT
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=224788|AlignEnd=224818|Gloss=PUNCT
@@ -1361,7 +1361,7 @@
 5	back	back	ADV	_	_	4	mod	_	AlignBegin=225700|AlignEnd=226010|Gloss=back
 6	to	to	ADP	_	_	4	comp:obl	_	AlignBegin=226010|AlignEnd=226180|Gloss=to
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=226180|AlignEnd=226210|Gloss=PUNCT
-8	Gen	Gen	NOUN	_	_	13	dep	_	AlignBegin=226210|AlignEnd=226472|Gloss=Gen
+8	Gen	Gen	NOUN	_	_	13	mod	_	AlignBegin=226210|AlignEnd=226472|Gloss=Gen
 9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=226472|AlignEnd=226502|Gloss=PUNCT
 10	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=226502|AlignEnd=226798|Gloss=eh
 11	John's	John's	PROPN	_	Case=Gen	8	conj:dicto	_	AlignBegin=226798|AlignEnd=227180|Gloss=John.GEN
@@ -1369,9 +1369,9 @@
 13	gospel	gospel	NOUN	_	_	6	comp:obj	_	AlignBegin=227210|AlignEnd=227720|Gloss=gospel
 14	#	#	PUNCT	_	_	15	punct	_	AlignBegin=227720|AlignEnd=228140|Gloss=PUNCT
 15	chapter	chapter	NOUN	_	_	13	flat	_	AlignBegin=228140|AlignEnd=228554|Gloss=chapter
-16	one	one	NUM	_	NumType=Card	15	dep	_	AlignBegin=228554|AlignEnd=228880|Gloss=one
+16	one	one	NUM	_	NumType=Card	15	det@num	_	AlignBegin=228554|AlignEnd=228880|Gloss=one
 17	verse	verse	NOUN	_	_	15	flat	_	AlignBegin=228880|AlignEnd=229228|Gloss=verse
-18	one	one	NUM	_	NumType=Card	17	dep	_	AlignBegin=229228|AlignEnd=229510|Gloss=one
+18	one	one	NUM	_	NumType=Card	17	det@num	_	AlignBegin=229228|AlignEnd=229510|Gloss=one
 19	<	<	PUNCT	_	_	2	punct	_	AlignBegin=229510|AlignEnd=229540|Gloss=PUNCT
 20	#	#	PUNCT	_	_	2	punct	_	AlignBegin=229540|AlignEnd=229880|Gloss=PUNCT
 21	Bible	Bible	PROPN	_	_	22	subj	_	AlignBegin=229880|AlignEnd=230293|Gloss=Bible
@@ -1411,7 +1411,7 @@
 2	so	so	ADV	_	_	12	discourse	_	AlignBegin=237495|AlignEnd=237916|Gloss=so
 3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=237946|AlignEnd=238345|Gloss=SG.DIST.DEM
 4	word	word	NOUN	_	_	12	dislocated	_	AlignBegin=238345|AlignEnd=238714|Gloss=word
-5	wey	when	SCONJ	_	_	4	dep	_	AlignBegin=238714|AlignEnd=238938|Gloss=when
+5	wey	wey	SCONJ	_	gloss=REL	4	mod@relcl	_	AlignBegin=238714|AlignEnd=238938|Gloss=when
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=238938|AlignEnd=239096|Gloss=DEF.ART
 7	Bible	Bible	PROPN	_	_	8	subj	_	AlignBegin=239096|AlignEnd=239436|Gloss=Bible
 8	dey	dey	AUX	_	Aspect=Imp	5	comp:obj	_	AlignBegin=239436|AlignEnd=239567|Gloss=IPFV
@@ -1424,7 +1424,7 @@
 15	be	be	VERB	_	PartType=Cop	12	comp:cleft	_	AlignBegin=240325|AlignEnd=240445|Gloss=be.COP
 16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=240445|AlignEnd=240565|Gloss=DEF.ART
 17	person	person	NOUN	_	_	15	comp:pred	_	AlignBegin=240565|AlignEnd=240923|Gloss=person
-18	of	of	ADP	_	_	17	dep	_	AlignBegin=240923|AlignEnd=241131|Gloss=of
+18	of	of	ADP	_	_	17	mod	_	AlignBegin=240923|AlignEnd=241131|Gloss=of
 19	Jesus	Jesus	PROPN	_	_	18	comp:obj	_	AlignBegin=241131|AlignEnd=241605|Gloss=Jesus
 20	//	//	PUNCT	_	_	12	punct	_	AlignBegin=241605|AlignEnd=241635|Gloss=PUNCT
 
@@ -1444,7 +1444,7 @@
 8	in	in	ADP	_	_	7	mod	_	AlignBegin=243353|AlignEnd=243513|Gloss=in
 9	the	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=243513|AlignEnd=243654|Gloss=DEF.ART
 10	volume	volume	NOUN	_	_	8	comp:obj	_	AlignBegin=243654|AlignEnd=244033|Gloss=volume
-11	of	of	ADP	_	_	10	dep	_	AlignBegin=244033|AlignEnd=244213|Gloss=of
+11	of	of	ADP	_	_	10	mod	_	AlignBegin=244033|AlignEnd=244213|Gloss=of
 12	what	what	PRON	_	PronType=Int	11	comp:obj	_	AlignBegin=244213|AlignEnd=244703|Gloss=what.Q
 13	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=244703|AlignEnd=244733|Gloss=PUNCT
 14	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=244703|AlignEnd=244733|Gloss=PUNCT
@@ -1468,7 +1468,7 @@
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=245368|AlignEnd=245564|Gloss=PUNCT
 2	so	so	ADV	_	_	12	discourse	_	AlignBegin=245564|AlignEnd=245734|Gloss=so
 3	everyting	everyting	PRON	_	_	12	dislocated	_	AlignBegin=245734|AlignEnd=246277|Gloss=everything
-4	wey	when	SCONJ	_	_	3	dep	_	AlignBegin=246277|AlignEnd=246410|Gloss=when
+4	wey	wey	SCONJ	_	gloss=REL	3	mod@relcl	_	AlignBegin=246277|AlignEnd=246410|Gloss=when
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=246410|AlignEnd=246540|Gloss=NOM.2
 6	dey	dey	AUX	_	Aspect=Imp	4	comp:obj	_	AlignBegin=246540|AlignEnd=246685|Gloss=IPFV
 7	read	read	VERB	_	_	6	comp:aux	_	AlignBegin=246685|AlignEnd=246830|Gloss=read
@@ -1496,7 +1496,7 @@
 6	see	see	VERB	_	_	5	comp:obj	_	AlignBegin=250275|AlignEnd=250575|Gloss=see
 7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=250575|AlignEnd=250845|Gloss=SG.DIST.DEM
 8	kingdom	kingdom	NOUN	_	_	6	comp:obj	_	AlignBegin=250845|AlignEnd=251295|Gloss=kingdom
-9	wey	when	SCONJ	_	_	8	dep	_	AlignBegin=251295|AlignEnd=251479|Gloss=when
+9	wey	wey	SCONJ	_	gloss=REL	8	mod@relcl	_	AlignBegin=251295|AlignEnd=251479|Gloss=when
 10	Jesus	Jesus	PROPN	_	_	11	subj	_	AlignBegin=251479|AlignEnd=251795|Gloss=Jesus
 11	dey	dey	AUX	_	Aspect=Imp	9	comp:obj	_	AlignBegin=251795|AlignEnd=251924|Gloss=IPFV
 12	tell	tell	VERB	_	_	11	comp:aux	_	AlignBegin=251924|AlignEnd=252106|Gloss=tell
@@ -1508,7 +1508,7 @@
 18	dat	dat	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=253506|AlignEnd=253774|Gloss=SG.DIST.DEM
 19	word	word	NOUN	_	_	17	comp:obj	_	AlignBegin=253774|AlignEnd=254049|Gloss=word
 20	into	into	ADP	_	_	17	comp:obl	_	AlignBegin=254049|AlignEnd=254338|Gloss=into
-21	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	22	dep	_	AlignBegin=254338|AlignEnd=254485|Gloss=PL.2.POSS
+21	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	22	mod	_	AlignBegin=254338|AlignEnd=254485|Gloss=PL.2.POSS
 22	heart	heart	NOUN	_	_	20	comp:obj	_	AlignBegin=254485|AlignEnd=254870|Gloss=heart
 23	//	//	PUNCT	_	_	16	punct	_	AlignBegin=254870|AlignEnd=254900|Gloss=PUNCT
 
@@ -1524,7 +1524,7 @@
 4	be	be	VERB	_	PartType=Cop	3	comp:cleft	_	AlignBegin=255570|AlignEnd=255680|Gloss=be.COP
 5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=255680|AlignEnd=255790|Gloss=DEF.ART
 6	word	word	NOUN	_	_	4	comp:pred	_	AlignBegin=255790|AlignEnd=256030|Gloss=word
-7	wey	when	SCONJ	_	_	6	dep	_	AlignBegin=256030|AlignEnd=256125|Gloss=when
+7	wey	wey	SCONJ	_	gloss=REL	6	mod@relcl	_	AlignBegin=256030|AlignEnd=256125|Gloss=when
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=256125|AlignEnd=256210|Gloss=NOM.PL.1
 9	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=256210|AlignEnd=256317|Gloss=IPFV
 10	talk	talk	VERB	_	_	9	comp:aux	_	AlignBegin=256317|AlignEnd=256510|Gloss=talk
@@ -1542,9 +1542,9 @@
 3	to	to	ADP	_	_	2	unk@fixed	_	AlignBegin=257492|AlignEnd=257879|Gloss=to
 4	John	John	PROPN	_	_	2	comp:obj	_	AlignBegin=257879|AlignEnd=258155|Gloss=John
 5	chapter	chapter	NOUN	_	_	4	flat	_	AlignBegin=258155|AlignEnd=258535|Gloss=chapter
-6	one	one	NUM	_	NumType=Card	5	dep	_	AlignBegin=258535|AlignEnd=258763|Gloss=one
+6	one	one	NUM	_	NumType=Card	5	det@num	_	AlignBegin=258535|AlignEnd=258763|Gloss=one
 7	verse	verse	NOUN	_	_	5	flat	_	AlignBegin=258763|AlignEnd=259060|Gloss=verse
-8	one	one	NUM	_	NumType=Card	7	dep	_	AlignBegin=259060|AlignEnd=259250|Gloss=one
+8	one	one	NUM	_	NumType=Card	7	det@num	_	AlignBegin=259060|AlignEnd=259250|Gloss=one
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=259250|AlignEnd=259280|Gloss=PUNCT
 10	#	#	PUNCT	_	_	2	punct	_	AlignBegin=259280|AlignEnd=259560|Gloss=PUNCT
 11	dat	dat	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=259560|AlignEnd=259804|Gloss=SG.DIST.DEM
@@ -1580,7 +1580,7 @@
 6	accept	accept	VERB	_	_	4	comp:obj	_	AlignBegin=263410|AlignEnd=263888|Gloss=accept
 7	Jesus	Jesus	PROPN	_	_	6	comp:obj	_	AlignBegin=263888|AlignEnd=264571|Gloss=Jesus
 8	into	into	ADP	_	_	6	comp:obl	_	AlignBegin=264571|AlignEnd=264922|Gloss=into
-9	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	10	dep	_	AlignBegin=264922|AlignEnd=265141|Gloss=PL.2.POSS
+9	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	10	mod	_	AlignBegin=264922|AlignEnd=265141|Gloss=PL.2.POSS
 10	life	life	NOUN	_	_	8	comp:obj	_	AlignBegin=265141|AlignEnd=265738|Gloss=life
 11	<	<	PUNCT	_	_	4	punct	_	AlignBegin=265738|AlignEnd=265768|Gloss=PUNCT
 12	#	#	PUNCT	_	_	4	punct	_	AlignBegin=265768|AlignEnd=267060|Gloss=PUNCT
@@ -1589,7 +1589,7 @@
 15	see	see	VERB	_	_	14	comp:aux	_	AlignBegin=267780|AlignEnd=268000|Gloss=see
 16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=268000|AlignEnd=268180|Gloss=DEF.ART
 17	kingdom	kingdom	NOUN	_	_	15	comp:obj	_	AlignBegin=268180|AlignEnd=268610|Gloss=kingdom
-18	of	of	ADP	_	_	17	dep	_	AlignBegin=268610|AlignEnd=269177|Gloss=of
+18	of	of	ADP	_	_	17	mod	_	AlignBegin=268610|AlignEnd=269177|Gloss=of
 19	God	God	PROPN	_	_	18	comp:obj	_	AlignBegin=269177|AlignEnd=269770|Gloss=God
 20	//	//	PUNCT	_	_	14	punct	_	AlignBegin=269770|AlignEnd=269800|Gloss=PUNCT
 
@@ -1602,12 +1602,12 @@
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=269800|AlignEnd=270100|Gloss=PUNCT
 2	people	people	NOUN	_	Number=Plur	14	dislocated	_	AlignBegin=270100|AlignEnd=270390|Gloss=people.PL
 3	now	now	ADV	_	_	2	mod:emph	_	AlignBegin=270390|AlignEnd=270610|Gloss=now
-4	wey	when	SCONJ	_	_	2	dep	_	AlignBegin=270610|AlignEnd=270720|Gloss=when
+4	wey	wey	SCONJ	_	gloss=REL	2	mod@relcl	_	AlignBegin=270610|AlignEnd=270720|Gloss=when
 5	dey	dey	AUX	_	Aspect=Imp	4	comp:obj	_	AlignBegin=270720|AlignEnd=270929|Gloss=IPFV
 6	enjoy	enjoy	VERB	_	_	5	comp:aux	_	AlignBegin=270929|AlignEnd=271243|Gloss=enjoy
 7	di	the	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=271243|AlignEnd=271380|Gloss=DEF.ART
 8	benefit	benefit	NOUN	_	_	6	comp:obj	_	AlignBegin=271380|AlignEnd=271860|Gloss=benefit
-9	of	of	ADP	_	_	8	dep	_	AlignBegin=271860|AlignEnd=272010|Gloss=of
+9	of	of	ADP	_	_	8	mod	_	AlignBegin=271860|AlignEnd=272010|Gloss=of
 10	God	God	PROPN	_	_	9	comp:obj	_	AlignBegin=272010|AlignEnd=272260|Gloss=God
 11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=272260|AlignEnd=272290|Gloss=PUNCT
 12	#	#	PUNCT	_	_	2	punct	_	AlignBegin=272290|AlignEnd=272482|Gloss=PUNCT
@@ -1615,7 +1615,7 @@
 14	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=272606|AlignEnd=272729|Gloss=IPFV
 15	live	live	VERB	_	_	14	comp:aux	_	AlignBegin=272729|AlignEnd=272880|Gloss=live
 16	in	in	ADP	_	_	15	mod	_	AlignBegin=272880|AlignEnd=273020|Gloss=in
-17	good	good	ADJ	_	_	18	dep	_	AlignBegin=273020|AlignEnd=273210|Gloss=good
+17	good	good	ADJ	_	_	18	mod	_	AlignBegin=273020|AlignEnd=273210|Gloss=good
 18	health	health	NOUN	_	_	16	comp:obj	_	AlignBegin=273210|AlignEnd=273692|Gloss=health
 19	//=	//=	PUNCT	_	_	21	punct	_	AlignBegin=273692|AlignEnd=273722|Gloss=PUNCT
 20	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	subj	_	AlignBegin=273722|AlignEnd=273819|Gloss=NOM.PL.3
@@ -1676,8 +1676,8 @@
 # text_ortho = Everyting de put deir hand, di ting dey go ya, ya very well.
 1	everyting	everyting	PRON	_	_	9	dislocated	_	AlignBegin=279957|AlignEnd=280497|Gloss=everything
 2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=280497|AlignEnd=280641|Gloss=NOM.PL.3
-3	put	put	VERB	_	_	1	dep	_	AlignBegin=280641|AlignEnd=280934|Gloss=put
-4	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	5	dep	_	AlignBegin=280934|AlignEnd=281069|Gloss=3.PL.POSS
+3	put	put	VERB	_	_	1	mod@relcl	_	AlignBegin=280641|AlignEnd=280934|Gloss=put
+4	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	5	mod	_	AlignBegin=280934|AlignEnd=281069|Gloss=3.PL.POSS
 5	hand	hand	NOUN	_	_	3	comp:obj	_	AlignBegin=281069|AlignEnd=281447|Gloss=hand
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=281447|AlignEnd=281477|Gloss=PUNCT
 7	di	the	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=281477|AlignEnd=281584|Gloss=DEF.ART
@@ -1716,7 +1716,7 @@
 3	see	see	VERB	_	_	2	comp:aux	_	AlignBegin=284255|AlignEnd=284505|Gloss=see
 4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=284505|AlignEnd=284659|Gloss=DEF.ART
 5	kindness	kindness	NOUN	_	_	3	comp:obj	_	AlignBegin=284659|AlignEnd=285125|Gloss=kindness
-6	of	of	ADP	_	_	5	dep	_	AlignBegin=285125|AlignEnd=285265|Gloss=of
+6	of	of	ADP	_	_	5	mod	_	AlignBegin=285125|AlignEnd=285265|Gloss=of
 7	God	God	PROPN	_	_	6	comp:obj	_	AlignBegin=285265|AlignEnd=285731|Gloss=God
 8	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=285731|AlignEnd=285761|Gloss=PUNCT
 9	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	AlignBegin=285761|AlignEnd=285873|Gloss=NOM.PL.3
@@ -1736,7 +1736,7 @@
 23	//=	|c	PUNCT	_	_	24	punct	_	AlignBegin=288847|AlignEnd=288877|Gloss=PUNCT
 24	dey	dey	VERB	_	VerbType=Cop	22	parataxis:conj	_	AlignBegin=288877|AlignEnd=289029|Gloss=dey.COP
 25	headache	headache	NOUN	_	_	24	comp:pred	_	AlignBegin=289029|AlignEnd=289465|Gloss=headache
-26	next	next	ADJ	_	_	27	dep	_	AlignBegin=289465|AlignEnd=289745|Gloss=next
+26	next	next	ADJ	_	_	27	mod	_	AlignBegin=289465|AlignEnd=289745|Gloss=next
 27	tomorrow	tomorrow	NOUN	_	_	25	mod	_	AlignBegin=289745|AlignEnd=289918|Gloss=tomorrow
 28	//	//	PUNCT	_	_	2	punct	_	AlignBegin=289918|AlignEnd=289948|Gloss=PUNCT
 
@@ -1757,8 +1757,8 @@
 # text_ortho = Everyting about deir life dey very good.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=290174|AlignEnd=290355|Gloss=PUNCT
 2	everyting	everyting	PRON	_	_	6	subj	_	AlignBegin=290355|AlignEnd=290932|Gloss=everything
-3	about	about	ADP	_	_	2	dep	_	AlignBegin=290932|AlignEnd=291235|Gloss=about
-4	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	5	dep	_	AlignBegin=291235|AlignEnd=291423|Gloss=3.PL.POSS
+3	about	about	ADP	_	_	2	mod	_	AlignBegin=290932|AlignEnd=291235|Gloss=about
+4	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	5	mod	_	AlignBegin=291235|AlignEnd=291423|Gloss=3.PL.POSS
 5	life	life	NOUN	_	_	3	comp:obj	_	AlignBegin=291423|AlignEnd=291695|Gloss=life
 6	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=291695|AlignEnd=291865|Gloss=dey.COP
 7	very	very	ADV	_	_	8	mod	_	AlignBegin=291865|AlignEnd=292215|Gloss=very
@@ -1778,7 +1778,7 @@
 5	accept	accept	VERB	_	_	4	comp:aux	_	AlignBegin=293415|AlignEnd=293849|Gloss=accept
 6	Jesus	Jesus	PROPN	_	_	5	comp:obj	_	AlignBegin=293849|AlignEnd=294306|Gloss=Jesus
 7	into	into	ADP	_	_	5	comp:obl	_	AlignBegin=294306|AlignEnd=294585|Gloss=into
-8	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	9	dep	_	AlignBegin=294585|AlignEnd=294796|Gloss=3.PL.POSS
+8	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	9	mod	_	AlignBegin=294585|AlignEnd=294796|Gloss=3.PL.POSS
 9	life	life	NOUN	_	_	7	comp:obj	_	AlignBegin=294796|AlignEnd=295045|Gloss=life
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=295045|AlignEnd=295075|Gloss=PUNCT
 
@@ -1798,7 +1798,7 @@
 8	accept	accept	VERB	_	_	6	comp:obj	_	AlignBegin=296645|AlignEnd=297216|Gloss=accept
 9	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=297216|AlignEnd=297755|Gloss=ACC.SG.1
 10	into	into	ADP	_	_	8	comp:obl	_	AlignBegin=297755|AlignEnd=298087|Gloss=into
-11	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	12	dep	_	AlignBegin=298087|AlignEnd=298291|Gloss=PL.2.POSS
+11	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	12	mod	_	AlignBegin=298087|AlignEnd=298291|Gloss=PL.2.POSS
 12	life	life	NOUN	_	_	10	comp:obj	_	AlignBegin=298291|AlignEnd=298615|Gloss=life
 13	<	<	PUNCT	_	_	6	punct	_	AlignBegin=298615|AlignEnd=298645|Gloss=PUNCT
 14	Nicodemus	Nicodemus	PROPN	_	_	17	vocative	_	AlignBegin=298645|AlignEnd=299421|Gloss=Nicodemus
@@ -1806,15 +1806,15 @@
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	subj	_	AlignBegin=299451|AlignEnd=299575|Gloss=NOM.2
 17	go	go	AUX	_	Aspect=Prosp	4	parataxis:obj	_	AlignBegin=299575|AlignEnd=299715|Gloss=CONT
 18	begin	begin	VERB	_	_	17	comp:aux	_	AlignBegin=299715|AlignEnd=299985|Gloss=begin
-19	to	to	ADP	_	_	18	comp:pred	_	AlignBegin=299985|AlignEnd=300140|Gloss=to
+19	to	to	ADP	_	_	18	comp:obl@x	_	AlignBegin=299985|AlignEnd=300140|Gloss=to
 20	see	see	VERB	_	_	19	comp:obj	_	AlignBegin=300140|AlignEnd=300465|Gloss=see
 21	#	#	PUNCT	_	_	23	punct	_	AlignBegin=300465|AlignEnd=300625|Gloss=PUNCT
 22	di	the	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=300625|AlignEnd=300785|Gloss=DEF.ART
 23	kingdom	kingdom	NOUN	_	_	20	comp:obj	_	AlignBegin=300785|AlignEnd=301265|Gloss=kingdom
-24	of	of	ADP	_	_	23	dep	_	AlignBegin=301265|AlignEnd=301425|Gloss=of
+24	of	of	ADP	_	_	23	mod	_	AlignBegin=301265|AlignEnd=301425|Gloss=of
 25	God	God	PROPN	_	_	24	comp:obj	_	AlignBegin=301425|AlignEnd=301651|Gloss=God
-26	begin	begin	VERB	_	_	20	comp:pred	_	AlignBegin=301651|AlignEnd=301885|Gloss=begin
-27	to	to	ADP	_	_	26	comp:pred	_	AlignBegin=301885|AlignEnd=302020|Gloss=to
+26	begin	begin	VERB	_	_	20	comp:obj@x	_	AlignBegin=301651|AlignEnd=301885|Gloss=begin
+27	to	to	ADP	_	_	26	comp:obl@x	_	AlignBegin=301885|AlignEnd=302020|Gloss=to
 28	happen	happen	VERB	_	_	27	comp:obj	_	AlignBegin=302020|AlignEnd=302345|Gloss=happen
 29	for	for	ADP	_	_	28	comp:obl	_	AlignBegin=302345|AlignEnd=302535|Gloss=for
 30	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	29	comp:obj	_	AlignBegin=302535|AlignEnd=302905|Gloss=NOM.2
@@ -1859,16 +1859,16 @@
 # text_ortho = And anoder ting wey di kingdom of God don come to do for us is dat di kingdom of God... where di kingdom of God dey, dis is light.
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=305760|AlignEnd=306255|Gloss=PUNCT
 2	and	and	CCONJ	_	_	16	cc	_	AlignBegin=306255|AlignEnd=306444|Gloss=and
-3	anoder	anoder	DET	_	_	4	dep	_	AlignBegin=306444|AlignEnd=306825|Gloss=another
+3	anoder	anoder	DET	_	_	4	det	_	AlignBegin=306444|AlignEnd=306825|Gloss=another
 4	ting	ting	NOUN	_	_	16	subj	_	AlignBegin=306825|AlignEnd=306968|Gloss=thing
-5	wey	when	SCONJ	_	_	4	dep	_	AlignBegin=306968|AlignEnd=307125|Gloss=when
+5	wey	wey	SCONJ	_	gloss=REL	4	mod@relcl	_	AlignBegin=306968|AlignEnd=307125|Gloss=when
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=307125|AlignEnd=307275|Gloss=DEF.ART
 7	kingdom	kingdom	NOUN	_	_	10	subj	_	AlignBegin=307275|AlignEnd=307565|Gloss=kingdom
-8	of	of	ADP	_	_	7	dep	_	AlignBegin=307565|AlignEnd=307728|Gloss=of
+8	of	of	ADP	_	_	7	mod	_	AlignBegin=307565|AlignEnd=307728|Gloss=of
 9	God	God	PROPN	_	_	8	comp:obj	_	AlignBegin=307728|AlignEnd=307883|Gloss=God
 10	don	don	AUX	_	Aspect=Perf	5	comp:obj	_	AlignBegin=307883|AlignEnd=308095|Gloss=PRF
 11	come	come	VERB	_	_	10	comp:aux	_	AlignBegin=308095|AlignEnd=308295|Gloss=come
-12	to	to	ADP	_	_	11	comp:pred	_	AlignBegin=308295|AlignEnd=308459|Gloss=to
+12	to	to	ADP	_	_	11	comp:obl@x	_	AlignBegin=308295|AlignEnd=308459|Gloss=to
 13	do	do	VERB	_	_	12	comp:obj	_	AlignBegin=308459|AlignEnd=308616|Gloss=do
 14	for	for	ADP	_	_	13	comp:obl	_	AlignBegin=308616|AlignEnd=308792|Gloss=for
 15	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	comp:obj	_	AlignBegin=308792|AlignEnd=308975|Gloss=ACC.PL.1
@@ -1878,18 +1878,18 @@
 19	[	[	PUNCT	_	_	34	punct	_	AlignBegin=309500|AlignEnd=309530|Gloss=PUNCT
 20	di	the	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=309530|AlignEnd=309655|Gloss=DEF.ART
 21	kingdom	kingdom	NOUN	_	_	34	dislocated	_	AlignBegin=309655|AlignEnd=309965|Gloss=kingdom
-22	of	of	ADP	_	_	21	dep	_	AlignBegin=309965|AlignEnd=310145|Gloss=of
+22	of	of	ADP	_	_	21	mod	_	AlignBegin=309965|AlignEnd=310145|Gloss=of
 23	God	God	PROPN	_	_	22	comp:obj	_	AlignBegin=310145|AlignEnd=310483|Gloss=God
 24	<	<	PUNCT	_	_	21	punct	_	AlignBegin=310483|AlignEnd=310513|Gloss=PUNCT
 25	where	where	ADV	_	PronType=Int	34	dislocated	_	AlignBegin=310513|AlignEnd=310715|Gloss=where.Q
 26	di	the	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=310715|AlignEnd=310865|Gloss=DEF.ART
 27	kingdom	kingdom	NOUN	_	_	30	subj	_	AlignBegin=310865|AlignEnd=311195|Gloss=kingdom
-28	of	of	ADP	_	_	27	dep	_	AlignBegin=311195|AlignEnd=311365|Gloss=of
+28	of	of	ADP	_	_	27	mod	_	AlignBegin=311195|AlignEnd=311365|Gloss=of
 29	God	God	PROPN	_	_	28	comp:obj	_	AlignBegin=311365|AlignEnd=311596|Gloss=God
 30	dey	dey	AUX	_	Aspect=Imp	25	comp:obj	_	AlignBegin=311596|AlignEnd=311840|Gloss=IPFV
 31	<	<	PUNCT	_	_	25	punct	_	AlignBegin=311840|AlignEnd=311870|Gloss=PUNCT
 32	#	#	PUNCT	_	_	25	punct	_	AlignBegin=311870|AlignEnd=312140|Gloss=PUNCT
-33	dis	dis	DET	_	Number=Sing|PronType=Dem	34	subj	_	AlignBegin=312140|AlignEnd=312490|Gloss=SG.PROX.DEM
+33	dis	dis	PRON	_	Number=Sing|PronType=Dem	34	subj	_	AlignBegin=312140|AlignEnd=312490|Gloss=SG.PROX.DEM
 34	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	AlignBegin=312520|AlignEnd=312750|Gloss=be.IND.SG.3.PRS.FIN
 35	light	light	NOUN	_	_	34	comp:pred	_	AlignBegin=312780|AlignEnd=313110|Gloss=light
 36	//]	//]	PUNCT	_	_	34	punct	_	AlignBegin=313110|AlignEnd=313140|Gloss=PUNCT
@@ -1932,13 +1932,13 @@
 2	so	so	ADV	_	_	7	discourse	_	AlignBegin=316410|AlignEnd=316580|Gloss=so
 3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=316610|AlignEnd=316790|Gloss=DEF.ART
 4	kingdom	kingdom	NOUN	_	_	7	subj	_	AlignBegin=316790|AlignEnd=317210|Gloss=kingdom
-5	of	of	ADP	_	_	4	dep	_	AlignBegin=317210|AlignEnd=317380|Gloss=of
+5	of	of	ADP	_	_	4	mod	_	AlignBegin=317210|AlignEnd=317380|Gloss=of
 6	God	God	PROPN	_	_	5	comp:obj	_	AlignBegin=317380|AlignEnd=317815|Gloss=God
 7	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=317815|AlignEnd=318090|Gloss=be.IND.SG.3.PRS.FIN
 8	also	also	ADV	_	_	9	mod	_	AlignBegin=318090|AlignEnd=318453|Gloss=also
 9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=318453|AlignEnd=318630|Gloss=DEF.ART
 10	light	light	NOUN	_	_	7	comp:pred	_	AlignBegin=318630|AlignEnd=319150|Gloss=light
-11	of	of	ADP	_	_	10	dep	_	AlignBegin=319150|AlignEnd=319569|Gloss=of
+11	of	of	ADP	_	_	10	mod	_	AlignBegin=319150|AlignEnd=319569|Gloss=of
 12	God	God	PROPN	_	_	11	comp:obj	_	AlignBegin=319569|AlignEnd=320015|Gloss=God
 13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=320015|AlignEnd=320045|Gloss=PUNCT
 
@@ -1989,7 +1989,7 @@
 6	take	take	VERB	_	_	4	dep	_	AlignBegin=326522|AlignEnd=326730|Gloss=take
 7	light	light	NOUN	_	_	6	comp:obj	_	AlignBegin=326730|AlignEnd=326901|Gloss=light
 8	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=326901|AlignEnd=327010|Gloss=for
-9	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	10	dep	_	AlignBegin=327010|AlignEnd=327117|Gloss=PL.2.POSS
+9	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	10	mod	_	AlignBegin=327010|AlignEnd=327117|Gloss=PL.2.POSS
 10	house	house	NOUN	_	_	8	comp:obj	_	AlignBegin=327117|AlignEnd=327330|Gloss=house
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=327330|AlignEnd=327360|Gloss=PUNCT
 
@@ -2004,11 +2004,11 @@
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=327845|AlignEnd=328045|Gloss=NOM.2
 4	on	on	VERB	_	_	2	comp:obj	_	AlignBegin=328045|AlignEnd=328157|Gloss=switch_on
 5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=328157|AlignEnd=328187|Gloss=PUNCT
-6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	dep	_	AlignBegin=328187|AlignEnd=328395|Gloss=PL.2.POSS
+6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	mod	_	AlignBegin=328187|AlignEnd=328395|Gloss=PL.2.POSS
 7	lantern	lantern	NOUN	_	_	4	comp:obj	_	AlignBegin=328395|AlignEnd=329025|Gloss=lantern
 8	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=329025|AlignEnd=329055|Gloss=PUNCT
 9	or	or	CCONJ	_	_	11	cc	_	AlignBegin=329055|AlignEnd=329239|Gloss=or
-10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	dep	_	AlignBegin=329239|AlignEnd=329421|Gloss=PL.2.POSS
+10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	mod	_	AlignBegin=329239|AlignEnd=329421|Gloss=PL.2.POSS
 11	candle	candle	NOUN	_	_	7	conj:coord	_	AlignBegin=329421|AlignEnd=329705|Gloss=candle
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=329705|AlignEnd=329735|Gloss=PUNCT
 13	<	<	PUNCT	_	_	2	punct	_	AlignBegin=329705|AlignEnd=329735|Gloss=PUNCT
@@ -2040,7 +2040,7 @@
 4	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=331990|AlignEnd=332020|Gloss=PUNCT
 5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=332020|AlignEnd=332170|Gloss=DEF.ART
 6	light	light	NOUN	_	_	9	subj	_	AlignBegin=332170|AlignEnd=332510|Gloss=light
-7	of	of	ADP	_	_	6	dep	_	AlignBegin=332510|AlignEnd=332710|Gloss=of
+7	of	of	ADP	_	_	6	mod	_	AlignBegin=332510|AlignEnd=332710|Gloss=of
 8	God	God	PROPN	_	_	7	comp:obj	_	AlignBegin=332710|AlignEnd=332921|Gloss=God
 9	dey	dey	VERB	_	VerbType=Cop	2	comp:cleft	_	AlignBegin=332921|AlignEnd=333128|Gloss=dey.COP
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=333128|AlignEnd=333158|Gloss=PUNCT
@@ -2056,7 +2056,7 @@
 3	light	light	NOUN	_	_	4	mod	_	AlignBegin=333713|AlignEnd=334072|Gloss=light
 4	come	come	VERB	_	_	2	comp:obj	_	AlignBegin=334072|AlignEnd=334322|Gloss=come
 5	into	into	ADP	_	_	4	comp:obl	_	AlignBegin=334322|AlignEnd=334659|Gloss=into
-6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	dep	_	AlignBegin=334659|AlignEnd=334911|Gloss=PL.2.POSS
+6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	mod	_	AlignBegin=334659|AlignEnd=334911|Gloss=PL.2.POSS
 7	life	life	NOUN	_	_	5	comp:obj	_	AlignBegin=334911|AlignEnd=335249|Gloss=life
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=335249|AlignEnd=335279|Gloss=PUNCT
 9	#	#	PUNCT	_	_	2	punct	_	AlignBegin=335279|AlignEnd=335490|Gloss=PUNCT
@@ -2074,7 +2074,7 @@
 1	all	all	ADV	_	_	3	det	_	AlignBegin=336343|AlignEnd=336650|Gloss=all
 2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=336650|AlignEnd=336750|Gloss=DEF.ART
 3	ting	ting	NOUN	_	_	26	dislocated	_	AlignBegin=336750|AlignEnd=336889|Gloss=thing
-4	wey	when	SCONJ	_	_	3	dep	_	AlignBegin=336889|AlignEnd=337050|Gloss=when
+4	wey	wey	SCONJ	_	gloss=REL	3	mod@relcl	_	AlignBegin=336889|AlignEnd=337050|Gloss=when
 5	the	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=337050|AlignEnd=337215|Gloss=DEF.ART
 6	Devil	devil	NOUN	_	_	7	subj	_	AlignBegin=337215|AlignEnd=337500|Gloss=devil
 7	don	don	AUX	_	Aspect=Perf	4	comp:obj	_	AlignBegin=337500|AlignEnd=337723|Gloss=PRF
@@ -2094,12 +2094,12 @@
 21	#	#	PUNCT	_	_	16	punct	_	AlignBegin=339475|AlignEnd=339659|Gloss=PUNCT
 22	the	di	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=339659|AlignEnd=339812|Gloss=DEF.ART
 23	light	light	NOUN	_	_	26	subj	_	AlignBegin=339812|AlignEnd=340125|Gloss=light
-24	of	of	ADP	_	_	23	dep	_	AlignBegin=340125|AlignEnd=340265|Gloss=of
+24	of	of	ADP	_	_	23	mod	_	AlignBegin=340125|AlignEnd=340265|Gloss=of
 25	God	God	PROPN	_	_	24	comp:obj	_	AlignBegin=340265|AlignEnd=340435|Gloss=God
 26	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=340435|AlignEnd=340595|Gloss=CONT
 27	make	make	VERB	_	_	26	comp:aux	_	AlignBegin=340595|AlignEnd=340867|Gloss=make
 28	all	all	ADV	_	_	27	comp:obj	_	AlignBegin=340867|AlignEnd=340925|Gloss=all
-29	of	of	ADP	_	_	28	dep	_	AlignBegin=340925|AlignEnd=341048|Gloss=of
+29	of	of	ADP	_	_	28	mod	_	AlignBegin=340925|AlignEnd=341048|Gloss=of
 30	them	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	comp:obj	_	AlignBegin=341048|AlignEnd=341205|Gloss=ACC.PL.3
 31	to	to	ADP	_	_	27	comp:pred	_	AlignBegin=341205|AlignEnd=341405|Gloss=to
 32	what	what	PRON	_	PronType=Int	31	comp:obj	_	AlignBegin=341405|AlignEnd=341760|Gloss=what.Q
@@ -2125,9 +2125,9 @@
 3	so	so	ADV	_	_	11	discourse	_	AlignBegin=343925|AlignEnd=344270|Gloss=so
 4	#	#	PUNCT	_	_	3	punct	_	AlignBegin=344300|AlignEnd=344680|Gloss=PUNCT
 5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=344680|AlignEnd=344866|Gloss=DEF.ART
-6	vital	vital	ADJ	_	_	7	dep	_	AlignBegin=344866|AlignEnd=345540|Gloss=vital
+6	vital	vital	ADJ	_	_	7	mod	_	AlignBegin=344866|AlignEnd=345540|Gloss=vital
 7	message	message	NOUN	_	_	11	subj	_	AlignBegin=345540|AlignEnd=345984|Gloss=message
-8	for	for	ADP	_	_	7	dep	_	AlignBegin=345984|AlignEnd=346189|Gloss=for
+8	for	for	ADP	_	_	7	mod	_	AlignBegin=345984|AlignEnd=346189|Gloss=for
 9	today	today	NOUN	_	_	8	comp:obj	_	AlignBegin=346189|AlignEnd=346584|Gloss=today
 10	#	#	PUNCT	_	_	7	punct	_	AlignBegin=346584|AlignEnd=346940|Gloss=PUNCT
 11	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=346940|AlignEnd=347130|Gloss=be.IND.SG.3.PRS.FIN
@@ -2136,7 +2136,7 @@
 14	[	[	PUNCT	_	_	25	punct	_	AlignBegin=347420|AlignEnd=347780|Gloss=PUNCT
 15	the	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=347780|AlignEnd=348020|Gloss=DEF.ART
 16	kingdom	kingdom	NOUN	_	_	25	subj	_	AlignBegin=348020|AlignEnd=348450|Gloss=kingdom
-17	of	of	ADP	_	_	16	dep	_	AlignBegin=348450|AlignEnd=348767|Gloss=of
+17	of	of	ADP	_	_	16	mod	_	AlignBegin=348450|AlignEnd=348767|Gloss=of
 18	God	God	PROPN	_	_	17	comp:obj	_	AlignBegin=348767|AlignEnd=349109|Gloss=God
 19	<	<	PUNCT	_	_	16	punct	_	AlignBegin=349109|AlignEnd=349356|Gloss=PUNCT
 20	like	like	ADP	_	_	25	mod:periph	_	AlignBegin=349109|AlignEnd=349356|Gloss=like
@@ -2185,7 +2185,7 @@
 4	receive	receive	VERB	_	_	2	comp:obj	_	AlignBegin=355405|AlignEnd=355731|Gloss=receive
 5	Jesus	Jesus	PROPN	_	_	4	comp:obj	_	AlignBegin=355731|AlignEnd=356145|Gloss=Jesus
 6	into	into	ADP	_	_	4	comp:obl	_	AlignBegin=356145|AlignEnd=356375|Gloss=into
-7	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	8	dep	_	AlignBegin=356375|AlignEnd=357019|Gloss=PL.2.POSS
+7	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	8	mod	_	AlignBegin=356375|AlignEnd=357019|Gloss=PL.2.POSS
 8	life	life	NOUN	_	_	6	comp:obj	_	AlignBegin=357019|AlignEnd=357348|Gloss=life
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=357348|AlignEnd=357378|Gloss=PUNCT
 
@@ -2196,18 +2196,18 @@
 # text_en = My brother, my sister, as many of you listening to me, if Jesus has not come into your life, your life will still be in crisis.
 # text_ortho = My broder, my sister, as many of una wey dey listen to me, if Jesus never come into your life, your life go still dey in crisis.
 1	#	#	PUNCT	_	_	31	punct	_	AlignBegin=357378|AlignEnd=357660|Gloss=PUNCT
-2	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	3	dep	_	AlignBegin=357660|AlignEnd=357810|Gloss=SG.1.POSS
+2	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	3	mod	_	AlignBegin=357660|AlignEnd=357810|Gloss=SG.1.POSS
 3	broder	broder	NOUN	_	_	31	vocative	_	AlignBegin=357810|AlignEnd=358450|Gloss=brother
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=358450|AlignEnd=358480|Gloss=PUNCT
-5	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	6	dep	_	AlignBegin=358480|AlignEnd=358650|Gloss=SG.1.POSS
+5	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	6	mod	_	AlignBegin=358480|AlignEnd=358650|Gloss=SG.1.POSS
 6	sister	sister	NOUN	_	_	31	vocative	_	AlignBegin=358650|AlignEnd=359050|Gloss=sister
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=359050|AlignEnd=359080|Gloss=PUNCT
 8	#	#	PUNCT	_	_	6	punct	_	AlignBegin=359080|AlignEnd=359300|Gloss=PUNCT
 9	as	as	ADP	_	_	31	vocative	_	AlignBegin=359300|AlignEnd=359569|Gloss=as
 10	many	many	ADJ	_	_	9	comp:obj	_	AlignBegin=359569|AlignEnd=359800|Gloss=many
-11	of	of	ADP	_	_	10	dep	_	AlignBegin=359800|AlignEnd=359940|Gloss=of
+11	of	of	ADP	_	_	10	mod	_	AlignBegin=359800|AlignEnd=359940|Gloss=of
 12	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	comp:obj	_	AlignBegin=359940|AlignEnd=360160|Gloss=NOM.PL.2
-13	wey	when	SCONJ	_	_	12	dep	_	AlignBegin=360160|AlignEnd=360250|Gloss=when
+13	wey	wey	SCONJ	_	gloss=REL	12	mod@relcl	_	AlignBegin=360160|AlignEnd=360250|Gloss=when
 14	dey	dey	AUX	_	Aspect=Imp	13	comp:obj	_	AlignBegin=360250|AlignEnd=360390|Gloss=IPFV
 15	listen	listen	VERB	_	_	14	comp:aux	_	AlignBegin=360390|AlignEnd=360731|Gloss=listen
 16	to	to	ADP	_	_	15	comp:obl	_	AlignBegin=360731|AlignEnd=360880|Gloss=to
@@ -2219,11 +2219,11 @@
 22	never	never	AUX	_	Aspect=Perf|Polarity=Neg	20	comp:obj	_	AlignBegin=362120|AlignEnd=362399|Gloss=PRF.NEG
 23	come	come	VERB	_	_	22	comp:aux	_	AlignBegin=362399|AlignEnd=362660|Gloss=come
 24	into	into	ADP	_	_	23	comp:obl	_	AlignBegin=362660|AlignEnd=362853|Gloss=into
-25	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	26	dep	_	AlignBegin=362853|AlignEnd=363060|Gloss=PL.2.POSS
+25	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	26	mod	_	AlignBegin=362853|AlignEnd=363060|Gloss=PL.2.POSS
 26	life	life	NOUN	_	_	24	comp:obj	_	AlignBegin=363060|AlignEnd=363349|Gloss=life
 27	<	<	PUNCT	_	_	20	punct	_	AlignBegin=363349|AlignEnd=363379|Gloss=PUNCT
 28	#	#	PUNCT	_	_	20	punct	_	AlignBegin=363379|AlignEnd=363530|Gloss=PUNCT
-29	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	30	dep	_	AlignBegin=363530|AlignEnd=363700|Gloss=PL.2.POSS
+29	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	30	mod	_	AlignBegin=363530|AlignEnd=363700|Gloss=PL.2.POSS
 30	life	life	NOUN	_	_	31	subj	_	AlignBegin=363700|AlignEnd=363950|Gloss=life
 31	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=363950|AlignEnd=364060|Gloss=CONT
 32	still	still	ADV	_	_	33	mod	_	AlignBegin=364060|AlignEnd=364300|Gloss=still
@@ -2238,7 +2238,7 @@
 # text = your life < you go still dey get { pain |c and problem } { here |c and dere } //
 # text_en = Your life… you will still be having pains and problems here and there.
 # text_ortho = Your life… you go still dey get pain, and problem here, and dere.
-1	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	2	dep	_	AlignBegin=365273|AlignEnd=365450|Gloss=PL.2.POSS
+1	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	2	mod	_	AlignBegin=365273|AlignEnd=365450|Gloss=PL.2.POSS
 2	life	life	NOUN	_	_	5	dislocated	_	AlignBegin=365450|AlignEnd=365670|Gloss=life
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=365670|AlignEnd=365700|Gloss=PUNCT
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=365700|AlignEnd=365800|Gloss=NOM.2
@@ -2247,7 +2247,7 @@
 7	dey	dey	AUX	_	Aspect=Imp	5	comp:aux	_	AlignBegin=366101|AlignEnd=366230|Gloss=IPFV
 8	get	get	VERB	_	_	7	comp:aux	_	AlignBegin=366230|AlignEnd=366447|Gloss=get
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=366447|AlignEnd=366477|Gloss=PUNCT
-10	pain	pain	VERB	_	_	8	comp:obj	_	AlignBegin=366477|AlignEnd=366741|Gloss=pain
+10	pain	pain	VERB	_	_	8	comp:obj@x	_	AlignBegin=366477|AlignEnd=366741|Gloss=pain
 11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=366741|AlignEnd=366771|Gloss=PUNCT
 12	and	and	CCONJ	_	_	13	cc	_	AlignBegin=366771|AlignEnd=366920|Gloss=and
 13	problem	problem	NOUN	_	_	10	conj:coord	_	AlignBegin=366920|AlignEnd=367409|Gloss=problem
@@ -2285,7 +2285,7 @@
 17	<	<	PUNCT	_	_	16	punct	_	AlignBegin=372177|AlignEnd=372207|Gloss=PUNCT
 18	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	subj	_	AlignBegin=372207|AlignEnd=372401|Gloss=NOM.2
 19	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	parataxis:obj	_	AlignBegin=372401|AlignEnd=372557|Gloss=be.IND.PRS.FIN
-20	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	21	dep	_	AlignBegin=372557|AlignEnd=372807|Gloss=SG.1.POSS
+20	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	21	mod	_	AlignBegin=372557|AlignEnd=372807|Gloss=SG.1.POSS
 21	lord	lord	NOUN	_	_	19	comp:pred	_	AlignBegin=372807|AlignEnd=373097|Gloss=lord
 22	o	o	PART	_	PartType=Disc	21	mod:emph	_	AlignBegin=373097|AlignEnd=373197|Gloss=EMPH
 23	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=373097|AlignEnd=373197|Gloss=PUNCT
@@ -2294,7 +2294,7 @@
 26	<	<	PUNCT	_	_	24	punct	_	AlignBegin=373927|AlignEnd=373957|Gloss=PUNCT
 27	anyting	anyting	PRON	_	_	35	dislocated	_	AlignBegin=373957|AlignEnd=374317|Gloss=anything
 28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	29	subj	_	AlignBegin=374317|AlignEnd=374538|Gloss=NOM.2
-29	tell	tell	VERB	_	_	27	dep	_	AlignBegin=374538|AlignEnd=374782|Gloss=tell
+29	tell	tell	VERB	_	_	27	mod@relcl	_	AlignBegin=374538|AlignEnd=374782|Gloss=tell
 30	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	comp:obj	_	AlignBegin=374782|AlignEnd=375117|Gloss=ACC.SG.1
 31	<	<	PUNCT	_	_	27	punct	_	AlignBegin=375117|AlignEnd=375147|Gloss=PUNCT
 32	now	now	ADV	_	_	35	mod:periph	_	AlignBegin=375147|AlignEnd=375277|Gloss=now
@@ -2320,14 +2320,14 @@
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=377230|AlignEnd=377337|Gloss=NOM.2
 8	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=377337|AlignEnd=377465|Gloss=CONT
 9	begin	begin	VERB	_	_	8	comp:aux	_	AlignBegin=377465|AlignEnd=377735|Gloss=begin
-10	to	to	ADP	_	_	9	comp:pred	_	AlignBegin=377735|AlignEnd=377845|Gloss=to
+10	to	to	ADP	_	_	9	comp:obl@x	_	AlignBegin=377735|AlignEnd=377845|Gloss=to
 11	see	see	VERB	_	_	10	comp:obj	_	AlignBegin=377845|AlignEnd=378391|Gloss=see
 12	the	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=378391|AlignEnd=378535|Gloss=DEF.ART
 13	glory	glory	NOUN	_	_	11	comp:obj	_	AlignBegin=378535|AlignEnd=378875|Gloss=glory
-14	of	of	ADP	_	_	13	dep	_	AlignBegin=378875|AlignEnd=379065|Gloss=of
+14	of	of	ADP	_	_	13	mod	_	AlignBegin=378875|AlignEnd=379065|Gloss=of
 15	God	God	PROPN	_	_	14	comp:obj	_	AlignBegin=379065|AlignEnd=379338|Gloss=God
 16	in	in	ADP	_	_	11	mod	_	AlignBegin=379338|AlignEnd=379485|Gloss=in
-17	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	18	dep	_	AlignBegin=379485|AlignEnd=379675|Gloss=PL.2.POSS
+17	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	18	mod	_	AlignBegin=379485|AlignEnd=379675|Gloss=PL.2.POSS
 18	life	life	NOUN	_	_	16	comp:obj	_	AlignBegin=379675|AlignEnd=379870|Gloss=life
 19	//	//	PUNCT	_	_	8	punct	_	AlignBegin=379870|AlignEnd=379900|Gloss=PUNCT
 
@@ -2341,17 +2341,17 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=380095|AlignEnd=380210|Gloss=NOM.2
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=380210|AlignEnd=380330|Gloss=CONT
 4	begin	begin	VERB	_	_	3	comp:aux	_	AlignBegin=380330|AlignEnd=380560|Gloss=begin
-5	to	to	ADP	_	_	4	comp:pred	_	AlignBegin=380560|AlignEnd=380690|Gloss=to
+5	to	to	ADP	_	_	4	comp:obl@x	_	AlignBegin=380560|AlignEnd=380690|Gloss=to
 6	see	see	VERB	_	_	5	comp:obj	_	AlignBegin=380690|AlignEnd=380860|Gloss=see
 7	wetin	wetin	PRON	_	PronType=Int	6	comp:obj	_	AlignBegin=380860|AlignEnd=381140|Gloss=what.Q
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	AlignBegin=381140|AlignEnd=381270|Gloss=NOM.SG.3
-9	mean	mean	VERB	_	_	7	dep	_	AlignBegin=381270|AlignEnd=381430|Gloss=mean
+9	mean	mean	VERB	_	_	7	mod@relcl	_	AlignBegin=381270|AlignEnd=381430|Gloss=mean
 10	to	to	ADP	_	_	9	comp:quasi	_	AlignBegin=381430|AlignEnd=381610|Gloss=to
 11	live	live	VERB	_	_	10	comp:obj	_	AlignBegin=381610|AlignEnd=381870|Gloss=live
 12	in	in	ADP	_	_	11	comp:obl	_	AlignBegin=381870|AlignEnd=382010|Gloss=in
 13	the	di	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=382010|AlignEnd=382150|Gloss=DEF.ART
 14	kingdom	kingdom	NOUN	_	_	12	comp:obj	_	AlignBegin=382150|AlignEnd=382590|Gloss=kingdom
-15	of	of	ADP	_	_	14	dep	_	AlignBegin=382590|AlignEnd=382981|Gloss=of
+15	of	of	ADP	_	_	14	mod	_	AlignBegin=382590|AlignEnd=382981|Gloss=of
 16	God	God	PROPN	_	_	15	comp:obj	_	AlignBegin=382981|AlignEnd=383443|Gloss=God
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=383443|AlignEnd=383473|Gloss=PUNCT
 
@@ -2370,7 +2370,7 @@
 7	accept	accept	VERB	_	_	5	comp:obj	_	AlignBegin=385020|AlignEnd=385450|Gloss=accept
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=385450|AlignEnd=385610|Gloss=ACC.SG.3
 9	into	into	ADP	_	_	7	comp:obl	_	AlignBegin=385610|AlignEnd=385881|Gloss=into
-10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	dep	_	AlignBegin=385881|AlignEnd=386040|Gloss=PL.2.POSS
+10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	mod	_	AlignBegin=385881|AlignEnd=386040|Gloss=PL.2.POSS
 11	life	life	NOUN	_	_	9	comp:obj	_	AlignBegin=386040|AlignEnd=386285|Gloss=life
 12	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=386285|AlignEnd=386315|Gloss=PUNCT
 
@@ -2382,7 +2382,7 @@
 # text_ortho = In Jesus name, amen!
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=386315|AlignEnd=386540|Gloss=PUNCT
 2	in	in	ADP	_	_	7	mod:periph	_	AlignBegin=386540|AlignEnd=386740|Gloss=in
-3	Jesus	Jesus	PROPN	_	_	4	dep	_	AlignBegin=386740|AlignEnd=387220|Gloss=Jesus
+3	Jesus	Jesus	PROPN	_	_	4	mod	_	AlignBegin=386740|AlignEnd=387220|Gloss=Jesus
 4	name	name	NOUN	_	_	2	comp:obj	_	AlignBegin=387220|AlignEnd=387463|Gloss=name
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=387463|AlignEnd=387493|Gloss=PUNCT
 6	#	#	PUNCT	_	_	2	punct	_	AlignBegin=387493|AlignEnd=387720|Gloss=PUNCT
