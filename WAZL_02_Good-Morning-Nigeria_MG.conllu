@@ -443,10 +443,10 @@
 24	house	house	NOUN	_	_	22	comp:obj	_	AlignBegin=75062|AlignEnd=75303|Gloss=house
 25	]	]	PUNCT	_	_	19	punct	_	AlignBegin=75303|AlignEnd=75333|Gloss=PUNCT
 26	#	#	PUNCT	_	_	27	punct	_	AlignBegin=75333|AlignEnd=75630|Gloss=PUNCT
-27	when	when	ADV	_	PronType=Int	14	mod	_	AlignBegin=75630|AlignEnd=75890|Gloss=when.Q
+27	when	when	SCONJ	_	_	14	mod	_	AlignBegin=75630|AlignEnd=75890|Gloss=when.Q
 28	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	subj	_	AlignBegin=75890|AlignEnd=75980|Gloss=NOM.SG.3
 29	no	no	PART	_	Polarity=Neg	30	mod	_	AlignBegin=75980|AlignEnd=76120|Gloss=NEG
-30	know	know	VERB	_	_	27	mod@relcl	_	AlignBegin=76120|AlignEnd=76303|Gloss=know
+30	know	know	VERB	_	_	27	comp:obj	_	AlignBegin=76120|AlignEnd=76303|Gloss=know
 31	how	how	ADV	_	PronType=Int	32	mod	_	AlignBegin=76303|AlignEnd=76416|Gloss=how.Q
 32	far	far	ADV	_	_	30	comp:obj	_	AlignBegin=76416|AlignEnd=76920|Gloss=far
 33	//	//	PUNCT	_	_	4	punct	_	AlignBegin=76920|AlignEnd=76950|Gloss=PUNCT
@@ -588,15 +588,19 @@
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=95370|AlignEnd=95678|Gloss=PUNCT
 4	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=95678|AlignEnd=96210|Gloss=eh
 5	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=96210|AlignEnd=96240|Gloss=PUNCT
-6	don't	don't	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=96240|AlignEnd=96570|Gloss=do.IND.NEG.PRS.FIN
-7	try	try	VERB	_	_	6	comp:aux	_	AlignBegin=96570|AlignEnd=96840|Gloss=try
-8	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=96840|AlignEnd=97240|Gloss=NOM.NT.SG.3
-9	!//=	!//=	PUNCT	_	_	10	punct	_	AlignBegin=97240|AlignEnd=97270|Gloss=PUNCT
-10	don't	don't	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	parataxis:conj	_	AlignBegin=97270|AlignEnd=97510|Gloss=do.IND.NEG.PRS.FIN
-11	try	try	VERB	_	_	10	comp:aux	_	AlignBegin=97510|AlignEnd=97750|Gloss=try
-12	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=97750|AlignEnd=97805|Gloss=NOM.NT.SG.3
-13	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=97805|AlignEnd=97835|Gloss=PUNCT
-14	eng]	eng]	PUNCT	_	_	6	punct	_	AlignBegin=97805|AlignEnd=97835|Gloss=PUNCT
+6-7	don't	_	_	_	_	_	_	_	_
+6	do	do	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=96240|AlignEnd=96570|Gloss=do.IND.NEG.PRS.FIN
+7	n't	not	PART	_	_	6	mod	_	_
+8	try	try	VERB	_	_	6	comp:aux	_	AlignBegin=96570|AlignEnd=96840|Gloss=try
+9	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=96840|AlignEnd=97240|Gloss=NOM.NT.SG.3
+10	!//=	!//=	PUNCT	_	_	11	punct	_	AlignBegin=97240|AlignEnd=97270|Gloss=PUNCT
+11-12	don't	_	_	_	_	_	_	_	_
+11	do	do	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	parataxis:conj	_	AlignBegin=97270|AlignEnd=97510|Gloss=do.IND.NEG.PRS.FIN
+12	n't	not	PART	_	_	11	mod	_	_
+13	try	try	VERB	_	_	11	comp:aux	_	AlignBegin=97510|AlignEnd=97750|Gloss=try
+14	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=97750|AlignEnd=97805|Gloss=NOM.NT.SG.3
+15	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=97805|AlignEnd=97835|Gloss=PUNCT
+16	eng]	eng]	PUNCT	_	_	6	punct	_	AlignBegin=97805|AlignEnd=97835|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__26
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -795,13 +799,13 @@
 # text = # ehn dat one < { we || we || we || we } & &//
 # text_en = Yes, that one, we, we, we, we…
 # text_ortho = Ehn dat one, we, we, we, we...
-1	#	#	PUNCT	_	_	15	punct	_	AlignBegin=136107|AlignEnd=136466|Gloss=PUNCT
-2	ehn	ehn	INTJ	_	_	15	discourse	_	AlignBegin=136466|AlignEnd=136780|Gloss=ehn
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=136107|AlignEnd=136466|Gloss=PUNCT
+2	ehn	ehn	INTJ	_	_	0	discourse	_	AlignBegin=136466|AlignEnd=136780|Gloss=ehn
 3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=136780|AlignEnd=136906|Gloss=SG.DIST.DEM
-4	one	one	NOUN	_	_	15	dislocated	_	AlignBegin=136906|AlignEnd=137070|Gloss=one
+4	one	one	NOUN	_	_	0	dislocated	_	AlignBegin=136906|AlignEnd=137070|Gloss=one
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=137070|AlignEnd=137100|Gloss=PUNCT
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=137070|AlignEnd=137100|Gloss=PUNCT
-7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	subj	_	AlignBegin=137100|AlignEnd=137250|Gloss=NOM.PL.1
+7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root@scrap	_	AlignBegin=137100|AlignEnd=137250|Gloss=NOM.PL.1
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=137250|AlignEnd=137280|Gloss=PUNCT
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	conj:dicto	_	AlignBegin=137280|AlignEnd=137310|Gloss=NOM.PL.1
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=137310|AlignEnd=137340|Gloss=PUNCT
@@ -809,8 +813,7 @@
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=137450|AlignEnd=137480|Gloss=PUNCT
 13	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	conj:dicto	_	AlignBegin=137480|AlignEnd=137675|Gloss=NOM.PL.1
 14	}	}	PUNCT	_	_	7	punct	_	AlignBegin=137675|AlignEnd=137705|Gloss=PUNCT
-15	&	&	X	_	_	0	root	_	AlignBegin=137675|AlignEnd=137705|Gloss=X
-16	&//	//	PUNCT	_	_	15	punct	_	AlignBegin=137675|AlignEnd=137705|Gloss=PUNCT
+15	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=137675|AlignEnd=137705|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__37
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -830,12 +833,11 @@
 10	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	AlignBegin=138605|AlignEnd=138693|Gloss=be.IND.PRS.FIN
 11	}	}	PUNCT	_	_	4	punct	_	AlignBegin=138693|AlignEnd=138723|Gloss=PUNCT
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=138693|AlignEnd=138723|Gloss=PUNCT
-13	very	very	ADV	_	_	17	mod	_	AlignBegin=138723|AlignEnd=139017|Gloss=very
+13	very	very	ADV	_	_	10	comp:pred@scrap	_	AlignBegin=138723|AlignEnd=139017|Gloss=very
 14	|r	|r	PUNCT	_	_	15	punct	_	AlignBegin=139017|AlignEnd=139047|Gloss=PUNCT
 15	very	very	ADV	_	_	13	compound:redup	_	AlignBegin=139047|AlignEnd=139190|Gloss=very
 16	}	}	PUNCT	_	_	13	punct	_	AlignBegin=139190|AlignEnd=139220|Gloss=PUNCT
-17	&	&	X	_	_	10	comp:pred	_	AlignBegin=139190|AlignEnd=139220|Gloss=X
-18	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=139190|AlignEnd=139220|Gloss=PUNCT
+17	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=139190|AlignEnd=139220|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__38
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -843,12 +845,14 @@
 # text = [eng I'm very happy eng] //
 # text_en = I'm very happy.
 # text_ortho = I'm very happy .
-1	[eng	[eng	PUNCT	_	_	2	punct	_	AlignBegin=139190|AlignEnd=139220|Gloss=PUNCT
-2	I'm	I'm	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=139220|AlignEnd=139300|Gloss=I.be.IND.SG.1.PRS.FIN
-3	very	very	ADV	_	_	4	mod	_	AlignBegin=139300|AlignEnd=139621|Gloss=very
-4	happy	happy	ADJ	_	_	2	comp:pred	_	AlignBegin=139621|AlignEnd=139902|Gloss=happy
-5	eng]	eng]	PUNCT	_	_	2	punct	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
+1	[eng	[eng	PUNCT	_	_	3	punct	_	AlignBegin=139190|AlignEnd=139220|Gloss=PUNCT
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	_	_	3	subj	_	_
+3	'm	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=139220|AlignEnd=139300|Gloss=I.be.IND.SG.1.PRS.FIN
+4	very	very	ADV	_	_	5	mod	_	AlignBegin=139300|AlignEnd=139621|Gloss=very
+5	happy	happy	ADJ	_	_	3	comp:pred	_	AlignBegin=139621|AlignEnd=139902|Gloss=happy
+6	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1012,13 +1016,15 @@
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=165657|AlignEnd=166055|Gloss=PUNCT
 11	dat	that	PRON	_	PronType=Rel	5	mod@relcl	_	AlignBegin=166055|AlignEnd=166157|Gloss=that
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	subj	_	AlignBegin=166157|AlignEnd=166256|Gloss=NOM.2
-13	don't	don't	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	comp:obj	_	AlignBegin=166256|AlignEnd=166420|Gloss=do.IND.NEG.PRS.FIN
-14	want	want	VERB	_	_	13	comp:aux	_	AlignBegin=166420|AlignEnd=166550|Gloss=want
-15	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=166550|AlignEnd=166730|Gloss=NOM.PL.3
-16	to	to	ADP	_	_	14	comp:obl@x	_	AlignBegin=166730|AlignEnd=166870|Gloss=to
-17	see	see	VERB	_	_	16	comp:obj	_	AlignBegin=166870|AlignEnd=167129|Gloss=see
-18	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=167129|AlignEnd=167159|Gloss=PUNCT
-19	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=167129|AlignEnd=167159|Gloss=PUNCT
+13-14	don't	_	_	_	_	_	_	_	_
+13	do	do	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	comp:obj	_	AlignBegin=166256|AlignEnd=166420|Gloss=do.IND.NEG.PRS.FIN
+14	n't	not	PART	_	_	13	mod	_	_
+15	want	want	VERB	_	_	13	comp:aux	_	AlignBegin=166420|AlignEnd=166550|Gloss=want
+16	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	comp:obj	_	AlignBegin=166550|AlignEnd=166730|Gloss=NOM.PL.3
+17	to	to	ADP	_	_	15	comp:obl@x	_	AlignBegin=166730|AlignEnd=166870|Gloss=to
+18	see	see	VERB	_	_	17	comp:obj	_	AlignBegin=166870|AlignEnd=167129|Gloss=see
+19	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=167129|AlignEnd=167159|Gloss=PUNCT
+20	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=167129|AlignEnd=167159|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1105,16 +1111,16 @@
 7	[	[	PUNCT	_	_	26	punct	_	AlignBegin=180322|AlignEnd=180352|Gloss=PUNCT
 8	now	now	ADV	_	_	26	discourse	_	AlignBegin=180352|AlignEnd=180522|Gloss=now
 9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=180522|AlignEnd=180552|Gloss=PUNCT
-10	when	when	ADV	_	PronType=Int	26	mod:periph	_	AlignBegin=180552|AlignEnd=180684|Gloss=when.Q
+10	when	when	SCONJ	_	_	26	mod:periph	_	AlignBegin=180552|AlignEnd=180684|Gloss=when.Q
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=180684|AlignEnd=180808|Gloss=NOM.2
-12	see	see	VERB	_	_	10	mod@relcl	_	AlignBegin=180808|AlignEnd=180942|Gloss=see
+12	see	see	VERB	_	_	10	comp:obj	_	AlignBegin=180808|AlignEnd=180942|Gloss=see
 13	secondary	secondary	ADJ	_	_	14	mod	_	AlignBegin=180942|AlignEnd=181322|Gloss=secondary
 14	school	school	NOUN	_	_	15	compound	_	AlignBegin=181322|AlignEnd=181552|Gloss=school
 15	children	child	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=181552|AlignEnd=181802|Gloss=child.PL
 16	<	<	PUNCT	_	_	10	punct	_	AlignBegin=181802|AlignEnd=181832|Gloss=PUNCT
-17	when	when	ADV	_	PronType=Int	26	mod:periph	_	AlignBegin=181832|AlignEnd=181962|Gloss=when.Q
+17	when	when	SCONJ	_	_	26	mod:periph	_	AlignBegin=181832|AlignEnd=181962|Gloss=when.Q
 18	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	subj	_	AlignBegin=181962|AlignEnd=182068|Gloss=NOM.PL.3
-19	finish	finish	VERB	_	_	17	mod@relcl	_	AlignBegin=182068|AlignEnd=182329|Gloss=finish
+19	finish	finish	VERB	_	_	17	comp:obj	_	AlignBegin=182068|AlignEnd=182329|Gloss=finish
 20	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	22	mod	_	AlignBegin=182329|AlignEnd=182432|Gloss=3.PL.POSS
 21	last	last	ADJ	_	_	22	mod	_	AlignBegin=182432|AlignEnd=182662|Gloss=last
 22	paper	paper	NOUN	_	_	19	comp:obj	_	AlignBegin=182662|AlignEnd=182937|Gloss=paper
@@ -1318,10 +1324,10 @@
 # text_en = When their clothes were being torn, they were mounting on them, trying to rape them.
 # text_ortho = When deir clothing are being torn, de were climbing on dem, attempting to rape dem .
 1	[eng	[eng	PUNCT	_	_	11	punct	_	AlignBegin=216250|AlignEnd=216280|Gloss=PUNCT
-2	when	when	ADV	_	PronType=Int	11	mod:periph	_	AlignBegin=216280|AlignEnd=216480|Gloss=when.Q
+2	when	when	SCONJ	_	_	11	mod:periph	_	AlignBegin=216280|AlignEnd=216480|Gloss=when.Q
 3	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	4	mod	_	AlignBegin=216480|AlignEnd=216660|Gloss=3.PL.POSS
 4	clothing	clothing	NOUN	_	_	5	subj	_	AlignBegin=216660|AlignEnd=217000|Gloss=clothing
-5	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	AlignBegin=217000|AlignEnd=217130|Gloss=be.IND.PRS.FIN
+5	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=217000|AlignEnd=217130|Gloss=be.IND.PRS.FIN
 6	being	be	AUX	_	Tense=Pres|VerbForm=Part	5	comp:aux	_	AlignBegin=217130|AlignEnd=217420|Gloss=be.PRS.PTCP
 7	torn	tear	VERB	_	Tense=Past|VerbForm=Part	6	comp:aux	_	AlignBegin=217420|AlignEnd=217688|Gloss=tear.PST.PTCP
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=217688|AlignEnd=217718|Gloss=PUNCT
@@ -1421,20 +1427,22 @@
 # text = # I'm so happy dat Lagos State government don take dis tin up //
 # text_en = I'm so happy that the Lagos State Government has taken this thing up.
 # text_ortho = I'M so happy dat Lagos State government don take dis tin up.
-1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=232268|AlignEnd=232757|Gloss=PUNCT
-2	I'm	I'm	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=232757|AlignEnd=232905|Gloss=I.be.IND.SG.1.PRS.FIN
-3	so	so	ADV	_	_	4	mod	_	AlignBegin=232905|AlignEnd=233112|Gloss=so
-4	happy	happy	ADJ	_	_	2	comp:pred	_	AlignBegin=233112|AlignEnd=233395|Gloss=happy
-5	dat	dat	PRON	_	Number=Sing|PronType=Dem	4	comp:pred	_	AlignBegin=233395|AlignEnd=233525|Gloss=SG.DEM
-6	Lagos	Lagos	PROPN	_	_	7	compound	_	AlignBegin=233525|AlignEnd=233805|Gloss=Lagos
-7	State	state	NOUN	_	_	8	compound	_	AlignBegin=233805|AlignEnd=233945|Gloss=state
-8	government	government	NOUN	_	_	9	subj	_	AlignBegin=233945|AlignEnd=234205|Gloss=government
-9	don	don	AUX	_	Aspect=Perf	5	comp:obj	_	AlignBegin=234205|AlignEnd=234435|Gloss=PRF
-10	take	take	VERB	_	_	9	comp:aux	_	AlignBegin=234435|AlignEnd=234575|Gloss=take
-11	dis	dis	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=234575|AlignEnd=234775|Gloss=SG.PROX.DEM
-12	tin	ting	NOUN	_	_	10	comp:obj	_	AlignBegin=234775|AlignEnd=234968|Gloss=thing
-13	up	up	ADP	_	_	10	compound:prt	_	AlignBegin=234968|AlignEnd=235211|Gloss=up
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=235211|AlignEnd=235610|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=232268|AlignEnd=232757|Gloss=PUNCT
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	_	_	3	subj	_	_
+3	'm	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=232757|AlignEnd=232905|Gloss=I.be.IND.SG.1.PRS.FIN
+4	so	so	ADV	_	_	5	mod	_	AlignBegin=232905|AlignEnd=233112|Gloss=so
+5	happy	happy	ADJ	_	_	3	comp:pred	_	AlignBegin=233112|AlignEnd=233395|Gloss=happy
+6	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	comp:pred	_	AlignBegin=233395|AlignEnd=233525|Gloss=SG.DEM
+7	Lagos	Lagos	PROPN	_	_	8	compound	_	AlignBegin=233525|AlignEnd=233805|Gloss=Lagos
+8	State	state	NOUN	_	_	9	compound	_	AlignBegin=233805|AlignEnd=233945|Gloss=state
+9	government	government	NOUN	_	_	10	subj	_	AlignBegin=233945|AlignEnd=234205|Gloss=government
+10	don	don	AUX	_	Aspect=Perf	6	comp:obj	_	AlignBegin=234205|AlignEnd=234435|Gloss=PRF
+11	take	take	VERB	_	_	10	comp:aux	_	AlignBegin=234435|AlignEnd=234575|Gloss=take
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=234575|AlignEnd=234775|Gloss=SG.PROX.DEM
+13	tin	ting	NOUN	_	_	11	comp:obj	_	AlignBegin=234775|AlignEnd=234968|Gloss=thing
+14	up	up	ADP	_	_	11	compound:prt	_	AlignBegin=234968|AlignEnd=235211|Gloss=up
+15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=235211|AlignEnd=235610|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__63
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3

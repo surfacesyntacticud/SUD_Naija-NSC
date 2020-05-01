@@ -228,9 +228,9 @@
 12	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=38080|AlignEnd=38110|Gloss=PUNCT
 13	and	and	CCONJ	_	_	14	cc	_	AlignBegin=38110|AlignEnd=38360|Gloss=and
 14	people	people	NOUN	_	Number=Plur	11	conj:coord	_	AlignBegin=38360|AlignEnd=38550|Gloss=people.PL
-15	wey	wey	SCONJ	_	_	14	mod@relcl	_	AlignBegin=38550|AlignEnd=38740|Gloss=when|gloss=REL
-16	be	be	VERB	_	PartType=Cop	15	comp:obj	_	AlignBegin=38740|AlignEnd=38815|Gloss=be.COP
-17	sey	sey	SCONJ	_	_	16	comp:pred	_	AlignBegin=38815|AlignEnd=38940|Gloss=COMP
+15	wey	wey	SCONJ	_	_	14	mod@relcl	_	AlignBegin=38550|AlignEnd=38740|EXTPOS=SCONJ|Gloss=when|gloss=REL
+16	be	be	VERB	_	PartType=Cop	15	comp:obj@fixed	_	AlignBegin=38740|AlignEnd=38815|Gloss=be.COP
+17	sey	sey	SCONJ	_	_	16	comp:pred@fixed	_	AlignBegin=38815|AlignEnd=38940|Gloss=COMP
 18	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	subj	_	AlignBegin=38940|AlignEnd=39100|Gloss=NOM.PL.3
 19	dey	dey	AUX	_	Aspect=Imp	17	comp:obj	_	AlignBegin=39100|AlignEnd=39180|Gloss=IPFV
 20	yarn	yarn	VERB	_	_	19	comp:aux	_	AlignBegin=39180|AlignEnd=39402|Gloss=talk
@@ -547,7 +547,7 @@
 13	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=103162|AlignEnd=103304|Gloss=for
 14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=103304|AlignEnd=103434|Gloss=DEF.ART
 15	Government	government	NOUN	_	_	13	comp:obj	_	AlignBegin=103434|AlignEnd=103955|Gloss=government
-16	make	make	AUX	_	Mood=Opt	11	comp:quasi	_	AlignBegin=103955|AlignEnd=104082|Gloss=SBJV
+16	make	make	AUX	_	Mood=Opt	11	comp:obj@agent	_	AlignBegin=103955|AlignEnd=104082|Gloss=SBJV
 17	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	subj	_	AlignBegin=104082|AlignEnd=104240|Gloss=NOM.PL.3
 18	do	do	VERB	_	_	16	comp:aux	_	AlignBegin=104240|AlignEnd=104406|Gloss=do
 19	{	{	PUNCT	_	_	20	punct	_	AlignBegin=104406|AlignEnd=104436|Gloss=PUNCT
@@ -565,9 +565,9 @@
 31	dey	dey	AUX	_	Aspect=Imp	29	mod@relcl	_	AlignBegin=106960|AlignEnd=107050|Gloss=IPFV
 32	suffer	suffer	VERB	_	_	31	comp:aux	_	AlignBegin=107050|AlignEnd=107470|Gloss=suffer
 33	>	>	PUNCT	_	_	34	punct	_	AlignBegin=107470|AlignEnd=107500|Gloss=PUNCT
-34	wey	wey	SCONJ	_	_	29	mod@relcl	_	AlignBegin=107500|AlignEnd=107610|Gloss=when|gloss=REL
-35	be	be	VERB	_	PartType=Cop	34	comp:obj	_	AlignBegin=107610|AlignEnd=107680|Gloss=be.COP
-36	sey	sey	SCONJ	_	_	35	comp:pred	_	AlignBegin=107680|AlignEnd=107940|Gloss=COMP
+34	wey	wey	SCONJ	_	_	29	mod@relcl	_	AlignBegin=107500|AlignEnd=107610|EXTPOS=SCONJ|Gloss=when|gloss=REL
+35	be	be	VERB	_	PartType=Cop	34	comp:obj@fixed	_	AlignBegin=107610|AlignEnd=107680|Gloss=be.COP
+36	sey	sey	SCONJ	_	_	35	comp:pred@fixed	_	AlignBegin=107680|AlignEnd=107940|Gloss=COMP
 37	suffer	suffer	VERB	_	_	38	compound	_	AlignBegin=107940|AlignEnd=108270|Gloss=suffer
 38	head	head	NOUN	_	_	36	comp:obj	_	AlignBegin=108270|AlignEnd=108455|Gloss=head
 39	{	{	PUNCT	_	_	40	punct	_	AlignBegin=108485|AlignEnd=108650|Gloss=PUNCT
@@ -603,15 +603,14 @@
 8	say	say	VERB	_	_	6	compound:svc	_	AlignBegin=112432|AlignEnd=112529|Gloss=say
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=112529|AlignEnd=112559|Gloss=PUNCT
 10	make	make	AUX	_	Mood=Opt	8	parataxis:obj	_	AlignBegin=112559|AlignEnd=112733|Gloss=SBJV
-11	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	subj	_	AlignBegin=112733|AlignEnd=112870|Gloss=NOM.PL.3
+11	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=112733|AlignEnd=112870|Gloss=NOM.PL.3
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=112870|AlignEnd=112900|Gloss=PUNCT
-13	sharperly	sharperly	ADV	_	_	17	mod	_	AlignBegin=112900|AlignEnd=113260|Gloss=quickly
+13	sharperly	sharperly	ADV	_	_	10	comp:aux@scrap	_	AlignBegin=112900|AlignEnd=113260|Gloss=quickly
 14	|r	|r	PUNCT	_	_	15	punct	_	AlignBegin=113260|AlignEnd=113290|Gloss=PUNCT
 15	sharperly	sharperly	ADV	_	_	13	compound:redup	_	AlignBegin=113290|AlignEnd=113730|Gloss=quickly
 16	}	}	PUNCT	_	_	13	punct	_	AlignBegin=113730|AlignEnd=113760|Gloss=PUNCT
-17	&	&	X	_	_	10	comp:aux	_	AlignBegin=113730|AlignEnd=113760|Gloss=X
-18	]	]	PUNCT	_	_	10	punct	_	AlignBegin=113730|AlignEnd=113760|Gloss=PUNCT
-19	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=113730|AlignEnd=113760|Gloss=PUNCT
+17	]	]	PUNCT	_	_	10	punct	_	AlignBegin=113730|AlignEnd=113760|Gloss=PUNCT
+18	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=113730|AlignEnd=113760|Gloss=PUNCT
 
 # sent_id = IBA_32_Tori-By-Samuel_MG__19
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_32_Tori-By-Samuel_MG.mp3
@@ -812,9 +811,9 @@
 # text_en = And if they're angry, the Federal Government won't like it.
 # text_ortho = And when dem vex, Federal Government no go like am.
 1	and	and	CCONJ	_	_	9	cc	_	AlignBegin=137740|AlignEnd=137960|Gloss=and
-2	when	when	ADV	_	PronType=Int	9	mod:periph	_	AlignBegin=137960|AlignEnd=138191|Gloss=when.Q
+2	when	when	SCONJ	_	_	9	mod:periph	_	AlignBegin=137960|AlignEnd=138191|Gloss=when.Q
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=138191|AlignEnd=138426|Gloss=NOM.PL.3
-4	vex	vex	VERB	_	_	2	mod@relcl	_	AlignBegin=138426|AlignEnd=138730|Gloss=be_angry
+4	vex	vex	VERB	_	_	2	comp:obj	_	AlignBegin=138426|AlignEnd=138730|Gloss=be_angry
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=138730|AlignEnd=138760|Gloss=PUNCT
 6	Federal	federal	ADJ	_	_	7	mod	_	AlignBegin=138760|AlignEnd=139080|Gloss=federal
 7	Government	government	NOUN	_	_	9	subj	_	AlignBegin=139080|AlignEnd=139484|Gloss=government
@@ -1312,9 +1311,9 @@
 7	February	February	PROPN	_	_	6	comp:obj	_	AlignBegin=208670|AlignEnd=209167|Gloss=February
 8	twenty	twenty	NUM	_	NumType=Card	7	flat	_	AlignBegin=209167|AlignEnd=209440|Gloss=twenty.CARD
 9	sixteen	sixteen	NUM	_	NumType=Card	8	flat	_	AlignBegin=209440|AlignEnd=209800|Gloss=sixteen.CARD
-10	when	when	ADV	_	PronType=Int	5	mod	_	AlignBegin=209800|AlignEnd=210040|Gloss=when.Q
+10	when	when	SCONJ	_	_	5	mod	_	AlignBegin=209800|AlignEnd=210040|Gloss=when.Q
 11	Mama	Mama	PROPN	_	_	12	subj	_	AlignBegin=210040|AlignEnd=210380|Gloss=Mama
-12	turn	turn	VERB	_	_	10	mod@relcl	_	AlignBegin=210380|AlignEnd=210640|Gloss=turn
+12	turn	turn	VERB	_	_	10	comp:obj	_	AlignBegin=210380|AlignEnd=210640|Gloss=turn
 13	sixty	sixty	NUM	_	NumType=Card	14	det@num	_	AlignBegin=210640|AlignEnd=211020|Gloss=sixty.CARD
 14	years	year	NOUN	_	Number=Plur	15	mod	_	AlignBegin=211020|AlignEnd=211390|Gloss=year.PL
 15	old	old	ADJ	_	_	12	comp:pred	_	AlignBegin=211390|AlignEnd=211830|Gloss=old

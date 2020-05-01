@@ -357,12 +357,12 @@
 # text_ortho = When when you talk about ehm... di student now, for you to... ehn... for you to get admission now, e no easy.
 1	#	#	PUNCT	_	_	32	punct	_	AlignBegin=69440|AlignEnd=71660|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=71630|AlignEnd=71660|Gloss=PUNCT
-3	when	when	ADV	_	PronType=Int	32	mod:periph	_	AlignBegin=71660|AlignEnd=71817|Gloss=when.Q
+3	when	when	SCONJ	_	_	32	mod:periph	_	AlignBegin=71660|AlignEnd=71817|Gloss=when.Q
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=71817|AlignEnd=71847|Gloss=PUNCT
-5	when	when	ADV	_	PronType=Int	3	conj:dicto	_	AlignBegin=71847|AlignEnd=71956|Gloss=when.Q
+5	when	when	SCONJ	_	_	3	conj:dicto	_	AlignBegin=71847|AlignEnd=71956|Gloss=when.Q
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=71956|AlignEnd=71986|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=71986|AlignEnd=72080|Gloss=NOM.2
-8	talk	talk	VERB	_	_	5	mod@relcl	_	AlignBegin=72080|AlignEnd=72240|Gloss=talk
+8	talk	talk	VERB	_	_	5	comp:obj	_	AlignBegin=72080|AlignEnd=72240|Gloss=talk
 9	about	about	ADP	_	_	8	comp:obl	_	AlignBegin=72240|AlignEnd=72727|Gloss=about
 10	ehm	ehm	INTJ	_	_	12	discourse	_	AlignBegin=72727|AlignEnd=73130|Gloss=ehm
 11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=73130|AlignEnd=73281|Gloss=DEF.ART
@@ -498,11 +498,13 @@
 6	before	before	ADP	_	_	5	mod	_	AlignBegin=94479|AlignEnd=94787|Gloss=before
 7	if	if	SCONJ	_	_	5	mod	_	AlignBegin=94817|AlignEnd=94960|Gloss=if
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=94990|AlignEnd=95050|Gloss=NOM.2
-9	don't	don't	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=95050|AlignEnd=95166|Gloss=do.IND.NEG.PRS.FIN
-10	have	have	VERB	_	_	9	comp:pred	_	AlignBegin=95166|AlignEnd=95350|Gloss=have
-11	anybody	anybody	PRON	_	_	10	comp:obj	_	AlignBegin=95350|AlignEnd=95750|Gloss=anybody
-12	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=95750|AlignEnd=95780|Gloss=PUNCT
-13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=95750|AlignEnd=95780|Gloss=PUNCT
+9-10	don't	_	_	_	_	_	_	_	_
+9	do	do	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=95050|AlignEnd=95166|Gloss=do.IND.NEG.PRS.FIN
+10	n't	not	PART	_	_	9	mod	_	_
+11	have	have	VERB	_	_	9	comp:pred	_	AlignBegin=95166|AlignEnd=95350|Gloss=have
+12	anybody	anybody	PRON	_	_	11	comp:obj	_	AlignBegin=95350|AlignEnd=95750|Gloss=anybody
+13	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=95750|AlignEnd=95780|Gloss=PUNCT
+14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=95750|AlignEnd=95780|Gloss=PUNCT
 
 # sent_id = LAG_07_Johns-Biography_MG__20
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_07_Johns-Biography_MG.mp3
@@ -759,17 +761,16 @@
 # text = # and also my fellow youths like me also & &//
 # text_en = And also, my fellow youths like me also…
 # text_ortho = And also my fellow youths like me also...
-1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=133185|AlignEnd=134803|Gloss=PUNCT
-2	and	and	CCONJ	_	_	10	cc	_	AlignBegin=134803|AlignEnd=134983|Gloss=and
-3	also	also	ADV	_	_	10	mod	_	AlignBegin=134983|AlignEnd=135363|Gloss=also
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=133185|AlignEnd=134803|Gloss=PUNCT
+2	and	and	CCONJ	_	_	0	cc	_	AlignBegin=134803|AlignEnd=134983|Gloss=and
+3	also	also	ADV	_	_	0	mod	_	AlignBegin=134983|AlignEnd=135363|Gloss=also
 4	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	6	mod	_	AlignBegin=135363|AlignEnd=137004|Gloss=SG.1.POSS
 5	fellow	fellow	ADJ	_	_	6	mod	_	AlignBegin=137034|AlignEnd=137380|Gloss=fellow
-6	youths	youth	NOUN	_	Number=Plur	10	dislocated	_	AlignBegin=137380|AlignEnd=137609|Gloss=youth.PL
+6	youths	youth	NOUN	_	Number=Plur	0	root@scrap	_	AlignBegin=137380|AlignEnd=137609|Gloss=youth.PL
 7	like	like	ADP	_	_	6	mod	_	AlignBegin=137609|AlignEnd=137856|Gloss=like
 8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=137856|AlignEnd=138073|Gloss=ACC.SG.1
 9	also	also	ADV	_	_	6	mod	_	AlignBegin=138073|AlignEnd=138482|Gloss=also
-10	&	&	X	_	_	0	root	_	AlignBegin=138482|AlignEnd=138512|Gloss=X
-11	&//	//	PUNCT	_	_	10	punct	_	AlignBegin=138482|AlignEnd=138512|Gloss=PUNCT
+10	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=138482|AlignEnd=138512|Gloss=PUNCT
 
 # sent_id = LAG_07_Johns-Biography_MG__32
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_07_Johns-Biography_MG.mp3
@@ -784,9 +785,9 @@
 5	also	also	ADV	_	_	6	mod	_	AlignBegin=139330|AlignEnd=139606|Gloss=also
 6	advise	advise	VERB	_	_	4	comp:aux	_	AlignBegin=139606|AlignEnd=140090|Gloss=advise
 7	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=140090|AlignEnd=140311|Gloss=ACC.PL.3
-8	when	when	ADV	_	PronType=Int	6	mod	_	AlignBegin=140311|AlignEnd=140540|Gloss=when.Q
+8	when	when	SCONJ	_	_	6	mod	_	AlignBegin=140311|AlignEnd=140540|Gloss=when.Q
 9	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	AlignBegin=140540|AlignEnd=140620|Gloss=NOM.NT.SG.3
-10	comes	come	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	AlignBegin=140620|AlignEnd=140890|Gloss=come.IND.SG.3.PRS.FIN
+10	comes	come	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=140620|AlignEnd=140890|Gloss=come.IND.SG.3.PRS.FIN
 11	to	to	ADP	_	_	10	comp:obl@scrap	_	AlignBegin=140890|AlignEnd=141339|Gloss=to
 12	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=141339|AlignEnd=141369|Gloss=PUNCT
 
@@ -1110,9 +1111,9 @@
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=196538|AlignEnd=196670|Gloss=NOM.SG.1
 10	remember	remember	VERB	_	_	0	root	_	AlignBegin=196670|AlignEnd=196974|Gloss=remember
 11	o	o	PART	_	PartType=Disc	10	mod:emph	_	AlignBegin=196974|AlignEnd=197070|Gloss=EMPH
-12	when	when	ADV	_	PronType=Int	10	mod	_	AlignBegin=197070|AlignEnd=197272|Gloss=when.Q
+12	when	when	SCONJ	_	_	10	mod	_	AlignBegin=197070|AlignEnd=197272|Gloss=when.Q
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=197272|AlignEnd=197814|Gloss=NOM.SG.1
-14	work	work	VERB	_	_	12	mod@relcl	_	AlignBegin=197814|AlignEnd=198178|Gloss=work
+14	work	work	VERB	_	_	12	comp:obj	_	AlignBegin=197814|AlignEnd=198178|Gloss=work
 15	with	wit	ADP	_	_	14	comp:obl	_	AlignBegin=198178|AlignEnd=198277|Gloss=with
 16	one	one	DET	_	Definite=Spec|PronType=Art	18	det	_	AlignBegin=198277|AlignEnd=198407|Gloss=SPEC.ART
 17	Indian	Indian	ADJ	_	_	18	mod	_	AlignBegin=198407|AlignEnd=198747|Gloss=Indian
@@ -1506,9 +1507,9 @@
 17	ehn	ehn	INTJ	_	_	18	discourse	_	AlignBegin=256248|AlignEnd=256832|Gloss=ehn
 18	maybe	maybe	ADV	_	_	15	mod	_	AlignBegin=256832|AlignEnd=257268|Gloss=maybe
 19	#	#	PUNCT	_	_	20	punct	_	AlignBegin=257268|AlignEnd=257669|Gloss=PUNCT
-20	when	when	ADV	_	PronType=Int	15	mod	_	AlignBegin=257669|AlignEnd=257819|Gloss=when.Q
+20	when	when	SCONJ	_	_	15	mod	_	AlignBegin=257669|AlignEnd=257819|Gloss=when.Q
 21	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	subj	_	AlignBegin=257819|AlignEnd=257909|Gloss=NOM.SG.1
-22	don	don	AUX	_	Aspect=Perf	20	mod@relcl	_	AlignBegin=257909|AlignEnd=258079|Gloss=PRF
+22	don	don	AUX	_	Aspect=Perf	20	comp:obj	_	AlignBegin=257909|AlignEnd=258079|Gloss=PRF
 23	graduate	graduate	VERB	_	_	22	comp:aux	_	AlignBegin=258079|AlignEnd=258636|Gloss=graduate
 24	so	so	SCONJ	_	_	15	mod	_	AlignBegin=258636|AlignEnd=258799|Gloss=so
 25	dat	dat	PRON	_	Number=Sing|PronType=Dem	24	unk@fixed	_	AlignBegin=258799|AlignEnd=258879|Gloss=SG.DEM
@@ -1597,7 +1598,7 @@
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	AlignBegin=271020|AlignEnd=271180|Gloss=NOM.SG.3
 2	depend	depend	VERB	_	_	0	root	_	AlignBegin=271180|AlignEnd=271829|Gloss=depend
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=271829|AlignEnd=271859|Gloss=PUNCT
-4	how	how	ADV	_	PronType=Int	2	comp:quasi	_	AlignBegin=271859|AlignEnd=272060|Gloss=how.Q
+4	how	how	ADV	_	PronType=Int	2	comp:obj@agent	_	AlignBegin=271859|AlignEnd=272060|Gloss=how.Q
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=272060|AlignEnd=272090|Gloss=PUNCT
 6	how	how	ADV	_	PronType=Int	4	conj:dicto	_	AlignBegin=272090|AlignEnd=272300|Gloss=how.Q
 7	}	}	PUNCT	_	_	4	punct	_	AlignBegin=272300|AlignEnd=272330|Gloss=PUNCT
@@ -1626,13 +1627,13 @@
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=278735|AlignEnd=278765|Gloss=PUNCT
 4	#	#	PUNCT	_	_	2	punct	_	AlignBegin=278765|AlignEnd=279414|Gloss=PUNCT
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=279384|AlignEnd=279414|Gloss=PUNCT
-6	when	when	ADV	_	PronType=Int	39	mod:periph	_	AlignBegin=279414|AlignEnd=279608|Gloss=when.Q
+6	when	when	SCONJ	_	_	39	mod:periph	_	AlignBegin=279414|AlignEnd=279608|Gloss=when.Q
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	unk@scrap	_	AlignBegin=279608|AlignEnd=279794|Gloss=NOM.2
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=279794|AlignEnd=279824|Gloss=PUNCT
-9	when	when	ADV	_	PronType=Int	6	conj:dicto	_	AlignBegin=279824|AlignEnd=280094|Gloss=when.Q
+9	when	when	SCONJ	_	_	6	conj:dicto	_	AlignBegin=279824|AlignEnd=280094|Gloss=when.Q
 10	}	}	PUNCT	_	_	6	punct	_	AlignBegin=280094|AlignEnd=280334|Gloss=PUNCT
 11	people	people	NOUN	_	Number=Plur	12	subj	_	AlignBegin=280094|AlignEnd=280334|Gloss=people.PL
-12	talk	talk	VERB	_	_	9	mod@relcl	_	AlignBegin=280364|AlignEnd=280521|Gloss=talk
+12	talk	talk	VERB	_	_	9	comp:obj	_	AlignBegin=280364|AlignEnd=280521|Gloss=talk
 13	sey	sey	SCONJ	_	_	12	comp:obj	_	AlignBegin=280551|AlignEnd=280862|Gloss=COMP
 14	[	[	PUNCT	_	_	15	punct	_	AlignBegin=280862|AlignEnd=280892|Gloss=PUNCT
 15	na	na	PART	_	PartType=Cop	13	comp:obj	_	AlignBegin=280892|AlignEnd=281358|Gloss=be.COP
@@ -1788,9 +1789,9 @@
 5	believe	believe	VERB	_	_	0	root	_	AlignBegin=308186|AlignEnd=308411|Gloss=believe
 6	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=308411|AlignEnd=308513|Gloss=COMP
 7	[	[	PUNCT	_	_	17	punct	_	AlignBegin=308513|AlignEnd=308543|Gloss=PUNCT
-8	when	when	ADV	_	PronType=Int	17	mod:periph	_	AlignBegin=308543|AlignEnd=308677|Gloss=when.Q
+8	when	when	SCONJ	_	_	17	mod:periph	_	AlignBegin=308543|AlignEnd=308677|Gloss=when.Q
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	subj	_	AlignBegin=308677|AlignEnd=308761|Gloss=NOM.2
-10	believe	believe	VERB	_	_	8	mod@relcl	_	AlignBegin=308761|AlignEnd=309031|Gloss=believe
+10	believe	believe	VERB	_	_	8	comp:obj	_	AlignBegin=308761|AlignEnd=309031|Gloss=believe
 11	in	in	ADP	_	_	10	comp:obl	_	AlignBegin=309031|AlignEnd=309111|Gloss=in
 12	yourself	yoursef	PRON	_	Case=Acc|Person=2|PronType=Prs|Reflex=Yes	11	comp:obj	_	AlignBegin=309111|AlignEnd=309487|Gloss=ACC.2.REFL
 13	<+	<+	PUNCT	_	_	8	punct	_	AlignBegin=309487|AlignEnd=309517|Gloss=PUNCT

@@ -110,7 +110,7 @@
 # text_ortho = But now, no be di only ting wey we dey dey do.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=23420|AlignEnd=24815|Gloss=PUNCT
 2	but	but	CCONJ	_	_	6	cc	_	AlignBegin=24815|AlignEnd=24968|Gloss=but
-3	now	now	ADV	_	_	6	mod	_	AlignBegin=24968|AlignEnd=25250|Gloss=now
+3	now	now	ADV	_	_	6	mod:periph	_	AlignBegin=24968|AlignEnd=25250|Gloss=now
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=25250|AlignEnd=25280|Gloss=PUNCT
 5	no	no	PART	_	Polarity=Neg	6	mod	_	AlignBegin=25280|AlignEnd=25430|Gloss=NEG
 6	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=25430|AlignEnd=25540|Gloss=be.COP
@@ -314,9 +314,9 @@
 # text = when you come back < you just come //= you wash am //= you # on your engine //= you move //
 # text_en = When you come back, you walk up to the vehicle, wash it, turn the engine on and off you go.
 # text_ortho = When you come back, you just come, you wash am, you on your engine, you move.
-1	when	when	ADV	_	PronType=Int	8	mod:periph	_	AlignBegin=61180|AlignEnd=61330|Gloss=when.Q
+1	when	when	SCONJ	_	_	8	mod:periph	_	AlignBegin=61180|AlignEnd=61330|Gloss=when.Q
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=61330|AlignEnd=61480|Gloss=NOM.2
-3	come	come	VERB	_	_	1	mod@relcl	_	AlignBegin=61480|AlignEnd=61660|Gloss=come
+3	come	come	VERB	_	_	1	comp:obj	_	AlignBegin=61480|AlignEnd=61660|Gloss=come
 4	back	back	ADV	_	_	3	mod	_	AlignBegin=61660|AlignEnd=61830|Gloss=back
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=61830|AlignEnd=61860|Gloss=PUNCT
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=61860|AlignEnd=61970|Gloss=NOM.2
@@ -344,9 +344,9 @@
 # text_en = When you get to so-… the road, the vehicle will stop and you will start complaining.
 # text_ortho = When you reach so-... road now, di motor go stop, you go begin complain.
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=64880|AlignEnd=65500|Gloss=PUNCT
-2	when	when	ADV	_	PronType=Int	14	mod:periph	_	AlignBegin=65500|AlignEnd=65640|Gloss=when.Q
+2	when	when	SCONJ	_	_	14	mod:periph	_	AlignBegin=65500|AlignEnd=65640|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=65640|AlignEnd=65780|Gloss=NOM.2
-4	reach	reach	VERB	_	_	2	mod@relcl	_	AlignBegin=65780|AlignEnd=65950|Gloss=reach
+4	reach	reach	VERB	_	_	2	comp:obj	_	AlignBegin=65780|AlignEnd=65950|Gloss=reach
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=65950|AlignEnd=65980|Gloss=PUNCT
 6	so-	X	X	_	_	4	comp:obj	_	AlignBegin=65980|AlignEnd=66300|Gloss=X
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=66300|AlignEnd=66330|Gloss=PUNCT
@@ -527,17 +527,16 @@
 # text = # because if you no look all dese things & &//
 # text_en = Because if you don’t check all these things…
 # text_ortho = Because if you no look all dese things...
-1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=95068|AlignEnd=95530|Gloss=PUNCT
-2	because	because	SCONJ	_	_	10	cc	_	AlignBegin=95530|AlignEnd=95730|Gloss=because
-3	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=95730|AlignEnd=95828|Gloss=if
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=95068|AlignEnd=95530|Gloss=PUNCT
+2	because	because	SCONJ	_	_	0	cc	_	AlignBegin=95530|AlignEnd=95730|Gloss=because
+3	if	if	SCONJ	_	_	0	root@scrap	_	AlignBegin=95730|AlignEnd=95828|Gloss=if
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=95828|AlignEnd=95953|Gloss=NOM.2
 5	no	no	PART	_	Polarity=Neg	6	mod	_	AlignBegin=95953|AlignEnd=96099|Gloss=NEG
 6	look	look	VERB	_	_	3	comp:obj	_	AlignBegin=96099|AlignEnd=96365|Gloss=look
 7	all	all	ADV	_	_	9	det	_	AlignBegin=96365|AlignEnd=96580|Gloss=all
 8	dese	dese	DET	_	Number=Plur|PronType=Dem	9	det	_	AlignBegin=96580|AlignEnd=96838|Gloss=PL.PROX.DEM
 9	things	ting	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=96838|AlignEnd=97190|Gloss=thing.PL
-10	&	&	X	_	_	0	root	_	AlignBegin=97190|AlignEnd=97220|Gloss=X
-11	&//	//	PUNCT	_	_	10	punct	_	AlignBegin=97190|AlignEnd=97220|Gloss=PUNCT
+10	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=97190|AlignEnd=97220|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__22
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_31_Road-Safety_MG.mp3
@@ -743,9 +742,9 @@
 # text_ortho = So when you look di day, you wit-…
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=126749|AlignEnd=127345|Gloss=PUNCT
 2	so	so	ADV	_	_	10	discourse	_	AlignBegin=127345|AlignEnd=127472|Gloss=so
-3	when	when	ADV	_	PronType=Int	10	mod:periph	_	AlignBegin=127502|AlignEnd=127660|Gloss=when.Q
+3	when	when	SCONJ	_	_	10	mod:periph	_	AlignBegin=127502|AlignEnd=127660|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=127660|AlignEnd=127870|Gloss=NOM.2
-5	look	look	VERB	_	_	3	mod@relcl	_	AlignBegin=127870|AlignEnd=128040|Gloss=look
+5	look	look	VERB	_	_	3	comp:obj	_	AlignBegin=127870|AlignEnd=128040|Gloss=look
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=128040|AlignEnd=128260|Gloss=DEF.ART
 7	day	day	NOUN	_	_	5	comp:obj	_	AlignBegin=128260|AlignEnd=128470|Gloss=day
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=128470|AlignEnd=128500|Gloss=PUNCT
@@ -762,14 +761,13 @@
 1	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=128753|AlignEnd=128920|Gloss=DEF.ART
 2	first	first	ADJ	_	NumType=Ord	4	mod	_	AlignBegin=128920|AlignEnd=129370|Gloss=first.ORD
 3	two	two	NUM	_	NumType=Card	4	det@num	_	AlignBegin=129370|AlignEnd=129528|Gloss=two.CARD
-4	number	number	NOUN	_	_	10	unk@scrap	_	AlignBegin=129528|AlignEnd=129920|Gloss=number
+4	number	number	NOUN	_	_	0	root@scrap	_	AlignBegin=129528|AlignEnd=129920|Gloss=number
 5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=129920|AlignEnd=130020|Gloss=when|gloss=REL
 6	dey	dey	VERB	_	VerbType=Cop	5	comp:obj	_	AlignBegin=130020|AlignEnd=130130|Gloss=dey.COP
 7	for	for	ADP	_	_	6	comp:pred	_	AlignBegin=130130|AlignEnd=130300|Gloss=for
 8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=130300|AlignEnd=130496|Gloss=SG.DIST.DEM
 9	tyre	tyre	NOUN	_	_	7	comp:obj	_	AlignBegin=130496|AlignEnd=130774|Gloss=tyre
-10	&	&	X	_	_	0	root	_	AlignBegin=130774|AlignEnd=130804|Gloss=X
-11	&//	//	PUNCT	_	_	10	punct	_	AlignBegin=130774|AlignEnd=130804|Gloss=PUNCT
+10	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=130774|AlignEnd=130804|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__34
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_31_Road-Safety_MG.mp3
@@ -909,10 +907,10 @@
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=154570|AlignEnd=154733|Gloss=CONT
 4	tell	tell	VERB	_	_	3	comp:aux	_	AlignBegin=154733|AlignEnd=154958|Gloss=tell
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=154958|AlignEnd=155150|Gloss=NOM.2
-6	when	when	ADV	_	PronType=Int	4	comp:obj	_	AlignBegin=155150|AlignEnd=155350|Gloss=when.Q
+6	when	when	SCONJ	_	_	4	comp:obj	_	AlignBegin=155150|AlignEnd=155350|Gloss=when.Q
 7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=155350|AlignEnd=155518|Gloss=SG.DEM
 8	tyre	tyre	NOUN	_	_	9	subj	_	AlignBegin=155518|AlignEnd=155850|Gloss=tyre
-9	go	go	AUX	_	Aspect=Prosp	6	mod@relcl	_	AlignBegin=155850|AlignEnd=156216|Gloss=CONT
+9	go	go	AUX	_	Aspect=Prosp	6	comp:obj	_	AlignBegin=155850|AlignEnd=156216|Gloss=CONT
 10	expire	expire	VERB	_	_	9	comp:aux	_	AlignBegin=156216|AlignEnd=156810|Gloss=expire
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=156810|AlignEnd=156840|Gloss=PUNCT
 
@@ -996,9 +994,9 @@
 # text_en = And when you go, if you want to uh... check your tires, look at your car door.
 # text_ortho = And when you go, if you wan eh... check your tyre, look di body of your door.
 1	and	and	CCONJ	_	_	16	cc	_	AlignBegin=165390|AlignEnd=165560|Gloss=and
-2	when	when	ADV	_	PronType=Int	16	mod:periph	_	AlignBegin=165560|AlignEnd=165720|Gloss=when.Q
+2	when	when	SCONJ	_	_	16	mod:periph	_	AlignBegin=165560|AlignEnd=165720|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=165720|AlignEnd=165873|Gloss=NOM.2
-4	go	go	VERB	_	_	2	mod@relcl	_	AlignBegin=165873|AlignEnd=166238|Gloss=go
+4	go	go	VERB	_	_	2	comp:obj	_	AlignBegin=165873|AlignEnd=166238|Gloss=go
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=166238|AlignEnd=166268|Gloss=PUNCT
 6	#	#	PUNCT	_	_	2	punct	_	AlignBegin=166268|AlignEnd=167260|Gloss=PUNCT
 7	if	if	SCONJ	_	_	16	mod:periph	_	AlignBegin=167260|AlignEnd=167410|Gloss=if
@@ -1320,7 +1318,7 @@
 2	something	someting	PRON	_	_	1	comp:pred	_	AlignBegin=214050|AlignEnd=214480|Gloss=something
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=214050|AlignEnd=214480|Gloss=PUNCT
 4	make	make	VERB	_	_	1	comp:cleft	_	AlignBegin=214480|AlignEnd=214655|Gloss=make
-5	dat	dat	PRON	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=214655|AlignEnd=214818|Gloss=SG.DEM
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=214655|AlignEnd=214818|Gloss=SG.DEM
 6	tyre	tyre	NOUN	_	_	4	comp:obj	_	AlignBegin=214818|AlignEnd=215090|Gloss=tyre
 7	burst	burst	VERB	_	_	4	comp:obj@x	_	AlignBegin=215090|AlignEnd=215291|Gloss=burst
 8	because	because	SCONJ	_	_	1	mod	_	AlignBegin=215291|AlignEnd=215613|Gloss=because
@@ -1411,9 +1409,9 @@
 13	#	#	PUNCT	_	_	22	punct	_	AlignBegin=227074|AlignEnd=228120|Gloss=PUNCT
 14	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=228090|AlignEnd=228120|Gloss=PUNCT
 15	but	but	CCONJ	_	_	22	cc	_	AlignBegin=228120|AlignEnd=228190|Gloss=but
-16	when	when	ADV	_	PronType=Int	22	mod:periph	_	AlignBegin=228190|AlignEnd=228305|Gloss=when.Q
+16	when	when	SCONJ	_	_	22	mod:periph	_	AlignBegin=228190|AlignEnd=228305|Gloss=when.Q
 17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	subj	_	AlignBegin=228305|AlignEnd=228440|Gloss=NOM.2
-18	reach	reach	VERB	_	_	16	mod@relcl	_	AlignBegin=228440|AlignEnd=228638|Gloss=reach
+18	reach	reach	VERB	_	_	16	comp:obj	_	AlignBegin=228440|AlignEnd=228638|Gloss=reach
 19	front	front	NOUN	_	_	18	comp:obj	_	AlignBegin=228638|AlignEnd=229126|Gloss=front
 20	<	<	PUNCT	_	_	16	punct	_	AlignBegin=229126|AlignEnd=229156|Gloss=PUNCT
 21	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	subj	_	AlignBegin=229156|AlignEnd=229283|Gloss=NOM.SG.3
@@ -1504,14 +1502,14 @@
 4	worry	worry	VERB	_	_	3	comp:aux	_	AlignBegin=243639|AlignEnd=243930|Gloss=worry
 5	tyre	tyre	NOUN	_	_	4	comp:obj	_	AlignBegin=243930|AlignEnd=244180|Gloss=tyre
 6	because	because	SCONJ	_	_	4	mod	_	AlignBegin=244180|AlignEnd=244430|Gloss=because
-7	when	when	ADV	_	PronType=Int	26	mod:periph	_	AlignBegin=244430|AlignEnd=244570|Gloss=when.Q
+7	when	when	SCONJ	_	_	26	mod:periph	_	AlignBegin=244430|AlignEnd=244570|Gloss=when.Q
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=244570|AlignEnd=244831|Gloss=NOM.2
-9	carry	carry	VERB	_	_	7	mod@relcl	_	AlignBegin=244831|AlignEnd=245160|Gloss=carry
+9	carry	carry	VERB	_	_	7	comp:obj	_	AlignBegin=244831|AlignEnd=245160|Gloss=carry
 10	load	load	NOUN	_	_	9	comp:obj	_	AlignBegin=245160|AlignEnd=245260|Gloss=load
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=245260|AlignEnd=245290|Gloss=PUNCT
-12	when	when	ADV	_	PronType=Int	26	mod:periph	_	AlignBegin=245290|AlignEnd=245432|Gloss=when.Q
+12	when	when	SCONJ	_	_	26	mod:periph	_	AlignBegin=245290|AlignEnd=245432|Gloss=when.Q
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	subj	_	AlignBegin=245432|AlignEnd=245550|Gloss=NOM.2
-14	enter	enter	VERB	_	_	12	mod@relcl	_	AlignBegin=245550|AlignEnd=245770|Gloss=enter
+14	enter	enter	VERB	_	_	12	comp:obj	_	AlignBegin=245550|AlignEnd=245770|Gloss=enter
 15	inside	inside	ADP	_	_	14	comp:obl	_	AlignBegin=245770|AlignEnd=245971|Gloss=inside
 16	{	{	PUNCT	_	_	18	punct	_	AlignBegin=245971|AlignEnd=246001|Gloss=PUNCT
 17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=246001|AlignEnd=246102|Gloss=DEF.ART
@@ -1610,12 +1608,11 @@
 18	chop	chop	VERB	_	_	17	comp:aux	_	AlignBegin=260401|AlignEnd=260638|Gloss=eat
 19	for	for	ADP	_	_	18	comp:obl	_	AlignBegin=260638|AlignEnd=260760|Gloss=for
 20	{	{	PUNCT	_	_	21	punct	_	AlignBegin=260760|AlignEnd=260790|Gloss=PUNCT
-21	di	the	DET	_	Definite=Def|PronType=Art	25	det	_	AlignBegin=260790|AlignEnd=260927|Gloss=DEF.ART
+21	di	the	DET	_	Definite=Def|PronType=Art	19	comp:obj@scrap	_	AlignBegin=260790|AlignEnd=260927|Gloss=DEF.ART
 22	||	||	PUNCT	_	_	23	punct	_	AlignBegin=260927|AlignEnd=260957|Gloss=PUNCT
 23	di	the	DET	_	Definite=Def|PronType=Art	21	conj:dicto	_	AlignBegin=260957|AlignEnd=261096|Gloss=DEF.ART
 24	}	}	PUNCT	_	_	21	punct	_	AlignBegin=261096|AlignEnd=261126|Gloss=PUNCT
-25	&	&	X	_	_	19	comp:obj	_	AlignBegin=261096|AlignEnd=261126|Gloss=X
-26	&//	//	PUNCT	_	_	16	punct	_	AlignBegin=261096|AlignEnd=261126|Gloss=PUNCT
+25	&//	//	PUNCT	_	_	16	punct	_	AlignBegin=261096|AlignEnd=261126|Gloss=PUNCT
 
 # sent_id = LAG_31_Road-Safety_MG__66
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_31_Road-Safety_MG.mp3

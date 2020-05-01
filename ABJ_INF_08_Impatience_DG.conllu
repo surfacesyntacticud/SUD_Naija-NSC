@@ -733,9 +733,9 @@
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=94222|AlignEnd=94499|Gloss=NEG|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=3|head_pred=3
 3	suppose	suppose	VERB	_	_	0	root	_	AlignBegin=94499|AlignEnd=94776|Gloss=suppose|deprel_aux_pred=none|deprel_main_pred=root|head_MST=0|head_pred=0
 4	small	small	ADJ	_	_	3	comp:pred	_	AlignBegin=94776|AlignEnd=95053|Gloss=small|deprel_aux_pred=obj|deprel_main_pred=comp|head_MST=3|head_pred=3
-5	when	when	ADV	_	PronType=Int	3	mod	_	AlignBegin=95053|AlignEnd=95330|Gloss=when.Q|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=3|head_pred=3
+5	when	when	SCONJ	_	_	3	mod	_	AlignBegin=95053|AlignEnd=95330|Gloss=when.Q|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=3|head_pred=3
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=95330|AlignEnd=95608|Gloss=NOM.2|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=7|head_pred=7
-7	go	go	AUX	_	Aspect=Prosp	5	mod@relcl	_	AlignBegin=95608|AlignEnd=95885|Gloss=CONT|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=13|head_pred=5
+7	go	go	AUX	_	Aspect=Prosp	5	comp:obj	_	AlignBegin=95608|AlignEnd=95885|Gloss=CONT|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=13|head_pred=5
 8	dey	dey	AUX	_	Aspect=Imp	7	comp:aux	_	AlignBegin=95885|AlignEnd=96162|Gloss=IPFV|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=NA|head_pred=7
 9	enter	enter	VERB	_	_	8	comp:aux	_	AlignBegin=96162|AlignEnd=96439|Gloss=enter|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=12|head_pred=8
 10	secondary	secondary	ADJ	_	_	11	mod	_	AlignBegin=96439|AlignEnd=96716|Gloss=secondary|deprel_aux_pred=none|deprel_main_pred=dep|head_MST=11|head_pred=11
@@ -1751,34 +1751,36 @@
 # text = if you no run am < if you don't run di package like dat eh < { you go just || you go crash for dere } //
 # text_en = If you do not run it, if you do not run the package like that ehn, you will just... you will crash there.
 # text_ortho = If you no run am, if you don't run di package like dat eh, you go just, you go crash for dere.
-1	if	if	SCONJ	_	_	19	mod:periph	_	AlignBegin=210150|AlignEnd=210378|Gloss=if|deprel_aux_pred=periph|deprel_main_pred=mod|head_MST=19|head_pred=19
+1	if	if	SCONJ	_	_	20	mod:periph	_	AlignBegin=210150|AlignEnd=210378|Gloss=if|deprel_aux_pred=periph|deprel_main_pred=mod|head_MST=19|head_pred=19
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=210378|AlignEnd=210606|Gloss=NOM.2|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=4|head_pred=4
 3	no	no	PART	_	Polarity=Neg	4	mod	_	AlignBegin=210606|AlignEnd=210835|Gloss=NEG|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=4|head_pred=4
 4	run	run	VERB	_	_	1	comp:obj	_	AlignBegin=210835|AlignEnd=211063|Gloss=run|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=1|head_pred=1
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=211063|AlignEnd=211291|Gloss=ACC.SG.3|deprel_aux_pred=obj|deprel_main_pred=comp|head_MST=4|head_pred=4
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=211291|AlignEnd=211291|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=1|head_pred=1
-7	if	if	SCONJ	_	_	19	mod:periph	_	AlignBegin=211291|AlignEnd=211519|Gloss=if|deprel_aux_pred=periph|deprel_main_pred=mod|head_MST=19|head_pred=19
+7	if	if	SCONJ	_	_	20	mod:periph	_	AlignBegin=211291|AlignEnd=211519|Gloss=if|deprel_aux_pred=periph|deprel_main_pred=mod|head_MST=19|head_pred=19
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=211519|AlignEnd=211747|Gloss=NOM.2|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=NA|head_pred=9
-9	don't	don't	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=211747|AlignEnd=211975|Gloss=do.IND.NEG.PRS.FIN|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=2|head_pred=7
-10	run	run	VERB	_	_	9	comp:aux	_	AlignBegin=211975|AlignEnd=212204|Gloss=run|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=5|head_pred=9
-11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=212204|AlignEnd=212432|Gloss=DEF.ART|deprel_aux_pred=none|deprel_main_pred=det|head_MST=12|head_pred=12
-12	package	package	NOUN	_	_	10	comp:obj	_	AlignBegin=212432|AlignEnd=212660|Gloss=package|deprel_aux_pred=obj|deprel_main_pred=comp|head_MST=10|head_pred=10
-13	like	like	ADP	_	_	10	mod	_	AlignBegin=212660|AlignEnd=212888|Gloss=like|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=19|head_pred=10
-14	dat	dat	PRON	_	Number=Sing|PronType=Dem	13	comp:obj	_	AlignBegin=212888|AlignEnd=213116|Gloss=SG.DEM|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=13|head_pred=13
-15	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=213116|AlignEnd=213345|Gloss=eh|deprel_aux_pred=none|deprel_main_pred=discourse|head_MST=19|head_pred=19
-16	<	<	PUNCT	_	_	7	punct	_	AlignBegin=213345|AlignEnd=213345|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=7|head_pred=7
-17	{	{	PUNCT	_	_	19	punct	_	AlignBegin=213345|AlignEnd=213345|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=19|head_pred=19
-18	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	subj	_	AlignBegin=213345|AlignEnd=213573|Gloss=NOM.2|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=19|head_pred=19
-19	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=213573|AlignEnd=213801|Gloss=CONT|deprel_aux_pred=none|deprel_main_pred=root|head_MST=28|head_pred=0
-20	just	just	ADV	_	_	19	unk@scrap	_	AlignBegin=213801|AlignEnd=214029|Gloss=just|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=19|head_pred=19
-21	||	||	PUNCT	_	_	23	punct	_	AlignBegin=214029|AlignEnd=214029|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=23|head_pred=23
-22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	23	subj	_	AlignBegin=214029|AlignEnd=214257|Gloss=NOM.2|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=23|head_pred=23
-23	go	go	AUX	_	Aspect=Prosp	19	conj:dicto	_	AlignBegin=214257|AlignEnd=214485|Gloss=CONT|deprel_aux_pred=dicto|deprel_main_pred=conj|head_MST=19|head_pred=19
-24	crash	crash	VERB	_	_	23	comp:aux	_	AlignBegin=214485|AlignEnd=214714|Gloss=crash|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=23|head_pred=23
-25	for	for	ADP	_	_	24	comp:obl	_	AlignBegin=214714|AlignEnd=214942|Gloss=for|deprel_aux_pred=obl|deprel_main_pred=comp|head_MST=24|head_pred=24
-26	dere	dere	ADV	_	_	25	comp:obj	_	AlignBegin=214942|AlignEnd=215170|Gloss=there|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=25|head_pred=25
-27	}	}	PUNCT	_	_	19	punct	_	AlignBegin=215170|AlignEnd=215170|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=19|head_pred=19
-28	//	//	PUNCT	_	_	19	punct	_	AlignBegin=215170|AlignEnd=215170|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=8|head_pred=19
+9-10	don't	_	_	_	_	_	_	_	_
+9	do	do	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=211747|AlignEnd=211975|Gloss=do.IND.NEG.PRS.FIN|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=2|head_pred=7
+10	n't	not	PART	_	_	9	mod	_	_
+11	run	run	VERB	_	_	9	comp:aux	_	AlignBegin=211975|AlignEnd=212204|Gloss=run|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=5|head_pred=9
+12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=212204|AlignEnd=212432|Gloss=DEF.ART|deprel_aux_pred=none|deprel_main_pred=det|head_MST=12|head_pred=12
+13	package	package	NOUN	_	_	11	comp:obj	_	AlignBegin=212432|AlignEnd=212660|Gloss=package|deprel_aux_pred=obj|deprel_main_pred=comp|head_MST=10|head_pred=10
+14	like	like	ADP	_	_	11	mod	_	AlignBegin=212660|AlignEnd=212888|Gloss=like|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=19|head_pred=10
+15	dat	dat	PRON	_	Number=Sing|PronType=Dem	14	comp:obj	_	AlignBegin=212888|AlignEnd=213116|Gloss=SG.DEM|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=13|head_pred=13
+16	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=213116|AlignEnd=213345|Gloss=eh|deprel_aux_pred=none|deprel_main_pred=discourse|head_MST=19|head_pred=19
+17	<	<	PUNCT	_	_	7	punct	_	AlignBegin=213345|AlignEnd=213345|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=7|head_pred=7
+18	{	{	PUNCT	_	_	20	punct	_	AlignBegin=213345|AlignEnd=213345|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=19|head_pred=19
+19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	20	subj	_	AlignBegin=213345|AlignEnd=213573|Gloss=NOM.2|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=19|head_pred=19
+20	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=213573|AlignEnd=213801|Gloss=CONT|deprel_aux_pred=none|deprel_main_pred=root|head_MST=28|head_pred=0
+21	just	just	ADV	_	_	20	unk@scrap	_	AlignBegin=213801|AlignEnd=214029|Gloss=just|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=19|head_pred=19
+22	||	||	PUNCT	_	_	24	punct	_	AlignBegin=214029|AlignEnd=214029|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=23|head_pred=23
+23	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	24	subj	_	AlignBegin=214029|AlignEnd=214257|Gloss=NOM.2|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=23|head_pred=23
+24	go	go	AUX	_	Aspect=Prosp	20	conj:dicto	_	AlignBegin=214257|AlignEnd=214485|Gloss=CONT|deprel_aux_pred=dicto|deprel_main_pred=conj|head_MST=19|head_pred=19
+25	crash	crash	VERB	_	_	24	comp:aux	_	AlignBegin=214485|AlignEnd=214714|Gloss=crash|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=23|head_pred=23
+26	for	for	ADP	_	_	25	comp:obl	_	AlignBegin=214714|AlignEnd=214942|Gloss=for|deprel_aux_pred=obl|deprel_main_pred=comp|head_MST=24|head_pred=24
+27	dere	dere	ADV	_	_	26	comp:obj	_	AlignBegin=214942|AlignEnd=215170|Gloss=there|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=25|head_pred=25
+28	}	}	PUNCT	_	_	20	punct	_	AlignBegin=215170|AlignEnd=215170|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=19|head_pred=19
+29	//	//	PUNCT	_	_	20	punct	_	AlignBegin=215170|AlignEnd=215170|Gloss=PUNCT|deprel_aux_pred=none|deprel_main_pred=punct|head_MST=8|head_pred=19
 
 # sent_id = ABJ_INF_08_Impatience_DG__104
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_INF_08_Impatience_DG.mp3
@@ -3651,9 +3653,9 @@
 6	be	bin	AUX	_	Tense=Past	3	comp:obj	_	AlignBegin=433334|AlignEnd=433525|Gloss=PST|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=26|head_pred=3
 7	dey	dey	AUX	_	Aspect=Imp	6	comp:aux	_	AlignBegin=433525|AlignEnd=433715|Gloss=IPFV|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=6|head_pred=6
 8	laugh	laugh	VERB	_	_	7	comp:aux	_	AlignBegin=433715|AlignEnd=433906|Gloss=laugh|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=7|head_pred=7
-9	when	when	ADV	_	PronType=Int	8	mod	_	AlignBegin=433906|AlignEnd=434096|Gloss=when.Q|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=8|head_pred=8
+9	when	when	SCONJ	_	_	8	mod	_	AlignBegin=433906|AlignEnd=434096|Gloss=when.Q|deprel_aux_pred=none|deprel_main_pred=mod|head_MST=8|head_pred=8
 10	people	people	NOUN	_	Number=Plur	11	subj	_	AlignBegin=434096|AlignEnd=434286|Gloss=people.PL|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=11|head_pred=11
-11	dey	dey	AUX	_	Aspect=Imp	9	mod@relcl	_	AlignBegin=434286|AlignEnd=434477|Gloss=IPFV|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=8|head_pred=9
+11	dey	dey	AUX	_	Aspect=Imp	9	comp:obj	_	AlignBegin=434286|AlignEnd=434477|Gloss=IPFV|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=8|head_pred=9
 12	talk	talk	VERB	_	_	11	comp:aux	_	AlignBegin=434477|AlignEnd=434667|Gloss=talk|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=NA|head_pred=11
 13	about	about	ADP	_	_	12	comp:obl	_	AlignBegin=434667|AlignEnd=434857|Gloss=about|deprel_aux_pred=obl|deprel_main_pred=comp|head_MST=2|head_pred=12
 14	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=434857|AlignEnd=435048|Gloss=DEF.ART|deprel_aux_pred=none|deprel_main_pred=det|head_MST=NA|head_pred=16
@@ -3795,9 +3797,9 @@
 # text = when de dey talk about di change < de no ask sey [ which kind of change ] ?//
 # text_en = When they were talking about the change, they did not ask "What kind of change?"
 # text_ortho = When de dey talk about di change, de no ask sey which kind of change?
-1	when	when	ADV	_	PronType=Int	11	mod:periph	_	AlignBegin=450016|AlignEnd=450215|Gloss=when.Q|deprel_aux_pred=periph|deprel_main_pred=mod|head_MST=11|head_pred=11
+1	when	when	SCONJ	_	_	11	mod:periph	_	AlignBegin=450016|AlignEnd=450215|Gloss=when.Q|deprel_aux_pred=periph|deprel_main_pred=mod|head_MST=11|head_pred=11
 2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=450215|AlignEnd=450414|Gloss=NOM.PL.3|deprel_aux_pred=none|deprel_main_pred=subj|head_MST=3|head_pred=3
-3	dey	dey	AUX	_	Aspect=Imp	1	mod@relcl	_	AlignBegin=450414|AlignEnd=450613|Gloss=IPFV|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=1|head_pred=1
+3	dey	dey	AUX	_	Aspect=Imp	1	comp:obj	_	AlignBegin=450414|AlignEnd=450613|Gloss=IPFV|deprel_aux_pred=none|deprel_main_pred=comp|head_MST=1|head_pred=1
 4	talk	talk	VERB	_	_	3	comp:aux	_	AlignBegin=450613|AlignEnd=450812|Gloss=talk|deprel_aux_pred=aux|deprel_main_pred=comp|head_MST=NA|head_pred=3
 5	about	about	ADP	_	_	4	comp:obl	_	AlignBegin=450812|AlignEnd=451011|Gloss=about|deprel_aux_pred=obl|deprel_main_pred=comp|head_MST=11|head_pred=4
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=451011|AlignEnd=451210|Gloss=DEF.ART|deprel_aux_pred=none|deprel_main_pred=det|head_MST=7|head_pred=7

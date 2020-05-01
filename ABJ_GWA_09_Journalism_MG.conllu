@@ -14,9 +14,9 @@
 8	part	part	NOUN	_	_	5	comp:obj	_	AlignBegin=3430|AlignEnd=3640|Gloss=part
 9	about	about	ADP	_	_	8	mod	_	AlignBegin=3640|AlignEnd=3900|Gloss=about
 10	journalism	journalism	NOUN	_	_	9	comp:obj	_	AlignBegin=3900|AlignEnd=4310|Gloss=journalism
-11	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=4310|AlignEnd=4450|Gloss=when|gloss=REL
-12	be	be	VERB	_	PartType=Cop	11	comp:obj	_	AlignBegin=4450|AlignEnd=4566|Gloss=be.COP
-13	sey	sey	SCONJ	_	_	12	comp:pred	_	AlignBegin=4566|AlignEnd=4900|Gloss=COMP
+11	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=4310|AlignEnd=4450|EXTPOS=SCONJ|Gloss=when|gloss=REL
+12	be	be	VERB	_	PartType=Cop	11	comp:obj@fixed	_	AlignBegin=4450|AlignEnd=4566|Gloss=be.COP
+13	sey	sey	SCONJ	_	_	12	comp:pred@fixed	_	AlignBegin=4566|AlignEnd=4900|Gloss=COMP
 14	#	#	PUNCT	_	_	23	punct	_	AlignBegin=4900|AlignEnd=5143|Gloss=PUNCT
 15	[	[	PUNCT	_	_	23	punct	_	AlignBegin=5113|AlignEnd=5143|Gloss=PUNCT
 16	as	as	ADP	_	_	23	mod:periph	_	AlignBegin=5143|AlignEnd=5250|Gloss=as
@@ -30,9 +30,9 @@
 24	#	#	PUNCT	_	_	40	punct	_	AlignBegin=6560|AlignEnd=6820|Gloss=PUNCT
 25	[	[	PUNCT	_	_	40	punct	_	AlignBegin=6790|AlignEnd=6820|Gloss=PUNCT
 26	even	even	ADV	_	_	27	mod	_	AlignBegin=6820|AlignEnd=6990|Gloss=even
-27	when	when	ADV	_	PronType=Int	40	mod:periph	_	AlignBegin=6990|AlignEnd=7129|Gloss=when.Q
+27	when	when	SCONJ	_	_	40	mod:periph	_	AlignBegin=6990|AlignEnd=7129|Gloss=when.Q
 28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	29	subj	_	AlignBegin=7129|AlignEnd=7230|Gloss=NOM.2
-29	get	get	VERB	_	_	27	mod@relcl	_	AlignBegin=7230|AlignEnd=7720|Gloss=get
+29	get	get	VERB	_	_	27	comp:obj	_	AlignBegin=7230|AlignEnd=7720|Gloss=get
 30	#	#	PUNCT	_	_	31	punct	_	AlignBegin=7720|AlignEnd=8280|Gloss=PUNCT
 31	issue	issue	NOUN	_	_	29	comp:obj	_	AlignBegin=8280|AlignEnd=8530|Gloss=issue
 32	wey	wey	SCONJ	_	_	31	mod@relcl	_	AlignBegin=8530|AlignEnd=8630|Gloss=when|gloss=REL
@@ -410,7 +410,7 @@
 10	#	#	PUNCT	_	_	3	punct	_	AlignBegin=70886|AlignEnd=71320|Gloss=PUNCT
 11	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	AlignBegin=71320|AlignEnd=71380|Gloss=NOM.SG.3
 12	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=71380|AlignEnd=71480|Gloss=be.COP
-13	like	like	ADP	_	_	12	comp:quasi	_	AlignBegin=71480|AlignEnd=71626|EXTPOS=SCONJ|Gloss=like
+13	like	like	ADP	_	_	12	comp:obj@agent	_	AlignBegin=71480|AlignEnd=71626|EXTPOS=SCONJ|Gloss=like
 14	sey	sey	SCONJ	_	_	13	comp:obj@fixed	_	AlignBegin=71626|AlignEnd=72044|Gloss=COMP
 15	#	#	PUNCT	_	_	24	punct	_	AlignBegin=72044|AlignEnd=73060|Gloss=PUNCT
 16	[	[	PUNCT	_	_	24	punct	_	AlignBegin=73030|AlignEnd=73060|Gloss=PUNCT
@@ -518,7 +518,7 @@
 5	see	see	VERB	_	_	0	root	_	AlignBegin=87490|AlignEnd=87752|Gloss=see
 6	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=87752|AlignEnd=88020|Gloss=COMP
 7	[	[	PUNCT	_	_	17	punct	_	AlignBegin=88020|AlignEnd=88050|Gloss=PUNCT
-8	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=88050|AlignEnd=88220|Gloss=SG.DEM
+8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=88050|AlignEnd=88220|Gloss=SG.DEM
 9	time	time	NOUN	_	_	17	mod:periph	_	AlignBegin=88220|AlignEnd=88610|Gloss=time
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=88610|AlignEnd=88640|Gloss=PUNCT
 11	#	#	PUNCT	_	_	17	punct	_	AlignBegin=88640|AlignEnd=89320|Gloss=PUNCT
@@ -1107,7 +1107,7 @@
 10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=173270|AlignEnd=173300|Gloss=PUNCT
 11	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	AlignBegin=173300|AlignEnd=173440|Gloss=NOM.SG.3
 12	good	good	ADJ	_	_	8	parataxis:obj	_	AlignBegin=173440|AlignEnd=173630|Gloss=good
-13	make	make	AUX	_	Mood=Opt	12	comp:quasi	_	AlignBegin=173630|AlignEnd=173880|Gloss=SBJV
+13	make	make	AUX	_	Mood=Opt	12	comp:obj@agent	_	AlignBegin=173630|AlignEnd=173880|Gloss=SBJV
 14	man	man	NOUN	_	_	16	subj	_	AlignBegin=173880|AlignEnd=174080|Gloss=man
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=174080|AlignEnd=174110|Gloss=PUNCT
 16	get	get	VERB	_	_	13	comp:aux	_	AlignBegin=174110|AlignEnd=174248|Gloss=get

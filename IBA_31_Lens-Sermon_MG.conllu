@@ -395,7 +395,7 @@
 6	[	[	PUNCT	_	_	8	punct	_	AlignBegin=77866|AlignEnd=77990|Gloss=PUNCT
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	AlignBegin=77866|AlignEnd=77990|Gloss=NOM.SG.3
 8	bad	bad	ADJ	_	_	5	comp:obj	_	AlignBegin=77990|AlignEnd=78320|Gloss=bad
-9	make	make	AUX	_	Mood=Opt	8	comp:quasi	_	AlignBegin=78320|AlignEnd=78510|Gloss=SBJV
+9	make	make	AUX	_	Mood=Opt	8	comp:obj@agent	_	AlignBegin=78320|AlignEnd=78510|Gloss=SBJV
 10	person	person	NOUN	_	_	11	subj	_	AlignBegin=78510|AlignEnd=78880|Gloss=person
 11	dey	dey	VERB	_	VerbType=Cop	9	comp:aux	_	AlignBegin=78880|AlignEnd=79042|Gloss=dey.COP
 12	tempted	tempt	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	11	comp:obj@x	_	AlignBegin=79042|AlignEnd=79653|Gloss=tempt.PST.PTCP.PASS
@@ -554,9 +554,9 @@
 4	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=102810|AlignEnd=102990|Gloss=ACC.PL.1
 5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=102990|AlignEnd=103077|Gloss=DEF.ART
 6	temptation	temptation	NOUN	_	_	3	comp:obj	_	AlignBegin=103077|AlignEnd=103620|Gloss=temptation
-7	wey	wey	SCONJ	_	_	6	mod@relcl	_	AlignBegin=103620|AlignEnd=103738|Gloss=when|gloss=REL
-8	be	be	VERB	_	PartType=Cop	7	comp:obj	_	AlignBegin=103738|AlignEnd=103864|Gloss=be.COP
-9	sey	sey	SCONJ	_	_	8	comp:pred	_	AlignBegin=103864|AlignEnd=104020|Gloss=COMP
+7	wey	wey	SCONJ	_	_	6	mod@relcl	_	AlignBegin=103620|AlignEnd=103738|EXTPOS=SCONJ|Gloss=when|gloss=REL
+8	be	be	VERB	_	PartType=Cop	7	comp:obj@fixed	_	AlignBegin=103738|AlignEnd=103864|Gloss=be.COP
+9	sey	sey	SCONJ	_	_	8	comp:pred@fixed	_	AlignBegin=103864|AlignEnd=104020|Gloss=COMP
 10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	AlignBegin=104020|AlignEnd=104090|Gloss=NOM.PL.1
 11	go	go	AUX	_	Aspect=Prosp	9	comp:obj	_	AlignBegin=104090|AlignEnd=104240|Gloss=CONT
 12	fit	fit	AUX	_	Mood=Pot	11	comp:aux	_	AlignBegin=104240|AlignEnd=104456|Gloss=ABIL
@@ -647,17 +647,16 @@
 # text = # { if you look ehm || if } & &//
 # text_en = It you look at uh... Eve…
 # text_ortho = If you look ehm… Eve…
-1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=116519|AlignEnd=117260|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=116519|AlignEnd=117260|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=116519|AlignEnd=117260|Gloss=PUNCT
-3	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=117260|AlignEnd=117435|Gloss=if
+3	if	if	SCONJ	_	_	0	root@scrap	_	AlignBegin=117260|AlignEnd=117435|Gloss=if
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=117435|AlignEnd=117540|Gloss=NOM.2
 5	look	look	VERB	_	_	3	comp:obj	_	AlignBegin=117540|AlignEnd=117820|Gloss=look
 6	ehm	ehm	INTJ	_	_	5	discourse	_	AlignBegin=117850|AlignEnd=118097|Gloss=ehm
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=117850|AlignEnd=118097|Gloss=PUNCT
 8	if	if	SCONJ	_	_	3	conj:dicto@scrap	_	AlignBegin=118127|AlignEnd=118470|Gloss=if
 9	}	}	PUNCT	_	_	3	punct	_	AlignBegin=118470|AlignEnd=118500|Gloss=PUNCT
-10	&	&	X	_	_	0	root	_	AlignBegin=118470|AlignEnd=118500|Gloss=X
-11	&//	//	PUNCT	_	_	10	punct	_	AlignBegin=118470|AlignEnd=118500|Gloss=PUNCT
+10	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=118470|AlignEnd=118500|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__31
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_31_Lens-Sermon_MG.mp3
@@ -666,9 +665,9 @@
 # text_en = When Satan tempted her, Satan told her that if you pick the fruit, that the fruit will be sweet.
 # text_ortho = When Satan tempt her, Satan tell am sey if you pluck di fruit, sey di fruit go sweet.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=118500|AlignEnd=119220|Gloss=PUNCT
-2	when	when	ADV	_	PronType=Int	9	mod:periph	_	AlignBegin=119220|AlignEnd=119400|Gloss=when.Q
+2	when	when	SCONJ	_	_	9	mod:periph	_	AlignBegin=119220|AlignEnd=119400|Gloss=when.Q
 3	Satan	Satan	PROPN	_	_	4	subj	_	AlignBegin=119400|AlignEnd=119860|Gloss=Satan
-4	tempt	tempt	VERB	_	_	2	mod@relcl	_	AlignBegin=119860|AlignEnd=120200|Gloss=tempt
+4	tempt	tempt	VERB	_	_	2	comp:obj	_	AlignBegin=119860|AlignEnd=120200|Gloss=tempt
 5	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	4	comp:obj	_	AlignBegin=120200|AlignEnd=120421|Gloss=F.SG.3.POSS
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=120421|AlignEnd=120451|Gloss=PUNCT
 7	#	#	PUNCT	_	_	2	punct	_	AlignBegin=120451|AlignEnd=121080|Gloss=PUNCT
@@ -2434,7 +2433,7 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	AlignBegin=378640|AlignEnd=378750|Gloss=NOM.SG.3
 3	come	come	VERB	_	_	8	parataxis:dislocated	_	AlignBegin=378750|AlignEnd=378960|Gloss=come
 4	one	one	DET	_	Definite=Spec|PronType=Art	5	det	_	AlignBegin=378960|AlignEnd=379160|Gloss=SPEC.ART
-5	day	day	NOUN	_	_	3	comp:quasi	_	AlignBegin=379160|AlignEnd=379360|Gloss=day
+5	day	day	NOUN	_	_	3	comp:obj@agent	_	AlignBegin=379160|AlignEnd=379360|Gloss=day
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=379360|AlignEnd=379390|Gloss=PUNCT
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=379390|AlignEnd=379440|Gloss=NOM.SG.3
 8	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=379440|AlignEnd=379640|Gloss=CONS

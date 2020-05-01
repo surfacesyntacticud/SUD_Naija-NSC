@@ -124,7 +124,7 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	AlignBegin=16398|AlignEnd=16528|Gloss=NOM.SG.3
 3	good	good	ADJ	_	_	0	root	_	AlignBegin=16528|AlignEnd=16743|Gloss=good
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=16743|AlignEnd=17062|Gloss=PUNCT
-5	meh	make	AUX	_	Mood=Opt	3	comp:quasi	_	AlignBegin=16743|AlignEnd=17062|Gloss=SBJV
+5	meh	make	AUX	_	Mood=Opt	3	comp:obj@agent	_	AlignBegin=16743|AlignEnd=17062|Gloss=SBJV
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=16743|AlignEnd=17062|Gloss=PUNCT
 7	if	if	SCONJ	_	_	5	conj:dicto	_	AlignBegin=17062|AlignEnd=17126|Gloss=if
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=17126|AlignEnd=17829|Gloss=PUNCT
@@ -592,7 +592,7 @@
 7	am	am	PRON	_	Case=Acc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=105310|AlignEnd=105410|Gloss=ACC.3
 8	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=105410|AlignEnd=105440|Gloss=PUNCT
 9	but	but	CCONJ	_	_	13	cc	_	AlignBegin=105440|AlignEnd=105597|Gloss=but
-10	dat	dat	PRON	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=105597|AlignEnd=105742|Gloss=SG.DEM
+10	dat	dat	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=105597|AlignEnd=105742|Gloss=SG.DEM
 11	three	three	NUM	_	NumType=Card	12	det@num	_	AlignBegin=105742|AlignEnd=105912|Gloss=three.CARD
 12	month	month	NOUN	_	_	13	subj	_	AlignBegin=105912|AlignEnd=106108|Gloss=month
 13	don	don	AUX	_	Aspect=Perf	5	conj:coord	_	AlignBegin=106108|AlignEnd=106312|Gloss=PRF
@@ -745,25 +745,27 @@
 # text = # but when you calm your hand down < # but it's better meh you go learn work //
 # text_en = But when you're well behaved… but it's better to go for some vocational training.
 # text_ortho = But when you calm your hand down... but it's better meh you go learn work.
-1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=133754|AlignEnd=134270|Gloss=PUNCT
-2	but	but	CCONJ	_	_	13	cc	_	AlignBegin=134270|AlignEnd=134461|Gloss=but
-3	when	when	ADV	_	PronType=Int	13	mod:periph	_	AlignBegin=134461|AlignEnd=134631|Gloss=when.Q
+1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=133754|AlignEnd=134270|Gloss=PUNCT
+2	but	but	CCONJ	_	_	14	cc	_	AlignBegin=134270|AlignEnd=134461|Gloss=but
+3	when	when	SCONJ	_	_	14	mod:periph	_	AlignBegin=134461|AlignEnd=134631|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=134631|AlignEnd=134850|Gloss=NOM.2
-5	calm	calm	VERB	_	_	3	mod@relcl	_	AlignBegin=134850|AlignEnd=135027|Gloss=calm
+5	calm	calm	VERB	_	_	3	comp:obj	_	AlignBegin=134850|AlignEnd=135027|Gloss=calm
 6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	mod	_	AlignBegin=135027|AlignEnd=135203|Gloss=PL.2.POSS
 7	hand	hand	NOUN	_	_	5	comp:obj	_	AlignBegin=135203|AlignEnd=135450|Gloss=hand
 8	down	down	ADP	_	_	5	compound:prt	_	AlignBegin=135450|AlignEnd=135691|Gloss=down
 9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=135691|AlignEnd=135721|Gloss=PUNCT
 10	#	#	PUNCT	_	_	3	punct	_	AlignBegin=135721|AlignEnd=136402|Gloss=PUNCT
-11	but	but	CCONJ	_	_	13	cc	_	AlignBegin=136402|AlignEnd=136556|Gloss=but
-12	it's	it's	PART	_	PartType=Cop	13	subj@expl	_	AlignBegin=136556|AlignEnd=136724|Gloss=be.COP
-13	better	beta	ADJ	_	Degree=Cmp	0	root	_	AlignBegin=136724|AlignEnd=137037|Gloss=good.CMPR
-14	meh	make	AUX	_	Mood=Opt	13	comp:obj@agent	_	AlignBegin=137037|AlignEnd=137163|Gloss=SBJV
-15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	subj	_	AlignBegin=137163|AlignEnd=137248|Gloss=NOM.2
-16	go	go	VERB	_	_	14	comp:aux	_	AlignBegin=137248|AlignEnd=137393|Gloss=go
-17	learn	learn	VERB	_	_	16	compound:svc	_	AlignBegin=137393|AlignEnd=137563|Gloss=learn
-18	work	work	NOUN	_	_	17	comp:obj	_	AlignBegin=137563|AlignEnd=137786|Gloss=work
-19	//	//	PUNCT	_	_	13	punct	_	AlignBegin=137786|AlignEnd=137816|Gloss=PUNCT
+11	but	but	CCONJ	_	_	14	cc	_	AlignBegin=136402|AlignEnd=136556|Gloss=but
+12-13	it's	_	_	_	_	_	_	_	_
+12	it	it	PRON	_	_	13	subj	_	_
+13	's	be	PART	_	PartType=Cop	14	subj@expl	_	AlignBegin=136556|AlignEnd=136724|Gloss=be.COP
+14	better	beta	ADJ	_	Degree=Cmp	0	root	_	AlignBegin=136724|AlignEnd=137037|Gloss=good.CMPR
+15	meh	make	AUX	_	Mood=Opt	14	comp:obj@agent	_	AlignBegin=137037|AlignEnd=137163|Gloss=SBJV
+16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	subj	_	AlignBegin=137163|AlignEnd=137248|Gloss=NOM.2
+17	go	go	VERB	_	_	15	comp:aux	_	AlignBegin=137248|AlignEnd=137393|Gloss=go
+18	learn	learn	VERB	_	_	17	compound:svc	_	AlignBegin=137393|AlignEnd=137563|Gloss=learn
+19	work	work	NOUN	_	_	18	comp:obj	_	AlignBegin=137563|AlignEnd=137786|Gloss=work
+20	//	//	PUNCT	_	_	14	punct	_	AlignBegin=137786|AlignEnd=137816|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__28
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
@@ -1259,7 +1261,7 @@
 2	nna	nna	PART	_	_	4	discourse	_	AlignBegin=208316|AlignEnd=208792|Gloss=father
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	AlignBegin=208792|AlignEnd=208924|Gloss=NOM.SG.3
 4	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=208924|AlignEnd=209136|Gloss=CONT
-5	con	con	AUX	_	Aspect=Cons	4	comp:quasi	_	AlignBegin=209136|AlignEnd=209291|Gloss=CONS
+5	con	con	AUX	_	Aspect=Cons	4	comp:obj@agent	_	AlignBegin=209136|AlignEnd=209291|Gloss=CONS
 6	be	be	VERB	_	PartType=Cop	5	comp:aux	_	AlignBegin=209291|AlignEnd=209386|Gloss=be.COP
 7	like	like	ADP	_	_	6	comp:pred	_	AlignBegin=209386|AlignEnd=209527|EXTPOS=SCONJ|Gloss=like
 8	sey	sey	SCONJ	_	_	7	comp:obj@fixed	_	AlignBegin=209527|AlignEnd=209652|Gloss=COMP
@@ -1301,21 +1303,20 @@
 # text = # dis year < # any boy wey dey go travel dis year & &//
 # text_en = This year, any boy who will be travelling this year…
 # text_ortho = Dis year, any boy wey dey go travel dis year...
-1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=215597|AlignEnd=216582|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=215597|AlignEnd=216582|Gloss=PUNCT
 2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=216582|AlignEnd=216888|Gloss=SG.PROX.DEM
-3	year	year	NOUN	_	_	14	mod:periph	_	AlignBegin=216888|AlignEnd=217114|Gloss=year
+3	year	year	NOUN	_	_	0	mod:periph	_	AlignBegin=216888|AlignEnd=217114|Gloss=year
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=217114|AlignEnd=217144|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=217144|AlignEnd=217822|Gloss=PUNCT
 6	any	any	DET	_	_	7	det	_	AlignBegin=217822|AlignEnd=218015|Gloss=any
-7	boy	boy	NOUN	_	_	14	subj	_	AlignBegin=218015|AlignEnd=218200|Gloss=boy
+7	boy	boy	NOUN	_	_	0	root@scrap	_	AlignBegin=218015|AlignEnd=218200|Gloss=boy
 8	wey	wey	SCONJ	_	_	7	mod@relcl	_	AlignBegin=218200|AlignEnd=218305|Gloss=when|gloss=REL
 9	dey	dey	AUX	_	Aspect=Imp	8	comp:obj	_	AlignBegin=218305|AlignEnd=218451|Gloss=IPFV
 10	go	go	VERB	_	_	9	comp:aux	_	AlignBegin=218451|AlignEnd=219169|Gloss=go
 11	travel	travel	VERB	_	_	10	comp:obj@x	_	AlignBegin=219169|AlignEnd=219532|Gloss=travel
 12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=219532|AlignEnd=219722|Gloss=SG.PROX.DEM
 13	year	year	NOUN	_	_	11	comp:obj	_	AlignBegin=219722|AlignEnd=219972|Gloss=year
-14	&	&	X	_	_	0	root	_	AlignBegin=219972|AlignEnd=220002|Gloss=X
-15	&//	//	PUNCT	_	_	14	punct	_	AlignBegin=219972|AlignEnd=220002|Gloss=PUNCT
+14	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=219972|AlignEnd=220002|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__53
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
@@ -1526,9 +1527,9 @@
 17	im	im	PRON	_	Gender=Masc|Number=Sing|Person=3	19	mod:poss	_	AlignBegin=256696|AlignEnd=256793|Gloss=M.SG.3.POSS
 18	own	own	ADJ	_	_	19	mod	_	AlignBegin=256793|AlignEnd=257008|Gloss=own
 19	time	time	NOUN	_	_	16	comp:obj	_	AlignBegin=257008|AlignEnd=257231|Gloss=time
-20	wey	wey	SCONJ	_	_	19	mod@relcl	_	AlignBegin=257231|AlignEnd=257343|Gloss=when|gloss=REL
-21	be	be	VERB	_	PartType=Cop	20	comp:obj	_	AlignBegin=257343|AlignEnd=257437|Gloss=be.COP
-22	sey	sey	SCONJ	_	_	21	comp:pred	_	AlignBegin=257437|AlignEnd=257587|Gloss=COMP
+20	wey	wey	SCONJ	_	_	19	mod@relcl	_	AlignBegin=257231|AlignEnd=257343|EXTPOS=SCONJ|Gloss=when|gloss=REL
+21	be	be	VERB	_	PartType=Cop	20	comp:obj@fixed	_	AlignBegin=257343|AlignEnd=257437|Gloss=be.COP
+22	sey	sey	SCONJ	_	_	21	comp:pred@fixed	_	AlignBegin=257437|AlignEnd=257587|Gloss=COMP
 23	God	God	PROPN	_	_	24	subj	_	AlignBegin=257587|AlignEnd=257816|Gloss=God
 24	dey	dey	VERB	_	VerbType=Cop	22	comp:obj	_	AlignBegin=257816|AlignEnd=257965|Gloss=dey.COP
 25	dey	dey	AUX	_	Aspect=Imp	24	mod	_	AlignBegin=257965|AlignEnd=258127|Gloss=IPFV
@@ -1541,9 +1542,9 @@
 32	im	im	PRON	_	Gender=Masc|Number=Sing|Person=3	34	mod:poss	_	AlignBegin=260681|AlignEnd=260777|Gloss=M.SG.3.POSS
 33	own	own	ADJ	_	_	34	mod	_	AlignBegin=260777|AlignEnd=261048|Gloss=own
 34	time	time	NOUN	_	_	31	comp:obj	_	AlignBegin=261048|AlignEnd=261329|Gloss=time
-35	wey	wey	SCONJ	_	_	34	mod@relcl	_	AlignBegin=261329|AlignEnd=261429|Gloss=when|gloss=REL
-36	be	be	VERB	_	PartType=Cop	35	comp:obj	_	AlignBegin=261429|AlignEnd=261497|Gloss=be.COP
-37	sey	sey	SCONJ	_	_	36	comp:pred	_	AlignBegin=261497|AlignEnd=261697|Gloss=COMP
+35	wey	wey	SCONJ	_	_	34	mod@relcl	_	AlignBegin=261329|AlignEnd=261429|EXTPOS=SCONJ|Gloss=when|gloss=REL
+36	be	be	VERB	_	PartType=Cop	35	comp:obj@fixed	_	AlignBegin=261429|AlignEnd=261497|Gloss=be.COP
+37	sey	sey	SCONJ	_	_	36	comp:pred@fixed	_	AlignBegin=261497|AlignEnd=261697|Gloss=COMP
 38	God	God	PROPN	_	_	39	subj	_	AlignBegin=261697|AlignEnd=261968|Gloss=God
 39	say	say	VERB	_	_	37	comp:obj	_	AlignBegin=261968|AlignEnd=262405|Gloss=say
 40	[	[	PUNCT	_	_	46	punct	_	AlignBegin=262405|AlignEnd=262435|Gloss=PUNCT

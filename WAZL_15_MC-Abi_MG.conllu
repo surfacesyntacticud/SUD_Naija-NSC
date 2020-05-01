@@ -186,7 +186,7 @@
 12	if	if	SCONJ	_	_	10	conj:dicto	_	AlignBegin=24801|AlignEnd=25060|Gloss=if
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	comp:obj@scrap	_	AlignBegin=25060|AlignEnd=25190|Gloss=NOM.2
 14	||	||	PUNCT	_	_	15	punct	_	AlignBegin=25190|AlignEnd=25220|Gloss=PUNCT
-15	when	when	ADV	_	PronType=Int	12	conj:dicto	_	AlignBegin=25220|AlignEnd=25378|Gloss=when.Q
+15	when	when	SCONJ	_	_	12	conj:dicto	_	AlignBegin=25220|AlignEnd=25378|Gloss=when.Q
 16	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	unk@scrap	_	AlignBegin=25378|AlignEnd=25416|Gloss=NOM.PL.1
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=25416|AlignEnd=25446|Gloss=PUNCT
 18	when	when	SCONJ	_	_	15	conj:dicto	_	AlignBegin=25446|AlignEnd=25567|Gloss=when
@@ -1369,7 +1369,7 @@
 13	a	a	DET	_	Definite=Ind|PronType=Art	15	det	_	AlignBegin=155421|AlignEnd=155492|Gloss=INDF.ART
 14	Lighter	lighter	ADJ	_	Degree=Cmp	15	mod	_	AlignBegin=155492|AlignEnd=155800|Gloss=light.CMPR
 15	Note	note	NOUN	_	_	12	comp:obj	_	AlignBegin=155800|AlignEnd=155970|Gloss=note
-16	with	wit	ADP	_	_	11	comp:pred	_	AlignBegin=155970|AlignEnd=156073|Gloss=with
+16	with	wit	ADP	_	_	15	mod	_	AlignBegin=155970|AlignEnd=156073|Gloss=with
 17	MC	MC	PROPN	_	_	16	comp:obj	_	AlignBegin=156073|AlignEnd=156380|Gloss=Master_of_Ceremony
 18	Abi	Abi	PROPN	_	_	17	flat	_	AlignBegin=156380|AlignEnd=156590|Gloss=Abi
 19	//	//	PUNCT	_	_	11	punct	_	AlignBegin=156590|AlignEnd=156620|Gloss=PUNCT
@@ -1888,19 +1888,21 @@
 21	di	the	DET	_	Definite=Def|PronType=Art	20	comp:obj@scrap	_	AlignBegin=222910|AlignEnd=223000|Gloss=DEF.ART
 22	||	||	PUNCT	_	_	23	punct	_	AlignBegin=223000|AlignEnd=223030|Gloss=PUNCT
 23	not	not	PART	_	Polarity=Neg	20	conj:dicto	_	AlignBegin=223030|AlignEnd=223170|Gloss=NEG
-24	||	||	PUNCT	_	_	26	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
-25	[eng	[eng	PUNCT	_	_	26	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
-26	it's	it's	PART	_	PartType=Cop	23	conj:dicto	_	AlignBegin=223200|AlignEnd=223331|Gloss=be.COP
-27	not	not	PART	_	Polarity=Neg	26	mod	_	AlignBegin=223331|AlignEnd=223460|Gloss=NEG
-28	di	the	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=223460|AlignEnd=223497|Gloss=DEF.ART
-29	end	end	NOUN	_	_	26	comp:pred	_	AlignBegin=223527|AlignEnd=223630|Gloss=end
-30	of	of	ADP	_	_	29	mod	_	AlignBegin=223630|AlignEnd=223750|Gloss=of
-31	his	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	32	mod	_	AlignBegin=223750|AlignEnd=223870|Gloss=M.SG.3.POSS
-32	life	life	NOUN	_	_	30	comp:obj	_	AlignBegin=223870|AlignEnd=224047|Gloss=life
-33	eng]	eng]	PUNCT	_	_	26	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
-34	}	}	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
-35	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
-36	//	//	PUNCT	_	_	3	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+24	||	||	PUNCT	_	_	27	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
+25	[eng	[eng	PUNCT	_	_	27	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
+26-27	it's	_	_	_	_	_	_	_	_
+26	it	it	PRON	_	_	27	subj	_	_
+27	's	be	PART	_	PartType=Cop	23	conj:dicto	_	AlignBegin=223200|AlignEnd=223331|Gloss=be.COP
+28	not	not	PART	_	Polarity=Neg	27	mod	_	AlignBegin=223331|AlignEnd=223460|Gloss=NEG
+29	di	the	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=223460|AlignEnd=223497|Gloss=DEF.ART
+30	end	end	NOUN	_	_	27	comp:pred	_	AlignBegin=223527|AlignEnd=223630|Gloss=end
+31	of	of	ADP	_	_	30	mod	_	AlignBegin=223630|AlignEnd=223750|Gloss=of
+32	his	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	33	mod	_	AlignBegin=223750|AlignEnd=223870|Gloss=M.SG.3.POSS
+33	life	life	NOUN	_	_	31	comp:obj	_	AlignBegin=223870|AlignEnd=224047|Gloss=life
+34	eng]	eng]	PUNCT	_	_	27	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+35	}	}	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+36	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+37	//	//	PUNCT	_	_	3	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
 
 # sent_id = WAZL_15_MC-Abi_MG__91
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_15_MC-Abi_MG.mp3
@@ -2346,14 +2348,14 @@
 26	days	day	NOUN	_	Number=Plur	24	comp:obj	_	AlignBegin=270202|AlignEnd=270590|Gloss=day.PL
 27	#	#	PUNCT	_	_	29	punct	_	AlignBegin=270620|AlignEnd=271060|Gloss=PUNCT
 28	{	{	PUNCT	_	_	29	punct	_	AlignBegin=271030|AlignEnd=271060|Gloss=PUNCT
-29	when	when	ADV	_	PronType=Int	26	mod	_	AlignBegin=271060|AlignEnd=271240|Gloss=when.Q
+29	when	when	SCONJ	_	_	26	mod	_	AlignBegin=271060|AlignEnd=271240|Gloss=when.Q
 30	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	subj	_	AlignBegin=271240|AlignEnd=271293|Gloss=NOM.PL.1
 31	dey	dey	AUX	_	Aspect=Imp	29	mod@relcl	_	AlignBegin=271293|AlignEnd=271470|Gloss=IPFV
 32	||	||	PUNCT	_	_	34	punct	_	AlignBegin=271470|AlignEnd=271500|Gloss=PUNCT
 33	#	#	PUNCT	_	_	34	punct	_	AlignBegin=271500|AlignEnd=271840|Gloss=PUNCT
-34	when	when	ADV	_	PronType=Int	29	conj:dicto	_	AlignBegin=271840|AlignEnd=271990|Gloss=when.Q
+34	when	when	SCONJ	_	_	29	conj:dicto	_	AlignBegin=271840|AlignEnd=271990|Gloss=when.Q
 35	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	36	subj	_	AlignBegin=271990|AlignEnd=272064|Gloss=NOM.PL.1
-36	dey	dey	AUX	_	Aspect=Imp	34	mod@relcl	_	AlignBegin=272064|AlignEnd=272132|Gloss=IPFV
+36	dey	dey	AUX	_	Aspect=Imp	34	comp:obj	_	AlignBegin=272064|AlignEnd=272132|Gloss=IPFV
 37	}	}	PUNCT	_	_	29	punct	_	AlignBegin=272132|AlignEnd=272162|Gloss=PUNCT
 38	live	live	VERB	_	_	36	comp:aux	_	AlignBegin=272162|AlignEnd=272410|Gloss=live
 39	life	life	NOUN	_	_	38	comp:obj	_	AlignBegin=272410|AlignEnd=272760|Gloss=life
@@ -2386,9 +2388,9 @@
 9	in	in	ADP	_	_	8	mod	_	AlignBegin=275811|AlignEnd=275890|Gloss=in
 10	dose	dose	DET	_	Number=Plur|PronType=Dem	11	det	_	AlignBegin=275890|AlignEnd=276060|Gloss=PL.DIST.DEM
 11	days	day	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=276060|AlignEnd=276340|Gloss=day.PL
-12	when	when	ADV	_	PronType=Int	11	mod	_	AlignBegin=276340|AlignEnd=276468|Gloss=when.Q
+12	when	when	SCONJ	_	_	11	mod	_	AlignBegin=276340|AlignEnd=276468|Gloss=when.Q
 13	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	subj	_	AlignBegin=276468|AlignEnd=276540|Gloss=NOM.PL.1
-14	dey	dey	VERB	_	VerbType=Cop	12	mod@relcl	_	AlignBegin=276540|AlignEnd=276662|Gloss=dey.COP
+14	dey	dey	VERB	_	VerbType=Cop	12	comp:obj	_	AlignBegin=276540|AlignEnd=276662|Gloss=dey.COP
 15	school	school	NOUN	_	_	14	comp:pred	_	AlignBegin=276662|AlignEnd=277063|Gloss=school
 16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=277063|AlignEnd=277093|Gloss=PUNCT
 17	#	#	PUNCT	_	_	2	punct	_	AlignBegin=277093|AlignEnd=277480|Gloss=PUNCT
