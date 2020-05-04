@@ -40,7 +40,7 @@
 # text_ortho = I dey fine.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=5030|AlignEnd=5260|Gloss=NOM.SG.1
 2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=5260|AlignEnd=5490|Gloss=dey.COP
-3	fine	fine	ADJ	_	_	2	comp:aux	_	AlignBegin=5490|AlignEnd=5720|Gloss=fine
+3	fine	fine	ADJ	_	_	2	comp:pred	_	AlignBegin=5490|AlignEnd=5720|Gloss=fine
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=5720|AlignEnd=5720|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__5
@@ -132,9 +132,9 @@
 # text_en = Ah, what happened now?
 # text_ortho = Ah wetin happen now?
 1	ah	ah	INTJ	_	_	2	discourse	_	AlignBegin=12665|AlignEnd=12925|Gloss=ah
-2	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=12925|AlignEnd=13185|Gloss=what.Q
+2	wetin	wetin	PRON	_	PronType=Int	0	root	3:@subj	AlignBegin=12925|AlignEnd=13185|Gloss=what.Q
 3	happen	happen	VERB	_	_	2	comp:cleft	_	AlignBegin=13185|AlignEnd=13445|Gloss=happen
-4	now	now	ADV	_	_	3	mod	_	AlignBegin=13445|AlignEnd=13705|Gloss=now
+4	now	now	ADV	_	_	3	mod:emph	_	AlignBegin=13445|AlignEnd=13705|Gloss=now
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=13705|AlignEnd=13705|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__12
@@ -222,12 +222,12 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__17
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = our ah //
+# text = our ah &//
 # text_en = Our ah...
 # text_ortho = Our ah,
-1	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	0	root	_	AlignBegin=22460|AlignEnd=22710|Gloss=PL.1.POSS
+1	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	0	root@scrap	_	AlignBegin=22460|AlignEnd=22710|Gloss=PL.1.POSS
 2	ah	ah	INTJ	_	_	1	discourse	_	AlignBegin=22710|AlignEnd=22960|Gloss=ah
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=22960|AlignEnd=22960|Gloss=PUNCT
+3	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=22960|AlignEnd=22960|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__18
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -256,7 +256,7 @@
 2	so	so	ADV	_	_	1	comp:pred	_	AlignBegin=25542|AlignEnd=25815|Gloss=so
 3	>	>	PUNCT	_	_	5	punct	_	AlignBegin=25815|AlignEnd=25815|Gloss=PUNCT
 4	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	5	mod	_	AlignBegin=25815|AlignEnd=26088|Gloss=SG.1.POSS
-5	sister	sista	NOUN	_	_	1	dislocated	_	AlignBegin=26088|AlignEnd=26360|Gloss=sister
+5	sister	sista	NOUN	_	_	1	vocative	_	AlignBegin=26088|AlignEnd=26360|Gloss=sister
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=26360|AlignEnd=26360|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__20
@@ -274,7 +274,7 @@
 7	much	much	ADJ	_	_	2	conj:dicto	_	AlignBegin=26597|AlignEnd=26782|Gloss=much
 8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=26782|AlignEnd=26782|Gloss=PUNCT
 9	how	how	ADV	_	PronType=Int	10	mod	_	AlignBegin=26782|AlignEnd=26967|Gloss=how.Q
-10	much	much	ADJ	_	_	7	conj:dicto	_	AlignBegin=26967|AlignEnd=27153|Gloss=much
+10	much	much	ADJ	_	_	13	@comp	_	AlignBegin=26967|AlignEnd=27153|Gloss=much
 11	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	subj	_	AlignBegin=27153|AlignEnd=27338|Gloss=NOM.PL.3
 12	dey	dey	AUX	_	Aspect=Imp	10	mod:relcl	_	AlignBegin=27338|AlignEnd=27523|Gloss=IPFV
 13	give	give	VERB	_	_	12	comp:aux	_	AlignBegin=27523|AlignEnd=27709|Gloss=give
@@ -292,7 +292,7 @@
 # text_ortho = Ah my sister, na seven thousand o.
 1	ah	ah	INTJ	_	_	5	discourse	_	AlignBegin=29095|AlignEnd=29399|Gloss=ah
 2	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	3	mod	_	AlignBegin=29399|AlignEnd=29704|Gloss=SG.1.POSS
-3	sister	sista	NOUN	_	_	5	dislocated	_	AlignBegin=29704|AlignEnd=30008|Gloss=sister
+3	sister	sista	NOUN	_	_	5	vocative	_	AlignBegin=29704|AlignEnd=30008|Gloss=sister
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=30008|AlignEnd=30008|Gloss=PUNCT
 5	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=30008|AlignEnd=30312|Gloss=be.COP
 6	seven	seven	NUM	_	NumType=Card	7	compound	_	AlignBegin=30312|AlignEnd=30616|Gloss=seven.CARD
@@ -375,7 +375,7 @@
 # text_en = How are you managing?
 # text_ortho = Toh how you dey manage now,
 1	toh	toh	INTJ	_	_	2	discourse	_	AlignBegin=38480|AlignEnd=38690|Gloss=alright
-2	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=38690|AlignEnd=38900|Gloss=how.Q
+2	how	how	ADV	_	PronType=Int	0	root	5:@mod	AlignBegin=38690|AlignEnd=38900|Gloss=how.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=38900|AlignEnd=39110|Gloss=NOM.2
 4	dey	dey	AUX	_	Aspect=Imp	2	comp:cleft	_	AlignBegin=39110|AlignEnd=39320|Gloss=IPFV
 5	manage	manage	VERB	_	_	4	comp:aux	_	AlignBegin=39320|AlignEnd=39530|Gloss=manage
@@ -400,7 +400,7 @@
 # text_en = My sister, I'm managing.
 # text_ortho = My sister, I dey manage am.
 1	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	2	mod	_	AlignBegin=40695|AlignEnd=40936|Gloss=SG.1.POSS
-2	sister	sista	NOUN	_	_	5	dislocated	_	AlignBegin=40936|AlignEnd=41177|Gloss=sister
+2	sister	sista	NOUN	_	_	5	vocative	_	AlignBegin=40936|AlignEnd=41177|Gloss=sister
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=41177|AlignEnd=41177|Gloss=PUNCT
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=41177|AlignEnd=41418|Gloss=NOM.SG.1
 5	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=41418|AlignEnd=41658|Gloss=IPFV
@@ -462,7 +462,7 @@
 1	e	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj:expl	_	AlignBegin=48255|AlignEnd=48630|Gloss=NOM.SG.3
 2	get	get	VERB	_	_	0	root	_	AlignBegin=48630|AlignEnd=49004|Gloss=get
 3	one	one	DET	_	Definite=Spec|PronType=Art	4	det	_	AlignBegin=49004|AlignEnd=49379|Gloss=SPEC.ART
-4	soup	soup	NOUN	_	_	2	comp:obj	_	AlignBegin=49379|AlignEnd=49753|Gloss=soup
+4	soup	soup	NOUN	_	_	2	comp:obj@agent	_	AlignBegin=49379|AlignEnd=49753|Gloss=soup
 5	like	like	ADP	_	_	4	mod	_	AlignBegin=49753|AlignEnd=50128|Gloss=like
 6	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	comp:obj	_	AlignBegin=50128|AlignEnd=50502|Gloss=SG.DEM
 7	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=50502|AlignEnd=50877|Gloss=when|gloss=REL
@@ -482,7 +482,7 @@
 1	di	the	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=52750|AlignEnd=53135|Gloss=DEF.ART
 2	soup	soup	NOUN	_	_	3	subj	_	AlignBegin=53135|AlignEnd=53520|Gloss=soup
 3	make	make	VERB	_	_	0	root	_	AlignBegin=53520|AlignEnd=53905|Gloss=make
-4	sense	sense	NOUN	_	_	3	comp:obj	_	AlignBegin=53905|AlignEnd=54290|Gloss=sense
+4	sense	sense	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=53905|AlignEnd=54290|Gloss=sense
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=54290|AlignEnd=54290|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__36
@@ -496,7 +496,7 @@
 3	sey	sey	SCONJ	_	_	2	comp:obj	_	AlignBegin=54688|AlignEnd=54888|Gloss=COMP
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=54888|AlignEnd=54888|Gloss=PUNCT
 5	na	na	PART	_	PartType=Cop	3	comp:obj	_	AlignBegin=54888|AlignEnd=55087|Gloss=be.COP
-6	Ibo	Ibo	PROPN	_	_	7	compound	_	AlignBegin=55087|AlignEnd=55286|Gloss=Igbo
+6	Ibo	Ibo	PROPN	_	_	7	mod	_	AlignBegin=55087|AlignEnd=55286|Gloss=Igbo
 7	soup	soup	NOUN	_	_	5	comp:pred	_	AlignBegin=55286|AlignEnd=55485|Gloss=soup
 8	]	]	PUNCT	_	_	5	punct	_	AlignBegin=55485|AlignEnd=55485|Gloss=PUNCT
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=55485|AlignEnd=55485|Gloss=PUNCT
@@ -522,11 +522,11 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = ehn //
+# text = ehn !//
 # text_en = Ehn!
 # text_ortho = Ehn.
 1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=56170|AlignEnd=56590|Gloss=ehn
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=56590|AlignEnd=56590|Gloss=PUNCT
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=56590|AlignEnd=56590|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__40
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -553,7 +553,7 @@
 # text_ortho = Teach me too now.
 1	teach	teach	VERB	_	_	0	root	_	AlignBegin=56795|AlignEnd=57048|Gloss=teach
 2	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	AlignBegin=57048|AlignEnd=57300|Gloss=ACC.SG.1
-3	too	too	ADV	_	_	1	mod	_	AlignBegin=57300|AlignEnd=57552|Gloss=too
+3	too	too	ADV	_	_	2	mod	_	AlignBegin=57300|AlignEnd=57552|Gloss=too
 4	now	now	ADV	_	_	1	mod	_	AlignBegin=57552|AlignEnd=57805|Gloss=now
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=57805|AlignEnd=57805|Gloss=PUNCT
 
@@ -606,30 +606,31 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = so it's like I go come { me |c and you } { go || go } do am //
+# text = so it 's like I go come |c { me |c and you } { go || go } do am //
 # text_en = So, it's like I'll come so you and I can do it.
 # text_ortho = So it's like I go come me, and you go, go do am.
 1	so	so	ADV	_	_	3	discourse	_	AlignBegin=62830|AlignEnd=63088|Gloss=so
-2	it	it	PRON	_	_	3	subj	_	_
+2	it	it	ADJ	_	_	3	subj	_	Gloss=_
 3	's	be	PART	_	PartType=Cop	0	root	_	AlignBegin=63088|AlignEnd=63347|Gloss=be.COP
 4	like	like	ADP	_	_	3	comp:pred	_	AlignBegin=63347|AlignEnd=63605|Gloss=like
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=63605|AlignEnd=63864|Gloss=NOM.SG.1
 6	go	go	AUX	_	Aspect=Prosp	4	comp:obj	_	AlignBegin=63864|AlignEnd=64122|Gloss=CONT
 7	come	come	VERB	_	_	6	comp:aux	_	AlignBegin=64122|AlignEnd=64381|Gloss=come
-8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=64381|AlignEnd=64381|Gloss=PUNCT
-9	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=64381|AlignEnd=64639|Gloss=ACC.SG.1
-10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=64639|AlignEnd=64639|Gloss=PUNCT
-11	and	and	CCONJ	_	_	12	cc	_	AlignBegin=64639|AlignEnd=64898|Gloss=and
-12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	conj:coord	_	AlignBegin=64898|AlignEnd=65156|Gloss=NOM.2
-13	}	}	PUNCT	_	_	9	punct	_	AlignBegin=65156|AlignEnd=65156|Gloss=PUNCT
-14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=65156|AlignEnd=65156|Gloss=PUNCT
-15	go	go	AUX	_	Aspect=Prosp	7	compound:svc	_	AlignBegin=65156|AlignEnd=65415|Gloss=CONT
-16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=65415|AlignEnd=65415|Gloss=PUNCT
-17	go	go	AUX	_	Aspect=Prosp	15	conj:dicto	_	AlignBegin=65415|AlignEnd=65673|Gloss=CONT
-18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=65673|AlignEnd=65673|Gloss=PUNCT
-19	do	do	VERB	_	_	17	comp:aux	_	AlignBegin=65673|AlignEnd=65932|Gloss=do
-20	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=65932|AlignEnd=66190|Gloss=ACC.SG.3
-21	//	//	PUNCT	_	_	3	punct	_	AlignBegin=66190|AlignEnd=66190|Gloss=PUNCT
+8	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=64381|AlignEnd=64381|Gloss=PUNCT
+9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=64381|AlignEnd=64381|Gloss=PUNCT
+10	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=64381|AlignEnd=64639|Gloss=ACC.SG.1
+11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=64639|AlignEnd=64639|Gloss=PUNCT
+12	and	and	CCONJ	_	_	13	cc	_	AlignBegin=64639|AlignEnd=64898|Gloss=and
+13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	conj:coord	_	AlignBegin=64898|AlignEnd=65156|Gloss=NOM.2
+14	}	}	PUNCT	_	_	10	punct	_	AlignBegin=65156|AlignEnd=65156|Gloss=PUNCT
+15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=65156|AlignEnd=65156|Gloss=PUNCT
+16	go	go	AUX	_	Aspect=Prosp	6	conj:coord	_	AlignBegin=65156|AlignEnd=65415|Gloss=CONT
+17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=65415|AlignEnd=65415|Gloss=PUNCT
+18	go	go	AUX	_	Aspect=Prosp	16	conj:dicto	_	AlignBegin=65415|AlignEnd=65673|Gloss=CONT
+19	}	}	PUNCT	_	_	16	punct	_	AlignBegin=65673|AlignEnd=65673|Gloss=PUNCT
+20	do	do	VERB	_	_	18	comp:aux	_	AlignBegin=65673|AlignEnd=65932|Gloss=do
+21	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	AlignBegin=65932|AlignEnd=66190|Gloss=ACC.SG.3
+22	//	//	PUNCT	_	_	3	punct	_	AlignBegin=66190|AlignEnd=66190|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -650,7 +651,7 @@
 2	soup	soup	NOUN	_	_	3	subj	_	AlignBegin=66416|AlignEnd=66642|Gloss=soup
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=66642|AlignEnd=66868|Gloss=CONT
 4	make	make	VERB	_	_	3	comp:aux	_	AlignBegin=66868|AlignEnd=67094|Gloss=make
-5	sense	sense	NOUN	_	_	4	comp:obj	_	AlignBegin=67094|AlignEnd=67320|Gloss=sense
+5	sense	sense	NOUN	_	_	4	comp:obj@lvc	_	AlignBegin=67094|AlignEnd=67320|Gloss=sense
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=67320|AlignEnd=67320|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__49
@@ -797,7 +798,7 @@
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=85272|AlignEnd=85272|Gloss=PUNCT
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=85272|AlignEnd=85610|Gloss=NOM.2
 6	go	go	AUX	_	Aspect=Prosp	3	parataxis:obj	_	AlignBegin=85610|AlignEnd=85948|Gloss=CONT
-7	parboil	parboil	VERB	_	_	6	comp:obj	_	AlignBegin=85948|AlignEnd=86285|Gloss=parboil
+7	parboil	parboil	VERB	_	_	6	comp:aux	_	AlignBegin=85948|AlignEnd=86285|Gloss=parboil
 8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=86285|AlignEnd=86622|Gloss=DEF.ART
 9	banga	banga	NOUN	_	_	7	comp:obj	_	AlignBegin=86622|AlignEnd=86960|Gloss=palm_kernel
 10	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=86960|AlignEnd=86960|Gloss=PUNCT
@@ -909,7 +910,7 @@
 # text_en = You like...
 # text_ortho = You dey like…
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=97375|AlignEnd=97520|Gloss=NOM.2
-2	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=97520|AlignEnd=97665|Gloss=IPFV
+2	dey	dey	AUX	_	Aspect=Imp	0	root@scrap	_	AlignBegin=97520|AlignEnd=97665|Gloss=IPFV
 3	like	like	VERB	_	_	2	comp:aux	_	AlignBegin=97665|AlignEnd=97810|Gloss=like
 4	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=97810|AlignEnd=97810|Gloss=PUNCT
 
@@ -923,7 +924,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=97810|AlignEnd=98030|Gloss=NOM.2
 3	ch-	X	X	_	_	0	root	_	AlignBegin=98030|AlignEnd=98251|Gloss=X
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=98251|AlignEnd=98251|Gloss=PUNCT
-5	which	which	DET	_	PronType=Int	11	conj:dicto	_	AlignBegin=98251|AlignEnd=98471|Gloss=which
+5	which	which	DET	_	PronType=Int	3	conj:dicto	_	AlignBegin=98251|AlignEnd=98471|Gloss=which
 6	||	||	PUNCT	_	_	10	punct	_	AlignBegin=98471|AlignEnd=98471|Gloss=PUNCT
 7	as	as	ADP	_	_	10	discourse	_	AlignBegin=98471|AlignEnd=98691|Gloss=as
 8	in	in	ADP	_	_	7	unk:fixed	_	AlignBegin=98691|AlignEnd=98911|Gloss=in
@@ -931,14 +932,14 @@
 10	food	food	NOUN	_	_	5	conj:dicto	_	AlignBegin=99132|AlignEnd=99352|Gloss=food
 11	}	}	PUNCT	_	_	3	punct	_	AlignBegin=99352|AlignEnd=99352|Gloss=PUNCT
 12	||	||	PUNCT	_	_	15	punct	_	AlignBegin=99352|AlignEnd=99352|Gloss=PUNCT
-13	like	like	ADP	_	_	3	conj:dicto	_	AlignBegin=99352|AlignEnd=99572|Gloss=like
+13	like	like	ADP	_	_	15	discourse	_	AlignBegin=99352|AlignEnd=99572|Gloss=like
 14	which	which	DET	_	PronType=Int	15	det	_	AlignBegin=99572|AlignEnd=99793|Gloss=which
-15	swallow	swallow	VERB	_	_	13	comp:obj	_	AlignBegin=99793|AlignEnd=100013|Gloss=swallow
+15	swallow	swallow	VERB	_	_	10	conj:dicto	18:@comp	AlignBegin=99793|AlignEnd=100013|Gloss=swallow
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	subj	_	AlignBegin=100013|AlignEnd=100233|Gloss=NOM.2
-17	dey	dey	AUX	_	Aspect=Imp	15	mod:relcl	_	AlignBegin=100233|AlignEnd=100454|Gloss=IPFV
+17	dey	dey	AUX	_	Aspect=Imp	15	comp:cleft	_	AlignBegin=100233|AlignEnd=100454|Gloss=IPFV
 18	use	use	VERB	_	_	17	comp:aux	_	AlignBegin=100454|AlignEnd=100674|Gloss=use
-19	like	like	ADP	_	_	18	discourse	_	AlignBegin=100674|AlignEnd=100894|Gloss=like
-20	to	to	ADP	_	_	19	comp:obl	_	AlignBegin=100894|AlignEnd=101114|Gloss=to
+19	like	like	ADP	_	_	20	discourse	_	AlignBegin=100674|AlignEnd=100894|Gloss=like
+20	to	to	ADP	_	_	18	comp:obl@x	_	AlignBegin=100894|AlignEnd=101114|Gloss=to
 21	eat	eat	VERB	_	_	20	comp:obj	_	AlignBegin=101114|AlignEnd=101335|Gloss=eat
 22	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=101335|AlignEnd=101555|Gloss=ACC.SG.3
 23	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=101555|AlignEnd=101555|Gloss=PUNCT
@@ -1006,7 +1007,7 @@
 # text_en = Starch, hm! Starch is what I like.
 # text_ortho = Starch hm, na starch I dey like.
 1	starch	starch	NOUN	_	_	4	dislocated	_	AlignBegin=106130|AlignEnd=106442|Gloss=starch
-2	hm	hm	INTJ	_	_	1	discourse	_	AlignBegin=106442|AlignEnd=106754|Gloss=hm
+2	hm	hm	INTJ	_	_	4	discourse	_	AlignBegin=106442|AlignEnd=106754|Gloss=hm
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=106754|AlignEnd=106754|Gloss=PUNCT
 4	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=106754|AlignEnd=107066|Gloss=be.COP
 5	starch	starch	NOUN	_	_	4	comp:pred	_	AlignBegin=107066|AlignEnd=107379|Gloss=starch
@@ -1089,7 +1090,7 @@
 1	dis	dis	DET	_	Number=Sing|PronType=Dem	2	det	_	AlignBegin=115300|AlignEnd=115503|Gloss=SG.PROX.DEM
 2	morning	morning	NOUN	_	_	4	mod:periph	_	AlignBegin=115503|AlignEnd=115707|Gloss=morning
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=115707|AlignEnd=115707|Gloss=PUNCT
-4	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=115707|AlignEnd=115910|Gloss=what.Q
+4	wetin	wetin	PRON	_	PronType=Int	0	root	6:@comp	AlignBegin=115707|AlignEnd=115910|Gloss=what.Q
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=115910|AlignEnd=116113|Gloss=NOM.2
 6	eat	eat	VERB	_	_	4	comp:cleft	_	AlignBegin=116113|AlignEnd=116317|Gloss=eat
 7	before	before	ADP	_	_	6	mod	_	AlignBegin=116317|AlignEnd=116520|Gloss=before
@@ -1134,7 +1135,7 @@
 # text_en = Why didn't you drink tea?
 # text_ortho = Hehe why you no drink tea?
 1	hehe	hehe	INTJ	_	_	2	discourse	_	AlignBegin=123210|AlignEnd=123473|Gloss=hehe
-2	why	why	ADV	_	PronType=Int	0	root	_	AlignBegin=123473|AlignEnd=123737|Gloss=why.Q
+2	why	why	ADV	_	PronType=Int	0	root	5:@mod	AlignBegin=123473|AlignEnd=123737|Gloss=why.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=123737|AlignEnd=124000|Gloss=NOM.2
 4	no	no	PART	_	Polarity=Neg	5	mod	_	AlignBegin=124000|AlignEnd=124263|Gloss=NEG
 5	drink	drink	VERB	_	_	2	comp:cleft	_	AlignBegin=124263|AlignEnd=124527|Gloss=drink
@@ -1199,7 +1200,7 @@
 # text_en = What did you eat before you went to bed?
 # text_ortho = Okay wetin you eat before you sleep for di night,
 1	okay	OK	INTJ	_	_	2	discourse	_	AlignBegin=129285|AlignEnd=129522|Gloss=OK
-2	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=129522|AlignEnd=129758|Gloss=what.Q
+2	wetin	wetin	PRON	_	PronType=Int	0	root	4:@comp	AlignBegin=129522|AlignEnd=129758|Gloss=what.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=129758|AlignEnd=129994|Gloss=NOM.2
 4	eat	eat	VERB	_	_	2	comp:cleft	_	AlignBegin=129994|AlignEnd=130231|Gloss=eat
 5	before	before	ADP	_	_	4	mod	_	AlignBegin=130231|AlignEnd=130468|Gloss=before
@@ -1308,7 +1309,7 @@
 2	hear	hear	VERB	_	_	0	root	_	AlignBegin=145292|AlignEnd=145543|Gloss=hear
 3	any	any	DET	_	_	4	det	_	AlignBegin=145543|AlignEnd=145795|Gloss=any
 4	news	news	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=145795|AlignEnd=146047|Gloss=news.PL
-5	for	for	ADP	_	_	2	comp:obl	_	AlignBegin=146047|AlignEnd=146298|Gloss=for
+5	for	for	ADP	_	_	4	mod	_	AlignBegin=146047|AlignEnd=146298|Gloss=for
 6	area	area	NOUN	_	_	5	comp:obj	_	AlignBegin=146298|AlignEnd=146550|Gloss=area
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=146550|AlignEnd=146550|Gloss=PUNCT
 
@@ -1345,8 +1346,8 @@
 14	[	[	PUNCT	_	_	16	punct	_	AlignBegin=150036|AlignEnd=150036|Gloss=PUNCT
 15	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	subj	_	AlignBegin=150036|AlignEnd=150284|Gloss=NOM.PL.3
 16	wan	want	VERB	_	_	13	parataxis:obj	_	AlignBegin=150284|AlignEnd=150532|Gloss=want
-17	come	come	VERB	_	_	16	comp:obj	_	AlignBegin=150532|AlignEnd=150780|Gloss=come
-18	cut	cut	VERB	_	_	17	comp:obj	_	AlignBegin=150780|AlignEnd=151029|Gloss=cut
+17	come	come	AUX	_	Aspect=Cons	16	comp:obj@x	_	AlignBegin=150532|AlignEnd=150780|Gloss=CONS
+18	cut	cut	VERB	_	_	17	comp:aux	_	AlignBegin=150780|AlignEnd=151029|Gloss=cut
 19	light	light	NOUN	_	_	18	comp:obj	_	AlignBegin=151029|AlignEnd=151277|Gloss=light
 20	tomorrow	tomorrow	NOUN	_	_	18	mod	_	AlignBegin=151277|AlignEnd=151525|Gloss=tomorrow
 21	]	]	PUNCT	_	_	16	punct	_	AlignBegin=151525|AlignEnd=151525|Gloss=PUNCT
@@ -1382,8 +1383,8 @@
 3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=153852|AlignEnd=153852|Gloss=PUNCT
 4	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	subj	_	AlignBegin=153852|AlignEnd=154049|Gloss=NOM.PL.3
 5	wan	want	VERB	_	_	2	parataxis:obj	_	AlignBegin=154049|AlignEnd=154245|Gloss=want
-6	come	come	VERB	_	_	5	comp:obj	_	AlignBegin=154245|AlignEnd=154441|Gloss=come
-7	cut	cut	VERB	_	_	6	comp:obj	_	AlignBegin=154441|AlignEnd=154638|Gloss=cut
+6	come	con	AUX	_	Aspect=Cons	5	comp:obj@x	_	AlignBegin=154245|AlignEnd=154441|Gloss=CONS
+7	cut	cut	VERB	_	_	6	comp:aux	_	AlignBegin=154441|AlignEnd=154638|Gloss=cut
 8	light	light	NOUN	_	_	7	comp:obj	_	AlignBegin=154638|AlignEnd=154834|Gloss=light
 9	tomorrow	tomorrow	NOUN	_	_	7	mod	_	AlignBegin=154834|AlignEnd=155030|Gloss=tomorrow
 10	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=155030|AlignEnd=155030|Gloss=PUNCT
@@ -1392,20 +1393,20 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__99
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = abeg o //
+# text = abeg o !//
 # text_en = Please.
 # text_ortho = Abeg o.
 1	abeg	abeg	INTJ	_	_	0	root	_	AlignBegin=154520|AlignEnd=154715|Gloss=please
 2	o	o	PART	_	PartType=Disc	1	mod:emph	_	AlignBegin=154715|AlignEnd=154910|Gloss=EMPH
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=154910|AlignEnd=154910|Gloss=PUNCT
+3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=154910|AlignEnd=154910|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__100
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = make dese people no come o because we don tire for dem //
+# text = make dese people no come o because we don tire for dem !//
 # text_en = They shouldn't come because we are tired of them.
 # text_ortho = Make dese people no come o because we don tire for dem.
-1	make	make	VERB	_	_	0	root	_	AlignBegin=154910|AlignEnd=155097|Gloss=make
+1	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=154910|AlignEnd=155097|Gloss=SUBJ
 2	dese	dese	DET	_	Number=Plur|PronType=Dem	3	det	_	AlignBegin=155097|AlignEnd=155283|Gloss=PL.PROX.DEM
 3	people	people	NOUN	_	Number=Plur	5	subj	_	AlignBegin=155283|AlignEnd=155470|Gloss=people.PL
 4	no	no	PART	_	Polarity=Neg	5	mod	_	AlignBegin=155470|AlignEnd=155657|Gloss=NEG
@@ -1417,7 +1418,7 @@
 10	tire	tire	VERB	_	_	9	comp:aux	_	AlignBegin=156590|AlignEnd=156777|Gloss=tire
 11	for	for	ADP	_	_	10	comp:obl	_	AlignBegin=156777|AlignEnd=156963|Gloss=for
 12	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=156963|AlignEnd=157150|Gloss=ACC.PL.3
-13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=157150|AlignEnd=157150|Gloss=PUNCT
+13	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=157150|AlignEnd=157150|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__101
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -1434,7 +1435,7 @@
 7	even	even	ADV	_	_	8	mod	_	AlignBegin=158480|AlignEnd=158690|Gloss=even
 8	get	get	VERB	_	_	0	root	_	AlignBegin=158690|AlignEnd=158900|Gloss=get
 9	money	money	NOUN	_	_	8	comp:obj	_	AlignBegin=158900|AlignEnd=159110|Gloss=money
-10	to	to	ADP	_	_	8	comp:obl	_	AlignBegin=159110|AlignEnd=159320|Gloss=to
+10	to	to	ADP	_	_	9	mod	_	AlignBegin=159110|AlignEnd=159320|Gloss=to
 11	pay	pay	VERB	_	_	10	comp:obj	_	AlignBegin=159320|AlignEnd=159530|Gloss=pay
 12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=159530|AlignEnd=159530|Gloss=PUNCT
 
@@ -1462,7 +1463,7 @@
 2	one	one	NOUN	_	_	0	root	_	AlignBegin=161035|AlignEnd=161270|Gloss=one
 3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=161270|AlignEnd=161505|Gloss=when|gloss=REL
 4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=161505|AlignEnd=161505|Gloss=PUNCT
-5	everywhere	everywhere	ADV	_	_	6	mod	_	AlignBegin=161505|AlignEnd=161740|Gloss=everywhere
+5	everywhere	everywhere	ADV	_	_	6	subj	_	AlignBegin=161505|AlignEnd=161740|Gloss=everywhere
 6	dry	dry	ADJ	_	_	3	comp:obj	_	AlignBegin=161740|AlignEnd=161975|Gloss=dry
 7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=161975|AlignEnd=161975|Gloss=PUNCT
 8	no	no	PART	_	Polarity=Neg	9	mod	_	AlignBegin=161975|AlignEnd=162210|Gloss=NEG
@@ -1488,25 +1489,25 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__105
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = ah abeg o //
+# text = ah abeg o !//
 # text_en = Ah, please!
 # text_ortho = Ah abeg o.
 1	ah	ah	INTJ	_	_	2	discourse	_	AlignBegin=163715|AlignEnd=164077|Gloss=ah
 2	abeg	abeg	INTJ	_	_	0	root	_	AlignBegin=164077|AlignEnd=164438|Gloss=please
 3	o	o	PART	_	PartType=Disc	2	mod:emph	_	AlignBegin=164438|AlignEnd=164800|Gloss=EMPH
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=164800|AlignEnd=164800|Gloss=PUNCT
+4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=164800|AlignEnd=164800|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__106
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = make dem no come //
+# text = make dem no come !//
 # text_en = Don't let them come.
 # text_ortho = Make dem no come.
 1	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=164800|AlignEnd=164989|Gloss=SBJV
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=164989|AlignEnd=165178|Gloss=NOM.PL.3
 3	no	no	PART	_	Polarity=Neg	4	mod	_	AlignBegin=165178|AlignEnd=165366|Gloss=NEG
 4	come	come	VERB	_	_	1	comp:aux	_	AlignBegin=165366|AlignEnd=165555|Gloss=come
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=165555|AlignEnd=165555|Gloss=PUNCT
+5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=165555|AlignEnd=165555|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__107
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -1514,14 +1515,14 @@
 # text = because if de come < dat means na all di whole area >+ dem go cut deir light o //
 # text_en = Because if they come, it means it's the whole area that will have their lights disconnected.
 # text_ortho = Because if de come, dat means na all di whole area dem go cut deir light o.
-1	because	because	SCONJ	_	_	8	cc	_	AlignBegin=165610|AlignEnd=165798|Gloss=because
-2	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=165798|AlignEnd=165985|Gloss=if
+1	because	because	SCONJ	_	_	7	cc	_	AlignBegin=165610|AlignEnd=165798|Gloss=because
+2	if	if	SCONJ	_	_	7	mod:periph	_	AlignBegin=165798|AlignEnd=165985|Gloss=if
 3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=165985|AlignEnd=166173|Gloss=NOM.PL.3
 4	come	come	VERB	_	_	2	comp:obj	_	AlignBegin=166173|AlignEnd=166361|Gloss=come
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=166361|AlignEnd=166361|Gloss=PUNCT
 6	dat	dat	PRON	_	Number=Sing|PronType=Dem	7	subj	_	AlignBegin=166361|AlignEnd=166548|Gloss=SG.DEM
-7	means	mean	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:discourse	_	AlignBegin=166548|AlignEnd=166736|Gloss=mean.IND.SG.3.PRS.FIN
-8	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=166736|AlignEnd=166924|Gloss=be.COP
+7	means	mean	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=166548|AlignEnd=166736|Gloss=mean.IND.SG.3.PRS.FIN
+8	na	na	PART	_	PartType=Cop	7	comp:obj	_	AlignBegin=166736|AlignEnd=166924|Gloss=be.COP
 9	all	all	ADV	_	_	12	det	_	AlignBegin=166924|AlignEnd=167111|Gloss=all
 10	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=167111|AlignEnd=167299|Gloss=DEF.ART
 11	whole	whole	ADJ	_	_	12	mod	_	AlignBegin=167299|AlignEnd=167486|Gloss=whole
@@ -1552,7 +1553,7 @@
 # text_en = Because people don't have money.
 # text_ortho = Because people no, no money.
 1	because	because	SCONJ	_	_	8	cc	_	AlignBegin=169130|AlignEnd=169660|Gloss=because
-2	people	people	NOUN	_	Number=Plur	8	subj	_	AlignBegin=169660|AlignEnd=170190|Gloss=people.PL
+2	people	people	NOUN	_	Number=Plur	8	dislocated	_	AlignBegin=169660|AlignEnd=170190|Gloss=people.PL
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=170190|AlignEnd=170190|Gloss=PUNCT
 4	no	no	PART	_	Polarity=Neg	8	mod	_	AlignBegin=170190|AlignEnd=170720|Gloss=NEG
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=170720|AlignEnd=170720|Gloss=PUNCT
@@ -1599,18 +1600,18 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__113
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = ah abeg kai //
+# text = ah abeg kai !//
 # text_en = Please.
 # text_ortho = Ah abeg kai.
 1	ah	ah	INTJ	_	_	2	discourse	_	AlignBegin=171910|AlignEnd=172813|Gloss=ah
 2	abeg	abeg	INTJ	_	_	0	root	_	AlignBegin=172813|AlignEnd=173717|Gloss=please
 3	kai	kai	INTJ	_	_	2	discourse	_	AlignBegin=173717|AlignEnd=174620|Gloss=please!
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=174620|AlignEnd=174620|Gloss=PUNCT
+4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=174620|AlignEnd=174620|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__114
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = hm meh NEPA no try us o //
+# text = hm meh NEPA no try us o !//
 # text_en = NEPA should not try us.
 # text_ortho = Hm meh NEPA no try us o.
 1	hm	hm	INTJ	_	_	2	discourse	_	AlignBegin=175085|AlignEnd=175406|Gloss=hm
@@ -1620,7 +1621,7 @@
 5	try	try	VERB	_	_	2	comp:aux	_	AlignBegin=176368|AlignEnd=176689|Gloss=try
 6	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=176689|AlignEnd=177009|Gloss=ACC.PL.1
 7	o	o	PART	_	PartType=Disc	6	mod:emph	_	AlignBegin=177009|AlignEnd=177330|Gloss=EMPH
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=177330|AlignEnd=177330|Gloss=PUNCT
+8	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=177330|AlignEnd=177330|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__115
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -1670,7 +1671,7 @@
 12	go	go	VERB	_	_	5	comp:obj	_	AlignBegin=202910|AlignEnd=203312|Gloss=go
 13	market	market	NOUN	_	_	12	comp:obj	_	AlignBegin=203312|AlignEnd=203714|Gloss=market
 14	next	next	ADJ	_	_	16	mod	_	AlignBegin=203714|AlignEnd=204116|Gloss=next
-15	market	market	NOUN	_	_	14	compound	_	AlignBegin=204116|AlignEnd=204518|Gloss=market
+15	market	market	NOUN	_	_	16	compound	_	AlignBegin=204116|AlignEnd=204518|Gloss=market
 16	day	day	NOUN	_	_	12	mod	_	AlignBegin=204518|AlignEnd=204920|Gloss=day
 17	//	//	PUNCT	_	_	4	punct	_	AlignBegin=204920|AlignEnd=204920|Gloss=PUNCT
 
@@ -1686,17 +1687,15 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__119
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = { Gwagwalada Market |c abi Kwali } ?//
+# text = Gwagwalada Market |c abi Kwali ?//
 # text_en = Gwagwalada Market or Kwali?
 # text_ortho = Gwagwalada Market, abi Kwali?
-1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=205920|AlignEnd=205920|Gloss=PUNCT
-2	Gwagwalada	Gwagwalada	PROPN	_	_	3	compound	_	AlignBegin=205920|AlignEnd=206329|Gloss=Gwagwalada
-3	Market	market	NOUN	_	_	0	root	_	AlignBegin=206329|AlignEnd=206738|Gloss=market
-4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=206738|AlignEnd=206738|Gloss=PUNCT
-5	abi	abi	CCONJ	_	_	6	cc	_	AlignBegin=206738|AlignEnd=207146|Gloss=or
-6	Kwali	Kwali	PROPN	_	_	3	flat	_	AlignBegin=207146|AlignEnd=207555|Gloss=Kwali
-7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=207555|AlignEnd=207555|Gloss=PUNCT
-8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=207555|AlignEnd=207555|Gloss=PUNCT
+1	Gwagwalada	Gwagwalada	PROPN	_	_	2	compound	_	AlignBegin=205920|AlignEnd=206329|Gloss=Gwagwalada
+2	Market	market	NOUN	_	_	0	root	_	AlignBegin=206329|AlignEnd=206738|Gloss=market
+3	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=206738|AlignEnd=206738|Gloss=PUNCT
+4	abi	abi	CCONJ	_	_	5	cc	_	AlignBegin=206738|AlignEnd=207146|Gloss=or
+5	Kwali	Kwali	PROPN	_	_	2	conj:coord	_	AlignBegin=207146|AlignEnd=207555|Gloss=Kwali
+6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=207555|AlignEnd=207555|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__120
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -1718,7 +1717,7 @@
 # text_en = What day is Kwali Market?
 # text_ortho = Which day be Kwali market?
 1	which	which	DET	_	PronType=Int	2	det	_	AlignBegin=208910|AlignEnd=209175|Gloss=which
-2	day	day	NOUN	_	_	0	root	_	AlignBegin=209175|AlignEnd=209440|Gloss=day
+2	day	day	NOUN	_	_	0	root	5:@comp	AlignBegin=209175|AlignEnd=209440|Gloss=day
 3	be	be	VERB	_	PartType=Cop	2	comp:cleft	_	AlignBegin=209440|AlignEnd=209705|Gloss=be.COP
 4	Kwali	Kwali	PROPN	_	_	5	mod	_	AlignBegin=209705|AlignEnd=209970|Gloss=Kwali
 5	market	market	NOUN	_	_	3	subj	_	AlignBegin=209970|AlignEnd=210235|Gloss=market
@@ -1763,7 +1762,7 @@
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=212807|AlignEnd=213018|Gloss=NOM.PL.1
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=213018|AlignEnd=213230|Gloss=CONT
 4	try	try	VERB	_	_	3	comp:aux	_	AlignBegin=213230|AlignEnd=213442|Gloss=try
-5	go	go	VERB	_	_	4	comp:obj	_	AlignBegin=213442|AlignEnd=213653|Gloss=go
+5	go	go	VERB	_	_	4	comp:obj@x	_	AlignBegin=213442|AlignEnd=213653|Gloss=go
 6	o	o	PART	_	PartType=Disc	5	mod:emph	_	AlignBegin=213653|AlignEnd=213865|Gloss=EMPH
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=213865|AlignEnd=213865|Gloss=PUNCT
 
@@ -1773,11 +1772,11 @@
 # text = wetin you wan go buy now ?//
 # text_en = What do you want to go buy?
 # text_ortho = Wetin you wan go buy now?
-1	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=214945|AlignEnd=215155|Gloss=what.Q
+1	wetin	wetin	PRON	_	PronType=Int	0	root	5:@comp	AlignBegin=214945|AlignEnd=215155|Gloss=what.Q
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=215155|AlignEnd=215365|Gloss=NOM.2
 3	wan	want	VERB	_	_	1	comp:cleft	_	AlignBegin=215365|AlignEnd=215575|Gloss=want
-4	go	go	VERB	_	_	3	comp:obj	_	AlignBegin=215575|AlignEnd=215785|Gloss=go
-5	buy	buy	VERB	_	_	4	comp:obj	_	AlignBegin=215785|AlignEnd=215995|Gloss=buy
+4	go	go	VERB	_	_	3	comp:obj@x	_	AlignBegin=215575|AlignEnd=215785|Gloss=go
+5	buy	buy	VERB	_	_	4	comp:obj@x	_	AlignBegin=215785|AlignEnd=215995|Gloss=buy
 6	now	now	ADV	_	_	5	mod	_	AlignBegin=215995|AlignEnd=216205|Gloss=now
 7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=216205|AlignEnd=216205|Gloss=PUNCT
 
@@ -1801,8 +1800,8 @@
 # text_ortho = I wan go buy shop tins,
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=216450|AlignEnd=216802|Gloss=NOM.SG.1
 2	wan	want	VERB	_	_	0	root	_	AlignBegin=216802|AlignEnd=217153|Gloss=want
-3	go	go	VERB	_	_	2	comp:obj	_	AlignBegin=217153|AlignEnd=217505|Gloss=go
-4	buy	buy	VERB	_	_	3	comp:obj	_	AlignBegin=217505|AlignEnd=217857|Gloss=buy
+3	go	go	VERB	_	_	2	comp:obj@x	_	AlignBegin=217153|AlignEnd=217505|Gloss=go
+4	buy	buy	VERB	_	_	3	comp:obj@x	_	AlignBegin=217505|AlignEnd=217857|Gloss=buy
 5	shop	shop	NOUN	_	_	6	compound	_	AlignBegin=217857|AlignEnd=218208|Gloss=shop
 6	tins	ting	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=218208|AlignEnd=218560|Gloss=thing.PL
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=218560|AlignEnd=218560|Gloss=PUNCT
@@ -1835,14 +1834,14 @@
 # text_ortho = I wan make me, and you go,
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=221070|AlignEnd=221203|Gloss=NOM.SG.1
 2	wan	want	VERB	_	_	0	root	_	AlignBegin=221203|AlignEnd=221336|Gloss=want
-3	make	make	VERB	_	_	2	comp:obj	_	AlignBegin=221336|AlignEnd=221469|Gloss=make
+3	make	make	AUX	_	Mood=Opt	2	comp:obj	_	AlignBegin=221336|AlignEnd=221469|Gloss=SBJV
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=221469|AlignEnd=221469|Gloss=PUNCT
-5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=221469|AlignEnd=221601|Gloss=ACC.SG.1
+5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=221469|AlignEnd=221601|Gloss=ACC.SG.1
 6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=221601|AlignEnd=221601|Gloss=PUNCT
 7	and	and	CCONJ	_	_	8	cc	_	AlignBegin=221601|AlignEnd=221734|Gloss=and
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	conj:coord	_	AlignBegin=221734|AlignEnd=221867|Gloss=NOM.2
 9	}	}	PUNCT	_	_	5	punct	_	AlignBegin=221867|AlignEnd=221867|Gloss=PUNCT
-10	go	go	VERB	_	_	3	comp:obj	_	AlignBegin=221867|AlignEnd=222000|Gloss=go
+10	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=221867|AlignEnd=222000|Gloss=go
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=222000|AlignEnd=222000|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__131
@@ -1851,9 +1850,9 @@
 # text = like what ?//
 # text_en = Like what?
 # text_ortho = Like what?
-1	like	like	ADP	_	_	2	discourse	_	AlignBegin=222040|AlignEnd=222445|Gloss=like
-2	what	what	PRON	_	PronType=Int	0	root	_	AlignBegin=222445|AlignEnd=222850|Gloss=what.Q
-3	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=222850|AlignEnd=222850|Gloss=PUNCT
+1	like	like	ADP	_	_	0	root	_	AlignBegin=222040|AlignEnd=222445|Gloss=like
+2	what	what	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=222445|AlignEnd=222850|Gloss=what.Q
+3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=222850|AlignEnd=222850|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__132
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -1861,9 +1860,9 @@
 # text = like shampoo //
 # text_en = Like shampoo...
 # text_ortho = Like shampoo,
-1	like	like	ADP	_	_	2	discourse	_	AlignBegin=223225|AlignEnd=224312|Gloss=like
-2	shampoo	shampoo	NOUN	_	_	0	root	_	AlignBegin=224312|AlignEnd=225400|Gloss=shampoo
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=225400|AlignEnd=225400|Gloss=PUNCT
+1	like	like	ADP	_	_	0	root	_	AlignBegin=223225|AlignEnd=224312|Gloss=like
+2	shampoo	shampoo	NOUN	_	_	1	comp:obj	_	AlignBegin=224312|AlignEnd=225400|Gloss=shampoo
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=225400|AlignEnd=225400|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__133
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -1989,8 +1988,8 @@
 1	if	if	SCONJ	_	_	7	mod:periph	_	AlignBegin=236530|AlignEnd=236696|Gloss=if
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=236696|AlignEnd=236862|Gloss=NOM.PL.1
 3	go	go	VERB	_	_	1	comp:obj	_	AlignBegin=236862|AlignEnd=237028|Gloss=go
-4	toh	toh	INTJ	_	_	3	discourse	_	AlignBegin=237028|AlignEnd=237194|Gloss=alright
-5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=237194|AlignEnd=237194|Gloss=PUNCT
+4	toh	toh	INTJ	_	_	7	discourse	_	AlignBegin=237028|AlignEnd=237194|Gloss=alright
+5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=237194|AlignEnd=237194|Gloss=PUNCT
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	subj	_	AlignBegin=237194|AlignEnd=237359|Gloss=NOM.PL.1
 7	would	would	AUX	_	_	0	root	_	AlignBegin=237359|AlignEnd=237525|Gloss=will.COND
 8	just	just	ADV	_	_	9	mod	_	AlignBegin=237525|AlignEnd=237691|Gloss=just
@@ -2025,25 +2024,25 @@
 1	when	when	SCONJ	_	_	7	mod:periph	_	AlignBegin=240910|AlignEnd=241086|Gloss=when.Q
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=241086|AlignEnd=241261|Gloss=NOM.SG.1
 3	wan	want	VERB	_	_	1	comp:obj	_	AlignBegin=241261|AlignEnd=241437|Gloss=want
-4	go	go	VERB	_	_	3	comp:obj	_	AlignBegin=241437|AlignEnd=241612|Gloss=go
+4	go	go	VERB	_	_	3	comp:obj@x	_	AlignBegin=241437|AlignEnd=241612|Gloss=go
 5	<+	<+	PUNCT	_	_	1	punct	_	AlignBegin=241612|AlignEnd=241612|Gloss=PUNCT
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=241612|AlignEnd=241788|Gloss=NOM.SG.1
 7	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=241788|AlignEnd=241963|Gloss=CONT
-8	come	con	AUX	_	Aspect=Cons	7	comp:aux	_	AlignBegin=241963|AlignEnd=242139|Gloss=CONS
-9	call	call	VERB	_	_	8	comp:obj	_	AlignBegin=242139|AlignEnd=242314|Gloss=call
+8	come	come	VERB	_	_	7	comp:aux	_	AlignBegin=241963|AlignEnd=242139|Gloss=come
+9	call	call	VERB	_	_	8	comp:obj@x	_	AlignBegin=242139|AlignEnd=242314|Gloss=call
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=242314|AlignEnd=242490|Gloss=NOM.2
 11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=242490|AlignEnd=242490|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__145
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = okay no wahala //
+# text = okay no wahala !//
 # text_en = Okay, no problem.
 # text_ortho = Okay no wahala.
 1	okay	OK	INTJ	_	_	3	discourse	_	AlignBegin=242395|AlignEnd=242653|Gloss=OK
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=242653|AlignEnd=242912|Gloss=NEG
 3	wahala	wahala	NOUN	_	_	0	root	_	AlignBegin=242912|AlignEnd=243170|Gloss=trouble
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=243170|AlignEnd=243170|Gloss=PUNCT
+4	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=243170|AlignEnd=243170|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__146
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2054,7 +2053,7 @@
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=243170|AlignEnd=243398|Gloss=NOM.SG.1
 2	go	go	VERB	_	_	0	root	_	AlignBegin=243398|AlignEnd=243625|Gloss=go
 3	house	house	NOUN	_	_	2	comp:obj	_	AlignBegin=243625|AlignEnd=243852|Gloss=house
-4	dey	dey	AUX	_	Aspect=Imp	2	mod	_	AlignBegin=243852|AlignEnd=244080|Gloss=IPFV
+4	dey	dey	AUX	_	Aspect=Imp	2	comp:obj@x	_	AlignBegin=243852|AlignEnd=244080|Gloss=IPFV
 5	wait	wait	VERB	_	_	4	comp:aux	_	AlignBegin=244080|AlignEnd=244308|Gloss=wait
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=244308|AlignEnd=244535|Gloss=NOM.2
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=244535|AlignEnd=244535|Gloss=PUNCT
@@ -2062,13 +2061,13 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__147
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = no problem now //
+# text = no problem now !//
 # text_en = No problem then.
 # text_ortho = No problem now.
 1	no	no	PART	_	Polarity=Neg	2	mod	_	AlignBegin=244430|AlignEnd=244787|Gloss=NEG
 2	problem	problem	NOUN	_	_	0	root	_	AlignBegin=244787|AlignEnd=245143|Gloss=problem
 3	now	now	ADV	_	_	2	mod:emph	_	AlignBegin=245143|AlignEnd=245500|Gloss=now
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=245500|AlignEnd=245500|Gloss=PUNCT
+4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=245500|AlignEnd=245500|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__148
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2082,7 +2081,7 @@
 4	mey	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=245858|AlignEnd=246067|Gloss=SBJV
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=246067|AlignEnd=246276|Gloss=NOM.SG.1
 6	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=246276|AlignEnd=246484|Gloss=go
-7	hustle	hustle	VERB	_	_	6	comp:obj	_	AlignBegin=246484|AlignEnd=246693|Gloss=struggle
+7	hustle	hustle	VERB	_	_	6	comp:obj@x	_	AlignBegin=246484|AlignEnd=246693|Gloss=struggle
 8	for	for	ADP	_	_	7	comp:obl	_	AlignBegin=246693|AlignEnd=246902|Gloss=for
 9	money	money	NOUN	_	_	8	comp:obj	_	AlignBegin=246902|AlignEnd=247111|Gloss=money
 10	so	so	SCONJ	_	_	7	mod	_	AlignBegin=247111|AlignEnd=247320|Gloss=so
@@ -2101,12 +2100,12 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__149
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = no problem //
+# text = no problem !//
 # text_en = No problem.
 # text_ortho = No problem.
 1	no	no	PART	_	Polarity=Neg	2	mod	_	AlignBegin=249305|AlignEnd=249738|Gloss=NEG
 2	problem	problem	NOUN	_	_	0	root	_	AlignBegin=249738|AlignEnd=250170|Gloss=problem
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=250170|AlignEnd=250170|Gloss=PUNCT
+3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=250170|AlignEnd=250170|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__150
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2134,7 +2133,7 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__152
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = dat your number wey give me { last || eh last } week < shebi na di number >+ you still dey use ?//
+# text = dat your number wey give me { last || eh last } week < shebi na di number you still dey use ?//
 # text_en = Your number that you gave me last week, it's still the number you're using, right?
 # text_ortho = Dat your number wey give me last, eh last week, shebi na di number you still dey use?
 1	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=252340|AlignEnd=252572|Gloss=SG.DIST.DEM
@@ -2155,12 +2154,11 @@
 16	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=254888|AlignEnd=255120|Gloss=be.COP
 17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=255120|AlignEnd=255352|Gloss=DEF.ART
 18	number	number	NOUN	_	_	16	comp:pred	_	AlignBegin=255352|AlignEnd=255583|Gloss=number
-19	>+	>+	PUNCT	_	_	22	punct	_	AlignBegin=255583|AlignEnd=255583|Gloss=PUNCT
-20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	22	subj	_	AlignBegin=255583|AlignEnd=255815|Gloss=NOM.2
-21	still	still	ADV	_	_	22	mod	_	AlignBegin=255815|AlignEnd=256047|Gloss=still
-22	dey	dey	AUX	_	Aspect=Imp	16	comp:cleft	_	AlignBegin=256047|AlignEnd=256278|Gloss=IPFV
-23	use	use	VERB	_	_	22	comp:aux	_	AlignBegin=256278|AlignEnd=256510|Gloss=use
-24	?//	?//	PUNCT	_	_	16	punct	_	AlignBegin=256510|AlignEnd=256510|Gloss=PUNCT
+19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	subj	_	AlignBegin=255583|AlignEnd=255815|Gloss=NOM.2
+20	still	still	ADV	_	_	21	mod	_	AlignBegin=255815|AlignEnd=256047|Gloss=still
+21	dey	dey	AUX	_	Aspect=Imp	18	mod@relcl	_	AlignBegin=256047|AlignEnd=256278|Gloss=IPFV
+22	use	use	VERB	_	_	21	comp:aux	_	AlignBegin=256278|AlignEnd=256510|Gloss=use
+23	?//	?//	PUNCT	_	_	16	punct	_	AlignBegin=256510|AlignEnd=256510|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__153
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2213,7 +2211,7 @@
 # text = ayah na network //
 # text_en = It's the network.
 # text_ortho = Ayah na network.
-1	ayah	aya	INTJ	_	_	2	cc	_	AlignBegin=259460|AlignEnd=259787|Gloss=surprise
+1	ayah	aya	INTJ	_	_	2	discourse	_	AlignBegin=259460|AlignEnd=259787|Gloss=surprise
 2	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=259787|AlignEnd=260113|Gloss=be.COP
 3	network	network	NOUN	_	_	2	comp:pred	_	AlignBegin=260113|AlignEnd=260440|Gloss=network
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=260440|AlignEnd=260440|Gloss=PUNCT
@@ -2251,7 +2249,7 @@
 3	flash	flash	VERB	_	_	2	comp:aux	_	AlignBegin=263717|AlignEnd=263948|Gloss=flash
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=263948|AlignEnd=264179|Gloss=NOM.2
 5	with	wit	ADP	_	_	3	comp:obl	_	AlignBegin=264179|AlignEnd=264410|Gloss=with
-6	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	7	mod	_	AlignBegin=264410|AlignEnd=264640|Gloss=SG.1.POSS
+6	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	7	mod:poss	_	AlignBegin=264410|AlignEnd=264640|Gloss=SG.1.POSS
 7	number	number	NOUN	_	_	5	comp:obj	_	AlignBegin=264640|AlignEnd=264871|Gloss=number
 8	before	before	ADP	_	_	3	mod	_	AlignBegin=264871|AlignEnd=265102|Gloss=before
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	subj	_	AlignBegin=265102|AlignEnd=265333|Gloss=NOM.PL.1
@@ -2262,13 +2260,13 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__160
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = no problem now //
+# text = no problem now !//
 # text_en = No problem then.
 # text_ortho = No problem now.
 1	no	no	PART	_	Polarity=Neg	2	mod	_	AlignBegin=264880|AlignEnd=265207|Gloss=NEG
 2	problem	problem	NOUN	_	_	0	root	_	AlignBegin=265207|AlignEnd=265533|Gloss=problem
 3	now	now	ADV	_	_	2	mod:emph	_	AlignBegin=265533|AlignEnd=265860|Gloss=now
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=265860|AlignEnd=265860|Gloss=PUNCT
+4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=265860|AlignEnd=265860|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__161
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2289,7 +2287,7 @@
 # text_en = What church do you go to?
 # text_ortho = Which church you dey go now?
 1	which	which	DET	_	PronType=Int	2	det	_	AlignBegin=270345|AlignEnd=270585|Gloss=which
-2	church	church	NOUN	_	_	0	root	_	AlignBegin=270585|AlignEnd=270825|Gloss=church
+2	church	church	NOUN	_	_	0	root	5:@comp	AlignBegin=270585|AlignEnd=270825|Gloss=church
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=270825|AlignEnd=271065|Gloss=NOM.2
 4	dey	dey	AUX	_	Aspect=Imp	2	comp:cleft	_	AlignBegin=271065|AlignEnd=271305|Gloss=IPFV
 5	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=271305|AlignEnd=271545|Gloss=go
@@ -2351,7 +2349,7 @@
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=276460|AlignEnd=276708|Gloss=NOM.SG.1
 4	don	don	AUX	_	Aspect=Perf	0	root	_	AlignBegin=276708|AlignEnd=276955|Gloss=PRF
 5	comot	comot	VERB	_	_	4	comp:aux	_	AlignBegin=276955|AlignEnd=277202|Gloss=get_out
-6	jor	jor	INTJ	_	_	5	comp:obj	_	AlignBegin=277202|AlignEnd=277450|Gloss=please
+6	jor	jor	INTJ	_	_	5	mod:emph	_	AlignBegin=277202|AlignEnd=277450|Gloss=please
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=277450|AlignEnd=277450|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__168
@@ -2373,7 +2371,7 @@
 # text_en = How is the church?
 # text_ortho = Eyah how di church now?
 1	eyah	eya	INTJ	_	_	2	discourse	_	AlignBegin=278500|AlignEnd=278734|Gloss=(pity)
-2	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=278734|AlignEnd=278968|Gloss=how.Q
+2	how	how	ADV	_	PronType=Int	0	root	4:@comp	AlignBegin=278734|AlignEnd=278968|Gloss=how.Q
 3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=278968|AlignEnd=279202|Gloss=DEF.ART
 4	church	church	NOUN	_	_	2	comp:cleft	_	AlignBegin=279202|AlignEnd=279436|Gloss=church
 5	now	now	ADV	_	_	4	mod:emph	_	AlignBegin=279436|AlignEnd=279670|Gloss=now
@@ -2448,7 +2446,7 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__175
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = hm we get eh { third || di third || eh Friday || third Friday } of di month //
+# text = hm we get eh { third || di third eh Friday || third Friday } of di month //
 # text_en = Uh... we have one on the third... the third uh... Friday of the month.
 # text_ortho = Hm we get eh third, di third, eh Friday, third Friday of di month.
 1	hm	hm	INTJ	_	_	3	discourse	_	AlignBegin=286207|AlignEnd=286691|Gloss=hm
@@ -2457,20 +2455,19 @@
 4	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=287660|AlignEnd=288144|Gloss=eh
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=288144|AlignEnd=288144|Gloss=PUNCT
 6	third	third	ADJ	_	NumType=Ord	3	comp:obj	_	AlignBegin=288144|AlignEnd=288628|Gloss=third.ORD
-7	||	||	PUNCT	_	_	9	punct	_	AlignBegin=288628|AlignEnd=288628|Gloss=PUNCT
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=288628|AlignEnd=289112|Gloss=DEF.ART
-9	third	third	ADJ	_	NumType=Ord	6	conj:coord	_	AlignBegin=289112|AlignEnd=289596|Gloss=third.ORD
-10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=289596|AlignEnd=289596|Gloss=PUNCT
-11	eh	eh	INTJ	_	_	12	discourse	_	AlignBegin=289596|AlignEnd=290081|Gloss=eh
-12	Friday	Friday	PROPN	_	_	9	conj:dicto	_	AlignBegin=290081|AlignEnd=290565|Gloss=Friday
-13	||	||	PUNCT	_	_	15	punct	_	AlignBegin=290565|AlignEnd=290565|Gloss=PUNCT
-14	third	third	ADJ	_	NumType=Ord	15	compound	_	AlignBegin=290565|AlignEnd=291049|Gloss=third.ORD
-15	Friday	Friday	PROPN	_	_	12	conj:dicto	_	AlignBegin=291049|AlignEnd=291533|Gloss=Friday
-16	}	}	PUNCT	_	_	6	punct	_	AlignBegin=291533|AlignEnd=291533|Gloss=PUNCT
-17	of	of	ADP	_	_	15	mod	_	AlignBegin=291533|AlignEnd=292018|Gloss=of
-18	di	the	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=292018|AlignEnd=292502|Gloss=DEF.ART
-19	month	month	NOUN	_	_	17	comp:obj	_	AlignBegin=292502|AlignEnd=292986|Gloss=month
-20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=292986|AlignEnd=292986|Gloss=PUNCT
+7	||	||	PUNCT	_	_	11	punct	_	AlignBegin=288628|AlignEnd=288628|Gloss=PUNCT
+8	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=288628|AlignEnd=289112|Gloss=DEF.ART
+9	third	third	ADJ	_	NumType=Ord	11	mod	_	AlignBegin=289112|AlignEnd=289596|Gloss=third.ORD
+10	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=289596|AlignEnd=290081|Gloss=eh
+11	Friday	Friday	PROPN	_	_	6	conj:dicto	_	AlignBegin=290081|AlignEnd=290565|Gloss=Friday
+12	||	||	PUNCT	_	_	14	punct	_	AlignBegin=290565|AlignEnd=290565|Gloss=PUNCT
+13	third	third	ADJ	_	NumType=Ord	14	mod	_	AlignBegin=290565|AlignEnd=291049|Gloss=third.ORD
+14	Friday	Friday	PROPN	_	_	11	conj:dicto	_	AlignBegin=291049|AlignEnd=291533|Gloss=Friday
+15	}	}	PUNCT	_	_	6	punct	_	AlignBegin=291533|AlignEnd=291533|Gloss=PUNCT
+16	of	of	ADP	_	_	14	mod	_	AlignBegin=291533|AlignEnd=292018|Gloss=of
+17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=292018|AlignEnd=292502|Gloss=DEF.ART
+18	month	month	NOUN	_	_	16	comp:obj	_	AlignBegin=292502|AlignEnd=292986|Gloss=month
+19	//	//	PUNCT	_	_	3	punct	_	AlignBegin=292986|AlignEnd=292986|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__176
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2544,7 +2541,7 @@
 # text_ortho = Ah my sister, no be small tin.
 1	ah	ah	INTJ	_	_	6	discourse	_	AlignBegin=296596|AlignEnd=296868|Gloss=ah
 2	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	3	mod	_	AlignBegin=296868|AlignEnd=297140|Gloss=SG.1.POSS
-3	sister	sista	NOUN	_	_	6	dislocated	_	AlignBegin=297140|AlignEnd=297412|Gloss=sister
+3	sister	sista	NOUN	_	_	6	vocative	_	AlignBegin=297140|AlignEnd=297412|Gloss=sister
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=297412|AlignEnd=297412|Gloss=PUNCT
 5	no	no	PART	_	Polarity=Neg	6	mod	_	AlignBegin=297412|AlignEnd=297684|Gloss=NEG
 6	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=297684|AlignEnd=297956|Gloss=be.COP
@@ -2588,18 +2585,18 @@
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=299650|AlignEnd=299946|Gloss=NOM.SG.1
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=299946|AlignEnd=300243|Gloss=CONT
 3	try	try	VERB	_	_	2	comp:aux	_	AlignBegin=300243|AlignEnd=300540|Gloss=try
-4	come	come	VERB	_	_	3	comp:obj	_	AlignBegin=300540|AlignEnd=300836|Gloss=come
+4	come	come	VERB	_	_	3	comp:obj@x	_	AlignBegin=300540|AlignEnd=300836|Gloss=come
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=300836|AlignEnd=300836|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__185
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = come now //
+# text = come now !//
 # text_en = Come then.
 # text_ortho = Come now.
 1	come	come	VERB	_	_	0	root	_	AlignBegin=300816|AlignEnd=301146|Gloss=come
-2	now	now	ADV	_	_	1	mod	_	AlignBegin=301146|AlignEnd=301476|Gloss=now
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=301476|AlignEnd=301476|Gloss=PUNCT
+2	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=301146|AlignEnd=301476|Gloss=now
+3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=301476|AlignEnd=301476|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__186
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2615,7 +2612,7 @@
 6	invite	invite	VERB	_	_	5	comp:aux	_	AlignBegin=302086|AlignEnd=302251|Gloss=invite
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=302251|AlignEnd=302416|Gloss=NOM.2
 8	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=302416|AlignEnd=302581|Gloss=for
-9	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	10	mod	_	AlignBegin=302581|AlignEnd=302746|Gloss=SG.1.POSS
+9	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	10	mod:poss	_	AlignBegin=302581|AlignEnd=302746|Gloss=SG.1.POSS
 10	own	own	ADJ	_	_	8	comp:obj	_	AlignBegin=302746|AlignEnd=302911|Gloss=own
 11	o	o	PART	_	PartType=Disc	10	mod:emph	_	AlignBegin=302911|AlignEnd=303076|Gloss=EMPH
 12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=303076|AlignEnd=303076|Gloss=PUNCT
@@ -2623,12 +2620,12 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__187
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = no problem //
+# text = no problem !//
 # text_en = No problem.
 # text_ortho = No problem.
 1	no	no	PART	_	Polarity=Neg	2	mod	_	AlignBegin=303141|AlignEnd=303466|Gloss=NEG
 2	problem	problem	NOUN	_	_	0	root	_	AlignBegin=303466|AlignEnd=303791|Gloss=problem
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=303791|AlignEnd=303791|Gloss=PUNCT
+3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=303791|AlignEnd=303791|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__188
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2638,7 +2635,7 @@
 # text_ortho = We get women programme.
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=303321|AlignEnd=303691|Gloss=NOM.PL.1
 2	get	get	VERB	_	_	0	root	_	AlignBegin=303691|AlignEnd=304061|Gloss=get
-3	women	woman	NOUN	_	Number=Plur	4	mod	_	AlignBegin=304061|AlignEnd=304431|Gloss=woman.PL
+3	women	woman	NOUN	_	Number=Plur	4	compound	_	AlignBegin=304061|AlignEnd=304431|Gloss=woman.PL
 4	programme	programme	NOUN	_	_	2	comp:obj	_	AlignBegin=304431|AlignEnd=304801|Gloss=programme
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=304801|AlignEnd=304801|Gloss=PUNCT
 
@@ -2649,7 +2646,7 @@
 # text_en = If you come, you'll enjoy it a lot.
 # text_ortho = If you come, you go enjoy am well, well.
 1	if	if	SCONJ	_	_	6	mod:periph	_	AlignBegin=305246|AlignEnd=305492|Gloss=if
-2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=305492|AlignEnd=305738|Gloss=NOM.2
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	mod:appos	_	AlignBegin=305492|AlignEnd=305738|Gloss=NOM.2
 3	come	come	VERB	_	_	1	comp:obj	_	AlignBegin=305738|AlignEnd=305984|Gloss=come
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=305984|AlignEnd=305984|Gloss=PUNCT
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=305984|AlignEnd=306230|Gloss=NOM.2
@@ -2666,21 +2663,21 @@
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__190
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp275
-# text = no problem //
+# text = no problem !//
 # text_en = No problem.
 # text_ortho = No problem.
 1	no	no	PART	_	Polarity=Neg	2	mod	_	AlignBegin=307181|AlignEnd=307466|Gloss=NEG
 2	problem	problem	NOUN	_	_	0	root	_	AlignBegin=307466|AlignEnd=307750|Gloss=problem
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=307750|AlignEnd=307750|Gloss=PUNCT
+3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=307750|AlignEnd=307750|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__191
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
 # speaker_id = Sp3
-# text = confirm //
+# text = confirm !//
 # text_en = Definitely.
 # text_ortho = Confirm.
 1	confirm	confirm	VERB	_	_	0	root	_	AlignBegin=307460|AlignEnd=308466|Gloss=confirm
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=308466|AlignEnd=308466|Gloss=PUNCT
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=308466|AlignEnd=308466|Gloss=PUNCT
 
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__192
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -2708,27 +2705,27 @@
 7	tins	ting	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=310480|AlignEnd=310791|Gloss=thing.PL
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=310791|AlignEnd=310791|Gloss=PUNCT
 9	how	how	ADV	_	PronType=Int	4	parataxis:conj	_	AlignBegin=310791|AlignEnd=311101|Gloss=how.Q
-10	to	to	ADP	_	_	9	mod	_	AlignBegin=311101|AlignEnd=311412|Gloss=to
+10	to	to	ADP	_	_	9	mod@relcl	_	AlignBegin=311101|AlignEnd=311412|Gloss=to
 11	take	take	VERB	_	_	10	comp:obj	_	AlignBegin=311412|AlignEnd=311723|Gloss=take
-12	care	care	NOUN	_	_	11	comp:obj	_	AlignBegin=311723|AlignEnd=312034|Gloss=care
+12	care	care	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=311723|AlignEnd=312034|Gloss=care
 13	of	of	ADP	_	_	11	comp:obl	_	AlignBegin=312034|AlignEnd=312344|Gloss=of
-14	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	mod	_	AlignBegin=312344|AlignEnd=312655|Gloss=PL.2.POSS
+14	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	mod:poss	_	AlignBegin=312344|AlignEnd=312655|Gloss=PL.2.POSS
 15	home	home	NOUN	_	_	13	comp:obj	_	AlignBegin=312655|AlignEnd=312966|Gloss=home
 16	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=312966|AlignEnd=312966|Gloss=PUNCT
-17	how	how	ADV	_	PronType=Int	18	parataxis:obj	_	AlignBegin=312966|AlignEnd=313277|Gloss=how.Q
-18	to	to	ADP	_	_	19	mod	_	AlignBegin=313277|AlignEnd=313588|Gloss=to
-19	cook	cook	VERB	_	_	20	comp:obj	_	AlignBegin=313588|AlignEnd=313898|Gloss=cook
-20	for	for	ADP	_	_	22	mod	_	AlignBegin=313898|AlignEnd=314209|Gloss=for
-21	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	mod	_	AlignBegin=314209|AlignEnd=314520|Gloss=PL.2.POSS
-22	family	family	NOUN	_	_	21	comp:obj	_	AlignBegin=314520|AlignEnd=314831|Gloss=family
+17	how	how	ADV	_	PronType=Int	9	parataxis:conj	_	AlignBegin=312966|AlignEnd=313277|Gloss=how.Q
+18	to	to	ADP	_	_	17	mod@relcl	_	AlignBegin=313277|AlignEnd=313588|Gloss=to
+19	cook	cook	VERB	_	_	18	comp:obj	_	AlignBegin=313588|AlignEnd=313898|Gloss=cook
+20	for	for	ADP	_	_	19	comp:obl	_	AlignBegin=313898|AlignEnd=314209|Gloss=for
+21	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	22	mod:poss	_	AlignBegin=314209|AlignEnd=314520|Gloss=PL.2.POSS
+22	family	family	NOUN	_	_	20	comp:obj	_	AlignBegin=314520|AlignEnd=314831|Gloss=family
 23	//=	//=	PUNCT	_	_	27	punct	_	AlignBegin=314831|AlignEnd=314831|Gloss=PUNCT
 24	in	in	ADP	_	_	27	mod:periph	_	AlignBegin=314831|AlignEnd=315141|Gloss=in
 25	fact	fact	NOUN	_	_	24	unk:fixed	_	AlignBegin=315141|AlignEnd=315452|Gloss=fact
 26	<	<	PUNCT	_	_	24	punct	_	AlignBegin=315452|AlignEnd=315452|Gloss=PUNCT
 27	how	how	ADV	_	PronType=Int	17	parataxis:conj	_	AlignBegin=315452|AlignEnd=315763|Gloss=how.Q
-28	to	to	ADP	_	_	27	mod	_	AlignBegin=315763|AlignEnd=316074|Gloss=to
+28	to	to	ADP	_	_	27	mod@relcl	_	AlignBegin=315763|AlignEnd=316074|Gloss=to
 29	manage	manage	VERB	_	_	28	comp:obj	_	AlignBegin=316074|AlignEnd=316384|Gloss=manage
-30	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	31	mod	_	AlignBegin=316384|AlignEnd=316695|Gloss=PL.2.POSS
+30	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	31	mod:poss	_	AlignBegin=316384|AlignEnd=316695|Gloss=PL.2.POSS
 31	home	home	NOUN	_	_	29	comp:obj	_	AlignBegin=316695|AlignEnd=317006|Gloss=home
 32	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=317006|AlignEnd=317006|Gloss=PUNCT
 33	//	//	PUNCT	_	_	3	punct	_	AlignBegin=317006|AlignEnd=317006|Gloss=PUNCT
@@ -2763,13 +2760,13 @@
 13	tins	ting	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=319527|AlignEnd=319775|Gloss=thing.PL
 14	like	like	ADP	_	_	13	mod	_	AlignBegin=319775|AlignEnd=320023|Gloss=like
 15	how	how	ADV	_	PronType=Int	14	comp:obj	_	AlignBegin=320023|AlignEnd=320271|Gloss=how.Q
-16	to	to	ADP	_	_	15	mod	_	AlignBegin=320271|AlignEnd=320519|Gloss=to
+16	to	to	ADP	_	_	15	mod@relcl	_	AlignBegin=320271|AlignEnd=320519|Gloss=to
 17	prepare	prepare	VERB	_	_	16	comp:obj	_	AlignBegin=320519|AlignEnd=320767|Gloss=prepare
 18	some	some	DET	_	_	20	det	_	AlignBegin=320767|AlignEnd=321016|Gloss=some
 19	kind	kind	ADJ	_	_	20	mod	_	AlignBegin=321016|AlignEnd=321264|Gloss=kind
 20	tins	ting	NOUN	_	Number=Plur	17	comp:obj	_	AlignBegin=321264|AlignEnd=321512|Gloss=thing.PL
 21	for	for	ADP	_	_	17	comp:obl	_	AlignBegin=321512|AlignEnd=321760|Gloss=for
-22	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	23	mod	_	AlignBegin=321760|AlignEnd=322008|Gloss=PL.2.POSS
+22	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	23	mod:poss	_	AlignBegin=321760|AlignEnd=322008|Gloss=PL.2.POSS
 23	house	house	NOUN	_	_	21	comp:obj	_	AlignBegin=322008|AlignEnd=322256|Gloss=house
 24	eng]	eng]	PUNCT	_	_	7	punct	_	AlignBegin=322256|AlignEnd=322256|Gloss=PUNCT
 25	//	//	PUNCT	_	_	7	punct	_	AlignBegin=322256|AlignEnd=322256|Gloss=PUNCT
