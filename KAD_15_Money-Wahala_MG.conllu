@@ -29,7 +29,7 @@
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=6133|AlignEnd=6280|Gloss=PUNCT
 10	#	#	PUNCT	_	_	2	punct	_	AlignBegin=6280|AlignEnd=8680|Gloss=PUNCT
 11	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=8680|AlignEnd=8860|Gloss=be1
-12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	comp:pred	_	AlignBegin=8860|AlignEnd=9010|Gloss=NOM.SG.3
+12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	comp:pred@fixed	_	AlignBegin=8860|AlignEnd=9010|Gloss=NOM.SG.3
 13	>+	>+	PUNCT	_	_	14	punct	_	AlignBegin=9010|AlignEnd=9040|Gloss=PUNCT
 14	dey	dey	AUX	_	Aspect=Imp	11	comp:cleft	_	AlignBegin=9040|AlignEnd=9224|Gloss=IPFV
 15	take	take	VERB	_	_	14	comp:aux	_	AlignBegin=9224|AlignEnd=9410|Gloss=take
@@ -166,7 +166,7 @@
 8	do	do	VERB	_	_	7	comp:aux	_	AlignBegin=31240|AlignEnd=31520|Gloss=do
 9	#	#	PUNCT	_	_	4	punct	_	AlignBegin=31520|AlignEnd=31610|Gloss=PUNCT
 10	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=31611|AlignEnd=31721|Gloss=be1
-11	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	comp:pred	_	AlignBegin=31721|AlignEnd=31803|Gloss=NOM.SG.3
+11	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	comp:pred@fixed	_	AlignBegin=31721|AlignEnd=31803|Gloss=NOM.SG.3
 12	>+	>+	PUNCT	_	_	13	punct	_	AlignBegin=31803|AlignEnd=31815|Gloss=PUNCT
 13	dey	dey	AUX	_	Aspect=Imp	10	comp:cleft	_	AlignBegin=31815|AlignEnd=32011|Gloss=IPFV
 14	do	do	VERB	_	_	13	comp:aux	_	AlignBegin=32011|AlignEnd=32078|Gloss=do
@@ -912,8 +912,8 @@
 32	#	#	PUNCT	_	_	33	punct	_	AlignBegin=169770|AlignEnd=170360|Gloss=PUNCT
 33	to	to	ADP	_	_	11	conj:coord	_	AlignBegin=170360|AlignEnd=170470|Gloss=to
 34	help	help	VERB	_	_	33	comp:obj	_	AlignBegin=170470|AlignEnd=170660|Gloss=help
-35	one	one	NUM	_	NumType=Card	36	det@num	_	AlignBegin=170660|AlignEnd=170800|Gloss=one
-36	anoder	anoder	DET	_	_	34	comp:obj	_	AlignBegin=170800|AlignEnd=171234|Gloss=another
+35	one	one	PRON	_	NumType=Card	34	comp:obj	_	AlignBegin=170660|AlignEnd=170800|Gloss=one
+36	anoder	anoder	DET	_	_	35	conj:coord	_	AlignBegin=170800|AlignEnd=171234|Gloss=another
 37	to	to	ADP	_	_	34	comp:obl@x	_	AlignBegin=171234|AlignEnd=171381|Gloss=to
 38	do	do	VERB	_	_	37	comp:obj	_	AlignBegin=171381|AlignEnd=171551|Gloss=do
 39	tings	tings	NOUN	_	Number=Plur	38	comp:obj	_	AlignBegin=171551|AlignEnd=171910|Gloss=thing.PL
@@ -1791,7 +1791,7 @@
 # sent_id = KAD_15_Money-Wahala_MG__76
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_15_Money-Wahala_MG.mp3
 # speaker_id = Sp194
-# text = # some parent no fit pay five hundred naira |c talk less of two hundred naira //
+# text = # some parent no fit pay five hundred naira > talk less of two hundred naira !//
 # text_en = Some parents can't afford to pay five hundred naira, not to mention two hundred naira.
 # text_ortho = Some parent no fit pay five hundred naira, talk less of two hundred naira.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=335910|AlignEnd=336460|Gloss=PUNCT
@@ -1803,14 +1803,14 @@
 7	five	five	NUM	_	NumType=Card	8	compound	_	AlignBegin=337444|AlignEnd=337673|Gloss=five.CARD
 8	hundred	hundred	NUM	_	NumType=Card	9	det:num	_	AlignBegin=337673|AlignEnd=337920|Gloss=hundred.CARD
 9	naira	naira	NOUN	_	_	6	comp:obj	_	AlignBegin=337920|AlignEnd=338231|Gloss=naira
-10	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=338231|AlignEnd=338261|Gloss=PUNCT
-11	talk	talk	VERB	_	_	16	cc	_	AlignBegin=338261|AlignEnd=338440|Gloss=talk
-12	less	less	ADJ	_	Degree=Cmp	11	unk@fixed	_	AlignBegin=338440|AlignEnd=338650|Gloss=little.CMPR
-13	of	of	ADP	_	_	12	unk@fixed	_	AlignBegin=338650|AlignEnd=338824|Gloss=of
+10	>	>	PUNCT	_	_	11	punct	_	AlignBegin=338231|AlignEnd=338261|Gloss=PUNCT
+11	talk	talk	VERB	_	_	5	parataxis:dislocated	_	AlignBegin=338261|AlignEnd=338440|Gloss=talk
+12	less	less	ADJ	_	Degree=Cmp	11	mod	_	AlignBegin=338440|AlignEnd=338650|Gloss=little.CMPR
+13	of	of	ADP	_	_	11	comp:obl	_	AlignBegin=338650|AlignEnd=338824|Gloss=of
 14	two	two	NUM	_	NumType=Card	15	compound	_	AlignBegin=338824|AlignEnd=338960|Gloss=two.CARD
 15	hundred	hundred	NUM	_	NumType=Card	16	det:num	_	AlignBegin=338960|AlignEnd=339250|Gloss=hundred.CARD
-16	naira	naira	NOUN	_	_	9	conj:coord	_	AlignBegin=339250|AlignEnd=339540|Gloss=naira
-17	//	//	PUNCT	_	_	5	punct	_	AlignBegin=339540|AlignEnd=339577|Gloss=PUNCT
+16	naira	naira	NOUN	_	_	13	comp:obj	_	AlignBegin=339250|AlignEnd=339540|Gloss=naira
+17	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=339540|AlignEnd=339577|Gloss=PUNCT
 
 # sent_id = KAD_15_Money-Wahala_MG__77
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_15_Money-Wahala_MG.mp3
@@ -2401,8 +2401,8 @@
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	subj	_	AlignBegin=455800|AlignEnd=455890|Gloss=NOM.PL.1
 6	no	no	PART	_	Polarity=Neg	7	mod	_	AlignBegin=455890|AlignEnd=456017|Gloss=NEG
 7	love	love	VERB	_	_	0	root	_	AlignBegin=456017|AlignEnd=456210|Gloss=love
-8	one	one	NUM	_	NumType=Card	9	det@num	_	AlignBegin=456210|AlignEnd=456360|Gloss=one
-9	anoder	anoder	DET	_	_	7	comp:obj	_	AlignBegin=456360|AlignEnd=456760|Gloss=another
+8	one	one	PRON	_	NumType=Card	7	comp:obj	_	AlignBegin=456210|AlignEnd=456360|Gloss=one
+9	anoder	anoder	DET	_	_	8	conj:coord	_	AlignBegin=456360|AlignEnd=456760|Gloss=another
 10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=456760|AlignEnd=456816|Gloss=PUNCT
 
 # sent_id = KAD_15_Money-Wahala_MG__102

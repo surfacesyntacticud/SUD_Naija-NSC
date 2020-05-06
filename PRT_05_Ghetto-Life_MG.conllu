@@ -858,7 +858,7 @@
 # text_en = That’s the proper thing to do.
 # text_ortho = Na im, be di legit ting.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=99470|AlignEnd=99585|Gloss=be1
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred	_	AlignBegin=99585|AlignEnd=99591|Gloss=NOM.SG.3
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred@fixed	_	AlignBegin=99585|AlignEnd=99591|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=99591|AlignEnd=99621|Gloss=PUNCT
 4	be	be	VERB	_	PartType=Cop	1	comp:cleft	_	AlignBegin=99621|AlignEnd=99760|Gloss=be1
 5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=99760|AlignEnd=99820|Gloss=DEF.ART
@@ -1238,7 +1238,7 @@
 # text_ortho = What are... ?
 1	[eng	[eng	PUNCT	_	_	2	punct	_	AlignBegin=138111|AlignEnd=138141|Gloss=PUNCT
 2	what	what	PRON	_	PronType=Int	0	root	_	AlignBegin=138141|AlignEnd=138281|Gloss=what.Q
-3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=138281|AlignEnd=138431|Gloss=be.IND.PRS.FIN
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	comp:cleft@scrap	_	AlignBegin=138281|AlignEnd=138431|Gloss=be.IND.PRS.FIN
 4	eng]	eng]	PUNCT	_	_	2	punct	_	AlignBegin=138431|AlignEnd=138461|Gloss=PUNCT
 5	&?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=138431|AlignEnd=138461|Gloss=PUNCT
 
@@ -1562,7 +1562,7 @@
 # text_en = That’s how life is.
 # text_ortho = Na im, be di life, be dat.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=168690|AlignEnd=168810|Gloss=be1
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred	_	AlignBegin=168810|AlignEnd=168836|Gloss=NOM.SG.3
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred@fixed	_	AlignBegin=168810|AlignEnd=168836|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=168836|AlignEnd=168866|Gloss=PUNCT
 4	be	be	VERB	_	PartType=Cop	1	comp:cleft	_	AlignBegin=168866|AlignEnd=168960|Gloss=be1
 5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=168960|AlignEnd=169040|Gloss=DEF.ART
@@ -1753,7 +1753,7 @@
 # text_en = That's life in the ghetto.
 # text_ortho = Na im, be di ghetto life for you.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=187270|AlignEnd=187380|Gloss=be1
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred	_	AlignBegin=187380|AlignEnd=187400|Gloss=NOM.SG.3
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred@fixed	_	AlignBegin=187380|AlignEnd=187400|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=187400|AlignEnd=187430|Gloss=PUNCT
 4	be	be	VERB	_	PartType=Cop	1	comp:cleft	_	AlignBegin=187430|AlignEnd=187530|Gloss=be1
 5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=187530|AlignEnd=187640|Gloss=DEF.ART
@@ -2946,12 +2946,12 @@
 7	#	#	PUNCT	_	_	10	punct	_	AlignBegin=326100|AlignEnd=327160|Gloss=PUNCT
 8	[	[	PUNCT	_	_	10	punct	_	AlignBegin=327130|AlignEnd=327160|Gloss=PUNCT
 9	eh	eh	INTJ	_	_	10	discourse	_	AlignBegin=327160|AlignEnd=327390|Gloss=eh
-10	where	where	ADV	_	PronType=Int	12	mod	_	AlignBegin=327390|AlignEnd=327520|Gloss=where.Q
+10	where	where	ADV	_	PronType=Int	5	parataxis:obj	12:@comp	AlignBegin=327390|AlignEnd=327520|Gloss=where.Q
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=327520|AlignEnd=327620|Gloss=NOM.2
-12	go	go	VERB	_	_	10	mod@relcl	_	AlignBegin=327620|AlignEnd=327760|Gloss=go
+12	go	go	VERB	_	_	10	comp:cleft	_	AlignBegin=327620|AlignEnd=327760|Gloss=go
 13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=327760|AlignEnd=327930|Gloss=SG.DIST.DEM
-14	yesterday	yesterday	NOUN	_	_	12	comp:obj	_	AlignBegin=327930|AlignEnd=328370|Gloss=yesterday
-15	?//]	?//]	PUNCT	_	_	12	punct	_	AlignBegin=328370|AlignEnd=328400|Gloss=PUNCT
+14	yesterday	yesterday	NOUN	_	_	12	mod	_	AlignBegin=327930|AlignEnd=328370|Gloss=yesterday
+15	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=328370|AlignEnd=328400|Gloss=PUNCT
 16	//	//	PUNCT	_	_	5	punct	_	AlignBegin=328370|AlignEnd=328400|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__152
@@ -3423,7 +3423,7 @@
 # text_en = So that brought me into the ghetto.
 # text_ortho = Na im, make I join ghetto life.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=372000|AlignEnd=372092|Gloss=be1
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred	_	AlignBegin=372092|AlignEnd=372160|Gloss=NOM.SG.3
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred@fixed	_	AlignBegin=372092|AlignEnd=372160|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=372160|AlignEnd=372190|Gloss=PUNCT
 4	make	make	AUX	_	Mood=Opt	1	comp:cleft	_	AlignBegin=372190|AlignEnd=372411|Gloss=SBJV
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=372411|AlignEnd=372535|Gloss=NOM.SG.1

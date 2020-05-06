@@ -23,7 +23,7 @@
 17	about	about	ADP	_	_	16	comp:obl	_	AlignBegin=4610|AlignEnd=5140|Gloss=about
 18	}	}	PUNCT	_	_	6	punct	_	AlignBegin=5140|AlignEnd=5170|Gloss=PUNCT
 19	//+	//+	PUNCT	_	_	20	punct	_	AlignBegin=5140|AlignEnd=5170|Gloss=PUNCT
-20	if	if	SCONJ	_	_	16	mod	_	AlignBegin=5170|AlignEnd=5340|Gloss=if
+20	if	if	SCONJ	_	_	2	mod	_	AlignBegin=5170|AlignEnd=5340|Gloss=if
 21	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	22	subj	_	AlignBegin=5340|AlignEnd=5500|Gloss=NOM.2
 22	remember	remember	VERB	_	_	20	comp:obj	_	AlignBegin=5500|AlignEnd=6050|Gloss=remember
 23	//	//	PUNCT	_	_	2	punct	_	AlignBegin=6050|AlignEnd=6080|Gloss=PUNCT
@@ -87,8 +87,8 @@
 15	naira	naira	NOUN	_	_	13	comp:obj	_	AlignBegin=16740|AlignEnd=17465|Gloss=naira
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=17465|AlignEnd=17762|Gloss=PUNCT
 17	on	on	ADP	_	_	13	comp:obl	_	AlignBegin=17762|AlignEnd=18070|Gloss=on
-18	top	top	NOUN	_	_	17	comp:obj	_	AlignBegin=18070|AlignEnd=18470|Gloss=top
-19	of	of	ADP	_	_	18	mod	_	AlignBegin=18470|AlignEnd=18750|Gloss=of
+18	top	top	NOUN	_	_	17	comp:obj@fixed	_	AlignBegin=18070|AlignEnd=18470|Gloss=top
+19	of	of	ADP	_	_	18	mod@fixed	_	AlignBegin=18470|AlignEnd=18750|Gloss=of
 20	fuel	fuel	NOUN	_	_	21	compound	_	AlignBegin=18750|AlignEnd=19167|Gloss=fuel
 21	money	money	NOUN	_	_	19	comp:obj	_	AlignBegin=19167|AlignEnd=19977|Gloss=money
 22	]	]	PUNCT	_	_	12	punct	_	AlignBegin=19977|AlignEnd=20007|Gloss=PUNCT
@@ -160,28 +160,28 @@
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=27330|AlignEnd=27530|Gloss=PUNCT
 5	take	take	VERB	_	_	3	parataxis:obj	_	AlignBegin=27330|AlignEnd=27530|Gloss=take
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=27530|AlignEnd=27703|Gloss=ACC.SG.3
-7	easy	easy	ADJ	_	_	5	mod	_	AlignBegin=27703|AlignEnd=28220|Gloss=easy
+7	easy	easy	ADJ	_	_	5	comp:obj@x	_	AlignBegin=27703|AlignEnd=28220|Gloss=easy
 8	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=28220|AlignEnd=28250|Gloss=PUNCT
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=28220|AlignEnd=28250|Gloss=PUNCT
 
 # sent_id = WAZK_08_Fuel-Price-Increase_MG__9
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZK_08_Fuel-Price-Increase_MG.mp3
 # speaker_id = Sp295
-# text = # I know sey [ dat's eh inside of last week wen I bin dey talk sey [ make people take am easy ] ] &//
+# text = # I know sey [ dat's eh inside of last week wen I bin dey talk sey [ make people take am easy ] ] //
 # text_en = I know that was uh... in the past week that I started saying that people should take it easy...
 # text_ortho = I know sey dat's eh... inside of last week wen I bin dey talk sey make people take am easy...
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=28250|AlignEnd=29079|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=29079|AlignEnd=29190|Gloss=NOM.SG.1
 3	know	know	VERB	_	_	0	root	_	AlignBegin=29190|AlignEnd=29306|Gloss=know
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=29306|AlignEnd=29500|Gloss=COMP
-5	[	[	PUNCT	_	_	_	_	_	AlignBegin=29500|AlignEnd=29890|Gloss=PUNCT
-6	dat's	dat's	PART	_	PartType=Cop	_	_	_	AlignBegin=29500|AlignEnd=29890|Gloss=be1
+5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=29500|AlignEnd=29890|Gloss=PUNCT
+6	dat's	dat's	PART	_	PartType=Cop	4	comp:obj	_	AlignBegin=29500|AlignEnd=29890|Gloss=be1
 7	eh	eh	INTJ	_	_	8	discourse	_	AlignBegin=29890|AlignEnd=30245|Gloss=eh
-8	inside	inside	ADP	_	_	6	mod	_	AlignBegin=30245|AlignEnd=30501|Gloss=inside
+8	inside	inside	ADP	_	_	6	comp:pred	_	AlignBegin=30245|AlignEnd=30501|Gloss=inside
 9	of	of	ADP	_	_	8	unk@fixed	_	AlignBegin=30501|AlignEnd=30657|Gloss=of
 10	last	last	ADJ	_	_	11	mod	_	AlignBegin=30657|AlignEnd=30920|Gloss=last
 11	week	week	NOUN	_	_	9	comp:obj	_	AlignBegin=30920|AlignEnd=31010|Gloss=week
-12	wen	wey	SCONJ	_	_	11	mod@relcl	_	AlignBegin=31010|AlignEnd=31120|Gloss=REL
+12	wen	wey	SCONJ	_	_	6	comp:cleft	_	AlignBegin=31010|AlignEnd=31120|Gloss=REL
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=31120|AlignEnd=31220|Gloss=NOM.SG.1
 14	bin	bin	AUX	_	Tense=Past	12	comp:obj	_	AlignBegin=31220|AlignEnd=31330|Gloss=PST
 15	dey	dey	AUX	_	Aspect=Imp	14	comp:aux	_	AlignBegin=31330|AlignEnd=31435|Gloss=IPFV
@@ -192,10 +192,10 @@
 20	people	people	NOUN	_	Number=Plur	21	subj	_	AlignBegin=31766|AlignEnd=31960|Gloss=people.PL
 21	take	take	VERB	_	_	19	comp:aux	_	AlignBegin=31960|AlignEnd=32130|Gloss=take
 22	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=32130|AlignEnd=32340|Gloss=ACC.SG.3
-23	easy	easy	ADJ	_	_	21	mod	_	AlignBegin=32340|AlignEnd=32879|Gloss=easy
-24	]	]	PUNCT	_	_	_	_	_	AlignBegin=32879|AlignEnd=32909|Gloss=PUNCT
-25	]	]	PUNCT	_	_	_	_	_	AlignBegin=32879|AlignEnd=32909|Gloss=PUNCT
-26	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=32879|AlignEnd=32909|Gloss=PUNCT
+23	easy	easy	ADJ	_	_	21	comp:obj@x	_	AlignBegin=32340|AlignEnd=32879|Gloss=easy
+24	]	]	PUNCT	_	_	19	punct	_	AlignBegin=32879|AlignEnd=32909|Gloss=PUNCT
+25	]	]	PUNCT	_	_	6	punct	_	AlignBegin=32879|AlignEnd=32909|Gloss=PUNCT
+26	//	//	PUNCT	_	_	3	punct	_	AlignBegin=32879|AlignEnd=32909|Gloss=PUNCT
 
 # sent_id = WAZK_08_Fuel-Price-Increase_MG__10
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZK_08_Fuel-Price-Increase_MG.mp3
@@ -707,7 +707,7 @@
 2	difference	difference	NOUN	_	_	4	dislocated	_	AlignBegin=103630|AlignEnd=104200|Gloss=difference
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=104200|AlignEnd=104230|Gloss=PUNCT
 4	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=104230|AlignEnd=104370|Gloss=be1
-5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	comp:pred	_	AlignBegin=104370|AlignEnd=104410|Gloss=NOM.SG.3
+5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	comp:pred@fixed	_	AlignBegin=104370|AlignEnd=104410|Gloss=NOM.SG.3
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=104410|AlignEnd=104440|Gloss=PUNCT
 7	be	be	VERB	_	PartType=Cop	4	comp:cleft	_	AlignBegin=104440|AlignEnd=104604|Gloss=be1
 8	sey	sey	SCONJ	_	_	7	comp:pred	_	AlignBegin=104604|AlignEnd=104965|Gloss=COMP
@@ -1354,11 +1354,11 @@
 47	}	}	PUNCT	_	_	44	punct	_	AlignBegin=202016|AlignEnd=202046|Gloss=PUNCT
 48	{	{	PUNCT	_	_	49	punct	_	AlignBegin=202016|AlignEnd=202046|Gloss=PUNCT
 49	on	on	ADP	_	_	44	comp:obl	_	AlignBegin=202046|AlignEnd=202189|Gloss=on
-50	top	top	NOUN	_	_	49	comp:obj	_	AlignBegin=202189|AlignEnd=202401|Gloss=top
+50	top	top	NOUN	_	_	49	comp:obj@fixed	_	AlignBegin=202189|AlignEnd=202401|Gloss=top
 51	||	||	PUNCT	_	_	52	punct	_	AlignBegin=202401|AlignEnd=202431|Gloss=PUNCT
 52	on	on	ADP	_	_	49	conj:dicto	_	AlignBegin=202431|AlignEnd=202592|Gloss=on
-53	top	top	NOUN	_	_	52	comp:obj	_	AlignBegin=202592|AlignEnd=202784|Gloss=top
-54	of	of	ADP	_	_	53	mod	_	AlignBegin=202784|AlignEnd=203465|Gloss=of
+53	top	top	NOUN	_	_	52	comp:obj@fixed	_	AlignBegin=202592|AlignEnd=202784|Gloss=top
+54	of	of	ADP	_	_	53	mod@fixed	_	AlignBegin=202784|AlignEnd=203465|Gloss=of
 55	}	}	PUNCT	_	_	49	punct	_	AlignBegin=203465|AlignEnd=203495|Gloss=PUNCT
 56	road	road	NOUN	_	_	57	compound	_	AlignBegin=203495|AlignEnd=203775|Gloss=road
 57	matter	matter	NOUN	_	_	54	comp:obj	_	AlignBegin=203775|AlignEnd=204140|Gloss=matter
@@ -1556,7 +1556,7 @@
 50	shook	shook	VERB	_	_	48	comp:aux	_	AlignBegin=237170|AlignEnd=237470|Gloss=pierce
 51	eye	eye	NOUN	_	_	50	comp:obj	_	AlignBegin=237470|AlignEnd=237672|Gloss=eye
 52	on	on	ADP	_	_	50	comp:obl	_	AlignBegin=237672|AlignEnd=237783|Gloss=on
-53	top	top	NOUN	_	_	52	comp:obj	_	AlignBegin=237783|AlignEnd=238025|Gloss=top
+53	top	top	NOUN	_	_	52	comp:obj@fixed	_	AlignBegin=237783|AlignEnd=238025|Gloss=top
 54	]	]	PUNCT	_	_	37	punct	_	AlignBegin=238025|AlignEnd=238055|Gloss=PUNCT
 55	}	}	PUNCT	_	_	25	punct	_	AlignBegin=238025|AlignEnd=238055|Gloss=PUNCT
 56	<	<	PUNCT	_	_	3	punct	_	AlignBegin=238025|AlignEnd=238055|Gloss=PUNCT
@@ -1594,7 +1594,7 @@
 10	thing	ting	NOUN	_	_	12	dislocated	_	AlignBegin=243112|AlignEnd=243252|Gloss=thing
 11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=243252|AlignEnd=243282|Gloss=PUNCT
 12	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=243282|AlignEnd=243452|Gloss=be1
-13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	comp:pred	_	AlignBegin=243452|AlignEnd=243482|Gloss=NOM.SG.3
+13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	comp:pred@fixed	_	AlignBegin=243452|AlignEnd=243482|Gloss=NOM.SG.3
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=243482|AlignEnd=243512|Gloss=PUNCT
 15	be	be	VERB	_	PartType=Cop	12	comp:cleft	_	AlignBegin=243512|AlignEnd=243587|Gloss=be1
 16	sey	sey	SCONJ	_	_	15	comp:pred	_	AlignBegin=243587|AlignEnd=243746|Gloss=COMP
@@ -1824,7 +1824,7 @@
 12	dey	dey	AUX	_	Aspect=Imp	11	comp:aux	_	AlignBegin=275230|AlignEnd=275389|Gloss=IPFV
 13	judge	judge	VERB	_	_	12	comp:aux	_	AlignBegin=275389|AlignEnd=275700|Gloss=judge
 14	on	on	ADP	_	_	13	comp:obl	_	AlignBegin=275700|AlignEnd=275900|Gloss=on
-15	top	top	NOUN	_	_	14	comp:obj	_	AlignBegin=275900|AlignEnd=276020|Gloss=top
+15	top	top	NOUN	_	_	14	comp:obj@fixed	_	AlignBegin=275900|AlignEnd=276020|Gloss=top
 16	<	<	PUNCT	_	_	4	punct	_	AlignBegin=276020|AlignEnd=276050|Gloss=PUNCT
 17	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=276050|AlignEnd=276150|Gloss=be1
 18	unto	unto	ADP	_	_	17	comp:pred	_	AlignBegin=276150|AlignEnd=276362|EXTPOS=SCONJ|Gloss=unto
@@ -2063,8 +2063,8 @@
 12	go	go	AUX	_	Aspect=Prosp	9	comp:obj	_	AlignBegin=315722|AlignEnd=315932|Gloss=PROSP
 13	para	para	VERB	_	_	12	comp:aux	_	AlignBegin=315932|AlignEnd=316302|Gloss=shout
 14	on	on	ADP	_	_	13	comp:obl	_	AlignBegin=316302|AlignEnd=316372|Gloss=on
-15	top	top	NOUN	_	_	14	comp:obj	_	AlignBegin=316372|AlignEnd=316512|Gloss=top
-16	of	of	ADP	_	_	15	mod	_	AlignBegin=316512|AlignEnd=316652|Gloss=of
+15	top	top	NOUN	_	_	14	comp:obj@fixed	_	AlignBegin=316372|AlignEnd=316512|Gloss=top
+16	of	of	ADP	_	_	15	mod@fixed	_	AlignBegin=316512|AlignEnd=316652|Gloss=of
 17	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	mod:poss	_	AlignBegin=316652|AlignEnd=316782|Gloss=M.SG.3.POSS
 18	head	head	NOUN	_	_	16	comp:obj	_	AlignBegin=316782|AlignEnd=316896|Gloss=head
 19	//	//	PUNCT	_	_	3	punct	_	AlignBegin=316896|AlignEnd=316926|Gloss=PUNCT
@@ -2099,8 +2099,8 @@
 11	dey	dey	AUX	_	Aspect=Imp	10	comp:aux	_	AlignBegin=321000|AlignEnd=321135|Gloss=IPFV
 12	judge	judge	VERB	_	_	11	comp:aux	_	AlignBegin=321135|AlignEnd=321395|Gloss=judge
 13	on	on	ADP	_	_	12	comp:obl	_	AlignBegin=321395|AlignEnd=321535|Gloss=on
-14	top	top	NOUN	_	_	13	comp:obj	_	AlignBegin=321535|AlignEnd=321695|Gloss=top
-15	of	of	ADP	_	_	14	mod	_	AlignBegin=321695|AlignEnd=321815|Gloss=of
+14	top	top	NOUN	_	_	13	comp:obj@fixed	_	AlignBegin=321535|AlignEnd=321695|Gloss=top
+15	of	of	ADP	_	_	14	mod@fixed	_	AlignBegin=321695|AlignEnd=321815|Gloss=of
 16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=321815|AlignEnd=321925|Gloss=DEF.ART
 17	matter	matter	NOUN	_	_	15	comp:obj	_	AlignBegin=321925|AlignEnd=322255|Gloss=matter
 18	<	<	PUNCT	_	_	2	punct	_	AlignBegin=322255|AlignEnd=322819|Gloss=PUNCT
@@ -2299,7 +2299,7 @@
 15	five	five	NUM	_	NumType=Card	16	det:num	_	AlignBegin=355577|AlignEnd=355815|Gloss=five.CARD
 16	naira	naira	NOUN	_	_	14	comp:obj	_	AlignBegin=355815|AlignEnd=356075|Gloss=naira
 17	on	on	ADP	_	_	14	comp:obl	_	AlignBegin=356075|AlignEnd=356175|Gloss=on
-18	top	top	NOUN	_	_	17	comp:obj	_	AlignBegin=356175|AlignEnd=356644|Gloss=top
+18	top	top	NOUN	_	_	17	comp:obj@fixed	_	AlignBegin=356175|AlignEnd=356644|Gloss=top
 19	]	]	PUNCT	_	_	6	punct	_	AlignBegin=356644|AlignEnd=356674|Gloss=PUNCT
 20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=356644|AlignEnd=356674|Gloss=PUNCT
 
@@ -2381,8 +2381,8 @@
 8	side	side	NOUN	_	_	6	comp:obj	_	AlignBegin=366125|AlignEnd=366355|Gloss=side
 9	>	>	PUNCT	_	_	10	punct	_	AlignBegin=366355|AlignEnd=366385|Gloss=PUNCT
 10	kata	kata	NOUN	_	_	6	mod	_	AlignBegin=366385|AlignEnd=366688|Gloss=restlessness
-11	giti	giti	X	_	_	10	unk@fixed	_	AlignBegin=366688|AlignEnd=367015|Gloss=X
-12	kata	kata	NOUN	_	_	11	unk@fixed	_	AlignBegin=367015|AlignEnd=367225|Gloss=restlessness
+11	giti	giti	X	_	_	10	flat:foreign	_	AlignBegin=366688|AlignEnd=367015|Gloss=X
+12	kata	kata	NOUN	_	_	11	flat:foreign	_	AlignBegin=367015|AlignEnd=367225|Gloss=restlessness
 13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=367225|AlignEnd=367255|Gloss=PUNCT
 
 # sent_id = WAZK_08_Fuel-Price-Increase_MG__95
@@ -2446,8 +2446,8 @@
 10	drop	drop	VERB	_	_	9	comp:aux	_	AlignBegin=376940|AlignEnd=377387|Gloss=drop
 11	accusate	accusate	NOUN	_	_	10	comp:obj@lvc	_	AlignBegin=377387|AlignEnd=377908|Gloss=accusation
 12	on	on	ADP	_	_	10	comp:obl	_	AlignBegin=377908|AlignEnd=378030|Gloss=on
-13	top	top	NOUN	_	_	12	comp:obj	_	AlignBegin=378030|AlignEnd=378150|Gloss=top
-14	of	of	ADP	_	_	13	mod	_	AlignBegin=378150|AlignEnd=378260|Gloss=of
+13	top	top	NOUN	_	_	12	comp:obj@fixed	_	AlignBegin=378030|AlignEnd=378150|Gloss=top
+14	of	of	ADP	_	_	13	mod@fixed	_	AlignBegin=378150|AlignEnd=378260|Gloss=of
 15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=378260|AlignEnd=378380|Gloss=DEF.ART
 16	Head	head	NOUN	_	_	14	comp:obj	_	AlignBegin=378380|AlignEnd=378610|Gloss=head
 17	of	of	ADP	_	_	16	mod	_	AlignBegin=378610|AlignEnd=378820|Gloss=of
@@ -2646,8 +2646,8 @@
 22	be	be	VERB	_	PartType=Cop	21	comp:obj	_	AlignBegin=421930|AlignEnd=422030|Gloss=be1
 23	chamo	chamo	NOUN	_	_	22	comp:pred	_	AlignBegin=422030|AlignEnd=422319|Gloss=chairman
 24	on	on	ADP	_	_	23	mod	_	AlignBegin=422319|AlignEnd=422385|Gloss=on
-25	top	top	NOUN	_	_	24	comp:obj	_	AlignBegin=422385|AlignEnd=422508|Gloss=top
-26	of	of	ADP	_	_	25	mod	_	AlignBegin=422508|AlignEnd=423227|Gloss=of
+25	top	top	NOUN	_	_	24	comp:obj@fixed	_	AlignBegin=422385|AlignEnd=422508|Gloss=top
+26	of	of	ADP	_	_	25	mod@fixed	_	AlignBegin=422508|AlignEnd=423227|Gloss=of
 27	Senate	senate	NOUN	_	_	28	compound	_	AlignBegin=423227|AlignEnd=423490|Gloss=senate
 28	Committee	committee	NOUN	_	_	26	comp:obj	_	AlignBegin=423490|AlignEnd=423850|Gloss=committee
 29	for	for	ADP	_	_	28	mod	_	AlignBegin=423850|AlignEnd=424010|Gloss=for
@@ -3249,7 +3249,7 @@
 16	#	#	PUNCT	_	_	15	punct	_	AlignBegin=515231|AlignEnd=515545|Gloss=PUNCT
 17	[hau	[hau	PUNCT	_	_	18	punct	_	AlignBegin=515515|AlignEnd=515545|Gloss=PUNCT
 18	da	wey	SCONJ	_	_	15	mod@relcl	_	AlignBegin=515545|AlignEnd=515715|Gloss=REL
-19	muna	muna	AUX	_	_	18	comp:obj	_	AlignBegin=515715|AlignEnd=unknown|Gloss=2.PL.IPFV
+19	muna	muna	AUX	_	_	18	comp:obj	_	AlignBegin=515715|AlignEnd=0|Gloss=2.PL.IPFV
 20	adashi	adashi	NOUN	_	_	19	comp:aux	_	AlignBegin=516245|AlignEnd=516765|Gloss=tontine
 21	hau]	hau]	PUNCT	_	_	18	punct	_	AlignBegin=516765|AlignEnd=516795|Gloss=PUNCT
 22	#	#	PUNCT	_	_	15	punct	_	AlignBegin=516795|AlignEnd=517055|Gloss=PUNCT

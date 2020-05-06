@@ -303,8 +303,8 @@
 16	add	add	VERB	_	_	14	comp:aux	_	AlignBegin=73260|AlignEnd=73480|Gloss=add
 17	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=73480|AlignEnd=73637|Gloss=ACC.SG.3
 18	on	on	ADP	_	_	16	comp:obl	_	AlignBegin=73637|AlignEnd=73789|Gloss=on
-19	top	top	NOUN	_	_	18	comp:obj	_	AlignBegin=73789|AlignEnd=74010|Gloss=top
-20	of	of	ADP	_	_	19	mod	_	AlignBegin=74010|AlignEnd=74150|Gloss=of
+19	top	top	NOUN	_	_	18	comp:obj@fixed	_	AlignBegin=73789|AlignEnd=74010|Gloss=top
+20	of	of	ADP	_	_	19	mod@fixed	_	AlignBegin=74010|AlignEnd=74150|Gloss=of
 21	di	the	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=74150|AlignEnd=74350|Gloss=DEF.ART
 22	bones	bone	NOUN	_	Number=Plur	20	comp:obj	_	AlignBegin=74350|AlignEnd=74720|Gloss=bone.PL
 23	#	#	PUNCT	_	_	24	punct	_	AlignBegin=74720|AlignEnd=75020|Gloss=PUNCT
@@ -674,7 +674,7 @@
 # sent_id = JOS_12_How-To-Prepare-Gote-Soup_MG__24
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_12_How-To-Prepare-Gote-Soup_MG.mp3
 # speaker_id = Sp126
-# text = # put water > two of dem //= # be shaking it clean //= pour # until wey || twice |c or three times like dis //
+# text = # put water > two of dem //= # be shaking it clean //= pour # until wai { twice |c or three times } like dis //
 # text_en = Add water, two, shaking it till it's clean, pour it until when… twice or three times, like this.
 # text_ortho = Put water, two of dem, be shaking it clean, pour until wey… twice, or three times like dis.
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=139380|AlignEnd=140320|Gloss=PUNCT
@@ -694,16 +694,17 @@
 15	pour	pour	VERB	_	_	10	parataxis:conj	_	AlignBegin=143239|AlignEnd=143660|Gloss=pour
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=143660|AlignEnd=143850|Gloss=PUNCT
 17	until	until	ADP	_	_	15	mod	_	AlignBegin=143850|AlignEnd=144420|Gloss=until
-18	wey	when	SCONJ	_	_	17	unk@fixed	_	AlignBegin=144420|AlignEnd=144610|Gloss=when
-19	||	||	PUNCT	_	_	20	punct	_	AlignBegin=144610|AlignEnd=144640|Gloss=PUNCT
-20	twice	twice	ADV	_	_	17	conj:dicto	_	AlignBegin=144640|AlignEnd=145186|Gloss=twice
+18	wai	wai	PART	_	_	20	discourse	_	AlignBegin=144420|AlignEnd=144610|Gloss=wai
+19	{	{	PUNCT	_	_	20	punct	_	AlignBegin=144420|AlignEnd=144610|Gloss=PUNCT
+20	twice	twice	ADV	_	_	17	comp:obj	_	AlignBegin=144640|AlignEnd=145186|Gloss=twice
 21	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=145186|AlignEnd=145216|Gloss=PUNCT
 22	or	or	CCONJ	_	_	24	cc	_	AlignBegin=145216|AlignEnd=145381|Gloss=or
 23	three	three	NUM	_	NumType=Card	24	det:num	_	AlignBegin=145381|AlignEnd=145610|Gloss=three.CARD
 24	times	time	NOUN	_	Number=Plur	20	conj:coord	_	AlignBegin=145640|AlignEnd=145930|Gloss=time.PL
-25	like	like	ADP	_	_	15	mod	_	AlignBegin=145930|AlignEnd=146131|Gloss=like
-26	dis	dis	PRON	_	Number=Sing|PronType=Dem	25	comp:obj	_	AlignBegin=146131|AlignEnd=146320|Gloss=SG.DEM
-27	//	//	PUNCT	_	_	2	punct	_	AlignBegin=146320|AlignEnd=146347|Gloss=PUNCT
+25	}	}	PUNCT	_	_	20	punct	_	AlignBegin=145930|AlignEnd=146131|Gloss=PUNCT
+26	like	like	ADP	_	_	15	mod	_	AlignBegin=145930|AlignEnd=146131|Gloss=like
+27	dis	dis	PRON	_	Number=Sing|PronType=Dem	26	comp:obj	_	AlignBegin=146131|AlignEnd=146320|Gloss=SG.DEM
+28	//	//	PUNCT	_	_	2	punct	_	AlignBegin=146320|AlignEnd=146347|Gloss=PUNCT
 
 # sent_id = JOS_12_How-To-Prepare-Gote-Soup_MG__25
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_12_How-To-Prepare-Gote-Soup_MG.mp3
@@ -1105,7 +1106,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=216620|AlignEnd=216840|Gloss=PUNCT
 2	so	so	ADV	_	_	3	discourse	_	AlignBegin=216840|AlignEnd=217150|Gloss=so
 3	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=217180|AlignEnd=217393|Gloss=be1
-4	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=217393|AlignEnd=217650|Gloss=NOM.SG.3
+4	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	comp:pred@fixed	_	AlignBegin=217393|AlignEnd=217650|Gloss=NOM.SG.3
 5	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=217650|AlignEnd=217680|Gloss=PUNCT
 6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=217680|AlignEnd=218160|Gloss=PUNCT
 7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	subj	_	AlignBegin=218160|AlignEnd=218230|Gloss=NOM.PL.1

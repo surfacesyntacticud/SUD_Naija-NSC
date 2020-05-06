@@ -59,8 +59,8 @@
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=14030|AlignEnd=14060|Gloss=PUNCT
 7	#	#	PUNCT	_	_	2	punct	_	AlignBegin=14060|AlignEnd=14607|Gloss=PUNCT
 8	first	first	ADJ	_	NumType=Ord	14	mod:periph	_	AlignBegin=14607|AlignEnd=14850|Gloss=first.ORD
-9	of	of	ADP	_	_	8	mod	_	AlignBegin=14850|AlignEnd=15030|Gloss=of
-10	all	all	ADV	_	_	9	comp:obj	_	AlignBegin=15030|AlignEnd=15345|Gloss=all
+9	of	of	ADP	_	_	8	mod@fixed	_	AlignBegin=14850|AlignEnd=15030|Gloss=of
+10	all	all	ADV	_	_	9	comp:obj@fixed	_	AlignBegin=15030|AlignEnd=15345|Gloss=all
 11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=15345|AlignEnd=15375|Gloss=PUNCT
 12	#	#	PUNCT	_	_	8	punct	_	AlignBegin=15375|AlignEnd=15950|Gloss=PUNCT
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=15950|AlignEnd=16049|Gloss=NOM.SG.1
@@ -556,7 +556,7 @@
 2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=108650|AlignEnd=108720|Gloss=DEF.ART
 3	piston	piston	NOUN	_	_	5	subj	_	AlignBegin=108720|AlignEnd=109340|Gloss=piston
 4	#	#	PUNCT	_	_	3	punct	_	AlignBegin=109340|AlignEnd=110440|Gloss=PUNCT
-5	beginning	beginning	VERB	_	_	0	root	_	AlignBegin=110440|AlignEnd=110880|Gloss=beginning
+5	beginning	begin	VERB	_	Tense=Pres	0	root	_	AlignBegin=110440|AlignEnd=110880|FerbForm=Part|Gloss=begin.PRS.PTCP
 6	to	to	ADP	_	_	5	comp:obl@x	_	AlignBegin=110880|AlignEnd=111220|Gloss=to
 7	#	#	PUNCT	_	_	8	punct	_	AlignBegin=111220|AlignEnd=112160|Gloss=PUNCT
 8	taking	take	VERB	_	Tense=Pres|VerbForm=Part	6	comp:obj	_	AlignBegin=112160|AlignEnd=112430|Gloss=take.PRS.PTCP
@@ -1533,7 +1533,7 @@
 # sent_id = KAD_12_Mechanic-At-Work_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_12_Mechanic-At-Work_MG.mp3
 # speaker_id = Sp190
-# text = # dere is many tings about mechanics # wey if you come and ask me say # [ your car # get problem ] //
+# text = # dere is many tings about mechanics # { wey || if } you come and ask me say # [ your car # get problem ] //
 # text_en = There are a lot of things about the mechanics' job that if you come and tell me that your car has a problem...
 # text_ortho = Dere is many tings about mechanics wey if you come and ask me sey your car get problem…
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=310610|AlignEnd=311400|Gloss=PUNCT
@@ -1543,22 +1543,25 @@
 5	tings	tings	NOUN	_	Number=Plur	3	comp:obj@agent	_	AlignBegin=312060|AlignEnd=312610|Gloss=thing.PL
 6	about	about	ADP	_	_	5	mod	_	AlignBegin=312610|AlignEnd=312960|Gloss=about
 7	mechanics	mechanics	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=312960|AlignEnd=313880|Gloss=mechanics.PL
-8	#	#	PUNCT	_	_	9	punct	_	AlignBegin=313880|AlignEnd=314420|Gloss=PUNCT
-9	wey	when	SCONJ	_	_	3	mod	_	AlignBegin=314420|AlignEnd=314760|Gloss=when
-10	if	if	SCONJ	_	_	9	unk@fixed	_	AlignBegin=314760|AlignEnd=314890|Gloss=if
-11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=314890|AlignEnd=315021|Gloss=NOM.2
-12	come	come	VERB	_	_	9	subj@expl	_	AlignBegin=315021|AlignEnd=315257|Gloss=come
-13	and	and	CCONJ	_	_	14	cc	_	AlignBegin=315257|AlignEnd=315610|Gloss=and
-14	ask	ask	VERB	_	_	12	conj:coord	_	AlignBegin=315610|AlignEnd=315960|Gloss=ask
-15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	AlignBegin=315960|AlignEnd=316040|Gloss=ACC.SG.1
-16	say	say	SCONJ	_	_	14	compound:svc	_	AlignBegin=316040|AlignEnd=316640|Gloss=say
-17	#	#	PUNCT	_	_	22	punct	_	AlignBegin=316640|AlignEnd=317070|Gloss=PUNCT
-18	[	[	PUNCT	_	_	22	punct	_	AlignBegin=317040|AlignEnd=317070|Gloss=PUNCT
-19	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	20	mod:poss	_	AlignBegin=317070|AlignEnd=317235|Gloss=PL.2.POSS
-20	car	car	NOUN	_	_	22	subj	_	AlignBegin=317235|AlignEnd=317720|Gloss=car
-21	#	#	PUNCT	_	_	22	punct	_	AlignBegin=317720|AlignEnd=318560|Gloss=PUNCT
-22	get	get	VERB	_	_	16	parataxis:obj	_	AlignBegin=318560|AlignEnd=318800|Gloss=get
-23	problem	problem	NOUN	_	_	22	comp:obj	_	AlignBegin=318800|AlignEnd=319270|Gloss=problem
-24	]	]	PUNCT	_	_	22	punct	_	AlignBegin=319270|AlignEnd=319300|Gloss=PUNCT
-25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=319270|AlignEnd=319300|Gloss=PUNCT
+8	#	#	PUNCT	_	_	10	punct	_	AlignBegin=313880|AlignEnd=314420|Gloss=PUNCT
+9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=313880|AlignEnd=314420|Gloss=PUNCT
+10	wey	when	SCONJ	_	_	3	mod	_	AlignBegin=314420|AlignEnd=314760|Gloss=when
+11	||	||	SCONJ	_	_	12	punct	_	=|AlignBegin=314760|AlignEnd=314890|Gloss=
+12	if	if	SCONJ	_	_	10	conj:dicto	_	AlignBegin=314760|AlignEnd=314890|Gloss=if
+13	}	}	SCONJ	_	_	10	punct	_	AlignBegin=314760|AlignEnd=314890|Gloss=}
+14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	subj	_	AlignBegin=314890|AlignEnd=315021|Gloss=NOM.2
+15	come	come	VERB	_	_	12	comp:obj	_	AlignBegin=315021|AlignEnd=315257|Gloss=come
+16	and	and	CCONJ	_	_	17	cc	_	AlignBegin=315257|AlignEnd=315610|Gloss=and
+17	ask	ask	VERB	_	_	15	conj:coord	_	AlignBegin=315610|AlignEnd=315960|Gloss=ask
+18	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	AlignBegin=315960|AlignEnd=316040|Gloss=ACC.SG.1
+19	say	say	SCONJ	_	_	17	compound:svc	_	AlignBegin=316040|AlignEnd=316640|Gloss=say
+20	#	#	PUNCT	_	_	25	punct	_	AlignBegin=316640|AlignEnd=317070|Gloss=PUNCT
+21	[	[	PUNCT	_	_	25	punct	_	AlignBegin=317040|AlignEnd=317070|Gloss=PUNCT
+22	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	23	mod:poss	_	AlignBegin=317070|AlignEnd=317235|Gloss=PL.2.POSS
+23	car	car	NOUN	_	_	25	subj	_	AlignBegin=317235|AlignEnd=317720|Gloss=car
+24	#	#	PUNCT	_	_	25	punct	_	AlignBegin=317720|AlignEnd=318560|Gloss=PUNCT
+25	get	get	VERB	_	_	19	parataxis:obj	_	AlignBegin=318560|AlignEnd=318800|Gloss=get
+26	problem	problem	NOUN	_	_	25	comp:obj	_	AlignBegin=318800|AlignEnd=319270|Gloss=problem
+27	]	]	PUNCT	_	_	25	punct	_	AlignBegin=319270|AlignEnd=319300|Gloss=PUNCT
+28	//	//	PUNCT	_	_	3	punct	_	AlignBegin=319270|AlignEnd=319300|Gloss=PUNCT
 

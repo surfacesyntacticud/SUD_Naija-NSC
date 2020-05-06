@@ -607,7 +607,7 @@
 # text_en = That's it.
 # text_ortho = Na im, be di tin wey dey dere.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=97835|AlignEnd=98005|Gloss=be1
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred	_	AlignBegin=98005|AlignEnd=98034|Gloss=NOM.SG.3
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred@fixed	_	AlignBegin=98005|AlignEnd=98034|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=98034|AlignEnd=98064|Gloss=PUNCT
 4	be	be	VERB	_	PartType=Cop	1	comp:cleft	_	AlignBegin=98064|AlignEnd=98135|Gloss=be1
 5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=98135|AlignEnd=98246|Gloss=DEF.ART
@@ -638,7 +638,7 @@
 13	Luchi	Luchi	PROPN	_	_	14	subj	_	AlignBegin=112620|AlignEnd=112920|Gloss=Luchi
 14	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	AlignBegin=112920|AlignEnd=113010|Gloss=be.IND.SG.3.PRS.FIN
 15	about	about	ADP	_	_	14	comp:pred	_	AlignBegin=113010|AlignEnd=113290|Gloss=about
-16	to	to	ADP	_	_	15	comp:pred	_	AlignBegin=113290|AlignEnd=113410|Gloss=to
+16	to	to	ADP	_	_	15	comp:obj	_	AlignBegin=113290|AlignEnd=113410|Gloss=to
 17	advocate	advocate	VERB	_	_	16	comp:obj	_	AlignBegin=113410|AlignEnd=113860|Gloss=advocate
 18	for	for	ADP	_	_	17	comp:obl	_	AlignBegin=113860|AlignEnd=113960|Gloss=for
 19	di	the	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=113960|AlignEnd=114050|Gloss=DEF.ART
@@ -1225,7 +1225,7 @@
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
 # speaker_id = Sp310
-# text = # [eng dat was how de were able to save more dan a hundred girls > # all of dem < { # different |r different } pockets of &//
+# text = # [eng dat was how de were able to save more dan a hundred girls //= # all of dem < { # different |r different } pockets of eng] &//
 # text_en = That was how they were able to save more than a hundred girls, all of them from different pockets of…
 # text_ortho = Dat was how de were able to save more dan a hundred girls, all of dem, different, different pockets of…
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=203455|AlignEnd=204091|Gloss=PUNCT
@@ -1238,12 +1238,12 @@
 8	able	able	ADJ	_	_	7	comp:pred	_	AlignBegin=204695|AlignEnd=204885|Gloss=able
 9	to	to	ADP	_	_	8	comp:pred	_	AlignBegin=204885|AlignEnd=205045|Gloss=to
 10	save	save	VERB	_	_	9	comp:obj	_	AlignBegin=205045|AlignEnd=205415|Gloss=save
-11	more	more	ADJ	_	Degree=Cmp	14	mod	_	AlignBegin=205415|AlignEnd=205645|Gloss=CMPR
-12	dan	dan	ADP	_	_	11	unk@fixed	_	AlignBegin=205645|AlignEnd=205825|Gloss=than
-13	a	a	DET	_	Definite=Ind|PronType=Art	14	det	_	AlignBegin=205825|AlignEnd=205975|Gloss=INDF.ART
-14	hundred	hundred	NUM	_	NumType=Card	15	det:num	_	AlignBegin=205975|AlignEnd=206415|Gloss=hundred.CARD
-15	girls	girl	NOUN	_	Number=Plur	10	comp:obj	_	AlignBegin=206415|AlignEnd=206725|Gloss=girl.PL
-16	>	>	PUNCT	_	_	28	punct	_	AlignBegin=206755|AlignEnd=208337|Gloss=PUNCT
+11	more	more	ADJ	_	Degree=Cmp	10	mod	_	AlignBegin=205415|AlignEnd=205645|Gloss=CMPR
+12	dan	dan	ADP	_	_	11	mod	_	AlignBegin=205645|AlignEnd=205825|Gloss=than
+13	a	a	DET	_	Definite=Ind|PronType=Art	15	det	_	AlignBegin=205825|AlignEnd=205975|Gloss=INDF.ART
+14	hundred	hundred	NUM	_	NumType=Card	15	mod:num	_	AlignBegin=205975|AlignEnd=206415|Gloss=hundred.CARD
+15	girls	girl	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=206415|AlignEnd=206725|Gloss=girl.PL
+16	//=	//=	PUNCT	_	_	28	punct	_	AlignBegin=206755|AlignEnd=208337|Gloss=PUNCT
 17	#	#	PUNCT	_	_	28	punct	_	AlignBegin=206755|AlignEnd=208337|Gloss=PUNCT
 18	all	all	ADV	_	_	28	dislocated	_	AlignBegin=208337|AlignEnd=208520|Gloss=all
 19	of	of	ADP	_	_	18	mod	_	AlignBegin=208520|AlignEnd=208700|Gloss=of
@@ -1257,7 +1257,8 @@
 27	}	}	PUNCT	_	_	24	punct	_	AlignBegin=209960|AlignEnd=209990|Gloss=PUNCT
 28	pockets	pocket	NOUN	_	Number=Plur	4	parataxis:dislocated	_	AlignBegin=209990|AlignEnd=210330|Gloss=pocket.PL
 29	of	of	ADP	_	_	28	mod@scrap	_	AlignBegin=210330|AlignEnd=210466|Gloss=of
-30	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
+30	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
+31	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3

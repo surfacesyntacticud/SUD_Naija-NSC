@@ -25,10 +25,10 @@
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=5880|AlignEnd=7680|Gloss=PUNCT
 2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=7650|AlignEnd=7680|Gloss=PUNCT
 3	dere	dere	ADV	_	_	4	subj@expl	_	AlignBegin=7680|AlignEnd=7873|Gloss=there
-4	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=7873|AlignEnd=8140|Gloss=be.IND.SG.1.PST.FIN
-5	dis	dis	DET	_	Number=Sing|PronType=Dem	_	_	_	AlignBegin=8140|AlignEnd=8489|Gloss=SG.PROX.DEM
-6	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=8519|AlignEnd=8901|Gloss=eh
-7	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=8901|AlignEnd=8931|Gloss=PUNCT
+4	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root@scrap	_	AlignBegin=7873|AlignEnd=8140|Gloss=be.IND.SG.1.PST.FIN
+5	dis	dis	DET	_	Number=Sing|PronType=Dem	4	comp:obj@scrap	_	AlignBegin=8140|AlignEnd=8489|Gloss=SG.PROX.DEM
+6	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=8519|AlignEnd=8901|Gloss=eh
+7	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=8901|AlignEnd=8931|Gloss=PUNCT
 8	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=8901|AlignEnd=8931|Gloss=PUNCT
 
 # sent_id = BEN_36_Clever-Girl_MG__3
@@ -1111,7 +1111,7 @@
 7	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=152368|AlignEnd=152510|Gloss=COMP
 8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=152368|AlignEnd=152510|Gloss=PUNCT
 9	na	na	PART	_	PartType=Cop	7	comp:obj	_	AlignBegin=152510|AlignEnd=152627|Gloss=be1
-10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	comp:pred	_	AlignBegin=152627|AlignEnd=152730|Gloss=NOM.SG.3
+10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	comp:pred@fixed	_	AlignBegin=152627|AlignEnd=152730|Gloss=NOM.SG.3
 11	>+	>+	PUNCT	_	_	12	punct	_	AlignBegin=152730|AlignEnd=152760|Gloss=PUNCT
 12	give	give	VERB	_	_	9	comp:cleft	_	AlignBegin=152760|AlignEnd=153040|Gloss=give
 13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=153040|AlignEnd=153260|Gloss=SG.DEM
@@ -2254,7 +2254,7 @@
 17	dey	dey	VERB	_	VerbType=Cop	16	comp:obj	_	AlignBegin=288360|AlignEnd=288510|Gloss=be2
 18	}	}	PUNCT	_	_	12	punct	_	AlignBegin=288510|AlignEnd=288540|Gloss=PUNCT
 19	close	close	ADJ	_	_	17	comp:pred	_	AlignBegin=288540|AlignEnd=288880|Gloss=close
-20	to	to	ADP	_	_	19	comp:obl	_	AlignBegin=288880|AlignEnd=289000|Gloss=to
+20	to	to	ADP	_	_	19	comp:obl@fixed	_	AlignBegin=288880|AlignEnd=289000|Gloss=to
 21	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	20	comp:obj	_	AlignBegin=289000|AlignEnd=289090|Gloss=F.SG.3.POSS
 22	||	||	PUNCT	_	_	23	punct	_	AlignBegin=289090|AlignEnd=289120|Gloss=PUNCT
 23	anyting	anyting	PRON	_	_	10	conj:dicto	_	AlignBegin=289120|AlignEnd=289490|Gloss=anything
@@ -2617,7 +2617,7 @@
 13	<	<	PUNCT	_	_	7	punct	_	AlignBegin=334350|AlignEnd=334380|Gloss=PUNCT
 14	#	#	PUNCT	_	_	7	punct	_	AlignBegin=334380|AlignEnd=334920|Gloss=PUNCT
 15	na	na	PART	_	PartType=Cop	5	comp:obj	_	AlignBegin=334920|AlignEnd=334979|Gloss=be1
-16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	comp:pred	_	AlignBegin=334979|AlignEnd=334990|Gloss=NOM.SG.3
+16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	comp:pred@fixed	_	AlignBegin=334979|AlignEnd=334990|Gloss=NOM.SG.3
 17	>+	>+	PUNCT	_	_	19	punct	_	AlignBegin=334990|AlignEnd=335020|Gloss=PUNCT
 18	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	subj	_	AlignBegin=335020|AlignEnd=335100|Gloss=NOM.SG.1
 19	go	go	AUX	_	Aspect=Prosp	15	comp:cleft	_	AlignBegin=335100|AlignEnd=335230|Gloss=PROSP
@@ -2727,3 +2727,4 @@
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=347175|AlignEnd=347434|Gloss=NOM.2
 8	]	]	PUNCT	_	_	6	punct	_	AlignBegin=347434|AlignEnd=347464|Gloss=PUNCT
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=347434|AlignEnd=347464|Gloss=PUNCT
+
