@@ -948,9 +948,9 @@
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	subj	_	AlignBegin=151442|AlignEnd=151592|Gloss=NOM.2
 15	no	no	PART	_	Polarity=Neg	16	mod	_	AlignBegin=151592|AlignEnd=151722|Gloss=NEG
 16	know	know	VERB	_	_	11	comp:obj	_	AlignBegin=151722|AlignEnd=151952|Gloss=know
-17	what	what	PRON	_	PronType=Int	18	subj	_	Gloss=_
-18	's	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj@x	_	AlignBegin=151952|AlignEnd=152272|Gloss=be.3.IND.PRS.Q
-19	up	up	ADP	_	_	18	comp:pred	_	AlignBegin=152272|AlignEnd=152420|Gloss=up
+17	what	what	PRON	_	PronType=Int	16	comp:obj	_	Gloss=what
+18	's	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	AlignBegin=151952|AlignEnd=152272|Gloss=be.3.IND.PRS.Q
+19	up	up	ADP	_	_	18	compound:prt	_	AlignBegin=152272|AlignEnd=152420|Gloss=up
 20	#	#	PUNCT	_	_	21	punct	_	AlignBegin=152420|AlignEnd=152800|Gloss=PUNCT
 21	if	if	SCONJ	_	_	16	mod	_	AlignBegin=152800|AlignEnd=153030|Gloss=if
 22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	24	subj	_	AlignBegin=153030|AlignEnd=153130|Gloss=NOM.2
@@ -1793,7 +1793,7 @@
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=285840|AlignEnd=285950|Gloss=PROSP
 4	con	con	AUX	_	Aspect=Cons	3	comp:aux	_	AlignBegin=285950|AlignEnd=286100|Gloss=CONS
 5	start	start	VERB	_	_	4	comp:aux	_	AlignBegin=286100|AlignEnd=286290|Gloss=start
-6	to	to	ADP	_	_	5	comp:pred	_	AlignBegin=286290|AlignEnd=286400|Gloss=to
+6	to	to	ADP	_	_	5	comp:obl@x	_	AlignBegin=286290|AlignEnd=286400|Gloss=to
 7	dey	dey	AUX	_	Aspect=Imp	6	comp:obj	_	AlignBegin=286400|AlignEnd=286510|Gloss=IPFV
 8	call	call	VERB	_	_	7	comp:aux	_	AlignBegin=286510|AlignEnd=286690|Gloss=call
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=286690|AlignEnd=286790|Gloss=NOM.2
@@ -1998,7 +1998,7 @@
 # text_ortho = Den my own o, finally o, di women for house, di wife for house, de dey make some men dey cheat.
 1	#	#	PUNCT	_	_	22	punct	_	AlignBegin=314682|AlignEnd=315100|Gloss=PUNCT
 2	den	den	ADV	_	_	22	mod:periph	_	AlignBegin=315100|AlignEnd=315660|Gloss=den
-3	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	4	mod	_	AlignBegin=315660|AlignEnd=315960|Gloss=SG.1.POSS
+3	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	4	mod:poss	_	AlignBegin=315660|AlignEnd=315960|Gloss=SG.1.POSS
 4	own	own	ADJ	_	_	22	dislocated	_	AlignBegin=315960|AlignEnd=316210|Gloss=own
 5	o	o	PART	_	PartType=Disc	4	mod:emph	_	AlignBegin=316210|AlignEnd=316340|Gloss=EMPH
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=316340|AlignEnd=316370|Gloss=PUNCT
@@ -2556,15 +2556,15 @@
 # sent_id = IBA_03_Womanisers_MG__113
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
-# text = # { e- | e- | e- } &//
+# text = # { e- || e- || e- } &//
 # text_en = E-…, e-…, e-…
 # text_ortho = E-, e-, e-…
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=392840|AlignEnd=393460|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=393430|AlignEnd=393460|Gloss=PUNCT
 3	e-	X	X	_	_	0	root@scrap	_	AlignBegin=393460|AlignEnd=393700|Gloss=X
-4	|	|	PUNCT	_	_	5	punct	_	AlignBegin=393700|AlignEnd=393730|Gloss=PUNCT
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=393700|AlignEnd=393730|Gloss=PUNCT
 5	e-	X	X	_	_	3	conj:dicto	_	AlignBegin=393730|AlignEnd=393840|Gloss=X
-6	|	|	PUNCT	_	_	7	punct	_	AlignBegin=393840|AlignEnd=393870|Gloss=PUNCT
+6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=393840|AlignEnd=393870|Gloss=PUNCT
 7	e-	X	X	_	_	5	conj:dicto	_	AlignBegin=393870|AlignEnd=393910|Gloss=X
 8	}	}	PUNCT	_	_	3	punct	_	AlignBegin=393910|AlignEnd=393940|Gloss=PUNCT
 9	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=393910|AlignEnd=393940|Gloss=PUNCT

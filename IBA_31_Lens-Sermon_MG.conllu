@@ -373,7 +373,7 @@
 # text_ortho = But im own, e no sin.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=73780|AlignEnd=74300|Gloss=PUNCT
 2	but	but	CCONJ	_	_	8	cc	_	AlignBegin=74300|AlignEnd=74630|Gloss=but
-3	im	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	mod	_	AlignBegin=74630|AlignEnd=74748|Gloss=M.SG.3.POSS
+3	im	im	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	mod:poss	_	AlignBegin=74630|AlignEnd=74748|Gloss=M.SG.3.POSS
 4	own	own	ADJ	_	_	8	dislocated	_	AlignBegin=74748|AlignEnd=74940|Gloss=own
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=74940|AlignEnd=74970|Gloss=PUNCT
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=74970|AlignEnd=75063|Gloss=NOM.SG.3
@@ -956,8 +956,8 @@
 # text_en = You are hungry.
 # text_ortho = You dey hungry.
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=158874|AlignEnd=158995|Gloss=NOM.2
-2	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=158995|AlignEnd=159173|Gloss=IPFV
-3	hungry	hungry	ADJ	_	_	2	comp:aux	_	AlignBegin=159173|AlignEnd=159614|Gloss=hunger
+2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=158995|AlignEnd=159173|Gloss=be
+3	hungry	hungry	ADJ	_	_	2	comp:pred	_	AlignBegin=159173|AlignEnd=159614|Gloss=hunger
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=159614|AlignEnd=159644|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__48
@@ -1013,7 +1013,7 @@
 9	sey	sey	SCONJ	_	_	7	comp:obj	_	AlignBegin=165940|AlignEnd=166090|Gloss=COMP
 10	[	[	PUNCT	_	_	11	punct	_	AlignBegin=166090|AlignEnd=166120|Gloss=PUNCT
 11	get	get	VERB	_	_	9	comp:obj	_	AlignBegin=166120|AlignEnd=166330|Gloss=get
-12	behind	behind	ADP	_	_	11	comp:pred	_	AlignBegin=166330|AlignEnd=166660|Gloss=behind
+12	behind	behind	ADP	_	_	11	comp:obl	_	AlignBegin=166330|AlignEnd=166660|Gloss=behind
 13	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=166660|AlignEnd=166990|Gloss=ACC.SG.1
 14	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=167020|AlignEnd=167160|Gloss=PUNCT
 15	sey	sey	SCONJ	_	_	17	cc	_	AlignBegin=167020|AlignEnd=167160|Gloss=COMP
@@ -1311,7 +1311,7 @@
 17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=208140|AlignEnd=208250|Gloss=DEF.ART
 18	Lord	lord	NOUN	_	_	15	mod	_	AlignBegin=208250|AlignEnd=208510|Gloss=lord
 19	|a	|a	PUNCT	_	_	21	punct	_	AlignBegin=208510|AlignEnd=208540|Gloss=PUNCT
-20	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	21	mod	_	AlignBegin=208540|AlignEnd=208650|Gloss=PL.2.POSS
+20	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	21	mod:poss	_	AlignBegin=208540|AlignEnd=208650|Gloss=PL.2.POSS
 21	God	God	PROPN	_	_	18	vocative	_	AlignBegin=208650|AlignEnd=209010|Gloss=God
 22	}	}	PUNCT	_	_	18	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
 23	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
@@ -1792,7 +1792,7 @@
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=272809|AlignEnd=272970|Gloss=NOM.2
 5	no	no	PART	_	Polarity=Neg	6	mod	_	AlignBegin=272970|AlignEnd=273130|Gloss=NEG
 6	need	need	VERB	_	_	2	parataxis:obj	_	AlignBegin=273130|AlignEnd=273380|Gloss=need
-7	to	to	ADP	_	_	6	comp:pred	_	AlignBegin=273380|AlignEnd=273700|Gloss=to
+7	to	to	ADP	_	_	6	comp:obl@x	_	AlignBegin=273380|AlignEnd=273700|Gloss=to
 8	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=273700|AlignEnd=273870|Gloss=IPFV
 9	bow	bow	VERB	_	_	8	comp:aux	_	AlignBegin=273870|AlignEnd=274230|Gloss=bow
 10	to	to	ADP	_	_	9	comp:obl	_	AlignBegin=274230|AlignEnd=274370|Gloss=to

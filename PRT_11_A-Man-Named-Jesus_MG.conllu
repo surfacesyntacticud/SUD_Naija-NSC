@@ -148,7 +148,7 @@
 20	na	na	PART	_	PartType=Cop	29	mod:periph	_	AlignBegin=30160|AlignEnd=30300|Gloss=be
 21	so	so	ADV	_	_	20	comp:pred	_	AlignBegin=30300|AlignEnd=30630|Gloss=so
 22	<	<	PUNCT	_	_	20	punct	_	AlignBegin=30300|AlignEnd=30630|Gloss=PUNCT
-23	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	24	mod	_	AlignBegin=30660|AlignEnd=31088|Gloss=PL.1.POSS
+23	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	24	mod:poss	_	AlignBegin=30660|AlignEnd=31088|Gloss=PL.1.POSS
 24	God	God	PROPN	_	_	29	dislocated	_	AlignBegin=31088|AlignEnd=31430|Gloss=God
 25	for	for	ADP	_	_	24	mod	_	AlignBegin=31430|AlignEnd=31639|Gloss=for
 26	heaven	heaven	NOUN	_	_	25	comp:obj	_	AlignBegin=31639|AlignEnd=32020|Gloss=heaven
@@ -517,9 +517,9 @@
 14	make	make	VERB	_	_	13	comp:aux	_	AlignBegin=89730|AlignEnd=89900|Gloss=make
 15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	AlignBegin=89900|AlignEnd=90008|Gloss=ACC.SG.1
 16	{	{	PUNCT	_	_	17	punct	_	AlignBegin=90008|AlignEnd=90038|Gloss=PUNCT
-17	dey	dey	AUX	_	Aspect=Imp	14	comp:pred	_	AlignBegin=90038|AlignEnd=90373|Gloss=IPFV
-18	do	do	SCONJ	_	_	17	comp:aux	_	AlignBegin=90373|AlignEnd=90510|Gloss=do
-19	like	like	ADP	_	_	18	mod	_	AlignBegin=90510|AlignEnd=90780|Gloss=like
+17	dey	dey	AUX	_	Aspect=Imp	14	comp:obj@x	_	AlignBegin=90038|AlignEnd=90373|Gloss=IPFV
+18	do	do	AUX	_	_	17	comp:aux	_	AlignBegin=90373|AlignEnd=90510|Gloss=do
+19	like	like	ADP	_	_	18	comp:obj	_	AlignBegin=90510|AlignEnd=90780|Gloss=like
 20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	comp:obj	_	AlignBegin=90780|AlignEnd=90930|Gloss=NOM.2
 21	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=90930|AlignEnd=90960|Gloss=PUNCT
 22	#	#	PUNCT	_	_	23	punct	_	AlignBegin=90960|AlignEnd=91200|Gloss=PUNCT
@@ -578,7 +578,7 @@
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=101850|AlignEnd=102360|Gloss=PUNCT
 2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=102360|AlignEnd=102630|Gloss=SG.DIST.DEM
 3	Born	Born	PROPN	_	_	5	subj	_	AlignBegin=102630|AlignEnd=102880|Gloss=give_birth.PST.PTCP
-4	Again	Again	PROPN	_	_	3	flat	_	AlignBegin=102880|AlignEnd=103200|Gloss=again
+4	Again	again	PROPN	_	_	3	flat	_	AlignBegin=102880|AlignEnd=103200|Gloss=again
 5	mean	mean	VERB	_	_	0	root	_	AlignBegin=103200|AlignEnd=103415|Gloss=mean
 6	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=103415|AlignEnd=103740|Gloss=COMP
 7	#	#	PUNCT	_	_	9	punct	_	AlignBegin=103740|AlignEnd=103980|Gloss=PUNCT
@@ -1086,7 +1086,7 @@
 32	understand	understand	VERB	_	_	31	comp:aux	_	AlignBegin=187070|AlignEnd=187688|Gloss=understand
 33	who	who	PRON	_	PronType=Int	32	comp:obj	_	AlignBegin=187688|AlignEnd=187870|Gloss=who.Q
 34	God	God	PROPN	_	_	35	subj	_	AlignBegin=187870|AlignEnd=188208|Gloss=God
-35	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	mod@relcl	_	AlignBegin=188208|AlignEnd=188608|Gloss=be.IND.SG.3.PRS.FIN
+35	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	mod@relcl	_	AlignBegin=188208|AlignEnd=188608|Gloss=be.IND.SG.3.PRS.FIN
 36	//=	//=	PUNCT	_	_	39	punct	_	AlignBegin=188608|AlignEnd=188638|Gloss=PUNCT
 37	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	39	subj	_	AlignBegin=188638|AlignEnd=188759|Gloss=NOM.2
 38	no	no	PART	_	Polarity=Neg	39	mod	_	AlignBegin=188759|AlignEnd=188890|Gloss=NEG
@@ -1698,8 +1698,8 @@
 # text_en = They da-…
 # text_ortho = De da-...
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=283420|AlignEnd=283605|Gloss=PUNCT
-2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=283605|AlignEnd=283745|Gloss=NOM.PL.3
-3	da	da	X	_	_	2	unk@scrap	_	AlignBegin=283745|AlignEnd=283976|Gloss=X
+2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	mod@scrap	_	AlignBegin=283605|AlignEnd=283745|Gloss=NOM.PL.3
+3	da	X	X	_	_	2	unk@scrap	_	AlignBegin=283745|AlignEnd=283976|Gloss=X
 4	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=283976|AlignEnd=284006|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__65
@@ -1730,7 +1730,7 @@
 20	//=	//=	PUNCT	_	_	22	punct	_	AlignBegin=287825|AlignEnd=288129|Gloss=PUNCT
 21	tomorrow	tomorrow	NOUN	_	_	22	mod:periph	_	AlignBegin=287825|AlignEnd=288129|Gloss=tomorrow
 22	arthritis	arthritis	NOUN	_	_	18	parataxis:conj	_	AlignBegin=288129|AlignEnd=288847|Gloss=arthritis
-23	//=	|c	PUNCT	_	_	24	punct	_	AlignBegin=288847|AlignEnd=288877|Gloss=PUNCT
+23	//=	//=	PUNCT	_	_	24	punct	_	AlignBegin=288847|AlignEnd=288877|Gloss=PUNCT
 24	dey	dey	VERB	_	VerbType=Cop	22	parataxis:conj	_	AlignBegin=288877|AlignEnd=289029|Gloss=be
 25	headache	headache	NOUN	_	_	24	comp:pred	_	AlignBegin=289029|AlignEnd=289465|Gloss=headache
 26	next	next	ADJ	_	_	27	mod	_	AlignBegin=289465|AlignEnd=289745|Gloss=next
@@ -2098,7 +2098,7 @@
 28	all	all	ADV	_	_	27	comp:obj	_	AlignBegin=340867|AlignEnd=340925|Gloss=all
 29	of	of	ADP	_	_	28	mod	_	AlignBegin=340925|AlignEnd=341048|Gloss=of
 30	them	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	comp:obj	_	AlignBegin=341048|AlignEnd=341205|Gloss=ACC.PL.3
-31	to	to	ADP	_	_	27	comp:pred	_	AlignBegin=341205|AlignEnd=341405|Gloss=to
+31	to	to	ADP	_	_	27	comp:obl@x	_	AlignBegin=341205|AlignEnd=341405|Gloss=to
 32	what	what	PRON	_	PronType=Int	31	comp:obj	_	AlignBegin=341405|AlignEnd=341760|Gloss=what.Q
 33	?//	?//	PUNCT	_	_	26	punct	_	AlignBegin=341760|AlignEnd=341790|Gloss=PUNCT
 
