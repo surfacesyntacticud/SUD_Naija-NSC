@@ -205,7 +205,7 @@
 # text = wetin e dey say ?//
 # text_en = What's he saying?
 # text_ortho = Wetin e dey say?
-1	wetin	wetin	PRON	_	PronType=Int	0	root	4:@comp	AlignBegin=32365|AlignEnd=32665|Gloss=what.Q
+1	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=32365|AlignEnd=32665|Gloss=what.Q
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=32665|AlignEnd=32755|Gloss=NOM.SG.3
 3	dey	dey	AUX	_	Aspect=Imp	1	comp:cleft	_	AlignBegin=32755|AlignEnd=32897|Gloss=IPFV
 4	say	say	VERB	_	_	3	comp:aux	_	AlignBegin=32897|AlignEnd=33185|Gloss=say
@@ -217,30 +217,28 @@
 # text = # [eng he is a confirmed kidnapper //= # he say [ I kidnap only valuable ladies > # says ex-soldier ] eng] //
 # text_en = "He is a confirmed kidnapper, he said, ""I only kidnap valuable ladies"", says the ex-soldier."
 # text_ortho = " he is a confirmed kidnapper, he say ""I kidnap only valuable ladies"", says ex-soldier ."
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=33215|AlignEnd=33612|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=33582|AlignEnd=33612|Gloss=PUNCT
-3	he	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=33612|AlignEnd=33792|Gloss=NOM.SG.3
-4	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=33792|AlignEnd=33922|Gloss=be.IND.SG.3.PRS.FIN
-5	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	AlignBegin=33922|AlignEnd=34022|Gloss=INDF.ART
-6	confirmed	confirm	VERB	_	Tense=Past|VerbForm=Part	7	mod	_	AlignBegin=34022|AlignEnd=34472|Gloss=confirm.PST.PTCP
-7	kidnapper	kidnapper	NOUN	_	_	4	comp:pred	_	AlignBegin=34472|AlignEnd=34983|Gloss=kidnapper
-8	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=35013|AlignEnd=36005|Gloss=PUNCT
-9	#	#	PUNCT	_	_	11	punct	_	AlignBegin=35013|AlignEnd=36005|Gloss=PUNCT
-10	he	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	subj	_	AlignBegin=36005|AlignEnd=36095|Gloss=NOM.SG.3
-11	say	say	VERB	_	_	4	parataxis:conj	_	AlignBegin=36095|AlignEnd=36393|Gloss=say
-12	[	[	PUNCT	_	_	14	punct	_	AlignBegin=36393|AlignEnd=36423|Gloss=PUNCT
-13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=36423|AlignEnd=36660|Gloss=NOM.SG.1
-14	kidnap	kidnap	VERB	_	_	11	parataxis:obj	_	AlignBegin=36660|AlignEnd=37275|Gloss=kidnap
-15	only	only	ADJ	_	_	17	mod	_	AlignBegin=37275|AlignEnd=37555|Gloss=only
-16	valuable	valuable	ADJ	_	_	17	compound	_	AlignBegin=37555|AlignEnd=38190|Gloss=valuable
-17	ladies	lady	NOUN	_	Number=Plur	14	comp:obj	_	AlignBegin=38190|AlignEnd=38922|Gloss=lady.PL
-18	>	>	PUNCT	_	_	14	punct	_	AlignBegin=38922|AlignEnd=38952|Gloss=PUNCT
-19	#	#	PUNCT	_	_	20	punct	_	AlignBegin=38952|AlignEnd=39895|Gloss=PUNCT
-20	says	say	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis:discourse	_	AlignBegin=39895|AlignEnd=40275|Gloss=say.IND.SG.3.PRS.FIN
-21	ex-soldier	ex-soldier	NOUN	_	_	20	subj	_	AlignBegin=40275|AlignEnd=40865|Gloss=ex-soldier
-22	]	]	PUNCT	_	_	4	punct	_	AlignBegin=40865|AlignEnd=40895|Gloss=PUNCT
-23	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=40865|AlignEnd=40895|Gloss=PUNCT
-24	//	//	PUNCT	_	_	4	punct	_	AlignBegin=40865|AlignEnd=40895|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=33215|AlignEnd=33612|Gloss=PUNCT
+2	he	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=33612|AlignEnd=33792|Gloss=NOM.SG.3|Lang=en
+3	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=33792|AlignEnd=33922|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+4	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	AlignBegin=33922|AlignEnd=34022|Gloss=INDF.ART|Lang=en
+5	confirmed	confirm	VERB	_	Tense=Past|VerbForm=Part	6	mod	_	AlignBegin=34022|AlignEnd=34472|Gloss=confirm.PST.PTCP|Lang=en
+6	kidnapper	kidnapper	NOUN	_	_	3	comp:pred	_	AlignBegin=34472|AlignEnd=34983|Gloss=kidnapper|Lang=en
+7	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=35013|AlignEnd=36005|Gloss=PUNCT
+8	#	#	PUNCT	_	_	10	punct	_	AlignBegin=35013|AlignEnd=36005|Gloss=PUNCT
+9	he	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	subj	_	AlignBegin=36005|AlignEnd=36095|Gloss=NOM.SG.3|Lang=en
+10	say	say	VERB	_	_	3	parataxis:conj	_	AlignBegin=36095|AlignEnd=36393|Gloss=say|Lang=en
+11	[	[	PUNCT	_	_	13	punct	_	AlignBegin=36393|AlignEnd=36423|Gloss=PUNCT
+12	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=36423|AlignEnd=36660|Gloss=NOM.SG.1|Lang=en
+13	kidnap	kidnap	VERB	_	_	10	parataxis:obj	_	AlignBegin=36660|AlignEnd=37275|Gloss=kidnap|Lang=en
+14	only	only	ADJ	_	_	16	mod	_	AlignBegin=37275|AlignEnd=37555|Gloss=only|Lang=en
+15	valuable	valuable	ADJ	_	_	16	compound	_	AlignBegin=37555|AlignEnd=38190|Gloss=valuable|Lang=en
+16	ladies	lady	NOUN	_	Number=Plur	13	comp:obj	_	AlignBegin=38190|AlignEnd=38922|Gloss=lady.PL|Lang=en
+17	>	>	PUNCT	_	_	13	punct	_	AlignBegin=38922|AlignEnd=38952|Gloss=PUNCT
+18	#	#	PUNCT	_	_	19	punct	_	AlignBegin=38952|AlignEnd=39895|Gloss=PUNCT
+19	says	say	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis:discourse	_	AlignBegin=39895|AlignEnd=40275|Gloss=say.IND.SG.3.PRS.FIN|Lang=en
+20	ex-soldier	ex-soldier	NOUN	_	_	19	subj	_	AlignBegin=40275|AlignEnd=40865|Gloss=ex-soldier|Lang=en
+21	]	]	PUNCT	_	_	3	punct	_	AlignBegin=40865|AlignEnd=40895|Gloss=PUNCT|
+22	//	//	PUNCT	_	_	3	punct	_	AlignBegin=40865|AlignEnd=40895|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__11
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -275,9 +273,9 @@
 # text = # because if [ na your value >+ na im de dey take kidnap you ] < # [eng de should take away Luchi dis morning eng] //
 # text_en = Beacause if it's about your value, they should take away Luchin this morning.
 # text_ortho = Because if na your value, na im de dey take kidnap you, de should take away Luchi dis morning .
-1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=44860|AlignEnd=45377|Gloss=PUNCT
-2	because	because	SCONJ	_	_	21	cc	_	AlignBegin=45377|AlignEnd=45767|Gloss=because
-3	if	if	SCONJ	_	_	21	mod:periph	_	AlignBegin=45767|AlignEnd=45847|Gloss=if
+1	#	#	PUNCT	_	_	20	punct	_	AlignBegin=44860|AlignEnd=45377|Gloss=PUNCT
+2	because	because	SCONJ	_	_	20	cc	_	AlignBegin=45377|AlignEnd=45767|Gloss=because
+3	if	if	SCONJ	_	_	20	mod:periph	_	AlignBegin=45767|AlignEnd=45847|Gloss=if
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=45847|AlignEnd=45877|Gloss=PUNCT
 5	na	na	PART	_	PartType=Cop	3	comp:obj	_	AlignBegin=45877|AlignEnd=46037|Gloss=be
 6	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	7	mod:poss	_	AlignBegin=46037|AlignEnd=46197|Gloss=PL.2.POSS
@@ -293,16 +291,14 @@
 16	]	]	PUNCT	_	_	5	punct	_	AlignBegin=47703|AlignEnd=47733|Gloss=PUNCT
 17	<	<	PUNCT	_	_	3	punct	_	AlignBegin=47703|AlignEnd=47733|Gloss=PUNCT
 18	#	#	PUNCT	_	_	3	punct	_	AlignBegin=47733|AlignEnd=48080|Gloss=PUNCT
-19	[eng	[eng	PUNCT	_	_	21	punct	_	AlignBegin=48050|AlignEnd=48080|Gloss=PUNCT
-20	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	subj	_	AlignBegin=48080|AlignEnd=48196|Gloss=NOM.PL.3
-21	should	should	AUX	_	VerbForm=Fin	0	root	_	AlignBegin=48196|AlignEnd=48367|Gloss=should.FIN
-22	take	take	VERB	_	_	21	comp:aux	_	AlignBegin=48367|AlignEnd=48597|Gloss=take
-23	away	away	ADV	_	_	22	mod	_	AlignBegin=48597|AlignEnd=48855|Gloss=away
-24	Luchi	Luchi	PROPN	_	_	22	comp:obj	_	AlignBegin=48855|AlignEnd=49127|Gloss=Luchi
-25	dis	dis	DET	_	Number=Sing|PronType=Dem	26	det	_	AlignBegin=49127|AlignEnd=49377|Gloss=SG.DEM
-26	morning	morning	NOUN	_	_	22	mod	_	AlignBegin=49377|AlignEnd=49592|Gloss=morning
-27	eng]	eng]	PUNCT	_	_	21	punct	_	AlignBegin=49592|AlignEnd=49622|Gloss=PUNCT
-28	//	//	PUNCT	_	_	21	punct	_	AlignBegin=49622|AlignEnd=49830|Gloss=PUNCT
+19	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	subj	_	AlignBegin=48080|AlignEnd=48196|Gloss=NOM.PL.3|Lang=en
+20	should	should	AUX	_	VerbForm=Fin	0	root	_	AlignBegin=48196|AlignEnd=48367|Gloss=should.FIN|Lang=en
+21	take	take	VERB	_	_	20	comp:aux	_	AlignBegin=48367|AlignEnd=48597|Gloss=take|Lang=en
+22	away	away	ADV	_	_	21	mod	_	AlignBegin=48597|AlignEnd=48855|Gloss=away|Lang=en
+23	Luchi	Luchi	PROPN	_	_	21	comp:obj	_	AlignBegin=48855|AlignEnd=49127|Gloss=Luchi|Lang=en
+24	dis	dis	DET	_	Number=Sing|PronType=Dem	25	det	_	AlignBegin=49127|AlignEnd=49377|Gloss=SG.DEM|Lang=en
+25	morning	morning	NOUN	_	_	21	mod	_	AlignBegin=49377|AlignEnd=49592|Gloss=morning|Lang=en
+26	//	//	PUNCT	_	_	20	punct	_	AlignBegin=49622|AlignEnd=49830|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__13
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -310,16 +306,14 @@
 # text = # [eng Luchi is looking valuable eng] # hehe //
 # text_en = Luchi is looking valuable, hehe.
 # text_ortho = Luchi is looking valuable , hehe.
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=49622|AlignEnd=49830|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=49800|AlignEnd=49830|Gloss=PUNCT
-3	Luchi	Luchi	PROPN	_	_	4	subj	_	AlignBegin=49830|AlignEnd=50374|Gloss=Luchi
-4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50374|AlignEnd=50534|Gloss=be.IND.SG.3.PRS.FIN
-5	looking	look	VERB	_	Tense=Pres|VerbForm=Part	4	comp:aux	_	AlignBegin=50534|AlignEnd=51099|Gloss=look.PRS.PTCP
-6	valuable	valuable	ADJ	_	_	5	comp:obj@lvc	_	AlignBegin=51099|AlignEnd=51900|Gloss=valuable
-7	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=51900|AlignEnd=51930|Gloss=PUNCT
-8	#	#	PUNCT	_	_	4	punct	_	AlignBegin=51930|AlignEnd=52293|Gloss=PUNCT
-9	hehe	hehe	INTJ	_	_	4	discourse	_	AlignBegin=52293|AlignEnd=53425|Gloss=hehe
-10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=53425|AlignEnd=53455|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=49622|AlignEnd=49830|Gloss=PUNCT
+2	Luchi	Luchi	PROPN	_	_	3	subj	_	AlignBegin=49830|AlignEnd=50374|Gloss=Luchi|Lang=en
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50374|AlignEnd=50534|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+4	looking	look	VERB	_	Tense=Pres|VerbForm=Part	3	comp:aux	_	AlignBegin=50534|AlignEnd=51099|Gloss=look.PRS.PTCP|Lang=en
+5	valuable	valuable	ADJ	_	_	4	comp:obj@lvc	_	AlignBegin=51099|AlignEnd=51900|Gloss=valuable|Lang=en
+6	#	#	PUNCT	_	_	3	punct	_	AlignBegin=51930|AlignEnd=52293|Gloss=PUNCT
+7	hehe	hehe	INTJ	_	_	3	discourse	_	AlignBegin=52293|AlignEnd=53425|Gloss=hehe
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=53425|AlignEnd=53455|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__14
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -499,16 +493,14 @@
 # text = # [eng court stops rep from prosecuting Anyim eng] //
 # text_en = The Court stops the House of Representatives from prosecuting Anyim.
 # text_ortho = Court stops rep from prosecuting Anyim .
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=82777|AlignEnd=83075|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	3	punct	_	AlignBegin=82777|AlignEnd=83075|Gloss=PUNCT
-3	court	court	NOUN	_	_	4	subj	_	AlignBegin=83075|AlignEnd=83487|Gloss=court
-4	stops	stop	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=83487|AlignEnd=83855|Gloss=stop.IND.SG.3.PRS.FIN
-5	rep	rep	NOUN	_	_	4	comp:obj	_	AlignBegin=83855|AlignEnd=84235|Gloss=rep
-6	from	from	ADP	_	_	4	comp:obl	_	AlignBegin=84235|AlignEnd=84598|Gloss=from
-7	prosecuting	prosecute	VERB	_	Tense=Pres|VerbForm=Part	6	comp:obj	_	AlignBegin=84598|AlignEnd=85429|Gloss=prosecute.PRS.PTCP
-8	Anyim	Anyim	PROPN	_	_	7	comp:obj	_	AlignBegin=85429|AlignEnd=85883|Gloss=Anyim
-9	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=85883|AlignEnd=85913|Gloss=PUNCT
-10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=85883|AlignEnd=85913|Gloss=PUNCT
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=82777|AlignEnd=83075|Gloss=PUNCT
+2	court	court	NOUN	_	_	3	subj	_	AlignBegin=83075|AlignEnd=83487|Gloss=court|Lang=en
+3	stops	stop	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=83487|AlignEnd=83855|Gloss=stop.IND.SG.3.PRS.FIN|Lang=en
+4	rep	rep	NOUN	_	_	3	comp:obj	_	AlignBegin=83855|AlignEnd=84235|Gloss=rep|Lang=en
+5	from	from	ADP	_	_	3	comp:obl	_	AlignBegin=84235|AlignEnd=84598|Gloss=from|Lang=en
+6	prosecuting	prosecute	VERB	_	Tense=Pres|VerbForm=Part	5	comp:obj	_	AlignBegin=84598|AlignEnd=85429|Gloss=prosecute.PRS.PTCP|Lang=en
+7	Anyim	Anyim	PROPN	_	_	6	comp:obj	_	AlignBegin=85429|AlignEnd=85883|Gloss=Anyim|Lang=en
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=85883|AlignEnd=85913|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__21
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -516,17 +508,15 @@
 # text = # [eng why do de want to prosecute him eng] ?//
 # text_en = Why do they want to prosecute him?
 # text_ortho = Why do de want to prosecute him ?
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=85913|AlignEnd=87403|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	3	punct	_	AlignBegin=85913|AlignEnd=87403|Gloss=PUNCT
-3	why	why	ADV	_	PronType=Int	0	root	8:@mod	AlignBegin=87403|AlignEnd=87610|Gloss=why.Q
-4	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	comp:cleft	_	AlignBegin=87610|AlignEnd=87740|Gloss=do.IND.PRS.FIN
-5	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=87740|AlignEnd=87878|Gloss=NOM.PL.3
-6	want	want	VERB	_	_	4	comp:aux	_	AlignBegin=87878|AlignEnd=88050|Gloss=want
-7	to	to	ADP	_	_	6	comp:obl@x	_	AlignBegin=88050|AlignEnd=88190|Gloss=to
-8	prosecute	prosecute	VERB	_	_	7	comp:obj	_	AlignBegin=88190|AlignEnd=88810|Gloss=prosecute
-9	him	him	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=88810|AlignEnd=88950|Gloss=ACC.M.SG.3
-10	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=88950|AlignEnd=88980|Gloss=PUNCT
-11	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=88950|AlignEnd=88980|Gloss=PUNCT
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=85913|AlignEnd=87403|Gloss=PUNCT
+2	why	why	ADV	_	PronType=Int	0	root	_	AlignBegin=87403|AlignEnd=87610|Gloss=why.Q|Lang=en
+3	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=87610|AlignEnd=87740|Gloss=do.IND.PRS.FIN|Lang=en
+4	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=87740|AlignEnd=87878|Gloss=NOM.PL.3|Lang=en
+5	want	want	VERB	_	_	3	comp:aux	_	AlignBegin=87878|AlignEnd=88050|Gloss=want|Lang=en
+6	to	to	ADP	_	_	5	comp:obl@x	_	AlignBegin=88050|AlignEnd=88190|Gloss=to|Lang=en
+7	prosecute	prosecute	VERB	_	_	6	comp:obj	_	AlignBegin=88190|AlignEnd=88810|Gloss=prosecute|Lang=en
+8	him	him	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=88810|AlignEnd=88950|Gloss=ACC.M.SG.3|Lang=en
+9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=88950|AlignEnd=88980|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__22
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -583,20 +573,18 @@
 # text = # ehe # eh [eng don't try it !//= don't try it !// eng]
 # text_en = I'm warning you... don't try it… don’t try it.
 # text_ortho = Ehe eh don't try it... don't try it, .
-1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=94617|AlignEnd=95037|Gloss=PUNCT
-2	ehe	ehe	INTJ	_	_	7	discourse	_	AlignBegin=95037|AlignEnd=95340|Gloss=ehe
+1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=94617|AlignEnd=95037|Gloss=PUNCT
+2	ehe	ehe	INTJ	_	_	6	discourse	_	AlignBegin=95037|AlignEnd=95340|Gloss=ehe
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=95370|AlignEnd=95678|Gloss=PUNCT
-4	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=95678|AlignEnd=96210|Gloss=eh
-5	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=96210|AlignEnd=96240|Gloss=PUNCT
-6	don't	no	PART	_	Polarity=Neg	7	mod	_	Gloss=NEG
-7	try	try	VERB	_	_	0	root	_	AlignBegin=96570|AlignEnd=96840|Gloss=try
-8	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=96840|AlignEnd=97240|Gloss=NOM.NT.SG.3
-9	!//=	!//=	PUNCT	_	_	11	mod	_	AlignBegin=97240|AlignEnd=97270|Gloss=PUNCT
-10	don't	no	PART	_	Polarity=Neg	11	mod	_	Gloss=NEG
-11	try	try	VERB	_	_	7	parataxis:conj	_	AlignBegin=97510|AlignEnd=97750|Gloss=try
-12	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=97750|AlignEnd=97805|Gloss=NOM.NT.SG.3
-13	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=97805|AlignEnd=97835|Gloss=PUNCT
-14	eng]	eng]	PUNCT	_	_	7	punct	_	AlignBegin=97805|AlignEnd=97835|Gloss=PUNCT
+4	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=95678|AlignEnd=96210|Gloss=eh
+5	don't	no	PART	_	Polarity=Neg	6	mod	_	Gloss=NEG|Lang=en
+6	try	try	VERB	_	_	0	root	_	AlignBegin=96570|AlignEnd=96840|Gloss=try|Lang=en
+7	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=96840|AlignEnd=97240|Gloss=NOM.NT.SG.3|Lang=en
+8	!//=	!//=	PUNCT	_	_	10	mod	_	AlignBegin=97240|AlignEnd=97270|Gloss=PUNCT
+9	don't	no	PART	_	Polarity=Neg	10	mod	_	Gloss=NEG|Lang=en
+10	try	try	VERB	_	_	6	parataxis:conj	_	AlignBegin=97510|AlignEnd=97750|Gloss=try|Lang=en
+11	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=97750|AlignEnd=97805|Gloss=NOM.NT.SG.3|Lang=en
+12	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=97805|AlignEnd=97835|Gloss=PUNCT|
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__26
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -672,7 +660,7 @@
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=117655|AlignEnd=117749|Gloss=COMP
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=117749|AlignEnd=117779|Gloss=PUNCT
 6	how	how	ADV	_	PronType=Int	7	mod	_	AlignBegin=117779|AlignEnd=118068|Gloss=how.Q
-7	long	long	ADJ	_	_	4	comp:obj	11:@mod	AlignBegin=118068|AlignEnd=118355|Gloss=long
+7	long	long	ADJ	_	_	4	comp:obj	_	AlignBegin=118068|AlignEnd=118355|Gloss=long
 8	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	9	mod:poss	_	AlignBegin=118355|AlignEnd=118735|Gloss=PL.1.POSS
 9	Presido	presido	NOUN	_	_	10	subj	_	AlignBegin=118735|AlignEnd=119265|Gloss=president
 10	go	go	AUX	_	Aspect=Prosp	7	comp:cleft	_	AlignBegin=119265|AlignEnd=119415|Gloss=PROSP
@@ -841,13 +829,11 @@
 # text = [eng I 'm very happy eng] //
 # text_en = I'm very happy.
 # text_ortho = I'm very happy .
-1	[eng	[eng	PUNCT	_	_	3	punct	_	AlignBegin=139190|AlignEnd=139220|Gloss=PUNCT
-2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	Gloss=NOM.SG.1
-3	'm	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=139220|AlignEnd=139300|Gloss=I.be.IND.SG.1.PRS.FIN
-4	very	very	ADV	_	_	5	mod	_	AlignBegin=139300|AlignEnd=139621|Gloss=very
-5	happy	happy	ADJ	_	_	3	comp:pred	_	AlignBegin=139621|AlignEnd=139902|Gloss=happy
-6	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	Gloss=NOM.SG.1|Lang=en
+2	'm	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=139220|AlignEnd=139300|Gloss=I.be.IND.SG.1.PRS.FIN|Lang=en
+3	very	very	ADV	_	_	4	mod	_	AlignBegin=139300|AlignEnd=139621|Gloss=very|Lang=en
+4	happy	happy	ADJ	_	_	2	comp:pred	_	AlignBegin=139621|AlignEnd=139902|Gloss=happy|Lang=en
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -861,15 +847,13 @@
 4	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=140730|AlignEnd=140840|Gloss=IPFV
 5	talk	talk	VERB	_	_	4	comp:aux	_	AlignBegin=140840|AlignEnd=141042|Gloss=talk
 6	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=141042|AlignEnd=141197|Gloss=COMP
-7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=141197|AlignEnd=141227|Gloss=PUNCT
-8	[eng	[eng	PUNCT	_	_	10	punct	_	AlignBegin=141197|AlignEnd=141227|Gloss=PUNCT
-9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	subj	_	AlignBegin=141227|AlignEnd=141400|Gloss=NOM.PL.1
-10	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	comp:obj	_	AlignBegin=141400|AlignEnd=141490|Gloss=be.IND.PRS.FIN
-11	neutral	neutral	ADJ	_	_	12	mod	_	AlignBegin=141490|AlignEnd=141967|Gloss=neutral
-12	intermediary	intermediary	ADJ	_	_	10	comp:pred	_	AlignBegin=141967|AlignEnd=142721|Gloss=intermediary
-13	eng]	eng]	PUNCT	_	_	10	punct	_	AlignBegin=142721|AlignEnd=142751|Gloss=PUNCT
-14	//]	//]	PUNCT	_	_	10	punct	_	AlignBegin=142721|AlignEnd=142751|Gloss=PUNCT
-15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=142721|AlignEnd=142751|Gloss=PUNCT
+7	[	[	PUNCT	_	_	9	punct	_	AlignBegin=141197|AlignEnd=141227|Gloss=PUNCT
+8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=141227|AlignEnd=141400|Gloss=NOM.PL.1|Lang=en
+9	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	comp:obj	_	AlignBegin=141400|AlignEnd=141490|Gloss=be.IND.PRS.FIN|Lang=en
+10	neutral	neutral	ADJ	_	_	11	mod	_	AlignBegin=141490|AlignEnd=141967|Gloss=neutral|Lang=en
+11	intermediary	intermediary	ADJ	_	_	9	comp:pred	_	AlignBegin=141967|AlignEnd=142721|Gloss=intermediary|Lang=en
+12	//]	//]	PUNCT	_	_	9	punct	_	AlignBegin=142721|AlignEnd=142751|Gloss=PUNCT
+13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=142721|AlignEnd=142751|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__40
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -977,21 +961,19 @@
 # text = # [eng stop police from searching my house eng] > Wike don tell court //
 # text_en = Stop the Police from searching my house, Wike has told the court.
 # text_ortho = Stop police from searching my house , Wike don tell court.
-1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=160756|AlignEnd=161087|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	3	punct	_	AlignBegin=161057|AlignEnd=161087|Gloss=PUNCT
-3	stop	stop	VERB	_	_	0	root	_	AlignBegin=161087|AlignEnd=161355|Gloss=stop
-4	police	police	NOUN	_	_	3	comp:obj	_	AlignBegin=161355|AlignEnd=161725|Gloss=police
-5	from	from	ADP	_	_	3	comp:obl@x	_	AlignBegin=161725|AlignEnd=161895|Gloss=from
-6	searching	search	VERB	_	Tense=Pres|VerbForm=Part	5	comp:obj	_	AlignBegin=161895|AlignEnd=162245|Gloss=search.PRS.PTCP
-7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	mod:poss	_	AlignBegin=162245|AlignEnd=162425|Gloss=SG.1.POSS
-8	house	house	NOUN	_	_	6	comp:obj	_	AlignBegin=162425|AlignEnd=162685|Gloss=house
-9	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=162685|AlignEnd=162715|Gloss=PUNCT
-10	>	>	PUNCT	_	_	3	punct	_	AlignBegin=162685|AlignEnd=162715|Gloss=PUNCT
-11	Wike	Wike	PROPN	_	_	12	subj	_	AlignBegin=162715|AlignEnd=163085|Gloss=Wike
-12	don	don	AUX	_	Aspect=Perf	3	parataxis:discourse	_	AlignBegin=163085|AlignEnd=163245|Gloss=PRF
-13	tell	tell	VERB	_	_	12	comp:aux	_	AlignBegin=163245|AlignEnd=163455|Gloss=tell
-14	court	court	NOUN	_	_	13	comp:obj	_	AlignBegin=163455|AlignEnd=163820|Gloss=court
-15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=163820|AlignEnd=163850|Gloss=PUNCT
+1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=160756|AlignEnd=161087|Gloss=PUNCT
+2	stop	stop	VERB	_	_	0	root	_	AlignBegin=161087|AlignEnd=161355|Gloss=stop|Lang=en
+3	police	police	NOUN	_	_	2	comp:obj	_	AlignBegin=161355|AlignEnd=161725|Gloss=police|Lang=en
+4	from	from	ADP	_	_	2	comp:obl@x	_	AlignBegin=161725|AlignEnd=161895|Gloss=from|Lang=en
+5	searching	search	VERB	_	Tense=Pres|VerbForm=Part	4	comp:obj	_	AlignBegin=161895|AlignEnd=162245|Gloss=search.PRS.PTCP|Lang=en
+6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	7	mod:poss	_	AlignBegin=162245|AlignEnd=162425|Gloss=SG.1.POSS|Lang=en
+7	house	house	NOUN	_	_	5	comp:obj	_	AlignBegin=162425|AlignEnd=162685|Gloss=house|Lang=en
+8	>	>	PUNCT	_	_	2	punct	_	AlignBegin=162685|AlignEnd=162715|Gloss=PUNCT
+9	Wike	Wike	PROPN	_	_	10	subj	_	AlignBegin=162715|AlignEnd=163085|Gloss=Wike
+10	don	don	AUX	_	Aspect=Perf	2	parataxis:discourse	_	AlignBegin=163085|AlignEnd=163245|Gloss=PRF
+11	tell	tell	VERB	_	_	10	comp:aux	_	AlignBegin=163245|AlignEnd=163455|Gloss=tell
+12	court	court	NOUN	_	_	11	comp:obj	_	AlignBegin=163455|AlignEnd=163820|Gloss=court
+13	//	//	PUNCT	_	_	10	punct	_	AlignBegin=163820|AlignEnd=163850|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -999,26 +981,24 @@
 # text = # maybe < [eng what are you hiding Sir # dat you do n't want dem to see eng] ?//
 # text_en = Maybe… what are you hiding, sir, that you don't want them to see?
 # text_ortho = Maybe... what are you hiding Sir dat you don't want dem to see ?
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=163850|AlignEnd=164110|Gloss=PUNCT
-2	maybe	maybe	ADV	_	_	5	mod:periph	_	AlignBegin=164110|AlignEnd=164420|Gloss=maybe
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=163850|AlignEnd=164110|Gloss=PUNCT
+2	maybe	maybe	ADV	_	_	4	mod:periph	_	AlignBegin=164110|AlignEnd=164420|Gloss=maybe
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=164420|AlignEnd=164450|Gloss=PUNCT
-4	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=164420|AlignEnd=164450|Gloss=PUNCT
-5	what	what	PRON	_	PronType=Int	0	root	8:@comp	AlignBegin=164450|AlignEnd=164730|Gloss=what.Q
-6	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	comp:cleft	_	AlignBegin=164730|AlignEnd=164860|Gloss=be.IND.PRS.FIN
-7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=164860|AlignEnd=165065|Gloss=NOM.2
-8	hiding	hide	VERB	_	Tense=Pres|VerbForm=Part	6	comp:aux	_	AlignBegin=165065|AlignEnd=165377|Gloss=hide.PRS.PTCP
-9	Sir	Sir	PROPN	_	_	5	vocative	_	AlignBegin=165407|AlignEnd=165627|Gloss=Sir
-10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=165657|AlignEnd=166055|Gloss=PUNCT
-11	dat	that	PRON	_	PronType=Rel	5	mod@relcl	_	AlignBegin=166055|AlignEnd=166157|Gloss=that
-12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	subj	_	AlignBegin=166157|AlignEnd=166256|Gloss=NOM.2
-13	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	comp:obj	_	AlignBegin=166256|AlignEnd=166420|Gloss=do.IND.PRS.FIN
-14	n't	not	PART	_	_	13	mod	_	Gloss=NEG
-15	want	want	VERB	_	_	13	comp:aux	_	AlignBegin=166420|AlignEnd=166550|Gloss=want
-16	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	comp:obj	_	AlignBegin=166550|AlignEnd=166730|Gloss=NOM.PL.3
-17	to	to	ADP	_	_	15	comp:obl@x	_	AlignBegin=166730|AlignEnd=166870|Gloss=to
-18	see	see	VERB	_	_	17	comp:obj	_	AlignBegin=166870|AlignEnd=167129|Gloss=see
-19	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=167129|AlignEnd=167159|Gloss=PUNCT
-20	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=167129|AlignEnd=167159|Gloss=PUNCT
+4	what	what	PRON	_	PronType=Int	0	root	_	AlignBegin=164450|AlignEnd=164730|Gloss=what.Q|Lang=en
+5	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	comp:cleft	_	AlignBegin=164730|AlignEnd=164860|Gloss=be.IND.PRS.FIN|Lang=en
+6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=164860|AlignEnd=165065|Gloss=NOM.2|Lang=en
+7	hiding	hide	VERB	_	Tense=Pres|VerbForm=Part	5	comp:aux	_	AlignBegin=165065|AlignEnd=165377|Gloss=hide.PRS.PTCP|Lang=en
+8	Sir	Sir	PROPN	_	_	4	vocative	_	AlignBegin=165407|AlignEnd=165627|Gloss=Sir|Lang=en
+9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=165657|AlignEnd=166055|Gloss=PUNCT
+10	dat	that	PRON	_	PronType=Rel	4	mod@relcl	_	AlignBegin=166055|AlignEnd=166157|Gloss=that|Lang=en
+11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=166157|AlignEnd=166256|Gloss=NOM.2|Lang=en
+12	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	comp:obj	_	AlignBegin=166256|AlignEnd=166420|Gloss=do.IND.PRS.FIN|Lang=en
+13	n't	not	PART	_	_	12	mod	_	Gloss=NEG|Lang=en
+14	want	want	VERB	_	_	12	comp:aux	_	AlignBegin=166420|AlignEnd=166550|Gloss=want|Lang=en
+15	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=166550|AlignEnd=166730|Gloss=NOM.PL.3|Lang=en
+16	to	to	ADP	_	_	14	comp:obl@x	_	AlignBegin=166730|AlignEnd=166870|Gloss=to|Lang=en
+17	see	see	VERB	_	_	16	comp:obj	_	AlignBegin=166870|AlignEnd=167129|Gloss=see|Lang=en
+18	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=167129|AlignEnd=167159|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1047,17 +1027,15 @@
 # text = # [eng Lagos may charge pupils with attempted rape eng] //
 # text_en = Lagos may charge pupils with attempted rape.
 # text_ortho = Lagos may charge pupils with attempted rape .
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=169425|AlignEnd=169855|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=169425|AlignEnd=169855|Gloss=PUNCT
-3	Lagos	Lagos	PROPN	_	_	4	subj	_	AlignBegin=169855|AlignEnd=170435|Gloss=Lagos
-4	may	may	AUX	_	_	0	root	_	AlignBegin=170435|AlignEnd=170645|Gloss=may
-5	charge	charge	VERB	_	_	4	comp:aux	_	AlignBegin=170645|AlignEnd=170921|Gloss=charge
-6	pupils	pupil	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=170921|AlignEnd=171715|Gloss=pupil.PL
-7	with	wit	ADP	_	_	5	comp:obl	_	AlignBegin=171715|AlignEnd=171915|Gloss=with
-8	attempted	attempt	VERB	_	Tense=Past|VerbForm=Part	9	mod	_	AlignBegin=171915|AlignEnd=172615|Gloss=attempt.PST.PTCP
-9	rape	rape	NOUN	_	_	7	comp:obj	_	AlignBegin=172615|AlignEnd=172873|Gloss=rape
-10	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=172873|AlignEnd=172903|Gloss=PUNCT
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=172873|AlignEnd=172903|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=169425|AlignEnd=169855|Gloss=PUNCT
+2	Lagos	Lagos	PROPN	_	_	3	subj	_	AlignBegin=169855|AlignEnd=170435|Gloss=Lagos|Lang=en
+3	may	may	AUX	_	_	0	root	_	AlignBegin=170435|AlignEnd=170645|Gloss=may|Lang=en
+4	charge	charge	VERB	_	_	3	comp:aux	_	AlignBegin=170645|AlignEnd=170921|Gloss=charge|Lang=en
+5	pupils	pupil	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=170921|AlignEnd=171715|Gloss=pupil.PL|Lang=en
+6	with	wit	ADP	_	_	4	comp:obl	_	AlignBegin=171715|AlignEnd=171915|Gloss=with|Lang=en
+7	attempted	attempt	VERB	_	Tense=Past|VerbForm=Part	8	mod	_	AlignBegin=171915|AlignEnd=172615|Gloss=attempt.PST.PTCP|Lang=en
+8	rape	rape	NOUN	_	_	6	comp:obj	_	AlignBegin=172615|AlignEnd=172873|Gloss=rape|Lang=en
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=172873|AlignEnd=172903|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__50
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1096,44 +1074,42 @@
 # text = # [eng do you know dat [ now < when you see secondary school children < when de finish deir last paper < # de will now become like # hooligans # tearing deir cloth ] eng] //
 # text_en = Did you know that when you see secondary school students when they are done writing their last paper, they will start acting like hooligans, tearing each other's clothes.
 # text_ortho = Do you know dat now, when you see secondary school children, when de finish deir last paper, de will now become like hooligans tearing deir cloth .
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=179618|AlignEnd=179892|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=179618|AlignEnd=179892|Gloss=PUNCT
-3	do	do	VERB	_	_	5	mod	_	AlignBegin=179892|AlignEnd=179962|Gloss=do
-4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=179962|AlignEnd=180022|Gloss=NOM.2
-5	know	know	VERB	_	_	0	root	_	AlignBegin=180022|AlignEnd=180182|Gloss=know
-6	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	comp:obj	_	AlignBegin=180182|AlignEnd=180322|Gloss=SG.DEM
-7	[	[	PUNCT	_	_	26	punct	_	AlignBegin=180322|AlignEnd=180352|Gloss=PUNCT
-8	now	now	ADV	_	_	26	discourse	_	AlignBegin=180352|AlignEnd=180522|Gloss=now
-9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=180522|AlignEnd=180552|Gloss=PUNCT
-10	when	when	SCONJ	_	PronType=Int	26	mod:periph	_	AlignBegin=180552|AlignEnd=180684|Gloss=when.Q
-11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=180684|AlignEnd=180808|Gloss=NOM.2
-12	see	see	VERB	_	_	10	comp:obj	_	AlignBegin=180808|AlignEnd=180942|Gloss=see
-13	secondary	secondary	ADJ	_	_	14	mod	_	AlignBegin=180942|AlignEnd=181322|Gloss=secondary
-14	school	school	NOUN	_	_	15	compound	_	AlignBegin=181322|AlignEnd=181552|Gloss=school
-15	children	child	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=181552|AlignEnd=181802|Gloss=child.PL
-16	<	<	PUNCT	_	_	10	punct	_	AlignBegin=181802|AlignEnd=181832|Gloss=PUNCT
-17	when	when	SCONJ	_	PronType=Int	26	mod:periph	_	AlignBegin=181832|AlignEnd=181962|Gloss=when.Q
-18	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	subj	_	AlignBegin=181962|AlignEnd=182068|Gloss=NOM.PL.3
-19	finish	finish	VERB	_	_	17	comp:obj	_	AlignBegin=182068|AlignEnd=182329|Gloss=finish
-20	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	22	mod:poss	_	AlignBegin=182329|AlignEnd=182432|Gloss=PL.3.POSS
-21	last	last	ADJ	_	_	22	mod	_	AlignBegin=182432|AlignEnd=182662|Gloss=last
-22	paper	paper	NOUN	_	_	19	comp:obj	_	AlignBegin=182662|AlignEnd=182937|Gloss=paper
-23	<	<	PUNCT	_	_	17	punct	_	AlignBegin=182937|AlignEnd=182967|Gloss=PUNCT
-24	#	#	PUNCT	_	_	17	punct	_	AlignBegin=182967|AlignEnd=183656|Gloss=PUNCT
-25	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	subj	_	AlignBegin=183656|AlignEnd=183818|Gloss=NOM.PL.3
-26	will	will	AUX	_	VerbForm=Fin	6	comp:obj	_	AlignBegin=183818|AlignEnd=183986|Gloss=FUT
-27	now	now	ADV	_	_	28	mod	_	AlignBegin=183986|AlignEnd=184216|Gloss=now
-28	become	become	VERB	_	_	26	comp:aux	_	AlignBegin=184216|AlignEnd=184736|Gloss=become
-29	like	like	ADP	_	_	28	comp:pred	_	AlignBegin=184736|AlignEnd=185096|Gloss=like
-30	#	#	PUNCT	_	_	31	punct	_	AlignBegin=185096|AlignEnd=185486|Gloss=PUNCT
-31	hooligans	hooligan	NOUN	_	Number=Plur	29	comp:obj	_	AlignBegin=185486|AlignEnd=186211|Gloss=hooligan.PL
-32	#	#	PUNCT	_	_	33	punct	_	AlignBegin=186211|AlignEnd=186915|Gloss=PUNCT
-33	tearing	tear	VERB	_	Tense=Pres|VerbForm=Part	31	mod@relcl	_	AlignBegin=186915|AlignEnd=187335|Gloss=tear.PRS.PTCP
-34	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	35	mod:poss	_	AlignBegin=187335|AlignEnd=187542|Gloss=PL.3.POSS
-35	cloth	cloth	NOUN	_	_	33	comp:obj	_	AlignBegin=187542|AlignEnd=188035|Gloss=cloth
-36	]	]	PUNCT	_	_	26	punct	_	AlignBegin=188035|AlignEnd=188065|Gloss=PUNCT
-37	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=188035|AlignEnd=188065|Gloss=PUNCT
-38	//	//	PUNCT	_	_	5	punct	_	AlignBegin=188035|AlignEnd=188065|Gloss=PUNCT
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=179618|AlignEnd=179892|Gloss=PUNCT
+2	do	do	VERB	_	_	4	mod	_	AlignBegin=179892|AlignEnd=179962|Gloss=do|Lang=en
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=179962|AlignEnd=180022|Gloss=NOM.2|Lang=en
+4	know	know	VERB	_	_	0	root	_	AlignBegin=180022|AlignEnd=180182|Gloss=know|Lang=en
+5	dat	dat	PRON	_	Number=Sing|PronType=Dem	4	comp:obj	_	AlignBegin=180182|AlignEnd=180322|Gloss=SG.DEM|Lang=en
+6	[	[	PUNCT	_	_	25	punct	_	AlignBegin=180322|AlignEnd=180352|Gloss=PUNCT
+7	now	now	ADV	_	_	25	discourse	_	AlignBegin=180352|AlignEnd=180522|Gloss=now|Lang=en
+8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=180522|AlignEnd=180552|Gloss=PUNCT
+9	when	when	SCONJ	_	PronType=Int	25	mod:periph	_	AlignBegin=180552|AlignEnd=180684|Gloss=when.Q|Lang=en
+10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=180684|AlignEnd=180808|Gloss=NOM.2|Lang=en
+11	see	see	VERB	_	_	9	comp:obj	_	AlignBegin=180808|AlignEnd=180942|Gloss=see|Lang=en
+12	secondary	secondary	ADJ	_	_	13	mod	_	AlignBegin=180942|AlignEnd=181322|Gloss=secondary|Lang=en
+13	school	school	NOUN	_	_	14	compound	_	AlignBegin=181322|AlignEnd=181552|Gloss=school|Lang=en
+14	children	child	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=181552|AlignEnd=181802|Gloss=child.PL|Lang=en
+15	<	<	PUNCT	_	_	9	punct	_	AlignBegin=181802|AlignEnd=181832|Gloss=PUNCT
+16	when	when	SCONJ	_	PronType=Int	25	mod:periph	_	AlignBegin=181832|AlignEnd=181962|Gloss=when.Q|Lang=en
+17	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	subj	_	AlignBegin=181962|AlignEnd=182068|Gloss=NOM.PL.3|Lang=en
+18	finish	finish	VERB	_	_	16	comp:obj	_	AlignBegin=182068|AlignEnd=182329|Gloss=finish|Lang=en
+19	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	21	mod:poss	_	AlignBegin=182329|AlignEnd=182432|Gloss=PL.3.POSS|Lang=en
+20	last	last	ADJ	_	_	21	mod	_	AlignBegin=182432|AlignEnd=182662|Gloss=last|Lang=en
+21	paper	paper	NOUN	_	_	18	comp:obj	_	AlignBegin=182662|AlignEnd=182937|Gloss=paper|Lang=en
+22	<	<	PUNCT	_	_	16	punct	_	AlignBegin=182937|AlignEnd=182967|Gloss=PUNCT
+23	#	#	PUNCT	_	_	16	punct	_	AlignBegin=182967|AlignEnd=183656|Gloss=PUNCT
+24	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	subj	_	AlignBegin=183656|AlignEnd=183818|Gloss=NOM.PL.3|Lang=en
+25	will	will	AUX	_	VerbForm=Fin	5	comp:obj	_	AlignBegin=183818|AlignEnd=183986|Gloss=FUT|Lang=en
+26	now	now	ADV	_	_	27	mod	_	AlignBegin=183986|AlignEnd=184216|Gloss=now|Lang=en
+27	become	become	VERB	_	_	25	comp:aux	_	AlignBegin=184216|AlignEnd=184736|Gloss=become|Lang=en
+28	like	like	ADP	_	_	27	comp:pred	_	AlignBegin=184736|AlignEnd=185096|Gloss=like|Lang=en
+29	#	#	PUNCT	_	_	30	punct	_	AlignBegin=185096|AlignEnd=185486|Gloss=PUNCT
+30	hooligans	hooligan	NOUN	_	Number=Plur	28	comp:obj	_	AlignBegin=185486|AlignEnd=186211|Gloss=hooligan.PL|Lang=en
+31	#	#	PUNCT	_	_	32	punct	_	AlignBegin=186211|AlignEnd=186915|Gloss=PUNCT
+32	tearing	tear	VERB	_	Tense=Pres|VerbForm=Part	30	mod@relcl	_	AlignBegin=186915|AlignEnd=187335|Gloss=tear.PRS.PTCP|Lang=en
+33	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	34	mod:poss	_	AlignBegin=187335|AlignEnd=187542|Gloss=PL.3.POSS|Lang=en
+34	cloth	cloth	NOUN	_	_	32	comp:obj	_	AlignBegin=187542|AlignEnd=188035|Gloss=cloth|Lang=en
+35	]	]	PUNCT	_	_	25	punct	_	AlignBegin=188035|AlignEnd=188065|Gloss=PUNCT|
+36	//	//	PUNCT	_	_	4	punct	_	AlignBegin=188035|AlignEnd=188065|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__52
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1141,32 +1117,30 @@
 # text = # [eng de said [ { de were almost || de were } almost raping girls # using scissors to tear deir skirt ] eng] //
 # text_en = They said they were almost… they were almost raping girls, cutting their skirts with scissors.
 # text_ortho = De said de were almost... de were almost raping girls using scissors to tear deir skirt .
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=188065|AlignEnd=188322|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=188065|AlignEnd=188322|Gloss=PUNCT
-3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=188322|AlignEnd=188425|Gloss=NOM.PL.3
-4	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=188425|AlignEnd=188763|Gloss=say.IND.PST.FIN
-5	[	[	PUNCT	_	_	8	punct	_	AlignBegin=188763|AlignEnd=188793|Gloss=PUNCT
-6	{	{	PUNCT	_	_	8	punct	_	AlignBegin=188763|AlignEnd=188793|Gloss=PUNCT
-7	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	subj	_	AlignBegin=188793|AlignEnd=188985|Gloss=NOM.PL.3
-8	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis:obj	_	AlignBegin=188985|AlignEnd=189405|Gloss=be.IND.PST.FIN
-9	almost	almost	ADV	_	_	8	unk@scrap	_	AlignBegin=189405|AlignEnd=189725|Gloss=almost
-10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=189725|AlignEnd=189755|Gloss=PUNCT
-11	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	subj	_	AlignBegin=189755|AlignEnd=189922|Gloss=NOM.PL.3
-12	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj:dicto	_	AlignBegin=189922|AlignEnd=190215|Gloss=be.IND.PST.FIN
-13	}	}	PUNCT	_	_	8	punct	_	AlignBegin=190215|AlignEnd=190645|Gloss=PUNCT
-14	almost	almost	ADV	_	_	15	mod	_	AlignBegin=190215|AlignEnd=190645|Gloss=almost
-15	raping	rape	VERB	_	Tense=Pres|VerbForm=Part	8	comp:aux	_	AlignBegin=190675|AlignEnd=191045|Gloss=rape.PRS.PTCP
-16	girls	girl	NOUN	_	Number=Plur	15	comp:obj	_	AlignBegin=191045|AlignEnd=191400|Gloss=girl.PL
-17	#	#	PUNCT	_	_	18	punct	_	AlignBegin=191400|AlignEnd=191930|Gloss=PUNCT
-18	using	use	VERB	_	Tense=Pres|VerbForm=Part	15	mod	_	AlignBegin=191930|AlignEnd=192290|Gloss=use.PRS.PTCP
-19	scissors	scissors	NOUN	_	Number=Plur	18	comp:obj	_	AlignBegin=192290|AlignEnd=192710|Gloss=scissors.PL
-20	to	to	ADP	_	_	18	mod	_	AlignBegin=192710|AlignEnd=192880|Gloss=to
-21	tear	tear	VERB	_	_	20	comp:obj	_	AlignBegin=192880|AlignEnd=193085|Gloss=tear
-22	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	23	mod:poss	_	AlignBegin=193085|AlignEnd=193278|Gloss=PL.3.POSS
-23	skirt	skirt	NOUN	_	_	21	comp:obj	_	AlignBegin=193278|AlignEnd=193664|Gloss=skirt
-24	]	]	PUNCT	_	_	8	punct	_	AlignBegin=193664|AlignEnd=193694|Gloss=PUNCT
-25	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=193664|AlignEnd=193694|Gloss=PUNCT
-26	//	//	PUNCT	_	_	4	punct	_	AlignBegin=193664|AlignEnd=193694|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=188065|AlignEnd=188322|Gloss=PUNCT
+2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=188322|AlignEnd=188425|Gloss=NOM.PL.3|Lang=en
+3	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=188425|AlignEnd=188763|Gloss=say.IND.PST.FIN|Lang=en
+4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=188763|AlignEnd=188793|Gloss=PUNCT
+5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=188763|AlignEnd=188793|Gloss=PUNCT
+6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=188793|AlignEnd=188985|Gloss=NOM.PL.3|Lang=en
+7	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis:obj	_	AlignBegin=188985|AlignEnd=189405|Gloss=be.IND.PST.FIN|Lang=en
+8	almost	almost	ADV	_	_	7	unk@scrap	_	AlignBegin=189405|AlignEnd=189725|Gloss=almost|Lang=en
+9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=189725|AlignEnd=189755|Gloss=PUNCT
+10	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	AlignBegin=189755|AlignEnd=189922|Gloss=NOM.PL.3|Lang=en
+11	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj:dicto	_	AlignBegin=189922|AlignEnd=190215|Gloss=be.IND.PST.FIN|Lang=en
+12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=190215|AlignEnd=190645|Gloss=PUNCT
+13	almost	almost	ADV	_	_	14	mod	_	AlignBegin=190215|AlignEnd=190645|Gloss=almost|Lang=en
+14	raping	rape	VERB	_	Tense=Pres|VerbForm=Part	7	comp:aux	_	AlignBegin=190675|AlignEnd=191045|Gloss=rape.PRS.PTCP|Lang=en
+15	girls	girl	NOUN	_	Number=Plur	14	comp:obj	_	AlignBegin=191045|AlignEnd=191400|Gloss=girl.PL|Lang=en
+16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=191400|AlignEnd=191930|Gloss=PUNCT
+17	using	use	VERB	_	Tense=Pres|VerbForm=Part	14	mod	_	AlignBegin=191930|AlignEnd=192290|Gloss=use.PRS.PTCP|Lang=en
+18	scissors	scissors	NOUN	_	Number=Plur	17	comp:obj	_	AlignBegin=192290|AlignEnd=192710|Gloss=scissors.PL|Lang=en
+19	to	to	ADP	_	_	17	mod	_	AlignBegin=192710|AlignEnd=192880|Gloss=to|Lang=en
+20	tear	tear	VERB	_	_	19	comp:obj	_	AlignBegin=192880|AlignEnd=193085|Gloss=tear|Lang=en
+21	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	22	mod:poss	_	AlignBegin=193085|AlignEnd=193278|Gloss=PL.3.POSS|Lang=en
+22	skirt	skirt	NOUN	_	_	20	comp:obj	_	AlignBegin=193278|AlignEnd=193664|Gloss=skirt|Lang=en
+23	]	]	PUNCT	_	_	7	punct	_	AlignBegin=193664|AlignEnd=193694|Gloss=PUNCT|
+24	//	//	PUNCT	_	_	3	punct	_	AlignBegin=193664|AlignEnd=193694|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__53
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1174,22 +1148,20 @@
 # text = # [eng de would now hold dem down in broad daylight in outside opendential eng] //
 # text_en = Then they'll hold them down, outside, in broad daylight.
 # text_ortho = De would now hold dem down in broad day light in outside opendential .
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=193694|AlignEnd=194190|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=193694|AlignEnd=194190|Gloss=PUNCT
-3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=194190|AlignEnd=194300|Gloss=NOM.PL.3
-4	would	would	AUX	_	VerbForm=Fin	0	root	_	AlignBegin=194300|AlignEnd=194455|Gloss=would.FIN
-5	now	now	ADV	_	_	6	mod	_	AlignBegin=194455|AlignEnd=194688|Gloss=now
-6	hold	hold	VERB	_	_	4	comp:aux	_	AlignBegin=194688|AlignEnd=194900|Gloss=hold
-7	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=194900|AlignEnd=195086|Gloss=ACC.PL.3
-8	down	down	ADP	_	_	6	compound:prt	_	AlignBegin=195086|AlignEnd=195520|Gloss=down
-9	in	in	ADP	_	_	6	mod	_	AlignBegin=195550|AlignEnd=195810|Gloss=in
-10	broad	broad	ADJ	_	_	11	mod	_	AlignBegin=195810|AlignEnd=196028|Gloss=broad
-11	daylight	daylight	NOUN	_	_	9	comp:obj	_	AlignBegin=196028|AlignEnd=196205|Gloss=daylight
-12	in	in	ADP	_	_	6	mod	_	AlignBegin=196640|AlignEnd=196900|Gloss=in
-13	outside	outside	ADJ	_	_	14	mod	_	AlignBegin=196900|AlignEnd=197410|Gloss=outside
-14	opendential	opendential	NOUN	_	_	12	comp:obj	_	AlignBegin=197440|AlignEnd=198199|Gloss=recommendation
-15	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=198199|AlignEnd=198229|Gloss=PUNCT
-16	//	//	PUNCT	_	_	4	punct	_	AlignBegin=198199|AlignEnd=198229|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=193694|AlignEnd=194190|Gloss=PUNCT
+2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=194190|AlignEnd=194300|Gloss=NOM.PL.3|Lang=en
+3	would	would	AUX	_	VerbForm=Fin	0	root	_	AlignBegin=194300|AlignEnd=194455|Gloss=would.FIN|Lang=en
+4	now	now	ADV	_	_	5	mod	_	AlignBegin=194455|AlignEnd=194688|Gloss=now|Lang=en
+5	hold	hold	VERB	_	_	3	comp:aux	_	AlignBegin=194688|AlignEnd=194900|Gloss=hold|Lang=en
+6	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=194900|AlignEnd=195086|Gloss=ACC.PL.3|Lang=en
+7	down	down	ADP	_	_	5	compound:prt	_	AlignBegin=195086|AlignEnd=195520|Gloss=down|Lang=en
+8	in	in	ADP	_	_	5	mod	_	AlignBegin=195550|AlignEnd=195810|Gloss=in|Lang=en
+9	broad	broad	ADJ	_	_	10	mod	_	AlignBegin=195810|AlignEnd=196028|Gloss=broad|Lang=en
+10	daylight	daylight	NOUN	_	_	8	comp:obj	_	AlignBegin=196028|AlignEnd=196205|Gloss=daylight|Lang=en
+11	in	in	ADP	_	_	5	mod	_	AlignBegin=196640|AlignEnd=196900|Gloss=in|Lang=en
+12	outside	outside	ADJ	_	_	13	mod	_	AlignBegin=196900|AlignEnd=197410|Gloss=outside|Lang=en
+13	opendential	opendential	NOUN	_	_	11	comp:obj	_	AlignBegin=197440|AlignEnd=198199|Gloss=recommendation|Lang=en
+14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=198199|AlignEnd=198229|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__54
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1197,27 +1169,25 @@
 # text = # [eng dis woman had to come out of her car # with { her || her } escort eng] //
 # text_en = This woman had to come out of her car, with her, her escorts.
 # text_ortho = Dis woman had to come out of her car with her, her escort .
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=198229|AlignEnd=199628|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=199598|AlignEnd=199628|Gloss=PUNCT
-3	dis	dis	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=199628|AlignEnd=199900|Gloss=SG.DEM
-4	woman	woman	NOUN	_	_	5	subj	_	AlignBegin=199900|AlignEnd=200320|Gloss=woman
-5	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=200320|AlignEnd=200520|Gloss=have.IND.PST.FIN
-6	to	to	ADP	_	_	5	comp:obl@x	_	AlignBegin=200520|AlignEnd=200680|Gloss=to
-7	come	come	VERB	_	_	6	comp:obj	_	AlignBegin=200680|AlignEnd=200860|Gloss=come
-8	out	out	ADP	_	_	7	compound:prt	_	AlignBegin=200860|AlignEnd=201010|EXTPOS=ADP|Gloss=out
-9	of	of	ADP	_	_	7	comp:obl	_	AlignBegin=201010|AlignEnd=201140|EXTPOS=ADP|Gloss=of
-10	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	11	mod:poss	_	AlignBegin=201140|AlignEnd=201310|Gloss=F.SG.3.POSS
-11	car	car	NOUN	_	_	9	comp:obj	_	AlignBegin=201310|AlignEnd=201503|Gloss=car
-12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=201503|AlignEnd=202032|Gloss=PUNCT
-13	with	wit	ADP	_	_	7	mod	_	AlignBegin=202032|AlignEnd=202180|Gloss=with
-14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=202180|AlignEnd=202210|Gloss=PUNCT
-15	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	19	mod:poss	_	AlignBegin=202210|AlignEnd=202665|Gloss=F.SG.3.POSS
-16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=202665|AlignEnd=202695|Gloss=PUNCT
-17	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	15	conj:dicto	_	AlignBegin=202695|AlignEnd=202877|Gloss=F.SG.3.POSS
-18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=202877|AlignEnd=202907|Gloss=PUNCT
-19	escort	escort	NOUN	_	_	13	comp:obj	_	AlignBegin=202907|AlignEnd=203425|Gloss=escort
-20	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=203425|AlignEnd=203455|Gloss=PUNCT
-21	//	//	PUNCT	_	_	5	punct	_	AlignBegin=203425|AlignEnd=203455|Gloss=PUNCT
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=198229|AlignEnd=199628|Gloss=PUNCT
+2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=199628|AlignEnd=199900|Gloss=SG.DEM|Lang=en
+3	woman	woman	NOUN	_	_	4	subj	_	AlignBegin=199900|AlignEnd=200320|Gloss=woman|Lang=en
+4	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=200320|AlignEnd=200520|Gloss=have.IND.PST.FIN|Lang=en
+5	to	to	ADP	_	_	4	comp:obl@x	_	AlignBegin=200520|AlignEnd=200680|Gloss=to|Lang=en
+6	come	come	VERB	_	_	5	comp:obj	_	AlignBegin=200680|AlignEnd=200860|Gloss=come|Lang=en
+7	out	out	ADP	_	_	6	compound:prt	_	AlignBegin=200860|AlignEnd=201010|EXTPOS=ADP|Gloss=out|Lang=en
+8	of	of	ADP	_	_	6	comp:obl	_	AlignBegin=201010|AlignEnd=201140|EXTPOS=ADP|Gloss=of|Lang=en
+9	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	10	mod:poss	_	AlignBegin=201140|AlignEnd=201310|Gloss=F.SG.3.POSS|Lang=en
+10	car	car	NOUN	_	_	8	comp:obj	_	AlignBegin=201310|AlignEnd=201503|Gloss=car|Lang=en
+11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=201503|AlignEnd=202032|Gloss=PUNCT
+12	with	wit	ADP	_	_	6	mod	_	AlignBegin=202032|AlignEnd=202180|Gloss=with|Lang=en
+13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=202180|AlignEnd=202210|Gloss=PUNCT
+14	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	18	mod:poss	_	AlignBegin=202210|AlignEnd=202665|Gloss=F.SG.3.POSS|Lang=en
+15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=202665|AlignEnd=202695|Gloss=PUNCT
+16	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	14	conj:dicto	_	AlignBegin=202695|AlignEnd=202877|Gloss=F.SG.3.POSS|Lang=en
+17	}	}	PUNCT	_	_	14	punct	_	AlignBegin=202877|AlignEnd=202907|Gloss=PUNCT
+18	escort	escort	NOUN	_	_	12	comp:obj	_	AlignBegin=202907|AlignEnd=203425|Gloss=escort|Lang=en
+19	//	//	PUNCT	_	_	4	punct	_	AlignBegin=203425|AlignEnd=203455|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1225,37 +1195,35 @@
 # text = # [eng dat was how de were able to save more dan a hundred girls //= # all of dem < { # different |r different } pockets of eng] &//
 # text_en = That was how they were able to save more than a hundred girls, all of them from different pockets of…
 # text_ortho = Dat was how de were able to save more dan a hundred girls, all of dem, different, different pockets of…
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=203455|AlignEnd=204091|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=203455|AlignEnd=204091|Gloss=PUNCT
-3	dat	dat	PRON	_	Number=Sing|PronType=Dem	4	subj	_	AlignBegin=204091|AlignEnd=204225|Gloss=SG.DEM
-4	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=204225|AlignEnd=204385|Gloss=be.IND.SG.1.PST.FIN
-5	how	how	ADV	_	PronType=Int	4	comp:pred@agent	_	AlignBegin=204385|AlignEnd=204485|Gloss=how.Q
-6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=204485|AlignEnd=204583|Gloss=NOM.PL.3
-7	were	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|VerbType=Cop	5	mod@relcl	_	AlignBegin=204583|AlignEnd=204695|Gloss=be.IND.PST.FIN
-8	able	able	ADJ	_	_	7	comp:pred	_	AlignBegin=204695|AlignEnd=204885|Gloss=able
-9	to	to	ADP	_	_	8	comp:pred	_	AlignBegin=204885|AlignEnd=205045|Gloss=to
-10	save	save	VERB	_	_	9	comp:obj	_	AlignBegin=205045|AlignEnd=205415|Gloss=save
-11	more	more	ADJ	_	Degree=Cmp	10	mod	_	AlignBegin=205415|AlignEnd=205645|Gloss=CMPR
-12	dan	dan	ADP	_	_	11	mod	_	AlignBegin=205645|AlignEnd=205825|Gloss=than
-13	a	a	DET	_	Definite=Ind|PronType=Art	15	det	_	AlignBegin=205825|AlignEnd=205975|Gloss=INDF.ART
-14	hundred	hundred	NUM	_	NumType=Card	15	mod:num	_	AlignBegin=205975|AlignEnd=206415|Gloss=hundred.CARD
-15	girls	girl	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=206415|AlignEnd=206725|Gloss=girl.PL
-16	//=	//=	PUNCT	_	_	28	punct	_	AlignBegin=206755|AlignEnd=208337|Gloss=PUNCT
-17	#	#	PUNCT	_	_	28	punct	_	AlignBegin=206755|AlignEnd=208337|Gloss=PUNCT
-18	all	all	ADV	_	_	28	dislocated	_	AlignBegin=208337|AlignEnd=208520|Gloss=all
-19	of	of	ADP	_	_	18	mod	_	AlignBegin=208520|AlignEnd=208700|Gloss=of
-20	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=208700|AlignEnd=208942|Gloss=ACC.PL.3
-21	<	<	PUNCT	_	_	18	punct	_	AlignBegin=208942|AlignEnd=208972|Gloss=PUNCT
-22	{	{	PUNCT	_	_	24	punct	_	AlignBegin=208942|AlignEnd=208972|Gloss=PUNCT
-23	#	#	PUNCT	_	_	24	punct	_	AlignBegin=208972|AlignEnd=209405|Gloss=PUNCT
-24	different	different	ADJ	_	_	28	mod	_	AlignBegin=209405|AlignEnd=209660|Gloss=different
-25	|r	|r	PUNCT	_	_	26	punct	_	AlignBegin=209660|AlignEnd=209690|Gloss=PUNCT
-26	different	different	ADJ	_	_	24	compound:redup	_	AlignBegin=209690|AlignEnd=209960|Gloss=different
-27	}	}	PUNCT	_	_	24	punct	_	AlignBegin=209960|AlignEnd=209990|Gloss=PUNCT
-28	pockets	pocket	NOUN	_	Number=Plur	4	parataxis:dislocated	_	AlignBegin=209990|AlignEnd=210330|Gloss=pocket.PL
-29	of	of	ADP	_	_	28	mod@scrap	_	AlignBegin=210330|AlignEnd=210466|Gloss=of
-30	eng]	eng]	PUNCT	_	_	4	punct	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
-31	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=203455|AlignEnd=204091|Gloss=PUNCT
+2	dat	dat	PRON	_	Number=Sing|PronType=Dem	3	subj	_	AlignBegin=204091|AlignEnd=204225|Gloss=SG.DEM|Lang=en
+3	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=204225|AlignEnd=204385|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+4	how	how	ADV	_	PronType=Int	3	comp:pred@agent	_	AlignBegin=204385|AlignEnd=204485|Gloss=how.Q|Lang=en
+5	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	subj	_	AlignBegin=204485|AlignEnd=204583|Gloss=NOM.PL.3|Lang=en
+6	were	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|VerbType=Cop	4	mod@relcl	_	AlignBegin=204583|AlignEnd=204695|Gloss=be.IND.PST.FIN|Lang=en
+7	able	able	ADJ	_	_	6	comp:pred	_	AlignBegin=204695|AlignEnd=204885|Gloss=able|Lang=en
+8	to	to	ADP	_	_	7	comp:pred	_	AlignBegin=204885|AlignEnd=205045|Gloss=to|Lang=en
+9	save	save	VERB	_	_	8	comp:obj	_	AlignBegin=205045|AlignEnd=205415|Gloss=save|Lang=en
+10	more	more	ADJ	_	Degree=Cmp	9	mod	_	AlignBegin=205415|AlignEnd=205645|Gloss=CMPR|Lang=en
+11	dan	dan	ADP	_	_	10	mod	_	AlignBegin=205645|AlignEnd=205825|Gloss=than|Lang=en
+12	a	a	DET	_	Definite=Ind|PronType=Art	14	det	_	AlignBegin=205825|AlignEnd=205975|Gloss=INDF.ART|Lang=en
+13	hundred	hundred	NUM	_	NumType=Card	14	mod:num	_	AlignBegin=205975|AlignEnd=206415|Gloss=hundred.CARD|Lang=en
+14	girls	girl	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=206415|AlignEnd=206725|Gloss=girl.PL|Lang=en
+15	//=	//=	PUNCT	_	_	27	punct	_	AlignBegin=206755|AlignEnd=208337|Gloss=PUNCT
+16	#	#	PUNCT	_	_	27	punct	_	AlignBegin=206755|AlignEnd=208337|Gloss=PUNCT
+17	all	all	ADV	_	_	27	dislocated	_	AlignBegin=208337|AlignEnd=208520|Gloss=all|Lang=en
+18	of	of	ADP	_	_	17	mod	_	AlignBegin=208520|AlignEnd=208700|Gloss=of|Lang=en
+19	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=208700|AlignEnd=208942|Gloss=ACC.PL.3|Lang=en
+20	<	<	PUNCT	_	_	17	punct	_	AlignBegin=208942|AlignEnd=208972|Gloss=PUNCT
+21	{	{	PUNCT	_	_	23	punct	_	AlignBegin=208942|AlignEnd=208972|Gloss=PUNCT
+22	#	#	PUNCT	_	_	23	punct	_	AlignBegin=208972|AlignEnd=209405|Gloss=PUNCT
+23	different	different	ADJ	_	_	27	mod	_	AlignBegin=209405|AlignEnd=209660|Gloss=different|Lang=en
+24	|r	|r	PUNCT	_	_	25	punct	_	AlignBegin=209660|AlignEnd=209690|Gloss=PUNCT
+25	different	different	ADJ	_	_	23	compound:redup	_	AlignBegin=209690|AlignEnd=209960|Gloss=different|Lang=en
+26	}	}	PUNCT	_	_	23	punct	_	AlignBegin=209960|AlignEnd=209990|Gloss=PUNCT
+27	pockets	pocket	NOUN	_	Number=Plur	3	parataxis:dislocated	_	AlignBegin=209990|AlignEnd=210330|Gloss=pocket.PL|Lang=en
+28	of	of	ADP	_	_	27	mod@scrap	_	AlignBegin=210330|AlignEnd=210466|Gloss=of|Lang=en
+29	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1294,22 +1262,20 @@
 # text = # [eng today we might be play |c # but dis is not play eng] //
 # text_en = Today we… it might look like fun and games but it's not.
 # text_ortho = Today we might be play, but dis is not play .
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=212985|AlignEnd=213530|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=213500|AlignEnd=213530|Gloss=PUNCT
-3	today	today	NOUN	_	_	5	mod	_	AlignBegin=213530|AlignEnd=213880|Gloss=today
-4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=213880|AlignEnd=213972|Gloss=NOM.PL.1
-5	might	might	AUX	_	_	0	root	_	AlignBegin=213972|AlignEnd=214140|Gloss=may.COND
-6	be	be	VERB	_	PartType=Cop	5	comp:aux	_	AlignBegin=214140|AlignEnd=214308|Gloss=be
-7	play	play	VERB	_	_	6	comp:obj@x	_	AlignBegin=214308|AlignEnd=214626|Gloss=play
-8	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=214626|AlignEnd=214656|Gloss=PUNCT
-9	#	#	PUNCT	_	_	12	punct	_	AlignBegin=214656|AlignEnd=214975|Gloss=PUNCT
-10	but	but	CCONJ	_	_	12	cc	_	AlignBegin=214975|AlignEnd=215070|Gloss=but
-11	dis	dis	PRON	_	Number=Sing|PronType=Dem	12	subj	_	AlignBegin=215070|AlignEnd=215310|Gloss=SG.DEM
-12	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	5	conj:coord	_	AlignBegin=215310|AlignEnd=215433|Gloss=be.IND.SG.3.PRS.FIN
-13	not	not	PART	_	Polarity=Neg	14	mod	_	AlignBegin=215433|AlignEnd=215610|Gloss=NEG
-14	play	play	NOUN	_	_	12	comp:pred	_	AlignBegin=215610|AlignEnd=215879|Gloss=play
-15	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=215879|AlignEnd=215909|Gloss=PUNCT
-16	//	//	PUNCT	_	_	5	punct	_	AlignBegin=215879|AlignEnd=215909|Gloss=PUNCT
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=212985|AlignEnd=213530|Gloss=PUNCT
+2	today	today	NOUN	_	_	4	mod	_	AlignBegin=213530|AlignEnd=213880|Gloss=today|Lang=en
+3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=213880|AlignEnd=213972|Gloss=NOM.PL.1|Lang=en
+4	might	might	AUX	_	_	0	root	_	AlignBegin=213972|AlignEnd=214140|Gloss=may.COND|Lang=en
+5	be	be	VERB	_	PartType=Cop	4	comp:aux	_	AlignBegin=214140|AlignEnd=214308|Gloss=be|Lang=en
+6	play	play	VERB	_	_	5	comp:obj@x	_	AlignBegin=214308|AlignEnd=214626|Gloss=play|Lang=en
+7	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=214626|AlignEnd=214656|Gloss=PUNCT
+8	#	#	PUNCT	_	_	11	punct	_	AlignBegin=214656|AlignEnd=214975|Gloss=PUNCT
+9	but	but	CCONJ	_	_	11	cc	_	AlignBegin=214975|AlignEnd=215070|Gloss=but|Lang=en
+10	dis	dis	PRON	_	Number=Sing|PronType=Dem	11	subj	_	AlignBegin=215070|AlignEnd=215310|Gloss=SG.DEM|Lang=en
+11	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	4	conj:coord	_	AlignBegin=215310|AlignEnd=215433|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+12	not	not	PART	_	Polarity=Neg	13	mod	_	AlignBegin=215433|AlignEnd=215610|Gloss=NEG|Lang=en
+13	play	play	NOUN	_	_	11	comp:pred	_	AlignBegin=215610|AlignEnd=215879|Gloss=play|Lang=en
+14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=215879|AlignEnd=215909|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__58
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1317,27 +1283,25 @@
 # text = [eng when deir clothing are being torn < # de were climbing on dem |c attempting to rape dem eng] //
 # text_en = When their clothes were being torn, they were mounting on them, trying to rape them.
 # text_ortho = When deir clothing are being torn, de were climbing on dem, attempting to rape dem .
-1	[eng	[eng	PUNCT	_	_	11	punct	_	AlignBegin=216250|AlignEnd=216280|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	11	mod:periph	_	AlignBegin=216280|AlignEnd=216480|Gloss=when.Q
-3	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	4	mod:poss	_	AlignBegin=216480|AlignEnd=216660|Gloss=PL.3.POSS
-4	clothing	clothing	NOUN	_	_	5	subj	_	AlignBegin=216660|AlignEnd=217000|Gloss=clothing
-5	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=217000|AlignEnd=217130|Gloss=be.IND.PRS.FIN
-6	being	be	AUX	_	Tense=Pres|VerbForm=Part	5	comp:aux	_	AlignBegin=217130|AlignEnd=217420|Gloss=be.PRS.PTCP
-7	torn	tear	VERB	_	Tense=Past|VerbForm=Part	6	comp:aux	_	AlignBegin=217420|AlignEnd=217688|Gloss=tear.PST.PTCP
-8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=217688|AlignEnd=217718|Gloss=PUNCT
-9	#	#	PUNCT	_	_	2	punct	_	AlignBegin=217718|AlignEnd=218530|Gloss=PUNCT
-10	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	AlignBegin=218530|AlignEnd=218637|Gloss=NOM.PL.3
-11	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=218637|AlignEnd=218845|Gloss=be.IND.PST.FIN
-12	climbing	climb	VERB	_	Tense=Pres|VerbForm=Part	11	comp:aux	_	AlignBegin=218845|AlignEnd=219215|Gloss=climb.PRS.PTCP
-13	on	on	ADP	_	_	12	comp:obl	_	AlignBegin=219215|AlignEnd=219375|Gloss=on
-14	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=219375|AlignEnd=219675|Gloss=ACC.PL.3
-15	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=219675|AlignEnd=219705|Gloss=PUNCT
-16	attempting	attempt	VERB	_	Tense=Pres|VerbForm=Part	12	conj:coord	_	AlignBegin=219705|AlignEnd=220295|Gloss=attempt.PRS.PTCP
-17	to	to	ADP	_	_	16	comp:obl@x	_	AlignBegin=220295|AlignEnd=220445|Gloss=to
-18	rape	rape	VERB	_	_	17	comp:obj	_	AlignBegin=220445|AlignEnd=220649|Gloss=rape
-19	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=220649|AlignEnd=221290|Gloss=ACC.PL.3
-20	eng]	eng]	PUNCT	_	_	11	punct	_	AlignBegin=221290|AlignEnd=221320|Gloss=PUNCT
-21	//	//	PUNCT	_	_	11	punct	_	AlignBegin=221290|AlignEnd=221320|Gloss=PUNCT
+1	when	when	SCONJ	_	PronType=Int	10	mod:periph	_	AlignBegin=216280|AlignEnd=216480|Gloss=when.Q|Lang=en
+2	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	3	mod:poss	_	AlignBegin=216480|AlignEnd=216660|Gloss=PL.3.POSS|Lang=en
+3	clothing	clothing	NOUN	_	_	4	subj	_	AlignBegin=216660|AlignEnd=217000|Gloss=clothing|Lang=en
+4	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=217000|AlignEnd=217130|Gloss=be.IND.PRS.FIN|Lang=en
+5	being	be	AUX	_	Tense=Pres|VerbForm=Part	4	comp:aux	_	AlignBegin=217130|AlignEnd=217420|Gloss=be.PRS.PTCP|Lang=en
+6	torn	tear	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	AlignBegin=217420|AlignEnd=217688|Gloss=tear.PST.PTCP|Lang=en
+7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=217688|AlignEnd=217718|Gloss=PUNCT
+8	#	#	PUNCT	_	_	1	punct	_	AlignBegin=217718|AlignEnd=218530|Gloss=PUNCT
+9	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=218530|AlignEnd=218637|Gloss=NOM.PL.3|Lang=en
+10	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=218637|AlignEnd=218845|Gloss=be.IND.PST.FIN|Lang=en
+11	climbing	climb	VERB	_	Tense=Pres|VerbForm=Part	10	comp:aux	_	AlignBegin=218845|AlignEnd=219215|Gloss=climb.PRS.PTCP|Lang=en
+12	on	on	ADP	_	_	11	comp:obl	_	AlignBegin=219215|AlignEnd=219375|Gloss=on|Lang=en
+13	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=219375|AlignEnd=219675|Gloss=ACC.PL.3|Lang=en
+14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=219675|AlignEnd=219705|Gloss=PUNCT
+15	attempting	attempt	VERB	_	Tense=Pres|VerbForm=Part	11	conj:coord	_	AlignBegin=219705|AlignEnd=220295|Gloss=attempt.PRS.PTCP|Lang=en
+16	to	to	ADP	_	_	15	comp:obl@x	_	AlignBegin=220295|AlignEnd=220445|Gloss=to|Lang=en
+17	rape	rape	VERB	_	_	16	comp:obj	_	AlignBegin=220445|AlignEnd=220649|Gloss=rape|Lang=en
+18	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=220649|AlignEnd=221290|Gloss=ACC.PL.3|Lang=en
+19	//	//	PUNCT	_	_	10	punct	_	AlignBegin=221290|AlignEnd=221320|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__59
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1390,30 +1354,28 @@
 # text = [eng it was such { a di- || # a disheartening ehn story } to read eng] if you be mama of pikin //
 # text_en = It was such a di-… a disheartening story to read, if you're a mother.
 # text_ortho = It was such a di-... a disheartening uh... story to read if you be mama of pikin.
-1	[eng	[eng	PUNCT	_	_	3	punct	_	AlignBegin=228075|AlignEnd=228355|Gloss=PUNCT
-2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=228075|AlignEnd=228355|Gloss=NOM.NT.SG.3
-3	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=228355|AlignEnd=228575|Gloss=be.IND.SG.1.PST.FIN
-4	such	such	ADV	_	_	6	mod	_	AlignBegin=228575|AlignEnd=228825|Gloss=such
-5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=228825|AlignEnd=228855|Gloss=PUNCT
-6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	AlignBegin=228855|AlignEnd=228965|Gloss=INDF.ART
-7	di-	X	X	_	_	3	comp:pred	_	AlignBegin=228965|AlignEnd=229113|Gloss=X
-8	||	||	PUNCT	_	_	13	punct	_	AlignBegin=229113|AlignEnd=229143|Gloss=PUNCT
-9	#	#	PUNCT	_	_	13	punct	_	AlignBegin=229143|AlignEnd=229447|Gloss=PUNCT
-10	a	a	DET	_	Definite=Ind|PronType=Art	13	det	_	AlignBegin=229447|AlignEnd=229590|Gloss=INDF.ART
-11	disheartening	dishearten	VERB	_	Tense=Pres|VerbForm=Part	13	mod	_	AlignBegin=229590|AlignEnd=230196|Gloss=dishearten.PRS.PTCP
-12	ehn	ehn	INTJ	_	_	13	discourse	_	AlignBegin=230226|AlignEnd=230459|Gloss=ehn
-13	story	story	NOUN	_	_	7	conj:dicto	_	AlignBegin=230459|AlignEnd=230866|Gloss=story
-14	}	}	PUNCT	_	_	7	punct	_	AlignBegin=230866|AlignEnd=231056|Gloss=PUNCT
-15	to	to	ADP	_	_	13	mod	_	AlignBegin=230866|AlignEnd=231056|Gloss=to
-16	read	read	VERB	_	_	15	comp:obj	_	AlignBegin=231056|AlignEnd=231196|Gloss=read
-17	eng]	eng]	PUNCT	_	_	18	punct	_	AlignBegin=231196|AlignEnd=231226|Gloss=PUNCT
-18	if	if	SCONJ	_	_	3	mod	_	AlignBegin=231226|AlignEnd=231376|Gloss=if
-19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	20	subj	_	AlignBegin=231376|AlignEnd=231436|Gloss=NOM.2
-20	be	be	VERB	_	PartType=Cop	18	comp:obj	_	AlignBegin=231436|AlignEnd=231556|Gloss=be
-21	mama	mama	NOUN	_	_	20	comp:pred	_	AlignBegin=231556|AlignEnd=231806|Gloss=mama
-22	of	of	ADP	_	_	21	mod	_	AlignBegin=231806|AlignEnd=231936|Gloss=of
-23	pikin	pikin	NOUN	_	_	22	comp:obj	_	AlignBegin=231936|AlignEnd=232237|Gloss=child
-24	//	//	PUNCT	_	_	3	punct	_	AlignBegin=232237|AlignEnd=232268|Gloss=PUNCT
+1	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=228075|AlignEnd=228355|Gloss=NOM.NT.SG.3|Lang=en
+2	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=228355|AlignEnd=228575|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+3	such	such	ADV	_	_	5	mod	_	AlignBegin=228575|AlignEnd=228825|Gloss=such|Lang=en
+4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=228825|AlignEnd=228855|Gloss=PUNCT
+5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	AlignBegin=228855|AlignEnd=228965|Gloss=INDF.ART|Lang=en
+6	di-	X	X	_	_	2	comp:pred	_	AlignBegin=228965|AlignEnd=229113|Gloss=X|Lang=en
+7	||	||	PUNCT	_	_	12	punct	_	AlignBegin=229113|AlignEnd=229143|Gloss=PUNCT
+8	#	#	PUNCT	_	_	12	punct	_	AlignBegin=229143|AlignEnd=229447|Gloss=PUNCT
+9	a	a	DET	_	Definite=Ind|PronType=Art	12	det	_	AlignBegin=229447|AlignEnd=229590|Gloss=INDF.ART|Lang=en
+10	disheartening	dishearten	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	AlignBegin=229590|AlignEnd=230196|Gloss=dishearten.PRS.PTCP|Lang=en
+11	ehn	ehn	INTJ	_	_	12	discourse	_	AlignBegin=230226|AlignEnd=230459|Gloss=ehn|Lang=en
+12	story	story	NOUN	_	_	6	conj:dicto	_	AlignBegin=230459|AlignEnd=230866|Gloss=story|Lang=en
+13	}	}	PUNCT	_	_	6	punct	_	AlignBegin=230866|AlignEnd=231056|Gloss=PUNCT
+14	to	to	ADP	_	_	12	mod	_	AlignBegin=230866|AlignEnd=231056|Gloss=to|Lang=en
+15	read	read	VERB	_	_	14	comp:obj	_	AlignBegin=231056|AlignEnd=231196|Gloss=read|Lang=en
+16	if	if	SCONJ	_	_	2	mod	_	AlignBegin=231226|AlignEnd=231376|Gloss=if
+17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	subj	_	AlignBegin=231376|AlignEnd=231436|Gloss=NOM.2
+18	be	be	VERB	_	PartType=Cop	16	comp:obj	_	AlignBegin=231436|AlignEnd=231556|Gloss=be
+19	mama	mama	NOUN	_	_	18	comp:pred	_	AlignBegin=231556|AlignEnd=231806|Gloss=mama
+20	of	of	ADP	_	_	19	mod	_	AlignBegin=231806|AlignEnd=231936|Gloss=of
+21	pikin	pikin	NOUN	_	_	20	comp:obj	_	AlignBegin=231936|AlignEnd=232237|Gloss=child
+22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=232237|AlignEnd=232268|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__62
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1443,17 +1405,15 @@
 # text = [eng because we shouldn't let all dese tins slide eng] //
 # text_en = Because we shouldn't let things like this slide.
 # text_ortho = Because we shouldn't let all dese tins slide .
-1	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=235580|AlignEnd=235610|Gloss=PUNCT
-2	because	because	SCONJ	_	_	4	cc	_	AlignBegin=235610|AlignEnd=235910|Gloss=because
-3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=235910|AlignEnd=235970|Gloss=NOM.PL.1
-4	shouldn't	should	AUX	_	Polarity=Neg|VerbForm=Fin	0	root	_	AlignBegin=235970|AlignEnd=236242|Gloss=should.FIN.NEG
-5	let	let	VERB	_	_	4	comp:aux	_	AlignBegin=236242|AlignEnd=236450|Gloss=let
-6	all	all	ADV	_	_	8	mod	_	AlignBegin=236450|AlignEnd=236560|Gloss=all
-7	dese	dese	DET	_	Number=Plur|PronType=Dem	8	det	_	AlignBegin=236560|AlignEnd=236770|Gloss=PL.PROX.DEM
-8	tins	ting	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=236770|AlignEnd=237010|Gloss=thing.PL
-9	slide	slide	VERB	_	_	5	comp:obj@x	_	AlignBegin=237010|AlignEnd=237221|Gloss=slide
-10	eng]	_	PUNCT	_	_	4	punct	_	AlignBegin=237221|AlignEnd=237251|Gloss=PUNCT
-11	//	_	PUNCT	_	_	4	punct	_	AlignBegin=237221|AlignEnd=237251|Gloss=PUNCT
+1	because	because	SCONJ	_	_	3	cc	_	AlignBegin=235610|AlignEnd=235910|Gloss=because|Lang=en
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=235910|AlignEnd=235970|Gloss=NOM.PL.1|Lang=en
+3	shouldn't	should	AUX	_	Polarity=Neg|VerbForm=Fin	0	root	_	AlignBegin=235970|AlignEnd=236242|Gloss=should.FIN.NEG|Lang=en
+4	let	let	VERB	_	_	3	comp:aux	_	AlignBegin=236242|AlignEnd=236450|Gloss=let|Lang=en
+5	all	all	ADV	_	_	7	mod	_	AlignBegin=236450|AlignEnd=236560|Gloss=all|Lang=en
+6	dese	dese	DET	_	Number=Plur|PronType=Dem	7	det	_	AlignBegin=236560|AlignEnd=236770|Gloss=PL.PROX.DEM|Lang=en
+7	tins	ting	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=236770|AlignEnd=237010|Gloss=thing.PL|Lang=en
+8	slide	slide	VERB	_	_	4	comp:obj@x	_	AlignBegin=237010|AlignEnd=237221|Gloss=slide|Lang=en
+9	//	_	PUNCT	_	_	3	punct	_	AlignBegin=237221|AlignEnd=237251|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__64
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3

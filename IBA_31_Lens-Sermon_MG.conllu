@@ -622,7 +622,7 @@
 # text_en = Who doesn't like pleasure?
 # text_ortho = Who no like pleasure?
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=113895|AlignEnd=114300|Gloss=PUNCT
-2	who	who	PRON	_	PronType=Int	0	root	4:@subj	AlignBegin=114300|AlignEnd=114340|Gloss=who.Q
+2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=114300|AlignEnd=114340|Gloss=who.Q
 3	no	no	PART	_	Polarity=Neg	4	mod	_	AlignBegin=114340|AlignEnd=114455|Gloss=NEG
 4	like	like	VERB	_	_	2	comp:cleft	_	AlignBegin=114455|AlignEnd=114638|Gloss=like
 5	pleasure	pleasure	NOUN	_	_	4	comp:obj	_	AlignBegin=114638|AlignEnd=115060|Gloss=pleasure
@@ -733,7 +733,7 @@
 # text = who no wan be like God ?//
 # text_en = Who doesn't want to be like God?
 # text_ortho = Who no wan be like God?
-1	who	who	PRON	_	PronType=Int	0	root	3:@subj	AlignBegin=129940|AlignEnd=130007|Gloss=who.Q
+1	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=129940|AlignEnd=130007|Gloss=who.Q
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=130007|AlignEnd=130120|Gloss=NEG
 3	wan	want	VERB	_	_	1	comp:cleft	_	AlignBegin=130120|AlignEnd=130335|Gloss=want
 4	be	be	VERB	_	PartType=Cop	3	comp:obj@x	_	AlignBegin=130335|AlignEnd=130480|Gloss=be
@@ -878,7 +878,7 @@
 # text_en = Who doesn't want to eat?
 # text_ortho = Who no wan chop food?
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=148440|AlignEnd=149040|Gloss=PUNCT
-2	who	who	PRON	_	PronType=Int	0	root	4:@subj	AlignBegin=149040|AlignEnd=149100|Gloss=who.Q
+2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=149040|AlignEnd=149100|Gloss=who.Q
 3	no	no	PART	_	Polarity=Neg	4	mod	_	AlignBegin=149100|AlignEnd=149240|Gloss=NEG
 4	wan	want	VERB	_	_	2	comp:cleft	_	AlignBegin=149240|AlignEnd=149490|Gloss=want
 5	chop	chop	VERB	_	_	4	comp:obj@x	_	AlignBegin=149490|AlignEnd=149697|Gloss=eat
@@ -1050,7 +1050,7 @@
 # text_en = Who doesn't like power?
 # text_ortho = Who no like power?
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=170821|AlignEnd=171060|Gloss=PUNCT
-2	who	who	PRON	_	PronType=Int	0	root	4:@subj	AlignBegin=171060|AlignEnd=171120|Gloss=who.Q
+2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=171060|AlignEnd=171120|Gloss=who.Q
 3	no	no	PART	_	Polarity=Neg	4	mod	_	AlignBegin=171120|AlignEnd=171242|Gloss=NEG
 4	like	like	VERB	_	_	2	comp:cleft	_	AlignBegin=171242|AlignEnd=171432|Gloss=like
 5	power	power	NOUN	_	_	4	comp:obj	_	AlignBegin=171432|AlignEnd=171793|Gloss=power
@@ -1292,31 +1292,29 @@
 # text = # [eng e said [ get behind me > Satan //= you shall not tempt { di Lord |a your God } //] eng] //
 # text_en = "He said, ""get thee behind me, Satan. You shall not tempt the Lord, your God."""
 # text_ortho = E said get behind me, Satan, you shall not tempt di Lord, your God, .
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=205409|AlignEnd=205940|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	4	punct	_	AlignBegin=205409|AlignEnd=205940|Gloss=PUNCT
-3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=205940|AlignEnd=206007|Gloss=NOM.SG.3
-4	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=206007|AlignEnd=206150|Gloss=say.IND.PST.FIN
-5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=206150|AlignEnd=206180|Gloss=PUNCT
-6	get	get	VERB	_	_	4	parataxis:obj	_	AlignBegin=206180|AlignEnd=206365|Gloss=get
-7	behind	behind	ADP	_	_	6	comp:obl	_	AlignBegin=206365|AlignEnd=206760|Gloss=behind
-8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=206760|AlignEnd=206972|Gloss=ACC.SG.1
-9	>	>	PUNCT	_	_	10	punct	_	AlignBegin=206972|AlignEnd=207002|Gloss=PUNCT
-10	Satan	Satan	PROPN	_	_	6	vocative	_	AlignBegin=207002|AlignEnd=207420|Gloss=Satan
-11	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=207420|AlignEnd=207450|Gloss=PUNCT
-12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	subj	_	AlignBegin=207450|AlignEnd=207518|Gloss=NOM.2
-13	shall	shall	AUX	_	_	6	parataxis:conj	_	AlignBegin=207518|AlignEnd=207710|Gloss=shall
-14	not	not	PART	_	Polarity=Neg	15	mod	_	AlignBegin=207710|AlignEnd=207910|Gloss=NEG
-15	tempt	tempt	VERB	_	_	13	comp:aux	_	AlignBegin=207910|AlignEnd=208110|Gloss=tempt
-16	{	{	PUNCT	_	_	18	punct	_	AlignBegin=208110|AlignEnd=208140|Gloss=PUNCT
-17	di	di	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=208140|AlignEnd=208250|Gloss=DEF.ART
-18	Lord	lord	NOUN	_	_	15	mod	_	AlignBegin=208250|AlignEnd=208510|Gloss=lord
-19	|a	||	PUNCT	_	_	21	punct	_	AlignBegin=208510|AlignEnd=208540|Gloss=PUNCT
-20	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	21	mod	_	AlignBegin=208540|AlignEnd=208650|Gloss=PL.2.POSS
-21	God	God	PROPN	_	_	18	vocative	_	AlignBegin=208650|AlignEnd=209010|Gloss=God
-22	}	}	PUNCT	_	_	18	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
-23	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
-24	eng]	eng]	PUNCT	_	_	6	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
-25	//	//	PUNCT	_	_	4	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=205409|AlignEnd=205940|Gloss=PUNCT
+2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=205940|AlignEnd=206007|Gloss=NOM.SG.3|Lang=en
+3	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=206007|AlignEnd=206150|Gloss=say.IND.PST.FIN|Lang=en
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=206150|AlignEnd=206180|Gloss=PUNCT
+5	get	get	VERB	_	_	3	parataxis:obj	_	AlignBegin=206180|AlignEnd=206365|Gloss=get|Lang=en
+6	behind	behind	ADP	_	_	5	comp:obl	_	AlignBegin=206365|AlignEnd=206760|Gloss=behind|Lang=en
+7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=206760|AlignEnd=206972|Gloss=ACC.SG.1|Lang=en
+8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=206972|AlignEnd=207002|Gloss=PUNCT
+9	Satan	Satan	PROPN	_	_	5	vocative	_	AlignBegin=207002|AlignEnd=207420|Gloss=Satan|Lang=en
+10	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=207420|AlignEnd=207450|Gloss=PUNCT
+11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=207450|AlignEnd=207518|Gloss=NOM.2|Lang=en
+12	shall	shall	AUX	_	_	5	parataxis:conj	_	AlignBegin=207518|AlignEnd=207710|Gloss=shall|Lang=en
+13	not	not	PART	_	Polarity=Neg	14	mod	_	AlignBegin=207710|AlignEnd=207910|Gloss=NEG|Lang=en
+14	tempt	tempt	VERB	_	_	12	comp:aux	_	AlignBegin=207910|AlignEnd=208110|Gloss=tempt|Lang=en
+15	{	{	PUNCT	_	_	17	punct	_	AlignBegin=208110|AlignEnd=208140|Gloss=PUNCT
+16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=208140|AlignEnd=208250|Gloss=DEF.ART|Lang=en
+17	Lord	lord	NOUN	_	_	14	mod	_	AlignBegin=208250|AlignEnd=208510|Gloss=lord|Lang=en
+18	|a	||	PUNCT	_	_	20	punct	_	AlignBegin=208510|AlignEnd=208540|Gloss=PUNCT
+19	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	20	mod	_	AlignBegin=208540|AlignEnd=208650|Gloss=PL.2.POSS|Lang=en
+20	God	God	PROPN	_	_	17	vocative	_	AlignBegin=208650|AlignEnd=209010|Gloss=God|Lang=en
+21	}	}	PUNCT	_	_	17	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
+22	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT|
+23	//	//	PUNCT	_	_	3	punct	_	AlignBegin=209010|AlignEnd=209040|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__66
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_31_Lens-Sermon_MG.mp3
@@ -1702,7 +1700,7 @@
 # text_en = What do we all bow to nowadays?
 # text_ortho = Wetin all of us dey bow to now?
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=259646|AlignEnd=260260|Gloss=PUNCT
-2	wetin	wetin	PRON	_	PronType=Int	0	root	8:@comp	AlignBegin=260260|AlignEnd=260510|Gloss=what.Q
+2	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=260260|AlignEnd=260510|Gloss=what.Q
 3	all	all	ADV	_	_	6	subj	_	AlignBegin=260510|AlignEnd=260610|Gloss=all
 4	of	of	ADP	_	_	3	mod	_	AlignBegin=260610|AlignEnd=260770|Gloss=of
 5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=260770|AlignEnd=260950|Gloss=ACC.PL.1
@@ -2164,19 +2162,17 @@
 15	)	)	PUNCT	_	_	8	punct	_	AlignBegin=333660|AlignEnd=334340|Gloss=PUNCT
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=333660|AlignEnd=334340|Gloss=PUNCT
 17	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=334340|AlignEnd=334528|Gloss=COMP
-18	[eng	[eng	PUNCT	_	_	19	punct	_	AlignBegin=334528|AlignEnd=334558|Gloss=PUNCT
-19	where	where	ADV	_	PronType=Int	24	mod:periph	_	AlignBegin=334558|AlignEnd=334804|Gloss=where.Q
-20	sin	sin	NOUN	_	_	21	subj	_	AlignBegin=334804|AlignEnd=335090|Gloss=sin
-21	abound	abound	VERB	_	_	19	mod@relcl	_	AlignBegin=335090|AlignEnd=335682|Gloss=abound
-22	<	<	PUNCT	_	_	19	punct	_	AlignBegin=335682|AlignEnd=335712|Gloss=PUNCT
-23	grace	grace	NOUN	_	_	24	subj	_	AlignBegin=335712|AlignEnd=336130|Gloss=grace
-24	abounds	abound	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	AlignBegin=336130|AlignEnd=336590|Gloss=abound.IND.SG.3.PRS.FIN
-25	even	even	ADV	_	_	28	mod	_	AlignBegin=336590|AlignEnd=336810|Gloss=even
-26	all	all	ADV	_	_	28	mod	_	AlignBegin=336810|AlignEnd=336958|Gloss=all
-27	di	di	DET	_	Definite=Def|PronType=Art	28	det	_	AlignBegin=336958|AlignEnd=337070|Gloss=DEF.ART
-28	more	more	ADJ	_	Degree=Cmp	24	mod	_	AlignBegin=337070|AlignEnd=337390|Gloss=CMPR
-29	eng]	eng]	PUNCT	_	_	24	punct	_	AlignBegin=337390|AlignEnd=337420|Gloss=PUNCT
-30	//	//	PUNCT	_	_	2	punct	_	AlignBegin=337390|AlignEnd=337420|Gloss=PUNCT
+18	where	where	ADV	_	PronType=Int	23	mod:periph	_	AlignBegin=334558|AlignEnd=334804|Gloss=where.Q|Lang=en
+19	sin	sin	NOUN	_	_	20	subj	_	AlignBegin=334804|AlignEnd=335090|Gloss=sin|Lang=en
+20	abound	abound	VERB	_	_	18	mod@relcl	_	AlignBegin=335090|AlignEnd=335682|Gloss=abound|Lang=en
+21	<	<	PUNCT	_	_	18	punct	_	AlignBegin=335682|AlignEnd=335712|Gloss=PUNCT
+22	grace	grace	NOUN	_	_	23	subj	_	AlignBegin=335712|AlignEnd=336130|Gloss=grace|Lang=en
+23	abounds	abound	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	AlignBegin=336130|AlignEnd=336590|Gloss=abound.IND.SG.3.PRS.FIN|Lang=en
+24	even	even	ADV	_	_	27	mod	_	AlignBegin=336590|AlignEnd=336810|Gloss=even|Lang=en
+25	all	all	ADV	_	_	27	mod	_	AlignBegin=336810|AlignEnd=336958|Gloss=all|Lang=en
+26	di	di	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=336958|AlignEnd=337070|Gloss=DEF.ART|Lang=en
+27	more	more	ADJ	_	Degree=Cmp	23	mod	_	AlignBegin=337070|AlignEnd=337390|Gloss=CMPR|Lang=en
+28	//	//	PUNCT	_	_	2	punct	_	AlignBegin=337390|AlignEnd=337420|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__109
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_31_Lens-Sermon_MG.mp3
@@ -2500,7 +2496,7 @@
 27	ting	ting	NOUN	_	_	25	comp:obj	_	AlignBegin=389264|AlignEnd=389441|Gloss=thing
 28	}	}	PUNCT	_	_	4	punct	_	AlignBegin=389441|AlignEnd=389471|Gloss=PUNCT
 29	<	<	PUNCT	_	_	2	punct	_	AlignBegin=389441|AlignEnd=389471|Gloss=PUNCT
-30	wetin	wetin	PRON	_	PronType=Int	0	root	33:@comp	AlignBegin=389471|AlignEnd=389750|Gloss=what.Q
+30	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=389471|AlignEnd=389750|Gloss=what.Q
 31	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	subj	_	AlignBegin=389750|AlignEnd=389835|Gloss=NOM.2
 32	go	go	AUX	_	Aspect=Prosp	30	comp:cleft	_	AlignBegin=389835|AlignEnd=389940|Gloss=PROSP
 33	do	do	VERB	_	_	32	comp:aux	_	AlignBegin=389940|AlignEnd=390110|Gloss=do
@@ -2794,20 +2790,18 @@
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=433406|AlignEnd=433436|Gloss=PUNCT
 5	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	subj	_	AlignBegin=433436|AlignEnd=433560|Gloss=NOM.PL.3
 6	say	say	VERB	_	_	2	comp:cleft	_	AlignBegin=433560|AlignEnd=433769|Gloss=say
-7	[	[	PUNCT	_	_	11	punct	_	AlignBegin=433769|AlignEnd=433799|Gloss=PUNCT
-8	[eng	[eng	PUNCT	_	_	11	punct	_	AlignBegin=433769|AlignEnd=433799|Gloss=PUNCT
-9	to	to	ADP	_	_	11	subj	_	AlignBegin=433799|AlignEnd=433960|Gloss=to
-10	err	err	VERB	_	_	9	comp:obj	_	AlignBegin=433960|AlignEnd=434090|Gloss=err
-11	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	6	parataxis:obj	_	AlignBegin=434090|AlignEnd=434260|Gloss=be.IND.SG.3.PRS.FIN
-12	human	human	ADJ	_	_	11	comp:pred	_	AlignBegin=434260|AlignEnd=434500|Gloss=human
-13	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=434500|AlignEnd=434530|Gloss=PUNCT
-14	to	to	ADP	_	_	16	subj	_	AlignBegin=434530|AlignEnd=434650|Gloss=to
-15	forgive	forgive	VERB	_	_	14	comp:obj	_	AlignBegin=434650|AlignEnd=435060|Gloss=forgive
-16	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	11	parataxis:conj	_	AlignBegin=435060|AlignEnd=435250|Gloss=be.IND.SG.3.PRS.FIN
-17	divine	divine	ADJ	_	_	16	comp:pred	_	AlignBegin=435250|AlignEnd=435642|Gloss=divine
-18	eng]	eng]	PUNCT	_	_	11	punct	_	AlignBegin=435642|AlignEnd=435672|Gloss=PUNCT
-19	//]	//]	PUNCT	_	_	11	punct	_	AlignBegin=435642|AlignEnd=435672|Gloss=PUNCT
-20	//	//	PUNCT	_	_	2	punct	_	AlignBegin=435642|AlignEnd=435672|Gloss=PUNCT
+7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=433769|AlignEnd=433799|Gloss=PUNCT
+8	to	to	ADP	_	_	10	subj	_	AlignBegin=433799|AlignEnd=433960|Gloss=to|Lang=en
+9	err	err	VERB	_	_	8	comp:obj	_	AlignBegin=433960|AlignEnd=434090|Gloss=err|Lang=en
+10	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	6	parataxis:obj	_	AlignBegin=434090|AlignEnd=434260|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+11	human	human	ADJ	_	_	10	comp:pred	_	AlignBegin=434260|AlignEnd=434500|Gloss=human|Lang=en
+12	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=434500|AlignEnd=434530|Gloss=PUNCT
+13	to	to	ADP	_	_	15	subj	_	AlignBegin=434530|AlignEnd=434650|Gloss=to|Lang=en
+14	forgive	forgive	VERB	_	_	13	comp:obj	_	AlignBegin=434650|AlignEnd=435060|Gloss=forgive|Lang=en
+15	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	10	parataxis:conj	_	AlignBegin=435060|AlignEnd=435250|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+16	divine	divine	ADJ	_	_	15	comp:pred	_	AlignBegin=435250|AlignEnd=435642|Gloss=divine|Lang=en
+17	//]	//]	PUNCT	_	_	10	punct	_	AlignBegin=435642|AlignEnd=435672|Gloss=PUNCT
+18	//	//	PUNCT	_	_	2	punct	_	AlignBegin=435642|AlignEnd=435672|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__137
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_31_Lens-Sermon_MG.mp3
@@ -2946,24 +2940,22 @@
 14	Wednesday	Wednesday	PROPN	_	_	11	comp:obj	_	AlignBegin=453720|AlignEnd=454214|Gloss=Wednesday
 15	#	#	PUNCT	_	_	16	punct	_	AlignBegin=454214|AlignEnd=454642|Gloss=PUNCT
 16	sey	sey	SCONJ	_	_	9	comp:obj	_	AlignBegin=454642|AlignEnd=454720|Gloss=COMP
-17	[eng	[eng	PUNCT	_	_	18	punct	_	AlignBegin=454720|AlignEnd=454750|Gloss=PUNCT
-18	remember	remember	VERB	_	_	16	comp:obj	_	AlignBegin=454750|AlignEnd=455240|Gloss=remember
-19	dat	dat	SCONJ	_	_	18	comp:obj	_	AlignBegin=455240|AlignEnd=455490|Gloss=COMP
-20	{	{	PUNCT	_	_	22	punct	_	AlignBegin=455490|AlignEnd=455520|Gloss=PUNCT
-21	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	22	subj	_	AlignBegin=455520|AlignEnd=455580|Gloss=NOM.2
-22	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Cop	19	comp:obj	_	AlignBegin=455580|AlignEnd=455680|Gloss=be.IND.PRS.FIN
-23	dust	dust	NOUN	_	_	22	comp:pred	_	AlignBegin=455680|AlignEnd=456143|Gloss=dust
-24	#	#	PUNCT	_	_	30	punct	_	AlignBegin=456143|AlignEnd=456580|Gloss=PUNCT
-25	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=456550|AlignEnd=456580|Gloss=PUNCT
-26	and	and	CCONJ	_	_	30	cc	_	AlignBegin=456580|AlignEnd=456700|Gloss=and
-27	to	to	ADP	_	_	30	dislocated	_	AlignBegin=456700|AlignEnd=456820|Gloss=to
-28	dust	dust	NOUN	_	_	27	comp:obj	_	AlignBegin=456820|AlignEnd=457160|Gloss=dust
-29	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	30	subj	_	AlignBegin=457160|AlignEnd=457273|Gloss=NOM.2
-30	shall	shall	AUX	_	_	22	conj:coord	_	AlignBegin=457273|AlignEnd=457460|Gloss=shall
-31	return	return	VERB	_	_	30	comp:aux	_	AlignBegin=457460|AlignEnd=457897|Gloss=return
-32	}	}	PUNCT	_	_	22	punct	_	AlignBegin=457897|AlignEnd=457927|Gloss=PUNCT
-33	eng]	eng]	PUNCT	_	_	18	punct	_	AlignBegin=457897|AlignEnd=457927|Gloss=PUNCT
-34	//	//	PUNCT	_	_	3	punct	_	AlignBegin=457897|AlignEnd=457927|Gloss=PUNCT
+17	remember	remember	VERB	_	_	16	comp:obj	_	AlignBegin=454750|AlignEnd=455240|Gloss=remember|Lang=en
+18	dat	dat	SCONJ	_	_	17	comp:obj	_	AlignBegin=455240|AlignEnd=455490|Gloss=COMP|Lang=en
+19	{	{	PUNCT	_	_	21	punct	_	AlignBegin=455490|AlignEnd=455520|Gloss=PUNCT
+20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	subj	_	AlignBegin=455520|AlignEnd=455580|Gloss=NOM.2|Lang=en
+21	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Cop	18	comp:obj	_	AlignBegin=455580|AlignEnd=455680|Gloss=be.IND.PRS.FIN|Lang=en
+22	dust	dust	NOUN	_	_	21	comp:pred	_	AlignBegin=455680|AlignEnd=456143|Gloss=dust|Lang=en
+23	#	#	PUNCT	_	_	29	punct	_	AlignBegin=456143|AlignEnd=456580|Gloss=PUNCT
+24	|c	|c	PUNCT	_	_	29	punct	_	AlignBegin=456550|AlignEnd=456580|Gloss=PUNCT
+25	and	and	CCONJ	_	_	29	cc	_	AlignBegin=456580|AlignEnd=456700|Gloss=and|Lang=en
+26	to	to	ADP	_	_	29	dislocated	_	AlignBegin=456700|AlignEnd=456820|Gloss=to|Lang=en
+27	dust	dust	NOUN	_	_	26	comp:obj	_	AlignBegin=456820|AlignEnd=457160|Gloss=dust|Lang=en
+28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	29	subj	_	AlignBegin=457160|AlignEnd=457273|Gloss=NOM.2|Lang=en
+29	shall	shall	AUX	_	_	21	conj:coord	_	AlignBegin=457273|AlignEnd=457460|Gloss=shall|Lang=en
+30	return	return	VERB	_	_	29	comp:aux	_	AlignBegin=457460|AlignEnd=457897|Gloss=return|Lang=en
+31	}	}	PUNCT	_	_	21	punct	_	AlignBegin=457897|AlignEnd=457927|Gloss=PUNCT|
+32	//	//	PUNCT	_	_	3	punct	_	AlignBegin=457897|AlignEnd=457927|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__144
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_31_Lens-Sermon_MG.mp3
@@ -3224,7 +3216,7 @@
 15	come	come	VERB	_	_	12	comp:obj	_	AlignBegin=495890|AlignEnd=496190|Gloss=come
 16	<	<	PUNCT	_	_	12	punct	_	AlignBegin=496190|AlignEnd=496220|Gloss=PUNCT
 17	#	#	PUNCT	_	_	12	punct	_	AlignBegin=496220|AlignEnd=496640|Gloss=PUNCT
-18	wetin	wetin	PRON	_	PronType=Int	11	comp:obj	21:@comp	AlignBegin=496640|AlignEnd=496890|Gloss=what.Q
+18	wetin	wetin	PRON	_	PronType=Int	11	comp:obj	_	AlignBegin=496640|AlignEnd=496890|Gloss=what.Q
 19	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	subj	_	AlignBegin=496890|AlignEnd=496970|Gloss=NOM.PL.1
 20	go	go	AUX	_	Aspect=Prosp	18	comp:cleft	_	AlignBegin=496970|AlignEnd=497161|Gloss=PROSP
 21	do	do	VERB	_	_	20	comp:aux	_	AlignBegin=497161|AlignEnd=497330|Gloss=do

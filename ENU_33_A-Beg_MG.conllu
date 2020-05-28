@@ -544,7 +544,7 @@
 # text = wetin I go do ?//
 # text_en = What will I do?
 # text_ortho = Wetin I go do?
-1	wetin	wetin	PRON	_	PronType=Int	0	root	4:@comp	AlignBegin=68904|AlignEnd=69134|Gloss=what.Q
+1	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=68904|AlignEnd=69134|Gloss=what.Q
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=69134|AlignEnd=69231|Gloss=NOM.SG.1
 3	go	go	AUX	_	Aspect=Prosp	1	comp:cleft	_	AlignBegin=69231|AlignEnd=69364|Gloss=PROSP
 4	do	do	VERB	_	_	3	comp:aux	_	AlignBegin=69364|AlignEnd=69563|Gloss=do
@@ -1027,7 +1027,7 @@
 # text = who go help ?//
 # text_en = Who will help?
 # text_ortho = Who go help?
-1	who	who	PRON	_	PronType=Int	0	root	2:@subj	AlignBegin=125714|AlignEnd=125873|Gloss=who.Q
+1	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=125714|AlignEnd=125873|Gloss=who.Q
 2	go	go	AUX	_	Aspect=Prosp	1	comp:cleft	_	AlignBegin=125873|AlignEnd=125984|Gloss=PROSP
 3	help	help	VERB	_	_	2	comp:aux	_	AlignBegin=125984|AlignEnd=126268|Gloss=help
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=126268|AlignEnd=126298|Gloss=PUNCT
@@ -1140,13 +1140,11 @@
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=139898|AlignEnd=139928|Gloss=PUNCT
 6	make	make	VERB	_	_	2	comp:cleft	_	AlignBegin=139928|AlignEnd=140120|Gloss=make
 7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=140120|AlignEnd=140215|Gloss=ACC.SG.1
-8	[eng	[eng	PUNCT	_	_	9	punct	_	AlignBegin=140215|AlignEnd=140408|Gloss=PUNCT
-9	what	what	PRON	_	PronType=Int	6	comp:obj	_	AlignBegin=140215|AlignEnd=140408|Gloss=what.Q
-10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=140408|AlignEnd=140498|Gloss=NOM.SG.1
-11	am	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Cop	9	mod@relcl	_	AlignBegin=140498|AlignEnd=140604|Gloss=be.IND.SG.1.PRS.FIN
-12	today	today	NOUN	_	_	11	mod	_	AlignBegin=140604|AlignEnd=140853|Gloss=today
-13	eng]	eng]	PUNCT	_	_	9	punct	_	AlignBegin=140853|AlignEnd=140883|Gloss=PUNCT
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=140853|AlignEnd=140883|Gloss=PUNCT
+8	what	what	PRON	_	PronType=Int	6	comp:obj	_	AlignBegin=140215|AlignEnd=140408|Gloss=what.Q|Lang=en
+9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=140408|AlignEnd=140498|Gloss=NOM.SG.1|Lang=en
+10	am	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Cop	8	mod@relcl	_	AlignBegin=140498|AlignEnd=140604|Gloss=be.IND.SG.1.PRS.FIN|Lang=en
+11	today	today	NOUN	_	_	10	mod	_	AlignBegin=140604|AlignEnd=140853|Gloss=today|Lang=en
+12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=140853|AlignEnd=140883|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__63
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
@@ -1320,20 +1318,18 @@
 12	}	}	PUNCT	_	_	4	punct	_	AlignBegin=165515|AlignEnd=165545|Gloss=PUNCT
 13	#	#	PUNCT	_	_	14	punct	_	AlignBegin=165545|AlignEnd=165987|Gloss=PUNCT
 14	as	as	ADP	_	_	11	comp:obj	_	AlignBegin=165987|AlignEnd=166157|Gloss=as
-15	[igb	[igb	PUNCT	_	_	16	punct	_	AlignBegin=166157|AlignEnd=166187|Gloss=PUNCT
-16	mgbe	mgbe	X	_	_	14	comp:obj	_	AlignBegin=166187|AlignEnd=166437|Gloss=X
-17	a	X	X	_	_	16	flat:foreign	_	AlignBegin=166437|AlignEnd=166510|Gloss=X
-18	gasi	gas	NOUN	_	_	17	flat:foreign	_	AlignBegin=166510|AlignEnd=166717|Gloss=gas
-19	na	na	X	_	_	18	flat:foreign	_	AlignBegin=166717|AlignEnd=166777|Gloss=X
-20	uwa	uwa	X	_	_	19	flat:foreign	_	AlignBegin=166777|AlignEnd=166910|Gloss=X
-21	ne	ne	X	_	_	20	flat:foreign	_	AlignBegin=166910|AlignEnd=167007|Gloss=X
-22	eme	eme	X	_	_	21	flat:foreign	_	AlignBegin=167007|AlignEnd=167127|Gloss=X
-23	ntughari	ntughari	X	_	_	22	flat:foreign	_	AlignBegin=167127|AlignEnd=167832|Gloss=X
-24	na	na	X	_	_	23	flat:foreign	_	AlignBegin=167832|AlignEnd=168218|Gloss=X
-25	eziokwu	eziokwu	NOUN	_	_	24	flat:foreign	_	AlignBegin=168218|AlignEnd=168789|Gloss=truth
-26	true	true	ADJ	_	_	25	flat:foreign	_	AlignBegin=168789|AlignEnd=168982|Gloss=true
-27	igb]	igb]	PUNCT	_	_	16	punct	_	AlignBegin=168982|AlignEnd=169012|Gloss=PUNCT
-28	//	//	PUNCT	_	_	4	punct	_	AlignBegin=168982|AlignEnd=169012|Gloss=PUNCT
+15	mgbe	mgbe	X	_	_	14	comp:obj	_	AlignBegin=166187|AlignEnd=166437|Gloss=X|Lang=ig
+16	a	X	X	_	_	15	flat:foreign	_	AlignBegin=166437|AlignEnd=166510|Gloss=X|Lang=ig
+17	gasi	gas	NOUN	_	_	16	flat:foreign	_	AlignBegin=166510|AlignEnd=166717|Gloss=gas|Lang=ig
+18	na	na	X	_	_	17	flat:foreign	_	AlignBegin=166717|AlignEnd=166777|Gloss=X|Lang=ig
+19	uwa	uwa	X	_	_	18	flat:foreign	_	AlignBegin=166777|AlignEnd=166910|Gloss=X|Lang=ig
+20	ne	ne	X	_	_	19	flat:foreign	_	AlignBegin=166910|AlignEnd=167007|Gloss=X|Lang=ig
+21	eme	eme	X	_	_	20	flat:foreign	_	AlignBegin=167007|AlignEnd=167127|Gloss=X|Lang=ig
+22	ntughari	ntughari	X	_	_	21	flat:foreign	_	AlignBegin=167127|AlignEnd=167832|Gloss=X|Lang=ig
+23	na	na	X	_	_	22	flat:foreign	_	AlignBegin=167832|AlignEnd=168218|Gloss=X|Lang=ig
+24	eziokwu	eziokwu	NOUN	_	_	23	flat:foreign	_	AlignBegin=168218|AlignEnd=168789|Gloss=truth|Lang=ig
+25	true	true	ADJ	_	_	24	flat:foreign	_	AlignBegin=168789|AlignEnd=168982|Gloss=true|Lang=ig
+26	//	//	PUNCT	_	_	4	punct	_	AlignBegin=168982|AlignEnd=169012|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__71
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
@@ -1341,14 +1337,12 @@
 # text = # [igb o ne eme ntughari igb] //
 # text_en = <igbo> o ne eme ntughari <igbo> .
 # text_ortho = O ne eme ntughari .
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=169012|AlignEnd=169246|Gloss=PUNCT
-2	[igb	[igb	PUNCT	_	_	3	punct	_	AlignBegin=169216|AlignEnd=169246|Gloss=PUNCT
-3	o	o	PART	_	PartType=Disc	0	root	_	AlignBegin=169246|AlignEnd=169374|Gloss=EMPH
-4	ne	ne	X	_	_	3	flat	_	AlignBegin=169374|AlignEnd=169532|Gloss=X
-5	eme	eme	X	_	_	4	flat	_	AlignBegin=169532|AlignEnd=169586|Gloss=X
-6	ntughari	ntughari	X	_	_	5	flat	_	AlignBegin=169586|AlignEnd=170021|Gloss=X
-7	igb]	igb]	PUNCT	_	_	3	punct	_	AlignBegin=170021|AlignEnd=170051|Gloss=PUNCT
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=170021|AlignEnd=170051|Gloss=PUNCT
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=169012|AlignEnd=169246|Gloss=PUNCT
+2	o	o	PART	_	PartType=Disc	0	root	_	AlignBegin=169246|AlignEnd=169374|Gloss=EMPH|Lang=ig
+3	ne	ne	X	_	_	2	flat	_	AlignBegin=169374|AlignEnd=169532|Gloss=X|Lang=ig
+4	eme	eme	X	_	_	3	flat	_	AlignBegin=169532|AlignEnd=169586|Gloss=X|Lang=ig
+5	ntughari	ntughari	X	_	_	4	flat	_	AlignBegin=169586|AlignEnd=170021|Gloss=X|Lang=ig
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170021|AlignEnd=170051|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__72
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
