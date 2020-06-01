@@ -9,7 +9,7 @@
 3	good	good	ADJ	_	_	4	mod	_	AlignBegin=2660|AlignEnd=3200|Gloss=good
 4	evening	evening	NOUN	_	_	0	root	_	AlignBegin=3200|AlignEnd=3740|Gloss=evening
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=3740|AlignEnd=3740|Gloss=PUNCT
-6	ma	ma	PART	_	PartType=Disc	4	vocative	_	AlignBegin=3740|AlignEnd=4280|Gloss=FOC
+6	ma	ma	PART	_	PartType=Disc	4	discourse	_	AlignBegin=3740|AlignEnd=4280|Gloss=FOC
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=4280|AlignEnd=4280|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__2
@@ -49,7 +49,7 @@
 1	how	how	ADV	_	PronType=Int	2	mod	_	AlignBegin=7920|AlignEnd=8155|Gloss=how.Q
 2	much	much	ADJ	_	_	0	root	_	AlignBegin=8155|AlignEnd=8390|Gloss=much
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=8390|AlignEnd=8625|Gloss=NOM.2
-4	dey	dey	AUX	_	Aspect=Imp	2	comp:cleft	_	AlignBegin=8625|AlignEnd=8860|Gloss=IPFV
+4	dey	dey	AUX	_	Aspect=Imp	2	comp:obj	_	AlignBegin=8625|AlignEnd=8860|Gloss=IPFV
 5	sell	sell	VERB	_	_	4	comp:aux	_	AlignBegin=8860|AlignEnd=9095|Gloss=sell
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=9095|AlignEnd=9330|Gloss=ACC.SG.3
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=9330|AlignEnd=9330|Gloss=PUNCT
@@ -61,8 +61,8 @@
 # text_en = Fifty naira.
 # text_ortho = I dey sell am na fifty naira.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=9215|AlignEnd=9561|Gloss=NOM.SG.1
-2	dey	dey	AUX	_	Aspect=Imp	3	comp:obj	_	AlignBegin=9561|AlignEnd=9908|Gloss=IPFV
-3	sell	sell	VERB	_	_	5	comp:aux	_	AlignBegin=9908|AlignEnd=10254|Gloss=sell
+2	dey	dey	AUX	_	Aspect=Imp	3	subj	_	AlignBegin=9561|AlignEnd=9908|Gloss=IPFV
+3	sell	sell	VERB	_	_	5	comp:cleft	_	AlignBegin=9908|AlignEnd=10254|Gloss=sell
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=10254|AlignEnd=10601|Gloss=ACC.SG.3
 5	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=10601|AlignEnd=10947|Gloss=be1
 6	fifty	fifty	NUM	_	NumType=Card	7	det:num	_	AlignBegin=10947|AlignEnd=11294|Gloss=fifty.CARD
@@ -149,7 +149,7 @@
 18	egg	egg	NOUN	_	_	16	comp:pred	_	AlignBegin=18855|AlignEnd=19207|Gloss=egg
 19	>+	>+	PUNCT	_	_	20	punct	_	AlignBegin=19207|AlignEnd=19207|Gloss=PUNCT
 20	cost	cost	ADJ	_	_	16	comp:cleft	_	AlignBegin=19207|AlignEnd=19558|Gloss=expensive
-21	now	now	ADV	_	_	20	mod:emph	_	AlignBegin=19558|AlignEnd=19910|Gloss=now
+21	now	now	ADV	_	_	20	mod	_	AlignBegin=19558|AlignEnd=19910|Gloss=now
 22	//	//	PUNCT	_	_	9	punct	_	AlignBegin=19910|AlignEnd=19910|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__12
@@ -190,7 +190,7 @@
 7	buy	buy	VERB	_	_	4	comp:aux	_	AlignBegin=23219|AlignEnd=23451|Gloss=buy
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=23451|AlignEnd=23684|Gloss=ACC.SG.3
 9	thirty	thirty	NUM	_	NumType=Card	10	det:num	_	AlignBegin=23684|AlignEnd=23917|Gloss=thirty.CARD
-10	naira	naira	NOUN	_	_	7	comp:obj	_	AlignBegin=23917|AlignEnd=24150|Gloss=naira
+10	naira	naira	NOUN	_	_	7	comp:obj@lvc	_	AlignBegin=23917|AlignEnd=24150|Gloss=naira
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=24150|AlignEnd=24150|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__15
@@ -231,8 +231,8 @@
 1	abeg	abeg	INTJ	_	_	3	discourse	_	AlignBegin=27460|AlignEnd=27776|Gloss=please
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=27776|AlignEnd=27776|Gloss=PUNCT
 3	try	try	VERB	_	_	0	root	_	AlignBegin=27776|AlignEnd=28091|Gloss=try
-4	small	small	ADJ	_	_	3	mod	_	AlignBegin=28091|AlignEnd=28406|Gloss=small
-5	now	now	ADV	_	_	3	mod:emph	_	AlignBegin=28406|AlignEnd=28722|Gloss=now
+4	small	small	ADJ	_	_	3	comp:obj@x	_	AlignBegin=28091|AlignEnd=28406|Gloss=small
+5	now	now	ADV	_	_	3	mod	_	AlignBegin=28406|AlignEnd=28722|Gloss=now
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=28722|AlignEnd=28722|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__18
@@ -254,8 +254,8 @@
 # text_ortho = Dat'S why na make...
 1	dat's	dat's	PART	_	PartType=Cop	0	root	_	AlignBegin=29340|AlignEnd=29595|Gloss=be1
 2	why	why	ADV	_	PronType=Int	1	comp:pred	_	AlignBegin=29595|AlignEnd=29850|Gloss=why.Q
-3	na	na	PART	_	PartType=Cop	2	mod:relcl	_	AlignBegin=29850|AlignEnd=30105|Gloss=be1
-4	make	make	AUX	_	Mood=Opt	3	comp:pred	_	AlignBegin=30105|AlignEnd=30360|Gloss=SBJV
+3	na	na	PART	_	PartType=Cop	2	mod@relcl	_	AlignBegin=29850|AlignEnd=30105|Gloss=be1
+4	make	make	AUX	_	Mood=Opt	3	comp:pred@scrap	_	AlignBegin=30105|AlignEnd=30360|Gloss=SBJV
 5	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=30360|AlignEnd=30360|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__20
@@ -307,7 +307,7 @@
 # text_en = I only came out with fifty naira.
 # text_ortho = Na only fifty naira can come out o.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=33640|AlignEnd=33978|Gloss=be1
-2	only	only	ADV	_	_	1	mod	_	AlignBegin=33978|AlignEnd=34315|Gloss=only
+2	only	only	ADV	_	_	4	mod	_	AlignBegin=33978|AlignEnd=34315|Gloss=only
 3	fifty	fifty	NUM	_	NumType=Card	4	det:num	_	AlignBegin=34315|AlignEnd=34652|Gloss=fifty.CARD
 4	naira	naira	NOUN	_	_	1	comp:pred	_	AlignBegin=34652|AlignEnd=34990|Gloss=naira
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=34990|AlignEnd=34990|Gloss=PUNCT
@@ -328,7 +328,7 @@
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=36778|AlignEnd=36998|Gloss=NOM.SG.1
 4	buy	buy	VERB	_	_	2	comp:aux	_	AlignBegin=36998|AlignEnd=37217|Gloss=buy
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=37217|AlignEnd=37436|Gloss=ACC.SG.3
-6	now	now	ADV	_	_	4	mod	_	AlignBegin=37436|AlignEnd=37655|Gloss=now
+6	now	now	ADV	_	_	5	mod:emph	_	AlignBegin=37436|AlignEnd=37655|Gloss=now
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=37655|AlignEnd=37655|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__26
@@ -362,7 +362,7 @@
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=38935|AlignEnd=38935|Gloss=PUNCT
 4	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=38935|AlignEnd=39210|Gloss=what.Q
 5	be	be	VERB	_	PartType=Cop	4	comp:cleft	_	AlignBegin=39210|AlignEnd=39485|Gloss=be1
-6	dis	dis	PRON	_	Number=Sing|PronType=Dem	5	subj	_	AlignBegin=39485|AlignEnd=39760|Gloss=SG.DEM
+6	dis	dis	PRON	_	Number=Sing|PronType=Dem	5	comp:pred@agent	_	AlignBegin=39485|AlignEnd=39760|Gloss=SG.DEM
 7	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=39760|AlignEnd=39760|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__29
@@ -403,7 +403,7 @@
 3	dey	dey	AUX	_	Aspect=Imp	1	comp:cleft	_	AlignBegin=45290|AlignEnd=45455|Gloss=IPFV
 4	cook	cook	VERB	_	_	3	comp:aux	_	AlignBegin=45455|AlignEnd=45620|Gloss=cook
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=45620|AlignEnd=45785|Gloss=ACC.SG.3
-6	now	now	ADV	_	_	4	mod	_	AlignBegin=45785|AlignEnd=45950|Gloss=now
+6	now	now	ADV	_	_	5	mod:emph	_	AlignBegin=45785|AlignEnd=45950|Gloss=now
 7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=45950|AlignEnd=45950|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__32
@@ -417,7 +417,7 @@
 3	know	know	VERB	_	_	0	root	_	AlignBegin=46202|AlignEnd=46329|Gloss=know
 4	how	how	ADV	_	PronType=Int	3	comp:obj	_	AlignBegin=46329|AlignEnd=46455|Gloss=how.Q
 5	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	subj	_	AlignBegin=46455|AlignEnd=46581|Gloss=NOM.PL.3
-6	cook	cook	VERB	_	_	4	mod:relcl	_	AlignBegin=46581|AlignEnd=46708|Gloss=cook
+6	cook	cook	VERB	_	_	4	mod@relcl	_	AlignBegin=46581|AlignEnd=46708|Gloss=cook
 7	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=46708|AlignEnd=46834|Gloss=ACC.SG.3
 8	o	o	PART	_	PartType=Disc	7	mod:emph	_	AlignBegin=46834|AlignEnd=46960|Gloss=EMPH
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=46960|AlignEnd=46960|Gloss=PUNCT
@@ -455,7 +455,7 @@
 11	pot	pot	NOUN	_	_	10	comp:obj	_	AlignBegin=51554|AlignEnd=51823|Gloss=pot
 12	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=51823|AlignEnd=51823|Gloss=PUNCT
 13	and	and	CCONJ	_	_	14	cc	_	AlignBegin=51823|AlignEnd=52092|Gloss=and
-14	put	put	VERB	_	_	7	conj:coord	_	AlignBegin=52092|AlignEnd=52361|Gloss=put
+14	put	put	VERB	_	_	8	conj:coord	_	AlignBegin=52092|AlignEnd=52361|Gloss=put
 15	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=52361|AlignEnd=52631|Gloss=ACC.SG.3
 16	onions	onion	NOUN	_	Number=Plur	14	comp:obj	_	AlignBegin=52631|AlignEnd=52900|Gloss=onion.PL
 17	//	//	PUNCT	_	_	7	punct	_	AlignBegin=52900|AlignEnd=52900|Gloss=PUNCT
@@ -469,7 +469,7 @@
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=52900|AlignEnd=53215|Gloss=NOM.2
 2	see	see	VERB	_	_	0	root	_	AlignBegin=53215|AlignEnd=53530|Gloss=see
 3	wetin	wetin	PRON	_	PronType=Int	2	comp:obj	_	AlignBegin=53530|AlignEnd=53845|Gloss=what.Q
-4	dey	dey	VERB	_	VerbType=Cop	3	mod:relcl	_	AlignBegin=53845|AlignEnd=54160|Gloss=be2
+4	dey	dey	VERB	_	VerbType=Cop	3	mod@relcl	_	AlignBegin=53845|AlignEnd=54160|Gloss=be2
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=54160|AlignEnd=54160|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__36
@@ -541,10 +541,10 @@
 # text_ortho = E fine o my daughter.
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=59505|AlignEnd=60037|Gloss=NOM.SG.3
 2	fine	fine	ADJ	_	_	0	root	_	AlignBegin=60037|AlignEnd=60569|Gloss=fine
-3	o	o	PART	_	PartType=Disc	6	mod:emph	_	AlignBegin=60569|AlignEnd=61101|Gloss=EMPH
+3	o	o	PART	_	PartType=Disc	2	mod:emph	_	AlignBegin=60569|AlignEnd=61101|Gloss=EMPH
 4	>	>	PUNCT	_	_	6	punct	_	AlignBegin=61101|AlignEnd=61101|Gloss=PUNCT
 5	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	6	mod:poss	_	AlignBegin=61101|AlignEnd=61633|Gloss=SG.1.POSS
-6	daughter	daughter	NOUN	_	_	2	dislocated	_	AlignBegin=61633|AlignEnd=62165|Gloss=daughter
+6	daughter	daughter	NOUN	_	_	2	vocative	_	AlignBegin=61633|AlignEnd=62165|Gloss=daughter
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=62165|AlignEnd=62165|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__42
@@ -564,7 +564,7 @@
 # text_ortho = No be children food?
 1	no	no	PART	_	Polarity=Neg	2	mod	_	AlignBegin=62165|AlignEnd=62648|Gloss=NEG
 2	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=62648|AlignEnd=63130|Gloss=be1
-3	children	child	NOUN	_	Number=Plur	4	compound	_	AlignBegin=63130|AlignEnd=63612|Gloss=child.PL
+3	children	child	NOUN	_	Number=Plur	4	mod	_	AlignBegin=63130|AlignEnd=63612|Gloss=child.PL
 4	food	food	NOUN	_	_	2	comp:pred	_	AlignBegin=63612|AlignEnd=64095|Gloss=food
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=64095|AlignEnd=64095|Gloss=PUNCT
 
@@ -575,7 +575,7 @@
 # text_en = Is it food for children?
 # text_ortho = Na children food?
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=63675|AlignEnd=64128|Gloss=be1
-2	children	child	NOUN	_	Number=Plur	3	compound	_	AlignBegin=64128|AlignEnd=64582|Gloss=child.PL
+2	children	child	NOUN	_	Number=Plur	3	mod	_	AlignBegin=64128|AlignEnd=64582|Gloss=child.PL
 3	food	food	NOUN	_	_	1	comp:pred	_	AlignBegin=64582|AlignEnd=65035|Gloss=food
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=65035|AlignEnd=65035|Gloss=PUNCT
 
@@ -651,7 +651,7 @@
 4	dey	dey	AUX	_	Aspect=Imp	1	comp:cleft	_	AlignBegin=69308|AlignEnd=69606|Gloss=IPFV
 5	buy	buy	VERB	_	_	4	comp:aux	_	AlignBegin=69606|AlignEnd=69905|Gloss=buy
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=69905|AlignEnd=70204|Gloss=ACC.SG.3
-7	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=70204|AlignEnd=70502|Gloss=for
+7	for	for	ADP	_	_	5	mod	_	AlignBegin=70204|AlignEnd=70502|Gloss=for
 8	here	here	ADV	_	_	7	comp:obj	_	AlignBegin=70502|AlignEnd=70801|Gloss=here
 9	o	o	PART	_	PartType=Disc	8	mod:emph	_	AlignBegin=70801|AlignEnd=71100|Gloss=EMPH
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=71100|AlignEnd=71100|Gloss=PUNCT
@@ -687,7 +687,7 @@
 # text_ortho = See am now, see am.
 1	see	see	VERB	_	_	0	root	_	AlignBegin=72245|AlignEnd=72652|Gloss=see
 2	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	AlignBegin=72652|AlignEnd=73059|Gloss=ACC.SG.3
-3	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=73059|AlignEnd=73466|Gloss=now
+3	now	now	ADV	_	_	2	mod:emph	_	AlignBegin=73059|AlignEnd=73466|Gloss=now
 4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=73466|AlignEnd=73466|Gloss=PUNCT
 5	see	see	VERB	_	_	1	parataxis:conj	_	AlignBegin=73466|AlignEnd=73873|Gloss=see
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=73873|AlignEnd=74280|Gloss=ACC.SG.3
@@ -744,7 +744,7 @@
 2	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=76594|AlignEnd=76818|Gloss=SBJV
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=76818|AlignEnd=77041|Gloss=NOM.SG.1
 4	buy	buy	VERB	_	_	2	comp:aux	_	AlignBegin=77041|AlignEnd=77265|Gloss=buy
-5	one	one	DET	_	Definite=Spec|PronType=Art	6	det:num	_	AlignBegin=77265|AlignEnd=77489|Gloss=SPEC.ART
+5	one	one	DET	_	Definite=Spec|PronType=Art	6	det	_	AlignBegin=77265|AlignEnd=77489|Gloss=SPEC.ART
 6	carton	carton	NOUN	_	_	4	comp:obj	_	AlignBegin=77489|AlignEnd=77712|Gloss=carton
 7	self	sef	PART	_	PartType=Disc	6	mod:emph	_	AlignBegin=77712|AlignEnd=77936|Gloss=FOC
 8	so	so	SCONJ	_	_	4	mod	_	AlignBegin=77936|AlignEnd=78160|Gloss=so
@@ -770,8 +770,8 @@
 4	for	for	ADP	_	_	1	comp:obl	_	AlignBegin=79972|AlignEnd=80280|Gloss=for
 5	inside	inside	ADP	_	_	4	unk@fixed	_	AlignBegin=80280|AlignEnd=80588|Gloss=inside
 6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=80588|AlignEnd=80895|Gloss=DEF.ART
-7	shop	shop	NOUN	_	_	4	comp:obj	_	AlignBegin=80895|AlignEnd=81202|Gloss=shop
-8	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=81202|AlignEnd=81510|Gloss=now
+7	shop	shop	NOUN	_	_	5	comp:obj	_	AlignBegin=80895|AlignEnd=81202|Gloss=shop
+8	now	now	ADV	_	_	1	mod	_	AlignBegin=81202|AlignEnd=81510|Gloss=now
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=81510|AlignEnd=81510|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__60
@@ -792,7 +792,7 @@
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=82335|AlignEnd=82744|Gloss=NOM.2
 2	get	get	VERB	_	_	0	root	_	AlignBegin=82744|AlignEnd=83153|Gloss=get
 3	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=83153|AlignEnd=83562|Gloss=ACC.SG.3
-4	plenty	plenty	ADJ	_	_	2	comp:obj@x	_	AlignBegin=83562|AlignEnd=83971|Gloss=plenty
+4	plenty	plenty	ADJ	_	_	2	comp:pred	_	AlignBegin=83562|AlignEnd=83971|Gloss=plenty
 5	o	o	PART	_	PartType=Disc	4	mod:emph	_	AlignBegin=83971|AlignEnd=84380|Gloss=EMPH
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=84380|AlignEnd=84380|Gloss=PUNCT
 
@@ -802,7 +802,7 @@
 # text = XX
 # text_en = X.
 # text_ortho = Xx
-1	XX	X	X	_	_	0	root	_	AlignBegin=82335|AlignEnd=85290|Gloss=X
+1	XX	X	X	_	_	0	root@scrap	_	AlignBegin=82335|AlignEnd=85290|Gloss=X
 
 # sent_id = ENU_17_Buying-Grocery_DG__63
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_17_Buying-Grocery_DG.mp3
@@ -813,7 +813,7 @@
 1	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=84380|AlignEnd=84608|Gloss=SBJV
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=84608|AlignEnd=84835|Gloss=NOM.SG.1
 3	go	go	VERB	_	_	1	comp:aux	_	AlignBegin=84835|AlignEnd=85062|Gloss=go
-4	come	come	VERB	_	_	3	comp:obj	_	AlignBegin=85062|AlignEnd=85290|Gloss=come
+4	come	come	VERB	_	_	3	comp:obj@x	_	AlignBegin=85062|AlignEnd=85290|Gloss=come
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=85290|AlignEnd=85290|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__64
@@ -830,8 +830,8 @@
 6	buy	buy	VERB	_	_	4	conj:dicto	_	AlignBegin=86696|AlignEnd=87164|Gloss=buy
 7	}	}	PUNCT	_	_	4	punct	_	AlignBegin=87164|AlignEnd=87164|Gloss=PUNCT
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=87164|AlignEnd=87633|Gloss=ACC.SG.3
-9	fifty	fifty	NUM	_	NumType=Card	6	comp:obj	_	AlignBegin=87633|AlignEnd=88101|Gloss=fifty.CARD
-10	now	now	ADV	_	_	9	mod	_	AlignBegin=88101|AlignEnd=88570|Gloss=now
+9	fifty	fifty	NUM	_	NumType=Card	6	compound:svc	_	AlignBegin=87633|AlignEnd=88101|Gloss=fifty.CARD
+10	now	now	ADV	_	_	6	mod	_	AlignBegin=88101|AlignEnd=88570|Gloss=now
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=88570|AlignEnd=88570|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__65
@@ -855,7 +855,7 @@
 4	make	make	AUX	_	Mood=Opt	2	mod	_	AlignBegin=89094|AlignEnd=89268|Gloss=SBJV
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=89268|AlignEnd=89442|Gloss=NOM.2
 6	go	go	AUX	_	Aspect=Prosp	4	comp:aux	_	AlignBegin=89442|AlignEnd=89617|Gloss=PROSP
-7	put	put	VERB	_	_	6	comp:obj	_	AlignBegin=89617|AlignEnd=89792|Gloss=put
+7	put	put	VERB	_	_	6	comp:obj@x	_	AlignBegin=89617|AlignEnd=89792|Gloss=put
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=89792|AlignEnd=89966|Gloss=ACC.SG.3
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=89966|AlignEnd=89966|Gloss=PUNCT
 
@@ -905,8 +905,8 @@
 2	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=92778|AlignEnd=93022|Gloss=what.Q
 3	be	be	VERB	_	PartType=Cop	2	comp:cleft	_	AlignBegin=93022|AlignEnd=93265|Gloss=be1
 4	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=93265|AlignEnd=93508|Gloss=SG.DEM
-5	one	one	NOUN	_	_	3	subj	_	AlignBegin=93508|AlignEnd=93752|Gloss=one
-6	too	too	ADV	_	_	5	mod	_	AlignBegin=93752|AlignEnd=93995|Gloss=too
+5	one	one	NOUN	_	_	3	comp:pred@agent	_	AlignBegin=93508|AlignEnd=93752|Gloss=one
+6	too	too	ADV	_	_	3	mod	_	AlignBegin=93752|AlignEnd=93995|Gloss=too
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=93995|AlignEnd=93995|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__71
@@ -923,18 +923,18 @@
 6	na	na	PART	_	PartType=Cop	4	conj:dicto	_	AlignBegin=95042|AlignEnd=95402|Gloss=be1
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=95402|AlignEnd=95402|Gloss=PUNCT
 8	na	na	PART	_	PartType=Cop	6	conj:dicto	_	AlignBegin=95402|AlignEnd=95763|Gloss=be1
-9	s-	X	X	_	_	8	comp:pred@scrap	_	AlignBegin=95763|AlignEnd=96124|Gloss=X
+9	s-	X	X	_	_	8	comp:pred	_	AlignBegin=95763|AlignEnd=96124|Gloss=X
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=96124|AlignEnd=96124|Gloss=PUNCT
 11	na	na	PART	_	PartType=Cop	8	conj:dicto	_	AlignBegin=96124|AlignEnd=96484|Gloss=be1
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=96484|AlignEnd=96484|Gloss=PUNCT
 13	na	na	PART	_	PartType=Cop	11	conj:dicto	_	AlignBegin=96484|AlignEnd=96845|Gloss=be1
-14	s-	X	X	_	_	13	comp:pred@scrap	_	AlignBegin=96845|AlignEnd=97206|Gloss=X
+14	s-	X	X	_	_	22	comp:obj	_	AlignBegin=96845|AlignEnd=97206|Gloss=X
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=97206|AlignEnd=97206|Gloss=PUNCT
 16	na	na	PART	_	PartType=Cop	13	conj:dicto	_	AlignBegin=97206|AlignEnd=97566|Gloss=be1
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=97566|AlignEnd=97566|Gloss=PUNCT
 18	na	na	PART	_	PartType=Cop	16	conj:dicto	_	AlignBegin=97566|AlignEnd=97927|Gloss=be1
 19	thread	thread	NOUN	_	_	18	comp:pred	_	AlignBegin=97927|AlignEnd=98288|Gloss=thread
-20	}	}	PUNCT	_	_	4	punct	_	AlignBegin=98288|AlignEnd=98288|Gloss=PUNCT
+20	}	}	PUNCT	_	_	23	punct	_	AlignBegin=98288|AlignEnd=98288|Gloss=PUNCT
 21	for	for	ADP	_	_	19	mod	_	AlignBegin=98288|AlignEnd=98648|Gloss=for
 22	{	{	PUNCT	_	_	23	punct	_	AlignBegin=98648|AlignEnd=98648|Gloss=PUNCT
 23	na	na	PART	_	PartType=Cop	21	comp:obj	_	AlignBegin=98648|AlignEnd=99009|Gloss=be1
@@ -1003,7 +1003,7 @@
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=104142|AlignEnd=104142|Gloss=PUNCT
 2	when	when	SCONJ	_	PronType=Int	18	mod:periph	_	AlignBegin=104142|AlignEnd=104509|Gloss=when.Q
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=104509|AlignEnd=104877|Gloss=NOM.PL.3
-4	put	put	VERB	_	_	2	comp:obj	_	AlignBegin=104877|AlignEnd=105244|Gloss=put
+4	put	put	VERB	_	_	2	mod@relcl	_	AlignBegin=104877|AlignEnd=105244|Gloss=put
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=105244|AlignEnd=105611|Gloss=ACC.SG.3
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=105611|AlignEnd=105611|Gloss=PUNCT
 7	when	when	SCONJ	_	PronType=Int	2	conj:dicto	_	AlignBegin=105611|AlignEnd=105978|Gloss=when.Q
@@ -1033,7 +1033,7 @@
 # text_ortho = You go con...
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=111120|AlignEnd=111827|Gloss=NOM.2
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=111827|AlignEnd=112535|Gloss=PROSP
-3	con	con	AUX	_	Aspect=Cons	2	comp:aux	_	AlignBegin=112535|AlignEnd=113242|Gloss=CONS
+3	con	con	AUX	_	Aspect=Cons	2	comp:aux@scrap	_	AlignBegin=112535|AlignEnd=113242|Gloss=CONS
 4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=113242|AlignEnd=113242|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__79
@@ -1071,7 +1071,7 @@
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=114585|AlignEnd=114808|Gloss=NOM.SG.1
 9	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=114808|AlignEnd=115032|Gloss=PROSP
 10	go	go	VERB	_	_	9	comp:aux	_	AlignBegin=115032|AlignEnd=115255|Gloss=go
-11	buy	buy	VERB	_	_	10	comp:obj	_	AlignBegin=115255|AlignEnd=115478|Gloss=buy
+11	buy	buy	VERB	_	_	10	comp:obj@x	_	AlignBegin=115255|AlignEnd=115478|Gloss=buy
 12	kerosine	kerosene	NOUN	_	_	11	comp:obj	_	AlignBegin=115478|AlignEnd=115702|Gloss=kerosene
 13	again	again	ADV	_	_	11	mod	_	AlignBegin=115702|AlignEnd=115925|Gloss=again
 14	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=115925|AlignEnd=115925|Gloss=PUNCT
@@ -1092,7 +1092,7 @@
 # text_en = That's it.
 # text_ortho = Na im.
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=115925|AlignEnd=116142|Gloss=be1
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred	_	AlignBegin=116142|AlignEnd=116360|Gloss=NOM.SG.3
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	comp:pred@fixed	_	AlignBegin=116142|AlignEnd=116360|Gloss=NOM.SG.3
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=116360|AlignEnd=116360|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__84
@@ -1123,7 +1123,7 @@
 11	kerosine	kerosene	NOUN	_	_	10	comp:obj	_	AlignBegin=117798|AlignEnd=118004|Gloss=kerosene
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	subj	_	AlignBegin=118004|AlignEnd=118209|Gloss=NOM.2
 13	no	no	PART	_	Polarity=Neg	14	mod	_	AlignBegin=118209|AlignEnd=118415|Gloss=NEG
-14	go	go	AUX	_	Aspect=Prosp	0	root:scrap	_	AlignBegin=118415|AlignEnd=118620|Gloss=PROSP
+14	go	go	AUX	_	Aspect=Prosp	0	root@scrap	_	AlignBegin=118415|AlignEnd=118620|Gloss=PROSP
 15	&//	&//	PUNCT	_	_	14	punct	_	AlignBegin=118620|AlignEnd=118620|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__86
@@ -1177,7 +1177,7 @@
 4	money	money	NOUN	_	_	3	comp:obj	_	AlignBegin=123676|AlignEnd=123944|Gloss=money
 5	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=123944|AlignEnd=124213|Gloss=for
 6	kerosine	kerosene	NOUN	_	_	5	comp:obj	_	AlignBegin=124213|AlignEnd=124481|Gloss=kerosene
-7	now	now	ADV	_	_	3	mod	_	AlignBegin=124481|AlignEnd=124750|Gloss=now
+7	now	now	ADV	_	_	3	mod:emph	_	AlignBegin=124481|AlignEnd=124750|Gloss=now
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=124750|AlignEnd=124750|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__90
@@ -1200,7 +1200,7 @@
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=124750|AlignEnd=125087|Gloss=NOM.SG.1
 2	get	get	VERB	_	_	0	root	_	AlignBegin=125087|AlignEnd=125423|Gloss=get
 3	kerosine	kerosene	NOUN	_	_	2	comp:obj	_	AlignBegin=125423|AlignEnd=125760|Gloss=kerosene
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=125760|AlignEnd=126097|Gloss=REL
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=125760|AlignEnd=126097|Gloss=REL
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=126097|AlignEnd=126433|Gloss=NOM.SG.1
 6	go	go	AUX	_	Aspect=Prosp	4	comp:obj	_	AlignBegin=126433|AlignEnd=126770|Gloss=PROSP
 7	give	give	VERB	_	_	6	comp:aux	_	AlignBegin=126770|AlignEnd=127107|Gloss=give
@@ -1299,7 +1299,7 @@
 10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=135118|AlignEnd=135118|Gloss=PUNCT
 11	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	subj	_	AlignBegin=135118|AlignEnd=135395|Gloss=NOM.PL.3
 12	go	go	AUX	_	Aspect=Prosp	7	conj:coord	_	AlignBegin=135395|AlignEnd=135672|Gloss=PROSP
-13	carry	carry	VERB	_	_	12	comp:aux	_	AlignBegin=135672|AlignEnd=135950|Gloss=carry
+13	carry	carry	VERB	_	_	21	comp:obj@x	_	AlignBegin=135672|AlignEnd=135950|Gloss=carry
 14	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=135950|AlignEnd=136227|Gloss=ACC.SG.3
 15	go	go	VERB	_	_	13	compound:svc	_	AlignBegin=136227|AlignEnd=136504|Gloss=go
 16	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=136504|AlignEnd=136504|Gloss=PUNCT
@@ -1307,7 +1307,7 @@
 18	no	no	PART	_	Polarity=Neg	19	mod	_	AlignBegin=136781|AlignEnd=137059|Gloss=NEG
 19	go	go	AUX	_	Aspect=Prosp	12	parataxis:conj	_	AlignBegin=137059|AlignEnd=137336|Gloss=PROSP
 20	remember	remember	VERB	_	_	19	comp:aux	_	AlignBegin=137336|AlignEnd=137613|Gloss=remember
-21	bring	bring	VERB	_	_	20	comp:obj	_	AlignBegin=137613|AlignEnd=137890|Gloss=bring
+21	bring	bring	VERB	_	_	20	comp:obj@x	_	AlignBegin=137613|AlignEnd=137890|Gloss=bring
 22	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	23	mod:poss	_	AlignBegin=137890|AlignEnd=138168|Gloss=SG.1.POSS
 23	money	money	NOUN	_	_	21	comp:obj	_	AlignBegin=138168|AlignEnd=138445|Gloss=money
 24	again	again	ADV	_	_	21	mod	_	AlignBegin=138445|AlignEnd=138722|Gloss=again
@@ -1322,7 +1322,7 @@
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=138722|AlignEnd=138965|Gloss=NOM.SG.1
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=138965|AlignEnd=139208|Gloss=PROSP
 3	find	find	VERB	_	_	2	comp:aux	_	AlignBegin=139208|AlignEnd=139451|Gloss=find
-4	//=	//=	PUNCT	_	_	2	punct	_	AlignBegin=139451|AlignEnd=139451|Gloss=PUNCT
+4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=139451|AlignEnd=139451|Gloss=PUNCT
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=139451|AlignEnd=139694|Gloss=NOM.SG.1
 6	go	go	AUX	_	Aspect=Prosp	2	parataxis:conj	_	AlignBegin=139694|AlignEnd=139936|Gloss=PROSP
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=139936|AlignEnd=139936|Gloss=PUNCT
@@ -1418,7 +1418,7 @@
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=147648|AlignEnd=147648|Gloss=PUNCT
 7	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=147648|AlignEnd=147851|Gloss=PROSP
 8	keep	keep	VERB	_	_	7	comp:aux	_	AlignBegin=147851|AlignEnd=148053|Gloss=keep
-9	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	10	mod	_	AlignBegin=148053|AlignEnd=148256|Gloss=SG.1.POSS
+9	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	10	mod:poss	_	AlignBegin=148053|AlignEnd=148256|Gloss=SG.1.POSS
 10	promise	promise	VERB	_	_	8	comp:obj	_	AlignBegin=148256|AlignEnd=148459|Gloss=promise
 11	now	now	ADV	_	_	8	mod	_	AlignBegin=148459|AlignEnd=148661|Gloss=now
 12	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=148661|AlignEnd=148661|Gloss=PUNCT
@@ -1442,7 +1442,7 @@
 3	go	go	AUX	_	Aspect=Prosp	1	comp:cleft	_	AlignBegin=150180|AlignEnd=150565|Gloss=PROSP
 4	give	give	VERB	_	_	3	comp:aux	_	AlignBegin=150565|AlignEnd=150950|Gloss=give
 5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=150950|AlignEnd=151335|Gloss=ACC.SG.1
-6	now	now	ADV	_	_	4	mod	_	AlignBegin=151335|AlignEnd=151720|Gloss=now
+6	now	now	ADV	_	_	5	mod:emph	_	AlignBegin=151335|AlignEnd=151720|Gloss=now
 7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=151720|AlignEnd=151720|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__106
@@ -1456,7 +1456,7 @@
 3	bring	bring	VERB	_	_	2	comp:aux	_	AlignBegin=151531|AlignEnd=152007|Gloss=bring
 4	money	money	NOUN	_	_	3	comp:obj	_	AlignBegin=152007|AlignEnd=152483|Gloss=money
 5	ehn	ehn	INTJ	_	_	7	discourse	_	AlignBegin=152483|AlignEnd=152959|Gloss=ehn
-6	two	two	NUM	_	NumType=Card	7	det:num	_	AlignBegin=152959|AlignEnd=153434|Gloss=two.CARD
+6	two	two	NUM	_	NumType=Card	7	det@num	_	AlignBegin=152959|AlignEnd=153434|Gloss=two.CARD
 7	weeks	week	NOUN	_	Number=Plur	3	mod	_	AlignBegin=153434|AlignEnd=153910|Gloss=week.PL
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=153910|AlignEnd=153910|Gloss=PUNCT
 
@@ -1479,9 +1479,9 @@
 # text_ortho = Na two weeks, e far now.
 1	na	na	PART	_	PartType=Cop	6	discourse	_	AlignBegin=155180|AlignEnd=155506|Gloss=be1
 2	two	two	NUM	_	NumType=Card	3	det:num	_	AlignBegin=155506|AlignEnd=155832|Gloss=two.CARD
-3	weeks	week	NOUN	_	Number=Plur	6	dislocated	_	AlignBegin=155832|AlignEnd=156158|Gloss=week.PL
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=156158|AlignEnd=156158|Gloss=PUNCT
-5	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=156158|AlignEnd=156483|Gloss=NOM.SG.3
+3	weeks	week	NOUN	_	Number=Plur	6	comp:pred	_	AlignBegin=155832|AlignEnd=156158|Gloss=week.PL
+4	<	<	PUNCT	_	_	6	punct	_	AlignBegin=156158|AlignEnd=156158|Gloss=PUNCT
+5	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	AlignBegin=156158|AlignEnd=156483|Gloss=NOM.SG.3
 6	far	far	ADJ	_	_	0	root	_	AlignBegin=156483|AlignEnd=156809|Gloss=far
 7	now	now	ADV	_	_	6	mod:emph	_	AlignBegin=156809|AlignEnd=157135|Gloss=now
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=157135|AlignEnd=157135|Gloss=PUNCT
@@ -1616,26 +1616,26 @@
 # text = { I no || I no || I no sabi } { one |c two |c three } now //
 # text_en = I don't... I don't... I don't know a thing.
 # text_ortho = I no | I no, I no sabi one, two, three now.
-1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=168990|AlignEnd=168990|Gloss=PUNCT
-2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=168990|AlignEnd=169303|Gloss=NOM.SG.1
-3	no	no	PART	_	Polarity=Neg	2	unk:scrap	_	AlignBegin=169303|AlignEnd=169616|Gloss=NEG
+1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=168990|AlignEnd=168990|Gloss=PUNCT
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=168990|AlignEnd=169303|Gloss=NOM.SG.1
+3	no	no	PART	_	Polarity=Neg	0	root@scrap	_	AlignBegin=169303|AlignEnd=169616|Gloss=NEG
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=169616|AlignEnd=169616|Gloss=PUNCT
-5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj:dicto	_	AlignBegin=169616|AlignEnd=169929|Gloss=NOM.SG.1
-6	no	no	PART	_	Polarity=Neg	4	conj:dicto	_	AlignBegin=169929|AlignEnd=170242|Gloss=NEG
+5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	conj:dicto	_	AlignBegin=169616|AlignEnd=169929|Gloss=NOM.SG.1
+6	no	no	PART	_	Polarity=Neg	3	conj:dicto	_	AlignBegin=169929|AlignEnd=170242|Gloss=NEG
 7	||	||	PUNCT	_	_	10	punct	_	AlignBegin=170242|AlignEnd=170242|Gloss=PUNCT
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=170242|AlignEnd=170555|Gloss=NOM.SG.1
 9	no	no	PART	_	Polarity=Neg	10	mod	_	AlignBegin=170555|AlignEnd=170868|Gloss=NEG
-10	sabi	sabi	VERB	_	_	5	conj:dicto	_	AlignBegin=170868|AlignEnd=171181|Gloss=know
-11	}	}	PUNCT	_	_	10	punct	_	AlignBegin=171181|AlignEnd=171181|Gloss=PUNCT
+10	sabi	sabi	VERB	_	_	3	conj:dicto	_	AlignBegin=170868|AlignEnd=171181|Gloss=know
+11	}	}	PUNCT	_	_	3	punct	_	AlignBegin=171181|AlignEnd=171181|Gloss=PUNCT
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=171181|AlignEnd=171181|Gloss=PUNCT
-13	one	one	NUM	_	NumType=Card	10	comp:obj	_	AlignBegin=171181|AlignEnd=171494|Gloss=one
+13	one	one	NUM	_	NumType=Card	11	comp:obj	_	AlignBegin=171181|AlignEnd=171494|Gloss=one
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=171494|AlignEnd=171494|Gloss=PUNCT
 15	two	two	NUM	_	NumType=Card	13	conj:coord	_	AlignBegin=171494|AlignEnd=171807|Gloss=two.CARD
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=171807|AlignEnd=171807|Gloss=PUNCT
 17	three	three	NUM	_	NumType=Card	15	conj:coord	_	AlignBegin=171807|AlignEnd=172120|Gloss=three.CARD
 18	}	}	PUNCT	_	_	13	punct	_	AlignBegin=172120|AlignEnd=172120|Gloss=PUNCT
-19	now	now	ADV	_	_	10	mod	_	AlignBegin=172120|AlignEnd=172433|Gloss=now
-20	//	//	PUNCT	_	_	10	punct	_	AlignBegin=172433|AlignEnd=172433|Gloss=PUNCT
+19	now	now	ADV	_	_	10	mod:emph	_	AlignBegin=172120|AlignEnd=172433|Gloss=now
+20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=172433|AlignEnd=172433|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__117
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_17_Buying-Grocery_DG.mp3
@@ -1661,7 +1661,7 @@
 # text = okay ehen //
 # text_en = Okay, uhuh.
 # text_ortho = Okay ehen.
-1	okay	OK	INTJ	_	_	2	discourse	_	AlignBegin=172433|AlignEnd=173056|Gloss=OK
+1	okay	OK	INTJ	_	_	3	root	_	AlignBegin=172433|AlignEnd=173056|Gloss=OK
 2	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=173056|AlignEnd=173680|Gloss=ehen
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=173680|AlignEnd=173680|Gloss=PUNCT
 
@@ -1701,7 +1701,7 @@
 2	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=176522|AlignEnd=176803|Gloss=SBJV
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=176803|AlignEnd=177085|Gloss=NOM.SG.1
 4	go	go	VERB	_	_	2	comp:aux	_	AlignBegin=177085|AlignEnd=177367|Gloss=go
-5	borrow	borrow	VERB	_	_	4	comp:obj	_	AlignBegin=177367|AlignEnd=177648|Gloss=borrow
+5	borrow	borrow	VERB	_	_	4	comp:obj@x	_	AlignBegin=177367|AlignEnd=177648|Gloss=borrow
 6	money	money	NOUN	_	_	5	comp:obj	_	AlignBegin=177648|AlignEnd=177930|Gloss=money
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=177930|AlignEnd=177930|Gloss=PUNCT
 
@@ -1723,7 +1723,7 @@
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=177930|AlignEnd=178098|Gloss=NOM.SG.1
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=178098|AlignEnd=178266|Gloss=PROSP
 3	go	go	VERB	_	_	2	comp:aux	_	AlignBegin=178266|AlignEnd=178434|Gloss=go
-4	borrow	borrow	VERB	_	_	3	comp:obj	_	AlignBegin=178434|AlignEnd=178602|Gloss=borrow
+4	borrow	borrow	VERB	_	_	3	comp:obj@x	_	AlignBegin=178434|AlignEnd=178602|Gloss=borrow
 5	money	money	NOUN	_	_	4	comp:obj	_	AlignBegin=178602|AlignEnd=178771|Gloss=money
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=178771|AlignEnd=178771|Gloss=PUNCT
 7	con	con	AUX	_	Aspect=Cons	2	conj:coord	_	AlignBegin=178771|AlignEnd=178939|Gloss=CONS
@@ -1740,10 +1740,10 @@
 1	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=179275|AlignEnd=179526|Gloss=SBJV
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=179526|AlignEnd=179778|Gloss=NOM.SG.1
 3	go	go	VERB	_	_	1	comp:aux	_	AlignBegin=179778|AlignEnd=180030|Gloss=go
-4	borrow	borrow	VERB	_	_	3	comp:obj	_	AlignBegin=180030|AlignEnd=180281|Gloss=borrow
+4	borrow	borrow	VERB	_	_	3	comp:obj@x	_	AlignBegin=180030|AlignEnd=180281|Gloss=borrow
 5	money	money	NOUN	_	_	4	comp:obj	_	AlignBegin=180281|AlignEnd=180532|Gloss=money
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=180532|AlignEnd=180532|Gloss=PUNCT
-7	con	con	AUX	_	Aspect=Cons	3	conj:coord	_	AlignBegin=180532|AlignEnd=180784|Gloss=CONS
+7	con	con	AUX	_	Aspect=Cons	1	conj:coord	_	AlignBegin=180532|AlignEnd=180784|Gloss=CONS
 8	pay	pay	VERB	_	_	7	comp:aux	_	AlignBegin=180784|AlignEnd=181036|Gloss=pay
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=181036|AlignEnd=181287|Gloss=NOM.2
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181287|AlignEnd=181287|Gloss=PUNCT
@@ -1759,7 +1759,7 @@
 3	money	money	NOUN	_	_	2	comp:obj	_	AlignBegin=180190|AlignEnd=180618|Gloss=money
 4	!//=	!//=	PUNCT	_	_	5	punct	_	AlignBegin=180618|AlignEnd=180618|Gloss=PUNCT
 5	go	go	VERB	_	_	1	parataxis:conj	_	AlignBegin=180618|AlignEnd=181045|Gloss=go
-6	borrow	borrow	VERB	_	_	5	comp:obj	_	AlignBegin=181045|AlignEnd=181472|Gloss=borrow
+6	borrow	borrow	VERB	_	_	5	comp:aux	_	AlignBegin=181045|AlignEnd=181472|Gloss=borrow
 7	money	money	NOUN	_	_	6	comp:obj	_	AlignBegin=181472|AlignEnd=181900|Gloss=money
 8	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=181900|AlignEnd=181900|Gloss=PUNCT
 
@@ -1859,7 +1859,7 @@
 # text = e be like sey [ I see bobo here ] //
 # text_en = It seems like I saw bobo here.
 # text_ortho = E be like sey I see bobo here.
-1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj:expl	_	AlignBegin=189790|AlignEnd=189929|Gloss=NOM.SG.3
+1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	AlignBegin=189790|AlignEnd=189929|Gloss=NOM.SG.3
 2	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=189929|AlignEnd=190068|Gloss=be
 3	like	like	ADP	_	_	2	comp:pred	_	AlignBegin=190068|AlignEnd=190206|EXTPOS=SCONJ|Gloss=like
 4	sey	sey	SCONJ	_	_	3	comp:obj@fixed	_	AlignBegin=190206|AlignEnd=190345|Gloss=COMP
@@ -1969,7 +1969,7 @@
 7	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=199818|AlignEnd=200103|Gloss=ACC.SG.3
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=200103|AlignEnd=200103|Gloss=PUNCT
 9	if	if	SCONJ	_	_	4	conj:dicto	_	AlignBegin=200103|AlignEnd=200388|Gloss=if
-10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=200388|AlignEnd=200673|Gloss=NOM.2
+10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	comp:obj@scrap	_	AlignBegin=200388|AlignEnd=200673|Gloss=NOM.2
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=200673|AlignEnd=200673|Gloss=PUNCT
 12	if	if	SCONJ	_	_	9	conj:dicto	_	AlignBegin=200673|AlignEnd=200958|Gloss=if
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	subj	_	AlignBegin=200958|AlignEnd=201243|Gloss=NOM.2
@@ -1977,16 +1977,16 @@
 15	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=201529|AlignEnd=201814|Gloss=ACC.SG.3
 16	}	}	PUNCT	_	_	4	punct	_	AlignBegin=201814|AlignEnd=201814|Gloss=PUNCT
 17	{	{	PUNCT	_	_	18	punct	_	AlignBegin=201814|AlignEnd=201814|Gloss=PUNCT
-18	like	like	ADP	_	_	14	mod	_	AlignBegin=201814|AlignEnd=202099|Gloss=like
+18	like	like	ADP	_	_	31	mod	_	AlignBegin=201814|AlignEnd=202099|Gloss=like
 19	||	||	PUNCT	_	_	20	punct	_	AlignBegin=202099|AlignEnd=202099|Gloss=PUNCT
 20	like	like	ADP	_	_	18	conj:dicto	_	AlignBegin=202099|AlignEnd=202384|Gloss=like
-21	dis	dis	PRON	_	Number=Sing|PronType=Dem	20	comp:obj	_	AlignBegin=202384|AlignEnd=202669|Gloss=SG.DEM
+21	dis	dis	PRON	_	Number=Sing|PronType=Dem	20	comp:obj@scrap	_	AlignBegin=202384|AlignEnd=202669|Gloss=SG.DEM
 22	||	||	PUNCT	_	_	23	punct	_	AlignBegin=202669|AlignEnd=202669|Gloss=PUNCT
 23	like	like	ADP	_	_	20	conj:dicto	_	AlignBegin=202669|AlignEnd=202954|Gloss=like
 24	dis	dis	PRON	_	Number=Sing|PronType=Dem	23	comp:obj	_	AlignBegin=202954|AlignEnd=203240|Gloss=SG.DEM
 25	}	}	PUNCT	_	_	18	punct	_	AlignBegin=203240|AlignEnd=203240|Gloss=PUNCT
 26	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=203240|AlignEnd=203240|Gloss=PUNCT
-27	take	take	VERB	_	_	14	conj:appos	_	AlignBegin=203240|AlignEnd=203525|Gloss=take
+27	take	take	VERB	_	_	38	conj:coord	_	AlignBegin=203240|AlignEnd=203525|Gloss=take
 28	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	AlignBegin=203525|AlignEnd=203810|Gloss=ACC.SG.3
 29	cook	cook	VERB	_	_	27	compound:svc	_	AlignBegin=203810|AlignEnd=204095|Gloss=cook
 30	soup	soup	NOUN	_	_	29	comp:obj	_	AlignBegin=204095|AlignEnd=204380|Gloss=soup
@@ -2010,7 +2010,7 @@
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=200787|AlignEnd=201029|Gloss=NOM.SG.1
 4	just	just	ADV	_	_	5	mod	_	AlignBegin=201029|AlignEnd=201271|Gloss=just
 5	write	write	VERB	_	_	2	comp:aux	_	AlignBegin=201271|AlignEnd=201514|Gloss=write
-6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	5	comp:obj	_	AlignBegin=201514|AlignEnd=201756|Gloss=SG.1.POSS
+6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	5	comp:obj@scrap	_	AlignBegin=201514|AlignEnd=201756|Gloss=SG.1.POSS
 7	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=201756|AlignEnd=201756|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__143
@@ -2057,7 +2057,7 @@
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=208388|AlignEnd=208388|Gloss=PUNCT
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=208388|AlignEnd=208522|Gloss=NOM.SG.1
 7	go	go	AUX	_	Aspect=Prosp	4	comp:obj	_	AlignBegin=208522|AlignEnd=208656|Gloss=PROSP
-8	meet	meet	VERB	_	_	7	comp:obj	_	AlignBegin=208656|AlignEnd=208791|Gloss=meet
+8	meet	meet	VERB	_	_	7	comp:obj@x	_	AlignBegin=208656|AlignEnd=208791|Gloss=meet
 9	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=208791|AlignEnd=208925|Gloss=ACC.SG.3
 10	]	]	PUNCT	_	_	7	punct	_	AlignBegin=208925|AlignEnd=208925|Gloss=PUNCT
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=208925|AlignEnd=208925|Gloss=PUNCT
@@ -2113,7 +2113,7 @@
 1	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=215370|AlignEnd=215600|Gloss=SBJV
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=215600|AlignEnd=215830|Gloss=NOM.SG.1
 3	go	go	VERB	_	_	1	comp:aux	_	AlignBegin=215830|AlignEnd=216060|Gloss=go
-4	find	find	VERB	_	_	3	comp:obj	_	AlignBegin=216060|AlignEnd=216290|Gloss=find
+4	find	find	VERB	_	_	3	comp:obj@x	_	AlignBegin=216060|AlignEnd=216290|Gloss=find
 5	money	money	NOUN	_	_	4	comp:obj	_	AlignBegin=216290|AlignEnd=216520|Gloss=money
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=216520|AlignEnd=216520|Gloss=PUNCT
 
@@ -2128,8 +2128,8 @@
 3	come	come	VERB	_	_	2	comp:aux	_	AlignBegin=217007|AlignEnd=217250|Gloss=come
 4	back	back	ADV	_	_	3	mod	_	AlignBegin=217250|AlignEnd=217493|Gloss=back
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=217493|AlignEnd=217493|Gloss=PUNCT
-6	mama	mama	NOUN	_	_	2	vocative	_	AlignBegin=217493|AlignEnd=217737|Gloss=mama
-7	oh	oh	INTJ	_	_	2	discourse	_	AlignBegin=217737|AlignEnd=217980|Gloss=oh
+6	mama	mama	NOUN	_	_	3	vocative	_	AlignBegin=217493|AlignEnd=217737|Gloss=mama
+7	oh	oh	INTJ	_	_	6	discourse	_	AlignBegin=217737|AlignEnd=217980|Gloss=oh
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=217980|AlignEnd=217980|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__152
@@ -2192,7 +2192,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=221737|AlignEnd=221737|Gloss=PUNCT
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=221737|AlignEnd=222094|Gloss=NOM.SG.1
 4	wan	want	VERB	_	_	0	root	_	AlignBegin=222094|AlignEnd=222452|Gloss=want
-5	go	go	VERB	_	_	4	comp:obj	_	AlignBegin=222452|AlignEnd=222809|Gloss=go
+5	go	go	VERB	_	_	4	comp:obj@x	_	AlignBegin=222452|AlignEnd=222809|Gloss=go
 6	meeting	meeting	NOUN	_	_	5	comp:obj	_	AlignBegin=222809|AlignEnd=223166|Gloss=meeting
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=223166|AlignEnd=223166|Gloss=PUNCT
 
@@ -2230,7 +2230,7 @@
 # text_ortho = Thanks ma o,
 1	thanks	thanks	INTJ	_	_	0	root	_	AlignBegin=224610|AlignEnd=225080|Gloss=thanks
 2	>	>	PUNCT	_	_	3	punct	_	AlignBegin=225080|AlignEnd=225080|Gloss=PUNCT
-3	ma	ma	PART	_	PartType=Disc	1	vocative	_	AlignBegin=225080|AlignEnd=225550|Gloss=FOC
+3	ma	ma	PART	_	PartType=Disc	1	discourse	_	AlignBegin=225080|AlignEnd=225550|Gloss=FOC
 4	o	o	PART	_	PartType=Disc	3	mod:emph	_	AlignBegin=225550|AlignEnd=226020|Gloss=EMPH
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=226020|AlignEnd=226020|Gloss=PUNCT
 
@@ -2263,7 +2263,7 @@
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=227194|AlignEnd=227194|Gloss=PUNCT
 6	>	>	PUNCT	_	_	8	punct	_	AlignBegin=227194|AlignEnd=227194|Gloss=PUNCT
 7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	mod:poss	_	AlignBegin=227194|AlignEnd=227780|Gloss=SG.1.POSS
-8	daughter	daughter	NOUN	_	_	2	parataxis:parenth	_	AlignBegin=227780|AlignEnd=228366|Gloss=daughter
+8	daughter	daughter	NOUN	_	_	2	vocative	_	AlignBegin=227780|AlignEnd=228366|Gloss=daughter
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=228366|AlignEnd=228366|Gloss=PUNCT
 
 # sent_id = ENU_17_Buying-Grocery_DG__162
@@ -2301,7 +2301,7 @@
 # text_ortho = I wan dey buy everything for di house.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=228700|AlignEnd=228939|Gloss=NOM.SG.1
 2	wan	want	VERB	_	_	0	root	_	AlignBegin=228939|AlignEnd=229178|Gloss=want
-3	dey	dey	AUX	_	Aspect=Imp	2	comp:obj@x	_	AlignBegin=229178|AlignEnd=229416|Gloss=IPFV
+3	dey	dey	AUX	_	Aspect=Imp	2	comp:pred	_	AlignBegin=229178|AlignEnd=229416|Gloss=IPFV
 4	buy	buy	VERB	_	_	3	comp:aux	_	AlignBegin=229416|AlignEnd=229655|Gloss=buy
 5	everything	everyting	PRON	_	_	4	comp:obj	_	AlignBegin=229655|AlignEnd=229894|Gloss=everything
 6	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=229894|AlignEnd=230132|Gloss=for
@@ -2358,11 +2358,11 @@
 # text_ortho = Bye, bye mama o.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=232495|AlignEnd=232495|Gloss=PUNCT
 2	bye	bye	INTJ	_	_	0	root	_	AlignBegin=232495|AlignEnd=232976|Gloss=bye
-3	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=232976|AlignEnd=232976|Gloss=PUNCT
-4	bye	bye	INTJ	_	_	3	compound:redup	_	AlignBegin=232976|AlignEnd=233458|Gloss=bye
+3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=232976|AlignEnd=232976|Gloss=PUNCT
+4	bye	bye	INTJ	_	_	2	compound:redup	_	AlignBegin=232976|AlignEnd=233458|Gloss=bye
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=233458|AlignEnd=233458|Gloss=PUNCT
 6	>	>	PUNCT	_	_	7	punct	_	AlignBegin=233458|AlignEnd=233458|Gloss=PUNCT
-7	mama	mama	NOUN	_	_	2	parataxis:parenth	_	AlignBegin=233458|AlignEnd=233939|Gloss=mama
+7	mama	mama	NOUN	_	_	2	vocative	_	AlignBegin=233458|AlignEnd=233939|Gloss=mama
 8	o	o	PART	_	PartType=Disc	7	mod:emph	_	AlignBegin=233939|AlignEnd=234420|Gloss=EMPH
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=234420|AlignEnd=234420|Gloss=PUNCT
 
