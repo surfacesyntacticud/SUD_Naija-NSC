@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = KAD_22_Chatting-At-The-Restaurant_DG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_22_Chatting-At-The-Restaurant_DG.mp3
 # speaker_id = Sp204
@@ -113,9 +114,9 @@
 # text = na wa for dat woman o !//
 # text_en = It's a shame for that woman!
 # text_ortho = Na wa for dat woman o!
-1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=15240|AlignEnd=15382|Gloss=be1
-2	wa	wa	INTJ	_	_	1	comp:pred	_	AlignBegin=15382|AlignEnd=15523|Gloss=wow
-3	for	for	ADP	_	_	1	comp:pred	_	AlignBegin=15523|AlignEnd=15665|Gloss=for
+1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=15240|AlignEnd=15382|ExtPos=INTJ|Gloss=be1|PhraseType=Idiom
+2	wa	wa	INTJ	_	PartType=Cop	1	comp:pred	_	AlignBegin=15382|AlignEnd=15523|Gloss=wow|InIdiom=Yes
+3	for	for	ADP	_	_	1	comp:obl	_	AlignBegin=15523|AlignEnd=15665|Gloss=for
 4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=15665|AlignEnd=15807|Gloss=SG.DEM
 5	woman	woman	NOUN	_	_	3	comp:obj	_	AlignBegin=15807|AlignEnd=15948|Gloss=woman
 6	o	o	PART	_	PartType=Disc	5	mod:emph	_	AlignBegin=15948|AlignEnd=16090|Gloss=EMPH
@@ -669,8 +670,8 @@
 # text = so dat her oga go just see her sey [ her face dey bright |c dat kind ting ] //
 # text_en = So her husband will see that her face is bright, that kind of thing.
 # text_ortho = So dat her oga go just see her sey her face dey bright, dat kind ting.
-1	so	so	SCONJ	_	_	5	cc	_	AlignBegin=58043|AlignEnd=58296|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	1	comp:obj	_	AlignBegin=58296|AlignEnd=58549|Gloss=SG.DEM|InIdiom=Yes
+1	so	so	SCONJ	_	_	5	discourse	_	AlignBegin=58043|AlignEnd=58296|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
+2	dat	dat	SCONJ	_	_	1	comp:obj	_	AlignBegin=58296|AlignEnd=58549|Gloss=COMP|InIdiom=Yes
 3	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	4	mod:poss	_	AlignBegin=58549|AlignEnd=58802|Gloss=POSS.F.SG.3
 4	oga	oga	NOUN	_	_	5	subj	_	AlignBegin=58802|AlignEnd=59055|Gloss=boss
 5	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=59055|AlignEnd=59308|Gloss=PROSP
@@ -1409,7 +1410,7 @@
 # text = sotay di girl con go meet management //
 # text_en = Until the lady went to meet the management.
 # text_ortho = Sotay di girl con go meet management.
-1	sotay	sotay	SCONJ	_	_	4	cc	_	AlignBegin=124157|AlignEnd=124297|Gloss=such_that
+1	sotay	sotay	SCONJ	_	_	4	discourse	_	AlignBegin=124157|AlignEnd=124297|Gloss=such_that
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=124297|AlignEnd=124437|Gloss=DEF.ART
 3	girl	girl	NOUN	_	_	4	subj	_	AlignBegin=124437|AlignEnd=124577|Gloss=girl
 4	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=124577|AlignEnd=124718|Gloss=CONS
@@ -1557,7 +1558,7 @@
 22	Skype	Skype	X	_	_	17	comp:obj	_	AlignBegin=135635|AlignEnd=135918|Gloss=Skype
 23	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=135918|AlignEnd=135918|Gloss=PUNCT
 24	everything	everyting	PRON	_	_	22	conj:coord	_	AlignBegin=135918|AlignEnd=136200|Gloss=everything
-25	|c	|c	PUNCT	_	_	26	cc	_	AlignBegin=136200|AlignEnd=136200|Gloss=PUNCT
+25	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=136200|AlignEnd=136200|Gloss=PUNCT
 26	gbogbo	gbogbo	X	_	_	24	conj:coord	_	AlignBegin=136200|AlignEnd=136483|Gloss=gbogbo|Lang=yo
 27	ti	ti	X	_	_	26	flat:foreign	_	AlignBegin=136483|AlignEnd=136765|Gloss=X|Lang=yo
 28	gbo	gbo	X	_	_	27	flat:foreign	_	AlignBegin=136765|AlignEnd=137048|Gloss=all|Lang=yo
@@ -2079,7 +2080,7 @@
 # text = abi na Iwo road ?//
 # text_en = Or is it Iwo road?
 # text_ortho = Abi na Iwo road?
-1	abi	abi	CCONJ	_	_	2	cc	_	AlignBegin=190110|AlignEnd=190356|Gloss=or
+1	abi	abi	CCONJ	_	_	2	discourse	_	AlignBegin=190110|AlignEnd=190356|Gloss=or
 2	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=190356|AlignEnd=190603|Gloss=be1
 3	Iwo	iwo	PROPN	_	_	4	compound	_	AlignBegin=190603|AlignEnd=190850|Gloss=Iwo
 4	road	road	NOUN	_	_	2	comp:pred	_	AlignBegin=190850|AlignEnd=191096|Gloss=road
@@ -3125,3 +3126,4 @@
 1	mstchew	mtschew	INTJ	_	_	2	discourse	_	AlignBegin=286160|AlignEnd=287320|Gloss=sucking_of_teeth
 2	hm	hm	INTJ	_	_	0	root	_	AlignBegin=287320|AlignEnd=288480|Gloss=hm
 3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=288480|AlignEnd=288480|Gloss=PUNCT
+

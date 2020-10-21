@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = IBA_07_Na-Love_DG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_07_Na-Love_DG.mp3
 # speaker_id = Sp368
@@ -1567,7 +1568,7 @@
 # text = but you be alfa now //
 # text_en = But, you're a big man now.
 # text_ortho = But you be alfa now.
-1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=195534|AlignEnd=195846|Gloss=but
+1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=195534|AlignEnd=195846|Gloss=but
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=195846|AlignEnd=196158|Gloss=NOM.2
 3	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=196158|AlignEnd=196469|Gloss=be1
 4	alfa	alfa	NOUN	_	_	3	comp:pred	_	AlignBegin=196469|AlignEnd=196781|Gloss=alfa
@@ -2108,7 +2109,7 @@
 # text = and me < I no dey interested //= I no know sey [ you serious like dis ] //
 # text_en = And me, I wasn't interested, I didnt know you were serious like this.
 # text_ortho = And me, I no dey interested, I no know sey you serious like dis.
-1	and	and	CCONJ	_	_	6	cc	_	AlignBegin=252777|AlignEnd=252970|Gloss=and
+1	and	and	CCONJ	_	_	6	discourse	_	AlignBegin=252777|AlignEnd=252970|Gloss=and
 2	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	dislocated	_	AlignBegin=252970|AlignEnd=253163|Gloss=me
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=253163|AlignEnd=253163|Gloss=PUNCT
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=253163|AlignEnd=253355|Gloss=NOM.SG.1
@@ -2252,7 +2253,7 @@
 # text = but di guy &//
 # text_en = But the guy...
 # text_ortho = But di guy...
-1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=264880|AlignEnd=265000|Gloss=but
+1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=264880|AlignEnd=265000|Gloss=but
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=265000|AlignEnd=265120|Gloss=DEF.ART
 3	guy	guy	NOUN	_	_	0	root@scrap	_	AlignBegin=265120|AlignEnd=265240|Gloss=guy
 4	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=265240|AlignEnd=265240|Gloss=PUNCT
@@ -2371,7 +2372,7 @@
 # sent_id = IBA_07_Na-Love_DG__143
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_07_Na-Love_DG.mp3
 # speaker_id = Sp368
-# text = pastor con tell me { sey [ ah ehn e get one babe for my department o ] |c sey [ na from heaven >+ de don tie us together ] |c sey [ ah dem be { husband |c and } ] &//
+# text = pastor con tell me { sey [ ah ehn e get one babe for my department o ] |c sey [ na from heaven >+ de don tie us together ] |c sey [ ah dem be husband and ] &//
 # text_en = Then the pastor told me that ah, there's a girl in my department, that heaven brought us together and that ah, they're husband and...
 # text_ortho = Pastor con tell me sey ah ehn e get one babe for my department o, sey na from heaven de don tie us together, sey ah dem be husband, and...
 1	pastor	pastor	NOUN	_	_	2	subj	_	AlignBegin=280999|AlignEnd=281266|Gloss=pastor
@@ -2411,13 +2412,10 @@
 35	ah	ah	INTJ	_	_	37	discourse	_	AlignBegin=287685|AlignEnd=287952|Gloss=ah
 36	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	subj	_	AlignBegin=287952|AlignEnd=288220|Gloss=NOM.PL.3
 37	be	be	VERB	_	PartType=Cop	22	conj:coord	_	AlignBegin=288220|AlignEnd=288487|Gloss=be1
-38	{	{	PUNCT	_	_	39	punct	_	AlignBegin=288487|AlignEnd=288487|Gloss=PUNCT
-39	husband	husband	NOUN	_	_	37	comp:pred@scrap	_	AlignBegin=288487|AlignEnd=288755|Gloss=husband
-40	|c	|c	PUNCT	_	_	41	punct	_	AlignBegin=288755|AlignEnd=288755|Gloss=PUNCT
-41	and	and	CCONJ	_	_	39	conj:coord@scrap	_	AlignBegin=288755|AlignEnd=289022|Gloss=and
-42	}	}	PUNCT	_	_	39	punct	_	AlignBegin=289022|AlignEnd=289022|Gloss=PUNCT
-43	]	]	PUNCT	_	_	37	punct	_	AlignBegin=289022|AlignEnd=289022|Gloss=PUNCT
-44	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=289022|AlignEnd=289022|Gloss=PUNCT
+38	husband	{	PUNCT	_	_	39	punct	_	AlignBegin=288487|AlignEnd=288487|Gloss=PUNCT
+39	and	husband	NOUN	_	_	37	comp:pred@scrap	_	AlignBegin=288487|AlignEnd=288755|Gloss=husband
+40	]	and	CCONJ	_	_	39	orphan	_	AlignBegin=288755|AlignEnd=289022|Gloss=and
+41	&//	}	PUNCT	_	_	39	punct	_	AlignBegin=289022|AlignEnd=289022|Gloss=PUNCT
 
 # sent_id = IBA_07_Na-Love_DG__144
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_07_Na-Love_DG.mp3
@@ -2560,7 +2558,7 @@
 # text = one Sh wey get for department o //
 # text_en = There's only one Sh we have in the department.
 # text_ortho = One Sh wey get for department o.
-1	one	one	DET	_	Definite=Spec|PronType=Art	2	det:num	_	AlignBegin=307611|AlignEnd=307859|Gloss=SPEC.ART
+1	one	one	DET	_	Definite=Spec|PronType=Art	2	det	_	AlignBegin=307611|AlignEnd=307859|Gloss=SPEC.ART
 2	Sh	Sh	PROPN	_	_	0	root	_	AlignBegin=307859|AlignEnd=308107|Gloss=Sh
 3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=308107|AlignEnd=308355|Gloss=REL
 4	get	get	VERB	_	_	3	comp:obj	_	AlignBegin=308355|AlignEnd=308602|Gloss=get
@@ -2576,7 +2574,7 @@
 # text_en = Uh... that one... that one is, is Shulamite.
 # text_ortho = Ehn and dat, dat one na, na Shulamite.
 1	ehn	ehn	INTJ	_	_	10	discourse	_	AlignBegin=309713|AlignEnd=309900|Gloss=ehn
-2	and	and	CCONJ	_	_	10	cc	_	AlignBegin=309900|AlignEnd=310088|Gloss=and
+2	and	and	CCONJ	_	_	10	discourse	_	AlignBegin=309900|AlignEnd=310088|Gloss=and
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=310088|AlignEnd=310088|Gloss=PUNCT
 4	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=310088|AlignEnd=310275|Gloss=SG.DEM
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=310275|AlignEnd=310275|Gloss=PUNCT
@@ -2704,7 +2702,7 @@
 # text = but di tin be sey [ { I || me } ma < { I don || God don } show me sey [ na dat person >+ I go marry ] ] //
 # text_en = But the thing is that me, I myself have... God has shown me that it's that person I will marry.
 # text_ortho = But di tin be sey I, me ma, I don, God don show me sey na dat person I go marry.
-1	but	but	CCONJ	_	_	4	cc	_	AlignBegin=322641|AlignEnd=322848|Gloss=but
+1	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=322641|AlignEnd=322848|Gloss=but
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=322848|AlignEnd=323056|Gloss=DEF.ART
 3	tin	ting	NOUN	_	_	4	subj	_	AlignBegin=323056|AlignEnd=323263|Gloss=thing
 4	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=323263|AlignEnd=323471|Gloss=be1
@@ -2932,7 +2930,7 @@
 11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=348697|AlignEnd=348697|Gloss=PUNCT
 12	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=348697|AlignEnd=349058|Gloss=be1
 13	inspiration	inspiration	NOUN	_	_	12	comp:pred	_	AlignBegin=349058|AlignEnd=349419|Gloss=inspiration
-14	gbam	gbam	ADV	_	_	12	comp:cleft	_	AlignBegin=349419|AlignEnd=349780|Gloss= suddenly
+14	gbam	gbam	ADV	_	_	12	comp:cleft	_	AlignBegin=349419|AlignEnd=349780|Gloss=suddenly
 15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=349780|AlignEnd=349780|Gloss=PUNCT
 
 # sent_id = IBA_07_Na-Love_DG__173
@@ -3175,7 +3173,7 @@
 # text = but di tin be sey [ me < I no dey like to dey double date ] |c but since you talk sey [ pastor don tell you ] < no wahala ] //
 # text_en = But the thing is that me, I don't like dating two people at once but since you said that a pastor has told you, there is no problem.
 # text_ortho = But di tin be sey me, I no dey like to dey double date, but since you talk sey pastor don tell you, no wahala.
-1	but	but	CCONJ	_	_	4	cc	_	AlignBegin=369928|AlignEnd=370187|Gloss=but
+1	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=369928|AlignEnd=370187|Gloss=but
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=370187|AlignEnd=370446|Gloss=DEF.ART
 3	tin	ting	NOUN	_	_	4	subj	_	AlignBegin=370446|AlignEnd=370706|Gloss=thing
 4	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=370706|AlignEnd=370965|Gloss=be1
@@ -3216,7 +3214,7 @@
 # text = but you know sey [ tomorrow na Val sha ] //
 # text_en = But do you know tomorrow is Valentine's Day?
 # text_ortho = But you know sey tomorrow na Val sha.
-1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=376880|AlignEnd=377060|Gloss=but
+1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=376880|AlignEnd=377060|Gloss=but
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=377060|AlignEnd=377240|Gloss=NOM.2
 3	know	know	VERB	_	_	0	root	_	AlignBegin=377240|AlignEnd=377420|Gloss=know
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=377420|AlignEnd=377600|Gloss=COMP
@@ -3231,16 +3229,15 @@
 # sent_id = IBA_07_Na-Love_DG__192
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_07_Na-Love_DG.mp3
 # speaker_id = Sp368
-# text = ehn tomorrow na Val |c but &//
+# text = ehn tomorrow na Val but &//
 # text_en = Uh... tomorrow is Valentine's Day, but...
 # text_ortho = Ehn tomorrow na Val, but...
 1	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=379080|AlignEnd=379404|Gloss=ehn
 2	tomorrow	tomorrow	NOUN	_	_	3	subj	_	AlignBegin=379404|AlignEnd=379728|Gloss=tomorrow
 3	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=379728|AlignEnd=380052|Gloss=be1
-4	Val	Val	PROPN	_	_	3	comp:pred	_	AlignBegin=380052|AlignEnd=380376|Gloss=Valentine_Day
-5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=380376|AlignEnd=380376|Gloss=PUNCT
-6	but	but	CCONJ	_	_	3	conj:coord@scrap	_	AlignBegin=380376|AlignEnd=380700|Gloss=but
-7	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=380700|AlignEnd=380700|Gloss=PUNCT
+4	Val	Valentine	PROPN	_	_	3	comp:pred	_	AlignBegin=380052|AlignEnd=380376|Gloss=Valentine_Day
+5	but	but	CCONJ	_	_	4	orphan	_	AlignBegin=380376|AlignEnd=380700|Gloss=but
+6	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=380700|AlignEnd=380700|Gloss=PUNCT
 
 # sent_id = IBA_07_Na-Love_DG__193
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_07_Na-Love_DG.mp3
@@ -3735,8 +3732,8 @@
 10	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	comp:pred@agent	_	AlignBegin=431160|AlignEnd=431381|Gloss=SG.DEM
 11	now	now	ADV	_	_	9	mod:emph	_	AlignBegin=431381|AlignEnd=431603|Gloss=now
 12	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=431603|AlignEnd=431603|Gloss=PUNCT
-13	and	and	CCONJ	_	_	14	cc	_	AlignBegin=431603|AlignEnd=431824|Gloss=and
-14	since	since	ADP	_	_	2	conj:coord@scrap	_	AlignBegin=431824|AlignEnd=432045|Gloss=since
+13	and	and	CCONJ	_	_	14	discourse	_	AlignBegin=431603|AlignEnd=431824|Gloss=and
+14	since	since	ADP	_	_	2	orphan	_	AlignBegin=431824|AlignEnd=432045|Gloss=since
 15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	subj	_	AlignBegin=432045|AlignEnd=432267|Gloss=NOM.2
 16	say	say	VERB	_	_	14	comp:obj	_	AlignBegin=432267|AlignEnd=432488|Gloss=say
 17	[	[	PUNCT	_	_	20	punct	_	AlignBegin=432488|AlignEnd=432488|Gloss=PUNCT
@@ -3766,7 +3763,7 @@
 # sent_id = IBA_07_Na-Love_DG__225
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_07_Na-Love_DG.mp3
 # speaker_id = Sp368
-# text = guy < dat one na thief o //= { da~ || dat } guy na thief o // 
+# text = guy < dat one na thief o //= { da~ || dat } guy na thief o //
 # text_en = Man, that guy is a thief, that, that guy is a thief.
 # text_ortho = Guy, dat one na thief o, da-... dat guy na thief o.
 1	guy	guy	NOUN	_	_	5	dislocated	_	AlignBegin=433040|AlignEnd=433234|Gloss=guy
@@ -3885,7 +3882,7 @@
 # text_en = But you give it to me.
 # text_ortho = So but you dey give me sha.
 1	so	so	ADV	_	_	4	discourse	_	AlignBegin=438944|AlignEnd=439187|Gloss=so
-2	but	but	CCONJ	_	_	4	cc	_	AlignBegin=439187|AlignEnd=439429|Gloss=but
+2	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=439187|AlignEnd=439429|Gloss=but
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=439429|AlignEnd=439672|Gloss=NOM.2
 4	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=439672|AlignEnd=439915|Gloss=IPFV
 5	give	give	VERB	_	_	4	comp:aux	_	AlignBegin=439915|AlignEnd=440158|Gloss=give
@@ -3899,7 +3896,7 @@
 # text = and you see sey [ my hair < I need to make another one ] //
 # text_en = And you see that my hair, I need another style.
 # text_ortho = And you see sey my hair, I need to make another one.
-1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=441900|AlignEnd=442132|Gloss=and
+1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=441900|AlignEnd=442132|Gloss=and
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=442132|AlignEnd=442363|Gloss=NOM.2
 3	see	see	VERB	_	_	0	root	_	AlignBegin=442363|AlignEnd=442594|Gloss=see
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=442594|AlignEnd=442826|Gloss=COMP
@@ -4026,7 +4023,7 @@
 # text = but babe < you know sey [ I love you ehn ] //
 # text_en = But babe, you know that I love you, yeah.
 # text_ortho = But babe, you know sey I love you ehn.
-1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=453632|AlignEnd=453824|Gloss=but
+1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=453632|AlignEnd=453824|Gloss=but
 2	babe	babe	NOUN	_	_	5	vocative	_	AlignBegin=453824|AlignEnd=454015|Gloss=babe
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=454015|AlignEnd=454015|Gloss=PUNCT
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=454015|AlignEnd=454207|Gloss=NOM.2
@@ -4232,7 +4229,7 @@
 2	anyway	anyway	ADV	_	_	7	mod:periph	_	AlignBegin=474208|AlignEnd=474441|Gloss=anyway
 3	sha	sha	PART	_	PartType=Disc	2	mod:emph	_	AlignBegin=474441|AlignEnd=474673|Gloss=really
 4	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=474673|AlignEnd=474673|Gloss=PUNCT
-5	but	but	CCONJ	_	_	7	cc	_	AlignBegin=474673|AlignEnd=474906|Gloss=but
+5	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=474673|AlignEnd=474906|Gloss=but
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=474906|AlignEnd=475138|Gloss=NOM.SG.1
 7	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=475138|AlignEnd=475371|Gloss=be
 8	hungry	hunger	ADJ	_	_	7	comp:pred	_	AlignBegin=475371|AlignEnd=475603|Gloss=hunger
@@ -4906,7 +4903,7 @@
 # text = but no worry //= no worry //
 # text_en = Don't worry, don't worry.
 # text_ortho = But no worry, no worry.
-1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=536195|AlignEnd=536398|Gloss=but
+1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=536195|AlignEnd=536398|Gloss=but
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=536398|AlignEnd=536601|Gloss=NEG
 3	worry	worry	VERB	_	_	0	root	_	AlignBegin=536601|AlignEnd=536805|Gloss=worry
 4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=536805|AlignEnd=536805|Gloss=PUNCT
@@ -5280,7 +5277,7 @@
 # text = and you don &//
 # text_en = And you have...
 # text_ortho = And you don...
-1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=569005|AlignEnd=569268|Gloss=and
+1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=569005|AlignEnd=569268|Gloss=and
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=569268|AlignEnd=569532|Gloss=NOM.2
 3	don	don	AUX	_	Aspect=Perf	0	root@scrap	_	AlignBegin=569532|AlignEnd=569795|Gloss=PRF
 4	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=569795|AlignEnd=569795|Gloss=PUNCT
@@ -5664,7 +5661,7 @@
 # text = but in di morning < you go go fetch water //
 # text_en = In the morning, you go and fetch water.
 # text_ortho = But in di morning, you go go fetch water.
-1	but	but	CCONJ	_	_	7	cc	_	AlignBegin=611850|AlignEnd=612035|Gloss=but
+1	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=611850|AlignEnd=612035|Gloss=but
 2	in	in	ADP	_	_	7	mod:periph	_	AlignBegin=612035|AlignEnd=612220|Gloss=in
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=612220|AlignEnd=612405|Gloss=DEF.ART
 4	morning	morning	NOUN	_	_	2	comp:obj	_	AlignBegin=612405|AlignEnd=612590|Gloss=morning
@@ -6030,3 +6027,4 @@
 2	oya	oya	INTJ	_	_	3	discourse	_	AlignBegin=649712|AlignEnd=650033|Gloss=come_on
 3	babe	babe	NOUN	_	_	0	root	_	AlignBegin=650033|AlignEnd=650355|Gloss=babe
 4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=650355|AlignEnd=650355|Gloss=PUNCT
+
