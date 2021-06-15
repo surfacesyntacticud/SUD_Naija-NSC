@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = WAZP_03_Education_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZP_03_Education_MG.mp3
@@ -586,8 +587,8 @@
 21	students	student	ADV	_	Number=Plur	20	comp:obj	_	AlignBegin=75545|AlignEnd=75980|Gloss=student.PL
 22	dem	dem	PART	_	Number=Plur	21	mod	_	AlignBegin=75980|AlignEnd=76140|Gloss=PL
 23	wey	wey	SCONJ	_	_	21	mod@relcl	_	AlignBegin=76140|AlignEnd=76260|Gloss=REL
-24	no	no	PART	_	Polarity=Neg	25	mod	_	AlignBegin=76260|AlignEnd=76380|Gloss=NEG
-25	go	go	AUX	_	Aspect=Prosp	23	comp:obj	_	AlignBegin=76380|AlignEnd=76440|Gloss=PROSP
+24	no	no	AUX	_	Polarity=Neg	23	comp:obj	_	AlignBegin=76260|AlignEnd=76380|Gloss=NEG
+25	go	go	AUX	_	Aspect=Prosp	24	comp:aux	_	AlignBegin=76380|AlignEnd=76440|Gloss=PROSP
 26	everly	everly	ADV	_	_	27	mod	_	AlignBegin=76440|AlignEnd=76864|Gloss=everly
 27	dey	dey	VERB	_	VerbType=Cop	25	comp:aux	_	AlignBegin=76864|AlignEnd=76980|Gloss=be
 28	economically	economically	ADV	_	_	29	mod	_	AlignBegin=76980|AlignEnd=77790|Gloss=economically
@@ -622,10 +623,10 @@
 6	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=80567|AlignEnd=80597|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=80597|AlignEnd=80757|Gloss=NOM.2
 8	graduate	graduate	VERB	_	_	3	parataxis:conj	_	AlignBegin=80757|AlignEnd=81260|Gloss=graduate
-9	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=81260|AlignEnd=81290|Gloss=PUNCT
-10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=81290|AlignEnd=81357|Gloss=NOM.2
-11	no	no	PART	_	Polarity=Neg	12	mod	_	AlignBegin=81357|AlignEnd=81487|Gloss=NEG
-12	open	open	VERB	_	_	8	parataxis:conj	_	AlignBegin=81487|AlignEnd=81776|Gloss=open
+9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=81260|AlignEnd=81290|Gloss=PUNCT
+10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=81290|AlignEnd=81357|Gloss=NOM.2
+11	no	no	AUX	_	Polarity=Neg	8	parataxis:conj	_	AlignBegin=81357|AlignEnd=81487|Gloss=NEG
+12	open	open	VERB	_	_	11	comp:aux	_	AlignBegin=81487|AlignEnd=81776|Gloss=open
 13	bonnet	bonnet	NOUN	_	_	12	comp:obj	_	AlignBegin=81776|AlignEnd=82073|Gloss=bonnet
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=82073|AlignEnd=82103|Gloss=PUNCT
 
@@ -653,14 +654,14 @@
 # text_en = You haven't even set your eyes on an engine.
 # text_ortho = You no even see engine sef.
 # timestamp = 1610453505814
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=83183|AlignEnd=83503|Gloss=PUNCT
-2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=83503|AlignEnd=83593|Gloss=NOM.2
-3	no	no	PART	_	Polarity=Neg	5	mod	_	AlignBegin=83593|AlignEnd=83703|Gloss=NEG
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=83183|AlignEnd=83503|Gloss=PUNCT
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=83503|AlignEnd=83593|Gloss=NOM.2
+3	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=83593|AlignEnd=83703|Gloss=NEG
 4	even	even	ADV	_	_	5	mod	_	AlignBegin=83703|AlignEnd=83931|Gloss=even
-5	see	see	VERB	_	_	0	root	_	AlignBegin=83931|AlignEnd=84143|Gloss=see
+5	see	see	VERB	_	_	3	comp:aux	_	AlignBegin=83931|AlignEnd=84143|Gloss=see
 6	engine	engine	NOUN	_	_	5	comp:obj	_	AlignBegin=84143|AlignEnd=84420|Gloss=engine
 7	sef	sef	PART	_	PartType=Disc	6	mod:emph	_	AlignBegin=84420|AlignEnd=84670|Gloss=FOC
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=84670|AlignEnd=84700|Gloss=PUNCT
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=84670|AlignEnd=84700|Gloss=PUNCT
 
 # user_id = emmett.strickland
 # sent_id = WAZP_03_Education_MG__29
@@ -757,30 +758,30 @@
 # timestamp = 1610453505814
 1	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=97656|AlignEnd=97816|Gloss=DEF.ART
 2	real	real	ADJ	_	_	3	mod	_	AlignBegin=97816|AlignEnd=98016|Gloss=real
-3	one	one	NOUN	_	NumType=Card	9	subj	_	AlignBegin=98016|AlignEnd=98169|Gloss=one
+3	one	one	NOUN	_	NumType=Card	8	subj	_	AlignBegin=98016|AlignEnd=98169|Gloss=one
 4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=98169|AlignEnd=98274|Gloss=REL
 5	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	6	mod:poss	_	AlignBegin=98274|AlignEnd=98440|Gloss=PL.3.POSS
 6	brain	brain	NOUN	_	_	7	subj	_	AlignBegin=98440|AlignEnd=98656|Gloss=brain
 7	strong	strong	ADJ	_	_	4	comp:obj	_	AlignBegin=98656|AlignEnd=98986|ExtPos=VERB|Gloss=strong
-8	no	no	PART	_	Polarity=Neg	9	mod	_	AlignBegin=98986|AlignEnd=99093|Gloss=NEG
-9	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=99093|AlignEnd=99256|Gloss=IPFV
+8	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=98986|AlignEnd=99093|Gloss=NEG
+9	dey	dey	AUX	_	Aspect=Imp	8	comp:aux	_	AlignBegin=99093|AlignEnd=99256|Gloss=IPFV
 10	reach	reach	VERB	_	_	9	comp:aux	_	AlignBegin=99256|AlignEnd=99566|Gloss=reach
 11	enter	enter	VERB	_	_	10	compound:svc	_	AlignBegin=99566|AlignEnd=99886|Gloss=enter
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=99916|AlignEnd=100247|Gloss=PUNCT
 13	because	because	SCONJ	_	_	9	mod	_	AlignBegin=100247|AlignEnd=100590|Gloss=because
 14	if	if	SCONJ	_	_	24	mod:periph	_	AlignBegin=100590|AlignEnd=100700|Gloss=if
-15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	subj	_	AlignBegin=100700|AlignEnd=100770|Gloss=NOM.2
-16	no	no	PART	_	Polarity=Neg	17	mod	_	AlignBegin=100770|AlignEnd=100940|Gloss=NEG
-17	pay	pay	VERB	_	_	14	comp:obj	_	AlignBegin=100940|AlignEnd=101050|Gloss=pay
+15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	subj	_	AlignBegin=100700|AlignEnd=100770|Gloss=NOM.2
+16	no	no	AUX	_	Polarity=Neg	14	comp:obj	_	AlignBegin=100770|AlignEnd=100940|Gloss=NEG
+17	pay	pay	VERB	_	_	16	comp:aux	_	AlignBegin=100940|AlignEnd=101050|Gloss=pay
 18	for	for	ADP	_	_	17	comp:obl	_	AlignBegin=101050|AlignEnd=101220|Gloss=for
 19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=101220|AlignEnd=101300|Gloss=DEF.ART
 20	malpractice	malpractice	NOUN	_	_	18	comp:obj	_	AlignBegin=101300|AlignEnd=101858|Gloss=malpractice
 21	<	<	PUNCT	_	_	14	punct	_	AlignBegin=101858|AlignEnd=101888|Gloss=PUNCT
-22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	24	subj	_	AlignBegin=101888|AlignEnd=101960|Gloss=NOM.2
-23	no	no	PART	_	Polarity=Neg	24	mod	_	AlignBegin=101960|AlignEnd=102110|Gloss=NEG
-24	reach	reach	VERB	_	_	13	comp:obj	_	AlignBegin=102110|AlignEnd=102340|Gloss=reach
+22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	23	subj	_	AlignBegin=101888|AlignEnd=101960|Gloss=NOM.2
+23	no	no	AUX	_	Polarity=Neg	13	comp:obj	_	AlignBegin=101960|AlignEnd=102110|Gloss=NEG
+24	reach	reach	VERB	_	_	23	comp:aux	_	AlignBegin=102110|AlignEnd=102340|Gloss=reach
 25	enter	enter	VERB	_	_	24	compound:svc	_	AlignBegin=102340|AlignEnd=102636|Gloss=enter
-26	//	//	PUNCT	_	_	9	punct	_	AlignBegin=102636|AlignEnd=102666|Gloss=PUNCT
+26	//	//	PUNCT	_	_	8	punct	_	AlignBegin=102636|AlignEnd=102666|Gloss=PUNCT
 
 # user_id = emmett.strickland
 # sent_id = WAZP_03_Education_MG__32
@@ -1076,10 +1077,10 @@
 21	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=144381|AlignEnd=144411|Gloss=PUNCT
 22	#	#	PUNCT	_	_	23	punct	_	AlignBegin=144411|AlignEnd=144921|Gloss=PUNCT
 23	wey	when	SCONJ	_	_	11	conj:coord	_	AlignBegin=144921|AlignEnd=145053|Gloss=when
-24	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	27	subj	_	AlignBegin=145053|AlignEnd=145118|Gloss=NOM.2
-25	no	no	PART	_	Polarity=Neg	27	mod	_	AlignBegin=145118|AlignEnd=145223|Gloss=NEG
+24	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	25	subj	_	AlignBegin=145053|AlignEnd=145118|Gloss=NOM.2
+25	no	no	AUX	_	Polarity=Neg	23	comp:obj	_	AlignBegin=145118|AlignEnd=145223|Gloss=NEG
 26	even	even	ADV	_	_	27	mod	_	AlignBegin=145223|AlignEnd=145428|Gloss=even
-27	see	see	VERB	_	_	23	comp:obj	_	AlignBegin=145428|AlignEnd=145678|Gloss=see
+27	see	see	VERB	_	_	25	comp:aux	_	AlignBegin=145428|AlignEnd=145678|Gloss=see
 28	wetin	wetin	PRON	_	PronType=Int	27	comp:obj	_	AlignBegin=145678|AlignEnd=145988|Gloss=what.Q
 29	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	subj	_	AlignBegin=145988|AlignEnd=146048|Gloss=NOM.SG.3
 30	study	study	VERB	_	_	28	mod@relcl	_	AlignBegin=146048|AlignEnd=146453|Gloss=study
@@ -1330,10 +1331,10 @@
 28	plus	plus	ADP	_	_	29	cc	_	AlignBegin=176973|AlignEnd=177203|Gloss=plus
 29	school	school	NOUN	_	_	7	conj:coord	_	AlignBegin=177203|AlignEnd=177373|Gloss=school
 30	wey	wey	SCONJ	_	_	29	mod@relcl	_	AlignBegin=177373|AlignEnd=177453|Gloss=REL
-31	lecturer	lecturer	NOUN	_	_	34	subj	_	AlignBegin=177483|AlignEnd=177933|Gloss=lecturer
-32	no	no	PART	_	Polarity=Neg	34	mod	_	AlignBegin=177933|AlignEnd=178043|Gloss=NEG
+31	lecturer	lecturer	NOUN	_	_	32	subj	_	AlignBegin=177483|AlignEnd=177933|Gloss=lecturer
+32	no	no	AUX	_	Polarity=Neg	30	comp:obj	_	AlignBegin=177933|AlignEnd=178043|Gloss=NEG
 33	kuku	kuku	ADV	_	_	34	mod	_	AlignBegin=178043|AlignEnd=178360|Gloss=really
-34	dey	dey	VERB	_	VerbType=Cop	30	comp:obj	_	AlignBegin=178360|AlignEnd=178504|Gloss=be
+34	dey	dey	VERB	_	VerbType=Cop	32	comp:aux	_	AlignBegin=178360|AlignEnd=178504|Gloss=be
 35	}	}	PUNCT	_	_	7	punct	_	AlignBegin=178504|AlignEnd=178534|Gloss=PUNCT
 36	(	(	PUNCT	_	_	38	punct	_	AlignBegin=178504|AlignEnd=178534|Gloss=PUNCT
 37	#	#	PUNCT	_	_	38	punct	_	AlignBegin=178534|AlignEnd=178684|Gloss=PUNCT
@@ -1378,11 +1379,11 @@
 76	>+	>+	PUNCT	_	_	77	punct	_	AlignBegin=187547|AlignEnd=187577|Gloss=PUNCT
 77	be	be	VERB	_	PartType=Cop	74	comp:cleft	_	AlignBegin=187577|AlignEnd=187678|Gloss=be
 78	sey	sey	SCONJ	_	_	77	comp:pred	_	AlignBegin=187678|AlignEnd=187777|Gloss=COMP
-79	[	[	PUNCT	_	_	83	punct	_	AlignBegin=187777|AlignEnd=187807|Gloss=PUNCT
+79	[	[	PUNCT	_	_	82	punct	_	AlignBegin=187777|AlignEnd=187807|Gloss=PUNCT
 80	dat	dat	DET	_	Number=Sing|PronType=Dem	81	det	_	AlignBegin=187807|AlignEnd=187947|Gloss=SG.DEM
-81	pikin	pikin	NOUN	_	_	83	subj	_	AlignBegin=187947|AlignEnd=188247|Gloss=child
-82	no	no	PART	_	Polarity=Neg	83	mod	_	AlignBegin=188247|AlignEnd=188367|Gloss=NEG
-83	go	go	AUX	_	Aspect=Prosp	78	comp:obj	_	AlignBegin=188367|AlignEnd=188486|Gloss=PROSP
+81	pikin	pikin	NOUN	_	_	82	subj	_	AlignBegin=187947|AlignEnd=188247|Gloss=child
+82	no	no	AUX	_	Polarity=Neg	78	comp:obj	_	AlignBegin=188247|AlignEnd=188367|Gloss=NEG
+83	go	go	AUX	_	Aspect=Prosp	82	comp:aux	_	AlignBegin=188367|AlignEnd=188486|Gloss=PROSP
 84	fit	fit	AUX	_	Mood=Pot	83	comp:aux	_	AlignBegin=188486|AlignEnd=188637|Gloss=ABIL
 85	pay	pay	VERB	_	_	84	comp:aux	_	AlignBegin=188637|AlignEnd=188806|Gloss=pay
 86	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	87	mod:poss	_	AlignBegin=188806|AlignEnd=188967|Gloss=NOM.SG.3
@@ -1398,7 +1399,7 @@
 96	even	even	ADV	_	_	98	mod	_	AlignBegin=190887|AlignEnd=191091|Gloss=even
 97	seven	seven	NUM	_	NumType=Card	98	det:num	_	AlignBegin=191091|AlignEnd=191462|Gloss=seven.CARD
 98	times	time	NOUN	_	Number=Plur	95	mod	_	AlignBegin=191462|AlignEnd=191757|Gloss=time.PL
-99	]	]	PUNCT	_	_	83	punct	_	AlignBegin=191757|AlignEnd=191787|Gloss=PUNCT
+99	]	]	PUNCT	_	_	82	punct	_	AlignBegin=191757|AlignEnd=191787|Gloss=PUNCT
 100	//	//	PUNCT	_	_	74	punct	_	AlignBegin=191757|AlignEnd=191787|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -1520,9 +1521,9 @@
 9	#	#	PUNCT	_	_	2	punct	_	AlignBegin=210784|AlignEnd=211090|Gloss=PUNCT
 10	since	since	ADP	_	_	23	mod:periph	_	AlignBegin=211090|AlignEnd=211407|Gloss=since
 11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=211407|AlignEnd=211510|Gloss=DEF.ART
-12	country	country	NOUN	_	_	14	subj	_	AlignBegin=211510|AlignEnd=211865|Gloss=country
-13	no	no	PART	_	Polarity=Neg	14	mod	_	AlignBegin=211865|AlignEnd=211999|Gloss=NEG
-14	dey	dey	AUX	_	Aspect=Imp	10	comp:obj	_	AlignBegin=211999|AlignEnd=212131|Gloss=IPFV
+12	country	country	NOUN	_	_	13	subj	_	AlignBegin=211510|AlignEnd=211865|Gloss=country
+13	no	no	AUX	_	Polarity=Neg	10	comp:obj	_	AlignBegin=211865|AlignEnd=211999|Gloss=NEG
+14	dey	dey	AUX	_	Aspect=Imp	13	comp:aux	_	AlignBegin=211999|AlignEnd=212131|Gloss=IPFV
 15	allow	allow	VERB	_	_	14	comp:aux	_	AlignBegin=212131|AlignEnd=212300|Gloss=allow
 16	foreign	foreign	ADJ	_	_	17	compound	_	AlignBegin=212300|AlignEnd=212620|Gloss=foreign
 17	investors	investor	NOUN	_	Number=Plur	15	comp:obj	_	AlignBegin=212620|AlignEnd=213130|Gloss=invester.PL
@@ -1808,14 +1809,14 @@
 # text_en = I'm not talking about another country.
 # text_ortho = I no dey talk for anoder country.
 # timestamp = 1610453505814
-1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=248420|AlignEnd=248520|Gloss=NOM.SG.1
-2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=248520|AlignEnd=248645|Gloss=NEG
-3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=248645|AlignEnd=248742|Gloss=IPFV
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=248420|AlignEnd=248520|Gloss=NOM.SG.1
+2	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=248520|AlignEnd=248645|Gloss=NEG
+3	dey	dey	AUX	_	Aspect=Imp	2	comp:aux	_	AlignBegin=248645|AlignEnd=248742|Gloss=IPFV
 4	talk	talk	VERB	_	_	3	comp:aux	_	AlignBegin=248742|AlignEnd=248920|Gloss=talk
 5	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=248920|AlignEnd=249020|Gloss=for
 6	anoder	anoder	DET	_	_	7	det	_	AlignBegin=249020|AlignEnd=249280|Gloss=another
 7	country	country	NOUN	_	_	5	comp:obj	_	AlignBegin=249280|AlignEnd=249622|Gloss=country
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=249622|AlignEnd=249652|Gloss=PUNCT
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=249622|AlignEnd=249652|Gloss=PUNCT
 
 # user_id = emmett.strickland
 # sent_id = WAZP_03_Education_MG__68
@@ -1848,9 +1849,9 @@
 21	of	of	ADP	_	_	20	mod	_	AlignBegin=253670|AlignEnd=253820|Gloss=of
 22	priority	priority	NOUN	_	_	21	comp:obj	_	AlignBegin=253820|AlignEnd=254260|Gloss=priority
 23	because	because	SCONJ	_	_	19	mod	_	AlignBegin=254260|AlignEnd=254500|Gloss=because
-24	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	26	subj	_	AlignBegin=254500|AlignEnd=254550|Gloss=NOM.SG.3
-25	no	no	PART	_	Polarity=Neg	26	mod	_	AlignBegin=254550|AlignEnd=254700|Gloss=NEG
-26	get	get	VERB	_	_	23	comp:obj	_	AlignBegin=254700|AlignEnd=254887|Gloss=get
+24	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	subj	_	AlignBegin=254500|AlignEnd=254550|Gloss=NOM.SG.3
+25	no	no	AUX	_	Polarity=Neg	23	comp:obj	_	AlignBegin=254550|AlignEnd=254700|Gloss=NEG
+26	get	get	VERB	_	_	25	comp:aux	_	AlignBegin=254700|AlignEnd=254887|Gloss=get
 27	value	value	NOUN	_	_	26	comp:obj	_	AlignBegin=254887|AlignEnd=255210|Gloss=value
 28	for	for	ADP	_	_	26	comp:obl	_	AlignBegin=255210|AlignEnd=255350|Gloss=for
 29	dis	dis	DET	_	Number=Sing|PronType=Dem	30	det	_	AlignBegin=255350|AlignEnd=255517|Gloss=SG.DEM
@@ -1899,22 +1900,22 @@
 # text_en = And those are the co-... CRK... why don't you go to Bible School?
 # text_ortho = And na dose co-... CRK, you no go Bible school?
 # timestamp = 1610453505814
-1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=259460|AlignEnd=259999|Gloss=PUNCT
+1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=259460|AlignEnd=259999|Gloss=PUNCT
 2	and	and	CCONJ	_	_	3	cc	_	AlignBegin=259999|AlignEnd=260109|Gloss=and
-3	na	now	ADV	_	_	13	discourse	_	AlignBegin=260109|AlignEnd=260249|Gloss=now
+3	na	now	ADV	_	_	12	discourse	_	AlignBegin=260109|AlignEnd=260249|Gloss=now
 4	dose	dose	DET	_	Number=Plur|PronType=Dem	6	det	_	AlignBegin=260249|AlignEnd=260431|Gloss=PL.DIST.DEM
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=260431|AlignEnd=260461|Gloss=PUNCT
-6	co~	X	X	_	_	13	dislocated	_	AlignBegin=260461|AlignEnd=260649|Gloss=X
+6	co~	X	X	_	_	12	dislocated	_	AlignBegin=260461|AlignEnd=260649|Gloss=X
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=260649|AlignEnd=260679|Gloss=PUNCT
 8	CRK	CRK	PROPN	_	_	6	conj:dicto	_	AlignBegin=260679|AlignEnd=261329|Gloss=CRK
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=261329|AlignEnd=261359|Gloss=PUNCT
 10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=261329|AlignEnd=261359|Gloss=PUNCT
-11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	subj	_	AlignBegin=261359|AlignEnd=261475|Gloss=NOM.2
-12	no	no	PART	_	Polarity=Neg	13	mod	_	AlignBegin=261475|AlignEnd=261619|Gloss=NEG
-13	go	go	VERB	_	_	0	root	_	AlignBegin=261619|AlignEnd=261729|Gloss=go
+11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=261359|AlignEnd=261475|Gloss=NOM.2
+12	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=261475|AlignEnd=261619|Gloss=NEG
+13	go	go	VERB	_	_	12	comp:aux	_	AlignBegin=261619|AlignEnd=261729|Gloss=go
 14	Bible	Bible	PROPN	_	_	15	compound	_	AlignBegin=261729|AlignEnd=262022|Gloss=Bible
 15	school	school	NOUN	_	_	13	comp:obj	_	AlignBegin=262022|AlignEnd=262211|Gloss=school
-16	?//	?//	PUNCT	_	_	13	punct	_	AlignBegin=262211|AlignEnd=262241|Gloss=PUNCT
+16	?//	?//	PUNCT	_	_	12	punct	_	AlignBegin=262211|AlignEnd=262241|Gloss=PUNCT
 
 # user_id = emmett.strickland
 # sent_id = WAZP_03_Education_MG__72
@@ -2039,8 +2040,8 @@
 22	#	#	PUNCT	_	_	21	punct	_	AlignBegin=278780|AlignEnd=278919|Gloss=PUNCT
 23	graduates	graduate	NOUN	_	Number=Plur	34	dislocated	_	AlignBegin=278919|AlignEnd=279349|Gloss=graduate.PL
 24	wey	wey	SCONJ	_	_	23	mod@relcl	_	AlignBegin=279349|AlignEnd=279409|Gloss=REL
-25	no	no	PART	_	Polarity=Neg	26	mod	_	AlignBegin=279409|AlignEnd=279529|Gloss=NEG
-26	get	get	VERB	_	_	24	comp:obj	_	AlignBegin=279529|AlignEnd=279729|Gloss=get
+25	no	no	AUX	_	Polarity=Neg	24	comp:obj	_	AlignBegin=279409|AlignEnd=279529|Gloss=NEG
+26	get	get	VERB	_	_	25	comp:aux	_	AlignBegin=279529|AlignEnd=279729|Gloss=get
 27	job	job	NOUN	_	_	26	comp:obj	_	AlignBegin=279729|AlignEnd=279909|Gloss=job
 28	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	subj	_	AlignBegin=279909|AlignEnd=279987|Gloss=NOM.PL.1
 29	dey	dey	AUX	_	Aspect=Imp	23	mod@relcl	_	AlignBegin=279987|AlignEnd=280129|Gloss=IPFV
@@ -2263,15 +2264,15 @@
 # text_en = So did the man not have his own plans?
 # text_ortho = So di man no get e own plans?
 # timestamp = 1610453505814
-1	so	so	ADV	_	_	5	discourse	_	AlignBegin=305960|AlignEnd=306170|Gloss=so
+1	so	so	ADV	_	_	4	discourse	_	AlignBegin=305960|AlignEnd=306170|Gloss=so
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=306170|AlignEnd=306280|Gloss=DEF.ART
-3	man	man	NOUN	_	_	5	subj	_	AlignBegin=306280|AlignEnd=306490|Gloss=man
-4	no	no	PART	_	Polarity=Neg	5	mod	_	AlignBegin=306490|AlignEnd=306630|Gloss=NEG
-5	get	get	VERB	_	_	0	root	_	AlignBegin=306630|AlignEnd=306840|Gloss=get
+3	man	man	NOUN	_	_	4	subj	_	AlignBegin=306280|AlignEnd=306490|Gloss=man
+4	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=306490|AlignEnd=306630|Gloss=NEG
+5	get	get	VERB	_	_	4	comp:aux	_	AlignBegin=306630|AlignEnd=306840|Gloss=get
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	mod:poss	_	AlignBegin=306840|AlignEnd=306916|Gloss=NOM.SG.3
 7	own	own	ADJ	_	_	8	mod	_	AlignBegin=306916|AlignEnd=307000|Gloss=own
 8	plans	plan	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=307000|AlignEnd=307310|Gloss=plan.PL
-9	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=307310|AlignEnd=307340|Gloss=PUNCT
+9	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=307310|AlignEnd=307340|Gloss=PUNCT
 
 # user_id = emmett.strickland
 # sent_id = WAZP_03_Education_MG__84
@@ -2513,13 +2514,13 @@
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=341760|AlignEnd=342140|Gloss=PUNCT
 17	unless	unless	SCONJ	_	_	9	mod	_	AlignBegin=342140|AlignEnd=342470|Gloss=unless
 18	dat	dat	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=342470|AlignEnd=342650|Gloss=SG.DEM
-19	worm	worm	NOUN	_	_	25	subj	_	AlignBegin=342650|AlignEnd=342880|Gloss=worm
+19	worm	worm	NOUN	_	_	24	subj	_	AlignBegin=342650|AlignEnd=342880|Gloss=worm
 20	wey	wey	SCONJ	_	_	19	mod@relcl	_	AlignBegin=342880|AlignEnd=342980|Gloss=REL
 21	dey	dey	VERB	_	VerbType=Cop	20	comp:obj	_	AlignBegin=342980|AlignEnd=343140|Gloss=be
 22	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	mod:poss	_	AlignBegin=343140|AlignEnd=343170|Gloss=NOM.SG.3
 23	belle	belle	NOUN	_	_	21	comp:pred	_	AlignBegin=343170|AlignEnd=343424|Gloss=belly
-24	no	no	PART	_	Polarity=Neg	25	mod	_	AlignBegin=343424|AlignEnd=343540|Gloss=NEG
-25	strong	strong	ADJ	_	_	17	comp:obj	_	AlignBegin=343540|AlignEnd=343910|ExtPos=VERB|Gloss=strong
+24	no	no	AUX	_	Polarity=Neg	17	comp:obj	_	AlignBegin=343424|AlignEnd=343540|Gloss=NEG
+25	strong	strong	ADJ	_	_	24	comp:aux	_	AlignBegin=343540|AlignEnd=343910|ExtPos=VERB|Gloss=strong
 26	//	//	PUNCT	_	_	2	punct	_	AlignBegin=343910|AlignEnd=343940|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -2556,3 +2557,4 @@
 24	dey	dey	VERB	_	VerbType=Cop	18	comp:cleft	_	AlignBegin=349260|AlignEnd=349445|Gloss=be
 25	o	o	PART	_	PartType=Disc	18	mod:emph	_	AlignBegin=349445|AlignEnd=349490|Gloss=EMPH
 26	//	//	PUNCT	_	_	18	punct	_	AlignBegin=349490|AlignEnd=349520|Gloss=PUNCT
+
