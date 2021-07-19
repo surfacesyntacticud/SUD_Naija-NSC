@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = ENU_09_Angry-Neighbours_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_09_Angry-Neighbours_MG.mp3
@@ -61,7 +62,7 @@
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=8200|AlignEnd=10459|Gloss=PUNCT
 2	normally	normally	ADV	_	_	16	mod:periph	_	AlignBegin=10459|AlignEnd=10858|Gloss=normally
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=10858|AlignEnd=10888|Gloss=PUNCT
-4	if	if	SCONJ	_	_	16	mod:periph	_	AlignBegin=10888|AlignEnd=11010|Gloss=if
+4	if	if	SCONJ	_	_	16	mod:periph$cond	_	AlignBegin=10888|AlignEnd=11010|Gloss=if
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	AlignBegin=11010|AlignEnd=11080|Gloss=NOM.PL.1
 6	stand	stand	VERB	_	_	4	comp:obj	_	AlignBegin=11080|AlignEnd=11420|Gloss=stand
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=11420|AlignEnd=11490|Gloss=NOM.2
@@ -96,7 +97,7 @@
 # timestamp = 1623763779598
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=15130|AlignEnd=15948|Gloss=PUNCT
 2	so	so	ADV	_	_	12	discourse	_	AlignBegin=15948|AlignEnd=16085|Gloss=so
-3	as	as	ADP	_	_	12	mod:periph	_	AlignBegin=16085|AlignEnd=16230|Gloss=as
+3	as	as	ADP	_	_	12	mod:periph@tempo	_	AlignBegin=16085|AlignEnd=16230|Gloss=as
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	AlignBegin=16230|AlignEnd=16290|Gloss=NOM.PL.1
 5	just	just	ADV	_	_	6	mod	_	AlignBegin=16290|AlignEnd=16529|Gloss=just
 6	wake	wake	VERB	_	_	3	comp:obj	_	AlignBegin=16529|AlignEnd=16760|Gloss=wake
@@ -217,7 +218,7 @@
 # text_ortho = As we pray finish now, we con open door to go outside.
 # timestamp = 1610453213023
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=30000|AlignEnd=30740|Gloss=PUNCT
-2	as	as	ADP	_	_	9	mod:periph	_	AlignBegin=30740|AlignEnd=31090|Gloss=as
+2	as	as	ADP	_	_	9	mod:periph@tempo	_	AlignBegin=30740|AlignEnd=31090|Gloss=as
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=31090|AlignEnd=31245|Gloss=NOM.PL.1
 4	pray	pray	VERB	_	_	2	comp:obj	_	AlignBegin=31245|AlignEnd=31450|Gloss=pray
 5	finish	finish	VERB	_	_	4	compound:svc	_	AlignBegin=31450|AlignEnd=31890|Gloss=finish
@@ -228,7 +229,7 @@
 10	open	open	VERB	_	_	9	comp:aux	_	AlignBegin=32370|AlignEnd=32730|Gloss=open
 11	door	door	NOUN	_	_	10	comp:obj	_	AlignBegin=32730|AlignEnd=33020|Gloss=door
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=33020|AlignEnd=34020|Gloss=PUNCT
-13	to	to	ADP	_	_	10	mod	_	AlignBegin=34020|AlignEnd=34172|Gloss=to
+13	to	to	ADP	_	_	10	mod$purp	_	AlignBegin=34020|AlignEnd=34172|Gloss=to
 14	go	go	VERB	_	_	13	comp:obj	_	AlignBegin=34172|AlignEnd=34346|Gloss=go
 15	outside	outside	ADP	_	_	14	comp:obl	_	AlignBegin=34346|AlignEnd=34966|Gloss=outside
 16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=34966|AlignEnd=34996|Gloss=PUNCT
@@ -388,11 +389,11 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=54931|AlignEnd=55400|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=55400|AlignEnd=55470|Gloss=NOM.2
 3	want	want	VERB	_	_	0	root	_	AlignBegin=55470|AlignEnd=55551|Gloss=want
-4	tell	tell	VERB	_	_	3	comp:pred	_	AlignBegin=55551|AlignEnd=55660|Gloss=tell
+4	tell	tell	VERB	_	_	3	comp:pred$desire	_	AlignBegin=55551|AlignEnd=55660|Gloss=tell
 5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	AlignBegin=55660|AlignEnd=55782|Gloss=ACC.SG.1
 6	sey	sey	SCONJ	_	_	4	comp:obj	_	AlignBegin=55782|AlignEnd=55920|Gloss=COMP
 7	[	[	PUNCT	_	_	18	punct	_	AlignBegin=55920|AlignEnd=55950|Gloss=PUNCT
-8	if	if	SCONJ	_	_	18	mod:periph	_	AlignBegin=55950|AlignEnd=56040|Gloss=if
+8	if	if	SCONJ	_	_	18	mod:periph$cond	_	AlignBegin=55950|AlignEnd=56040|Gloss=if
 9	to	to	ADP	_	_	8	comp:obj	_	AlignBegin=56040|AlignEnd=56209|Gloss=to
 10	say	say	VERB	_	_	9	comp:obj	_	AlignBegin=56209|AlignEnd=56377|Gloss=say
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=56377|AlignEnd=56489|Gloss=NOM.2
@@ -466,7 +467,7 @@
 19	wey	when	SCONJ	_	_	10	conj:coord	_	AlignBegin=65928|AlignEnd=66020|Gloss=when
 20	don	don	AUX	_	Aspect=Perf	19	comp:obj	_	AlignBegin=66020|AlignEnd=66190|Gloss=PRF
 21	happen	happen	VERB	_	_	20	comp:aux	_	AlignBegin=66190|AlignEnd=66504|Gloss=happen
-22	when	when	SCONJ	_	PronType=Int	21	mod	_	AlignBegin=66504|AlignEnd=66710|Gloss=when.Q
+22	when	when	SCONJ	_	PronType=Int	21	mod$tempo	_	AlignBegin=66504|AlignEnd=66710|Gloss=when.Q
 23	di	di	DET	_	Definite=Def|PronType=Art	24	det	_	AlignBegin=66710|AlignEnd=66780|Gloss=DEF.ART
 24	Amaka	Amaka	PROPN	_	_	26	subj	_	AlignBegin=66780|AlignEnd=67204|Gloss=Amaka
 25	just	just	ADV	_	_	26	mod	_	AlignBegin=67204|AlignEnd=67420|Gloss=just
@@ -558,7 +559,7 @@
 # text_ortho = As I stand dere, I look, look and noting to, as in noting to even utter to dem.
 # timestamp = 1610453213023
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=77400|AlignEnd=78120|Gloss=PUNCT
-2	as	as	ADP	_	_	10	mod:periph	_	AlignBegin=78120|AlignEnd=78340|Gloss=as
+2	as	as	ADP	_	_	10	mod:periph@tempo	_	AlignBegin=78120|AlignEnd=78340|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=78340|AlignEnd=78477|Gloss=NOM.SG.1
 4	stand	stand	VERB	_	_	2	comp:obj	_	AlignBegin=78477|AlignEnd=78830|Gloss=stand
 5	dere	dere	ADV	_	_	4	mod	_	AlignBegin=78830|AlignEnd=79090|Gloss=there
@@ -631,7 +632,7 @@
 20	dese	dese	DET	_	Number=Plur|PronType=Dem	21	det	_	AlignBegin=89441|AlignEnd=89660|Gloss=PL.PROX.DEM|Lang=en
 21	girls	girl	NOUN	_	Number=Plur	19	comp:obj	_	AlignBegin=89660|AlignEnd=90080|Gloss=girl.PL|Lang=en
 22	}	}	PUNCT	_	_	14	punct	_	AlignBegin=90080|AlignEnd=90110|Gloss=PUNCT
-23	if	if	SCONJ	_	_	12	mod	_	AlignBegin=90110|AlignEnd=90220|Gloss=if|Lang=en
+23	if	if	SCONJ	_	_	12	mod$cond	_	AlignBegin=90110|AlignEnd=90220|Gloss=if|Lang=en
 24	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	subj	_	AlignBegin=90220|AlignEnd=90290|Gloss=NOM.SG.1|Lang=en
 25	come	come	VERB	_	_	23	comp:obj	_	AlignBegin=90290|AlignEnd=90510|Gloss=come|Lang=en
 26	back	back	ADV	_	_	25	mod	_	AlignBegin=90510|AlignEnd=90680|Gloss=back|Lang=en
@@ -652,8 +653,8 @@
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=91360|AlignEnd=91430|Gloss=NOM.PL.1
 3	go	go	VERB	_	_	1	comp:aux	_	AlignBegin=91430|AlignEnd=91590|Gloss=go
 4	inside	inside	ADP	_	_	3	comp:obl	_	AlignBegin=91590|AlignEnd=91960|Gloss=inside
-5	go	go	VERB	_	_	3	comp:pred	_	AlignBegin=91960|AlignEnd=92110|Gloss=go
-6	prepare	prepare	VERB	_	_	5	comp:pred	_	AlignBegin=92110|AlignEnd=92502|Gloss=prepare
+5	go	go	VERB	_	_	3	comp:pred$purp	_	AlignBegin=91960|AlignEnd=92110|Gloss=go
+6	prepare	prepare	VERB	_	_	5	comp:pred$purp	_	AlignBegin=92110|AlignEnd=92502|Gloss=prepare
 7	work	work	NOUN	_	_	6	comp:obj	_	AlignBegin=92502|AlignEnd=92900|Gloss=work
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=92900|AlignEnd=92930|Gloss=PUNCT
 
@@ -820,7 +821,7 @@
 # timestamp = 1619371087913
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=114165|AlignEnd=114677|Gloss=PUNCT
 2	so	so	ADV	_	_	14	discourse	_	AlignBegin=114677|AlignEnd=114870|Gloss=so
-3	as	as	ADP	_	_	14	mod:periph	_	AlignBegin=114870|AlignEnd=115090|Gloss=as
+3	as	as	ADP	_	_	14	mod:periph@tempo	_	AlignBegin=114870|AlignEnd=115090|Gloss=as
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=115090|AlignEnd=115201|Gloss=NOM.SG.1
 5	come	come	VERB	_	_	3	comp:obj	_	AlignBegin=115201|AlignEnd=115485|Gloss=come
 6	back	back	ADV	_	_	5	mod	_	AlignBegin=115485|AlignEnd=115780|Gloss=back
@@ -846,7 +847,7 @@
 26	<	<	PUNCT	_	_	22	punct	_	AlignBegin=120570|AlignEnd=120600|Gloss=PUNCT
 27	#	#	PUNCT	_	_	22	punct	_	AlignBegin=120600|AlignEnd=121165|Gloss=PUNCT
 28	even	even	ADV	_	_	29	mod	_	AlignBegin=121165|AlignEnd=121729|Gloss=even|Lang=en
-29	when	when	SCONJ	_	PronType=Int	43	mod:periph	_	AlignBegin=121729|AlignEnd=121870|Gloss=when.Q|Lang=en
+29	when	when	SCONJ	_	PronType=Int	43	mod:periph$tempo	_	AlignBegin=121729|AlignEnd=121870|Gloss=when.Q|Lang=en
 30	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	subj	_	AlignBegin=121870|AlignEnd=121990|Gloss=NOM.SG.1|Lang=en
 31	used	use	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	29	comp:obj	_	AlignBegin=121990|AlignEnd=122139|Gloss=use.IND.PST.FIN|Lang=en
 32	to	to	ADP	_	_	31	comp:pred	_	AlignBegin=122139|AlignEnd=122240|Gloss=to|Lang=en
@@ -855,7 +856,7 @@
 35	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	36	mod:poss	_	AlignBegin=122650|AlignEnd=122791|Gloss=SG.1.POSS|Lang=en
 36	parents	parent	NOUN	_	Number=Plur	34	comp:obj	_	AlignBegin=122791|AlignEnd=123406|Gloss=parent.PL|Lang=en
 37	<	<	PUNCT	_	_	29	punct	_	AlignBegin=123406|AlignEnd=123436|Gloss=PUNCT
-38	if	if	SCONJ	_	_	43	mod:periph	_	AlignBegin=123436|AlignEnd=123600|Gloss=if|Lang=en
+38	if	if	SCONJ	_	_	43	mod:periph$cond	_	AlignBegin=123436|AlignEnd=123600|Gloss=if|Lang=en
 39	anything	anyting	PRON	_	_	40	subj	_	AlignBegin=123600|AlignEnd=123960|Gloss=anything|Lang=en
 40	happen	happen	VERB	_	_	38	comp:obj	_	AlignBegin=123960|AlignEnd=124480|Gloss=happen|Lang=en
 41	<	<	PUNCT	_	_	38	punct	_	AlignBegin=124480|AlignEnd=124510|Gloss=PUNCT
@@ -863,7 +864,7 @@
 43	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	parataxis:obj	_	AlignBegin=124700|AlignEnd=124900|Gloss=do.IND.PRS.FIN|Lang=en|SpaceAfter=No
 44	n't	not	PART	_	Polarity=Neg	43	mod	_	AlignBegin=124700|AlignEnd=124900|Gloss=NEG|Lang=en
 45	talk	talk	VERB	_	_	43	comp:aux	_	AlignBegin=124900|AlignEnd=125140|Gloss=talk|Lang=en
-46	when	when	SCONJ	_	PronType=Int	45	mod	_	AlignBegin=125140|AlignEnd=125310|Gloss=when.Q|Lang=en
+46	when	when	SCONJ	_	PronType=Int	45	mod$tempo	_	AlignBegin=125140|AlignEnd=125310|Gloss=when.Q|Lang=en
 47	oders	oder	PRON	_	Number=Plur	48	subj	_	AlignBegin=125310|AlignEnd=125620|Gloss=other.PL|Lang=en
 48	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	46	comp:obj	_	AlignBegin=125620|AlignEnd=125710|Gloss=be.IND.PRS.FIN|Lang=en
 49	talking	talk	VERB	_	Tense=Pres|VerbForm=Part	48	comp:aux	_	AlignBegin=125710|AlignEnd=126160|Gloss=talk.PRS.PTCP|Lang=en
@@ -918,7 +919,7 @@
 4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=132218|AlignEnd=132290|Gloss=DEF.ART
 5	evening	evening	NOUN	_	_	3	comp:obj	_	AlignBegin=132290|AlignEnd=132726|Gloss=evening
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=132726|AlignEnd=132756|Gloss=PUNCT
-7	as	as	ADP	_	_	24	mod:periph	_	AlignBegin=132756|AlignEnd=132890|Gloss=as
+7	as	as	ADP	_	_	24	mod:periph@tempo	_	AlignBegin=132756|AlignEnd=132890|Gloss=as
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=132890|AlignEnd=132980|Gloss=NOM.SG.1
 9	con	con	AUX	_	Aspect=Cons	7	comp:obj	_	AlignBegin=132980|AlignEnd=133260|Gloss=CONS
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=133260|AlignEnd=133506|Gloss=PUNCT
@@ -952,7 +953,7 @@
 38	<	<	PUNCT	_	_	33	punct	_	AlignBegin=139900|AlignEnd=139930|Gloss=PUNCT
 39	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	subj	_	AlignBegin=139930|AlignEnd=140020|Gloss=NOM.SG.1|Lang=en
 40	want	want	VERB	_	_	32	comp:obj	_	AlignBegin=140020|AlignEnd=140140|Gloss=want|Lang=en
-41	to	to	ADP	_	_	40	comp:pred	_	AlignBegin=140140|AlignEnd=140240|Gloss=to|Lang=en
+41	to	to	ADP	_	_	40	comp:pred$desire	_	AlignBegin=140140|AlignEnd=140240|Gloss=to|Lang=en
 42	see	see	VERB	_	_	41	comp:obj	_	AlignBegin=140240|AlignEnd=140593|Gloss=see|Lang=en
 43	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	42	comp:obj	_	AlignBegin=140593|AlignEnd=140740|Gloss=NOM.2|Lang=en
 44	in	in	ADP	_	_	42	mod	_	AlignBegin=140740|AlignEnd=140840|Gloss=in|Lang=en
@@ -1212,7 +1213,7 @@
 3	of	of	ADP	_	_	2	mod	_	AlignBegin=176740|AlignEnd=176990|Gloss=of
 4	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=176990|AlignEnd=177180|Gloss=ACC.PL.3
 5	try	try	VERB	_	_	0	root	_	AlignBegin=177180|AlignEnd=177550|Gloss=try
-6	understand	understand	VERB	_	_	5	comp:pred	_	AlignBegin=177550|AlignEnd=178296|Gloss=understand
+6	understand	understand	VERB	_	_	5	comp:pred$desire	_	AlignBegin=177550|AlignEnd=178296|Gloss=understand
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=178296|AlignEnd=178326|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -1367,7 +1368,7 @@
 9	#	#	PUNCT	_	_	11	punct	_	AlignBegin=198080|AlignEnd=198580|Gloss=PUNCT
 10	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	AlignBegin=198580|AlignEnd=198694|Gloss=NOM.PL.3
 11	try	try	VERB	_	_	0	root	_	AlignBegin=198694|AlignEnd=199040|Gloss=try
-12	understand	understand	VERB	_	_	11	comp:pred	_	AlignBegin=199040|AlignEnd=199560|Gloss=understand
+12	understand	understand	VERB	_	_	11	comp:pred$desire	_	AlignBegin=199040|AlignEnd=199560|Gloss=understand
 13	wit	wit	ADP	_	_	12	comp:obl	_	AlignBegin=199560|AlignEnd=199850|Gloss=with
 14	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	AlignBegin=199850|AlignEnd=200060|Gloss=ACC.SG.1
 15	//	//	PUNCT	_	_	11	punct	_	AlignBegin=200060|AlignEnd=200090|Gloss=PUNCT
@@ -1430,3 +1431,4 @@
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=207670|AlignEnd=207790|Gloss=NOM.SG.3
 7	be	be	VERB	_	PartType=Cop	3	comp:cleft	_	AlignBegin=207790|AlignEnd=208103|Gloss=be
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=208103|AlignEnd=208133|Gloss=PUNCT
+

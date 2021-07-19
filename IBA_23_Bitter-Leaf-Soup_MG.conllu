@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -139,7 +140,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=26520|AlignEnd=27340|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=27340|AlignEnd=27459|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=27459|AlignEnd=27630|Gloss=want
-4	teach	teach	VERB	_	_	3	comp:pred	_	AlignBegin=27630|AlignEnd=28100|Gloss=teach
+4	teach	teach	VERB	_	_	3	comp:pred$desire	_	AlignBegin=27630|AlignEnd=28100|Gloss=teach
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	comp:obl	_	AlignBegin=28100|AlignEnd=28500|Gloss=NOM.2
 6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=28500|AlignEnd=28960|Gloss=PUNCT
 7	one	one	DET	_	Definite=Spec|PronType=Art	8	det	_	AlignBegin=28960|AlignEnd=29110|Gloss=SPEC.ART
@@ -363,7 +364,7 @@
 10	comot	comot	VERB	_	_	9	comp:aux	_	AlignBegin=84090|AlignEnd=84700|Gloss=get_out
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=84700|AlignEnd=85240|Gloss=PUNCT
 12	so	so	SCONJ	_	_	4	mod	_	AlignBegin=85240|AlignEnd=85340|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-13	dat	dat	PRON	_	Number=Sing|PronType=Dem	12	comp:obj	_	AlignBegin=85340|AlignEnd=85440|Gloss=SG.DEM|InIdiom=Yes
+13	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	12	comp:obj	_	AlignBegin=85340|AlignEnd=85440|Gloss=SG.DEM|InIdiom=Yes
 14	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	subj	_	AlignBegin=85440|AlignEnd=85489|Gloss=NOM.SG.3
 15	no	no	AUX	_	Polarity=Neg	12	comp:obj	_	AlignBegin=85489|AlignEnd=85660|Gloss=NEG
 16	go	go	AUX	_	Aspect=Prosp	15	comp:aux	_	AlignBegin=85660|AlignEnd=85740|Gloss=CONT
@@ -465,7 +466,7 @@
 # text_ortho = If I cook di cocoyam, I go con...
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=98873|AlignEnd=99133|Gloss=PUNCT
-2	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=99133|AlignEnd=99273|Gloss=if
+2	if	if	SCONJ	_	_	10	mod:periph$cond	_	AlignBegin=99133|AlignEnd=99273|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=99273|AlignEnd=99353|Gloss=NOM.SG.1
 4	cook	cook	VERB	_	_	2	comp:obj	_	AlignBegin=99353|AlignEnd=99553|Gloss=cook
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=99553|AlignEnd=99713|Gloss=DEF.ART
@@ -526,7 +527,7 @@
 # text_ortho = If I pound di cocoyam, de dey put cocoyam for bitter leaf soup because de want make e thick so dat e no go be water, water.
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=108286|AlignEnd=108647|Gloss=PUNCT
-2	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=108647|AlignEnd=108837|Gloss=if
+2	if	if	SCONJ	_	_	10	mod:periph$cond	_	AlignBegin=108647|AlignEnd=108837|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=108837|AlignEnd=108947|Gloss=NOM.SG.1
 4	pound	pound	VERB	_	_	2	comp:obj	_	AlignBegin=108947|AlignEnd=109237|Gloss=pound
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=109237|AlignEnd=109327|Gloss=DEF.ART
@@ -545,7 +546,7 @@
 18	#	#	PUNCT	_	_	20	punct	_	AlignBegin=112647|AlignEnd=112838|Gloss=PUNCT
 19	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	subj	_	AlignBegin=112838|AlignEnd=112967|Gloss=NOM.PL.3
 20	want	want	VERB	_	_	17	comp:obj	_	AlignBegin=112967|AlignEnd=113121|Gloss=want
-21	make	make	AUX	_	Mood=Opt	20	comp:pred	_	AlignBegin=113121|AlignEnd=113337|Gloss=SBJV
+21	make	make	AUX	_	Mood=Opt	20	comp:pred$desire	_	AlignBegin=113121|AlignEnd=113337|Gloss=SBJV
 22	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	subj	_	AlignBegin=113337|AlignEnd=113407|Gloss=NOM.SG.3
 23	thick	thick	ADJ	_	_	21	comp:aux	_	AlignBegin=113407|AlignEnd=113884|ExtPos=VERB|Gloss=thick
 24	so	so	SCONJ	_	_	23	mod	_	AlignBegin=113884|AlignEnd=114092|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
@@ -571,7 +572,7 @@
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	27	punct	_	AlignBegin=115420|AlignEnd=116560|Gloss=PUNCT
 2	so	so	ADV	_	_	27	discourse	_	AlignBegin=116560|AlignEnd=116830|Gloss=so
-3	if	if	SCONJ	_	_	27	mod:periph	_	AlignBegin=116830|AlignEnd=116960|Gloss=if
+3	if	if	SCONJ	_	_	27	mod:periph$cond	_	AlignBegin=116830|AlignEnd=116960|Gloss=if
 4	{	{	PUNCT	_	_	11	punct	_	AlignBegin=116960|AlignEnd=116990|Gloss=PUNCT
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=116960|AlignEnd=116990|Gloss=PUNCT
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=116990|AlignEnd=117436|Gloss=NOM.SG.1
@@ -669,7 +670,7 @@
 # text_ortho = If I don put everything inside, e go dey boil, I go leave so dat di pepper go enter am well, well.
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=133270|AlignEnd=133740|Gloss=PUNCT
-2	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=133740|AlignEnd=133820|Gloss=if
+2	if	if	SCONJ	_	_	10	mod:periph$cond	_	AlignBegin=133740|AlignEnd=133820|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=133820|AlignEnd=133950|Gloss=NOM.SG.1
 4	don	don	AUX	_	Aspect=Perf	2	comp:obj	_	AlignBegin=133950|AlignEnd=134100|Gloss=PRF
 5	put	put	VERB	_	_	4	comp:aux	_	AlignBegin=134100|AlignEnd=134293|Gloss=put
@@ -685,7 +686,7 @@
 15	go	go	AUX	_	Aspect=Prosp	10	parataxis:conj	_	AlignBegin=135780|AlignEnd=135890|Gloss=CONT
 16	leave	leave	VERB	_	_	15	comp:aux	_	AlignBegin=135890|AlignEnd=136120|Gloss=leave
 17	so	so	SCONJ	_	_	16	mod	_	AlignBegin=136120|AlignEnd=136240|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-18	dat	dat	PRON	_	Number=Sing|PronType=Dem	17	comp:obj	_	AlignBegin=136240|AlignEnd=136360|Gloss=SG.DEM|InIdiom=Yes
+18	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	17	comp:obj	_	AlignBegin=136240|AlignEnd=136360|Gloss=SG.DEM|InIdiom=Yes
 19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=136360|AlignEnd=136430|Gloss=DEF.ART
 20	pepper	pepper	NOUN	_	_	21	subj	_	AlignBegin=136430|AlignEnd=136700|Gloss=pepper
 21	go	go	AUX	_	Aspect=Prosp	17	comp:obj	_	AlignBegin=136700|AlignEnd=136860|Gloss=CONT
@@ -712,9 +713,9 @@
 4	con	con	AUX	_	Aspect=Cons	3	comp:aux	_	AlignBegin=139160|AlignEnd=139570|Gloss=CONS
 5	leave	leave	VERB	_	_	4	comp:aux	_	AlignBegin=139570|AlignEnd=139940|Gloss=leave
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=139940|AlignEnd=140070|Gloss=ACC.SG.3
-7	make	make	AUX	_	Mood=Opt	5	mod	_	AlignBegin=140070|AlignEnd=140250|Gloss=SBJV
+7	make	make	SCONJ	_	_	5	mod$purp	_	AlignBegin=140070|AlignEnd=140250|Gloss=that
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=140250|AlignEnd=140290|Gloss=NOM.SG.3
-9	boil	boil	VERB	_	_	7	comp:aux	_	AlignBegin=140290|AlignEnd=140558|Gloss=boil
+9	boil	boil	VERB	_	_	7	comp:obj	_	AlignBegin=140290|AlignEnd=140558|Gloss=boil
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=140558|AlignEnd=140588|Gloss=PUNCT
 11	well	well	ADV	_	_	9	mod	_	AlignBegin=140588|AlignEnd=140698|Gloss=well
 12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=140698|AlignEnd=140728|Gloss=PUNCT
@@ -755,9 +756,9 @@
 23	put	put	VERB	_	_	20	parataxis:conj	_	AlignBegin=145020|AlignEnd=145140|Gloss=put
 24	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	25	mod	_	AlignBegin=145140|AlignEnd=145350|Gloss=SG.1.POSS
 25	salt	salt	NOUN	_	_	23	comp:obj	_	AlignBegin=145350|AlignEnd=145660|Gloss=salt
-26	make	make	AUX	_	Mood=Opt	23	mod	_	AlignBegin=145660|AlignEnd=145804|Gloss=SBJV
+26	make	make	SCONJ	_	_	23	mod$purp	_	AlignBegin=145660|AlignEnd=145804|Gloss=that
 27	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	subj	_	AlignBegin=145804|AlignEnd=145910|Gloss=NOM.SG.3
-28	taste	taste	VERB	_	_	26	comp:aux	_	AlignBegin=145910|AlignEnd=146300|Gloss=taste
+28	taste	taste	VERB	_	_	26	comp:obj	_	AlignBegin=145910|AlignEnd=146300|Gloss=taste
 29	{	{	PUNCT	_	_	30	punct	_	AlignBegin=146300|AlignEnd=146330|Gloss=PUNCT
 30	well	well	ADV	_	_	28	mod	_	AlignBegin=146330|AlignEnd=146463|Gloss=well
 31	|r	|r	PUNCT	_	_	32	punct	_	AlignBegin=146463|AlignEnd=146493|Gloss=PUNCT
@@ -775,7 +776,7 @@
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	34	punct	_	AlignBegin=146654|AlignEnd=147022|Gloss=PUNCT
 2	so	so	ADV	_	_	34	discourse	_	AlignBegin=147022|AlignEnd=147172|Gloss=so
-3	if	if	SCONJ	_	_	34	mod:periph	_	AlignBegin=147172|AlignEnd=147272|Gloss=if
+3	if	if	SCONJ	_	_	34	mod:periph$cond	_	AlignBegin=147172|AlignEnd=147272|Gloss=if
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=147272|AlignEnd=147392|Gloss=NOM.SG.1
 5	see	see	VERB	_	_	3	comp:obj	_	AlignBegin=147392|AlignEnd=147512|Gloss=see
 6	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=147512|AlignEnd=147602|Gloss=COMP
@@ -825,7 +826,7 @@
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=155620|AlignEnd=156060|Gloss=PUNCT
 2	so	so	ADV	_	_	12	discourse	_	AlignBegin=156060|AlignEnd=156160|Gloss=so
-3	if	if	SCONJ	_	_	12	mod:periph	_	AlignBegin=156160|AlignEnd=156260|Gloss=if
+3	if	if	SCONJ	_	_	12	mod:periph$cond	_	AlignBegin=156160|AlignEnd=156260|Gloss=if
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=156260|AlignEnd=156410|Gloss=NOM.SG.1
 5	pour	pour	VERB	_	_	3	comp:obj	_	AlignBegin=156410|AlignEnd=156600|Gloss=pour
 6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	mod	_	AlignBegin=156600|AlignEnd=156730|Gloss=SG.1.POSS
@@ -853,7 +854,7 @@
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=159580|AlignEnd=160020|Gloss=PUNCT
 2	so	so	ADV	_	_	11	discourse	_	AlignBegin=160020|AlignEnd=160150|Gloss=so
-3	as	as	ADP	_	_	11	mod:periph	_	AlignBegin=160150|AlignEnd=160280|Gloss=as
+3	as	as	ADP	_	_	11	mod:periph@tempo	_	AlignBegin=160150|AlignEnd=160280|Gloss=as
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=160280|AlignEnd=160400|Gloss=NOM.SG.1
 5	pour	pour	VERB	_	_	3	comp:obj	_	AlignBegin=160400|AlignEnd=160610|Gloss=pour
 6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	mod	_	AlignBegin=160610|AlignEnd=160740|Gloss=SG.1.POSS
@@ -890,7 +891,7 @@
 # text_ortho = As I con see sey e don boil well, well, e don dey enter, I go con put my, ehn I go con put my, my ede.
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	26	punct	_	AlignBegin=163179|AlignEnd=163660|Gloss=PUNCT
-2	as	as	ADP	_	_	26	mod:periph	_	AlignBegin=163660|AlignEnd=163800|Gloss=as
+2	as	as	ADP	_	_	26	mod:periph@tempo	_	AlignBegin=163660|AlignEnd=163800|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=163800|AlignEnd=163930|Gloss=NOM.SG.1
 4	con	con	AUX	_	Aspect=Cons	2	comp:obj	_	AlignBegin=163930|AlignEnd=164120|Gloss=CONS
 5	see	see	VERB	_	_	4	comp:aux	_	AlignBegin=164120|AlignEnd=164210|Gloss=see
@@ -1110,7 +1111,7 @@
 15	wey	when	SCONJ	_	_	14	conj:coord	_	AlignBegin=200645|AlignEnd=200682|Gloss=when
 16	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	subj	_	AlignBegin=200682|AlignEnd=200833|Gloss=NOM.SG.1
 17	wan	want	VERB	_	_	15	comp:obj	_	AlignBegin=200833|AlignEnd=200950|Gloss=want
-18	teach	teach	VERB	_	_	17	comp:pred	_	AlignBegin=200950|AlignEnd=201330|Gloss=teach
+18	teach	teach	VERB	_	_	17	comp:pred$desire	_	AlignBegin=200950|AlignEnd=201330|Gloss=teach
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	comp:obj	_	AlignBegin=201330|AlignEnd=201435|Gloss=NOM.2
 20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=201435|AlignEnd=201465|Gloss=PUNCT
 
@@ -1125,7 +1126,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=201465|AlignEnd=205761|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=205761|AlignEnd=205881|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=205881|AlignEnd=206021|Gloss=want
-4	talk	talk	VERB	_	_	3	comp:pred	_	AlignBegin=206021|AlignEnd=206171|Gloss=talk
+4	talk	talk	VERB	_	_	3	comp:pred$desire	_	AlignBegin=206021|AlignEnd=206171|Gloss=talk
 5	about	about	ADP	_	_	4	comp:obl	_	AlignBegin=206171|AlignEnd=206461|Gloss=about
 6	anoder	anoder	DET	_	_	7	det	_	AlignBegin=206461|AlignEnd=206831|Gloss=another
 7	soup	soup	NOUN	_	_	5	comp:obj	_	AlignBegin=206831|AlignEnd=207181|Gloss=soup
@@ -1545,7 +1546,7 @@
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=266041|AlignEnd=269120|Gloss=PUNCT
 2	so	so	ADV	_	_	12	discourse	_	AlignBegin=269120|AlignEnd=269530|Gloss=so
-3	if	if	SCONJ	_	_	12	mod:periph	_	AlignBegin=269530|AlignEnd=269720|Gloss=if
+3	if	if	SCONJ	_	_	12	mod:periph$cond	_	AlignBegin=269530|AlignEnd=269720|Gloss=if
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=269720|AlignEnd=270002|Gloss=NOM.SG.1
 5	cook	cook	VERB	_	_	3	comp:obj	_	AlignBegin=270002|AlignEnd=270365|Gloss=cook
 6	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=270365|AlignEnd=270610|Gloss=DEF.ART
@@ -1701,7 +1702,7 @@
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=294020|AlignEnd=294420|Gloss=PUNCT
 2	so	so	ADV	_	_	13	discourse	_	AlignBegin=294420|AlignEnd=294540|Gloss=so
-3	if	if	SCONJ	_	_	13	mod:periph	_	AlignBegin=294540|AlignEnd=294610|Gloss=if
+3	if	if	SCONJ	_	_	13	mod:periph$cond	_	AlignBegin=294540|AlignEnd=294610|Gloss=if
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=294610|AlignEnd=294750|Gloss=NOM.SG.1
 5	comot	comot	VERB	_	_	3	comp:obj	_	AlignBegin=294750|AlignEnd=295050|Gloss=get_out
 6	all	all	DET	_	_	9	mod	_	AlignBegin=295050|AlignEnd=295155|Gloss=all
@@ -1730,7 +1731,7 @@
 # text_ortho = As I put di palm oil for fire, I go con put di pepper wey I wan put fresh pepper.
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=298252|AlignEnd=298780|Gloss=PUNCT
-2	as	as	ADP	_	_	13	mod:periph	_	AlignBegin=298780|AlignEnd=298900|Gloss=as
+2	as	as	ADP	_	_	13	mod:periph@tempo	_	AlignBegin=298780|AlignEnd=298900|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=298900|AlignEnd=299000|Gloss=NOM.SG.1
 4	put	put	VERB	_	_	2	comp:obj	_	AlignBegin=299000|AlignEnd=299170|Gloss=put
 5	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=299170|AlignEnd=299260|Gloss=DEF.ART
@@ -1750,7 +1751,7 @@
 19	wey	wey	SCONJ	_	_	18	mod@relcl	_	AlignBegin=303083|AlignEnd=303275|Gloss=REL
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	subj	_	AlignBegin=303275|AlignEnd=303371|Gloss=NOM.SG.1
 21	wan	want	VERB	_	_	19	comp:obj	_	AlignBegin=303371|AlignEnd=303555|Gloss=want
-22	put	put	VERB	_	_	21	comp:pred	_	AlignBegin=303555|AlignEnd=303930|Gloss=put
+22	put	put	VERB	_	_	21	comp:pred$desire	_	AlignBegin=303555|AlignEnd=303930|Gloss=put
 23	>	>	PUNCT	_	_	25	punct	_	AlignBegin=303930|AlignEnd=303960|Gloss=PUNCT
 24	fresh	fresh	ADJ	_	_	25	mod	_	AlignBegin=303960|AlignEnd=304370|Gloss=fresh
 25	pepper	pepper	NOUN	_	_	15	dislocated	_	AlignBegin=304370|AlignEnd=304600|Gloss=pepper
@@ -1812,7 +1813,7 @@
 # timestamp = 1610982309959
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=308380|AlignEnd=308960|Gloss=PUNCT
 2	so	so	ADV	_	_	10	discourse	_	AlignBegin=308960|AlignEnd=309070|Gloss=so
-3	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=309070|AlignEnd=309150|Gloss=if
+3	if	if	SCONJ	_	_	10	mod:periph$cond	_	AlignBegin=309070|AlignEnd=309150|Gloss=if
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=309150|AlignEnd=309380|Gloss=NOM.SG.1
 5	pour	pour	VERB	_	_	3	comp:obj	_	AlignBegin=309380|AlignEnd=309510|Gloss=pour
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=309510|AlignEnd=309660|Gloss=ACC.SG.3
@@ -1827,7 +1828,7 @@
 15	#	#	PUNCT	_	_	14	punct	_	AlignBegin=311870|AlignEnd=312380|Gloss=PUNCT
 16	ingredients	ingredient	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=312380|AlignEnd=312970|Gloss=ingredient.PL
 17	so	so	SCONJ	_	_	12	mod	_	AlignBegin=312970|AlignEnd=313080|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-18	dat	dat	PRON	_	Number=Sing|PronType=Dem	17	comp:obj	_	AlignBegin=313080|AlignEnd=313170|Gloss=SG.DEM|InIdiom=Yes
+18	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	17	comp:obj	_	AlignBegin=313080|AlignEnd=313170|Gloss=SG.DEM|InIdiom=Yes
 19	{	{	PUNCT	_	_	21	punct	_	AlignBegin=313170|AlignEnd=313200|Gloss=PUNCT
 20	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	subj	_	AlignBegin=313200|AlignEnd=313278|Gloss=NOM.SG.3
 21	go	go	VERB	_	_	17	comp:obj	_	AlignBegin=313278|AlignEnd=313390|Gloss=go
@@ -1850,7 +1851,7 @@
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=314820|AlignEnd=315229|Gloss=PUNCT
 2	so	so	ADV	_	_	10	discourse	_	AlignBegin=315229|AlignEnd=315340|Gloss=so
-3	as	as	ADP	_	_	10	mod:periph	_	AlignBegin=315340|AlignEnd=315460|Gloss=as
+3	as	as	ADP	_	_	10	mod:periph@tempo	_	AlignBegin=315340|AlignEnd=315460|Gloss=as
 4	everything	everyting	PRON	_	_	5	subj	_	AlignBegin=315460|AlignEnd=315850|Gloss=everything
 5	boil	boil	VERB	_	_	3	comp:obj	_	AlignBegin=315850|AlignEnd=316060|Gloss=boil
 6	together	together	ADV	_	_	5	mod	_	AlignBegin=316060|AlignEnd=316630|Gloss=together
@@ -2091,7 +2092,7 @@
 # text_ortho = If tomato no dey, at times, we dey use banga chop rice.
 # timestamp = 1610453329668
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=352881|AlignEnd=353152|Gloss=PUNCT
-2	if	if	SCONJ	_	_	12	mod:periph	_	AlignBegin=353152|AlignEnd=353422|Gloss=if
+2	if	if	SCONJ	_	_	12	mod:periph$cond	_	AlignBegin=353152|AlignEnd=353422|Gloss=if
 3	tomato	tomato	NOUN	_	_	4	subj	_	AlignBegin=353422|AlignEnd=353852|Gloss=tomato
 4	no	no	AUX	_	Polarity=Neg	2	comp:obj	_	AlignBegin=353852|AlignEnd=354052|Gloss=NEG
 5	dey	dey	VERB	_	VerbType=Cop	4	comp:aux	_	AlignBegin=354052|AlignEnd=354314|Gloss=dey.COP
@@ -2131,3 +2132,4 @@
 13	be	be	VERB	_	PartType=Cop	3	comp:cleft	_	AlignBegin=359277|AlignEnd=359427|Gloss=be.COP
 14	dat	dat	PRON	_	Number=Sing|PronType=Dem	13	subj	_	AlignBegin=359427|AlignEnd=359790|Gloss=SG.DEM
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=359790|AlignEnd=359820|Gloss=PUNCT
+

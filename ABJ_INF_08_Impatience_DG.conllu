@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = ABJ_INF_08_Impatience_DG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_INF_08_Impatience_DG.mp3
@@ -672,7 +673,7 @@
 10	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	subj	_	AlignBegin=81222|AlignEnd=81412|Gloss=NOM.SG.3
 11	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=81412|AlignEnd=81602|Gloss=CONS
 12	go	go	VERB	_	_	11	comp:aux	_	AlignBegin=81602|AlignEnd=81791|Gloss=go
-13	buy	buy	VERB	_	_	12	comp:pred	_	AlignBegin=81791|AlignEnd=81980|Gloss=buy
+13	buy	buy	VERB	_	_	12	comp:pred$purp	_	AlignBegin=81791|AlignEnd=81980|Gloss=buy
 14	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=81980|AlignEnd=82170|Gloss=ACC.SG.3
 15	//	//	PUNCT	_	_	11	punct	_	AlignBegin=82170|AlignEnd=82170|Gloss=PUNCT
 
@@ -807,7 +808,7 @@
 2	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=94222|AlignEnd=94499|Gloss=NEG
 3	suppose	suppose	VERB	_	_	2	comp:aux	_	AlignBegin=94499|AlignEnd=94776|Gloss=suppose
 4	small	small	ADJ	_	_	3	comp:pred	_	AlignBegin=94776|AlignEnd=95053|Gloss=small
-5	when	when	SCONJ	_	PronType=Int	3	mod	_	AlignBegin=95053|AlignEnd=95330|Gloss=when.Q
+5	when	when	SCONJ	_	PronType=Int	3	mod$tempo	_	AlignBegin=95053|AlignEnd=95330|Gloss=when.Q
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=95330|AlignEnd=95608|Gloss=NOM.2
 7	go	go	AUX	_	Aspect=Prosp	5	comp:obj	_	AlignBegin=95608|AlignEnd=95885|Gloss=PROSP
 8	dey	dey	AUX	_	Aspect=Imp	7	comp:aux	_	AlignBegin=95885|AlignEnd=96162|Gloss=IPFV
@@ -1112,7 +1113,7 @@
 # text_en = After we read at night for homework, I slept in class.
 # text_ortho = After we read in di night for prep, na class I go sleep.
 # timestamp = 1610453078176
-1	after	after	ADP	_	_	10	mod:periph	_	AlignBegin=122400|AlignEnd=122653|Gloss=after
+1	after	after	ADP	_	_	10	mod:periph$tempa	_	AlignBegin=122400|AlignEnd=122653|Gloss=after
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=122653|AlignEnd=122906|Gloss=NOM.PL.1
 3	read	read	VERB	_	_	1	comp:obj	_	AlignBegin=122906|AlignEnd=123159|Gloss=read
 4	in	in	ADP	_	_	3	mod	_	AlignBegin=123159|AlignEnd=123412|Gloss=in
@@ -1126,7 +1127,7 @@
 12	>+	>+	PUNCT	_	_	14	punct	_	AlignBegin=124931|AlignEnd=124931|Gloss=PUNCT
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=124931|AlignEnd=125184|Gloss=NOM.SG.1
 14	go	go	VERB	_	_	10	comp:cleft	_	AlignBegin=125184|AlignEnd=125437|Gloss=go
-15	sleep	sleep	VERB	_	_	14	comp:pred	_	AlignBegin=125437|AlignEnd=125690|Gloss=sleep
+15	sleep	sleep	VERB	_	_	14	comp:pred$purp	_	AlignBegin=125437|AlignEnd=125690|Gloss=sleep
 16	//	//	PUNCT	_	_	10	punct	_	AlignBegin=125690|AlignEnd=125690|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -1278,7 +1279,7 @@
 13	[	[	PUNCT	_	_	15	punct	_	AlignBegin=140888|AlignEnd=140888|Gloss=PUNCT
 14	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	subj	_	AlignBegin=140888|AlignEnd=141172|Gloss=NOM.PL.3
 15	wan	want	VERB	_	_	12	comp:obj	_	AlignBegin=141172|AlignEnd=141456|Gloss=want
-16	go	go	VERB	_	_	15	comp:pred	_	AlignBegin=141456|AlignEnd=141741|Gloss=go
+16	go	go	VERB	_	_	15	comp:pred$desire	_	AlignBegin=141456|AlignEnd=141741|Gloss=go
 17	{	{	PUNCT	_	_	18	punct	_	AlignBegin=141741|AlignEnd=141741|Gloss=PUNCT
 18	fast	fast	ADJ	_	_	16	mod	_	AlignBegin=141741|AlignEnd=142026|Gloss=fast
 19	|r	|r	PUNCT	_	_	20	punct	_	AlignBegin=142026|AlignEnd=142026|Gloss=PUNCT
@@ -1395,9 +1396,9 @@
 3	tell	tell	VERB	_	_	1	comp:aux	_	AlignBegin=151136|AlignEnd=151603|Gloss=tell
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	comp:obl	_	AlignBegin=151603|AlignEnd=152071|Gloss=NOM.2
 5	something	someting	PRON	_	_	3	comp:obj	_	AlignBegin=152071|AlignEnd=152539|Gloss=something
-6	make	make	AUX	_	Mood=Opt	3	mod	_	AlignBegin=152539|AlignEnd=153007|Gloss=SBJV
+6	make	make	SCONJ	_	_	3	mod$purp	_	AlignBegin=152539|AlignEnd=153007|Gloss=that
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=153007|AlignEnd=153474|Gloss=NOM.2
-8	sabi	sabi	VERB	_	_	6	comp:aux	_	AlignBegin=153474|AlignEnd=153942|Gloss=know
+8	sabi	sabi	VERB	_	_	6	comp:obj	_	AlignBegin=153474|AlignEnd=153942|Gloss=know
 9	small	small	ADJ	_	_	8	mod	_	AlignBegin=153942|AlignEnd=154410|Gloss=small
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=154410|AlignEnd=154410|Gloss=PUNCT
 
@@ -1500,13 +1501,13 @@
 3	<	<	PUNCT	_	_	5	punct	_	AlignBegin=161823|AlignEnd=161823|Gloss=PUNCT
 4	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	subj	_	AlignBegin=161823|AlignEnd=162109|Gloss=NOM.PL.3
 5	wan	want	VERB	_	_	0	root	_	AlignBegin=162109|AlignEnd=162395|Gloss=want
-6	do	do	VERB	_	_	5	comp:pred	_	AlignBegin=162395|AlignEnd=162682|Gloss=do
+6	do	do	VERB	_	_	5	comp:pred$desire	_	AlignBegin=162395|AlignEnd=162682|Gloss=do
 7	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=162682|AlignEnd=162968|Gloss=ACC.SG.3
 8	gragra	gragra	NOUN	_	_	6	mod	_	AlignBegin=162968|AlignEnd=163255|Gloss=hurrying
 9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=163255|AlignEnd=163255|Gloss=PUNCT
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=163255|AlignEnd=163541|Gloss=NOM.2
 11	wan	want	VERB	_	_	5	parataxis:conj	_	AlignBegin=163541|AlignEnd=163827|Gloss=want
-12	do	do	VERB	_	_	11	comp:pred	_	AlignBegin=163827|AlignEnd=164114|Gloss=do
+12	do	do	VERB	_	_	11	comp:pred$desire	_	AlignBegin=163827|AlignEnd=164114|Gloss=do
 13	impatience	impatience	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=164114|AlignEnd=164400|Gloss=impatience
 14	//	//	PUNCT	_	_	5	punct	_	AlignBegin=164400|AlignEnd=164400|Gloss=PUNCT
 
@@ -1518,20 +1519,20 @@
 # text = if na road < everybody wan go { fast |r fast } //= if na { e~ || e~ || exa~ || e~ || examination } < everybody wan do gragra get something //
 # text_en = If it's on the road, everybody wants to go fast; if it's e-... e-... exa-... e-... examination, everybody wants to get something quick.
 # text_ortho = If na road, everybody wan go fast, fast, if na e-... e-... exa-... e-... examination, everybody wan do gragra get something.
-1	if	if	SCONJ	_	_	6	mod:periph	_	AlignBegin=164400|AlignEnd=164718|Gloss=if
+1	if	if	SCONJ	_	_	6	mod:periph$cond	_	AlignBegin=164400|AlignEnd=164718|Gloss=if
 2	na	na	PART	_	PartType=Cop	1	comp:obj	_	AlignBegin=164718|AlignEnd=165036|Gloss=be1
 3	road	road	NOUN	_	_	2	comp:pred	_	AlignBegin=165036|AlignEnd=165354|Gloss=road
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=165354|AlignEnd=165354|Gloss=PUNCT
 5	everybody	everybody	PRON	_	_	6	subj	_	AlignBegin=165354|AlignEnd=165672|Gloss=everybody
 6	wan	want	VERB	_	_	0	root	_	AlignBegin=165672|AlignEnd=165990|Gloss=want
-7	go	go	VERB	_	_	6	comp:pred	_	AlignBegin=165990|AlignEnd=166309|Gloss=go
+7	go	go	VERB	_	_	6	comp:pred$desire	_	AlignBegin=165990|AlignEnd=166309|Gloss=go
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=166309|AlignEnd=166309|Gloss=PUNCT
 9	fast	fast	ADJ	_	_	7	mod	_	AlignBegin=166309|AlignEnd=166627|Gloss=fast
 10	|r	|r	PUNCT	_	_	11	punct	_	AlignBegin=166627|AlignEnd=166627|Gloss=PUNCT
 11	fast	fast	ADJ	_	_	9	compound:redup	_	AlignBegin=166627|AlignEnd=166945|Gloss=fast
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=166945|AlignEnd=166945|Gloss=PUNCT
 13	//=	//=	PUNCT	_	_	29	punct	_	AlignBegin=166945|AlignEnd=166945|Gloss=PUNCT
-14	if	if	SCONJ	_	_	29	mod:periph	_	AlignBegin=166945|AlignEnd=167263|Gloss=if
+14	if	if	SCONJ	_	_	29	mod:periph$cond	_	AlignBegin=166945|AlignEnd=167263|Gloss=if
 15	na	na	PART	_	PartType=Cop	14	comp:obj	_	AlignBegin=167263|AlignEnd=167581|Gloss=be1
 16	{	{	PUNCT	_	_	17	punct	_	AlignBegin=167581|AlignEnd=167581|Gloss=PUNCT
 17	e~	X	X	_	_	15	comp:pred	_	AlignBegin=167581|AlignEnd=167899|Gloss=X
@@ -1547,7 +1548,7 @@
 27	<	<	PUNCT	_	_	14	punct	_	AlignBegin=169171|AlignEnd=169171|Gloss=PUNCT
 28	everybody	everybody	PRON	_	_	29	subj	_	AlignBegin=169171|AlignEnd=169490|Gloss=everybody
 29	wan	want	VERB	_	_	6	parataxis:conj	_	AlignBegin=169490|AlignEnd=169808|Gloss=want
-30	do	do	VERB	_	_	29	comp:pred	_	AlignBegin=169808|AlignEnd=170126|Gloss=do
+30	do	do	VERB	_	_	29	comp:pred$desire	_	AlignBegin=169808|AlignEnd=170126|Gloss=do
 31	gragra	gragra	NOUN	_	_	30	comp:obj@lvc	_	AlignBegin=170126|AlignEnd=170444|Gloss=hurrying
 32	get	get	VERB	_	_	30	comp:pred	_	AlignBegin=170444|AlignEnd=170762|Gloss=get
 33	something	someting	PRON	_	_	32	comp:obj	_	AlignBegin=170762|AlignEnd=171080|Gloss=something
@@ -1847,7 +1848,7 @@
 # text_en = If you're not smart, you'll get smart quick.
 # text_ortho = If you no get brain, you go begin get am shaperly.
 # timestamp = 1610453078176
-1	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=197002|AlignEnd=197277|Gloss=if
+1	if	if	SCONJ	_	_	8	mod:periph$cond	_	AlignBegin=197002|AlignEnd=197277|Gloss=if
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=197277|AlignEnd=197551|Gloss=NOM.2
 3	no	no	AUX	_	Polarity=Neg	1	comp:obj	_	AlignBegin=197551|AlignEnd=197826|Gloss=NEG
 4	get	get	VERB	_	_	3	comp:aux	_	AlignBegin=197826|AlignEnd=198101|Gloss=get
@@ -1918,7 +1919,7 @@
 15	to	to	ADP	_	_	14	comp:pred	_	AlignBegin=205449|AlignEnd=205697|Gloss=to
 16	just	just	ADV	_	_	17	mod	_	AlignBegin=205697|AlignEnd=205944|Gloss=just
 17	try	try	VERB	_	_	15	comp:obj	_	AlignBegin=205944|AlignEnd=206192|Gloss=try
-18	to	to	ADP	_	_	17	comp:pred	_	AlignBegin=206192|AlignEnd=206440|Gloss=to
+18	to	to	ADP	_	_	17	comp:pred$desire	_	AlignBegin=206192|AlignEnd=206440|Gloss=to
 19	||	||	PUNCT	_	_	21	punct	_	AlignBegin=206440|AlignEnd=206440|Gloss=PUNCT
 20	{	{	PUNCT	_	_	21	punct	_	AlignBegin=206440|AlignEnd=206440|Gloss=PUNCT
 21	meh	make	AUX	_	Mood=Opt	14	conj:dicto	_	AlignBegin=206440|AlignEnd=206687|Gloss=SBJV
@@ -1929,7 +1930,7 @@
 26	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	subj	_	AlignBegin=206935|AlignEnd=207182|Gloss=NOM.PL.3
 27	don	don	AUX	_	Aspect=Perf	23	comp:aux	_	AlignBegin=207182|AlignEnd=207430|Gloss=PRF
 28	try	try	VERB	_	_	27	comp:aux	_	AlignBegin=207430|AlignEnd=207677|Gloss=try
-29	to	to	ADP	_	_	28	comp:pred	_	AlignBegin=207677|AlignEnd=207925|Gloss=to
+29	to	to	ADP	_	_	28	comp:pred$desire	_	AlignBegin=207677|AlignEnd=207925|Gloss=to
 30	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	31	subj	_	AlignBegin=207925|AlignEnd=208172|Gloss=NOM.2
 31	know	know	VERB	_	_	32	parataxis:discourse	_	AlignBegin=208172|AlignEnd=208420|Gloss=know
 32	fit	fit	AUX	_	Mood=Pot	29	comp:obj	_	AlignBegin=208420|AlignEnd=208667|Gloss=ABIL
@@ -1949,13 +1950,13 @@
 # text_en = If you don't run it, if you don't run the package like that uh... you will just... you will crash there.
 # text_ortho = If you no run am, if you don't run di package like dat eh, you go just, you go crash for dere.
 # timestamp = 1610453078176
-1	if	if	SCONJ	_	_	19	mod:periph	_	AlignBegin=210150|AlignEnd=210378|Gloss=if
+1	if	if	SCONJ	_	_	19	mod:periph$cond	_	AlignBegin=210150|AlignEnd=210378|Gloss=if
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=210378|AlignEnd=210606|Gloss=NOM.2
 3	no	no	AUX	_	Polarity=Neg	1	comp:obj	_	AlignBegin=210606|AlignEnd=210835|Gloss=NEG
 4	run	run	VERB	_	_	3	comp:aux	_	AlignBegin=210835|AlignEnd=211063|Gloss=run
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=211063|AlignEnd=211291|Gloss=ACC.SG.3
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=211291|AlignEnd=211291|Gloss=PUNCT
-7	if	if	SCONJ	_	_	19	mod:periph	_	AlignBegin=211291|AlignEnd=211519|Gloss=if
+7	if	if	SCONJ	_	_	19	mod:periph$cond	_	AlignBegin=211291|AlignEnd=211519|Gloss=if
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=211519|AlignEnd=211747|Gloss=NOM.2
 9	don't	no	AUX	_	Polarity=Neg	7	comp:obj	_	AlignBegin=211747|AlignEnd=211975|Gloss=NEG
 10	run	run	VERB	_	_	9	comp:aux	_	AlignBegin=211975|AlignEnd=212204|Gloss=run
@@ -2271,7 +2272,7 @@
 # timestamp = 1610453078176
 1	ah	ah	INTJ	_	_	10	discourse	_	AlignBegin=236590|AlignEnd=236913|Gloss=ah
 2	even	even	ADV	_	_	3	mod	_	AlignBegin=236913|AlignEnd=237237|Gloss=even
-3	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=237237|AlignEnd=237560|Gloss=if
+3	if	if	SCONJ	_	_	10	mod:periph$cond	_	AlignBegin=237237|AlignEnd=237560|Gloss=if
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=237560|AlignEnd=237883|Gloss=NOM.PL.1
 5	stay	stay	VERB	_	_	3	comp:obj	_	AlignBegin=237883|AlignEnd=238207|Gloss=stay
 6	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=238207|AlignEnd=238530|Gloss=for
@@ -2328,7 +2329,7 @@
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=243068|AlignEnd=243314|Gloss=PROSP
 3	just	just	ADV	_	_	4	mod	_	AlignBegin=243314|AlignEnd=243560|Gloss=just
 4	wan	want	VERB	_	_	2	comp:aux	_	AlignBegin=243560|AlignEnd=243807|Gloss=want
-5	rush	rush	VERB	_	_	4	comp:pred	_	AlignBegin=243807|AlignEnd=244054|Gloss=rush
+5	rush	rush	VERB	_	_	4	comp:pred$desire	_	AlignBegin=243807|AlignEnd=244054|Gloss=rush
 6	go	go	VERB	_	_	5	compound:svc	_	AlignBegin=244054|AlignEnd=244300|Gloss=go
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=244300|AlignEnd=244300|Gloss=PUNCT
 
@@ -2340,7 +2341,7 @@
 # text_en = If the police come to handle you now, they'll be saying "please, I don't have any money, what..."
 # text_ortho = If police con come now, con handle you now, de go dey say abeg I no get money, wetin... ?
 # timestamp = 1610453078176
-1	if	if	SCONJ	_	_	15	mod:periph	_	AlignBegin=245320|AlignEnd=245532|Gloss=if
+1	if	if	SCONJ	_	_	15	mod:periph$cond	_	AlignBegin=245320|AlignEnd=245532|Gloss=if
 2	police	police	NOUN	_	_	4	subj	_	AlignBegin=245532|AlignEnd=245744|Gloss=police
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=245744|AlignEnd=245744|Gloss=PUNCT
 4	con	con	AUX	_	Aspect=Cons	1	comp:obj	_	AlignBegin=245744|AlignEnd=245956|Gloss=CONS
@@ -2627,7 +2628,7 @@
 # timestamp = 1610453078176
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=273112|AlignEnd=273310|Gloss=NOM.2
 2	wan	want	VERB	_	_	0	root	_	AlignBegin=273310|AlignEnd=273507|Gloss=want
-3	tell	tell	VERB	_	_	2	comp:pred	_	AlignBegin=273507|AlignEnd=273705|Gloss=tell
+3	tell	tell	VERB	_	_	2	comp:pred$desire	_	AlignBegin=273507|AlignEnd=273705|Gloss=tell
 4	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	AlignBegin=273705|AlignEnd=273902|Gloss=ACC.SG.1
 5	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=273902|AlignEnd=274100|Gloss=COMP
 6	[	[	PUNCT	_	_	8	punct	_	AlignBegin=274100|AlignEnd=274100|Gloss=PUNCT
@@ -2741,7 +2742,7 @@
 # text_en = In Nigeria here, everything uh... even those Adigo police that you are talking about, they are the ones that hurt you the most.
 # text_ortho = If for Naija here, everything ehn, even dat Adigo police wey you dey talk about, na dem dey do you pass sef.
 # timestamp = 1610453078176
-1	if	if	SCONJ	_	_	19	mod:periph	_	AlignBegin=285950|AlignEnd=286257|Gloss=if
+1	if	if	SCONJ	_	_	19	mod:periph$cond	_	AlignBegin=285950|AlignEnd=286257|Gloss=if
 2	for	for	ADP	_	_	1	comp:obj	_	AlignBegin=286257|AlignEnd=286564|Gloss=for
 3	Naija	Naija	PROPN	_	_	2	comp:obj	_	AlignBegin=286564|AlignEnd=286870|Gloss=Naija
 4	here	here	ADV	_	_	3	mod	_	AlignBegin=286870|AlignEnd=287177|Gloss=here
@@ -2887,7 +2888,7 @@
 2	Buhari	Buhari	PROPN	_	_	3	subj	_	AlignBegin=303861|AlignEnd=304106|Gloss=Buhari
 3	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=304106|AlignEnd=304350|Gloss=NEG
 4	wan	want	VERB	_	_	3	comp:aux	_	AlignBegin=304350|AlignEnd=304594|Gloss=want
-5	pay	pay	VERB	_	_	4	comp:pred	_	AlignBegin=304594|AlignEnd=304839|Gloss=pay
+5	pay	pay	VERB	_	_	4	comp:pred$desire	_	AlignBegin=304594|AlignEnd=304839|Gloss=pay
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=304839|AlignEnd=304839|Gloss=PUNCT
 7	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	11	mod:poss	_	AlignBegin=304839|AlignEnd=305083|Gloss=POSS.PL.3
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=305083|AlignEnd=305083|Gloss=PUNCT
@@ -2905,7 +2906,7 @@
 # text_en = If they stand in the road, their eyes are red and you just provoke them,  they will take what they want to, slap you, break your car.
 # text_ortho = If dem stand for road, deir eyes red, and you just provoke dem, dem go carry wetin de wan to, slap you, break your motor.
 # timestamp = 1610986482162
-1	if	if	SCONJ	_	_	20	mod:periph	_	AlignBegin=305816|AlignEnd=306066|Gloss=if
+1	if	if	SCONJ	_	_	20	mod:periph$cond	_	AlignBegin=305816|AlignEnd=306066|Gloss=if
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=306066|AlignEnd=306066|Gloss=PUNCT
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=306066|AlignEnd=306316|Gloss=NOM.PL.3
 4	stand	stand	VERB	_	_	1	comp:obj	_	AlignBegin=306316|AlignEnd=306566|Gloss=stand
@@ -2930,7 +2931,7 @@
 23	wetin	wetin	PRON	_	PronType=Int	22	comp:obj	_	AlignBegin=310319|AlignEnd=310569|Gloss=what.Q
 24	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	subj	_	AlignBegin=310569|AlignEnd=310819|Gloss=NOM.PL.3
 25	wan	want	VERB	_	_	23	mod@relcl	_	AlignBegin=310819|AlignEnd=311069|Gloss=want
-26	to	to	ADP	_	_	25	comp:pred	_	AlignBegin=311069|AlignEnd=311319|Gloss=to
+26	to	to	ADP	_	_	25	comp:pred$desire	_	AlignBegin=311069|AlignEnd=311319|Gloss=to
 27	|c	|c	PUNCT	_	_	28	punct	_	AlignBegin=311319|AlignEnd=311319|Gloss=PUNCT
 28	slap	slap	VERB	_	_	22	conj:coord	_	AlignBegin=311319|AlignEnd=311569|Gloss=slap
 29	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	28	comp:obj	_	AlignBegin=311569|AlignEnd=311820|Gloss=NOM.2
@@ -3038,7 +3039,7 @@
 24	wey	wey	SCONJ	_	_	21	comp:obj	_	AlignBegin=323510|AlignEnd=323727|Gloss=REL
 25	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	subj	_	AlignBegin=323727|AlignEnd=323945|Gloss=NOM.SG.1
 26	wan	want	VERB	_	_	24	comp:obj	_	AlignBegin=323945|AlignEnd=324162|Gloss=want
-27	hear	hear	VERB	_	_	26	comp:pred	_	AlignBegin=324162|AlignEnd=324380|Gloss=hear
+27	hear	hear	VERB	_	_	26	comp:pred$desire	_	AlignBegin=324162|AlignEnd=324380|Gloss=hear
 28	//	//	PUNCT	_	_	4	punct	_	AlignBegin=324380|AlignEnd=324380|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -3178,7 +3179,7 @@
 11	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=332998|AlignEnd=333288|Gloss=NEG
 12	go	go	AUX	_	Aspect=Prosp	11	comp:aux	_	AlignBegin=333288|AlignEnd=333579|Gloss=PROSP
 13	wan	want	VERB	_	_	12	comp:aux	_	AlignBegin=333579|AlignEnd=333869|Gloss=want
-14	pay	pay	VERB	_	_	13	comp:pred	_	AlignBegin=333869|AlignEnd=334160|Gloss=pay
+14	pay	pay	VERB	_	_	13	comp:pred$desire	_	AlignBegin=333869|AlignEnd=334160|Gloss=pay
 15	//	//	PUNCT	_	_	11	punct	_	AlignBegin=334160|AlignEnd=334160|Gloss=PUNCT
 
 # user_id = bernard.l.caron
@@ -3189,7 +3190,7 @@
 # text = if anybody < dem wan respect < any profession for { any || anywhere } < na teachers >+ de suppose to as in just give { as in hm gbosa |a as in more than hundred gbosa } //
 # text_en = If anybody wants to respect any profession anywhere at all, it's teachers they are supposed to... as in just give, as in uh... Gbosa, as in more than a hundred Gbosa.
 # text_ortho = If anybody, dem wan respect, any profession for any, anywhere, na teachers de suppose to as in just give as in hm gbosa, as in more than hundred gbosa.
-1	if	if	SCONJ	_	_	17	mod:periph	_	AlignBegin=334160|AlignEnd=334603|Gloss=if
+1	if	if	SCONJ	_	_	17	mod:periph$cond	_	AlignBegin=334160|AlignEnd=334603|Gloss=if
 2	anybody	anybody	PRON	_	_	5	dislocated	_	AlignBegin=334603|AlignEnd=335047|Gloss=anybody
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=335047|AlignEnd=335047|Gloss=PUNCT
 4	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	subj	_	AlignBegin=335047|AlignEnd=335490|Gloss=NOM.PL.3
@@ -3498,7 +3499,7 @@
 # text_en = If they can't respect teachers, you should give them a better salary, give them a better house.
 # text_ortho = If dem no fit respect teachers, you give dem a better salary, you give dem better house.
 # timestamp = 1610453078176
-1	if	if	SCONJ	_	_	9	mod:periph	_	AlignBegin=375792|AlignEnd=376064|Gloss=if
+1	if	if	SCONJ	_	_	9	mod:periph$cond	_	AlignBegin=375792|AlignEnd=376064|Gloss=if
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=376064|AlignEnd=376336|Gloss=NOM.PL.3
 3	no	no	AUX	_	Polarity=Neg	1	comp:obj	_	AlignBegin=376336|AlignEnd=376608|Gloss=NEG
 4	fit	fit	AUX	_	Mood=Pot	3	comp:aux	_	AlignBegin=376608|AlignEnd=376880|Gloss=ABIL
@@ -3570,7 +3571,7 @@
 6	no	no	AUX	_	Polarity=Neg	4	mod@relcl	_	AlignBegin=385708|AlignEnd=385960|Gloss=NEG
 7	wan	want	VERB	_	_	6	comp:aux	_	AlignBegin=385960|AlignEnd=386211|Gloss=want
 8	just	just	ADV	_	_	9	mod	_	AlignBegin=386211|AlignEnd=386463|Gloss=just
-9	change	change	VERB	_	_	7	comp:pred	_	AlignBegin=386463|AlignEnd=386714|Gloss=change
+9	change	change	VERB	_	_	7	comp:pred$desire	_	AlignBegin=386463|AlignEnd=386714|Gloss=change
 10	o	o	PART	_	PartType=Disc	2	mod:emph	_	AlignBegin=386714|AlignEnd=386966|Gloss=EMPH
 11	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=386966|AlignEnd=386966|Gloss=PUNCT
 
@@ -3750,7 +3751,7 @@
 # text_ortho = If na to give pe-... people eh dis thing, if na to respect people, I dey do my charity work.
 # timestamp = 1610453078176
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=401466|AlignEnd=401466|Gloss=PUNCT
-2	if	if	SCONJ	_	_	23	mod:periph	_	AlignBegin=401466|AlignEnd=401662|Gloss=if
+2	if	if	SCONJ	_	_	23	mod:periph$cond	_	AlignBegin=401466|AlignEnd=401662|Gloss=if
 3	na	na	PART	_	PartType=Cop	2	comp:obj	_	AlignBegin=401662|AlignEnd=401858|Gloss=be1
 4	to	to	ADP	_	_	3	comp:pred	_	AlignBegin=401858|AlignEnd=402055|Gloss=to
 5	give	give	VERB	_	_	4	comp:obj	_	AlignBegin=402055|AlignEnd=402251|Gloss=give
@@ -4048,7 +4049,7 @@
 6	be	bin	AUX	_	Tense=Past	3	comp:obj	_	AlignBegin=433334|AlignEnd=433525|Gloss=PST
 7	dey	dey	AUX	_	Aspect=Imp	6	comp:aux	_	AlignBegin=433525|AlignEnd=433715|Gloss=IPFV
 8	laugh	laugh	VERB	_	_	7	comp:aux	_	AlignBegin=433715|AlignEnd=433906|Gloss=laugh
-9	when	when	SCONJ	_	PronType=Int	8	mod	_	AlignBegin=433906|AlignEnd=434096|Gloss=when.Q
+9	when	when	SCONJ	_	PronType=Int	8	mod$tempo	_	AlignBegin=433906|AlignEnd=434096|Gloss=when.Q
 10	people	people	NOUN	_	Number=Plur	11	subj	_	AlignBegin=434096|AlignEnd=434286|Gloss=people.PL
 11	dey	dey	AUX	_	Aspect=Imp	9	comp:obj	_	AlignBegin=434286|AlignEnd=434477|Gloss=IPFV
 12	talk	talk	VERB	_	_	11	comp:aux	_	AlignBegin=434477|AlignEnd=434667|Gloss=talk
@@ -4452,7 +4453,7 @@
 4	make	make	AUX	_	Mood=Opt	2	parataxis:obj	_	AlignBegin=470811|AlignEnd=471042|Gloss=SBJV
 5	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	subj	_	AlignBegin=471042|AlignEnd=471273|Gloss=NOM.PL.3
 6	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=471273|AlignEnd=471504|Gloss=go
-7	sit	sit	VERB	_	_	6	comp:pred	_	AlignBegin=471504|AlignEnd=471735|Gloss=sit
+7	sit	sit	VERB	_	_	6	comp:pred$purp	_	AlignBegin=471504|AlignEnd=471735|Gloss=sit
 8	down	down	ADP	_	_	7	compound:prt	_	AlignBegin=471735|AlignEnd=471966|Gloss=down
 9	!//]	!//]	PUNCT	_	_	4	punct	_	AlignBegin=471966|AlignEnd=471966|Gloss=PUNCT
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=471966|AlignEnd=471966|Gloss=PUNCT
@@ -4564,3 +4565,4 @@
 4	finish	finish	VERB	_	_	3	comp:aux	_	AlignBegin=478919|AlignEnd=479240|Gloss=finish
 5	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=479240|AlignEnd=479561|Gloss=ehn
 6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=479561|AlignEnd=479561|Gloss=PUNCT
+

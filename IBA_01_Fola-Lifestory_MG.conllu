@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = IBA_01_Fola-Lifestory_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_01_Fola-Lifestory_MG.mp3
@@ -144,7 +145,7 @@
 32	mama	mama	NOUN	_	_	33	subj	_	AlignBegin=22020|AlignEnd=22320|Gloss=mama
 33	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=22320|AlignEnd=22450|Gloss=NEG
 34	dey	dey	VERB	_	VerbType=Cop	33	comp:aux	_	AlignBegin=22450|AlignEnd=22700|Gloss=be
-35	to	to	ADP	_	_	34	mod	_	AlignBegin=22700|AlignEnd=22790|Gloss=to
+35	to	to	ADP	_	_	34	mod$purp	_	AlignBegin=22700|AlignEnd=22790|Gloss=to
 36	provide	provide	VERB	_	_	35	comp:obj	_	AlignBegin=22790|AlignEnd=23230|Gloss=provide
 37	for	for	ADP	_	_	36	comp:obl	_	AlignBegin=23230|AlignEnd=23460|Gloss=for
 38	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	37	comp:obj	_	AlignBegin=23460|AlignEnd=23630|Gloss=ACC.SG.1
@@ -176,13 +177,13 @@
 # text_en = As hard as things were, I paid attention to my studies.
 # text_ortho = As I con manage go school reach, I put mind for book.
 # timestamp = 1610453275411
-1	as	as	ADP	_	_	11	mod:periph	_	AlignBegin=26180|AlignEnd=26370|Gloss=as
+1	as	as	ADP	_	_	11	mod:periph@tempo	_	AlignBegin=26180|AlignEnd=26370|Gloss=as
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=26370|AlignEnd=26460|Gloss=NOM.SG.1
 3	con	con	AUX	_	Aspect=Cons	1	comp:obj	_	AlignBegin=26460|AlignEnd=26680|Gloss=CONS
 4	manage	manage	VERB	_	_	3	comp:aux	_	AlignBegin=26680|AlignEnd=27050|Gloss=manage
 5	go	go	VERB	_	_	4	comp:pred	_	AlignBegin=27050|AlignEnd=27230|Gloss=go
 6	school	school	NOUN	_	_	5	comp:obj	_	AlignBegin=27230|AlignEnd=27600|Gloss=school
-7	reach	reach	VERB	_	_	5	comp:pred	_	AlignBegin=27600|AlignEnd=27885|Gloss=reach
+7	reach	reach	VERB	_	_	5	comp:pred$purp	_	AlignBegin=27600|AlignEnd=27885|Gloss=reach
 8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=27885|AlignEnd=27915|Gloss=PUNCT
 9	#	#	PUNCT	_	_	1	punct	_	AlignBegin=27915|AlignEnd=28054|Gloss=PUNCT
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=28054|AlignEnd=28151|Gloss=NOM.SG.1
@@ -205,7 +206,7 @@
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=30170|AlignEnd=30270|Gloss=NOM.SG.1
 4	no	no	AUX	_	Polarity=Neg	2	comp:obj	_	AlignBegin=30270|AlignEnd=30480|Gloss=NEG
 5	wan	want	VERB	_	_	4	comp:aux	_	AlignBegin=30480|AlignEnd=30530|Gloss=want
-6	make	make	VERB	_	_	5	comp:pred	_	AlignBegin=30560|AlignEnd=30720|Gloss=make
+6	make	make	VERB	_	_	5	comp:pred$desire	_	AlignBegin=30560|AlignEnd=30720|Gloss=make
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=30720|AlignEnd=30870|Gloss=DEF.ART
 8	suffer	suffer	NOUN	_	_	6	comp:obj	_	AlignBegin=30870|AlignEnd=31324|Gloss=suffering
 9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=31354|AlignEnd=31720|Gloss=PUNCT
@@ -388,7 +389,7 @@
 13	to	to	ADP	_	_	12	comp:obl	_	AlignBegin=60780|AlignEnd=60920|Gloss=to
 14	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=60920|AlignEnd=61100|Gloss=ACC.PL.3
 15	so	so	SCONJ	_	_	12	mod	_	AlignBegin=61100|AlignEnd=61250|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-16	dat	dat	PRON	_	Number=Sing|PronType=Dem	15	comp:obj	_	AlignBegin=61250|AlignEnd=61440|Gloss=SG.DEM|InIdiom=Yes
+16	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	15	comp:obj	_	AlignBegin=61250|AlignEnd=61440|Gloss=SG.DEM|InIdiom=Yes
 17	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	subj	_	AlignBegin=61440|AlignEnd=61590|Gloss=NOM.PL.3
 18	go	go	AUX	_	Aspect=Prosp	15	comp:obj	_	AlignBegin=61590|AlignEnd=61750|Gloss=PROSP
 19	fit	fit	AUX	_	Mood=Pot	18	comp:aux	_	AlignBegin=61750|AlignEnd=61990|Gloss=ABIL
@@ -418,7 +419,7 @@
 4	know	know	VERB	_	_	3	comp:aux	_	AlignBegin=64662|AlignEnd=64822|Gloss=know
 5	sey	sey	SCONJ	_	_	4	comp:obj	_	AlignBegin=64822|AlignEnd=64922|Gloss=COMP
 6	[	[	PUNCT	_	_	18	punct	_	AlignBegin=64922|AlignEnd=64952|Gloss=PUNCT
-7	as	as	ADP	_	_	18	mod:periph	_	AlignBegin=64952|AlignEnd=65122|Gloss=as
+7	as	as	ADP	_	_	18	mod:periph@tempo	_	AlignBegin=64952|AlignEnd=65122|Gloss=as
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=65122|AlignEnd=65202|Gloss=NOM.SG.1
 9	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=65202|AlignEnd=65342|Gloss=IPFV
 10	do	do	VERB	_	_	9	comp:aux	_	AlignBegin=65342|AlignEnd=65502|Gloss=do
@@ -634,7 +635,7 @@
 9	study	study	VERB	_	_	8	comp:aux	_	AlignBegin=89430|AlignEnd=89870|Gloss=study
 10	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=89870|AlignEnd=90050|Gloss=ACC.SG.1
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=90050|AlignEnd=90306|Gloss=PUNCT
-12	as	as	ADP	_	_	9	mod	_	AlignBegin=90306|AlignEnd=90590|Gloss=as
+12	as	as	ADP	_	_	9	mod@tempo	_	AlignBegin=90306|AlignEnd=90590|Gloss=as
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=90590|AlignEnd=90700|Gloss=NOM.SG.1
 14	dey	dey	AUX	_	Aspect=Imp	12	comp:obj	_	AlignBegin=90700|AlignEnd=90840|Gloss=IPFV
 15	take	take	VERB	_	_	14	comp:aux	_	AlignBegin=90840|AlignEnd=91060|Gloss=take
@@ -836,7 +837,7 @@
 2	as	as	ADP	_	_	11	mod:periph$reason	_	AlignBegin=114460|AlignEnd=114670|Gloss=as
 3	God	God	PROPN	_	_	4	subj	_	AlignBegin=114670|AlignEnd=114912|Gloss=God
 4	wan	want	VERB	_	_	2	comp:obj	_	AlignBegin=114912|AlignEnd=115076|Gloss=want
-5	help	help	VERB	_	_	4	comp:pred	_	AlignBegin=115076|AlignEnd=115330|Gloss=help
+5	help	help	VERB	_	_	4	comp:pred$desire	_	AlignBegin=115076|AlignEnd=115330|Gloss=help
 6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=115330|AlignEnd=115450|Gloss=ACC.SG.1
 7	so	so	ADV	_	_	5	mod	_	AlignBegin=115450|AlignEnd=115710|Gloss=so
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=115710|AlignEnd=115740|Gloss=PUNCT
@@ -894,10 +895,10 @@
 # text_ortho = As I wan enter secondary school so, my mama younger sister wey dey stay Lagos, e con come sey ah e wan help my papa.
 # timestamp = 1610453275411
 1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=121743|AlignEnd=122040|Gloss=PUNCT
-2	as	as	ADP	_	_	21	mod:periph	_	AlignBegin=122040|AlignEnd=122200|Gloss=as
+2	as	as	ADP	_	_	21	mod:periph@tempo	_	AlignBegin=122040|AlignEnd=122200|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=122200|AlignEnd=122290|Gloss=NOM.SG.1
 4	wan	want	VERB	_	_	2	comp:obj	_	AlignBegin=122290|AlignEnd=122420|Gloss=want
-5	enter	enter	VERB	_	_	4	comp:pred	_	AlignBegin=122420|AlignEnd=122650|Gloss=enter
+5	enter	enter	VERB	_	_	4	comp:pred$desire	_	AlignBegin=122420|AlignEnd=122650|Gloss=enter
 6	secondary	secondary	ADJ	_	_	7	mod	_	AlignBegin=122650|AlignEnd=123080|Gloss=secondary
 7	school	school	NOUN	_	_	5	comp:obj	_	AlignBegin=123080|AlignEnd=123330|Gloss=school
 8	so	so	ADV	_	_	5	mod	_	AlignBegin=123330|AlignEnd=123570|Gloss=so
@@ -921,7 +922,7 @@
 26	#	#	PUNCT	_	_	28	punct	_	AlignBegin=127144|AlignEnd=127440|Gloss=PUNCT
 27	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	subj	_	AlignBegin=127440|AlignEnd=127570|Gloss=NOM.SG.3
 28	wan	want	VERB	_	_	23	comp:obj	_	AlignBegin=127570|AlignEnd=127700|Gloss=want
-29	help	help	VERB	_	_	28	comp:pred	_	AlignBegin=127700|AlignEnd=127940|Gloss=help
+29	help	help	VERB	_	_	28	comp:pred$desire	_	AlignBegin=127700|AlignEnd=127940|Gloss=help
 30	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	31	mod:poss	_	AlignBegin=127940|AlignEnd=128070|Gloss=SG.1.POSS
 31	papa	papa	NOUN	_	_	29	comp:obj	_	AlignBegin=128070|AlignEnd=128400|Gloss=papa
 32	]	]	PUNCT	_	_	28	punct	_	AlignBegin=128400|AlignEnd=128430|Gloss=PUNCT
@@ -942,7 +943,7 @@
 5	follow	follow	VERB	_	_	4	comp:aux	_	AlignBegin=129040|AlignEnd=129380|Gloss=follow
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=129380|AlignEnd=129530|Gloss=ACC.SG.3
 7	go	go	VERB	_	_	5	compound:svc	_	AlignBegin=129560|AlignEnd=129650|Gloss=go
-8	dey	dey	AUX	_	Aspect=Imp	7	mod	_	AlignBegin=129650|AlignEnd=129800|Gloss=IPFV
+8	dey	dey	AUX	_	Aspect=Imp	7	comp:pred$purp	_	AlignBegin=129650|AlignEnd=129800|Gloss=IPFV
 9	stay	stay	VERB	_	_	8	comp:aux	_	AlignBegin=129800|AlignEnd=130090|Gloss=stay
 10	Lagos	Lagos	PROPN	_	_	9	comp:obj	_	AlignBegin=130090|AlignEnd=130589|Gloss=Lagos
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=130589|AlignEnd=130619|Gloss=PUNCT
@@ -1030,7 +1031,7 @@
 12	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=138662|AlignEnd=138750|Gloss=NOM.SG.1
 13	go	go	AUX	_	Aspect=Prosp	7	comp:cleft	_	AlignBegin=138750|AlignEnd=138940|Gloss=PROSP
 14	go	go	VERB	_	_	13	comp:aux	_	AlignBegin=138940|AlignEnd=139120|Gloss=go
-15	suffer	suffer	VERB	_	_	14	comp:pred	_	AlignBegin=139120|AlignEnd=139500|Gloss=suffer
+15	suffer	suffer	VERB	_	_	14	comp:pred$purp	_	AlignBegin=139120|AlignEnd=139500|Gloss=suffer
 16	for	for	ADP	_	_	15	comp:obl	_	AlignBegin=139500|AlignEnd=139690|Gloss=for
 17	Lagos	Lagos	PROPN	_	_	16	comp:obj	_	AlignBegin=139690|AlignEnd=140070|Gloss=Lagos
 18	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=140070|AlignEnd=140100|Gloss=PUNCT
@@ -1137,7 +1138,7 @@
 4	no	no	AUX	_	Polarity=Neg	1	comp:cleft	_	AlignBegin=149450|AlignEnd=149580|Gloss=NEG
 5	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=149580|AlignEnd=149740|Gloss=go
 6	quick	quick	ADJ	_	_	7	mod	_	AlignBegin=149740|AlignEnd=149990|Gloss=quick
-7	sleep	sleep	VERB	_	_	5	comp:pred	_	AlignBegin=149990|AlignEnd=150310|Gloss=sleep
+7	sleep	sleep	VERB	_	_	5	comp:pred$purp	_	AlignBegin=149990|AlignEnd=150310|Gloss=sleep
 8	for	for	ADP	_	_	7	comp:obl	_	AlignBegin=150310|AlignEnd=150520|Gloss=for
 9	house	house	NOUN	_	_	8	comp:obj	_	AlignBegin=150520|AlignEnd=150810|Gloss=house
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=150810|AlignEnd=150840|Gloss=PUNCT
@@ -1444,7 +1445,7 @@
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=182610|AlignEnd=183003|Gloss=COMP
 5	#	#	PUNCT	_	_	13	punct	_	AlignBegin=183003|AlignEnd=183235|Gloss=PUNCT
 6	[	[	PUNCT	_	_	13	punct	_	AlignBegin=183205|AlignEnd=183235|Gloss=PUNCT
-7	when	when	SCONJ	_	PronType=Int	13	mod:periph	_	AlignBegin=183235|AlignEnd=183435|Gloss=when.Q
+7	when	when	SCONJ	_	PronType=Int	13	mod:periph$tempo	_	AlignBegin=183235|AlignEnd=183435|Gloss=when.Q
 8	everybody	everybody	PRON	_	_	9	subj	_	AlignBegin=183435|AlignEnd=183885|Gloss=everybody
 9	come	come	VERB	_	_	7	comp:obj	_	AlignBegin=183885|AlignEnd=184115|Gloss=come
 10	school	school	NOUN	_	_	9	comp:obj	_	AlignBegin=184115|AlignEnd=184465|Gloss=school
@@ -1555,7 +1556,7 @@
 # text_ortho = Dat if I wake up early, she go tell me sey make I first go shop, go carry tings, arrange tings before I con come school.
 # timestamp = 1610983003507
 1	dat	dat	SCONJ	_	_	9	discourse	_	AlignBegin=194910|AlignEnd=195130|Gloss=COMP
-2	if	if	SCONJ	_	_	9	mod:periph	_	AlignBegin=195130|AlignEnd=195260|Gloss=if
+2	if	if	SCONJ	_	_	9	mod:periph$cond	_	AlignBegin=195130|AlignEnd=195260|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=195260|AlignEnd=195360|Gloss=NOM.SG.1
 4	wake	wake	VERB	_	_	2	comp:obj	_	AlignBegin=195360|AlignEnd=195610|Gloss=wake
 5	up	up	ADP	_	_	4	compound:prt	_	AlignBegin=195610|AlignEnd=195810|Gloss=up
@@ -1577,14 +1578,14 @@
 21	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=198880|AlignEnd=198910|Gloss=PUNCT
 22	go	go	VERB	_	_	18	conj:coord	_	AlignBegin=198910|AlignEnd=199150|Gloss=go
 23	{	{	PUNCT	_	_	24	punct	_	AlignBegin=199150|AlignEnd=199180|Gloss=PUNCT
-24	carry	carry	VERB	_	_	22	comp:pred	_	AlignBegin=199180|AlignEnd=199480|Gloss=carry
+24	carry	carry	VERB	_	_	22	comp:pred$purp	_	AlignBegin=199180|AlignEnd=199480|Gloss=carry
 25	tings	tings	NOUN	_	Number=Plur	24	comp:obj	_	AlignBegin=199480|AlignEnd=200010|Gloss=thing.PL
 26	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=200010|AlignEnd=200040|Gloss=PUNCT
 27	arrange	arrange	VERB	_	_	24	conj:coord	_	AlignBegin=200040|AlignEnd=200470|Gloss=arrange
 28	tings	tings	NOUN	_	Number=Plur	27	comp:obj	_	AlignBegin=200470|AlignEnd=200670|Gloss=thing.PL
 29	}	}	PUNCT	_	_	24	punct	_	AlignBegin=200670|AlignEnd=200700|Gloss=PUNCT
 30	}	}	PUNCT	_	_	18	punct	_	AlignBegin=200670|AlignEnd=200700|Gloss=PUNCT
-31	before	before	ADP	_	_	27	mod	_	AlignBegin=200700|AlignEnd=200910|Gloss=before
+31	before	before	ADP	_	_	27	mod$tempb	_	AlignBegin=200700|AlignEnd=200910|Gloss=before
 32	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	subj	_	AlignBegin=200910|AlignEnd=200990|Gloss=NOM.SG.1
 33	con	con	AUX	_	Aspect=Cons	31	comp:obj	_	AlignBegin=200990|AlignEnd=201210|Gloss=CONS
 34	come	come	VERB	_	_	33	comp:aux	_	AlignBegin=201210|AlignEnd=201410|Gloss=come
@@ -2001,7 +2002,7 @@
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=243558|AlignEnd=243618|Gloss=NOM.SG.1
 14	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=243618|AlignEnd=243908|Gloss=CONS
 15	go	go	VERB	_	_	14	comp:aux	_	AlignBegin=243908|AlignEnd=244188|Gloss=go
-16	enroll	enroll	VERB	_	_	15	comp:pred	_	AlignBegin=244188|AlignEnd=244568|Gloss=enroll
+16	enroll	enroll	VERB	_	_	15	comp:pred$purp	_	AlignBegin=244188|AlignEnd=244568|Gloss=enroll
 17	for	for	ADP	_	_	16	comp:obl	_	AlignBegin=244568|AlignEnd=245058|Gloss=for
 18	#	#	PUNCT	_	_	20	punct	_	AlignBegin=245058|AlignEnd=245236|Gloss=PUNCT
 19	one	one	DET	_	Definite=Spec|PronType=Art	20	det	_	AlignBegin=245236|AlignEnd=245448|Gloss=SPEC.ART
@@ -2187,8 +2188,8 @@
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=262622|AlignEnd=262782|Gloss=NOM.SG.1
 5	be	bin	AUX	_	Tense=Past	1	comp:cleft	_	AlignBegin=262782|AlignEnd=262922|Gloss=PST
 6	wan	want	VERB	_	_	5	comp:aux	_	AlignBegin=262922|AlignEnd=263162|Gloss=want
-7	go	go	VERB	_	_	6	comp:pred	_	AlignBegin=263162|AlignEnd=263302|Gloss=go
-8	study	study	VERB	_	_	7	comp:pred	_	AlignBegin=263302|AlignEnd=263742|Gloss=study
+7	go	go	VERB	_	_	6	comp:pred$desire	_	AlignBegin=263162|AlignEnd=263302|Gloss=go
+8	study	study	VERB	_	_	7	comp:pred$purp	_	AlignBegin=263302|AlignEnd=263742|Gloss=study
 9	o	o	PART	_	PartType=Disc	1	mod:emph	_	AlignBegin=263742|AlignEnd=263790|Gloss=EMPH
 10	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=263790|AlignEnd=263820|Gloss=PUNCT
 11	#	#	PUNCT	_	_	14	punct	_	AlignBegin=263820|AlignEnd=264200|Gloss=PUNCT
@@ -2246,7 +2247,7 @@
 2	as	as	ADP	_	_	10	mod:periph$reason	_	AlignBegin=268880|AlignEnd=269080|Gloss=as
 3	God	God	PROPN	_	_	4	subj	_	AlignBegin=269080|AlignEnd=269320|Gloss=God
 4	wan	want	VERB	_	_	2	comp:obj	_	AlignBegin=269320|AlignEnd=269470|Gloss=want
-5	do	do	VERB	_	_	4	comp:pred	_	AlignBegin=269470|AlignEnd=269630|Gloss=do
+5	do	do	VERB	_	_	4	comp:pred$desire	_	AlignBegin=269470|AlignEnd=269630|Gloss=do
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=269630|AlignEnd=269760|Gloss=ACC.SG.3
 7	so	so	ADV	_	_	5	mod	_	AlignBegin=269760|AlignEnd=270040|Gloss=so
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=270040|AlignEnd=270070|Gloss=PUNCT
@@ -2281,7 +2282,7 @@
 # text_ortho = When I dey higher institution, e get some people wey I be like, I be dey see for my school.
 # timestamp = 1623338321655
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=273120|AlignEnd=273540|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	10	mod:periph	_	AlignBegin=273540|AlignEnd=273720|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	10	mod:periph$tempo	_	AlignBegin=273540|AlignEnd=273720|Gloss=when.Q
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=273720|AlignEnd=273840|Gloss=NOM.SG.1
 4	dey	dey	VERB	_	VerbType=Cop	2	comp:obj	_	AlignBegin=273840|AlignEnd=273990|Gloss=be2
 5	higher	higher	ADJ	_	Degree=Cmp	6	mod	_	AlignBegin=273990|AlignEnd=274240|Gloss=high.CMPR
@@ -2469,7 +2470,7 @@
 3	men	man	NOUN	_	Number=Plur	16	mod:periph	_	AlignBegin=296300|AlignEnd=296590|Gloss=man.PL
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=296590|AlignEnd=296620|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=296620|AlignEnd=296808|Gloss=PUNCT
-6	if	if	SCONJ	_	_	16	mod:periph	_	AlignBegin=296808|AlignEnd=297040|Gloss=if
+6	if	if	SCONJ	_	_	16	mod:periph$cond	_	AlignBegin=296808|AlignEnd=297040|Gloss=if
 7	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	subj	_	AlignBegin=297040|AlignEnd=297240|Gloss=NOM.PL.3
 8	go	go	AUX	_	Aspect=Prosp	6	comp:obj	_	AlignBegin=297240|AlignEnd=297390|Gloss=PROSP
 9	stand	stand	VERB	_	_	8	comp:aux	_	AlignBegin=297390|AlignEnd=297700|Gloss=stand
@@ -2509,7 +2510,7 @@
 8	for	for	ADP	_	_	6	conj:dicto	_	AlignBegin=300190|AlignEnd=300390|Gloss=for
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=300390|AlignEnd=300420|Gloss=PUNCT
 10	carry	carry	VERB	_	_	8	comp:obj	_	AlignBegin=300420|AlignEnd=300720|Gloss=carry
-11	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	12	mod:poss	_	AlignBegin=300720|AlignEnd=300860|Gloss=F.SG.3.POSS
+11	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=PRS	12	mod:poss	_	AlignBegin=300720|AlignEnd=300860|Gloss=F.SG.3.POSS
 12	bag	bag	NOUN	_	_	10	comp:obj	_	AlignBegin=300860|AlignEnd=301115|Gloss=bag
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=301115|AlignEnd=301145|Gloss=PUNCT
 
@@ -2531,7 +2532,7 @@
 8	open	open	VERB	_	_	7	comp:aux	_	AlignBegin=302094|AlignEnd=302374|Gloss=open
 9	door	door	NOUN	_	_	8	comp:obj	_	AlignBegin=302374|AlignEnd=302514|Gloss=door
 10	for	for	ADP	_	_	8	comp:obl	_	AlignBegin=302514|AlignEnd=302734|Gloss=for
-11	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	10	comp:obj	_	AlignBegin=302734|AlignEnd=302804|Gloss=F.SG.3.POSS
+11	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	10	comp:obj	_	AlignBegin=302734|AlignEnd=302804|Gloss=F.SG.3.POSS
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=302804|AlignEnd=302834|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -2585,7 +2586,7 @@
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=305620|AlignEnd=305650|Gloss=PUNCT
 5	go	go	VERB	_	_	2	comp:cleft	_	AlignBegin=305650|AlignEnd=305840|Gloss=go
 6	school	school	NOUN	_	_	5	comp:obj	_	AlignBegin=305840|AlignEnd=306090|Gloss=school
-7	pass	pass	VERB	_	_	5	comp:pred	_	AlignBegin=306090|AlignEnd=306320|Gloss=pass
+7	pass	pass	VERB	_	_	5	comp:pred$purp	_	AlignBegin=306090|AlignEnd=306320|Gloss=pass
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=306320|AlignEnd=306350|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -2602,7 +2603,7 @@
 4	[	[	PUNCT	_	_	16	punct	_	AlignBegin=306630|AlignEnd=306660|Gloss=PUNCT
 5	so	so	ADV	_	_	16	discourse	_	AlignBegin=306660|AlignEnd=307020|Gloss=so
 6	#	#	PUNCT	_	_	16	punct	_	AlignBegin=307020|AlignEnd=307271|Gloss=PUNCT
-7	if	if	SCONJ	_	_	16	mod:periph	_	AlignBegin=307271|AlignEnd=307469|Gloss=if
+7	if	if	SCONJ	_	_	16	mod:periph$cond	_	AlignBegin=307271|AlignEnd=307469|Gloss=if
 8	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=307469|AlignEnd=307610|Gloss=NOM.SG.1
 9	sef	sef	PART	_	PartType=Disc	8	mod:emph	_	AlignBegin=307610|AlignEnd=307890|Gloss=FOC
 10	go	go	VERB	_	_	7	comp:obj	_	AlignBegin=307890|AlignEnd=308080|Gloss=go
@@ -2647,7 +2648,7 @@
 4	say	say	VERB	_	_	3	comp:aux	_	AlignBegin=312240|AlignEnd=312390|Gloss=say
 5	[	[	PUNCT	_	_	4	punct	_	AlignBegin=312390|AlignEnd=312420|Gloss=PUNCT
 6	OK	OK	INTJ	_	_	4	discourse	_	AlignBegin=312420|AlignEnd=312910|Gloss=OK
-7	if	if	SCONJ	_	_	4	mod:periph	_	AlignBegin=312910|AlignEnd=313110|Gloss=if
+7	if	if	SCONJ	_	_	4	mod:periph$cond	_	AlignBegin=312910|AlignEnd=313110|Gloss=if
 8	na	na	PART	_	PartType=Cop	7	comp:obj	_	AlignBegin=313140|AlignEnd=313330|Gloss=be
 9	school	school	NOUN	_	_	8	comp:pred	_	AlignBegin=313330|AlignEnd=313640|Gloss=school
 10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=313640|AlignEnd=313900|Gloss=SG.DEM
@@ -2676,7 +2677,7 @@
 1	in	in	ADP	_	_	15	mod:periph	_	AlignBegin=315580|AlignEnd=315704|ExtPos=ADV|Gloss=in|PhraseType=Idiom
 2	fact	fact	NOUN	_	_	1	comp:obj	_	AlignBegin=315704|AlignEnd=315862|Gloss=fact|InIdiom=Yes
 3	#	#	PUNCT	_	_	4	punct	_	AlignBegin=315862|AlignEnd=316010|Gloss=PUNCT
-4	if	if	SCONJ	_	_	15	mod:periph	_	AlignBegin=316010|AlignEnd=316140|Gloss=if
+4	if	if	SCONJ	_	_	15	mod:periph$cond	_	AlignBegin=316010|AlignEnd=316140|Gloss=if
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=316140|AlignEnd=316200|Gloss=NOM.2
 6	see	see	VERB	_	_	4	comp:obj	_	AlignBegin=316200|AlignEnd=316350|Gloss=see
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=316350|AlignEnd=316460|Gloss=DEF.ART
@@ -2726,12 +2727,12 @@
 16	<	<	PUNCT	_	_	6	punct	_	AlignBegin=321953|AlignEnd=321983|Gloss=PUNCT
 17	#	#	PUNCT	_	_	6	punct	_	AlignBegin=321983|AlignEnd=322190|Gloss=PUNCT
 18	so	so	ADV	_	_	28	discourse	_	AlignBegin=322190|AlignEnd=322350|Gloss=so
-19	if	if	SCONJ	_	_	28	mod:periph	_	AlignBegin=322350|AlignEnd=322620|Gloss=if
+19	if	if	SCONJ	_	_	28	mod:periph$cond	_	AlignBegin=322350|AlignEnd=322620|Gloss=if
 20	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	subj	_	AlignBegin=322620|AlignEnd=322750|Gloss=NOM.SG.1
 21	sef	sef	PART	_	PartType=Disc	20	mod:emph	_	AlignBegin=322750|AlignEnd=323176|Gloss=FOC
 22	go	go	VERB	_	_	19	comp:obj	_	AlignBegin=323176|AlignEnd=323480|Gloss=go
 23	school	school	NOUN	_	_	22	comp:obj	_	AlignBegin=323480|AlignEnd=323830|Gloss=school
-24	reach	reach	VERB	_	_	22	comp:pred	_	AlignBegin=323830|AlignEnd=324030|Gloss=reach
+24	reach	reach	VERB	_	_	22	comp:pred$purp	_	AlignBegin=323830|AlignEnd=324030|Gloss=reach
 25	dis	dis	DET	_	Number=Sing|PronType=Dem	26	det	_	AlignBegin=324030|AlignEnd=324270|Gloss=SG.DEM
 26	level	level	NOUN	_	_	24	comp:obj	_	AlignBegin=324270|AlignEnd=324540|Gloss=level
 27	<	<	PUNCT	_	_	19	punct	_	AlignBegin=324540|AlignEnd=324570|Gloss=PUNCT
@@ -2836,7 +2837,7 @@
 60	okay	OK	INTJ	_	_	84	discourse	_	AlignBegin=337887|AlignEnd=338196|Gloss=OK
 61	#	#	PUNCT	_	_	60	punct	_	AlignBegin=338226|AlignEnd=338480|Gloss=PUNCT
 62	so	so	ADV	_	_	84	discourse	_	AlignBegin=338480|AlignEnd=338580|Gloss=so
-63	if	if	SCONJ	_	_	84	mod:periph	_	AlignBegin=338580|AlignEnd=338760|Gloss=if
+63	if	if	SCONJ	_	_	84	mod:periph$cond	_	AlignBegin=338580|AlignEnd=338760|Gloss=if
 64	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	65	subj	_	AlignBegin=338760|AlignEnd=338860|Gloss=NOM.SG.1
 65	put	put	VERB	_	_	63	comp:obj	_	AlignBegin=338860|AlignEnd=339180|Gloss=put
 66	more	more	ADJ	_	Degree=Cmp	67	mod	_	AlignBegin=339180|AlignEnd=339340|Gloss=CMPR
@@ -2917,7 +2918,7 @@
 6	OK	OK	INTJ	_	_	30	discourse	_	AlignBegin=347650|AlignEnd=347970|Gloss=OK
 7	#	#	PUNCT	_	_	6	punct	_	AlignBegin=348000|AlignEnd=348420|Gloss=PUNCT
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=348390|AlignEnd=348420|Gloss=PUNCT
-9	if	if	SCONJ	_	_	30	mod:periph	_	AlignBegin=348420|AlignEnd=348660|Gloss=if
+9	if	if	SCONJ	_	_	30	mod:periph$cond	_	AlignBegin=348420|AlignEnd=348660|Gloss=if
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=348660|AlignEnd=348690|Gloss=PUNCT
 11	after	after	ADP	_	_	9	conj:dicto	_	AlignBegin=348690|AlignEnd=348990|Gloss=after
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=348990|AlignEnd=349020|Gloss=PUNCT
@@ -2926,7 +2927,7 @@
 15	degree	degree	NOUN	_	_	11	comp:obj	_	AlignBegin=349480|AlignEnd=349770|Gloss=degree
 16	<	<	PUNCT	_	_	9	punct	_	AlignBegin=349770|AlignEnd=349800|Gloss=PUNCT
 17	#	#	PUNCT	_	_	9	punct	_	AlignBegin=349800|AlignEnd=350062|Gloss=PUNCT
-18	if	if	SCONJ	_	_	30	mod:periph	_	AlignBegin=350062|AlignEnd=350240|Gloss=if
+18	if	if	SCONJ	_	_	30	mod:periph$cond	_	AlignBegin=350062|AlignEnd=350240|Gloss=if
 19	[	[	PUNCT	_	_	20	punct	_	AlignBegin=350240|AlignEnd=350270|Gloss=PUNCT
 20	na	na	PART	_	PartType=Cop	18	comp:obj	_	AlignBegin=350270|AlignEnd=350420|Gloss=be
 21	PhD	PhD	NOUN	_	_	20	comp:pred	_	AlignBegin=350420|AlignEnd=350880|Gloss=PhD
@@ -2953,7 +2954,7 @@
 # text_ortho = If e get more than PhD, I go get more than PhD.
 # timestamp = 1620157789085
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=352873|AlignEnd=353120|Gloss=PUNCT
-2	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=353120|AlignEnd=353300|Gloss=if
+2	if	if	SCONJ	_	_	10	mod:periph$cond	_	AlignBegin=353120|AlignEnd=353300|Gloss=if
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=353300|AlignEnd=353380|Gloss=NOM.SG.3
 4	get	get	VERB	_	_	2	comp:obj	_	AlignBegin=353380|AlignEnd=353620|Gloss=get
 5	more	more	ADJ	_	Degree=Cmp	4	comp:obj	_	AlignBegin=353620|AlignEnd=353820|ExtPos=ADP|Gloss=CMPR|PhraseType=Idiom
@@ -3086,11 +3087,11 @@
 # text_ortho = When I go service reach so, you know sey I...
 # timestamp = 1610453275411
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=364660|AlignEnd=365060|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	10	mod:periph	_	AlignBegin=365060|AlignEnd=365200|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	10	mod:periph$tempo	_	AlignBegin=365060|AlignEnd=365200|Gloss=when.Q
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=365200|AlignEnd=365310|Gloss=NOM.SG.1
 4	go	go	VERB	_	_	2	comp:obj	_	AlignBegin=365310|AlignEnd=365460|Gloss=go
 5	service	service	NOUN	_	_	4	comp:obj	_	AlignBegin=365460|AlignEnd=365980|Gloss=service
-6	reach	reach	VERB	_	_	4	comp:pred	_	AlignBegin=365980|AlignEnd=366130|Gloss=reach
+6	reach	reach	VERB	_	_	4	comp:pred$purp	_	AlignBegin=365980|AlignEnd=366130|Gloss=reach
 7	so	so	ADV	_	_	6	mod	_	AlignBegin=366130|AlignEnd=366250|Gloss=so
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=366250|AlignEnd=366280|Gloss=PUNCT
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	subj	_	AlignBegin=366280|AlignEnd=366360|Gloss=NOM.2
@@ -3125,7 +3126,7 @@
 16	go	go	AUX	_	Aspect=Prosp	14	comp:obj	_	AlignBegin=369050|AlignEnd=369180|Gloss=PROSP
 17	go	go	VERB	_	_	16	comp:aux	_	AlignBegin=369180|AlignEnd=369380|Gloss=go
 18	school	school	NOUN	_	_	17	comp:obj	_	AlignBegin=369380|AlignEnd=369680|Gloss=school
-19	reach	reach	VERB	_	_	17	comp:pred	_	AlignBegin=369680|AlignEnd=370004|Gloss=reach
+19	reach	reach	VERB	_	_	17	comp:pred$purp	_	AlignBegin=369680|AlignEnd=370004|Gloss=reach
 20	<	<	PUNCT	_	_	8	punct	_	AlignBegin=370004|AlignEnd=370034|Gloss=PUNCT
 21	#	#	PUNCT	_	_	8	punct	_	AlignBegin=370034|AlignEnd=370280|Gloss=PUNCT
 22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	23	subj	_	AlignBegin=370280|AlignEnd=370360|Gloss=NOM.2
@@ -3143,7 +3144,7 @@
 # text_ortho = If you no marry, na anoda wahala.
 # timestamp = 1610453275411
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=371120|AlignEnd=371293|Gloss=PUNCT
-2	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=371293|AlignEnd=371433|Gloss=if
+2	if	if	SCONJ	_	_	8	mod:periph$cond	_	AlignBegin=371293|AlignEnd=371433|Gloss=if
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=371433|AlignEnd=371533|Gloss=NOM.2
 4	no	no	AUX	_	Polarity=Neg	2	comp:obj	_	AlignBegin=371533|AlignEnd=371723|Gloss=NEG
 5	marry	marry	VERB	_	_	4	comp:aux	_	AlignBegin=371723|AlignEnd=371993|Gloss=marry
@@ -3199,10 +3200,10 @@
 # text_en = By God's grace, my husband is like if God put his love for me into his mind.
 # text_ortho = As God wan take do am so, my husband con be like person wey be sey God put my love for im mind.
 # timestamp = 1610453275411
-1	as	as	ADP	_	_	12	mod:periph	_	AlignBegin=377510|AlignEnd=377700|Gloss=as
+1	as	as	ADP	_	_	12	mod:periph@tempo	_	AlignBegin=377510|AlignEnd=377700|Gloss=as
 2	God	God	PROPN	_	_	3	subj	_	AlignBegin=377700|AlignEnd=377900|Gloss=God
 3	wan	want	VERB	_	_	1	comp:obj	_	AlignBegin=377900|AlignEnd=378050|Gloss=want
-4	take	take	VERB	_	_	3	comp:pred	_	AlignBegin=378050|AlignEnd=378240|Gloss=take
+4	take	take	VERB	_	_	3	comp:pred$desire	_	AlignBegin=378050|AlignEnd=378240|Gloss=take
 5	do	do	VERB	_	_	4	compound:svc	_	AlignBegin=378240|AlignEnd=378390|Gloss=do
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=378390|AlignEnd=378540|Gloss=ACC.SG.3
 7	so	so	ADV	_	_	5	mod	_	AlignBegin=378540|AlignEnd=378830|Gloss=so
@@ -3259,7 +3260,7 @@
 20	wetin	wetin	PRON	_	PronType=Int	19	comp:obj@agent	_	AlignBegin=387320|AlignEnd=387630|Gloss=what.Q
 21	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	subj	_	AlignBegin=387630|AlignEnd=387700|Gloss=NOM.SG.1
 22	wan	want	VERB	_	_	20	mod@relcl	_	AlignBegin=387700|AlignEnd=387840|Gloss=want
-23	do	do	VERB	_	_	22	comp:pred	_	AlignBegin=387840|AlignEnd=387900|Gloss=do
+23	do	do	VERB	_	_	22	comp:pred$desire	_	AlignBegin=387840|AlignEnd=387900|Gloss=do
 24	]	]	PUNCT	_	_	19	punct	_	AlignBegin=387900|AlignEnd=387930|Gloss=PUNCT
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=387900|AlignEnd=387930|Gloss=PUNCT
 
@@ -3305,7 +3306,7 @@
 7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=392220|AlignEnd=392380|Gloss=NOM.SG.1
 8	wan	want	VERB	_	_	6	mod@relcl	_	AlignBegin=392380|AlignEnd=392820|Gloss=want
 9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=392820|AlignEnd=393240|Gloss=PUNCT
-10	reach	reach	VERB	_	_	8	comp:pred	_	AlignBegin=393240|AlignEnd=393610|Gloss=reach
+10	reach	reach	VERB	_	_	8	comp:pred$desire	_	AlignBegin=393240|AlignEnd=393610|Gloss=reach
 11	for	for	ADP	_	_	10	comp:obl	_	AlignBegin=393610|AlignEnd=393740|Gloss=for
 12	life	life	NOUN	_	_	11	comp:obj	_	AlignBegin=393740|AlignEnd=394080|Gloss=life
 13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=394080|AlignEnd=394110|Gloss=PUNCT
@@ -3362,7 +3363,7 @@
 # text_ortho = So if to, na, na school I wan go, no wahala.
 # timestamp = 1623495441197
 1	so	so	ADV	_	_	16	discourse	_	AlignBegin=397820|AlignEnd=397940|Gloss=so
-2	if	if	SCONJ	_	_	16	mod:periph	_	AlignBegin=397940|AlignEnd=398040|Gloss=if
+2	if	if	SCONJ	_	_	16	mod:periph$cond	_	AlignBegin=397940|AlignEnd=398040|Gloss=if
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=398040|AlignEnd=398070|Gloss=PUNCT
 4	to	to	ADP	_	_	2	comp:obj	_	AlignBegin=398070|AlignEnd=398150|Gloss=to
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=398180|AlignEnd=398210|Gloss=PUNCT
@@ -3373,7 +3374,7 @@
 10	school	school	NOUN	_	_	8	comp:pred	_	AlignBegin=398790|AlignEnd=398970|Gloss=school
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=398970|AlignEnd=399090|Gloss=NOM.SG.1
 12	wan	want	VERB	_	_	8	comp:cleft	_	AlignBegin=399090|AlignEnd=399310|Gloss=want
-13	go	go	VERB	_	_	12	comp:pred	_	AlignBegin=399310|AlignEnd=399503|Gloss=go
+13	go	go	VERB	_	_	12	comp:pred$desire	_	AlignBegin=399310|AlignEnd=399503|Gloss=go
 14	<	<	PUNCT	_	_	2	punct	_	AlignBegin=399503|AlignEnd=399533|Gloss=PUNCT
 15	#	#	PUNCT	_	_	2	punct	_	AlignBegin=399533|AlignEnd=399806|Gloss=PUNCT
 16	no	no	PART	_	Polarity=Neg	0	root	_	AlignBegin=399806|AlignEnd=400056|Gloss=NEG
@@ -3420,7 +3421,7 @@
 # text_ortho = As I con come for masters, sey I con see sey...
 # timestamp = 1610453275411
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=403020|AlignEnd=403620|Gloss=PUNCT
-2	as	as	ADP	_	_	11	mod:periph	_	AlignBegin=403620|AlignEnd=403780|Gloss=as
+2	as	as	ADP	_	_	11	mod:periph@tempo	_	AlignBegin=403620|AlignEnd=403780|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=403780|AlignEnd=403880|Gloss=NOM.SG.1
 4	con	con	AUX	_	Aspect=Cons	2	comp:obj	_	AlignBegin=403880|AlignEnd=404070|Gloss=CONS
 5	come	come	VERB	_	_	4	comp:aux	_	AlignBegin=404070|AlignEnd=404260|Gloss=come
@@ -3543,7 +3544,7 @@
 # timestamp = 1610453275411
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=419264|AlignEnd=419484|Gloss=PUNCT
 2	and	and	CCONJ	_	_	9	discourse	_	AlignBegin=419484|AlignEnd=419661|Gloss=and
-3	as	as	ADP	_	_	9	mod:periph	_	AlignBegin=419661|AlignEnd=419752|Gloss=as
+3	as	as	ADP	_	_	9	mod:periph@tempo	_	AlignBegin=419661|AlignEnd=419752|Gloss=as
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=419752|AlignEnd=419871|Gloss=NOM.PL.1
 5	dey	dey	AUX	_	Aspect=Imp	3	comp:obj	_	AlignBegin=419871|AlignEnd=420011|Gloss=IPFV
 6	do	do	VERB	_	_	5	comp:aux	_	AlignBegin=420011|AlignEnd=420191|Gloss=do
@@ -3639,7 +3640,7 @@
 5	[	[	PUNCT	_	_	37	punct	_	AlignBegin=431051|AlignEnd=431081|Gloss=PUNCT
 6	ah	ah	INTJ	_	_	37	discourse	_	AlignBegin=431081|AlignEnd=431261|Gloss=ah
 7	#	#	PUNCT	_	_	6	punct	_	AlignBegin=431291|AlignEnd=431761|Gloss=PUNCT
-8	if	if	SCONJ	_	_	37	mod:periph	_	AlignBegin=431761|AlignEnd=431993|Gloss=if
+8	if	if	SCONJ	_	_	37	mod:periph$cond	_	AlignBegin=431761|AlignEnd=431993|Gloss=if
 9	[	[	PUNCT	_	_	18	punct	_	AlignBegin=431993|AlignEnd=432023|Gloss=PUNCT
 10	as	as	ADP	_	_	18	mod:periph	_	AlignBegin=432023|AlignEnd=432311|Gloss=as
 11	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	subj	_	AlignBegin=432311|AlignEnd=432611|Gloss=NOM.PL.2
@@ -3650,7 +3651,7 @@
 16	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	18	subj	_	AlignBegin=433682|AlignEnd=433881|Gloss=NOM.PL.2
 17	still	still	ADV	_	_	18	mod	_	AlignBegin=433881|AlignEnd=434121|Gloss=still
 18	wan	want	VERB	_	_	8	comp:obj	_	AlignBegin=434121|AlignEnd=434261|Gloss=want
-19	get	get	VERB	_	_	18	comp:pred	_	AlignBegin=434261|AlignEnd=434471|Gloss=get
+19	get	get	VERB	_	_	18	comp:pred$desire	_	AlignBegin=434261|AlignEnd=434471|Gloss=get
 20	PhD	PhD	NOUN	_	_	19	comp:obj	_	AlignBegin=434471|AlignEnd=434921|Gloss=PhD
 21	]	]	PUNCT	_	_	18	punct	_	AlignBegin=434921|AlignEnd=434951|Gloss=PUNCT
 22	<	<	PUNCT	_	_	8	punct	_	AlignBegin=434921|AlignEnd=434951|Gloss=PUNCT
@@ -3835,7 +3836,7 @@
 3	[	[	PUNCT	_	_	16	punct	_	AlignBegin=452811|AlignEnd=452841|Gloss=PUNCT
 4	oh	oh	INTJ	_	_	16	discourse	_	AlignBegin=452841|AlignEnd=453025|Gloss=oh
 5	#	#	PUNCT	_	_	4	punct	_	AlignBegin=453055|AlignEnd=453342|Gloss=PUNCT
-6	if	if	SCONJ	_	_	16	mod:periph	_	AlignBegin=453342|AlignEnd=453529|Gloss=if
+6	if	if	SCONJ	_	_	16	mod:periph$cond	_	AlignBegin=453342|AlignEnd=453529|Gloss=if
 7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=453529|AlignEnd=453701|Gloss=SG.DEM
 8	woman	woman	NOUN	_	_	9	subj	_	AlignBegin=453701|AlignEnd=453941|Gloss=woman
 9	be	be	VERB	_	PartType=Cop	6	comp:obj	_	AlignBegin=453941|AlignEnd=454021|Gloss=be
@@ -3893,7 +3894,7 @@
 # text_en = As I finished the Masters program, God helped me.
 # text_ortho = As I do masters finish, God wan do am.
 # timestamp = 1610453275411
-1	as	as	ADP	_	_	8	mod:periph	_	AlignBegin=459341|AlignEnd=459561|Gloss=as
+1	as	as	ADP	_	_	8	mod:periph@tempo	_	AlignBegin=459341|AlignEnd=459561|Gloss=as
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=459561|AlignEnd=459631|Gloss=NOM.SG.1
 3	do	do	VERB	_	_	1	comp:obj	_	AlignBegin=459631|AlignEnd=459741|Gloss=do
 4	masters	master	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=459741|AlignEnd=460201|Gloss=master.PL
@@ -3901,7 +3902,7 @@
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=460491|AlignEnd=460521|Gloss=PUNCT
 7	God	God	PROPN	_	_	8	subj	_	AlignBegin=460521|AlignEnd=460751|Gloss=God
 8	wan	want	VERB	_	_	0	root	_	AlignBegin=460751|AlignEnd=460891|Gloss=want
-9	do	do	VERB	_	_	8	comp:pred	_	AlignBegin=460891|AlignEnd=461031|Gloss=do
+9	do	do	VERB	_	_	8	comp:pred$desire	_	AlignBegin=460891|AlignEnd=461031|Gloss=do
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=461031|AlignEnd=461116|Gloss=ACC.SG.3
 11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=461116|AlignEnd=461146|Gloss=PUNCT
 
@@ -3957,7 +3958,7 @@
 27	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	subj	_	AlignBegin=466514|AlignEnd=466611|Gloss=NOM.SG.1
 28	still	still	ADV	_	_	29	mod	_	AlignBegin=466611|AlignEnd=466861|Gloss=still
 29	wan	want	VERB	_	_	19	parataxis:conj	_	AlignBegin=466861|AlignEnd=466991|Gloss=want
-30	continue	continue	VERB	_	_	29	comp:pred	_	AlignBegin=466991|AlignEnd=467541|Gloss=continue
+30	continue	continue	VERB	_	_	29	comp:pred$desire	_	AlignBegin=466991|AlignEnd=467541|Gloss=continue
 31	//]	//]	PUNCT	_	_	10	punct	_	AlignBegin=467541|AlignEnd=467571|Gloss=PUNCT
 32	//	//	PUNCT	_	_	2	punct	_	AlignBegin=467541|AlignEnd=467571|Gloss=PUNCT
 
@@ -3987,7 +3988,7 @@
 # text_ortho = Sey if na so I wan, e sef wan am.
 # timestamp = 1610453275412
 1	sey	sey	SCONJ	_	_	13	discourse	_	AlignBegin=468667|AlignEnd=468923|Gloss=COMP
-2	if	if	SCONJ	_	_	13	mod:periph	_	AlignBegin=468923|AlignEnd=469040|Gloss=if
+2	if	if	SCONJ	_	_	13	mod:periph$cond	_	AlignBegin=468923|AlignEnd=469040|Gloss=if
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=469040|AlignEnd=469070|Gloss=PUNCT
 4	na	na	PART	_	PartType=Cop	2	comp:obj	_	AlignBegin=469070|AlignEnd=469291|Gloss=be
 5	so	so	ADV	_	_	4	comp:pred	_	AlignBegin=469291|AlignEnd=469451|Gloss=so
@@ -4015,7 +4016,7 @@
 3	where	where	ADV	_	PronType=Int	2	mod	_	AlignBegin=471908|AlignEnd=472011|Gloss=where.Q
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=472011|AlignEnd=472161|Gloss=NOM.SG.1
 5	wan	want	VERB	_	_	3	mod@relcl	_	AlignBegin=472161|AlignEnd=472621|Gloss=want
-6	reach	reach	VERB	_	_	5	comp:pred	_	AlignBegin=472621|AlignEnd=472801|Gloss=reach
+6	reach	reach	VERB	_	_	5	comp:pred$desire	_	AlignBegin=472621|AlignEnd=472801|Gloss=reach
 7	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=472801|AlignEnd=472961|Gloss=for
 8	life	life	NOUN	_	_	7	comp:obj	_	AlignBegin=472961|AlignEnd=473210|Gloss=life
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=473210|AlignEnd=473240|Gloss=PUNCT
@@ -4070,7 +4071,7 @@
 6	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=479721|AlignEnd=479821|Gloss=be
 7	sey	sey	SCONJ	_	_	6	comp:pred	_	AlignBegin=479821|AlignEnd=479951|Gloss=COMP
 8	[	[	PUNCT	_	_	14	punct	_	AlignBegin=479951|AlignEnd=479981|Gloss=PUNCT
-9	when	when	SCONJ	_	PronType=Int	14	mod:periph	_	AlignBegin=479981|AlignEnd=480191|Gloss=when.Q
+9	when	when	SCONJ	_	PronType=Int	14	mod:periph$tempo	_	AlignBegin=479981|AlignEnd=480191|Gloss=when.Q
 10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	AlignBegin=480191|AlignEnd=480261|Gloss=NOM.PL.1
 11	do	do	VERB	_	_	9	comp:obj	_	AlignBegin=480261|AlignEnd=480451|Gloss=do
 12	finish	finish	VERB	_	_	11	compound:svc	_	AlignBegin=480451|AlignEnd=481073|Gloss=finish
@@ -4098,3 +4099,4 @@
 5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=483401|AlignEnd=483611|Gloss=ACC.PL.1
 6	happy	happy	ADJ	_	_	4	comp:pred	_	AlignBegin=483611|AlignEnd=483958|Gloss=happy
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=483958|AlignEnd=483988|Gloss=PUNCT
+

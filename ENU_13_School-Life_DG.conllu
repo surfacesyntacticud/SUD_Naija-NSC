@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = ENU_13_School-Life_DG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_13_School-Life_DG.mp3
@@ -422,7 +423,7 @@
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=37034|AlignEnd=37158|Gloss=NOM.SG.1
 12	never	never	AUX	_	Aspect=Perf|Polarity=Neg	0	root	_	AlignBegin=37158|AlignEnd=37282|Gloss=PRF.NEG
 13	wan	want	VERB	_	_	12	comp:aux	_	AlignBegin=37282|AlignEnd=37406|Gloss=want
-14	fail	fail	VERB	_	_	13	comp:pred	_	AlignBegin=37406|AlignEnd=37530|Gloss=fail
+14	fail	fail	VERB	_	_	13	comp:pred$desire	_	AlignBegin=37406|AlignEnd=37530|Gloss=fail
 15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=37530|AlignEnd=37530|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -616,7 +617,7 @@
 # timestamp = 1610453213230
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=49350|AlignEnd=49632|Gloss=NOM.2
 2	wan	want	VERB	_	_	0	root	_	AlignBegin=49632|AlignEnd=49913|Gloss=want
-3	chop	chop	VERB	_	_	2	comp:pred	_	AlignBegin=49913|AlignEnd=50195|Gloss=eat
+3	chop	chop	VERB	_	_	2	comp:pred$desire	_	AlignBegin=49913|AlignEnd=50195|Gloss=eat
 4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=50195|AlignEnd=50195|Gloss=PUNCT
 
 # user_id = bernard.l.caron
@@ -766,7 +767,7 @@
 3	wetin	wetin	PRON	_	PronType=Int	2	comp:pred	_	AlignBegin=64080|AlignEnd=64305|Gloss=what.Q
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=64305|AlignEnd=64530|Gloss=NOM.SG.1
 5	wan	want	VERB	_	_	3	mod@relcl	_	AlignBegin=64530|AlignEnd=64755|Gloss=want
-6	chop	chop	VERB	_	_	5	comp:pred	_	AlignBegin=64755|AlignEnd=64980|Gloss=eat
+6	chop	chop	VERB	_	_	5	comp:pred$desire	_	AlignBegin=64755|AlignEnd=64980|Gloss=eat
 7	o	o	PART	_	PartType=Disc	2	mod:emph	_	AlignBegin=64980|AlignEnd=65205|Gloss=EMPH
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=65205|AlignEnd=65205|Gloss=PUNCT
 
@@ -834,7 +835,7 @@
 9	wetin	wetin	PRON	_	PronType=Int	8	comp:pred	_	AlignBegin=70008|AlignEnd=70215|Gloss=what.Q
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=70215|AlignEnd=70421|Gloss=NOM.SG.1
 11	wan	want	VERB	_	_	9	mod@relcl	_	AlignBegin=70421|AlignEnd=70628|Gloss=want
-12	chop	chop	VERB	_	_	11	comp:pred	_	AlignBegin=70628|AlignEnd=70835|Gloss=eat
+12	chop	chop	VERB	_	_	11	comp:pred$desire	_	AlignBegin=70628|AlignEnd=70835|Gloss=eat
 13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=70835|AlignEnd=70835|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -983,7 +984,7 @@
 # text_en = If you put it over, now add fish, Oduazu, ah, you'll really like it.
 # text_ortho = If you put am over, con put fish, oduazu, ah you go like am wella o.
 # timestamp = 1610453213230
-1	if	if	SCONJ	_	_	17	mod:periph	_	AlignBegin=77742|AlignEnd=78012|Gloss=if
+1	if	if	SCONJ	_	_	17	mod:periph$cond	_	AlignBegin=77742|AlignEnd=78012|Gloss=if
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=78012|AlignEnd=78283|Gloss=NOM.2
 3	put	put	VERB	_	_	1	comp:obj	_	AlignBegin=78283|AlignEnd=78554|Gloss=put
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=78554|AlignEnd=78824|Gloss=ACC.SG.3
@@ -1182,10 +1183,10 @@
 5	give	give	VERB	_	_	4	comp:aux	_	AlignBegin=94379|AlignEnd=94582|Gloss=give
 6	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	comp:obl	_	AlignBegin=94582|AlignEnd=94785|Gloss=ACC.PL.1
 7	textbook	textbook	NOUN	_	_	5	comp:obj	_	AlignBegin=94785|AlignEnd=94988|Gloss=textbook
-8	make	make	AUX	_	Mood=Opt	5	mod	_	AlignBegin=94988|AlignEnd=95192|Gloss=SBJV
+8	make	make	SCONJ	_	_	5	mod$purp	_	AlignBegin=94988|AlignEnd=95192|Gloss=that
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	subj	_	AlignBegin=95192|AlignEnd=95395|Gloss=NOM.PL.1
-10	go	go	VERB	_	_	8	comp:aux	_	AlignBegin=95395|AlignEnd=95598|Gloss=go
-11	buy	buy	VERB	_	_	10	comp:pred	_	AlignBegin=95598|AlignEnd=95801|Gloss=buy
+10	go	go	VERB	_	_	8	comp:obj	_	AlignBegin=95395|AlignEnd=95598|Gloss=go
+11	buy	buy	VERB	_	_	10	comp:pred$purp	_	AlignBegin=95598|AlignEnd=95801|Gloss=buy
 12	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=95801|AlignEnd=96004|Gloss=ACC.SG.3
 13	one	one	NUM	_	NumType=Card	11	mod	_	AlignBegin=96004|AlignEnd=96207|Gloss=one
 14	five	five	NUM	_	NumType=Card	13	flat	_	AlignBegin=96207|AlignEnd=96410|Gloss=five.CARD
@@ -1249,7 +1250,7 @@
 # text_en = If you go to Ise, it's three thousand!
 # text_ortho = If you enter Ise, na three k gbam.
 # timestamp = 1610453213230
-1	if	if	SCONJ	_	_	6	mod:periph	_	AlignBegin=100020|AlignEnd=100179|Gloss=if
+1	if	if	SCONJ	_	_	6	mod:periph$cond	_	AlignBegin=100020|AlignEnd=100179|Gloss=if
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=100179|AlignEnd=100338|Gloss=NOM.2
 3	enter	enter	VERB	_	_	1	comp:obj	_	AlignBegin=100338|AlignEnd=100496|Gloss=enter
 4	Ise	Ise	PROPN	_	_	3	comp:obj	_	AlignBegin=100496|AlignEnd=100655|Gloss=Ise
@@ -1569,7 +1570,7 @@
 # text_ortho = Nna when Peace tell me dat thing, e be like sey make I carry my own plaster for wall, for fall.
 # timestamp = 1618943318061
 1	nna	nna	PART	_	_	10	discourse	_	AlignBegin=126175|AlignEnd=126400|Gloss=father
-2	when	when	SCONJ	_	PronType=Int	10	mod:periph	_	AlignBegin=126400|AlignEnd=126625|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	10	mod:periph$tempo	_	AlignBegin=126400|AlignEnd=126625|Gloss=when.Q
 3	Peace	Peace	PROPN	_	_	4	subj	_	AlignBegin=126625|AlignEnd=126849|Gloss=Peace
 4	tell	tell	VERB	_	_	2	comp:obj	_	AlignBegin=126849|AlignEnd=127074|Gloss=tell
 5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	AlignBegin=127074|AlignEnd=127299|Gloss=ACC.SG.1
@@ -1790,3 +1791,4 @@
 1	oh	oh	INTJ	_	_	2	discourse	_	AlignBegin=141730|AlignEnd=142415|Gloss=oh
 2	God	God	PROPN	_	_	0	root	_	AlignBegin=142415|AlignEnd=143100|Gloss=God
 3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=143100|AlignEnd=143100|Gloss=PUNCT
+

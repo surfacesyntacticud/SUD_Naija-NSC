@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = ENU_33_A-Beg_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
@@ -6,7 +7,7 @@
 # text_en = As I went there last year, la-, last year, as I came back, everybody was just...
 # text_ortho = As I go dere last year, la-... last year as I come back, everybody just dey...
 # timestamp = 1610453264671
-1	as	as	ADP	_	_	21	mod:periph	_	AlignBegin=1870|AlignEnd=2100|Gloss=as
+1	as	as	ADP	_	_	21	mod:periph@tempo	_	AlignBegin=1870|AlignEnd=2100|Gloss=as
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=2100|AlignEnd=2231|Gloss=NOM.SG.1
 3	go	go	VERB	_	_	1	comp:obj	_	AlignBegin=2231|AlignEnd=2380|Gloss=go
 4	dere	dere	ADV	_	_	3	comp:obj	_	AlignBegin=2380|AlignEnd=2604|Gloss=there
@@ -61,7 +62,7 @@
 # text_en = As they were just listening, they were just looking at my mouth to know what I would say, whether I... my boss and I have had problems.
 # text_ortho = As de just dey listen, de just dey look my mouth to know wetin I go talk wheder I, me, and my oga don get problem.
 # timestamp = 1610985612166
-1	as	as	ADP	_	_	9	mod:periph	_	AlignBegin=8262|AlignEnd=8440|Gloss=as
+1	as	as	ADP	_	_	9	mod:periph@tempo	_	AlignBegin=8262|AlignEnd=8440|Gloss=as
 2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=8470|AlignEnd=8590|Gloss=NOM.PL.3
 3	just	just	ADV	_	_	4	mod	_	AlignBegin=8590|AlignEnd=8703|Gloss=just
 4	dey	dey	AUX	_	Aspect=Imp	1	comp:obj	_	AlignBegin=8703|AlignEnd=8800|Gloss=IPFV
@@ -73,7 +74,7 @@
 10	look	look	VERB	_	_	9	comp:aux	_	AlignBegin=9487|AlignEnd=9650|Gloss=look
 11	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	12	mod:poss	_	AlignBegin=9650|AlignEnd=9830|Gloss=SG.1.POSS
 12	mouth	mouth	NOUN	_	_	10	comp:obj	_	AlignBegin=9830|AlignEnd=10070|Gloss=mouth
-13	to	to	ADP	_	_	10	mod	_	AlignBegin=10070|AlignEnd=10190|Gloss=to
+13	to	to	ADP	_	_	10	mod$purp	_	AlignBegin=10070|AlignEnd=10190|Gloss=to
 14	know	know	VERB	_	_	13	comp:obj	_	AlignBegin=10190|AlignEnd=10260|Gloss=know
 15	wetin	wetin	PRON	_	PronType=Int	14	comp:obj	_	AlignBegin=10290|AlignEnd=10480|Gloss=what.Q
 16	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	subj	_	AlignBegin=10480|AlignEnd=10612|Gloss=NOM.SG.1
@@ -113,7 +114,7 @@
 6	<	<	PUNCT	_	_	8	punct	_	AlignBegin=14580|AlignEnd=14610|Gloss=PUNCT
 7	just	just	ADV	_	_	8	mod	_	AlignBegin=14610|AlignEnd=14836|Gloss=just
 8	try	try	VERB	_	_	0	root	_	AlignBegin=14836|AlignEnd=15000|Gloss=try
-9	help	help	VERB	_	_	8	comp:pred	_	AlignBegin=15000|AlignEnd=15207|Gloss=help
+9	help	help	VERB	_	_	8	comp:pred$desire	_	AlignBegin=15000|AlignEnd=15207|Gloss=help
 10	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=15207|AlignEnd=15433|Gloss=ACC.SG.1
 11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=15433|AlignEnd=15463|Gloss=PUNCT
 
@@ -623,7 +624,7 @@
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=69593|AlignEnd=70194|Gloss=PUNCT
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=70164|AlignEnd=70194|Gloss=PUNCT
 3	even	even	ADV	_	_	4	mod	_	AlignBegin=70194|AlignEnd=70524|Gloss=even
-4	if	if	SCONJ	_	_	13	mod:periph	_	AlignBegin=70524|AlignEnd=70664|Gloss=if
+4	if	if	SCONJ	_	_	13	mod:periph$cond	_	AlignBegin=70524|AlignEnd=70664|Gloss=if
 5	na	na	PART	_	PartType=Cop	4	comp:obj	_	AlignBegin=70664|AlignEnd=71291|Gloss=be
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=71291|AlignEnd=71321|Gloss=PUNCT
 7	even	even	ADV	_	_	8	mod	_	AlignBegin=71321|AlignEnd=71564|Gloss=even
@@ -652,7 +653,7 @@
 # text_ortho = As I come back, na how many months now?
 # timestamp = 1610453264671
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=74180|AlignEnd=74870|Gloss=PUNCT
-2	as	as	ADP	_	_	7	mod:periph	_	AlignBegin=74870|AlignEnd=75030|Gloss=as
+2	as	as	ADP	_	_	7	mod:periph@tempo	_	AlignBegin=74870|AlignEnd=75030|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=75030|AlignEnd=75130|Gloss=NOM.SG.1
 4	come	come	VERB	_	_	2	comp:obj	_	AlignBegin=75130|AlignEnd=75317|Gloss=come
 5	back	back	ADV	_	_	4	mod	_	AlignBegin=75317|AlignEnd=75520|Gloss=back
@@ -748,7 +749,7 @@
 # timestamp = 1610453264671
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=84480|AlignEnd=84883|Gloss=PUNCT
 2	even	even	ADV	_	_	3	mod	_	AlignBegin=84883|AlignEnd=85173|Gloss=even
-3	if	if	SCONJ	_	_	12	mod:periph	_	AlignBegin=85173|AlignEnd=85343|Gloss=if
+3	if	if	SCONJ	_	_	12	mod:periph$cond	_	AlignBegin=85173|AlignEnd=85343|Gloss=if
 4	na	na	PART	_	PartType=Cop	3	comp:obj	_	AlignBegin=85343|AlignEnd=85885|Gloss=be
 5	because	because	SCONJ	_	_	4	comp:pred	_	AlignBegin=85885|AlignEnd=86203|ExtPos=ADP|Gloss=because|PhraseType=Idiom
 6	of	of	ADP	_	_	5	comp:obj	_	AlignBegin=86203|AlignEnd=86333|Gloss=of|InIdiom=Yes
@@ -942,7 +943,7 @@
 # text_en = If you did something wrong, have it follow you.
 # text_ortho = If you do wrong, meh di wrong follow you.
 # timestamp = 1610453264671
-1	if	if	SCONJ	_	_	6	mod:periph	_	AlignBegin=108352|AlignEnd=108612|Gloss=if
+1	if	if	SCONJ	_	_	6	mod:periph$cond	_	AlignBegin=108352|AlignEnd=108612|Gloss=if
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=108612|AlignEnd=108702|Gloss=NOM.2
 3	do	do	VERB	_	_	1	comp:obj	_	AlignBegin=108702|AlignEnd=108842|Gloss=do
 4	wrong	wrong	ADJ	_	_	3	comp:obj	_	AlignBegin=108842|AlignEnd=109002|Gloss=wrong
@@ -1211,12 +1212,12 @@
 7	go	go	AUX	_	Aspect=Prosp	6	comp:aux	_	AlignBegin=133845|AlignEnd=133910|Gloss=PROSP
 8	ever	ever	ADV	_	_	9	mod	_	AlignBegin=133910|AlignEnd=134080|Gloss=ever
 9	forget	forget	VERB	_	_	7	comp:aux	_	AlignBegin=134080|AlignEnd=134520|Gloss=forget
-10	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	9	comp:obj	_	AlignBegin=134520|AlignEnd=134706|Gloss=F.SG.3.POSS
+10	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	9	comp:obj	_	AlignBegin=134520|AlignEnd=134706|Gloss=F.SG.3.POSS
 11	in	in	ADP	_	_	9	mod	_	AlignBegin=134706|AlignEnd=134870|Gloss=in
 12	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	13	mod:poss	_	AlignBegin=134870|AlignEnd=135020|Gloss=SG.1.POSS
 13	life	life	NOUN	_	_	11	comp:obj	_	AlignBegin=135020|AlignEnd=135215|Gloss=life
 14	even	even	ADV	_	_	15	mod	_	AlignBegin=135215|AlignEnd=135380|Gloss=even
-15	if	if	SCONJ	_	_	9	mod	_	AlignBegin=135380|AlignEnd=135590|Gloss=if
+15	if	if	SCONJ	_	_	9	mod$cond	_	AlignBegin=135380|AlignEnd=135590|Gloss=if
 16	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	subj	_	AlignBegin=135590|AlignEnd=135690|Gloss=NOM.F.SG.3
 17	die	die	VERB	_	_	15	comp:obj	_	AlignBegin=135690|AlignEnd=135860|Gloss=die
 18	{	{	PUNCT	_	_	19	punct	_	AlignBegin=135860|AlignEnd=135890|Gloss=PUNCT
@@ -1383,7 +1384,7 @@
 11	}	}	PUNCT	_	_	4	punct	_	AlignBegin=155541|AlignEnd=155571|Gloss=PUNCT
 12	#	#	PUNCT	_	_	10	punct	_	AlignBegin=155571|AlignEnd=156363|Gloss=PUNCT
 13	try	try	VERB	_	_	8	comp:aux	_	AlignBegin=156363|AlignEnd=156657|Gloss=try
-14	do	do	VERB	_	_	13	comp:pred	_	AlignBegin=156657|AlignEnd=156762|Gloss=do
+14	do	do	VERB	_	_	13	comp:pred$desire	_	AlignBegin=156657|AlignEnd=156762|Gloss=do
 15	someting	someting	PRON	_	_	14	comp:obj	_	AlignBegin=156762|AlignEnd=157113|Gloss=something
 16	for	for	ADP	_	_	14	comp:obl	_	AlignBegin=157113|AlignEnd=157242|Gloss=for
 17	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	AlignBegin=157242|AlignEnd=157418|Gloss=ACC.PL.1
@@ -1637,7 +1638,7 @@
 10	go	go	AUX	_	Aspect=Prosp	7	conj:dicto	_	AlignBegin=184176|AlignEnd=184299|Gloss=PROSP
 11	}	}	PUNCT	_	_	7	punct	_	AlignBegin=184299|AlignEnd=184329|Gloss=PUNCT
 12	go	go	VERB	_	_	10	comp:aux	_	AlignBegin=184329|AlignEnd=184469|Gloss=go
-13	chop	chop	VERB	_	_	12	comp:pred	_	AlignBegin=184469|AlignEnd=184729|Gloss=eat
+13	chop	chop	VERB	_	_	12	comp:pred$purp	_	AlignBegin=184469|AlignEnd=184729|Gloss=eat
 14	suya	suya	NOUN	_	_	13	comp:obj	_	AlignBegin=184729|AlignEnd=184939|Gloss=skewered_meat
 15	five	five	NUM	_	NumType=Card	13	comp:cleft	_	AlignBegin=184939|AlignEnd=185169|Gloss=five.CARD
 16	thousand	thousand	NUM	_	NumType=Card	15	flat	_	AlignBegin=185169|AlignEnd=185569|Gloss=thousand.CARD
@@ -1748,7 +1749,7 @@
 # text_ortho = Before you climb dat mountain, ehen e go hear ween.
 # timestamp = 1610453264671
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=196857|AlignEnd=197200|Gloss=PUNCT
-2	before	before	ADP	_	_	11	mod:periph	_	AlignBegin=197200|AlignEnd=197531|Gloss=before
+2	before	before	ADP	_	_	11	mod:periph$tempb	_	AlignBegin=197200|AlignEnd=197531|Gloss=before
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=197531|AlignEnd=197591|Gloss=NOM.2
 4	climb	climb	VERB	_	_	2	comp:obj	_	AlignBegin=197591|AlignEnd=197781|Gloss=climb
 5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=197781|AlignEnd=197925|Gloss=SG.DEM
@@ -1865,7 +1866,7 @@
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=209131|AlignEnd=209199|Gloss=NOM.2
 6	just	just	ADV	_	_	7	mod	_	AlignBegin=209199|AlignEnd=209397|Gloss=just
 7	try	try	VERB	_	_	4	comp:aux	_	AlignBegin=209397|AlignEnd=209831|Gloss=try
-8	help	help	VERB	_	_	7	comp:pred	_	AlignBegin=209831|AlignEnd=210168|Gloss=help
+8	help	help	VERB	_	_	7	comp:pred$desire	_	AlignBegin=209831|AlignEnd=210168|Gloss=help
 9	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=210168|AlignEnd=210344|Gloss=ACC.PL.1
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=210344|AlignEnd=210374|Gloss=PUNCT
 
@@ -2134,7 +2135,7 @@
 # text_ortho = When e say da, dat time, di guy go...
 # timestamp = 1610966920524
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=236012|AlignEnd=236272|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	16	mod:periph	_	AlignBegin=236272|AlignEnd=236472|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	16	mod:periph$tempo	_	AlignBegin=236272|AlignEnd=236472|Gloss=when.Q
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=236472|AlignEnd=236512|Gloss=NOM.SG.3
 4	say	say	VERB	_	_	2	comp:obj	_	AlignBegin=236512|AlignEnd=236612|Gloss=say
 5	[	[	PUNCT	_	_	16	punct	_	AlignBegin=236612|AlignEnd=236642|Gloss=PUNCT
@@ -2264,7 +2265,7 @@
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=250949|AlignEnd=250979|Gloss=PUNCT
 6	{	{	PUNCT	_	_	8	punct	_	AlignBegin=250949|AlignEnd=250979|Gloss=PUNCT
 7	even	even	ADV	_	_	8	mod	_	AlignBegin=250979|AlignEnd=251289|Gloss=even
-8	as	as	ADP	_	_	28	mod:periph	_	AlignBegin=251289|AlignEnd=251529|Gloss=as
+8	as	as	ADP	_	_	28	mod:periph@tempo	_	AlignBegin=251289|AlignEnd=251529|Gloss=as
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	subj	_	AlignBegin=251529|AlignEnd=251689|Gloss=NOM.2
 10	go	go	VERB	_	_	8	comp:obj	_	AlignBegin=251689|AlignEnd=252229|Gloss=go
 11	||	||	PUNCT	_	_	14	punct	_	AlignBegin=252229|AlignEnd=252259|Gloss=PUNCT
@@ -2533,3 +2534,4 @@
 7	be	be	VERB	_	PartType=Cop	5	comp:obj	_	AlignBegin=282695|AlignEnd=282834|Gloss=be
 8	o	o	PART	_	PartType=Disc	4	mod:emph	_	AlignBegin=282834|AlignEnd=282970|Gloss=EMPH
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=282970|AlignEnd=283000|Gloss=PUNCT
+

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = IBA_31_Lens-Sermon_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_31_Lens-Sermon_MG.mp3
@@ -64,7 +65,7 @@
 6	Lent	Lent	PROPN	_	_	5	comp:obj	_	AlignBegin=11790|AlignEnd=12203|Gloss=Lent
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=12203|AlignEnd=12233|Gloss=PUNCT
 8	#	#	PUNCT	_	_	17	punct	_	AlignBegin=12233|AlignEnd=12393|Gloss=PUNCT
-9	as	as	ADP	_	_	17	mod:periph	_	AlignBegin=12393|AlignEnd=12540|Gloss=as
+9	as	as	ADP	_	_	17	mod:periph@tempo	_	AlignBegin=12393|AlignEnd=12540|Gloss=as
 10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	AlignBegin=12540|AlignEnd=12610|Gloss=NOM.PL.1
 11	talk	talk	VERB	_	_	9	comp:obj	_	AlignBegin=12610|AlignEnd=12910|Gloss=talk
 12	for	for	ADP	_	_	11	comp:obl	_	AlignBegin=12910|AlignEnd=13050|Gloss=for
@@ -264,7 +265,7 @@
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=51037|AlignEnd=52060|Gloss=PUNCT
 2	and	and	CCONJ	_	_	12	discourse	_	AlignBegin=52060|AlignEnd=52160|Gloss=and
-3	if	if	SCONJ	_	_	12	mod	_	AlignBegin=52160|AlignEnd=52300|Gloss=if
+3	if	if	SCONJ	_	_	12	mod$cond	_	AlignBegin=52160|AlignEnd=52300|Gloss=if
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=52300|AlignEnd=52380|Gloss=NOM.PL.1
 5	look	look	VERB	_	_	3	comp:obj	_	AlignBegin=52380|AlignEnd=52570|Gloss=look
 6	the	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=52570|AlignEnd=52689|Gloss=DEF.ART
@@ -303,7 +304,7 @@
 # text_ortho = If we look Jesus, e go desert.
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=57396|AlignEnd=58281|Gloss=PUNCT
-2	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=58281|AlignEnd=58402|Gloss=if
+2	if	if	SCONJ	_	_	8	mod:periph$cond	_	AlignBegin=58281|AlignEnd=58402|Gloss=if
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=58402|AlignEnd=58492|Gloss=NOM.PL.1
 4	look	look	VERB	_	_	2	comp:obj	_	AlignBegin=58492|AlignEnd=58712|Gloss=look
 5	Jesus	Jesus	PROPN	_	_	4	comp:obj	_	AlignBegin=58712|AlignEnd=59162|Gloss=Jesus
@@ -512,9 +513,9 @@
 4	give	give	VERB	_	_	3	comp:aux	_	AlignBegin=89140|AlignEnd=89360|Gloss=give
 5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obl	_	AlignBegin=89360|AlignEnd=89640|Gloss=ACC.PL.1
 6	power	power	NOUN	_	_	4	comp:obj	_	AlignBegin=89640|AlignEnd=90063|Gloss=power
-7	make	make	AUX	_	Mood=Opt	4	mod	_	AlignBegin=90063|AlignEnd=90300|Gloss=SBJV
+7	make	make	SCONJ	_	_	4	mod$purp	_	AlignBegin=90063|AlignEnd=90300|Gloss=that
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=90300|AlignEnd=90422|Gloss=NOM.PL.1
-9	take	take	VERB	_	_	7	comp:aux	_	AlignBegin=90422|AlignEnd=90640|Gloss=take
+9	take	take	VERB	_	_	7	comp:obj	_	AlignBegin=90422|AlignEnd=90640|Gloss=take
 10	overcome	overcome	VERB	_	_	9	compound:svc	_	AlignBegin=90640|AlignEnd=91090|Gloss=overcome
 11	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	12	mod:poss	_	AlignBegin=91090|AlignEnd=91230|Gloss=PL.1.POSS
 12	temptation	temptation	NOUN	_	_	10	comp:obj	_	AlignBegin=91230|AlignEnd=91859|Gloss=temptation
@@ -538,7 +539,7 @@
 8	whether	wheder	SCONJ	_	_	4	mod	_	AlignBegin=93879|AlignEnd=94203|Gloss=whether
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	subj	_	AlignBegin=94203|AlignEnd=94300|Gloss=NOM.PL.1
 10	wan	want	VERB	_	_	8	comp:obj	_	AlignBegin=94300|AlignEnd=94510|Gloss=want
-11	use	use	VERB	_	_	10	comp:pred	_	AlignBegin=94510|AlignEnd=94720|Gloss=use
+11	use	use	VERB	_	_	10	comp:pred$desire	_	AlignBegin=94510|AlignEnd=94720|Gloss=use
 12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=94720|AlignEnd=94833|Gloss=DEF.ART
 13	power	power	NOUN	_	_	11	comp:obj	_	AlignBegin=94833|AlignEnd=95249|Gloss=power
 14	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=95249|AlignEnd=95279|Gloss=PUNCT
@@ -547,7 +548,7 @@
 17	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	subj	_	AlignBegin=95680|AlignEnd=95790|Gloss=NOM.PL.1
 18	no	no	AUX	_	Polarity=Neg	10	conj:coord	_	AlignBegin=95790|AlignEnd=95980|Gloss=NEG
 19	wan	want	VERB	_	_	18	comp:aux	_	AlignBegin=95980|AlignEnd=96141|Gloss=want
-20	use	use	VERB	_	_	19	comp:pred	_	AlignBegin=96141|AlignEnd=96360|Gloss=use
+20	use	use	VERB	_	_	19	comp:pred$desire	_	AlignBegin=96141|AlignEnd=96360|Gloss=use
 21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=96360|AlignEnd=96456|Gloss=DEF.ART
 22	power	power	NOUN	_	_	20	comp:obj	_	AlignBegin=96456|AlignEnd=96840|Gloss=power
 23	}	}	PUNCT	_	_	8	punct	_	AlignBegin=96840|AlignEnd=96870|Gloss=PUNCT
@@ -626,7 +627,7 @@
 # text_ortho = If we look Jesus so, Satan tempt am for three areas.
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=105822|AlignEnd=106520|Gloss=PUNCT
-2	if	if	SCONJ	_	_	9	mod:periph	_	AlignBegin=106520|AlignEnd=106660|Gloss=if
+2	if	if	SCONJ	_	_	9	mod:periph$cond	_	AlignBegin=106520|AlignEnd=106660|Gloss=if
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=106660|AlignEnd=106748|Gloss=NOM.PL.1
 4	look	look	VERB	_	_	2	comp:obj	_	AlignBegin=106748|AlignEnd=107020|Gloss=look
 5	Jesus	Jesus	PROPN	_	_	4	comp:obj	_	AlignBegin=107020|AlignEnd=107390|Gloss=Jesus
@@ -727,10 +728,10 @@
 # text_ortho = When Satan tempt her, Satan tell am sey if you pluck di fruit, sey di fruit go sweet.
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=118500|AlignEnd=119220|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	9	mod:periph	_	AlignBegin=119220|AlignEnd=119400|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	9	mod:periph$tempo	_	AlignBegin=119220|AlignEnd=119400|Gloss=when.Q
 3	Satan	Satan	PROPN	_	_	4	subj	_	AlignBegin=119400|AlignEnd=119860|Gloss=Satan
 4	tempt	tempt	VERB	_	_	2	comp:obj	_	AlignBegin=119860|AlignEnd=120200|Gloss=tempt
-5	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	4	comp:obj	_	AlignBegin=120200|AlignEnd=120421|Gloss=F.SG.3.POSS
+5	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	4	comp:obj	_	AlignBegin=120200|AlignEnd=120421|Gloss=F.SG.3.POSS
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=120421|AlignEnd=120451|Gloss=PUNCT
 7	#	#	PUNCT	_	_	2	punct	_	AlignBegin=120451|AlignEnd=121080|Gloss=PUNCT
 8	Satan	Satan	PROPN	_	_	9	subj	_	AlignBegin=121080|AlignEnd=121490|Gloss=Satan
@@ -738,7 +739,7 @@
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obl	_	AlignBegin=121700|AlignEnd=121870|Gloss=ACC.SG.3
 11	sey	sey	SCONJ	_	_	9	comp:obj	_	AlignBegin=121870|AlignEnd=122110|Gloss=COMP
 12	[	[	PUNCT	_	_	22	punct	_	AlignBegin=122110|AlignEnd=122140|Gloss=PUNCT
-13	if	if	SCONJ	_	_	22	mod:periph	_	AlignBegin=122140|AlignEnd=122310|Gloss=if
+13	if	if	SCONJ	_	_	22	mod:periph$cond	_	AlignBegin=122140|AlignEnd=122310|Gloss=if
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	subj	_	AlignBegin=122310|AlignEnd=122525|Gloss=NOM.2
 15	pluck	pluck	VERB	_	_	13	comp:obj	_	AlignBegin=122525|AlignEnd=122840|Gloss=pluck
 16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=122840|AlignEnd=122920|Gloss=DEF.ART
@@ -804,7 +805,7 @@
 1	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=129940|AlignEnd=130007|Gloss=who.Q
 2	no	no	AUX	_	Polarity=Neg	1	comp:cleft	_	AlignBegin=130007|AlignEnd=130120|Gloss=NEG
 3	wan	want	VERB	_	_	2	comp:aux	_	AlignBegin=130120|AlignEnd=130335|Gloss=want
-4	be	be	VERB	_	PartType=Cop	3	comp:pred	_	AlignBegin=130335|AlignEnd=130480|Gloss=be
+4	be	be	VERB	_	PartType=Cop	3	comp:pred$desire	_	AlignBegin=130335|AlignEnd=130480|Gloss=be
 5	like	like	ADP	_	_	4	comp:pred	_	AlignBegin=130480|AlignEnd=130710|Gloss=like
 6	God	God	PROPN	_	_	5	comp:obj	_	AlignBegin=130710|AlignEnd=131050|Gloss=God
 7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=131050|AlignEnd=131080|Gloss=PUNCT
@@ -834,7 +835,7 @@
 # text_en = As she looked at it, she said... she said "it's good."
 # text_ortho = As e look am, e say, e say e sweet.
 # timestamp = 1610453329997
-1	as	as	ADP	_	_	8	mod:periph	_	AlignBegin=133290|AlignEnd=133590|Gloss=as
+1	as	as	ADP	_	_	8	mod:periph@tempo	_	AlignBegin=133290|AlignEnd=133590|Gloss=as
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=133590|AlignEnd=133670|Gloss=NOM.SG.3
 3	look	look	VERB	_	_	1	comp:obj	_	AlignBegin=133670|AlignEnd=134060|Gloss=look
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=134060|AlignEnd=134370|Gloss=ACC.SG.3
@@ -965,7 +966,7 @@
 2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=149040|AlignEnd=149100|Gloss=who.Q
 3	no	no	AUX	_	Polarity=Neg	2	comp:cleft	_	AlignBegin=149100|AlignEnd=149240|Gloss=NEG
 4	wan	want	VERB	_	_	3	comp:aux	_	AlignBegin=149240|AlignEnd=149490|Gloss=want
-5	chop	chop	VERB	_	_	4	comp:pred	_	AlignBegin=149490|AlignEnd=149697|Gloss=eat
+5	chop	chop	VERB	_	_	4	comp:pred$desire	_	AlignBegin=149490|AlignEnd=149697|Gloss=eat
 6	food	food	NOUN	_	_	5	comp:obj	_	AlignBegin=149697|AlignEnd=150098|Gloss=food
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=150098|AlignEnd=150128|Gloss=PUNCT
 
@@ -1184,7 +1185,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=172812|AlignEnd=173483|Gloss=PUNCT
 2	husband	husband	NOUN	_	_	3	subj	_	AlignBegin=173483|AlignEnd=173930|Gloss=husband
 3	want	want	VERB	_	_	0	root	_	AlignBegin=173930|AlignEnd=174110|Gloss=want
-4	get	get	VERB	_	_	3	comp:pred	_	AlignBegin=174110|AlignEnd=174330|Gloss=get
+4	get	get	VERB	_	_	3	comp:pred$desire	_	AlignBegin=174110|AlignEnd=174330|Gloss=get
 5	power	power	NOUN	_	_	4	comp:obj@lvc	_	AlignBegin=174330|AlignEnd=174628|Gloss=power
 6	over	over	ADP	_	_	4	comp:obl	_	AlignBegin=174628|AlignEnd=174858|Gloss=over
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=174858|AlignEnd=174970|Gloss=DEF.ART
@@ -1193,7 +1194,7 @@
 10	#	#	PUNCT	_	_	12	punct	_	AlignBegin=175420|AlignEnd=175760|Gloss=PUNCT
 11	wife	wife	NOUN	_	_	12	subj	_	AlignBegin=175760|AlignEnd=176020|Gloss=wife
 12	want	want	VERB	_	_	3	parataxis:conj	_	AlignBegin=176020|AlignEnd=176172|Gloss=want
-13	get	get	VERB	_	_	12	comp:pred	_	AlignBegin=176172|AlignEnd=176320|Gloss=get
+13	get	get	VERB	_	_	12	comp:pred$desire	_	AlignBegin=176172|AlignEnd=176320|Gloss=get
 14	power	power	NOUN	_	_	13	comp:obj@lvc	_	AlignBegin=176320|AlignEnd=176660|Gloss=power
 15	over	over	ADP	_	_	13	comp:obl	_	AlignBegin=176660|AlignEnd=176913|Gloss=over
 16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=176913|AlignEnd=177060|Gloss=DEF.ART
@@ -1258,7 +1259,7 @@
 4	one	one	DET	_	Definite=Spec|PronType=Art	5	det	_	AlignBegin=183900|AlignEnd=184207|Gloss=SPEC.ART
 5	woman	woman	NOUN	_	_	3	comp:pred	_	AlignBegin=184207|AlignEnd=184570|Gloss=woman
 6	stab	stab	VERB	_	_	3	comp:cleft	_	AlignBegin=184570|AlignEnd=184890|Gloss=stab
-7	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	8	mod:poss	_	AlignBegin=184890|AlignEnd=185033|Gloss=F.SG.3.POSS
+7	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=PRS	8	mod:poss	_	AlignBegin=184890|AlignEnd=185033|Gloss=F.SG.3.POSS
 8	husband	husband	NOUN	_	_	6	comp:obj	_	AlignBegin=185033|AlignEnd=185500|Gloss=husband
 9	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=185500|AlignEnd=185560|Gloss=DEF.ART
 10	oder	oder	ADJ	_	_	11	mod	_	AlignBegin=185560|AlignEnd=185780|Gloss=other
@@ -1384,7 +1385,7 @@
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	subj	_	AlignBegin=200750|AlignEnd=200910|Gloss=NOM.2
 10	get	get	VERB	_	_	7	comp:obj	_	AlignBegin=200910|AlignEnd=201091|Gloss=get
 11	power	power	NOUN	_	_	10	comp:obj	_	AlignBegin=201091|AlignEnd=201410|Gloss=power
-12	if	if	SCONJ	_	_	10	mod	_	AlignBegin=201410|AlignEnd=201500|Gloss=if
+12	if	if	SCONJ	_	_	10	mod$cond	_	AlignBegin=201410|AlignEnd=201500|Gloss=if
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	subj	_	AlignBegin=201500|AlignEnd=201560|Gloss=NOM.2
 14	fit	fit	AUX	_	Mood=Pot	12	comp:obj	_	AlignBegin=201560|AlignEnd=201810|Gloss=ABIL
 15	jump	jump	VERB	_	_	14	comp:aux	_	AlignBegin=201810|AlignEnd=202060|Gloss=jump
@@ -1482,7 +1483,7 @@
 # text_ortho = If the whole issue of say power come, you wan get power.
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=212798|AlignEnd=213680|Gloss=PUNCT
-2	if	if	SCONJ	_	_	12	mod:periph	_	AlignBegin=213680|AlignEnd=214005|Gloss=if
+2	if	if	SCONJ	_	_	12	mod:periph$cond	_	AlignBegin=213680|AlignEnd=214005|Gloss=if
 3	the	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=214005|AlignEnd=214140|Gloss=DEF.ART
 4	whole	whole	ADJ	_	_	5	mod	_	AlignBegin=214140|AlignEnd=214460|Gloss=whole
 5	issue	issue	NOUN	_	_	9	subj	_	AlignBegin=214460|AlignEnd=214720|Gloss=issue
@@ -1493,7 +1494,7 @@
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=215710|AlignEnd=215740|Gloss=PUNCT
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=215740|AlignEnd=215812|Gloss=NOM.2
 12	wan	want	VERB	_	_	0	root	_	AlignBegin=215812|AlignEnd=215990|Gloss=want
-13	get	get	VERB	_	_	12	comp:pred	_	AlignBegin=215990|AlignEnd=216153|Gloss=get
+13	get	get	VERB	_	_	12	comp:pred$desire	_	AlignBegin=215990|AlignEnd=216153|Gloss=get
 14	power	power	NOUN	_	_	13	comp:obj	_	AlignBegin=216153|AlignEnd=216435|Gloss=power
 15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=216435|AlignEnd=216465|Gloss=PUNCT
 
@@ -1507,7 +1508,7 @@
 # timestamp = 1622974332061
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=216465|AlignEnd=216560|Gloss=NOM.2
 2	wan	want	VERB	_	_	0	root	_	AlignBegin=216560|AlignEnd=216730|Gloss=want
-3	dey	dey	AUX	_	Aspect=Imp	2	comp:pred	_	AlignBegin=216730|AlignEnd=216849|Gloss=IPFV
+3	dey	dey	AUX	_	Aspect=Imp	2	comp:pred$desire	_	AlignBegin=216730|AlignEnd=216849|Gloss=IPFV
 4	show	show	VERB	_	_	3	comp:aux	_	AlignBegin=216849|AlignEnd=217117|Gloss=show
 5	sey	sey	SCONJ	_	_	4	comp:obj	_	AlignBegin=217117|AlignEnd=217270|Gloss=COMP
 6	[	[	PUNCT	_	_	7	punct	_	AlignBegin=217270|AlignEnd=217300|Gloss=PUNCT
@@ -1613,7 +1614,7 @@
 # text_en = If you calm down totally, and you are humble, God will give you the power you need.
 # text_ortho = If you calm down well, well, and you humble, God go give you di power wey you need.
 # timestamp = 1610453329997
-1	if	if	SCONJ	_	_	19	mod:periph	_	AlignBegin=227090|AlignEnd=227290|Gloss=if
+1	if	if	SCONJ	_	_	19	mod:periph$cond	_	AlignBegin=227090|AlignEnd=227290|Gloss=if
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=227290|AlignEnd=227520|Gloss=NOM.2
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=227520|AlignEnd=227550|Gloss=PUNCT
 4	calm	calm	VERB	_	_	1	comp:obj	_	AlignBegin=227550|AlignEnd=227790|Gloss=calm
@@ -1827,7 +1828,7 @@
 2	better	beta	ADJ	_	Degree=Cmp	3	comp:pred	_	AlignBegin=253063|AlignEnd=253510|Gloss=good.CMPR
 3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=253510|AlignEnd=253797|Gloss=be
 4	#	#	PUNCT	_	_	13	punct	_	AlignBegin=253827|AlignEnd=254210|Gloss=PUNCT
-5	if	if	SCONJ	_	_	13	mod:periph	_	AlignBegin=254210|AlignEnd=254320|Gloss=if
+5	if	if	SCONJ	_	_	13	mod:periph$cond	_	AlignBegin=254210|AlignEnd=254320|Gloss=if
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=254320|AlignEnd=254380|Gloss=NOM.2
 7	fit	fit	AUX	_	Mood=Pot	5	comp:obj	_	AlignBegin=254380|AlignEnd=254560|Gloss=ABIL
 8	just	just	ADV	_	_	9	mod	_	AlignBegin=254560|AlignEnd=254830|Gloss=just
@@ -2283,7 +2284,7 @@
 2	because	because	SCONJ	_	_	4	discourse	_	AlignBegin=317080|AlignEnd=317582|Gloss=because
 3	Jesus	Jesus	PROPN	_	_	4	subj	_	AlignBegin=317582|AlignEnd=318100|Gloss=Jesus
 4	come	come	VERB	_	_	0	root	_	AlignBegin=318100|AlignEnd=318440|Gloss=come
-5	to	to	ADP	_	_	4	mod	_	AlignBegin=318440|AlignEnd=318630|Gloss=to
+5	to	to	ADP	_	_	4	mod$purp	_	AlignBegin=318440|AlignEnd=318630|Gloss=to
 6	con	con	AUX	_	Aspect=Cons	5	comp:obj	_	AlignBegin=318630|AlignEnd=318930|Gloss=CONS
 7	change	change	VERB	_	_	6	comp:aux	_	AlignBegin=318930|AlignEnd=319240|Gloss=change
 8	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=319240|AlignEnd=319570|Gloss=ACC.PL.1
@@ -2487,7 +2488,7 @@
 # text_ortho = If you hide your sin, noting wey Jesus no fit see.
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=349740|AlignEnd=350380|Gloss=PUNCT
-2	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=350380|AlignEnd=350610|Gloss=if
+2	if	if	SCONJ	_	_	8	mod:periph$cond	_	AlignBegin=350380|AlignEnd=350610|Gloss=if
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=350610|AlignEnd=350767|Gloss=NOM.2
 4	hide	hide	VERB	_	_	2	comp:obj	_	AlignBegin=350767|AlignEnd=351040|Gloss=hide
 5	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	6	mod:poss	_	AlignBegin=351040|AlignEnd=351160|Gloss=PL.2.POSS
@@ -2511,7 +2512,7 @@
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=353080|AlignEnd=353704|Gloss=PUNCT
 2	so	so	ADV	_	_	12	discourse	_	AlignBegin=353704|AlignEnd=353810|Gloss=so
-3	if	if	SCONJ	_	_	12	mod:periph	_	AlignBegin=353810|AlignEnd=353890|Gloss=if
+3	if	if	SCONJ	_	_	12	mod:periph$cond	_	AlignBegin=353810|AlignEnd=353890|Gloss=if
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	subj	_	AlignBegin=353890|AlignEnd=354054|Gloss=NOM.2
 5	tell	tell	VERB	_	_	3	comp:obj	_	AlignBegin=354054|AlignEnd=354240|Gloss=tell
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=354240|AlignEnd=354420|Gloss=ACC.SG.3
@@ -2553,7 +2554,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=359900|AlignEnd=359990|Gloss=NOM.2
 3	know	know	VERB	_	_	25	parataxis:discourse	_	AlignBegin=359990|AlignEnd=360065|Gloss=know
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=359990|AlignEnd=360065|Gloss=PUNCT
-5	if	if	SCONJ	_	_	25	mod:periph	_	AlignBegin=360095|AlignEnd=360280|Gloss=if
+5	if	if	SCONJ	_	_	25	mod:periph$cond	_	AlignBegin=360095|AlignEnd=360280|Gloss=if
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=360280|AlignEnd=360370|Gloss=NOM.2
 7	look	look	VERB	_	_	5	comp:obj	_	AlignBegin=360370|AlignEnd=360690|Gloss=look
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=360690|AlignEnd=360900|Gloss=ACC.SG.3
@@ -2609,7 +2610,7 @@
 # text_ortho = As e steal di ting like dis, naim im papa dey look for di bracelet.
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=368860|AlignEnd=369520|Gloss=PUNCT
-2	as	as	ADP	_	_	13	mod:periph	_	AlignBegin=369520|AlignEnd=369700|Gloss=as
+2	as	as	ADP	_	_	13	mod:periph@tempo	_	AlignBegin=369520|AlignEnd=369700|Gloss=as
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=369700|AlignEnd=369760|Gloss=NOM.SG.3
 4	steal	steal	VERB	_	_	2	comp:obj	_	AlignBegin=369760|AlignEnd=370158|Gloss=steal
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=370158|AlignEnd=370311|Gloss=DEF.ART
@@ -2712,7 +2713,7 @@
 # text_en = If you were the father, and your child showed you that kind of thing after you'd gone through the trouble of searching for it, what will you do to him?
 # text_ortho = If na you be di papa so, and your pikin show you dat kind ting after you don suffer dey find di ting, wetin you go do am?
 1	#	#	PUNCT	_	_	30	punct	_	AlignBegin=383900|AlignEnd=384500|Gloss=PUNCT
-2	if	if	SCONJ	_	_	30	mod:periph	_	AlignBegin=384500|AlignEnd=384580|Gloss=if
+2	if	if	SCONJ	_	_	30	mod:periph$cond	_	AlignBegin=384500|AlignEnd=384580|Gloss=if
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=384580|AlignEnd=384610|Gloss=PUNCT
 4	na	na	PART	_	PartType=Cop	2	comp:obj	_	AlignBegin=384610|AlignEnd=384750|Gloss=be
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	comp:pred	_	AlignBegin=384750|AlignEnd=384860|Gloss=NOM.2
@@ -2730,7 +2731,7 @@
 17	dat	dat	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=387150|AlignEnd=387350|Gloss=SG.DEM
 18	kind	kind	NOUN	_	_	19	mod	_	AlignBegin=387350|AlignEnd=387590|Gloss=kind
 19	ting	ting	NOUN	_	_	15	comp:obj	_	AlignBegin=387590|AlignEnd=387770|Gloss=thing
-20	after	after	ADP	_	_	15	mod	_	AlignBegin=387770|AlignEnd=388040|Gloss=after
+20	after	after	ADP	_	_	15	mod$tempa	_	AlignBegin=387770|AlignEnd=388040|Gloss=after
 21	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	22	subj	_	AlignBegin=388040|AlignEnd=388144|Gloss=NOM.2
 22	don	don	AUX	_	Aspect=Perf	20	comp:obj	_	AlignBegin=388144|AlignEnd=388330|Gloss=PRF
 23	suffer	suffer	VERB	_	_	22	comp:aux	_	AlignBegin=388330|AlignEnd=388720|Gloss=suffer
@@ -2758,7 +2759,7 @@
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=390210|AlignEnd=390270|Gloss=NOM.2
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=390270|AlignEnd=390400|Gloss=PROSP
 3	wan	want	VERB	_	_	2	comp:aux	_	AlignBegin=390400|AlignEnd=390540|Gloss=want
-4	slap	slap	VERB	_	_	3	comp:pred	_	AlignBegin=390540|AlignEnd=390900|Gloss=slap
+4	slap	slap	VERB	_	_	3	comp:pred$desire	_	AlignBegin=390540|AlignEnd=390900|Gloss=slap
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=390900|AlignEnd=391110|Gloss=ACC.SG.3
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=391110|AlignEnd=391140|Gloss=PUNCT
 
@@ -2772,7 +2773,7 @@
 # timestamp = 1610453329997
 1	#	#	PUNCT	_	_	15	punct	_	AlignBegin=391140|AlignEnd=391860|Gloss=PUNCT
 2	but	but	CCONJ	_	_	15	discourse	_	AlignBegin=391860|AlignEnd=391930|Gloss=but
-3	as	as	ADP	_	_	15	mod:periph	_	AlignBegin=391930|AlignEnd=392080|Gloss=as
+3	as	as	ADP	_	_	15	mod:periph@tempo	_	AlignBegin=391930|AlignEnd=392080|Gloss=as
 4	e	im	PRON	_	Number=Sing|Person=3|Poss=Yes	5	mod:poss	_	AlignBegin=392080|AlignEnd=392130|Gloss=SG.3.POSS
 5	papa	papa	NOUN	_	_	6	subj	_	AlignBegin=392130|AlignEnd=392470|Gloss=papa
 6	receive	receive	VERB	_	_	3	comp:obj	_	AlignBegin=392470|AlignEnd=392850|Gloss=receive
@@ -3170,7 +3171,7 @@
 # text_en = If we have sinned before now, let's not sin again.
 # text_ortho = If we don sin before, make we no sin again.
 # timestamp = 1610453329997
-1	if	if	SCONJ	_	_	7	mod:periph	_	AlignBegin=446370|AlignEnd=446480|Gloss=if
+1	if	if	SCONJ	_	_	7	mod:periph$cond	_	AlignBegin=446370|AlignEnd=446480|Gloss=if
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=446480|AlignEnd=446540|Gloss=NOM.PL.1
 3	don	don	AUX	_	Aspect=Perf	1	comp:obj	_	AlignBegin=446540|AlignEnd=446766|Gloss=PRF
 4	sin	sin	VERB	_	_	3	comp:aux	_	AlignBegin=446766|AlignEnd=447011|Gloss=sin
@@ -3336,7 +3337,7 @@
 # text_en = When He finished forming us, He brought life into us.
 # text_ortho = After e form us finish, e bring life into us.
 # timestamp = 1610453329997
-1	after	after	ADP	_	_	9	mod:periph	_	AlignBegin=471370|AlignEnd=471609|Gloss=after
+1	after	after	ADP	_	_	9	mod:periph$tempa	_	AlignBegin=471370|AlignEnd=471609|Gloss=after
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=471609|AlignEnd=471720|Gloss=NOM.SG.3
 3	form	form	VERB	_	_	1	comp:obj	_	AlignBegin=471720|AlignEnd=471990|Gloss=form
 4	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=471990|AlignEnd=472170|Gloss=ACC.PL.1
@@ -3518,7 +3519,7 @@
 9	come	come	VERB	_	_	7	comp:obj	_	AlignBegin=494690|AlignEnd=494972|Gloss=come
 10	so	so	ADV	_	_	9	mod	_	AlignBegin=494972|AlignEnd=495116|Gloss=so
 11	because	because	SCONJ	_	_	4	mod	_	AlignBegin=495116|AlignEnd=495440|Gloss=because
-12	if	if	SCONJ	_	_	18	mod:periph	_	AlignBegin=495440|AlignEnd=495560|Gloss=if
+12	if	if	SCONJ	_	_	18	mod:periph$cond	_	AlignBegin=495440|AlignEnd=495560|Gloss=if
 13	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	14	subj	_	AlignBegin=495560|AlignEnd=495740|Gloss=NOM.PL.2
 14	no	no	AUX	_	Polarity=Neg	12	comp:obj	_	AlignBegin=495740|AlignEnd=495890|Gloss=NEG
 15	come	come	VERB	_	_	14	comp:aux	_	AlignBegin=495890|AlignEnd=496190|Gloss=come
@@ -3557,7 +3558,7 @@
 1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=499080|AlignEnd=499397|Gloss=PUNCT
 2	so	so	ADV	_	_	21	discourse	_	AlignBegin=499397|AlignEnd=499487|Gloss=so
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=499397|AlignEnd=499487|Gloss=PUNCT
-4	as	as	ADP	_	_	21	mod:periph	_	AlignBegin=499487|AlignEnd=499667|Gloss=as
+4	as	as	ADP	_	_	21	mod:periph@tempo	_	AlignBegin=499487|AlignEnd=499667|Gloss=as
 5	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	subj	_	AlignBegin=499667|AlignEnd=499867|Gloss=NOM.PL.2
 6	come	come	VERB	_	_	4	comp:obj	_	AlignBegin=499867|AlignEnd=500141|Gloss=come
 7	so	so	ADV	_	_	6	mod	_	AlignBegin=500141|AlignEnd=500430|Gloss=so
@@ -3629,3 +3630,4 @@
 34	amen	amen	INTJ	_	_	19	parataxis:conj	_	AlignBegin=513145|AlignEnd=513530|Gloss=amen
 35	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=513530|AlignEnd=513560|Gloss=PUNCT
 36	//	//	PUNCT	_	_	3	punct	_	AlignBegin=513530|AlignEnd=513560|Gloss=PUNCT
+

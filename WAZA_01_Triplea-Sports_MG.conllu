@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = bernard.l.caron
 # timestamp = 1625674697645
 # sent_id = WAZA_01_Triplea-Sports_MG__1
@@ -343,9 +344,9 @@
 21	arm	arm	NOUN	_	_	22	compound	_	AlignBegin=57600|AlignEnd=57765|Gloss=arm
 22	robbers	robber	NOUN	_	Number=Plur	23	subj	_	AlignBegin=57765|AlignEnd=58140|Gloss=robber.PL
 23	carry	carry	VERB	_	_	17	comp:cleft	_	AlignBegin=58140|AlignEnd=58573|Gloss=carry
-24	take	take	VERB	_	_	23	comp:pred	_	AlignBegin=58573|AlignEnd=58730|Gloss=take
-25	come	come	VERB	_	_	24	compound:svc	_	AlignBegin=58730|AlignEnd=58893|Gloss=come
-26	butcher	butcher	VERB	_	_	25	comp:pred	_	AlignBegin=58893|AlignEnd=59160|Gloss=butcher
+24	take	take	SCONJ	_	_	23	mod$purp	_	AlignBegin=58573|AlignEnd=58730|Gloss=to
+25	come	come	VERB	_	_	24	comp:obj	_	AlignBegin=58730|AlignEnd=58893|Gloss=come
+26	butcher	butcher	VERB	_	_	25	comp:pred$purp	_	AlignBegin=58893|AlignEnd=59160|Gloss=butcher
 27	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	28	mod:poss	_	AlignBegin=59160|AlignEnd=59303|Gloss=PL.3.POSS
 28	body	body	NOUN	_	_	26	comp:obj	_	AlignBegin=59303|AlignEnd=59555|Gloss=body
 29	#	#	PUNCT	_	_	31	punct	_	AlignBegin=59555|AlignEnd=59785|Gloss=PUNCT
@@ -436,7 +437,7 @@
 28	from	from	ADP	_	_	27	comp:obl	_	AlignBegin=71260|AlignEnd=71490|Gloss=from
 29	inside	inside	ADP	_	_	28	comp:obj	_	AlignBegin=71490|AlignEnd=71818|Gloss=inside
 30	Calabar	Calabar	PROPN	_	_	29	comp:obj	_	AlignBegin=71818|AlignEnd=72160|Gloss=Calabar
-31	after	after	ADP	_	_	27	mod	_	AlignBegin=72160|AlignEnd=72293|Gloss=after
+31	after	after	ADP	_	_	27	mod$tempa	_	AlignBegin=72160|AlignEnd=72293|Gloss=after
 32	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	subj	_	AlignBegin=72293|AlignEnd=72407|Gloss=NOM.PL.3
 33	don	don	AUX	_	Aspect=Perf	31	comp:obj	_	AlignBegin=72407|AlignEnd=72564|Gloss=PRF
 34	play	play	VERB	_	_	33	comp:aux	_	AlignBegin=72564|AlignEnd=72717|Gloss=play
@@ -598,7 +599,7 @@
 18	because	because	SCONJ	_	_	9	mod	_	AlignBegin=88030|AlignEnd=88360|Gloss=because
 19	eh	eh	INTJ	_	_	28	discourse	_	AlignBegin=88360|AlignEnd=88460|Gloss=eh
 20	#	#	PUNCT	_	_	19	punct	_	AlignBegin=88460|AlignEnd=88670|Gloss=PUNCT
-21	as	as	ADP	_	_	28	mod:periph	_	AlignBegin=88670|AlignEnd=88810|Gloss=as
+21	as	as	ADP	_	_	28	mod:periph@tempo	_	AlignBegin=88670|AlignEnd=88810|Gloss=as
 22	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	subj	_	AlignBegin=88810|AlignEnd=88840|Gloss=NOM.SG.3
 23	take	take	VERB	_	_	21	comp:obj	_	AlignBegin=88840|AlignEnd=89000|Gloss=take
 24	be	be	VERB	_	PartType=Cop	23	compound:svc	_	AlignBegin=89000|AlignEnd=89130|Gloss=be
@@ -632,7 +633,7 @@
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=92345|AlignEnd=92375|Gloss=PUNCT
 5	alright	alright	ADV	_	_	14	discourse	_	AlignBegin=92375|AlignEnd=92885|Gloss=alright
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=92885|AlignEnd=92915|Gloss=PUNCT
-7	before	before	ADP	_	_	14	mod:periph	_	AlignBegin=92915|AlignEnd=93105|Gloss=before
+7	before	before	ADP	_	_	14	mod:periph$tempb	_	AlignBegin=92915|AlignEnd=93105|Gloss=before
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=93105|AlignEnd=93185|Gloss=NOM.PL.1
 9	go	go	VERB	_	_	7	comp:obj	_	AlignBegin=93185|AlignEnd=93285|Gloss=go
 10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=93285|AlignEnd=93425|Gloss=SG.DEM
@@ -1107,3 +1108,4 @@
 3	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	4	mod:poss	_	AlignBegin=155048|AlignEnd=155295|Gloss=PL.2.POSS|Lang=en
 4	heart	heart	NOUN	_	_	2	comp:obj	_	AlignBegin=155295|AlignEnd=155649|Gloss=heart|Lang=en
 5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=155649|AlignEnd=155679|Gloss=PUNCT
+
