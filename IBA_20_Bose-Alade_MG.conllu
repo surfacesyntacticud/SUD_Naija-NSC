@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = IBA_20_Bose-Alade_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
@@ -122,7 +123,7 @@
 19	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	subj	_	AlignBegin=18011|AlignEnd=18150|Gloss=NOM.F.SG.3
 20	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=18150|AlignEnd=18310|Gloss=PROSP
 21	go	go	VERB	_	_	20	comp:aux	_	AlignBegin=18310|AlignEnd=18520|Gloss=go
-22	school	school	NOUN	_	_	21	comp:obj	_	AlignBegin=18520|AlignEnd=18951|Gloss=school
+22	school	school	NOUN	_	_	21	comp:obl	_	AlignBegin=18520|AlignEnd=18951|Gloss=school
 23	//	//	PUNCT	_	_	20	punct	_	AlignBegin=18951|AlignEnd=18981|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -219,8 +220,8 @@
 2	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=31593|AlignEnd=31743|Gloss=NOM.F.SG.3
 3	don	don	AUX	_	Aspect=Perf	1	comp:obj	_	AlignBegin=31743|AlignEnd=31933|Gloss=PRF
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=31933|AlignEnd=32093|Gloss=go
-5	school	school	NOUN	_	_	4	comp:obj	_	AlignBegin=32093|AlignEnd=32303|Gloss=school
-6	finish	finish	VERB	_	_	4	comp:pred$purp	_	AlignBegin=32303|AlignEnd=32543|Gloss=finish
+5	school	school	NOUN	_	_	4	comp:obl	_	AlignBegin=32093|AlignEnd=32303|Gloss=school
+6	finish	finish	VERB	_	_	4	compound:svc$purp	_	AlignBegin=32303|AlignEnd=32543|Gloss=finish
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=32543|AlignEnd=32573|Gloss=PUNCT
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=32573|AlignEnd=32683|Gloss=NOM.SG.1
 9	go	go	AUX	_	Aspect=Prosp	0	root@scrap	_	AlignBegin=32683|AlignEnd=32983|Gloss=PROSP
@@ -718,7 +719,7 @@
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=101920|AlignEnd=102081|Gloss=NOM.2
 7	even	even	ADV	_	_	8	mod	_	AlignBegin=102081|AlignEnd=102200|Gloss=even
 8	climb	climb	VERB	_	_	5	comp:aux	_	AlignBegin=102200|AlignEnd=102380|Gloss=climb
-9	because	because	SCONJ	_	_	4	mod	_	AlignBegin=102410|AlignEnd=102640|Gloss=because
+9	because	because	SCONJ	_	_	4	mod$reason	_	AlignBegin=102410|AlignEnd=102640|Gloss=because
 10	na	na	PART	_	PartType=Cop	9	comp:obj	_	AlignBegin=102640|AlignEnd=102830|Gloss=be
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=102830|AlignEnd=102860|Gloss=PUNCT
 12	on	on	ADP	_	_	10	comp:pred	_	AlignBegin=102860|AlignEnd=102920|ExtPos=ADP|Gloss=on|PhraseType=Idiom
@@ -941,7 +942,7 @@
 24	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	subj	_	AlignBegin=127670|AlignEnd=127770|Gloss=NOM.SG.1
 25	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=127770|AlignEnd=127850|Gloss=PROSP
 26	go	go	VERB	_	_	25	comp:aux	_	AlignBegin=127850|AlignEnd=128007|Gloss=go
-27	do	do	VERB	_	_	26	comp:pred$purp	_	AlignBegin=128007|AlignEnd=128150|Gloss=do
+27	do	do	VERB	_	_	26	compound:svc$purp	_	AlignBegin=128007|AlignEnd=128150|Gloss=do
 28	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	29	mod:poss	_	AlignBegin=128150|AlignEnd=128300|Gloss=SG.1.POSS
 29	hair	hair	NOUN	_	_	27	comp:obj	_	AlignBegin=128300|AlignEnd=128490|Gloss=hair
 30	{	{	PUNCT	_	_	31	punct	_	AlignBegin=128490|AlignEnd=128520|Gloss=PUNCT
@@ -975,7 +976,7 @@
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=133750|AlignEnd=133880|Gloss=NOM.SG.1
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=133880|AlignEnd=133960|Gloss=PROSP
 3	go	go	VERB	_	_	2	comp:aux	_	AlignBegin=133960|AlignEnd=134220|Gloss=go
-4	do	do	VERB	_	_	3	comp:pred$purp	_	AlignBegin=134220|AlignEnd=134370|Gloss=do
+4	do	do	VERB	_	_	3	compound:svc$purp	_	AlignBegin=134220|AlignEnd=134370|Gloss=do
 5	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	6	mod:poss	_	AlignBegin=134370|AlignEnd=134550|Gloss=SG.1.POSS
 6	hair	hair	NOUN	_	_	4	comp:obj	_	AlignBegin=134550|AlignEnd=134650|Gloss=hair
 7	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=134650|AlignEnd=134800|ExtPos=ADP|Gloss=for|PhraseType=Idiom
@@ -1014,14 +1015,14 @@
 21	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	subj	_	AlignBegin=138541|AlignEnd=138649|Gloss=NOM.PL.1
 22	wan	want	VERB	_	_	20	comp:obj	_	AlignBegin=138649|AlignEnd=138805|Gloss=want
 23	go	go	VERB	_	_	22	comp:pred$desire	_	AlignBegin=138805|AlignEnd=138905|Gloss=go
-24	collect	collect	VERB	_	_	23	comp:pred$purp	_	AlignBegin=138905|AlignEnd=139175|Gloss=collect
+24	collect	collect	VERB	_	_	23	compound:svc$purp	_	AlignBegin=138905|AlignEnd=139175|Gloss=collect
 25	mo~	X	X	_	_	24	comp:obj	_	AlignBegin=139175|AlignEnd=139311|Gloss=X
 26	||	||	PUNCT	_	_	27	punct	_	AlignBegin=139311|AlignEnd=139341|Gloss=PUNCT
 27	if	if	SCONJ	_	_	20	conj:dicto	_	AlignBegin=139341|AlignEnd=139454|Gloss=if
 28	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	subj	_	AlignBegin=139454|AlignEnd=139510|Gloss=NOM.PL.1
 29	wan	want	VERB	_	_	27	comp:obj	_	AlignBegin=139510|AlignEnd=139575|Gloss=want
 30	go	go	VERB	_	_	29	comp:pred$desire	_	AlignBegin=139575|AlignEnd=139665|Gloss=go
-31	buy	buy	VERB	_	_	30	comp:pred$purp	_	AlignBegin=139665|AlignEnd=139805|Gloss=buy
+31	buy	buy	VERB	_	_	30	compound:svc$purp	_	AlignBegin=139665|AlignEnd=139805|Gloss=buy
 32	food	food	NOUN	_	_	31	comp:obj	_	AlignBegin=139805|AlignEnd=140015|Gloss=food
 33	for	for	ADP	_	_	31	comp:obl	_	AlignBegin=140015|AlignEnd=140234|Gloss=for
 34	house	house	NOUN	_	_	33	comp:obj	_	AlignBegin=140234|AlignEnd=140515|Gloss=house
@@ -1032,7 +1033,7 @@
 39	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=141135|AlignEnd=141285|Gloss=PROSP
 40	go	go	VERB	_	_	39	comp:aux	_	AlignBegin=141285|AlignEnd=141831|Gloss=go
 41	dis	dis	DET	_	Number=Sing|PronType=Dem	42	det	_	AlignBegin=141831|AlignEnd=142043|Gloss=SG.DEM
-42	thing	ting	NOUN	_	_	40	comp:obj	_	AlignBegin=142043|AlignEnd=142279|Gloss=thing
+42	thing	ting	NOUN	_	_	40	comp:obl	_	AlignBegin=142043|AlignEnd=142279|Gloss=thing
 43	//=	//=	PUNCT	_	_	46	punct	_	AlignBegin=142279|AlignEnd=142309|Gloss=PUNCT
 44	#	#	PUNCT	_	_	46	punct	_	AlignBegin=142309|AlignEnd=143628|Gloss=PUNCT
 45	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	46	subj	_	AlignBegin=143628|AlignEnd=143738|Gloss=NOM.PL.1
@@ -1067,7 +1068,7 @@
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=149606|AlignEnd=149676|Gloss=NOM.PL.1
 9	go	go	AUX	_	Aspect=Prosp	3	parataxis:conj	_	AlignBegin=149676|AlignEnd=149736|Gloss=PROSP
 10	go	go	VERB	_	_	9	comp:aux	_	AlignBegin=149736|AlignEnd=149916|Gloss=go
-11	buy	buy	VERB	_	_	10	comp:pred$purp	_	AlignBegin=149916|AlignEnd=150391|Gloss=buy
+11	buy	buy	VERB	_	_	10	compound:svc$purp	_	AlignBegin=149916|AlignEnd=150391|Gloss=buy
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=150391|AlignEnd=150986|Gloss=PUNCT
 13	something	someting	PRON	_	_	11	comp:obj	_	AlignBegin=150986|AlignEnd=151611|Gloss=something
 14	//+	//+	PUNCT	_	_	16	punct	_	AlignBegin=151611|AlignEnd=151641|Gloss=PUNCT
@@ -1088,13 +1089,13 @@
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=155180|AlignEnd=155300|Gloss=NOM.PL.1
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=155300|AlignEnd=155360|Gloss=PROSP
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=155360|AlignEnd=155450|Gloss=go
-5	buy	buy	VERB	_	_	4	comp:pred$purp	_	AlignBegin=155450|AlignEnd=155610|Gloss=buy
+5	buy	buy	VERB	_	_	4	compound:svc$purp	_	AlignBegin=155450|AlignEnd=155610|Gloss=buy
 6	something	someting	PRON	_	_	5	comp:obj	_	AlignBegin=155610|AlignEnd=156010|Gloss=something
 7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=156010|AlignEnd=156040|Gloss=PUNCT
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=156040|AlignEnd=156088|Gloss=NOM.PL.1
 9	go	go	AUX	_	Aspect=Prosp	3	parataxis:conj	_	AlignBegin=156088|AlignEnd=156154|Gloss=PROSP
 10	go	go	VERB	_	_	9	comp:aux	_	AlignBegin=156154|AlignEnd=156300|Gloss=go
-11	buy	buy	VERB	_	_	10	comp:pred$purp	_	AlignBegin=156300|AlignEnd=156520|Gloss=buy
+11	buy	buy	VERB	_	_	10	compound:svc$purp	_	AlignBegin=156300|AlignEnd=156520|Gloss=buy
 12	foodstuff	foodstuff	NOUN	_	_	11	comp:obj	_	AlignBegin=156520|AlignEnd=157160|Gloss=foodstuff
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=157160|AlignEnd=157190|Gloss=PUNCT
 14	for	for	ADP	_	_	11	mod	_	AlignBegin=157190|AlignEnd=157610|Gloss=for
@@ -1496,13 +1497,13 @@
 21	//	//	PUNCT	_	_	17	punct	_	AlignBegin=201958|AlignEnd=201988|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626972358684
 # sent_id = IBA_20_Bose-Alade_MG__61
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_20_Bose-Alade_MG.mp3
 # speaker_id = Sp389
 # text = if rain don fall < everybody go put im drum outside < # but if rain no fall < # { we no dey || we dey } always suffer for water //
 # text_en = When the rain falls, everyone puts their drums outside, but if it doesn't rain, we don’t... we always face water shortages.
 # text_ortho = If rain don fall, everybody go put im drum outside, but if rain no fall, we no dey, we dey always suffer for water.
+# timestamp = 1626972358684
 1	if	if	SCONJ	_	_	7	mod:periph$cond	_	AlignBegin=201988|AlignEnd=202174|Gloss=if
 2	rain	rain	NOUN	_	_	3	subj	_	AlignBegin=202174|AlignEnd=202344|Gloss=rain
 3	don	don	AUX	_	Aspect=Perf	1	comp:obj	_	AlignBegin=202344|AlignEnd=202524|Gloss=PRF
@@ -1555,7 +1556,7 @@
 8	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=209690|AlignEnd=209920|Gloss=for
 9	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=209920|AlignEnd=210197|Gloss=ACC.PL.1
 10	here	here	ADV	_	_	9	mod	_	AlignBegin=210197|AlignEnd=210338|Gloss=here
-11	because	because	SCONJ	_	_	6	mod	_	AlignBegin=210338|AlignEnd=210820|Gloss=because
+11	because	because	SCONJ	_	_	6	mod$reason	_	AlignBegin=210338|AlignEnd=210820|Gloss=because
 12	na	na	PART	_	PartType=Cop	11	comp:obj	_	AlignBegin=210820|AlignEnd=211017|Gloss=be
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=211017|AlignEnd=211047|Gloss=PUNCT
 14	g~	X	X	_	_	12	comp:pred	_	AlignBegin=211047|AlignEnd=211170|Gloss=X
@@ -1659,7 +1660,7 @@
 2	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=222640|AlignEnd=222830|Gloss=and
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=222830|AlignEnd=222984|Gloss=NOM.PL.1
 4	go	go	VERB	_	_	0	root	_	AlignBegin=222984|AlignEnd=223190|Gloss=go
-5	fetch	fetch	VERB	_	_	4	comp:pred$purp	_	AlignBegin=223190|AlignEnd=223410|Gloss=fetch
+5	fetch	fetch	VERB	_	_	4	compound:svc$purp	_	AlignBegin=223190|AlignEnd=223410|Gloss=fetch
 6	water	water	NOUN	_	_	5	comp:obj	_	AlignBegin=223410|AlignEnd=223640|Gloss=water
 7	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=223640|AlignEnd=224232|Gloss=for
 8	#	#	PUNCT	_	_	11	punct	_	AlignBegin=224232|AlignEnd=225060|Gloss=PUNCT
@@ -1723,7 +1724,7 @@
 3	dey	dey	AUX	_	Aspect=Imp	2	comp:aux	_	AlignBegin=229620|AlignEnd=229710|Gloss=IPFV
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=229710|AlignEnd=229810|Gloss=go
 5	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	6	mod:poss	_	AlignBegin=229810|AlignEnd=230030|Gloss=PL.1.POSS
-6	place	place	NOUN	_	_	4	comp:obj	_	AlignBegin=230030|AlignEnd=230343|Gloss=place
+6	place	place	NOUN	_	_	4	comp:obl	_	AlignBegin=230030|AlignEnd=230343|Gloss=place
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=230343|AlignEnd=230373|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -1937,12 +1938,12 @@
 19	go	go	VERB	_	_	18	comp:aux	_	AlignBegin=254311|AlignEnd=254454|Gloss=go
 20	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	21	mod:poss	_	AlignBegin=254454|AlignEnd=255177|Gloss=PL.2.POSS
 21	husband	husband	NOUN	_	_	22	mod	_	AlignBegin=255177|AlignEnd=255611|Gloss=husband
-22	house	house	NOUN	_	_	19	comp:obj	_	AlignBegin=255611|AlignEnd=255911|Gloss=house
+22	house	house	NOUN	_	_	19	comp:obl	_	AlignBegin=255611|AlignEnd=255911|Gloss=house
 23	//=	//=	PUNCT	_	_	24	punct	_	AlignBegin=255911|AlignEnd=255941|Gloss=PUNCT
 24	go	go	AUX	_	Aspect=Prosp	18	conj:dicto	_	AlignBegin=255941|AlignEnd=256106|Gloss=PROSP
 25	go	go	VERB	_	_	24	comp:aux	_	AlignBegin=256106|AlignEnd=256311|Gloss=go
 26	husband	husband	NOUN	_	_	27	mod	_	AlignBegin=256311|AlignEnd=256639|Gloss=husband
-27	house	house	NOUN	_	_	25	comp:obj	_	AlignBegin=256639|AlignEnd=256837|Gloss=house
+27	house	house	NOUN	_	_	25	comp:obl	_	AlignBegin=256639|AlignEnd=256837|Gloss=house
 28	//=	//=	PUNCT	_	_	31	punct	_	AlignBegin=256837|AlignEnd=256867|Gloss=PUNCT
 29	#	#	PUNCT	_	_	31	punct	_	AlignBegin=256867|AlignEnd=257304|Gloss=PUNCT
 30	you	you	PRON	_	_	31	subj	_	AlignBegin=257304|AlignEnd=257523|Gloss=NOM.2
@@ -1952,7 +1953,7 @@
 34	with	wit	ADP	_	_	33	comp:obl	_	AlignBegin=258179|AlignEnd=258398|Gloss=with
 35	your	your	PRON	_	Number=Plur|Person=2|Reflex=Yes	36	mod:poss	_	AlignBegin=258398|AlignEnd=258616|Gloss=PL.2.POSS
 36	husband	husband	NOUN	_	_	34	comp:obj	_	AlignBegin=258616|AlignEnd=258835|Gloss=husband
-37	because	because	ADP	_	_	33	mod	_	AlignBegin=258835|AlignEnd=259054|Gloss=because
+37	because	because	ADP	_	_	33	mod$reason	_	AlignBegin=258835|AlignEnd=259054|Gloss=because
 38	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	39	subj	_	AlignBegin=259054|AlignEnd=259272|Gloss=NOM.PL.3
 39	no	no	AUX	_	_	37	comp:obj	_	AlignBegin=259272|AlignEnd=259491|Gloss=NEG
 40	fit	fit	AUX	_	Mood=Pot	39	comp:aux	_	AlignBegin=259491|AlignEnd=259709|Gloss=ABIL
@@ -2177,7 +2178,7 @@
 11	wey	wey	SCONJ	_	_	10	mod@relcl	_	AlignBegin=286054|AlignEnd=286144|Gloss=REL
 12	dey	dey	AUX	_	Aspect=Imp	11	comp:obj	_	AlignBegin=286144|AlignEnd=286244|Gloss=IPFV
 13	go	go	VERB	_	_	12	comp:aux	_	AlignBegin=286244|AlignEnd=286460|Gloss=go
-14	duty	duty	NOUN	_	_	13	comp:obj	_	AlignBegin=286460|AlignEnd=287124|Gloss=duty
+14	duty	duty	NOUN	_	_	13	comp:obl	_	AlignBegin=286460|AlignEnd=287124|Gloss=duty
 15	<	<	PUNCT	_	_	10	punct	_	AlignBegin=287124|AlignEnd=287154|Gloss=PUNCT
 16	meh	make	AUX	_	Mood=Opt	2	comp:obj	_	AlignBegin=287154|AlignEnd=287254|Gloss=SBJV
 17	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	subj	_	AlignBegin=287254|AlignEnd=287364|Gloss=NOM.PL.3
@@ -2264,7 +2265,7 @@
 3	attend	attend	VERB	_	_	0	root	_	AlignBegin=297030|AlignEnd=297409|Gloss=attend
 4	night	night	NOUN	_	_	5	compound	_	AlignBegin=297409|AlignEnd=297700|Gloss=night
 5	vigil	vigil	NOUN	_	_	3	comp:obj	_	AlignBegin=297700|AlignEnd=298000|Gloss=vigil
-6	because	because	SCONJ	_	_	3	mod	_	AlignBegin=298000|AlignEnd=298380|ExtPos=ADP|Gloss=because|PhraseType=Idiom
+6	because	because	SCONJ	_	_	3	mod$reason	_	AlignBegin=298000|AlignEnd=298380|ExtPos=ADP|Gloss=because|PhraseType=Idiom
 7	of	of	ADP	_	_	6	comp:obj	_	AlignBegin=298380|AlignEnd=298610|Gloss=of|InIdiom=Yes
 8	sey	sey	SCONJ	_	_	7	comp:obj	_	AlignBegin=298610|AlignEnd=299160|Gloss=COMP|InIdiom=Yes
 9	#	#	PUNCT	_	_	11	punct	_	AlignBegin=299160|AlignEnd=299520|Gloss=PUNCT
@@ -2365,3 +2366,4 @@
 22	}	}	PUNCT	_	_	18	punct	_	AlignBegin=312980|AlignEnd=313010|Gloss=PUNCT
 23	be	be	VERB	_	PartType=Cop	15	comp:obj	_	AlignBegin=313010|AlignEnd=313385|Gloss=be
 24	//	//	PUNCT	_	_	9	punct	_	AlignBegin=313385|AlignEnd=313415|Gloss=PUNCT
+

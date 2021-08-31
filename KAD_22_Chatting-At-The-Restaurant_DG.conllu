@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = KAD_22_Chatting-At-The-Restaurant_DG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_22_Chatting-At-The-Restaurant_DG.mp3
@@ -227,7 +228,7 @@
 6	go	go	VERB	_	_	4	compound:svc	_	AlignBegin=20831|AlignEnd=21013|Gloss=go
 7	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=21013|AlignEnd=21196|Gloss=DEF.ART
 8	spare	spare	ADJ	_	_	9	mod	_	AlignBegin=21196|AlignEnd=21378|Gloss=spare
-9	room	room	NOUN	_	_	6	comp:obj	_	AlignBegin=21378|AlignEnd=21560|Gloss=room
+9	room	room	NOUN	_	_	6	comp:obl	_	AlignBegin=21378|AlignEnd=21560|Gloss=room
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=21560|AlignEnd=21560|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -1205,7 +1206,7 @@
 3	dey	dey	AUX	_	Aspect=Imp	2	comp:aux	_	AlignBegin=93302|AlignEnd=93505|Gloss=IPFV
 4	look	look	VERB	_	_	3	comp:aux	_	AlignBegin=93505|AlignEnd=93707|Gloss=look
 5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=93707|AlignEnd=93910|Gloss=ACC.SG.1
-6	like	like	ADP	_	_	4	mod	_	AlignBegin=93910|AlignEnd=94112|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
+6	like	like	ADP	_	_	4	mod$manner	_	AlignBegin=93910|AlignEnd=94112|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
 7	sey	sey	SCONJ	_	_	6	comp:obj	_	AlignBegin=94112|AlignEnd=94315|Gloss=COMP|InIdiom=Yes
 8	[	[	PUNCT	_	_	12	punct	_	AlignBegin=94315|AlignEnd=94315|Gloss=PUNCT
 9	eh	eh	INTJ	_	_	12	discourse	_	AlignBegin=94315|AlignEnd=94517|Gloss=eh
@@ -1268,7 +1269,7 @@
 # text_ortho = So as I con tell her dat talk, she con tell me sey okay, make I do di nails for her.
 # timestamp = 1623936353694
 1	so	so	ADV	_	_	11	discourse	_	AlignBegin=100489|AlignEnd=100708|Gloss=so
-2	as	as	ADP	_	_	11	mod:periph@tempo	_	AlignBegin=100708|AlignEnd=100926|Gloss=as
+2	as	as	ADP	_	_	11	mod:periph$tempo	_	AlignBegin=100708|AlignEnd=100926|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=100926|AlignEnd=101145|Gloss=NOM.SG.1
 4	con	con	AUX	_	Aspect=Cons	2	comp:obj	_	AlignBegin=101145|AlignEnd=101364|Gloss=CONS
 5	tell	tell	VERB	_	_	4	comp:aux	_	AlignBegin=101364|AlignEnd=101582|Gloss=tell
@@ -1492,10 +1493,10 @@
 15	o	o	PART	_	PartType=Disc	9	mod:emph	_	AlignBegin=119465|AlignEnd=119648|Gloss=EMPH
 16	<	<	PUNCT	_	_	9	punct	_	AlignBegin=119648|AlignEnd=119648|Gloss=PUNCT
 17	go	go	VERB	_	_	6	comp:obj	_	AlignBegin=119648|AlignEnd=119831|Gloss=go
-18	meet	meet	VERB	_	_	17	comp:pred$purp	_	AlignBegin=119831|AlignEnd=120013|Gloss=meet
+18	meet	meet	VERB	_	_	17	compound:svc$purp	_	AlignBegin=119831|AlignEnd=120013|Gloss=meet
 19	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	20	mod:poss	_	AlignBegin=120013|AlignEnd=120196|Gloss=POSS.SG.1
 20	management	management	NOUN	_	_	18	comp:obj	_	AlignBegin=120196|AlignEnd=120378|Gloss=management
-21	because	because	SCONJ	_	_	18	mod	_	AlignBegin=120378|AlignEnd=120561|Gloss=because
+21	because	because	SCONJ	_	_	18	mod$reason	_	AlignBegin=120378|AlignEnd=120561|Gloss=because
 22	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	dislocated	_	AlignBegin=120561|AlignEnd=120743|Gloss=me
 23	<	<	PUNCT	_	_	22	punct	_	AlignBegin=120743|AlignEnd=120743|Gloss=PUNCT
 24	no	no	AUX	_	Polarity=Neg	21	comp:obj	_	AlignBegin=120743|AlignEnd=120926|Gloss=NEG
@@ -1569,7 +1570,7 @@
 3	girl	girl	NOUN	_	_	4	subj	_	AlignBegin=124437|AlignEnd=124577|Gloss=girl
 4	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=124577|AlignEnd=124718|Gloss=CONS
 5	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=124718|AlignEnd=124858|Gloss=go
-6	meet	meet	VERB	_	_	5	comp:pred$purp	_	AlignBegin=124858|AlignEnd=124998|Gloss=meet
+6	meet	meet	VERB	_	_	5	compound:svc$purp	_	AlignBegin=124858|AlignEnd=124998|Gloss=meet
 7	management	management	NOUN	_	_	6	comp:obj	_	AlignBegin=124998|AlignEnd=125138|Gloss=management
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=125138|AlignEnd=125138|Gloss=PUNCT
 
@@ -1656,7 +1657,7 @@
 8	feel	feel	VERB	_	_	6	conj:dicto	_	AlignBegin=130386|AlignEnd=130562|Gloss=feel
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=130562|AlignEnd=130562|Gloss=PUNCT
 10	herself	hersef	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	comp:obj	_	AlignBegin=130562|AlignEnd=130737|Gloss=herself
-11	like	like	ADP	_	_	8	mod	_	AlignBegin=130737|AlignEnd=130912|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
+11	like	like	ADP	_	_	8	mod$manner	_	AlignBegin=130737|AlignEnd=130912|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
 12	sey	sey	SCONJ	_	_	11	comp:obj	_	AlignBegin=130912|AlignEnd=131088|Gloss=COMP|InIdiom=Yes
 13	[	[	PUNCT	_	_	15	punct	_	AlignBegin=131088|AlignEnd=131088|Gloss=PUNCT
 14	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	AlignBegin=131088|AlignEnd=131263|Gloss=NOM.F.SG.3
@@ -2062,7 +2063,7 @@
 # text_en = When I finished the nails, I was wondering where the girl came from.
 # text_ortho = As I con finish di nails, I con dey wonder sey where dis girls comot from?
 # timestamp = 1610453401189
-1	as	as	ADP	_	_	9	mod:periph@tempo	_	AlignBegin=173810|AlignEnd=173957|Gloss=as
+1	as	as	ADP	_	_	9	mod:periph$tempo	_	AlignBegin=173810|AlignEnd=173957|Gloss=as
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=173957|AlignEnd=174104|Gloss=NOM.SG.1
 3	con	con	AUX	_	Aspect=Cons	1	comp:obj	_	AlignBegin=174104|AlignEnd=174251|Gloss=CONS
 4	finish	finish	VERB	_	_	3	comp:aux	_	AlignBegin=174251|AlignEnd=174398|Gloss=finish
@@ -2768,7 +2769,7 @@
 # text_ortho = I finish, she con post am out for Instagram, Facebook, Whatsapp, Everywhere.
 # timestamp = 1625736835790
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=226776|AlignEnd=227174|Gloss=NOM.SG.1
-2	finish	finish	VERB	_	_	5	parataxis:dislocated$phase	_	AlignBegin=227174|AlignEnd=227572|Gloss=finish
+2	finish	finish	VERB	_	_	5	parataxis:dislocated$tempo	_	AlignBegin=227174|AlignEnd=227572|Gloss=finish
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=227572|AlignEnd=227572|Gloss=PUNCT
 4	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=227572|AlignEnd=227970|Gloss=NOM.F.SG.3
 5	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=227970|AlignEnd=228368|Gloss=CONS
@@ -2904,7 +2905,7 @@
 5	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=238999|AlignEnd=239167|Gloss=NEG
 6	get	get	VERB	_	_	5	comp:aux	_	AlignBegin=239167|AlignEnd=239335|Gloss=get
 7	money	money	NOUN	_	_	6	comp:obj	_	AlignBegin=239335|AlignEnd=239503|Gloss=money
-8	so	so	SCONJ	_	_	6	mod	_	AlignBegin=239503|AlignEnd=239671|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
+8	so	so	SCONJ	_	_	6	mod$purp	_	AlignBegin=239503|AlignEnd=239671|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
 9	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	8	comp:obj	_	AlignBegin=239671|AlignEnd=239839|Gloss=SG.DEM|InIdiom=Yes
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=239839|AlignEnd=240007|Gloss=NOM.SG.1
 11	should	should	AUX	_	VerbForm=Fin	8	comp:obj	_	AlignBegin=240007|AlignEnd=240175|Gloss=should.FIN
@@ -3360,13 +3361,13 @@
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=275910|AlignEnd=275910|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626883883501
 # sent_id = KAD_22_Chatting-At-The-Restaurant_DG__168
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_22_Chatting-At-The-Restaurant_DG.mp3
 # speaker_id = Sp205
 # text = de go do like sey [ de be city girls ] so dat you know when dey enter big place like dis ba < dem go know sey [ ah na babe >+ be dis ] //
 # text_en = They'll pretend they're city girls so that you know, when they enter a big place like this, they'll know that they're babes.
 # text_ortho = De go do like sey de be city girls so dat you know when dey enter big place like dis ba, dem go know sey ah na babe be dis.
+# timestamp = 1626883883501
 1	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	AlignBegin=277245|AlignEnd=277431|Gloss=NOM.PL.3
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=277431|AlignEnd=277616|Gloss=PROSP
 3	do	do	VERB	_	_	2	comp:aux	_	AlignBegin=277616|AlignEnd=277802|Gloss=do
@@ -3470,3 +3471,4 @@
 1	mstchew	mtschew	INTJ	_	_	2	discourse	_	AlignBegin=286160|AlignEnd=287320|Gloss=sucking_of_teeth
 2	hm	hm	INTJ	_	_	0	root	_	AlignBegin=287320|AlignEnd=288480|Gloss=hm
 3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=288480|AlignEnd=288480|Gloss=PUNCT
+

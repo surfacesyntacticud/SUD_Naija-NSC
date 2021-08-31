@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = bernard.l.caron
 # sent_id = WAZA_01_Triplea-Sports_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZA_01_Triplea-Sports_MG.mp3
@@ -54,7 +55,7 @@
 14	dis	dis	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=8810|AlignEnd=8980|Gloss=SG.DEM
 15	morning	morning	NOUN	_	_	11	mod	_	AlignBegin=8980|AlignEnd=9200|Gloss=morning
 16	o	o	PART	_	PartType=Disc	11	mod:emph	_	AlignBegin=9200|AlignEnd=9280|Gloss=EMPH
-17	because	because	SCONJ	_	_	11	mod	_	AlignBegin=9280|AlignEnd=9610|Gloss=because
+17	because	because	SCONJ	_	_	11	mod$reason	_	AlignBegin=9280|AlignEnd=9610|Gloss=because
 18	eh	eh	INTJ	_	_	21	discourse	_	AlignBegin=9610|AlignEnd=9710|Gloss=eh
 19	#	#	PUNCT	_	_	18	punct	_	AlignBegin=9710|AlignEnd=9900|Gloss=PUNCT
 20	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	subj	_	AlignBegin=9900|AlignEnd=10003|Gloss=NOM.PL.1
@@ -110,7 +111,7 @@
 70	go	go	VERB	_	_	69	comp:aux	_	AlignBegin=22125|AlignEnd=22495|Gloss=go
 71	#	#	PUNCT	_	_	73	punct	_	AlignBegin=22495|AlignEnd=22645|Gloss=PUNCT
 72	yesterday	yesterday	NOUN	_	_	73	mod	_	AlignBegin=22645|AlignEnd=23055|Gloss=yesterday
-73	venue	venue	NOUN	_	_	70	comp:obj	_	AlignBegin=23055|AlignEnd=23485|Gloss=venue
+73	venue	venue	NOUN	_	_	70	comp:obl	_	AlignBegin=23055|AlignEnd=23485|Gloss=venue
 74	]	]	PUNCT	_	_	50	punct	_	AlignBegin=23485|AlignEnd=23515|Gloss=PUNCT
 75	//	//	PUNCT	_	_	11	punct	_	AlignBegin=23485|AlignEnd=23515|Gloss=PUNCT
 
@@ -345,7 +346,7 @@
 23	carry	carry	VERB	_	_	17	comp:cleft	_	AlignBegin=58140|AlignEnd=58573|Gloss=carry
 24	take	take	SCONJ	_	_	23	mod$purp	_	AlignBegin=58573|AlignEnd=58730|Gloss=to
 25	come	come	VERB	_	_	24	comp:obj	_	AlignBegin=58730|AlignEnd=58893|Gloss=come
-26	butcher	butcher	VERB	_	_	25	comp:pred$purp	_	AlignBegin=58893|AlignEnd=59160|Gloss=butcher
+26	butcher	butcher	VERB	_	_	25	compound:svc$purp	_	AlignBegin=58893|AlignEnd=59160|Gloss=butcher
 27	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	28	mod:poss	_	AlignBegin=59160|AlignEnd=59303|Gloss=PL.3.POSS
 28	body	body	NOUN	_	_	26	comp:obj	_	AlignBegin=59303|AlignEnd=59555|Gloss=body
 29	#	#	PUNCT	_	_	31	punct	_	AlignBegin=59555|AlignEnd=59785|Gloss=PUNCT
@@ -598,7 +599,7 @@
 18	because	because	SCONJ	_	_	9	mod	_	AlignBegin=88030|AlignEnd=88360|Gloss=because
 19	eh	eh	INTJ	_	_	28	discourse	_	AlignBegin=88360|AlignEnd=88460|Gloss=eh
 20	#	#	PUNCT	_	_	19	punct	_	AlignBegin=88460|AlignEnd=88670|Gloss=PUNCT
-21	as	as	ADP	_	_	28	mod:periph@tempo	_	AlignBegin=88670|AlignEnd=88810|Gloss=as
+21	as	as	ADP	_	_	28	mod:periph$tempo	_	AlignBegin=88670|AlignEnd=88810|Gloss=as
 22	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	subj	_	AlignBegin=88810|AlignEnd=88840|Gloss=NOM.SG.3
 23	take	take	VERB	_	_	21	comp:obj	_	AlignBegin=88840|AlignEnd=89000|Gloss=take
 24	be	be	VERB	_	PartType=Cop	23	compound:svc	_	AlignBegin=89000|AlignEnd=89130|Gloss=be
@@ -636,7 +637,7 @@
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=93105|AlignEnd=93185|Gloss=NOM.PL.1
 9	go	go	VERB	_	_	7	comp:obj	_	AlignBegin=93185|AlignEnd=93285|Gloss=go
 10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=93285|AlignEnd=93425|Gloss=SG.DEM
-11	morning	morning	NOUN	_	_	9	comp:obj	_	AlignBegin=93425|AlignEnd=93710|Gloss=morning
+11	morning	morning	NOUN	_	_	9	comp:obl	_	AlignBegin=93425|AlignEnd=93710|Gloss=morning
 12	<	<	PUNCT	_	_	7	punct	_	AlignBegin=93710|AlignEnd=93740|Gloss=PUNCT
 13	#	#	PUNCT	_	_	7	punct	_	AlignBegin=93740|AlignEnd=93910|Gloss=PUNCT
 14	meh	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=93910|AlignEnd=93980|Gloss=SBJV
@@ -700,7 +701,7 @@
 11	confirmate	confirmate	VERB	_	_	10	comp:aux	_	AlignBegin=101460|AlignEnd=101930|Gloss=confirm
 12	sey	sey	SCONJ	_	_	11	comp:obj	_	AlignBegin=101930|AlignEnd=102000|Gloss=COMP
 13	[	[	PUNCT	_	_	55	punct	_	AlignBegin=102000|AlignEnd=102030|Gloss=PUNCT
-14	because	because	SCONJ	_	_	55	mod:periph	_	AlignBegin=102030|AlignEnd=102370|ExtPos=ADP|Gloss=because|PhraseType=Idiom
+14	because	because	SCONJ	_	_	55	mod:periph$reason	_	AlignBegin=102030|AlignEnd=102370|ExtPos=ADP|Gloss=because|PhraseType=Idiom
 15	of	of	ADP	_	_	14	comp:obj	_	AlignBegin=102370|AlignEnd=102470|ExtPos=SCONJ|Gloss=of|InIdiom=Yes
 16	sey	sey	SCONJ	_	_	15	comp:obj	_	AlignBegin=102470|AlignEnd=102630|Gloss=COMP|InIdiom=Yes
 17	[	[	PUNCT	_	_	19	punct	_	AlignBegin=102630|AlignEnd=102660|Gloss=PUNCT
@@ -798,8 +799,8 @@
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	comp:obj	_	AlignBegin=116313|AlignEnd=116445|Gloss=NOM.2
 15	come	come	VERB	_	_	13	compound:svc	_	AlignBegin=116445|AlignEnd=116595|Gloss=come
 16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=116595|AlignEnd=116755|Gloss=SG.DEM
-17	morning	morning	NOUN	_	_	15	comp:obj	_	AlignBegin=116755|AlignEnd=116905|Gloss=morning
-18	because	because	SCONJ	_	_	13	mod	_	AlignBegin=116905|AlignEnd=117426|Gloss=because
+17	morning	morning	NOUN	_	_	15	comp:obl	_	AlignBegin=116755|AlignEnd=116905|Gloss=morning
+18	because	because	SCONJ	_	_	13	mod$reason	_	AlignBegin=116905|AlignEnd=117426|Gloss=because
 19	anoder	anoder	DET	_	_	21	det	_	AlignBegin=117426|AlignEnd=117895|Gloss=another
 20	money	money	NOUN	_	_	21	compound	_	AlignBegin=117895|AlignEnd=118115|Gloss=money
 21	level	level	NOUN	_	_	22	subj	_	AlignBegin=118115|AlignEnd=118409|Gloss=level
@@ -871,7 +872,7 @@
 21	for	for	ADP	_	_	20	comp:obl	_	AlignBegin=126070|AlignEnd=126280|Gloss=for
 22	obodo	obodo	NOUN	_	_	23	compound	_	AlignBegin=126280|AlignEnd=126710|Gloss=country
 23	world	world	NOUN	_	_	21	comp:obj	_	AlignBegin=126710|AlignEnd=127301|Gloss=world
-24	because	because	SCONJ	_	_	20	mod	_	AlignBegin=127301|AlignEnd=127740|Gloss=because
+24	because	because	SCONJ	_	_	20	mod$reason	_	AlignBegin=127301|AlignEnd=127740|Gloss=because
 25	#	#	PUNCT	_	_	30	punct	_	AlignBegin=127740|AlignEnd=127860|Gloss=PUNCT
 26	according	accord	VERB	_	Tense=Pres|VerbForm=Part	30	mod:periph	_	AlignBegin=127860|AlignEnd=128463|ExtPos=ADP|Gloss=accord.PRS.PTCP
 27	by	by	ADP	_	_	26	comp:obl@agent	_	AlignBegin=128463|AlignEnd=128730|Gloss=by
@@ -1107,3 +1108,4 @@
 3	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	4	mod:poss	_	AlignBegin=155048|AlignEnd=155295|Gloss=PL.2.POSS|Lang=en
 4	heart	heart	NOUN	_	_	2	comp:obj	_	AlignBegin=155295|AlignEnd=155649|Gloss=heart|Lang=en
 5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=155649|AlignEnd=155679|Gloss=PUNCT
+

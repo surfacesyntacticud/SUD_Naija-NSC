@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = LAG_31_Road-Safety_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_31_Road-Safety_MG.mp3
@@ -222,7 +223,7 @@
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=41980|AlignEnd=42050|Gloss=NOM.PL.1
 3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=42050|AlignEnd=42170|Gloss=IPFV
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=42170|AlignEnd=42450|Gloss=go
-5	talk	talk	VERB	_	_	4	comp:pred$purp	_	AlignBegin=42450|AlignEnd=42650|Gloss=talk
+5	talk	talk	VERB	_	_	4	compound:svc$purp	_	AlignBegin=42450|AlignEnd=42650|Gloss=talk
 6	to	to	ADP	_	_	5	comp:obl	_	AlignBegin=42650|AlignEnd=42799|Gloss=to
 7	people	people	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=42799|AlignEnd=43182|Gloss=people.PL
 8	about	about	ADP	_	_	5	comp:obl	_	AlignBegin=43182|AlignEnd=43950|Gloss=about
@@ -644,7 +645,7 @@
 # text_ortho = As you dey inside dat motor, na tyre dey control di motor wey dey make am move.
 # timestamp = 1610453416535
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=104980|AlignEnd=105760|Gloss=PUNCT
-2	as	as	ADP	_	_	9	mod:periph@tempo	_	AlignBegin=105760|AlignEnd=106000|Gloss=as
+2	as	as	ADP	_	_	9	mod:periph$tempo	_	AlignBegin=105760|AlignEnd=106000|Gloss=as
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=106000|AlignEnd=106070|Gloss=NOM.2
 4	dey	dey	VERB	_	VerbType=Cop	2	comp:obj	_	AlignBegin=106070|AlignEnd=106240|Gloss=be
 5	inside	inside	ADP	_	_	4	comp:pred	_	AlignBegin=106240|AlignEnd=106510|Gloss=inside
@@ -663,7 +664,7 @@
 18	dey	dey	AUX	_	Aspect=Imp	17	comp:obj	_	AlignBegin=110250|AlignEnd=110370|Gloss=IPFV
 19	make	make	VERB	_	_	18	comp:aux	_	AlignBegin=110370|AlignEnd=110580|Gloss=make
 20	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=110580|AlignEnd=110696|Gloss=ACC.SG.3
-21	move	move	VERB	_	_	19	comp:pred	_	AlignBegin=110696|AlignEnd=110839|Gloss=move
+21	move	move	VERB	_	_	19	comp:pred$caus	_	AlignBegin=110696|AlignEnd=110839|Gloss=move
 22	//	//	PUNCT	_	_	9	punct	_	AlignBegin=110839|AlignEnd=110869|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -1432,10 +1433,10 @@
 4	make	make	VERB	_	_	1	comp:cleft	_	AlignBegin=214480|AlignEnd=214655|Gloss=make
 5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=214655|AlignEnd=214818|Gloss=SG.DEM
 6	tyre	tyre	NOUN	_	_	4	comp:obj	_	AlignBegin=214818|AlignEnd=215090|Gloss=tyre
-7	burst	burst	VERB	_	_	4	comp:pred	_	AlignBegin=215090|AlignEnd=215291|Gloss=burst
+7	burst	burst	VERB	_	_	4	comp:pred$caus	_	AlignBegin=215090|AlignEnd=215291|Gloss=burst
 8	because	because	SCONJ	_	_	1	mod	_	AlignBegin=215291|AlignEnd=215613|Gloss=because
 9	#	#	PUNCT	_	_	18	punct	_	AlignBegin=215643|AlignEnd=215880|Gloss=PUNCT
-10	as	as	ADP	_	_	18	mod:periph@tempo	_	AlignBegin=215880|AlignEnd=216050|Gloss=as
+10	as	as	ADP	_	_	18	mod:periph$tempo	_	AlignBegin=215880|AlignEnd=216050|Gloss=as
 11	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	subj	_	AlignBegin=216050|AlignEnd=216100|Gloss=NOM.SG.3
 12	dey	dey	AUX	_	Aspect=Imp	10	comp:obj	_	AlignBegin=216100|AlignEnd=216247|Gloss=IPFV
 13	move	move	VERB	_	_	12	comp:aux	_	AlignBegin=216247|AlignEnd=216485|Gloss=move
@@ -1626,7 +1627,7 @@
 3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=243552|AlignEnd=243639|Gloss=IPFV
 4	worry	worry	VERB	_	_	3	comp:aux	_	AlignBegin=243639|AlignEnd=243930|Gloss=worry
 5	tyre	tyre	NOUN	_	_	4	comp:obj	_	AlignBegin=243930|AlignEnd=244180|Gloss=tyre
-6	because	because	SCONJ	_	_	4	mod	_	AlignBegin=244180|AlignEnd=244430|Gloss=because
+6	because	because	SCONJ	_	_	4	mod$reason	_	AlignBegin=244180|AlignEnd=244430|Gloss=because
 7	when	when	SCONJ	_	PronType=Int	26	mod:periph$tempo	_	AlignBegin=244430|AlignEnd=244570|Gloss=when.Q
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=244570|AlignEnd=244831|Gloss=NOM.2
 9	carry	carry	VERB	_	_	7	comp:obj	_	AlignBegin=244831|AlignEnd=245160|Gloss=carry
@@ -2037,19 +2038,19 @@
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=305564|AlignEnd=305594|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626713066689
 # sent_id = LAG_31_Road-Safety_MG__75
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_31_Road-Safety_MG.mp3
 # speaker_id = Sp252
 # text = you no go see am because you don take something wey # dey prevent you from seeing well //
 # text_en = You won't see them because you've drunk something that stops you from seeing clearly.
 # text_ortho = You no go see am because you don take something wey dey prevent you from seeing well.
+# timestamp = 1626713066689
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=305594|AlignEnd=305730|Gloss=NOM.2
 2	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=305730|AlignEnd=305890|Gloss=NEG
 3	go	go	AUX	_	Aspect=Prosp	2	comp:aux	_	AlignBegin=305890|AlignEnd=306013|Gloss=PROSP
 4	see	see	VERB	_	_	3	comp:aux	_	AlignBegin=306013|AlignEnd=306180|Gloss=see
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=306180|AlignEnd=306260|Gloss=ACC.SG.3
-6	because	because	SCONJ	_	_	4	mod	_	AlignBegin=306260|AlignEnd=306694|Gloss=because
+6	because	because	SCONJ	_	_	4	mod$reason	_	AlignBegin=306260|AlignEnd=306694|Gloss=because
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	subj	_	AlignBegin=306694|AlignEnd=306873|Gloss=NOM.2
 8	don	don	AUX	_	Aspect=Perf	6	comp:obj	_	AlignBegin=306873|AlignEnd=307050|Gloss=PRF
 9	take	take	VERB	_	_	8	comp:aux	_	AlignBegin=307050|AlignEnd=307200|Gloss=take
@@ -2165,3 +2166,4 @@
 24	calculate	calculate	VERB	_	_	23	comp:aux	_	AlignBegin=322075|AlignEnd=322560|Gloss=calculate
 25	everyting	everyting	PRON	_	_	24	comp:obj	_	AlignBegin=322560|AlignEnd=322970|Gloss=everything
 26	//	//	PUNCT	_	_	8	punct	_	AlignBegin=322970|AlignEnd=323000|Gloss=PUNCT
+

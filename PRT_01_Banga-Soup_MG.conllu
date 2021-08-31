@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = PRT_01_Banga-Soup_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_01_Banga-Soup_MG.mp3
@@ -239,7 +240,7 @@
 17	di	di	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=33227|AlignEnd=33337|Gloss=DEF.ART
 18	banga	banga	NOUN	_	_	19	compound	_	AlignBegin=33337|AlignEnd=33757|Gloss=palm_kernel
 19	soup	soup	NOUN	_	_	16	comp:obj	_	AlignBegin=33757|AlignEnd=34037|Gloss=soup
-20	be	be	VERB	_	PartType=Cop	16	comp:pred	_	AlignBegin=34067|AlignEnd=34157|Gloss=be
+20	be	be	VERB	_	PartType=Cop	16	comp:pred$caus	_	AlignBegin=34067|AlignEnd=34157|Gloss=be
 21	banga	banga	NOUN	_	_	22	compound	_	AlignBegin=34157|AlignEnd=34517|Gloss=palm_kernel
 22	soup	soup	NOUN	_	_	20	comp:pred	_	AlignBegin=34517|AlignEnd=34742|Gloss=soup
 23	//	//	PUNCT	_	_	11	punct	_	AlignBegin=34742|AlignEnd=34772|Gloss=PUNCT
@@ -334,7 +335,7 @@
 14	#	#	PUNCT	_	_	15	punct	_	AlignBegin=45784|AlignEnd=51970|Gloss=PUNCT
 15	inside	inside	ADP	_	_	11	comp:obl	_	AlignBegin=48304|AlignEnd=48694|Gloss=inside
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=45784|AlignEnd=51970|Gloss=PUNCT
-17	so	so	SCONJ	_	_	11	mod	_	AlignBegin=48714|AlignEnd=48824|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
+17	so	so	SCONJ	_	_	11	mod$purp	_	AlignBegin=48714|AlignEnd=48824|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
 18	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	17	comp:obj	_	AlignBegin=48824|AlignEnd=48964|Gloss=SG.DEM|InIdiom=Yes
 19	when	when	SCONJ	_	PronType=Int	31	mod:periph$tempo	_	AlignBegin=48964|AlignEnd=49034|Gloss=when.Q
 20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	subj	_	AlignBegin=49034|AlignEnd=49114|Gloss=NOM.2
@@ -396,7 +397,7 @@
 9	when	when	SCONJ	_	PronType=Int	4	mod$tempo	_	AlignBegin=57515|AlignEnd=57625|Gloss=when.Q
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=57625|AlignEnd=57735|Gloss=NOM.2
 11	go	go	VERB	_	_	9	comp:obj	_	AlignBegin=57735|AlignEnd=57865|Gloss=go
-12	market	market	NOUN	_	_	11	comp:obj	_	AlignBegin=57865|AlignEnd=58285|Gloss=market
+12	market	market	NOUN	_	_	11	comp:obl	_	AlignBegin=57865|AlignEnd=58285|Gloss=market
 13	now	now	ADV	_	_	12	discourse	_	AlignBegin=58285|AlignEnd=58530|Gloss=now
 14	<	<	PUNCT	_	_	2	punct	_	AlignBegin=58530|AlignEnd=58560|Gloss=PUNCT
 15	#	#	PUNCT	_	_	2	punct	_	AlignBegin=58560|AlignEnd=58850|Gloss=PUNCT
@@ -758,7 +759,7 @@
 6	dese	dese	DET	_	Number=Plur|PronType=Dem	8	det	_	AlignBegin=103247|AlignEnd=103517|Gloss=PL.PROX.DEM
 7	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	8	mod:poss	_	AlignBegin=103517|AlignEnd=103577|Gloss=PL.2.POSS
 8	spices	spice	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=103577|AlignEnd=104087|Gloss=spice.PL
-9	because	because	SCONJ	_	_	5	mod	_	AlignBegin=104087|AlignEnd=104337|Gloss=because
+9	because	because	SCONJ	_	_	5	mod$reason	_	AlignBegin=104087|AlignEnd=104337|Gloss=because
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	subj	_	AlignBegin=104337|AlignEnd=104417|Gloss=NOM.2
 11	no	no	AUX	_	Polarity=Neg	9	comp:obj	_	AlignBegin=104417|AlignEnd=104477|Gloss=NEG
 12	go	go	AUX	_	Aspect=Prosp	11	comp:aux	_	AlignBegin=104477|AlignEnd=104597|Gloss=PROSP
@@ -1081,7 +1082,7 @@
 9	name	name	NOUN	_	_	7	comp:obj	_	AlignBegin=146892|AlignEnd=147172|Gloss=name
 10	now	now	ADV	_	_	7	mod	_	AlignBegin=147172|AlignEnd=147350|Gloss=now
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=147350|AlignEnd=147670|Gloss=PUNCT
-12	so	so	SCONJ	_	_	7	mod	_	AlignBegin=147670|AlignEnd=147770|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
+12	so	so	SCONJ	_	_	7	mod$purp	_	AlignBegin=147670|AlignEnd=147770|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
 13	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	12	comp:obj	_	AlignBegin=147770|AlignEnd=148000|Gloss=SG.DEM|InIdiom=Yes
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	subj	_	AlignBegin=148000|AlignEnd=148060|Gloss=NOM.2
 15	no	no	AUX	_	Polarity=Neg	12	comp:obj	_	AlignBegin=148060|AlignEnd=148180|Gloss=NEG
@@ -1390,7 +1391,7 @@
 3	native	native	ADJ	_	_	4	mod	_	AlignBegin=180196|AlignEnd=180726|Gloss=native
 4	banga	banga	NOUN	_	_	2	comp:obj	_	AlignBegin=180726|AlignEnd=181280|Gloss=palm_kernel
 5	#	#	PUNCT	_	_	6	punct	_	AlignBegin=181280|AlignEnd=181575|Gloss=PUNCT
-6	because	because	SCONJ	_	_	2	mod	_	AlignBegin=181575|AlignEnd=181955|Gloss=because
+6	because	because	SCONJ	_	_	2	mod$reason	_	AlignBegin=181575|AlignEnd=181955|Gloss=because
 7	native	native	ADJ	_	_	8	mod	_	AlignBegin=181955|AlignEnd=182385|Gloss=native
 8	banga	banga	NOUN	_	_	9	subj	_	AlignBegin=182385|AlignEnd=182725|Gloss=palm_kernel
 9	go	go	AUX	_	Aspect=Prosp	6	comp:obj	_	AlignBegin=182725|AlignEnd=182835|Gloss=PROSP
@@ -2216,7 +2217,7 @@
 31	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	32	mod:poss	_	AlignBegin=280090|AlignEnd=280180|Gloss=PL.2.POSS
 32	banga	banga	NOUN	_	_	30	comp:obj	_	AlignBegin=280180|AlignEnd=280580|Gloss=palm_kernel
 33	#	#	PUNCT	_	_	34	punct	_	AlignBegin=275580|AlignEnd=282610|Gloss=PUNCT
-34	stand	stand	VERB	_	_	23	comp:pred	_	AlignBegin=280820|AlignEnd=281350|Gloss=stand
+34	stand	stand	VERB	_	_	23	comp:pred$caus	_	AlignBegin=280820|AlignEnd=281350|Gloss=stand
 35	on	on	ADP	_	_	34	comp:obl	_	AlignBegin=281350|AlignEnd=281530|ExtPos=ADP|Gloss=on|PhraseType=Idiom
 36	top	top	NOUN	_	_	35	comp:obj	_	AlignBegin=281530|AlignEnd=281710|Gloss=top|InIdiom=Yes
 37	of	of	ADP	_	_	36	mod	_	AlignBegin=281710|AlignEnd=281900|Gloss=of|InIdiom=Yes
@@ -2548,7 +2549,7 @@
 10	small	small	ADJ	_	_	8	compound:redup	_	AlignBegin=326725|AlignEnd=327195|Gloss=small
 11	}	}	PUNCT	_	_	8	punct	_	AlignBegin=327195|AlignEnd=327225|Gloss=PUNCT
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=325395|AlignEnd=329380|Gloss=PUNCT
-13	so	so	SCONJ	_	_	3	mod	_	AlignBegin=327365|AlignEnd=327495|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
+13	so	so	SCONJ	_	_	3	mod$purp	_	AlignBegin=327365|AlignEnd=327495|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
 14	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	13	comp:obj	_	AlignBegin=327495|AlignEnd=327655|Gloss=SG.DEM|InIdiom=Yes
 15	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	16	mod:poss	_	AlignBegin=327655|AlignEnd=327785|Gloss=PL.2.POSS
 16	fish	fish	NOUN	_	_	20	dislocated	_	AlignBegin=327785|AlignEnd=328285|Gloss=fish
@@ -2889,7 +2890,7 @@
 5	don	don	AUX	_	Aspect=Perf	0	root	_	AlignBegin=373550|AlignEnd=373720|Gloss=PRF
 6	make	make	VERB	_	_	5	comp:aux	_	AlignBegin=373720|AlignEnd=373930|Gloss=make
 7	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=373930|AlignEnd=374030|Gloss=NOM.SG.1
-8	remember	remember	VERB	_	_	6	comp:pred	_	AlignBegin=374030|AlignEnd=374390|Gloss=remember
+8	remember	remember	VERB	_	_	6	comp:pred$caus	_	AlignBegin=374030|AlignEnd=374390|Gloss=remember
 9	{	{	PUNCT	_	_	11	punct	_	AlignBegin=374390|AlignEnd=374420|Gloss=PUNCT
 10	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	11	mod:poss	_	AlignBegin=374420|AlignEnd=374540|Gloss=SG.1.POSS
 11	mama	mama	NOUN	_	_	8	comp:obj	_	AlignBegin=374540|AlignEnd=374810|Gloss=mama
@@ -3439,3 +3440,4 @@
 4	enjoy	enjoy	VERB	_	_	0	root	_	AlignBegin=448460|AlignEnd=449030|Gloss=enjoy
 5	yourself	yoursef	PRON	_	Case=Acc|Person=2|PronType=Prs|Reflex=Yes	4	comp:obj	_	AlignBegin=449030|AlignEnd=449630|Gloss=ACC.2.REFL
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=449630|AlignEnd=449660|Gloss=PUNCT
+

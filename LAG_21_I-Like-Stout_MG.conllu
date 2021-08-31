@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = LAG_21_I-Like-Stout_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_21_I-Like-Stout_MG.mp3
@@ -187,7 +188,7 @@
 # text_ortho = When you drink Stout, you no go dey go piss, piss all di time.
 # timestamp = 1625568389382
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=53499|AlignEnd=54790|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	9	mod:periph$phase	_	AlignBegin=54790|AlignEnd=54957|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	9	mod:periph$tempo	_	AlignBegin=54790|AlignEnd=54957|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=54957|AlignEnd=55151|Gloss=NOM.2
 4	drink	drink	VERB	_	_	2	comp:obj	_	AlignBegin=55151|AlignEnd=55435|Gloss=drink
 5	Stout	stout	NOUN	_	_	4	mod	_	AlignBegin=55435|AlignEnd=55934|Gloss=stout
@@ -200,7 +201,7 @@
 12	go	go	VERB	_	_	11	comp:aux	_	AlignBegin=57510|AlignEnd=58277|Gloss=go
 13	#	#	PUNCT	_	_	15	punct	_	AlignBegin=58277|AlignEnd=58649|Gloss=PUNCT
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=58619|AlignEnd=58649|Gloss=PUNCT
-15	piss	piss	VERB	_	_	12	comp:pred$purp	_	AlignBegin=58649|AlignEnd=58880|Gloss=urinate
+15	piss	piss	VERB	_	_	12	compound:svc$purp	_	AlignBegin=58649|AlignEnd=58880|Gloss=urinate
 16	|r	|r	PUNCT	_	_	17	punct	_	AlignBegin=58880|AlignEnd=58910|Gloss=PUNCT
 17	piss	piss	VERB	_	_	15	compound:svc	_	AlignBegin=58910|AlignEnd=59260|Gloss=urinate
 18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=59260|AlignEnd=59290|Gloss=PUNCT
@@ -247,7 +248,7 @@
 5	go	go	VERB	_	_	4	comp:pred$desire	_	AlignBegin=68005|AlignEnd=68559|Gloss=go
 6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=68559|AlignEnd=69069|Gloss=PUNCT
 7	long	long	ADJ	_	_	8	mod	_	AlignBegin=69069|AlignEnd=69319|Gloss=long
-8	distance	distance	NOUN	_	_	5	comp:obj	_	AlignBegin=69319|AlignEnd=69776|Gloss=distance
+8	distance	distance	NOUN	_	_	5	comp:obl	_	AlignBegin=69319|AlignEnd=69776|Gloss=distance
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=69776|AlignEnd=69806|Gloss=PUNCT
 10	#	#	PUNCT	_	_	2	punct	_	AlignBegin=69806|AlignEnd=71913|Gloss=PUNCT
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	subj	_	AlignBegin=71913|AlignEnd=72030|Gloss=NOM.2
@@ -255,7 +256,7 @@
 13	go	go	AUX	_	Aspect=Prosp	12	comp:aux	_	AlignBegin=72223|AlignEnd=72385|Gloss=PROSP
 14	dey	dey	AUX	_	Aspect=Imp	13	comp:aux	_	AlignBegin=72385|AlignEnd=72552|Gloss=IPFV
 15	go	go	VERB	_	_	14	comp:aux	_	AlignBegin=72552|AlignEnd=72744|Gloss=go
-16	toilet	toilet	NOUN	_	_	15	comp:obj	_	AlignBegin=72744|AlignEnd=73562|Gloss=toilet
+16	toilet	toilet	NOUN	_	_	15	comp:obl	_	AlignBegin=72744|AlignEnd=73562|Gloss=toilet
 17	#	#	PUNCT	_	_	19	punct	_	AlignBegin=73562|AlignEnd=74416|Gloss=PUNCT
 18	every	every	DET	_	_	19	mod	_	AlignBegin=74416|AlignEnd=74769|Gloss=every
 19	now	now	ADV	_	_	15	mod	_	AlignBegin=74769|AlignEnd=75085|Gloss=now
@@ -348,7 +349,7 @@
 10	#	#	PUNCT	_	_	8	punct	_	AlignBegin=96843|AlignEnd=98318|Gloss=PUNCT
 11	place	place	NOUN	_	_	7	comp:obj	_	AlignBegin=98318|AlignEnd=98810|Gloss=place
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=98810|AlignEnd=100492|Gloss=PUNCT
-13	because	because	SCONJ	_	_	6	mod	_	AlignBegin=100492|AlignEnd=100870|Gloss=because
+13	because	because	SCONJ	_	_	6	mod$reason	_	AlignBegin=100492|AlignEnd=100870|Gloss=because
 14	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	15	mod:poss	_	AlignBegin=100870|AlignEnd=101070|Gloss=PL.3.POSS
 15	drink	drink	NOUN	_	_	16	subj	_	AlignBegin=101070|AlignEnd=101349|Gloss=drink
 16	no	no	AUX	_	Polarity=Neg	13	comp:obj	_	AlignBegin=101349|AlignEnd=101488|Gloss=NEG
@@ -649,7 +650,7 @@
 4	make	make	VERB	_	_	3	comp:aux	_	AlignBegin=180007|AlignEnd=180307|Gloss=make|Lang=en
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=180307|AlignEnd=180450|Gloss=NOM.2|Lang=en
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=180450|AlignEnd=180480|Gloss=PUNCT
-7	know	know	VERB	_	_	4	comp:pred	_	AlignBegin=180480|AlignEnd=180953|Gloss=know|Lang=en
+7	know	know	VERB	_	_	4	comp:pred$caus	_	AlignBegin=180480|AlignEnd=180953|Gloss=know|Lang=en
 8	||	||	PUNCT	_	_	12	punct	_	AlignBegin=180953|AlignEnd=180983|Gloss=PUNCT
 9	#	#	PUNCT	_	_	12	punct	_	AlignBegin=180983|AlignEnd=181904|Gloss=PUNCT
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=181904|AlignEnd=181977|Gloss=NOM.SG.1|Lang=en
@@ -708,7 +709,7 @@
 17	to	to	ADP	_	_	8	comp:pred	_	AlignBegin=198257|AlignEnd=198414|Gloss=to
 18	chop	chop	VERB	_	_	17	comp:obj	_	AlignBegin=198414|AlignEnd=198796|Gloss=eat
 19	#	#	PUNCT	_	_	20	punct	_	AlignBegin=198796|AlignEnd=200428|Gloss=PUNCT
-20	because	because	SCONJ	_	_	18	mod	_	AlignBegin=200428|AlignEnd=201143|Gloss=because
+20	because	because	SCONJ	_	_	18	mod$reason	_	AlignBegin=200428|AlignEnd=201143|Gloss=because
 21	#	#	PUNCT	_	_	25	punct	_	AlignBegin=201143|AlignEnd=201875|Gloss=PUNCT
 22	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	23	mod:poss	_	AlignBegin=201875|AlignEnd=202090|Gloss=PL.3.POSS
 23	food	food	NOUN	_	_	25	subj	_	AlignBegin=202090|AlignEnd=202389|Gloss=food
@@ -1199,13 +1200,13 @@
 28	&//	&//	PUNCT	_	_	8	punct	_	AlignBegin=339337|AlignEnd=339367|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626965897661
 # sent_id = LAG_21_I-Like-Stout_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_21_I-Like-Stout_MG.mp3
 # speaker_id = Sp238
 # text = de cook it { in di || # in di } way de don't put leaf # dere //
 # text_en = They cook it in the... in the way where they don't add vegetable leaves to it.
 # text_ortho = De cook it in di, in di way de don't put leaf dere.
+# timestamp = 1626965897661
 1	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	AlignBegin=339367|AlignEnd=339677|Gloss=NOM.PL.3
 2	cook	cook	VERB	_	_	0	root	_	AlignBegin=339677|AlignEnd=339953|Gloss=cook
 3	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=339953|AlignEnd=340047|Gloss=NOM.NT.SG.3
@@ -1275,3 +1276,4 @@
 4	finish	finish	VERB	_	_	3	comp:aux	_	AlignBegin=352012|AlignEnd=352384|Gloss=finish
 5	now	now	ADV	_	_	4	mod	_	AlignBegin=352384|AlignEnd=352660|Gloss=now
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=352660|AlignEnd=352690|Gloss=PUNCT
+

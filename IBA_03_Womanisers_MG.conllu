@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # user_id = emmett.strickland
 # sent_id = IBA_03_Womanisers_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
@@ -103,8 +104,8 @@
 16	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=19780|AlignEnd=19910|Gloss=PROSP
 17	go	go	VERB	_	_	16	comp:aux	_	AlignBegin=19910|AlignEnd=20100|Gloss=go
 18	back	back	ADV	_	_	17	mod	_	AlignBegin=20100|AlignEnd=20330|Gloss=back
-19	go	go	VERB	_	_	17	comp:pred$purp	_	AlignBegin=20330|AlignEnd=20450|Gloss=go
-20	scatter	scatter	VERB	_	_	19	comp:pred$purp	_	AlignBegin=20450|AlignEnd=20900|Gloss=scatter
+19	go	go	VERB	_	_	17	compound:svc$purp	_	AlignBegin=20330|AlignEnd=20450|Gloss=go
+20	scatter	scatter	VERB	_	_	19	compound:svc$purp	_	AlignBegin=20450|AlignEnd=20900|Gloss=scatter
 21	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	AlignBegin=20900|AlignEnd=21120|Gloss=ACC.SG.3
 22	now	now	ADV	_	_	20	mod	_	AlignBegin=21120|AlignEnd=21674|Gloss=now
 23	//	//	PUNCT	_	_	16	punct	_	AlignBegin=21674|AlignEnd=21704|Gloss=PUNCT
@@ -156,7 +157,7 @@
 12	go	go	AUX	_	Aspect=Prosp	10	comp:cleft	_	AlignBegin=26140|AlignEnd=26290|Gloss=PROSP
 13	con	con	AUX	_	Aspect=Cons	12	comp:aux	_	AlignBegin=26290|AlignEnd=26520|Gloss=CONS
 14	go	go	VERB	_	_	13	comp:aux	_	AlignBegin=26520|AlignEnd=26670|Gloss=go
-15	scatter	scatter	VERB	_	_	14	comp:pred$purp	_	AlignBegin=26670|AlignEnd=27090|Gloss=scatter
+15	scatter	scatter	VERB	_	_	14	compound:svc$purp	_	AlignBegin=26670|AlignEnd=27090|Gloss=scatter
 16	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	AlignBegin=27090|AlignEnd=27230|Gloss=ACC.SG.3
 17	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=27230|AlignEnd=27260|Gloss=PUNCT
 18	//	//	PUNCT	_	_	6	punct	_	AlignBegin=27230|AlignEnd=27260|Gloss=PUNCT
@@ -217,20 +218,20 @@
 5	go	go	AUX	_	Aspect=Prosp	2	comp:cleft	_	AlignBegin=34800|AlignEnd=34880|Gloss=PROSP
 6	dey	dey	AUX	_	Aspect=Imp	5	comp:aux	_	AlignBegin=34880|AlignEnd=35000|Gloss=IPFV
 7	go	go	VERB	_	_	6	comp:aux	_	AlignBegin=35000|AlignEnd=35160|Gloss=go
-8	dey	dey	AUX	_	Aspect=Imp	7	comp:pred$purp	_	AlignBegin=35160|AlignEnd=35330|Gloss=IPFV
+8	dey	dey	AUX	_	Aspect=Imp	7	compound:svc$purp	_	AlignBegin=35160|AlignEnd=35330|Gloss=IPFV
 9	cheat	cheat	VERB	_	_	8	comp:aux	_	AlignBegin=35330|AlignEnd=35783|Gloss=cheat
 10	on	on	ADP	_	_	9	comp:obl	_	AlignBegin=35783|AlignEnd=36000|Gloss=on
 11	women	woman	NOUN	_	Number=Plur	10	comp:obj	_	AlignBegin=36000|AlignEnd=36410|Gloss=woman.PL
 12	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=36410|AlignEnd=36440|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626946292565
 # sent_id = IBA_03_Womanisers_MG__9
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
 # text = # you see men < as you dey see dem so < # de too dey get { bad |r bad } friends //
 # text_en = You see, men, as they are, they have too many bad friends.
 # text_ortho = You see men, as you dey see dem so, de too dey get bad, bad friends.
+# timestamp = 1626946292565
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=36440|AlignEnd=37620|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=37620|AlignEnd=37710|Gloss=NOM.2
 3	see	see	VERB	_	_	16	parataxis:discourse	_	AlignBegin=37710|AlignEnd=37960|Gloss=see
@@ -325,7 +326,7 @@
 15	wey	when	SCONJ	_	_	9	conj:coord	_	AlignBegin=51415|AlignEnd=51475|Gloss=when
 16	dey	dey	AUX	_	Aspect=Imp	15	comp:obj	_	AlignBegin=51475|AlignEnd=51645|Gloss=IPFV
 17	go	go	VERB	_	_	16	comp:aux	_	AlignBegin=51645|AlignEnd=51825|Gloss=go
-18	church	church	NOUN	_	_	17	comp:obj	_	AlignBegin=51825|AlignEnd=52097|Gloss=church
+18	church	church	NOUN	_	_	17	comp:obl	_	AlignBegin=51825|AlignEnd=52097|Gloss=church
 19	so	so	ADV	_	_	17	discourse	_	AlignBegin=52097|AlignEnd=52302|Gloss=so
 20	}	}	PUNCT	_	_	9	punct	_	AlignBegin=52302|AlignEnd=52332|Gloss=PUNCT
 21	<	<	PUNCT	_	_	7	punct	_	AlignBegin=52302|AlignEnd=52332|Gloss=PUNCT
@@ -362,7 +363,7 @@
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=56050|AlignEnd=56200|Gloss=NOM.PL.3
 4	don	don	AUX	_	Aspect=Perf	2	comp:obj	_	AlignBegin=56200|AlignEnd=56400|Gloss=PRF
 5	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=56400|AlignEnd=56590|Gloss=go
-6	meet	meet	VERB	_	_	5	comp:pred$purp	_	AlignBegin=56590|AlignEnd=56860|Gloss=meet
+6	meet	meet	VERB	_	_	5	compound:svc$purp	_	AlignBegin=56590|AlignEnd=56860|Gloss=meet
 7	demself	demsef	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	comp:obj	_	AlignBegin=56860|AlignEnd=57230|Gloss=ACC.PL.3.REFL
 8	dey	dey	AUX	_	Aspect=Imp	6	mod	_	AlignBegin=57260|AlignEnd=57430|Gloss=IPFV
 9	talk	talk	VERB	_	_	8	comp:aux	_	AlignBegin=57430|AlignEnd=57680|Gloss=talk
@@ -502,7 +503,7 @@
 4	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=76460|AlignEnd=76720|Gloss=IPFV
 5	cheat	cheat	VERB	_	_	4	comp:aux	_	AlignBegin=76720|AlignEnd=77110|Gloss=cheat
 6	#	#	PUNCT	_	_	7	punct	_	AlignBegin=77110|AlignEnd=77310|Gloss=PUNCT
-7	because	because	SCONJ	_	_	5	mod	_	AlignBegin=77310|AlignEnd=77760|ExtPos=SCONJ|Gloss=because|PhraseType=Idiom
+7	because	because	SCONJ	_	_	5	mod$reason	_	AlignBegin=77310|AlignEnd=77760|ExtPos=SCONJ|Gloss=because|PhraseType=Idiom
 8	sey	sey	SCONJ	_	_	7	comp:obj	_	AlignBegin=77760|AlignEnd=78140|Gloss=COMP|InIdiom=Yes
 9	#	#	PUNCT	_	_	25	punct	_	AlignBegin=78140|AlignEnd=78460|Gloss=PUNCT
 10	[	[	PUNCT	_	_	25	punct	_	AlignBegin=78430|AlignEnd=78460|Gloss=PUNCT
@@ -753,7 +754,7 @@
 11	wen	wey	SCONJ	_	_	10	mod@relcl	_	AlignBegin=116840|AlignEnd=116960|Gloss=REL
 12	dey	dey	AUX	_	Aspect=Imp	11	comp:obj	_	AlignBegin=116960|AlignEnd=117100|Gloss=IPFV
 13	go	go	VERB	_	_	12	comp:aux	_	AlignBegin=117100|AlignEnd=117370|Gloss=go
-14	church	church	NOUN	_	_	13	comp:obj	_	AlignBegin=117370|AlignEnd=117868|Gloss=church
+14	church	church	NOUN	_	_	13	comp:obl	_	AlignBegin=117370|AlignEnd=117868|Gloss=church
 15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=117868|AlignEnd=117898|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -778,7 +779,7 @@
 12	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=120420|AlignEnd=120530|Gloss=PROSP
 13	still	still	ADV	_	_	14	mod	_	AlignBegin=120530|AlignEnd=120830|Gloss=still
 14	go	go	VERB	_	_	12	comp:aux	_	AlignBegin=120830|AlignEnd=121030|Gloss=go
-15	church	church	NOUN	_	_	14	comp:obj	_	AlignBegin=121030|AlignEnd=121329|Gloss=church
+15	church	church	NOUN	_	_	14	comp:obl	_	AlignBegin=121030|AlignEnd=121329|Gloss=church
 16	(	(	PUNCT	_	_	19	punct	_	AlignBegin=121329|AlignEnd=121359|Gloss=PUNCT
 17	#	#	PUNCT	_	_	19	punct	_	AlignBegin=121359|AlignEnd=121550|Gloss=PUNCT
 18	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	subj	_	AlignBegin=121550|AlignEnd=121660|Gloss=NOM.2
@@ -788,7 +789,7 @@
 22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	23	subj	_	AlignBegin=121890|AlignEnd=122030|Gloss=NOM.2
 23	go	go	VERB	_	_	12	parataxis:conj	_	AlignBegin=122030|AlignEnd=122150|Gloss=go
 24	still	still	ADV	_	_	25	mod	_	AlignBegin=122150|AlignEnd=122430|Gloss=still
-25	cheat	cheat	NOUN	_	_	23	comp:obj	_	AlignBegin=122430|AlignEnd=122869|Gloss=cheat
+25	cheat	cheat	NOUN	_	_	23	comp:obl	_	AlignBegin=122430|AlignEnd=122869|Gloss=cheat
 26	//	//	PUNCT	_	_	12	punct	_	AlignBegin=122869|AlignEnd=122899|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -1007,13 +1008,13 @@
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=148619|AlignEnd=148649|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626986218738
 # sent_id = IBA_03_Womanisers_MG__41
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
 # text = # in fact deir friends go make am look like sey # [ you no know what's up # if you no dey cheat ] //
 # text_en = In fact, their friends will make it look like you don't know what's up if you don't cheat.
 # text_ortho = In fact deir friends go make am look like sey you no know what's up if you no dey cheat.
+# timestamp = 1626986218738
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=148649|AlignEnd=148892|Gloss=PUNCT
 2	in	in	ADP	_	_	6	mod:periph	_	AlignBegin=148892|AlignEnd=148972|ExtPos=ADV|Gloss=in|PhraseType=Idiom
 3	fact	fact	NOUN	_	_	2	comp:obj	_	AlignBegin=148972|AlignEnd=149222|Gloss=fact|InIdiom=Yes
@@ -1022,7 +1023,7 @@
 6	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=149832|AlignEnd=149952|Gloss=PROSP
 7	make	make	VERB	_	_	6	comp:aux	_	AlignBegin=149952|AlignEnd=150192|Gloss=make
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=150192|AlignEnd=150312|Gloss=ACC.SG.3
-9	look	look	VERB	_	_	7	comp:pred	_	AlignBegin=150312|AlignEnd=150602|Gloss=look
+9	look	look	VERB	_	_	7	comp:pred$caus	_	AlignBegin=150312|AlignEnd=150602|Gloss=look
 10	like	like	ADP	_	_	9	comp:pred	_	AlignBegin=150602|AlignEnd=150782|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
 11	sey	sey	SCONJ	_	_	10	comp:obj	_	AlignBegin=150782|AlignEnd=151162|Gloss=COMP|InIdiom=Yes
 12	#	#	PUNCT	_	_	15	punct	_	AlignBegin=151162|AlignEnd=151442|Gloss=PUNCT
@@ -1178,7 +1179,7 @@
 21	always	always	ADV	_	_	22	mod	_	AlignBegin=175430|AlignEnd=175790|Gloss=always
 22	come	come	VERB	_	_	20	comp:aux	_	AlignBegin=175790|AlignEnd=176240|Gloss=come
 23	#	#	PUNCT	_	_	24	punct	_	AlignBegin=176240|AlignEnd=176594|Gloss=PUNCT
-24	see	see	VERB	_	_	22	comp:pred$purp	_	AlignBegin=176594|AlignEnd=176874|Gloss=see
+24	see	see	VERB	_	_	22	compound:svc$purp	_	AlignBegin=176594|AlignEnd=176874|Gloss=see
 25	oga	oga	NOUN	_	_	24	comp:obj	_	AlignBegin=176874|AlignEnd=177282|Gloss=boss
 26	]	]	PUNCT	_	_	20	punct	_	AlignBegin=177282|AlignEnd=177312|Gloss=PUNCT
 27	}	}	PUNCT	_	_	9	punct	_	AlignBegin=177282|AlignEnd=177312|Gloss=PUNCT
@@ -1201,13 +1202,13 @@
 44	//	//	PUNCT	_	_	31	punct	_	AlignBegin=179907|AlignEnd=179937|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626879693140
 # sent_id = IBA_03_Womanisers_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
 # text = # how come when oga { con begin dey cut eye for you |c con begin dey toast you } < you sef < you gree ?//
 # text_en = How come, when the boss started flirting with you, when he started asking you out, you also agreed?
 # text_ortho = How come when oga con begin dey cut eye for you, con begin dey toast you, you sef, you gree?
+# timestamp = 1626879693140
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=179937|AlignEnd=180400|Gloss=PUNCT
 2	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=180400|AlignEnd=180570|ExtPos=ADV|Gloss=how.Q|PhraseType=Idiom
 3	come	come	VERB	_	_	2	comp:obj	_	AlignBegin=180570|AlignEnd=180900|Gloss=come|InIdiom=Yes
@@ -1632,7 +1633,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=242480|AlignEnd=242630|Gloss=NOM.2
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=242630|AlignEnd=242760|Gloss=PROSP
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=242760|AlignEnd=242900|Gloss=go
-5	report	report	VERB	_	_	4	comp:pred$purp	_	AlignBegin=242900|AlignEnd=243300|Gloss=report
+5	report	report	VERB	_	_	4	compound:svc$purp	_	AlignBegin=242900|AlignEnd=243300|Gloss=report
 6	give	give	VERB	_	_	5	compound:svc	_	AlignBegin=243300|AlignEnd=243540|Gloss=give
 7	mama	mama	NOUN	_	_	6	comp:obj	_	AlignBegin=243540|AlignEnd=243770|Gloss=mama
 8	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=243770|AlignEnd=243800|Gloss=PUNCT
@@ -1858,7 +1859,7 @@
 30	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	31	subj	_	AlignBegin=272490|AlignEnd=272580|Gloss=NOM.2
 31	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=272580|AlignEnd=272740|Gloss=PROSP
 32	go	go	VERB	_	_	31	comp:aux	_	AlignBegin=272740|AlignEnd=272870|Gloss=go
-33	buy	buy	VERB	_	_	32	comp:pred$purp	_	AlignBegin=272870|AlignEnd=273120|Gloss=buy
+33	buy	buy	VERB	_	_	32	compound:svc$purp	_	AlignBegin=272870|AlignEnd=273120|Gloss=buy
 34	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	33	comp:obl	_	AlignBegin=273120|AlignEnd=273360|Gloss=ACC.SG.3
 35	#	#	PUNCT	_	_	37	punct	_	AlignBegin=273360|AlignEnd=273720|Gloss=PUNCT
 36	{	{	PUNCT	_	_	37	punct	_	AlignBegin=273690|AlignEnd=273720|Gloss=PUNCT
@@ -1888,13 +1889,13 @@
 60	//	//	PUNCT	_	_	31	punct	_	AlignBegin=277731|AlignEnd=277761|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626879651718
 # sent_id = IBA_03_Womanisers_MG__74
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
 # text = # di long throat man now go con begin dey say [ madam thank //] &//
 # text_en = The greedy man then will begin to say madam, thank...
 # text_ortho = Di long throat man now go con begin dey say madam thank...
+# timestamp = 1626879651718
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=277761|AlignEnd=278260|Gloss=PUNCT
 2	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=278260|AlignEnd=278550|Gloss=DEF.ART
 3	long	long	ADJ	_	_	4	mod	_	AlignBegin=278550|AlignEnd=278850|Gloss=long
@@ -2044,13 +2045,13 @@
 14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=298643|AlignEnd=298673|Gloss=PUNCT
 
 # user_id = emmett.strickland
-# timestamp = 1626879623001
 # sent_id = IBA_03_Womanisers_MG__81
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
 # text = # { rich |r rich } women # wey dey find how dem go just take begin dey make men sleep wit dem < if dem see you sey [ dem like you ] < de go begin buy { big |r big } ting dey give you //
 # text_en = The rich women who know how to start making men sleep with them, if they like you, they will start buying nice things for you.
 # text_ortho = Rich, rich women wey dey find how dem go just take begin dey make men sleep wit dem, if dem see you sey dem like you, de go begin buy big, big ting dey give you.
+# timestamp = 1626879623001
 1	#	#	PUNCT	_	_	37	punct	_	AlignBegin=298673|AlignEnd=298870|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=298840|AlignEnd=298870|Gloss=PUNCT
 3	rich	rich	ADJ	_	_	7	mod	_	AlignBegin=298870|AlignEnd=299170|Gloss=rich
@@ -2071,7 +2072,7 @@
 18	dey	dey	AUX	_	Aspect=Imp	17	comp:pred$phase	_	AlignBegin=302590|AlignEnd=303014|Gloss=IPFV
 19	make	make	VERB	_	_	18	comp:aux	_	AlignBegin=303014|AlignEnd=303440|Gloss=make
 20	men	man	NOUN	_	Number=Plur	19	comp:obj	_	AlignBegin=303440|AlignEnd=303660|Gloss=man.PL
-21	sleep	sleep	VERB	_	_	19	comp:pred	_	AlignBegin=303660|AlignEnd=304040|Gloss=sleep
+21	sleep	sleep	VERB	_	_	19	comp:pred$caus	_	AlignBegin=303660|AlignEnd=304040|Gloss=sleep
 22	wit	wit	ADP	_	_	21	comp:obl	_	AlignBegin=304040|AlignEnd=304150|Gloss=with
 23	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	comp:obj	_	AlignBegin=304150|AlignEnd=304447|Gloss=ACC.PL.3
 24	<	<	PUNCT	_	_	7	punct	_	AlignBegin=304447|AlignEnd=304477|Gloss=PUNCT
@@ -2196,7 +2197,7 @@
 23	make	make	VERB	_	_	22	comp:aux	_	AlignBegin=319860|AlignEnd=320130|Gloss=make
 24	some	some	DET	_	_	25	det	_	AlignBegin=320130|AlignEnd=320350|Gloss=some
 25	men	man	NOUN	_	Number=Plur	23	comp:obj	_	AlignBegin=320350|AlignEnd=320650|Gloss=man.PL
-26	dey	dey	AUX	_	Aspect=Imp	23	comp:pred	_	AlignBegin=320650|AlignEnd=320830|Gloss=IPFV
+26	dey	dey	AUX	_	Aspect=Imp	23	comp:pred$caus	_	AlignBegin=320650|AlignEnd=320830|Gloss=IPFV
 27	cheat	cheat	VERB	_	_	26	comp:aux	_	AlignBegin=320830|AlignEnd=321267|Gloss=cheat
 28	//	//	PUNCT	_	_	22	punct	_	AlignBegin=321267|AlignEnd=321297|Gloss=PUNCT
 
@@ -2226,7 +2227,7 @@
 2	some	some	DET	_	_	3	det	_	AlignBegin=324480|AlignEnd=324760|Gloss=some
 3	men	man	NOUN	_	Number=Plur	14	dislocated	_	AlignBegin=324760|AlignEnd=325160|Gloss=man.PL
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=325160|AlignEnd=325190|Gloss=PUNCT
-5	as	as	ADP	_	_	14	mod:periph$phase	_	AlignBegin=325190|AlignEnd=325390|Gloss=as
+5	as	as	ADP	_	_	14	mod:periph$tempo	_	AlignBegin=325190|AlignEnd=325390|Gloss=as
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	subj	_	AlignBegin=325390|AlignEnd=325450|Gloss=NOM.2
 7	dey	dey	AUX	_	Aspect=Imp	5	comp:obj	_	AlignBegin=325450|AlignEnd=325570|Gloss=IPFV
 8	see	see	VERB	_	_	7	comp:aux	_	AlignBegin=325570|AlignEnd=325780|Gloss=see
@@ -2426,7 +2427,7 @@
 2	man	man	NOUN	_	_	3	subj	_	AlignBegin=345270|AlignEnd=345560|Gloss=man
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=345560|AlignEnd=345700|Gloss=PROSP
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=345700|AlignEnd=345930|Gloss=go
-5	cheat	cheat	VERB	_	_	4	comp:pred$purp	_	AlignBegin=345930|AlignEnd=346300|Gloss=cheat
+5	cheat	cheat	VERB	_	_	4	compound:svc$purp	_	AlignBegin=345930|AlignEnd=346300|Gloss=cheat
 6	o	o	PART	_	PartType=Disc	3	mod:emph	_	AlignBegin=346300|AlignEnd=346470|Gloss=EMPH
 7	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=346470|AlignEnd=346500|Gloss=PUNCT
 
@@ -2616,7 +2617,7 @@
 4	man	man	NOUN	_	_	5	subj	_	AlignBegin=369600|AlignEnd=369840|Gloss=man
 5	go	go	AUX	_	Aspect=Prosp	2	comp:obj	_	AlignBegin=369840|AlignEnd=369950|Gloss=PROSP
 6	come	come	VERB	_	_	5	comp:aux	_	AlignBegin=369950|AlignEnd=370210|Gloss=come
-7	house	house	NOUN	_	_	6	comp:obj	_	AlignBegin=370210|AlignEnd=370447|Gloss=house
+7	house	house	NOUN	_	_	6	comp:obl	_	AlignBegin=370210|AlignEnd=370447|Gloss=house
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=370447|AlignEnd=370477|Gloss=PUNCT
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	subj	_	AlignBegin=370477|AlignEnd=370620|Gloss=NOM.2
 10	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=370620|AlignEnd=370740|Gloss=PROSP
@@ -2958,7 +2959,7 @@
 4	women	woman	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=411360|AlignEnd=411830|Gloss=woman.PL
 5	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=411830|AlignEnd=411910|Gloss=ehn
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=411910|AlignEnd=411910|Gloss=PUNCT
-7	as	as	ADP	_	_	16	mod:periph@tempo	_	AlignBegin=411910|AlignEnd=412140|Gloss=as
+7	as	as	ADP	_	_	16	mod:periph$tempo	_	AlignBegin=411910|AlignEnd=412140|Gloss=as
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	subj	_	AlignBegin=412140|AlignEnd=412200|Gloss=NOM.2
 9	dey	dey	AUX	_	Aspect=Imp	7	comp:obj	_	AlignBegin=412200|AlignEnd=412300|Gloss=IPFV
 10	see	see	VERB	_	_	9	comp:aux	_	AlignBegin=412300|AlignEnd=412460|Gloss=see
@@ -3025,10 +3026,10 @@
 # text_ortho = Since we go university together, dis my husband, e never buy me phone one day.
 # timestamp = 1625919571498
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=421479|AlignEnd=422280|Gloss=PUNCT
-2	since	since	ADP	_	_	13	mod:periph$phase	_	AlignBegin=422280|AlignEnd=422460|Gloss=since
+2	since	since	ADP	_	_	13	mod:periph$tempo	_	AlignBegin=422280|AlignEnd=422460|Gloss=since
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=422460|AlignEnd=422590|Gloss=NOM.PL.1
 4	go	go	VERB	_	_	2	comp:obj	_	AlignBegin=422590|AlignEnd=422760|Gloss=go
-5	university	university	NOUN	_	_	4	comp:obj	_	AlignBegin=422760|AlignEnd=423430|Gloss=university
+5	university	university	NOUN	_	_	4	comp:obl	_	AlignBegin=422760|AlignEnd=423430|Gloss=university
 6	together	together	ADV	_	_	4	mod	_	AlignBegin=423430|AlignEnd=423910|Gloss=together
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=423910|AlignEnd=423940|Gloss=PUNCT
 8	dis	dis	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=423940|AlignEnd=424300|Gloss=SG.DEM
@@ -3349,13 +3350,13 @@
 3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=461009|AlignEnd=461039|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626946353458
 # sent_id = IBA_03_Womanisers_MG__143
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
 # text = # men < # as dem be so ehn < we dey call dem # predators //
 # text_en = Men, as they are, uh... we call them predators.
 # text_ortho = Men, as dem be so ehn, we dey call dem predators.
+# timestamp = 1626946353458
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=461039|AlignEnd=461460|Gloss=PUNCT
 2	men	man	NOUN	_	Number=Plur	12	dislocated	_	AlignBegin=461460|AlignEnd=461930|Gloss=man.PL
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=461930|AlignEnd=461960|Gloss=PUNCT
@@ -3632,13 +3633,13 @@
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=495754|AlignEnd=495784|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1626879725593
 # sent_id = IBA_03_Womanisers_MG__156
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_03_Womanisers_MG.mp3
 # speaker_id = Sp362
 # text = e go con begin dey give you //
 # text_en = Then he'll start giving you those things
 # text_ortho = E go con begin dey give you.
+# timestamp = 1626879725593
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=495784|AlignEnd=495954|Gloss=NOM.SG.3
 2	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=495954|AlignEnd=496044|Gloss=PROSP
 3	con	con	AUX	_	Aspect=Cons	2	comp:aux	_	AlignBegin=496044|AlignEnd=496254|Gloss=CONS
@@ -3660,7 +3661,7 @@
 2	meh	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=497460|AlignEnd=497730|Gloss=SBJV
 3	God	God	PROPN	_	_	4	subj	_	AlignBegin=497730|AlignEnd=497890|Gloss=God
 4	come	come	VERB	_	_	2	comp:aux	_	AlignBegin=497890|AlignEnd=498120|Gloss=come
-5	catch	catch	VERB	_	_	4	comp:pred$purp	_	AlignBegin=498120|AlignEnd=498490|Gloss=catch
+5	catch	catch	VERB	_	_	4	compound:svc$purp	_	AlignBegin=498120|AlignEnd=498490|Gloss=catch
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=498490|AlignEnd=498530|Gloss=NOM.2
 7	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=498530|AlignEnd=498560|Gloss=PUNCT
 
@@ -3695,3 +3696,4 @@
 21	just	just	ADV	_	_	22	mod	_	AlignBegin=502090|AlignEnd=502390|Gloss=just
 22	fall	fall	VERB	_	_	20	comp:aux	_	AlignBegin=502390|AlignEnd=502610|Gloss=fall
 23	//	//	PUNCT	_	_	20	punct	_	AlignBegin=502610|AlignEnd=502640|Gloss=PUNCT
+
