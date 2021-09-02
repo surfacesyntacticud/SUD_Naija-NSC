@@ -53,13 +53,13 @@
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=9660|AlignEnd=9790|Gloss=NOM.SG.1
 10	no	no	AUX	_	Polarity=Neg	6	comp:obj	_	AlignBegin=9790|AlignEnd=10024|Gloss=NEG
 11	wan	want	VERB	_	_	10	comp:aux	_	AlignBegin=10024|AlignEnd=10216|Gloss=want
-12	steal	steal	VERB	_	_	11	comp:pred$desire	_	AlignBegin=10216|AlignEnd=10350|Gloss=steal
+12	steal	steal	VERB	_	_	11	comp:obj$desire	_	AlignBegin=10216|AlignEnd=10350|Gloss=steal
 13	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=10350|AlignEnd=10380|Gloss=PUNCT
 14	and	and	CCONJ	_	_	16	cc	_	AlignBegin=10380|AlignEnd=10540|Gloss=and
 15	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=10540|AlignEnd=10654|Gloss=NOM.SG.1
 16	no	no	AUX	_	Polarity=Neg	10	conj:coord	_	AlignBegin=10654|AlignEnd=10820|Gloss=NEG
 17	wan	want	VERB	_	_	16	comp:aux	_	AlignBegin=10820|AlignEnd=11000|Gloss=want
-18	be	be	VERB	_	PartType=Cop	17	comp:pred$desire	_	AlignBegin=11000|AlignEnd=11188|Gloss=be
+18	be	be	VERB	_	PartType=Cop	17	comp:obj$desire	_	AlignBegin=11000|AlignEnd=11188|Gloss=be
 19	liability	liability	NOUN	_	_	18	comp:pred	_	AlignBegin=11188|AlignEnd=11780|Gloss=liability
 20	for	for	ADP	_	_	18	comp:obl	_	AlignBegin=11780|AlignEnd=11920|Gloss=for
 21	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	22	mod:poss	_	AlignBegin=11920|AlignEnd=12070|Gloss=SG.1.POSS
@@ -144,7 +144,7 @@
 9	as	as	ADP	_	_	8	mod$manner	_	AlignBegin=21876|AlignEnd=22126|Gloss=as
 10	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	subj	_	AlignBegin=22126|AlignEnd=22176|Gloss=NOM.SG.3
 11	wan	want	VERB	_	_	9	comp:obj	_	AlignBegin=22176|AlignEnd=22416|Gloss=want
-12	do	do	VERB	_	_	11	comp:pred$desire	_	AlignBegin=22416|AlignEnd=22650|Gloss=do
+12	do	do	VERB	_	_	11	comp:obj$desire	_	AlignBegin=22416|AlignEnd=22650|Gloss=do
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=22650|AlignEnd=22680|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -906,14 +906,14 @@
 10	o	o	PART	_	PartType=Disc	7	mod:emph	_	AlignBegin=127666|AlignEnd=127790|Gloss=EMPH
 11	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=127790|AlignEnd=127820|Gloss=PUNCT
 
-# user_id = emmett.strickland
+# user_id = bernard.l.caron
+# timestamp = 1630582888039
 # sent_id = LAG_37_Soap-Making_MG__36
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # any woman # wey e no want im husband # make e dey take # cloth dey knock im head for house < # make e engage imsef # for petty work !//= make e dey do o !//
 # text_en = Any woman who doesn't want her husband to mistreat her all around the house should find herself a bit of work... she should do something.
 # text_ortho = Any woman wey e no want im husband make e dey take cloth dey knock im head for house, make e engage imsef for petty work, make e dey do o!
-# timestamp = 1610453416827
 1	#	#	PUNCT	_	_	26	punct	_	AlignBegin=127820|AlignEnd=128200|Gloss=PUNCT
 2	any	any	DET	_	_	3	det	_	AlignBegin=128200|AlignEnd=128499|Gloss=any
 3	woman	woman	NOUN	_	_	26	dislocated	_	AlignBegin=128499|AlignEnd=128900|Gloss=woman
@@ -925,7 +925,7 @@
 9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	mod:poss	_	AlignBegin=129960|AlignEnd=130055|Gloss=NOM.SG.3
 10	husband	husband	NOUN	_	_	8	comp:obj	_	AlignBegin=130055|AlignEnd=130431|Gloss=husband
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=130431|AlignEnd=130725|Gloss=PUNCT
-12	make	make	AUX	_	Mood=Opt	8	comp:pred$desire	_	AlignBegin=130725|AlignEnd=130925|Gloss=SBJV
+12	make	make	AUX	_	Mood=Opt	8	comp:obl$desire@x	_	AlignBegin=130725|AlignEnd=130925|Gloss=SBJV
 13	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=130925|AlignEnd=130995|Gloss=NOM.SG.3
 14	dey	dey	AUX	_	Aspect=Imp	12	comp:aux	_	AlignBegin=130995|AlignEnd=131155|Gloss=IPFV
 15	take	take	VERB	_	_	14	comp:aux	_	AlignBegin=131155|AlignEnd=131460|Gloss=take
@@ -998,13 +998,13 @@
 1	#	#	PUNCT	_	_	17	punct	_	AlignBegin=139800|AlignEnd=142389|Gloss=PUNCT
 2	first	first	ADJ	_	NumType=Ord	17	mod:periph	_	AlignBegin=142389|AlignEnd=142700|ExtPos=ADV|Gloss=first.ORD|PhraseType=Idiom
 3	of	of	ADP	_	_	2	mod	_	AlignBegin=142700|AlignEnd=142880|Gloss=of|InIdiom=Yes
-4	all	all	DET	_	_	3	comp:obj	_	AlignBegin=142880|AlignEnd=143038|Gloss=all|InIdiom=Yes
+4	all	all	PRON	_	_	3	comp:obj	_	AlignBegin=142880|AlignEnd=143038|Gloss=all|InIdiom=Yes
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=143038|AlignEnd=143068|Gloss=PUNCT
 6	#	#	PUNCT	_	_	2	punct	_	AlignBegin=143068|AlignEnd=143268|Gloss=PUNCT
 7	if	if	SCONJ	_	_	17	mod:periph$cond	_	AlignBegin=143268|AlignEnd=143418|Gloss=if
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=143418|AlignEnd=143538|Gloss=NOM.SG.1
 9	want	want	VERB	_	_	7	comp:obj	_	AlignBegin=143538|AlignEnd=143758|Gloss=want
-10	do	do	VERB	_	_	9	comp:pred$desire	_	AlignBegin=143758|AlignEnd=144060|Gloss=do
+10	do	do	VERB	_	_	9	comp:obj$desire	_	AlignBegin=143758|AlignEnd=144060|Gloss=do
 11	like	like	ADP	_	_	13	discourse	_	AlignBegin=144060|AlignEnd=144300|Gloss=like
 12	fifty	fifty	NUM	_	NumType=Card	13	det:num	_	AlignBegin=144300|AlignEnd=144670|Gloss=fifty.CARD
 13	liters	liter	NOUN	_	Number=Plur	10	comp:obj	_	AlignBegin=144670|AlignEnd=145030|Gloss=liter.PL
@@ -1099,7 +1099,7 @@
 2	if	if	SCONJ	_	_	11	mod:periph$cond	_	AlignBegin=157960|AlignEnd=158110|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=158110|AlignEnd=158210|Gloss=NOM.SG.1
 4	buy	buy	VERB	_	_	2	comp:obj	_	AlignBegin=158210|AlignEnd=158380|Gloss=buy
-5	all	all	DET	_	_	7	mod	_	AlignBegin=158380|AlignEnd=158530|Gloss=all
+5	all	all	DET	_	_	7	det	_	AlignBegin=158380|AlignEnd=158530|Gloss=all
 6	dose	dose	DET	_	Number=Plur|PronType=Dem	7	det	_	AlignBegin=158530|AlignEnd=158740|Gloss=PL.DIST.DEM
 7	tings	tings	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=158740|AlignEnd=159013|Gloss=thing.PL
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=159013|AlignEnd=159043|Gloss=PUNCT
@@ -1118,7 +1118,7 @@
 # timestamp = 1610453416827
 1	first	first	ADJ	_	NumType=Ord	6	mod:periph	_	AlignBegin=159872|AlignEnd=160152|ExtPos=ADV|Gloss=first.ORD|PhraseType=Idiom
 2	of	of	ADP	_	_	1	mod	_	AlignBegin=160152|AlignEnd=160332|Gloss=of|InIdiom=Yes
-3	all	all	DET	_	_	2	comp:obj	_	AlignBegin=160332|AlignEnd=160520|Gloss=all|InIdiom=Yes
+3	all	all	PRON	_	_	2	comp:obj	_	AlignBegin=160332|AlignEnd=160520|Gloss=all|InIdiom=Yes
 4	#	#	PUNCT	_	_	1	punct	_	AlignBegin=160520|AlignEnd=160860|Gloss=PUNCT
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=160860|AlignEnd=161020|Gloss=NOM.SG.1
 6	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=161020|AlignEnd=161222|Gloss=PROSP
@@ -1594,7 +1594,7 @@
 9	dat	dat	PRON	_	Number=Sing|PronType=Dem	8	comp:obj	_	AlignBegin=223002|AlignEnd=223220|Gloss=SG.DEM
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=223220|AlignEnd=223250|Gloss=PUNCT
 11	#	#	PUNCT	_	_	3	punct	_	AlignBegin=223250|AlignEnd=223493|Gloss=PUNCT
-12	all	all	DET	_	_	14	mod	_	AlignBegin=223493|AlignEnd=223713|Gloss=all
+12	all	all	DET	_	_	14	det	_	AlignBegin=223493|AlignEnd=223713|Gloss=all
 13	dose	dose	DET	_	Number=Plur|PronType=Dem	14	det	_	AlignBegin=223713|AlignEnd=223895|Gloss=PL.DIST.DEM
 14	tings	tings	NOUN	_	Number=Plur	16	dislocated	_	AlignBegin=223895|AlignEnd=224068|Gloss=thing.PL
 15	<	<	PUNCT	_	_	14	punct	_	AlignBegin=224068|AlignEnd=224098|Gloss=PUNCT
@@ -1655,7 +1655,7 @@
 19	wey	wey	SCONJ	_	_	18	mod@relcl	_	AlignBegin=233685|AlignEnd=233750|Gloss=REL
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	subj	_	AlignBegin=233750|AlignEnd=233930|Gloss=NOM.SG.1
 21	wan	want	VERB	_	_	19	comp:obj	_	AlignBegin=233930|AlignEnd=234080|Gloss=want
-22	make	make	AUX	_	Mood=Opt	21	comp:pred$desire	_	AlignBegin=234080|AlignEnd=234320|Gloss=SBJV
+22	make	make	AUX	_	Mood=Opt	21	comp:obj$desire	_	AlignBegin=234080|AlignEnd=234320|Gloss=SBJV
 23	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	subj	_	AlignBegin=234320|AlignEnd=234410|Gloss=NOM.SG.3
 24	reach	reach	VERB	_	_	22	comp:aux	_	AlignBegin=234410|AlignEnd=234611|Gloss=reach
 25	<	<	PUNCT	_	_	11	punct	_	AlignBegin=234611|AlignEnd=234641|Gloss=PUNCT
@@ -1809,7 +1809,7 @@
 # text_ortho = All of my compound people dem dey buy soap for my hand.
 # timestamp = 1610453416827
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=253281|AlignEnd=253720|Gloss=PUNCT
-2	all	all	DET	_	_	8	dislocated	_	AlignBegin=253720|AlignEnd=253920|Gloss=all
+2	all	all	PRON	_	_	8	dislocated	_	AlignBegin=253720|AlignEnd=253920|Gloss=all
 3	of	of	ADP	_	_	2	udep	_	AlignBegin=253920|AlignEnd=254070|Gloss=of
 4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	6	mod:poss	_	AlignBegin=254070|AlignEnd=254200|Gloss=SG.1.POSS
 5	compound	compound	NOUN	_	_	6	compound	_	AlignBegin=254200|AlignEnd=254610|Gloss=compound

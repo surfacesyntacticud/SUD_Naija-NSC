@@ -29,7 +29,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=4538|AlignEnd=5200|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=5200|AlignEnd=5330|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=5330|AlignEnd=5500|Gloss=want
-4	to	to	ADP	_	_	3	comp:pred$desire	_	AlignBegin=5500|AlignEnd=5710|Gloss=to
+4	to	to	ADP	_	_	3	comp:obj$desire	_	AlignBegin=5500|AlignEnd=5710|Gloss=to
 5	talk	talk	VERB	_	_	4	comp:obj	_	AlignBegin=5710|AlignEnd=5918|Gloss=talk
 6	to	to	ADP	_	_	5	comp:obl	_	AlignBegin=5918|AlignEnd=6140|Gloss=to
 7	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=6140|AlignEnd=6441|Gloss=ACC.PL.2
@@ -477,7 +477,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=77620|AlignEnd=77932|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=77932|AlignEnd=78090|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=78090|AlignEnd=78260|Gloss=want
-4	to	to	ADP	_	_	3	comp:pred$desire	_	AlignBegin=78260|AlignEnd=78410|Gloss=to
+4	to	to	ADP	_	_	3	comp:obj$desire	_	AlignBegin=78260|AlignEnd=78410|Gloss=to
 5	begin	begin	VERB	_	_	4	comp:obj	_	AlignBegin=78410|AlignEnd=78697|Gloss=begin
 6	to	to	ADP	_	_	5	comp:pred	_	AlignBegin=78697|AlignEnd=78856|Gloss=to
 7	do	do	VERB	_	_	6	comp:obj	_	AlignBegin=78856|AlignEnd=78974|Gloss=do
@@ -1563,18 +1563,18 @@
 16	//	//	PUNCT	_	_	12	punct	_	AlignBegin=249110|AlignEnd=249140|Gloss=PUNCT
 
 # user_id = bernard.l.caron
+# timestamp = 1630589070292
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_11_A-Man-Named-Jesus_MG.mp3
 # speaker_id = Sp359
 # text = # and for you to see dat kingdom wey Jesus dey tell Nicodemus < you must take dat word into your heart //
 # text_en = And for you to see the Kingdom Jesus was telling Nicodemus about, you must take that word into your heart.
 # text_ortho = And for you to see dat kingdom wey Jesus dey tell Nicodemus, you must take dat word into your heart.
-# timestamp = 1625305908661
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=249140|AlignEnd=249471|Gloss=PUNCT
 2	and	and	CCONJ	_	_	16	discourse	_	AlignBegin=249471|AlignEnd=249695|Gloss=and
-3	for	for	ADP	_	_	16	mod:periph	_	AlignBegin=249695|AlignEnd=249897|Gloss=for
+3	for	for	ADP	_	_	16	mod:periph$purp	_	AlignBegin=249695|AlignEnd=249897|Gloss=for
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=249897|AlignEnd=250113|Gloss=NOM.2
-5	to	to	ADP	_	_	3	comp:pred	_	AlignBegin=250113|AlignEnd=250275|Gloss=to
+5	to	to	ADP	_	_	3	comp:obl@x	_	AlignBegin=250113|AlignEnd=250275|Gloss=to
 6	see	see	VERB	_	_	5	comp:obj	_	AlignBegin=250275|AlignEnd=250575|Gloss=see
 7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=250575|AlignEnd=250845|Gloss=SG.DEM
 8	kingdom	kingdom	NOUN	_	_	6	comp:obj	_	AlignBegin=250845|AlignEnd=251295|Gloss=kingdom
@@ -2209,7 +2209,7 @@
 # text_en = All the things which the Devil has imposed on your body, all the disgusting things, the light of God will make all of them what?
 # text_ortho = All di ting wey the Devil don put for your body, all di yama, yama, the light of God go make all of them to what?
 # timestamp = 1625303715296
-1	all	all	DET	_	_	3	mod	_	AlignBegin=336343|AlignEnd=336650|Gloss=all
+1	all	all	DET	_	_	3	det	_	AlignBegin=336343|AlignEnd=336650|Gloss=all
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=336650|AlignEnd=336750|Gloss=DEF.ART
 3	ting	ting	NOUN	_	_	26	dislocated	_	AlignBegin=336750|AlignEnd=336889|Gloss=thing
 4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=336889|AlignEnd=337050|Gloss=REL
@@ -2221,7 +2221,7 @@
 10	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	11	mod:poss	_	AlignBegin=338019|AlignEnd=338120|Gloss=PL.2.POSS
 11	body	body	NOUN	_	_	9	comp:obj	_	AlignBegin=338120|AlignEnd=338551|Gloss=body
 12	<	<	PUNCT	_	_	3	punct	_	AlignBegin=338551|AlignEnd=338581|Gloss=PUNCT
-13	all	all	DET	_	_	16	mod	_	AlignBegin=338581|AlignEnd=338770|Gloss=all
+13	all	all	DET	_	_	16	det	_	AlignBegin=338581|AlignEnd=338770|Gloss=all
 14	di	di	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=338770|AlignEnd=338830|Gloss=DEF.ART
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=338830|AlignEnd=338860|Gloss=PUNCT
 16	yama	yama	NOUN	_	_	26	dislocated	_	AlignBegin=338860|AlignEnd=339150|Gloss=unimportant_things
@@ -2236,7 +2236,7 @@
 25	God	God	PROPN	_	_	24	comp:obj	_	AlignBegin=340265|AlignEnd=340435|Gloss=God
 26	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=340435|AlignEnd=340595|Gloss=PROSP
 27	make	make	VERB	_	_	26	comp:aux	_	AlignBegin=340595|AlignEnd=340867|Gloss=make
-28	all	all	DET	_	_	27	comp:obj	_	AlignBegin=340867|AlignEnd=340925|Gloss=all
+28	all	all	PRON	_	_	27	comp:obj	_	AlignBegin=340867|AlignEnd=340925|Gloss=all
 29	of	of	ADP	_	_	28	udep	_	AlignBegin=340925|AlignEnd=341048|Gloss=of
 30	them	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	comp:obj	_	AlignBegin=341048|AlignEnd=341205|Gloss=ACC.PL.3
 31	to	to	ADP	_	_	27	comp:pred	_	AlignBegin=341205|AlignEnd=341405|Gloss=to
