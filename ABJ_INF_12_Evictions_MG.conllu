@@ -143,7 +143,7 @@
 24	[	[	PUNCT	_	_	26	punct	_	AlignBegin=25472|AlignEnd=25502|Gloss=PUNCT
 25	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	subj	_	AlignBegin=25502|AlignEnd=25626|Gloss=NOM.PL.3
 26	want	want	VERB	_	_	23	comp:obj	_	AlignBegin=25626|AlignEnd=25847|Gloss=want
-27	pay	pay	VERB	_	_	26	comp:obj$desire	_	AlignBegin=25847|AlignEnd=26297|Gloss=pay
+27	pay	pay	VERB	_	_	26	comp:obj$desire@x	_	AlignBegin=25847|AlignEnd=26297|Gloss=pay
 28	ehn	ehn	INTJ	_	_	30	discourse	_	AlignBegin=26327|AlignEnd=26627|Gloss=ehn
 29	old	old	ADJ	_	_	30	mod	_	AlignBegin=26657|AlignEnd=26807|Gloss=old
 30	pensioner	pensioner	NOUN	_	_	27	comp:obl	_	AlignBegin=26807|AlignEnd=27337|Gloss=pensioner
@@ -618,7 +618,7 @@
 16	meh	make	AUX	_	Mood=Opt	8	parataxis:conj	_	AlignBegin=92310|AlignEnd=92425|Gloss=SBJV
 17	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	subj	_	AlignBegin=92425|AlignEnd=92565|Gloss=ACC.PL.3
 18	try	try	VERB	_	_	16	comp:aux	_	AlignBegin=92565|AlignEnd=92790|Gloss=try
-19	work	work	VERB	_	_	18	comp:obj$desire	_	AlignBegin=92790|AlignEnd=92979|Gloss=work
+19	work	work	VERB	_	_	18	comp:obj$desire@x	_	AlignBegin=92790|AlignEnd=92979|Gloss=work
 20	out	out	ADP	_	_	19	compound:prt	_	AlignBegin=92979|AlignEnd=93120|Gloss=out
 21	someting	someting	PRON	_	_	19	comp:obj	_	AlignBegin=93120|AlignEnd=93499|Gloss=something
 22	for	for	ADP	_	_	19	comp:obl	_	AlignBegin=93499|AlignEnd=93663|Gloss=for
@@ -709,21 +709,21 @@
 5	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=106033|AlignEnd=106160|Gloss=SBJV
 6	government	government	NOUN	_	_	7	subj	_	AlignBegin=106160|AlignEnd=106507|Gloss=government
 7	try	try	VERB	_	_	5	comp:aux	_	AlignBegin=106507|AlignEnd=106710|Gloss=try
-8	do	do	VERB	_	_	7	comp:obj$desire	_	AlignBegin=106710|AlignEnd=106813|Gloss=do
+8	do	do	VERB	_	_	7	comp:obj$desire@x	_	AlignBegin=106710|AlignEnd=106813|Gloss=do
 9	someting	someting	PRON	_	_	8	comp:obj	_	AlignBegin=106813|AlignEnd=107240|Gloss=something
 10	any	any	DET	_	_	12	det	_	AlignBegin=107240|AlignEnd=107444|Gloss=any
 11	which	which	DET	_	PronType=Int	12	det	_	AlignBegin=107444|AlignEnd=107610|Gloss=which
 12	way	way	NOUN	_	_	8	mod	_	AlignBegin=107610|AlignEnd=107820|Gloss=way
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=107820|AlignEnd=107850|Gloss=PUNCT
 
-# user_id = emmett.strickland
+# user_id = bernard.l.caron
+# timestamp = 1630661923778
 # sent_id = ABJ_INF_12_Evictions_MG__22
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_INF_12_Evictions_MG.mp3
 # speaker_id = Sp29
 # text = # ehn for me sha < # wetin me < I go not like government make do sey # [ make government try small //= make dem create { small |r small } opportunities for people ] //
 # text_en = But for me anyway, what I... I would not like the government to do... the government should try a little... they should create a few opportunities for people.
 # text_ortho = Ehn for me sha, wetin me, I go not like government make do sey make government try small, make dem create small, small opportunities for people.
-# timestamp = 1625733059392
 1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=107850|AlignEnd=113020|Gloss=PUNCT
 2	ehn	ehn	INTJ	_	_	21	discourse	_	AlignBegin=113020|AlignEnd=113330|Gloss=ehn
 3	for	for	ADP	_	_	21	dislocated	_	AlignBegin=113360|AlignEnd=113590|Gloss=for
@@ -739,7 +739,7 @@
 13	not	not	PART	_	Polarity=Neg	14	mod	_	AlignBegin=116160|AlignEnd=116285|Gloss=NEG
 14	like	like	VERB	_	_	12	comp:aux	_	AlignBegin=116285|AlignEnd=116500|Gloss=like
 15	government	government	NOUN	_	_	14	comp:obj	_	AlignBegin=116500|AlignEnd=116831|Gloss=government
-16	make	make	AUX	_	Mood=Jus	14	comp:pred	_	AlignBegin=116831|AlignEnd=116981|Gloss=make
+16	make	make	AUX	_	Mood=Jus	14	comp:obl$attitude@x	_	AlignBegin=116831|AlignEnd=116981|Gloss=make
 17	do	do	VERB	_	_	16	comp:aux	_	AlignBegin=116981|AlignEnd=117083|Gloss=do
 18	sey	sey	SCONJ	_	_	21	discourse	_	AlignBegin=117083|AlignEnd=117567|Gloss=COMP
 19	#	#	PUNCT	_	_	18	punct	_	AlignBegin=117567|AlignEnd=118035|Gloss=PUNCT
@@ -747,7 +747,7 @@
 21	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=118035|AlignEnd=118165|Gloss=SBJV
 22	government	government	NOUN	_	_	23	subj	_	AlignBegin=118165|AlignEnd=118525|Gloss=government
 23	try	try	VERB	_	_	21	comp:aux	_	AlignBegin=118525|AlignEnd=118755|Gloss=try
-24	small	small	ADJ	_	_	23	comp:obj$desire	_	AlignBegin=118755|AlignEnd=119155|Gloss=small
+24	small	small	ADJ	_	_	23	comp:obj$desire@x	_	AlignBegin=118755|AlignEnd=119155|Gloss=small
 25	//=	//=	PUNCT	_	_	26	punct	_	AlignBegin=119155|AlignEnd=119185|Gloss=PUNCT
 26	make	make	AUX	_	Mood=Opt	21	parataxis:conj	_	AlignBegin=119185|AlignEnd=119365|Gloss=SBJV
 27	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	subj	_	AlignBegin=119365|AlignEnd=119505|Gloss=NOM.PL.3
@@ -815,7 +815,7 @@
 10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=126340|AlignEnd=126370|Gloss=PUNCT
 11	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	subj	_	AlignBegin=126370|AlignEnd=126415|Gloss=NOM.SG.3
 12	wan	want	VERB	_	_	9	parataxis:obj	_	AlignBegin=126415|AlignEnd=126538|Gloss=want
-13	enter	enter	VERB	_	_	12	comp:obj$desire	_	AlignBegin=126538|AlignEnd=126780|Gloss=enter
+13	enter	enter	VERB	_	_	12	comp:obj$desire@x	_	AlignBegin=126538|AlignEnd=126780|Gloss=enter
 14	government	government	NOUN	_	_	13	comp:obj	_	AlignBegin=126780|AlignEnd=127315|Gloss=government
 15	]	]	PUNCT	_	_	12	punct	_	AlignBegin=127315|AlignEnd=127345|Gloss=PUNCT
 16	<	<	PUNCT	_	_	6	punct	_	AlignBegin=127315|AlignEnd=127345|Gloss=PUNCT
@@ -959,7 +959,7 @@
 4	government	government	NOUN	_	_	5	subj	_	AlignBegin=145660|AlignEnd=146001|Gloss=government
 5	try	try	VERB	_	_	3	comp:aux	_	AlignBegin=146001|AlignEnd=146508|Gloss=try
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=146508|AlignEnd=146538|Gloss=PUNCT
-7	take	take	VERB	_	_	5	comp:obj$desire	_	AlignBegin=146538|AlignEnd=146881|Gloss=take
+7	take	take	VERB	_	_	5	comp:obj$desire@x	_	AlignBegin=146538|AlignEnd=146881|Gloss=take
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=146881|AlignEnd=146911|Gloss=PUNCT
 9	put	put	VERB	_	_	7	conj:dicto	_	AlignBegin=146911|AlignEnd=147170|Gloss=put
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=147170|AlignEnd=147200|Gloss=PUNCT
@@ -1013,10 +1013,10 @@
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=153700|AlignEnd=153730|Gloss=PUNCT
 6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=153730|AlignEnd=153819|Gloss=NOM.PL.3
 7	wan	want	VERB	_	_	4	parataxis:obj	_	AlignBegin=153819|AlignEnd=153920|Gloss=want
-8	make	make	VERB	_	_	7	comp:obj$desire	_	AlignBegin=153920|AlignEnd=153990|Gloss=make
+8	make	make	VERB	_	_	7	comp:obj$desire@x	_	AlignBegin=153920|AlignEnd=153990|Gloss=make
 9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=153990|AlignEnd=154095|Gloss=DEF.ART
 10	country	country	NOUN	_	_	8	comp:obj	_	AlignBegin=154095|AlignEnd=154440|Gloss=country
-11	fine	fine	ADJ	_	_	8	comp:pred	_	AlignBegin=154440|AlignEnd=154670|Gloss=fine
+11	fine	fine	ADJ	_	_	8	comp:pred@x	_	AlignBegin=154440|AlignEnd=154670|Gloss=fine
 12	meh	make	VERB	_	_	8	conj:dicto	_	AlignBegin=154670|AlignEnd=154829|Gloss=make
 13	better	beta	ADJ	_	Degree=Cmp	12	comp:pred	_	AlignBegin=154829|AlignEnd=155210|ExtPos=VERB|Gloss=good.CMPR
 14	]	]	PUNCT	_	_	7	punct	_	AlignBegin=155210|AlignEnd=155240|Gloss=PUNCT
@@ -1071,7 +1071,7 @@
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=159420|AlignEnd=159450|Gloss=PUNCT
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=159450|AlignEnd=159506|Gloss=NOM.SG.3
 7	wan	want	VERB	_	_	4	parataxis:obj	_	AlignBegin=159506|AlignEnd=159615|Gloss=want
-8	return	return	VERB	_	_	7	comp:obj$desire	_	AlignBegin=159615|AlignEnd=159885|Gloss=return
+8	return	return	VERB	_	_	7	comp:obj$desire@x	_	AlignBegin=159615|AlignEnd=159885|Gloss=return
 9	dis	dis	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=159885|AlignEnd=160075|Gloss=SG.DEM
 10	one	one	NOUN	_	_	8	comp:obj	_	AlignBegin=160075|AlignEnd=160235|Gloss=one
 11	]	]	PUNCT	_	_	7	punct	_	AlignBegin=160235|AlignEnd=160265|Gloss=PUNCT
@@ -1154,7 +1154,7 @@
 # timestamp = 1622816810044
 1	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	AlignBegin=167416|AlignEnd=167475|Gloss=NOM.PL.3
 2	suppose	suppose	VERB	_	_	0	root	_	AlignBegin=167475|AlignEnd=167668|Gloss=suppose
-3	dey	dey	AUX	_	Aspect=Imp	2	comp:pred	_	AlignBegin=167668|AlignEnd=167763|Gloss=IPFV
+3	dey	dey	AUX	_	Aspect=Imp	2	comp:obj@x	_	AlignBegin=167668|AlignEnd=167763|Gloss=IPFV
 4	protect	protect	VERB	_	_	3	comp:aux	_	AlignBegin=167763|AlignEnd=168165|Gloss=protect
 5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=168165|AlignEnd=168271|Gloss=ACC.PL.1
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=168271|AlignEnd=168301|Gloss=PUNCT
@@ -1170,7 +1170,7 @@
 1	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=168301|AlignEnd=168377|Gloss=SBJV
 2	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=168377|AlignEnd=168531|Gloss=ACC.PL.3
 3	try	try	VERB	_	_	1	comp:aux	_	AlignBegin=168531|AlignEnd=168835|Gloss=try
-4	cover	cover	VERB	_	_	3	comp:obj$desire	_	AlignBegin=168835|AlignEnd=169075|Gloss=cover
+4	cover	cover	VERB	_	_	3	comp:obj$desire@x	_	AlignBegin=168835|AlignEnd=169075|Gloss=cover
 5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=169075|AlignEnd=169235|Gloss=ACC.PL.1
 6	up	up	ADP	_	_	3	compound:prt	_	AlignBegin=169235|AlignEnd=169397|Gloss=up
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=169397|AlignEnd=169427|Gloss=PUNCT
@@ -1538,7 +1538,7 @@
 12	[	[	PUNCT	_	_	14	punct	_	AlignBegin=215992|AlignEnd=216022|Gloss=PUNCT
 13	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	subj	_	AlignBegin=216022|AlignEnd=216116|Gloss=NOM.PL.3
 14	wan	want	VERB	_	_	11	comp:obj	_	AlignBegin=216116|AlignEnd=216270|Gloss=want
-15	collect	collect	VERB	_	_	14	comp:obj$desire	_	AlignBegin=216270|AlignEnd=216486|Gloss=collect
+15	collect	collect	VERB	_	_	14	comp:obj$desire@x	_	AlignBegin=216270|AlignEnd=216486|Gloss=collect
 16	names	name	NOUN	_	Number=Plur	15	comp:obj	_	AlignBegin=216486|AlignEnd=216702|Gloss=name.PL
 17	]	]	PUNCT	_	_	14	punct	_	AlignBegin=216702|AlignEnd=216732|Gloss=PUNCT
 18	//	//	PUNCT	_	_	10	punct	_	AlignBegin=216702|AlignEnd=216732|Gloss=PUNCT
@@ -1601,13 +1601,13 @@
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=221721|AlignEnd=221751|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1630575015550
 # sent_id = ABJ_INF_12_Evictions_MG__58
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_INF_12_Evictions_MG.mp3
 # speaker_id = Sp29
 # text = # so di ting be sey [ many of { us |a Nigerians } don suffer to make dis country go where e go ] //
 # text_en = So, the thing is, many of us Nigerians have suffered to bring this country to where it is.
 # text_ortho = So di ting be sey many of us, Nigerians don suffer to make dis country go where e go.
+# timestamp = 1630575015550
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=221751|AlignEnd=222350|Gloss=PUNCT
 2	so	so	ADV	_	_	5	discourse	_	AlignBegin=222350|AlignEnd=222490|Gloss=so
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=222490|AlignEnd=222590|Gloss=DEF.ART
@@ -1780,14 +1780,14 @@
 21	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	AlignBegin=241942|AlignEnd=242149|Gloss=ACC.PL.3
 22	//	//	PUNCT	_	_	14	punct	_	AlignBegin=242149|AlignEnd=242179|Gloss=PUNCT
 
-# user_id = emmett.strickland
+# user_id = bernard.l.caron
+# timestamp = 1630659526654
 # sent_id = ABJ_INF_12_Evictions_MG__64
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_INF_12_Evictions_MG.mp3
 # speaker_id = Sp29
 # text = # like deir # { fees |c and money } wey de suppose to give dem //
 # text_en = Like their fees, and money they are supposed to give them.
 # text_ortho = Like deir fees, and money wey de suppose to give dem.
-# timestamp = 1610453078959
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=242179|AlignEnd=242780|Gloss=PUNCT
 2	like	like	ADP	_	_	6	discourse	_	AlignBegin=242780|AlignEnd=242988|Gloss=like
 3	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	6	mod:poss	_	AlignBegin=242988|AlignEnd=243920|Gloss=PL.3.POSS
@@ -1801,7 +1801,7 @@
 11	wey	wey	SCONJ	_	_	9	mod@relcl	_	AlignBegin=245012|AlignEnd=245093|Gloss=REL
 12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	subj	_	AlignBegin=245093|AlignEnd=245150|Gloss=NOM.PL.3
 13	suppose	suppose	VERB	_	_	11	comp:obj	_	AlignBegin=245150|AlignEnd=245319|Gloss=suppose
-14	to	to	ADP	_	_	13	comp:pred	_	AlignBegin=245319|AlignEnd=245424|Gloss=to
+14	to	to	ADP	_	_	13	comp:obl@x	_	AlignBegin=245319|AlignEnd=245424|Gloss=to
 15	give	give	VERB	_	_	14	comp:obj	_	AlignBegin=245424|AlignEnd=245612|Gloss=give
 16	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	comp:obj	_	AlignBegin=245612|AlignEnd=245900|Gloss=ACC.PL.3
 17	//	//	PUNCT	_	_	6	punct	_	AlignBegin=245900|AlignEnd=245930|Gloss=PUNCT
@@ -1870,7 +1870,7 @@
 11	meh	make	AUX	_	Mood=Opt	9	parataxis:obj	_	AlignBegin=252838|AlignEnd=252945|Gloss=SBJV
 12	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	subj	_	AlignBegin=252945|AlignEnd=253080|Gloss=ACC.PL.3
 13	try	try	VERB	_	_	11	comp:aux	_	AlignBegin=253080|AlignEnd=253275|Gloss=try
-14	do	do	VERB	_	_	13	comp:obj$desire	_	AlignBegin=253275|AlignEnd=253360|Gloss=do
+14	do	do	VERB	_	_	13	comp:obj$desire@x	_	AlignBegin=253275|AlignEnd=253360|Gloss=do
 15	>+	>+	PUNCT	_	_	16	punct	_	AlignBegin=253360|AlignEnd=253390|Gloss=PUNCT
 16	be	be	VERB	_	PartType=Cop	3	comp:cleft	_	AlignBegin=253390|AlignEnd=253505|Gloss=be
 17	dat	dat	PRON	_	Number=Sing|PronType=Dem	16	comp:obj@agent	_	AlignBegin=253505|AlignEnd=253870|Gloss=SG.DEM
@@ -1888,7 +1888,7 @@
 2	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=254050|AlignEnd=254210|Gloss=SBJV
 3	government	government	NOUN	_	_	4	subj	_	AlignBegin=254210|AlignEnd=254480|Gloss=government
 4	try	try	VERB	_	_	2	comp:aux	_	AlignBegin=254480|AlignEnd=254669|Gloss=try
-5	hustle	hustle	VERB	_	_	4	comp:obj$desire	_	AlignBegin=254669|AlignEnd=254934|Gloss=struggle
+5	hustle	hustle	VERB	_	_	4	comp:obj$desire@x	_	AlignBegin=254669|AlignEnd=254934|Gloss=struggle
 6	out	out	ADP	_	_	5	compound:prt	_	AlignBegin=254934|AlignEnd=255074|Gloss=out
 7	small	small	ADJ	_	_	8	mod	_	AlignBegin=255074|AlignEnd=255340|Gloss=small
 8	ting	ting	NOUN	_	_	5	comp:obj	_	AlignBegin=255340|AlignEnd=255644|Gloss=thing
@@ -2213,7 +2213,7 @@
 3	if	if	SCONJ	_	_	14	mod:periph$cond	_	AlignBegin=293580|AlignEnd=293771|Gloss=if
 4	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	subj	_	AlignBegin=293771|AlignEnd=293916|Gloss=NOM.PL.3
 5	wan	want	VERB	_	_	3	comp:obj	_	AlignBegin=293916|AlignEnd=294130|Gloss=want
-6	comot	comot	VERB	_	_	5	comp:obj$desire	_	AlignBegin=294130|AlignEnd=294337|Gloss=get_out
+6	comot	comot	VERB	_	_	5	comp:obj$desire@x	_	AlignBegin=294130|AlignEnd=294337|Gloss=get_out
 7	person	person	NOUN	_	_	6	comp:obj	_	AlignBegin=294337|AlignEnd=294560|Gloss=person
 8	from	from	ADP	_	_	6	comp:obl	_	AlignBegin=294560|AlignEnd=294710|Gloss=from
 9	where	where	ADV	_	PronType=Int	8	comp:obj	_	AlignBegin=294710|AlignEnd=294845|Gloss=where.Q

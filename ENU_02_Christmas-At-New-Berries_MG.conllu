@@ -22,7 +22,7 @@
 # timestamp = 1610453212835
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=2667|AlignEnd=2941|Gloss=NOM.SG.1
 2	want	want	VERB	_	_	0	root	_	AlignBegin=2941|AlignEnd=3193|Gloss=want
-3	talk	talk	VERB	_	_	2	comp:obj$desire	_	AlignBegin=3193|AlignEnd=3388|Gloss=talk
+3	talk	talk	VERB	_	_	2	comp:obj$desire@x	_	AlignBegin=3193|AlignEnd=3388|Gloss=talk
 4	about	about	ADP	_	_	3	comp:obl	_	AlignBegin=3388|AlignEnd=4150|Gloss=about
 5	em	em	INTJ	_	_	13	discourse	_	AlignBegin=4180|AlignEnd=4790|Gloss=em
 6	#	#	PUNCT	_	_	13	punct	_	AlignBegin=4820|AlignEnd=5319|Gloss=PUNCT
@@ -95,7 +95,7 @@
 6	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=14990|AlignEnd=15170|Gloss=IPFV
 7	like	like	VERB	_	_	6	comp:aux	_	AlignBegin=15170|AlignEnd=15570|Gloss=like
 8	#	#	PUNCT	_	_	9	punct	_	AlignBegin=15570|AlignEnd=16035|Gloss=PUNCT
-9	stay	stay	VERB	_	_	7	comp:pred	_	AlignBegin=16035|AlignEnd=16434|Gloss=stay
+9	stay	stay	VERB	_	_	7	comp:obj$attitude@x	_	AlignBegin=16035|AlignEnd=16434|Gloss=stay
 10	for	for	ADP	_	_	9	comp:obl	_	AlignBegin=16434|AlignEnd=16600|Gloss=for
 11	home	home	NOUN	_	_	10	comp:obj	_	AlignBegin=16600|AlignEnd=17002|Gloss=home
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=17002|AlignEnd=17032|Gloss=PUNCT
@@ -487,7 +487,7 @@
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	AlignBegin=64626|AlignEnd=64776|Gloss=NOM.PL.1
 6	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=64776|AlignEnd=65176|Gloss=CONS
 7	begin	begin	VERB	_	_	6	comp:aux	_	AlignBegin=65176|AlignEnd=65503|Gloss=begin
-8	go	go	VERB	_	_	7	comp:pred	_	AlignBegin=65503|AlignEnd=65597|Gloss=go
+8	go	go	VERB	_	_	7	comp:obj$phase@x	_	AlignBegin=65503|AlignEnd=65597|Gloss=go
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=65597|AlignEnd=65627|Gloss=PUNCT
 
 # user_id = emmett.strickland
@@ -835,7 +835,7 @@
 8	plenty	plenty	ADJ	_	_	0	root	_	AlignBegin=107412|AlignEnd=107942|ExtPos=VERB|Gloss=plenty
 9	now	now	ADV	_	_	8	mod:emph	_	AlignBegin=107942|AlignEnd=108218|Gloss=now
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=108248|AlignEnd=108725|Gloss=PUNCT
-11	because	because	SCONJ	_	_	8	mod	_	AlignBegin=108725|AlignEnd=109057|ExtPos=SCONJ|Gloss=because|PhraseType=Idiom
+11	because	because	SCONJ	_	_	8	mod$reason	_	AlignBegin=108725|AlignEnd=109057|ExtPos=SCONJ|Gloss=because|PhraseType=Idiom
 12	sey	sey	SCONJ	_	_	11	comp:obj	_	AlignBegin=109057|AlignEnd=109347|Gloss=COMP|InIdiom=Yes
 13	na	na	PART	_	PartType=Cop	11	comp:obj	_	AlignBegin=109377|AlignEnd=110097|Gloss=be
 14	Christmas	Christmas	PROPN	_	_	13	comp:pred	_	AlignBegin=110097|AlignEnd=110780|Gloss=Christmas
@@ -1086,13 +1086,13 @@
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=147952|AlignEnd=147982|Gloss=PUNCT
 
 # user_id = bernard.l.caron
+# timestamp = 1630832622664
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_02_Christmas-At-New-Berries_MG.mp3
 # speaker_id = Sp72
 # text = # de con say [ de want do video chatting for # road ] //
 # text_en = Then they said they wanted to do a video chat on the road.
 # text_ortho = De con say de want do video chatting for road.
-# timestamp = 1623839716563
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=147982|AlignEnd=148645|Gloss=PUNCT
 2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=148645|AlignEnd=148824|Gloss=NOM.PL.3
 3	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=148824|AlignEnd=149091|Gloss=CONS
@@ -1100,9 +1100,9 @@
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=149244|AlignEnd=149274|Gloss=PUNCT
 6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=149274|AlignEnd=149456|Gloss=NOM.PL.3
 7	want	want	VERB	_	_	4	parataxis:obj	_	AlignBegin=149456|AlignEnd=149787|Gloss=want
-8	do	do	VERB	_	_	7	comp:obj$desire	_	AlignBegin=149787|AlignEnd=150344|Gloss=do
+8	do	do	VERB	_	_	7	comp:obj$desire@x	_	AlignBegin=149787|AlignEnd=150344|Gloss=do
 9	video	video	NOUN	_	_	10	compound	_	AlignBegin=150344|AlignEnd=150975|Gloss=video
-10	chatting	chat	VERB	_	Tense=Past|VerbForm=Part	8	comp:obj@lvc	_	AlignBegin=150975|AlignEnd=151539|Gloss=chat.PST.PTCP
+10	chatting	chat	VERB	_	Tense=Past|VerbForm=Part	8	comp:obj	_	AlignBegin=150975|AlignEnd=151539|Gloss=chat.PST.PTCP
 11	for	for	ADP	_	_	8	mod	_	AlignBegin=151539|AlignEnd=152436|Gloss=for
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=152436|AlignEnd=153012|Gloss=PUNCT
 13	road	road	NOUN	_	_	11	comp:obj	_	AlignBegin=153012|AlignEnd=153460|Gloss=road
@@ -1236,7 +1236,7 @@
 18	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	subj	_	AlignBegin=171999|AlignEnd=172119|Gloss=NOM.PL.1
 19	con	con	AUX	_	Aspect=Cons	14	conj:coord	_	AlignBegin=172119|AlignEnd=172322|Gloss=CONS
 20	begin	begin	VERB	_	_	19	comp:aux	_	AlignBegin=172322|AlignEnd=172690|Gloss=begin
-21	go	go	VERB	_	_	20	comp:pred	_	AlignBegin=172690|AlignEnd=173005|Gloss=go
+21	go	go	VERB	_	_	20	comp:obj$phase@x	_	AlignBegin=172690|AlignEnd=173005|Gloss=go
 22	home	home	NOUN	_	_	21	comp:obl	_	AlignBegin=173005|AlignEnd=173257|Gloss=home
 23	}	}	PUNCT	_	_	14	punct	_	AlignBegin=173257|AlignEnd=173287|Gloss=PUNCT
 24	//	//	PUNCT	_	_	2	punct	_	AlignBegin=173257|AlignEnd=173287|Gloss=PUNCT
@@ -1258,7 +1258,7 @@
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=175492|AlignEnd=175522|Gloss=PUNCT
 8	con	con	AUX	_	Aspect=Cons	3	parataxis:conj	_	AlignBegin=175522|AlignEnd=175712|Gloss=CONS
 9	begin	begin	VERB	_	_	8	comp:aux	_	AlignBegin=175712|AlignEnd=176032|Gloss=begin
-10	do	do	VERB	_	_	9	comp:pred	_	AlignBegin=176032|AlignEnd=176150|Gloss=do
+10	do	do	VERB	_	_	9	comp:obj$phase@x	_	AlignBegin=176032|AlignEnd=176150|Gloss=do
 11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=176150|AlignEnd=176319|Gloss=DEF.ART
 12	tin	ting	NOUN	_	_	10	comp:obj	_	AlignBegin=176319|AlignEnd=176450|Gloss=thing
 13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=176450|AlignEnd=176480|Gloss=PUNCT
