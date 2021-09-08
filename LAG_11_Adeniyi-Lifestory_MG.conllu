@@ -340,7 +340,7 @@
 5	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=66740|AlignEnd=66919|Gloss=PROSP
 6	help	help	VERB	_	_	5	comp:aux	_	AlignBegin=66919|AlignEnd=67160|Gloss=help
 7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=67160|AlignEnd=67307|Gloss=ACC.SG.1
-8	take	take	VERB	_	_	6	comp:pred	_	AlignBegin=67307|AlignEnd=67680|Gloss=take
+8	take	take	VERB	_	_	6	comp:obl@x	_	AlignBegin=67307|AlignEnd=67680|Gloss=take
 9	improve	improve	VERB	_	_	8	compound:svc	_	AlignBegin=67680|AlignEnd=68080|Gloss=improve
 10	myself	mysef	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	comp:obj	_	AlignBegin=68080|AlignEnd=68530|Gloss=ACC.SG.1.REFL
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=68530|AlignEnd=68560|Gloss=PUNCT
@@ -492,29 +492,29 @@
 34	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=89483|AlignEnd=89600|Gloss=PUNCT
 
 # user_id = bernard.l.caron
+# timestamp = 1630941097938
 # sent_id = LAG_11_Adeniyi-Lifestory_MG__19
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_11_Adeniyi-Lifestory_MG.mp3
 # speaker_id = Sp225
 # text = # dat's m~ eh as in be sey [ my result say [ di ting never dey kajad as e suppose be ] ] //
 # text_en = That's m-... uh... I mean, my result happened to show that I was not up to the standard I should have been.
 # text_ortho = Dat'S m-... eh as in be sey my result say di ting never dey kajad as e suppose be.
-# timestamp = 1625998688677
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=89600|AlignEnd=90060|Gloss=PUNCT
-2	dat's	dat's	PART	_	PartType=Cop	0	root	_	AlignBegin=90060|AlignEnd=90390|Gloss=be
+2	dat's	na	PART	_	PartType=Cop	0	root	_	AlignBegin=90060|AlignEnd=90390|Gloss=be
 3	m~	X	X	_	_	2	unk@scrap	_	AlignBegin=90390|AlignEnd=90500|Gloss=X
-4	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=90500|AlignEnd=90759|Gloss=eh
-5	as	as	ADP	_	_	7	discourse	_	AlignBegin=90759|AlignEnd=91050|ExtPos=ADP|Gloss=as|PhraseType=Idiom
+4	eh	eh	INTJ	_	_	12	discourse	_	AlignBegin=90500|AlignEnd=90759|Gloss=eh
+5	as	as	ADP	_	_	12	discourse	_	AlignBegin=90759|AlignEnd=91050|ExtPos=ADP|Gloss=as|PhraseType=Idiom
 6	in	in	ADP	_	_	5	comp:obj	_	AlignBegin=91050|AlignEnd=91186|Gloss=in|InIdiom=Yes
-7	be	be	VERB	_	PartType=Cop	2	comp:pred	_	AlignBegin=91186|AlignEnd=91357|Gloss=be
-8	sey	sey	SCONJ	_	_	7	comp:pred	_	AlignBegin=91357|AlignEnd=91480|Gloss=COMP
-9	[	[	PUNCT	_	_	12	punct	_	AlignBegin=91480|AlignEnd=91510|Gloss=PUNCT
+7	be	be	VERB	_	PartType=Cop	5	comp:obj	_	AlignBegin=91186|AlignEnd=91357|Gloss=be|InIdiom=Yes
+8	sey	sey	SCONJ	_	_	7	comp:pred	_	AlignBegin=91357|AlignEnd=91480|Gloss=COMP|InIdiom=Yes
+9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=91480|AlignEnd=91510|Gloss=PUNCT
 10	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	11	mod:poss	_	AlignBegin=91510|AlignEnd=91696|Gloss=SG.1.POSS
 11	result	result	NOUN	_	_	12	subj	_	AlignBegin=91696|AlignEnd=92070|Gloss=result
-12	say	say	VERB	_	_	8	comp:obj	_	AlignBegin=92070|AlignEnd=92300|Gloss=say
+12	say	say	VERB	_	_	2	conj:dicto	_	AlignBegin=92070|AlignEnd=92300|Gloss=say
 13	[	[	PUNCT	_	_	16	punct	_	AlignBegin=92300|AlignEnd=92330|Gloss=PUNCT
 14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=92330|AlignEnd=92432|Gloss=DEF.ART
 15	ting	ting	NOUN	_	_	16	subj	_	AlignBegin=92432|AlignEnd=92590|Gloss=thing
-16	never	never	AUX	_	Aspect=Perf|Polarity=Neg	12	comp:obj	_	AlignBegin=92590|AlignEnd=93114|Gloss=PRF.NEG
+16	never	never	AUX	_	Aspect=Perf|Polarity=Neg	12	parataxis:obj	_	AlignBegin=92590|AlignEnd=93114|Gloss=PRF.NEG
 17	dey	dey	AUX	_	Aspect=Perf	16	comp:aux	_	AlignBegin=93114|AlignEnd=93500|Gloss=IPFV
 18	kajad	kajad	VERB	_	_	17	comp:pred	_	AlignBegin=93500|AlignEnd=93882|Gloss=turn_out
 19	as	as	ADP	_	_	18	mod$manner	_	AlignBegin=93882|AlignEnd=94059|Gloss=as
@@ -522,8 +522,7 @@
 21	suppose	suppose	VERB	_	_	19	comp:obj	_	AlignBegin=94334|AlignEnd=94770|Gloss=suppose
 22	be	be	VERB	_	PartType=Cop	21	comp:obj@x	_	AlignBegin=94770|AlignEnd=94930|Gloss=be
 23	]	]	PUNCT	_	_	16	punct	_	AlignBegin=94930|AlignEnd=94960|Gloss=PUNCT
-24	]	]	PUNCT	_	_	12	punct	_	AlignBegin=94930|AlignEnd=94960|Gloss=PUNCT
-25	//	//	PUNCT	_	_	2	punct	_	AlignBegin=94930|AlignEnd=94960|Gloss=PUNCT
+24	//	//	PUNCT	_	_	2	punct	_	AlignBegin=94930|AlignEnd=94960|Gloss=PUNCT
 
 # user_id = emmett.strickland
 # sent_id = LAG_11_Adeniyi-Lifestory_MG__20
@@ -2147,13 +2146,13 @@
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=337250|AlignEnd=337280|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1630673551756
 # sent_id = LAG_11_Adeniyi-Lifestory_MG__84
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_11_Adeniyi-Lifestory_MG.mp3
 # speaker_id = Sp225
 # text = # sey { im wan || # im want } make sure sey # [ dis one wey I dey do |c # { di highest || di || di } level } wey person wey do dis course dey dey < you go reach am ] |c # and im no dey leave my neck //
 # text_en = Said he wanted... he wanted to make sure that this profession I'm in, the highest... the, the level which anyone who is into this course reaches, reaches, you will also get there and he will not let me rest.
 # text_ortho = Sey im wan, im want make sure sey dis one wey I dey do, di highest, di, di level wey person wey do dis course dey dey, you go reach am, and im no dey leave my neck.
+# timestamp = 1630673551756
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=337280|AlignEnd=338080|Gloss=PUNCT
 2	sey	sey	SCONJ	_	_	5	discourse	_	AlignBegin=338080|AlignEnd=338170|Gloss=COMP
 3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=338170|AlignEnd=338200|Gloss=PUNCT
@@ -2479,7 +2478,7 @@
 13	#	#	PUNCT	_	_	14	punct	_	AlignBegin=383780|AlignEnd=384260|Gloss=PUNCT
 14	wey	wey	SCONJ	_	_	12	mod@relcl	_	AlignBegin=384260|AlignEnd=384410|Gloss=REL
 15	all	all	PRON	_	_	18	subj	_	AlignBegin=384410|AlignEnd=384550|Gloss=all
-16	of	of	ADP	_	_	15	udep	_	AlignBegin=384550|AlignEnd=384730|Gloss=of
+16	of	of	ADP	_	_	15	mod	_	AlignBegin=384550|AlignEnd=384730|Gloss=of
 17	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	16	comp:obj	_	AlignBegin=384730|AlignEnd=384910|Gloss=NOM.PL.2
 18	dey	dey	VERB	_	VerbType=Cop	14	comp:obj	_	AlignBegin=384910|AlignEnd=385090|Gloss=be
 19	inside	inside	ADP	_	_	18	comp:pred	_	AlignBegin=385090|AlignEnd=385397|Gloss=inside
@@ -2601,14 +2600,14 @@
 5	money	money	NOUN	_	_	4	comp:obj	_	AlignBegin=402440|AlignEnd=402916|Gloss=money
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=402916|AlignEnd=402946|Gloss=PUNCT
 
-# user_id = emmett.strickland
+# user_id = bernard.l.caron
+# timestamp = 1630944010325
 # sent_id = LAG_11_Adeniyi-Lifestory_MG__99
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_11_Adeniyi-Lifestory_MG.mp3
 # speaker_id = Sp225
 # text = I even go meet my oga say [ oga < abeg < borrow me some money make I take start dis tin !//] //
 # text_en = I even met with my boss saying, "boss, please lend me some money so I can start this thing!"
 # text_ortho = I even go meet my oga say oga, abeg, borrow me some money make I take start dis tin!
-# timestamp = 1610453415419
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=402946|AlignEnd=403304|Gloss=NOM.SG.1
 2	even	even	ADV	_	_	3	mod	_	AlignBegin=403304|AlignEnd=403380|Gloss=even
 3	go	go	VERB	_	_	0	root	_	AlignBegin=403380|AlignEnd=403510|Gloss=go
@@ -2621,7 +2620,7 @@
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=404440|AlignEnd=404470|Gloss=PUNCT
 11	abeg	abeg	INTJ	_	_	13	discourse	_	AlignBegin=404470|AlignEnd=404830|Gloss=please
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=404830|AlignEnd=404860|Gloss=PUNCT
-13	borrow	borrow	VERB	_	_	7	comp:pred	_	AlignBegin=404860|AlignEnd=405110|Gloss=borrow
+13	borrow	borrow	VERB	_	_	7	parataxis:obj	_	AlignBegin=404860|AlignEnd=405110|Gloss=borrow
 14	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	comp:obl	_	AlignBegin=405110|AlignEnd=405210|Gloss=ACC.SG.1
 15	some	some	DET	_	_	16	det	_	AlignBegin=405210|AlignEnd=405400|Gloss=some
 16	money	money	NOUN	_	_	13	comp:obj	_	AlignBegin=405400|AlignEnd=405610|Gloss=money
@@ -2755,14 +2754,14 @@
 24	]	]	PUNCT	_	_	9	punct	_	AlignBegin=422537|AlignEnd=422567|Gloss=PUNCT
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=422537|AlignEnd=422567|Gloss=PUNCT
 
-# user_id = emmett.strickland
+# user_id = bernard.l.caron
+# timestamp = 1630944050692
 # sent_id = LAG_11_Adeniyi-Lifestory_MG__104
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_11_Adeniyi-Lifestory_MG.mp3
 # speaker_id = Sp225
 # text = naim I come look say [ # ehe for me < to dey wait for eight month < why not kukuma # start dis eh ICAN ?//] //
 # text_en = So I figured instead of waiting for eight months, why don't I just start the uh... ICAN?
 # text_ortho = Naim I come look say ehe for me, to dey wait for eight month, why not kukuma start dis eh ICAN?
-# timestamp = 1610453415419
 1	naim	naim	ADV	_	_	3	mod:periph	_	AlignBegin=422567|AlignEnd=422727|Gloss=then
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=422727|AlignEnd=422780|Gloss=NOM.SG.1
 3	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=422780|AlignEnd=422906|Gloss=CONS
@@ -2785,7 +2784,7 @@
 20	not	not	PART	_	Polarity=Neg	23	mod	_	AlignBegin=425791|AlignEnd=425970|Gloss=NEG
 21	kukuma	kukuma	ADV	_	_	23	mod	_	AlignBegin=425970|AlignEnd=426527|Gloss=really
 22	#	#	PUNCT	_	_	21	punct	_	AlignBegin=426527|AlignEnd=426747|Gloss=PUNCT
-23	start	start	VERB	_	_	5	comp:pred	_	AlignBegin=426747|AlignEnd=427177|Gloss=start
+23	start	start	VERB	_	_	5	parataxis:obj	_	AlignBegin=426747|AlignEnd=427177|Gloss=start
 24	dis	dis	DET	_	Number=Sing|PronType=Dem	26	det	_	AlignBegin=427177|AlignEnd=427457|Gloss=SG.DEM
 25	eh	eh	INTJ	_	_	24	discourse	_	AlignBegin=427457|AlignEnd=427705|Gloss=eh
 26	ICAN	ICAN	PROPN	_	_	23	comp:obj	_	AlignBegin=427705|AlignEnd=428081|Gloss=ICAN
@@ -3019,13 +3018,13 @@
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=453750|AlignEnd=453780|Gloss=PUNCT
 
 # user_id = bernard.l.caron
-# timestamp = 1630659441974
 # sent_id = LAG_11_Adeniyi-Lifestory_MG__115
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_11_Adeniyi-Lifestory_MG.mp3
 # speaker_id = Sp225
 # text = # so from dere < me too believe sey [ mtschew # dis job wey I dey do no be di job wey I suppose to dey do ] //
 # text_en = So from that point, I also believed that mstchew... this job I'm doing isn't what I'm meant to be doing.
 # text_ortho = So from dere, me too believe sey mtschew dis job wey I dey do no be di job wey I suppose to dey do.
+# timestamp = 1630659441974
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=453780|AlignEnd=454220|Gloss=PUNCT
 2	so	so	ADV	_	_	8	discourse	_	AlignBegin=454220|AlignEnd=454530|Gloss=so
 3	from	from	ADP	_	_	8	mod:periph	_	AlignBegin=454530|AlignEnd=454730|Gloss=from
@@ -3468,19 +3467,19 @@
 12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=504716|AlignEnd=504746|Gloss=PUNCT
 
 # user_id = bernard.l.caron
+# timestamp = 1630947826801
 # sent_id = LAG_11_Adeniyi-Lifestory_MG__133
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_11_Adeniyi-Lifestory_MG.mp3
 # speaker_id = Sp225
 # text = # I come tink am say [ ah # even { if I no || if || if } no be my turn for dis first time < # I fit beg person wey be first time //] //
 # text_en = I figured that uh... even if I don't... if, if it's not my turn the first month, I can beg the person who is to collect the first one.
 # text_ortho = I come tink am say ah even if I no, if, if no be my turn for dis first time, I fit beg person wey be first time.
-# timestamp = 1623529935882
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=503060|AlignEnd=505000|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=505102|AlignEnd=505172|Gloss=NOM.SG.1
 3	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=505172|AlignEnd=505322|Gloss=CONS
 4	tink	tink	VERB	_	_	3	comp:aux	_	AlignBegin=505322|AlignEnd=505592|Gloss=think
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=505592|AlignEnd=505719|Gloss=ACC.SG.3
-6	say	say	VERB	_	_	4	compound:svc	_	AlignBegin=505719|AlignEnd=505922|Gloss=say
+6	sey	sey	SCONJ	_	_	4	comp:obl	_	AlignBegin=505719|AlignEnd=505922|Gloss=sey
 7	[	[	PUNCT	_	_	31	punct	_	AlignBegin=505922|AlignEnd=506020|Gloss=PUNCT
 8	ah	ah	INTJ	_	_	31	discourse	_	AlignBegin=506020|AlignEnd=506091|Gloss=ah
 9	#	#	PUNCT	_	_	8	punct	_	AlignBegin=506020|AlignEnd=506540|Gloss=PUNCT
@@ -3584,7 +3583,7 @@
 4	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=515600|AlignEnd=515690|Gloss=PROSP
 5	help	help	VERB	_	_	4	comp:aux	_	AlignBegin=515690|AlignEnd=515850|Gloss=help
 6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=515850|AlignEnd=515979|Gloss=ACC.SG.1
-7	start	start	VERB	_	_	5	comp:pred	_	AlignBegin=515979|AlignEnd=516420|Gloss=start
+7	start	start	VERB	_	_	5	comp:obl@x	_	AlignBegin=515979|AlignEnd=516420|Gloss=start
 8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=516420|AlignEnd=516522|Gloss=DEF.ART
 9	ICAN	ICAN	PROPN	_	_	7	comp:obj	_	AlignBegin=516522|AlignEnd=516931|Gloss=ICAN
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=516931|AlignEnd=517010|Gloss=PUNCT
@@ -3732,7 +3731,7 @@
 8	naim	naim	ADV	_	_	13	mod:periph	_	AlignBegin=532610|AlignEnd=532701|Gloss=then
 9	{	{	PUNCT	_	_	13	punct	_	AlignBegin=532701|AlignEnd=532731|Gloss=PUNCT
 10	all	all	PRON	_	_	13	subj	_	AlignBegin=532731|AlignEnd=532930|Gloss=all
-11	of	of	ADP	_	_	10	udep	_	AlignBegin=532930|AlignEnd=532990|Gloss=of
+11	of	of	ADP	_	_	10	mod	_	AlignBegin=532930|AlignEnd=532990|Gloss=of
 12	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=532990|AlignEnd=533118|Gloss=ACC.PL.3
 13	come	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=533118|AlignEnd=533280|Gloss=CONS
 14	talk	talk	VERB	_	_	13	comp:aux	_	AlignBegin=533280|AlignEnd=533510|Gloss=talk
@@ -3830,7 +3829,7 @@
 3	after	after	ADP	_	_	12	mod:periph	_	AlignBegin=545095|AlignEnd=545390|Gloss=after
 4	wey	when	SCONJ	_	_	3	comp:obj	_	AlignBegin=545390|AlignEnd=545500|Gloss=when
 5	all	all	PRON	_	_	8	subj	_	AlignBegin=545500|AlignEnd=545588|Gloss=all
-6	of	of	ADP	_	_	5	udep	_	AlignBegin=545588|AlignEnd=545720|Gloss=of
+6	of	of	ADP	_	_	5	mod	_	AlignBegin=545588|AlignEnd=545720|Gloss=of
 7	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=545720|AlignEnd=545897|Gloss=ACC.PL.1
 8	don	don	AUX	_	Aspect=Perf	4	comp:obj	_	AlignBegin=545897|AlignEnd=546030|Gloss=PRF
 9	pick	pick	VERB	_	_	8	comp:aux	_	AlignBegin=546030|AlignEnd=546230|Gloss=pick
