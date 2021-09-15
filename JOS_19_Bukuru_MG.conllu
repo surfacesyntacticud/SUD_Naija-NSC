@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = JOS_19_Bukuru_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_19_Bukuru_MG.mp3
 # speaker_id = Sp136
@@ -535,7 +536,7 @@
 3	fit	fit	AUX	_	Mood=Pot	0	root	_	AlignBegin=88520|AlignEnd=88662|Gloss=ABIL
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=88662|AlignEnd=88692|Gloss=PUNCT
 5	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=88692|AlignEnd=88920|Gloss=go
-6	dere	dere	ADV	_	_	5	comp:obj	_	AlignBegin=88920|AlignEnd=89122|Gloss=there
+6	dere	dere	ADV	_	_	5	comp:obl	_	AlignBegin=88920|AlignEnd=89122|Gloss=there
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=89122|AlignEnd=89152|Gloss=PUNCT
 8	go	go	VERB	_	_	5	conj:coord	_	AlignBegin=89152|AlignEnd=89375|Gloss=go
 9	buy	buy	VERB	_	_	8	compound:svc$purp	_	AlignBegin=89375|AlignEnd=89801|Gloss=buy
@@ -858,7 +859,7 @@
 36	help	help	VERB	_	_	35	comp:aux	_	AlignBegin=143990|AlignEnd=144218|Gloss=help
 37	di	di	DET	_	Definite=Def|PronType=Art	38	det	_	AlignBegin=144218|AlignEnd=144470|Gloss=DEF.ART
 38	belle	belle	NOUN	_	_	36	comp:obj	_	AlignBegin=144470|AlignEnd=144792|Gloss=belly
-39	make	make	AUX	_	Mood=Opt	36	comp:obl@x	_	AlignBegin=144792|AlignEnd=144900|Gloss=SBJV
+39	make	make	SCONJ	_	_	36	comp:obl@x	_	AlignBegin=144792|AlignEnd=144900|Gloss=COMP
 40	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	41	subj	_	AlignBegin=144900|AlignEnd=145031|Gloss=NOM.SG.3
 41	go	go	VERB	_	_	39	comp:aux	_	AlignBegin=145031|AlignEnd=145270|Gloss=go
 42	inside	inside	ADP	_	_	41	comp:obl	_	AlignBegin=145270|AlignEnd=145740|Gloss=inside
@@ -1097,7 +1098,7 @@
 16	#	#	PUNCT	_	_	18	punct	_	AlignBegin=179960|AlignEnd=180600|Gloss=PUNCT
 17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	subj	_	AlignBegin=180600|AlignEnd=180690|Gloss=NOM.2
 18	go	go	VERB	_	_	0	root	_	AlignBegin=180690|AlignEnd=180852|Gloss=go
-19	Katako	Katako	PROPN	_	_	18	comp:obj	_	AlignBegin=180852|AlignEnd=181474|Gloss=Katako
+19	Katako	Katako	PROPN	_	_	18	comp:obl	_	AlignBegin=180852|AlignEnd=181474|Gloss=Katako
 20	go	go	VERB	_	_	18	compound:svc$purp	_	AlignBegin=181474|AlignEnd=181720|Gloss=go
 21	buy	buy	VERB	_	_	20	compound:svc$purp	_	AlignBegin=181720|AlignEnd=182027|Gloss=buy
 22	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	23	mod:poss	_	AlignBegin=182027|AlignEnd=182191|Gloss=PL.2.POSS
@@ -1731,9 +1732,9 @@
 # speaker_id = Sp136
 # text = e get one wey we dey use # ehm dis thing # do am < tiger nut //
 # text_en = There's one for which we use, (uh... this thing), to do it, tiger nuts.
-# text_ortho = E get one wey we dey use (ehm dis thing do am), tiger nut.
-# timestamp = 1622907471684
-# user_id = bernard.l.caron
+# text_ortho = E get one wey we dey use ehm dis thing do am, tiger nut.
+# timestamp = 1631708470482
+# user_id = emmett.strickland
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	AlignBegin=277799|AlignEnd=277882|Gloss=NOM.SG.3
 2	get	get	VERB	_	_	0	root	_	AlignBegin=277882|AlignEnd=278054|Gloss=get
 3	one	one	NOUN	_	_	2	comp:obj@agent	_	AlignBegin=278054|AlignEnd=278246|Gloss=one
@@ -1744,13 +1745,13 @@
 8	#	#	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 9	ehm	ehm	INTJ	_	_	11	discourse	_	AlignBegin=279260|AlignEnd=279670|Gloss=ehm
 10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=279670|AlignEnd=279921|Gloss=SG.DEM
-11	thing	ting	NOUN	_	_	7	comp:obj	_	AlignBegin=279921|AlignEnd=280160|Gloss=thing
+11	thing	ting	NOUN	_	_	7	discourse:parenth	_	AlignBegin=279921|AlignEnd=280160|Gloss=thing
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=280190|AlignEnd=280380|Gloss=PUNCT
 13	do	do	VERB	_	_	7	compound:svc	_	AlignBegin=280380|AlignEnd=280533|Gloss=do
 14	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=280533|AlignEnd=280780|Gloss=ACC.SG.3
-15	<	<	PUNCT	_	_	17	punct	_	AlignBegin=280533|AlignEnd=280780|Gloss=PUNCT
+15	>	>	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 16	tiger	tiger	NOUN	_	_	17	compound	_	AlignBegin=280780|AlignEnd=281210|Gloss=tiger
-17	nut	nut	NOUN	_	_	2	parataxis:discourse	_	AlignBegin=281210|AlignEnd=281490|Gloss=nut
+17	nut	nut	NOUN	_	_	2	dislocated	_	AlignBegin=281210|AlignEnd=281490|Gloss=nut
 18	//	//	PUNCT	_	_	2	punct	_	AlignBegin=281490|AlignEnd=281520|Gloss=PUNCT
 
 # sent_id = JOS_19_Bukuru_MG__84

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = IBA_04_Alaska-Pepe_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_04_Alaska-Pepe_MG.mp3
 # speaker_id = Sp363
@@ -1527,7 +1528,7 @@
 2	carry	carry	VERB	_	_	0	root	_	AlignBegin=236264|AlignEnd=236484|Gloss=carry
 3	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=236484|AlignEnd=236604|Gloss=ACC.SG.3
 4	go	go	VERB	_	_	2	compound:svc	_	AlignBegin=236604|AlignEnd=236694|Gloss=go
-5	everywhere	everywhere	ADV	_	_	4	comp:obj	_	AlignBegin=236694|AlignEnd=237187|Gloss=everywhere
+5	everywhere	everywhere	ADV	_	_	4	comp:obl	_	AlignBegin=236694|AlignEnd=237187|Gloss=everywhere
 6	o	o	PART	_	PartType=Disc	2	mod:emph	_	AlignBegin=237187|AlignEnd=237334|Gloss=EMPH
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=237334|AlignEnd=237364|Gloss=PUNCT
 
@@ -1657,7 +1658,7 @@
 # speaker_id = Sp363
 # text = # all di elders < con tell dem sey # [ una see wetin # our people dey complain # sey market no dey let de go again //] //
 # text_en = All the elders, then he told them, you see what our people are complaining about. The market is a place where they can't go anymore.
-# text_ortho = All di elders, con tell dem sey, una see wetin our people dey complain sey market no dey let de go again.
+# text_ortho = All di elders, con tell dem sey una see wetin our people dey complain sey market no dey let de go again.
 # timestamp = 1616513056421
 # user_id = emmett.strickland
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=253480|AlignEnd=253820|Gloss=PUNCT
@@ -1686,7 +1687,7 @@
 24	dey	dey	AUX	_	Aspect=Imp	23	comp:aux	_	AlignBegin=259901|AlignEnd=259991|Gloss=IPFV
 25	let	let	VERB	_	_	24	comp:aux	_	AlignBegin=259991|AlignEnd=260141|Gloss=let
 26	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	comp:obj	_	AlignBegin=260141|AlignEnd=260311|Gloss=NOM.PL.3
-27	go	go	VERB	_	_	25	comp:obl@x	_	AlignBegin=260311|AlignEnd=260451|Gloss=go
+27	go	go	VERB	_	_	25	comp:obl$modal@x	_	AlignBegin=260311|AlignEnd=260451|Gloss=go
 28	again	again	ADV	_	_	27	mod	_	AlignBegin=260451|AlignEnd=260775|Gloss=again
 29	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=260775|AlignEnd=260805|Gloss=PUNCT
 30	//	//	PUNCT	_	_	6	punct	_	AlignBegin=260775|AlignEnd=260805|Gloss=PUNCT
@@ -1696,7 +1697,7 @@
 # speaker_id = Sp363
 # text = # because e con be like sey [ because di ting con dey happen { well |r well } # < de no con dey go market { X || like } de dey go market before ] //
 # text_en = Because now it's like... because the thing is happening very often, they are not going to the market, they... like they used to.
-# text_ortho = Because e con be like sey because di ting con dey happen well, well, de no con dey go market de, like de dey go market before.
+# text_ortho = Because e con be like sey because di ting con dey happen well, well, de no con dey go market X, like de dey go market before.
 # timestamp = 1626597464704
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=260805|AlignEnd=261200|Gloss=PUNCT
@@ -1923,7 +1924,7 @@
 5	dey	dey	AUX	_	Aspect=Imp	4	comp:aux	_	AlignBegin=287895|AlignEnd=288005|Gloss=IPFV
 6	wait	wait	VERB	_	_	5	comp:aux	_	AlignBegin=288005|AlignEnd=288342|Gloss=wait
 7	#	#	PUNCT	_	_	8	punct	_	AlignBegin=288342|AlignEnd=288740|Gloss=PUNCT
-8	make	make	AUX	_	Mood=Opt	6	comp:obj	_	AlignBegin=288740|AlignEnd=288890|Gloss=SBJV
+8	make	make	SCONJ	_	_	6	comp:obj	_	AlignBegin=288740|AlignEnd=288890|Gloss=COMP
 9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=288890|AlignEnd=288980|Gloss=DEF.ART
 10	animal	animal	NOUN	_	_	11	subj	_	AlignBegin=288980|AlignEnd=289310|Gloss=animal
 11	come	come	VERB	_	_	8	comp:aux	_	AlignBegin=289310|AlignEnd=289527|Gloss=come
@@ -3441,7 +3442,7 @@
 # speaker_id = Sp363
 # text = # as im con reach one place # ( wey be sey because anytime wey de dey look for am when e don do someting bad < # e go run go dere go dey play # for near river //) < # so na as im con dey run dey go dat place sey [ make im go play ] >+ # na im con jam di animal for road //
 # text_en = As he got to this place, (which was... because anytime they were looking for him after he did something bad, he would run there and played near the river), so, it was... as he was running to that place to go and play, he ran into the animal on the road.
-# text_ortho = As im con reach one place (wey be sey because anytime wey de dey look for am when e don do someting bad, e go run go dere go dey play for near river, ), so na as im con dey run dey go dat place sey make im go play na im con jam di animal for road.
+# text_ortho = As im con reach one place (wey be sey because anytime wey de dey look for am when e don do someting bad, e go run go dere go dey play for near river), so na as im con dey run dey go dat place sey make im go play na im con jam di animal for road.
 # timestamp = 1624707957917
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	45	punct	_	AlignBegin=517020|AlignEnd=517559|Gloss=PUNCT
@@ -3634,7 +3635,7 @@
 # speaker_id = Sp363
 # text = # e con carry di first one //= # e con shoot am //
 # text_en = He took the first one, he shot it.
-# text_ortho = E con carry di first one, e con shoot am,
+# text_ortho = E con carry di first one, e con shoot am.
 # timestamp = 1616519743778
 # user_id = emmett.strickland
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=543678|AlignEnd=544240|Gloss=PUNCT
@@ -4740,7 +4741,7 @@
 # speaker_id = Sp363
 # text = # de con see am say # [ { true |r true } < di animal don die ] //
 # text_en = They saw that the animal truly had died.
-# text_ortho = De con see am sey true, true, di animal don die.
+# text_ortho = De con see am say true, true, di animal don die.
 # timestamp = 1625049270078
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=689460|AlignEnd=689600|Gloss=PUNCT
@@ -5134,7 +5135,7 @@
 # speaker_id = Sp363
 # text = # de go come //= de go con measure am //= de go say [ no # dis one no be am !//] //
 # text_en = They came, they measured it, they said, "no, this isn't the one."
-# text_ortho = De go come, de go con measure am, de go say no dis one no be am.
+# text_ortho = De go come, de go con measure am, de go say no dis one no be am!
 # timestamp = 1623520472234
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=740163|AlignEnd=740620|Gloss=PUNCT
@@ -5603,7 +5604,7 @@
 # speaker_id = Sp363
 # text = # e con carry di ting come out //
 # text_en = He brought the thing there.
-# text_ortho = E con carry di ting come out dere.
+# text_ortho = E con carry di ting come out.
 # timestamp = 1616601249515
 # user_id = emmett.strickland
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=805421|AlignEnd=805952|Gloss=PUNCT

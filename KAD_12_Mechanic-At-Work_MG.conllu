@@ -1,9 +1,10 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = KAD_12_Mechanic-At-Work_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_12_Mechanic-At-Work_MG.mp3
 # speaker_id = Sp190
 # text = for my mechanic < # when you call me # sey [ your motor don stop for road # like example ] < # I go first carry { my plier |c # and screwdriver } # go dere //
 # text_en = For my kind of mechanic, for instance, when you call me to say your car broke down on the road, first I'll come with my plier and screwdriver.
-# text_ortho = For my mechanic, when you call me say your motor don stop for road like example, I go first carry my plier, and screwdriver go dere.
+# text_ortho = For my mechanic, when you call me sey your motor don stop for road like example, I go first carry my plier, and screwdriver go dere.
 # timestamp = 1623072212812
 # user_id = bernard.l.caron
 1	for	for	ADP	_	_	26	mod:periph	_	AlignBegin=1062|AlignEnd=1197|Gloss=for
@@ -44,7 +45,7 @@
 36	}	}	PUNCT	_	_	31	punct	_	AlignBegin=11190|AlignEnd=11220|Gloss=PUNCT
 37	#	#	PUNCT	_	_	38	punct	_	AlignBegin=11220|AlignEnd=11720|Gloss=PUNCT
 38	go	go	VERB	_	_	28	compound:svc	_	AlignBegin=11720|AlignEnd=11939|Gloss=go
-39	dere	dere	ADV	_	_	38	comp:obj	_	AlignBegin=11939|AlignEnd=12330|Gloss=there
+39	dere	dere	ADV	_	_	38	comp:obl	_	AlignBegin=11939|AlignEnd=12330|Gloss=there
 40	//	//	PUNCT	_	_	26	punct	_	AlignBegin=12330|AlignEnd=12360|Gloss=PUNCT
 
 # sent_id = KAD_12_Mechanic-At-Work_MG__2
@@ -85,7 +86,7 @@
 # text = # if your motor have fuel < # I go ask you [ # before di motor stop < # { di mo~ { will || will } || di motor gave you sign } ?//] //
 # text_en = If there's fuel in your car, I'll ask, "before the car broke down, the mo-... will, will... did the car show any signs?"
 # text_ortho = If your motor have fuel, I go ask you before di motor stop, di mo-... will, will, di motor gave you sign?
-# timestamp = 1625421179226
+# timestamp = 1631696210103
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=18160|AlignEnd=19440|Gloss=PUNCT
 2	if	if	SCONJ	_	_	10	mod:periph$cond	_	AlignBegin=19440|AlignEnd=19580|Gloss=if
@@ -111,7 +112,7 @@
 22	di	di	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=26280|AlignEnd=26440|Gloss=DEF.ART
 23	mo~	X	X	_	_	25	subj	_	AlignBegin=26440|AlignEnd=26610|Gloss=X
 24	{	{	PUNCT	_	_	25	punct	_	AlignBegin=26610|AlignEnd=26640|Gloss=PUNCT
-25	will	will	AUX	_	VerbForm=Fin	11	comp:obj	_	AlignBegin=26640|AlignEnd=27020|Gloss=FUT
+25	will	will	AUX	_	VerbForm=Fin	11	parataxis:obj$utter	_	AlignBegin=26640|AlignEnd=27020|Gloss=FUT
 26	||	||	PUNCT	_	_	27	punct	_	AlignBegin=27020|AlignEnd=27050|Gloss=PUNCT
 27	will	will	AUX	_	VerbForm=Fin	25	conj:dicto	_	AlignBegin=27050|AlignEnd=27190|Gloss=FUT
 28	}	}	PUNCT	_	_	25	punct	_	AlignBegin=27190|AlignEnd=27220|Gloss=PUNCT
@@ -557,7 +558,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=101420|AlignEnd=103420|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=103420|AlignEnd=103500|Gloss=NOM.SG.3
 3	use	use	VERB	_	_	0	root	_	AlignBegin=103500|AlignEnd=103730|Gloss=use
-4	to	to	ADP	_	_	3	comp:pred	_	AlignBegin=103730|AlignEnd=103810|Gloss=to
+4	to	to	ADP	_	_	3	comp:obl@x	_	AlignBegin=103730|AlignEnd=103810|Gloss=to
 5	give	give	VERB	_	_	4	comp:obj	_	AlignBegin=103810|AlignEnd=104200|Gloss=give
 6	motor	motor	NOUN	_	_	5	comp:obl	_	AlignBegin=104200|AlignEnd=104510|Gloss=motor
 7	fire	fire	NOUN	_	_	5	comp:obj	_	AlignBegin=104510|AlignEnd=104940|Gloss=fire
@@ -660,7 +661,7 @@
 # text = # when you put your hand under < # you will see di engine hot //
 # text_en = If you put your hand under the car, you can feel that the engine is hot.
 # text_ortho = When you put your hand under, you will see di engine hot.
-# timestamp = 1630833633623
+# timestamp = 1631658156308
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=129320|AlignEnd=129916|Gloss=PUNCT
 2	when	when	SCONJ	_	PronType=Int	11	mod:periph$tempo	_	AlignBegin=129916|AlignEnd=130369|Gloss=when.Q
@@ -675,8 +676,8 @@
 11	will	will	AUX	_	VerbForm=Fin	0	root	_	AlignBegin=132500|AlignEnd=132590|Gloss=FUT
 12	see	see	VERB	_	_	11	comp:aux	_	AlignBegin=132590|AlignEnd=132810|Gloss=see
 13	di	di	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=132810|AlignEnd=132990|Gloss=DEF.ART
-14	engine	engine	NOUN	_	_	15	subj	_	AlignBegin=132990|AlignEnd=133380|Gloss=engine
-15	hot	hot	ADJ	_	_	12	comp:obj$percep	_	AlignBegin=133380|AlignEnd=133820|ExtPos=VERB|Gloss=hot
+14	engine	engine	NOUN	_	_	12	comp:obj	_	AlignBegin=132990|AlignEnd=133380|Gloss=engine
+15	hot	hot	ADJ	_	_	12	comp:obl$percep@x	_	AlignBegin=133380|AlignEnd=133820|ExtPos=VERB|Gloss=hot
 16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=133820|AlignEnd=133850|Gloss=PUNCT
 
 # sent_id = KAD_12_Mechanic-At-Work_MG__24
@@ -743,7 +744,7 @@
 5	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=147250|AlignEnd=147280|Gloss=PUNCT
 6	#	#	PUNCT	_	_	7	punct	_	AlignBegin=147280|AlignEnd=147500|Gloss=PUNCT
 7	go	go	VERB	_	_	2	parataxis:conj	_	AlignBegin=147500|AlignEnd=147670|Gloss=go
-8	dere	dere	ADV	_	_	7	comp:obj	_	AlignBegin=147670|AlignEnd=148070|Gloss=there
+8	dere	dere	ADV	_	_	7	comp:obl	_	AlignBegin=147670|AlignEnd=148070|Gloss=there
 9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=148070|AlignEnd=148100|Gloss=PUNCT
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=148100|AlignEnd=148840|Gloss=PUNCT
 11	comot	comot	VERB	_	_	7	parataxis:conj	_	AlignBegin=148840|AlignEnd=149109|Gloss=get_out
@@ -807,7 +808,7 @@
 # text = # and when you call me # sey # [ your car < # you just know what is worrying your car # //= you dey hear someting sound # when you are moving ] < # I will come //
 # text_en = And when you call me to say your car... you know what's wrong with your car, you hear something... a sound when you're moving, I will come to you.
 # text_ortho = And when you call me sey your car, you just know what is worrying your car, you dey hear someting sound when you are moving, I will come.
-# timestamp = 1623071143225
+# timestamp = 1631653741541
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	39	punct	_	AlignBegin=160940|AlignEnd=161500|Gloss=PUNCT
 2	and	and	CCONJ	_	_	39	discourse	_	AlignBegin=161500|AlignEnd=161680|Gloss=and
@@ -826,18 +827,18 @@
 15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	subj	_	AlignBegin=165040|AlignEnd=165290|Gloss=NOM.2
 16	just	just	ADV	_	_	17	mod	_	AlignBegin=165290|AlignEnd=165510|Gloss=just
 17	know	know	VERB	_	_	8	comp:obj	_	AlignBegin=165510|AlignEnd=165667|Gloss=know
-18	what	what	PRON	_	PronType=Int	19	subj	_	AlignBegin=165667|AlignEnd=165960|Gloss=what.Q
-19	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	17	comp:obj	_	AlignBegin=165960|AlignEnd=166150|Gloss=be.IND.SG.3.PRS.FIN
+18	what	what	PRON	_	PronType=Int	17	comp:obj	_	AlignBegin=165667|AlignEnd=165960|Gloss=what.Q
+19	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	18	mod@relcl	_	AlignBegin=165960|AlignEnd=166150|Gloss=be.IND.SG.3.PRS.FIN
 20	worrying	worry	VERB	_	Tense=Pres|VerbForm=Part	19	comp:pred	_	AlignBegin=166150|AlignEnd=166430|Gloss=worry.PRS.PTCP
 21	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	22	mod:poss	_	AlignBegin=166430|AlignEnd=166550|Gloss=PL.2.POSS
 22	car	car	NOUN	_	_	20	comp:obj	_	AlignBegin=166550|AlignEnd=166930|Gloss=car
 23	#	#	PUNCT	_	_	26	punct	_	AlignBegin=166930|AlignEnd=167480|Gloss=PUNCT
 24	//=	//=	PUNCT	_	_	26	punct	_	AlignBegin=166930|AlignEnd=167480|Gloss=PUNCT
 25	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	26	subj	_	AlignBegin=167480|AlignEnd=167606|Gloss=NOM.2
-26	dey	dey	AUX	_	Aspect=Imp	19	parataxis:conj	_	AlignBegin=167606|AlignEnd=167811|Gloss=IPFV
+26	dey	dey	AUX	_	Aspect=Imp	17	parataxis:conj	_	AlignBegin=167606|AlignEnd=167811|Gloss=IPFV
 27	hear	hear	VERB	_	_	26	comp:aux	_	AlignBegin=167811|AlignEnd=168450|Gloss=hear
 28	someting	someting	PRON	_	_	27	comp:obj	_	AlignBegin=168450|AlignEnd=169096|Gloss=something
-29	sound	sound	VERB	_	_	27	compound:svc	_	AlignBegin=169096|AlignEnd=169540|Gloss=sound
+29	sound	sound	VERB	_	_	27	comp:obl$percep@x	_	AlignBegin=169096|AlignEnd=169540|Gloss=sound
 30	#	#	PUNCT	_	_	31	punct	_	AlignBegin=169540|AlignEnd=170520|Gloss=PUNCT
 31	when	when	SCONJ	_	PronType=Int	29	mod$tempo	_	AlignBegin=170520|AlignEnd=170621|Gloss=when.Q
 32	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	33	subj	_	AlignBegin=170621|AlignEnd=170750|Gloss=NOM.2
@@ -1360,7 +1361,7 @@
 # speaker_id = Sp190
 # text = # I will bought it # |c and come and &//
 # text_en = I will buy it, and come and...
-# text_ortho = I will bought it, and come, and...
+# text_ortho = I will bought it, and come and...
 # timestamp = 1623837917999
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=270100|AlignEnd=271180|Gloss=PUNCT
@@ -1390,7 +1391,7 @@
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=274760|AlignEnd=274980|Gloss=PUNCT
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=274980|AlignEnd=275050|Gloss=NOM.SG.3
 7	use	use	VERB	_	_	0	root	_	AlignBegin=275050|AlignEnd=275300|Gloss=use
-8	to	to	ADP	_	_	7	comp:pred	_	AlignBegin=275300|AlignEnd=275390|Gloss=to
+8	to	to	ADP	_	_	7	comp:obl@x	_	AlignBegin=275300|AlignEnd=275390|Gloss=to
 9	clean	clean	VERB	_	_	8	comp:obj	_	AlignBegin=275390|AlignEnd=275820|Gloss=clean
 10	{	{	PUNCT	_	_	12	punct	_	AlignBegin=275820|AlignEnd=275850|Gloss=PUNCT
 11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=275850|AlignEnd=276014|Gloss=DEF.ART
@@ -1418,7 +1419,7 @@
 # user_id = emmett.strickland
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=279320|AlignEnd=279900|Gloss=PUNCT
 2	use	use	VERB	_	_	0	root	_	AlignBegin=279900|AlignEnd=280020|Gloss=use
-3	to	to	ADP	_	_	2	comp:pred	_	AlignBegin=280020|AlignEnd=280175|Gloss=to
+3	to	to	ADP	_	_	2	comp:obl@x	_	AlignBegin=280020|AlignEnd=280175|Gloss=to
 4	clean	clean	VERB	_	_	3	comp:obj	_	AlignBegin=280175|AlignEnd=280560|Gloss=clean
 5	it	IT	NOUN	_	_	4	comp:obj	_	AlignBegin=280560|AlignEnd=280850|Gloss=internship
 6	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=280850|AlignEnd=280880|Gloss=PUNCT

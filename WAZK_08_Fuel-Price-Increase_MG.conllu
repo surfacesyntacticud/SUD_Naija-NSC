@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = WAZK_08_Fuel-Price-Increase_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZK_08_Fuel-Price-Increase_MG.mp3
 # speaker_id = Sp295
@@ -1251,7 +1252,7 @@
 6	make	make	VERB	_	_	4	comp:obj	_	AlignBegin=163805|AlignEnd=163985|Gloss=make
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=163985|AlignEnd=164105|Gloss=DEF.ART
 8	story	story	NOUN	_	_	6	comp:obj	_	AlignBegin=164105|AlignEnd=164345|Gloss=story
-9	make	make	AUX	_	Mood=Opt	6	comp:obl$cause	_	AlignBegin=164345|AlignEnd=164545|Gloss=SBJV
+9	make	make	SCONJ	_	_	6	comp:obl$cause	_	AlignBegin=164345|AlignEnd=164545|Gloss=COMP
 10	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	subj	_	AlignBegin=164545|AlignEnd=164615|Gloss=NOM.SG.3
 11	sell	sell	VERB	_	_	9	comp:aux	_	AlignBegin=164615|AlignEnd=164985|Gloss=sell
 12	small	small	ADJ	_	_	11	mod	_	AlignBegin=164985|AlignEnd=165375|Gloss=small
@@ -2345,7 +2346,7 @@
 19	//=	//=	PUNCT	_	_	20	punct	_	AlignBegin=338565|AlignEnd=338595|Gloss=PUNCT
 20	let	let	VERB	_	_	16	parataxis:conj	_	AlignBegin=338595|AlignEnd=338825|Gloss=let|Lang=en
 21	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	comp:obj	_	AlignBegin=338825|AlignEnd=339045|Gloss=ACC.PL.1|Lang=en
-22	shook	shook	VERB	_	_	20	comp:obl@x	_	AlignBegin=339045|AlignEnd=339255|Gloss=pierce|Lang=en
+22	shook	shook	VERB	_	_	20	comp:obl$modal@x	_	AlignBegin=339045|AlignEnd=339255|Gloss=pierce|Lang=en
 23	mouth	mouth	NOUN	_	_	22	comp:obj	_	AlignBegin=339255|AlignEnd=339508|Gloss=mouth|Lang=en
 24	!//]	!//]	PUNCT	_	_	11	punct	_	AlignBegin=339508|AlignEnd=339538|Gloss=PUNCT
 25	//	//	PUNCT	_	_	2	punct	_	AlignBegin=339508|AlignEnd=339538|Gloss=PUNCT
@@ -2479,7 +2480,7 @@
 # speaker_id = Sp295
 # text = naim dose one too para //
 # text_en = So they also got upset.
-# text_ortho = Naim dose one too para
+# text_ortho = Naim dose one too para.
 # timestamp = 1610894456714
 # user_id = emmett.strickland
 1	naim	naim	ADV	_	_	5	mod:periph	_	AlignBegin=356674|AlignEnd=356855|Gloss=then
@@ -2715,7 +2716,7 @@
 # text = # sey de no dey really think about di common man |c and you know wetin dey okay for us |c and all di rest //
 # text_en = That they don't really think about the masses, you know, and their welfare.
 # text_ortho = Sey de no dey really think about di common man, and you know wetin dey okay for us, and all di rest.
-# timestamp = 1610453489500
+# timestamp = 1631697258686
 # user_id = emmett.strickland
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=394848|AlignEnd=395095|Gloss=PUNCT
 2	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=395095|AlignEnd=395265|Gloss=COMP
@@ -2728,11 +2729,11 @@
 9	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=396335|AlignEnd=396435|Gloss=DEF.ART
 10	common	common	ADJ	_	_	11	mod	_	AlignBegin=396435|AlignEnd=396805|Gloss=common
 11	man	man	NOUN	_	_	8	comp:obj	_	AlignBegin=396805|AlignEnd=397101|Gloss=man
-12	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=397101|AlignEnd=397131|Gloss=PUNCT
-13	and	and	CCONJ	_	_	15	cc	_	AlignBegin=397131|AlignEnd=397365|Gloss=and
+12	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=397101|AlignEnd=397131|Gloss=PUNCT
+13	and	and	CCONJ	_	_	16	cc	_	AlignBegin=397131|AlignEnd=397365|Gloss=and
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	subj	_	AlignBegin=397395|AlignEnd=397533|Gloss=NOM.2
-15	know	know	VERB	_	_	4	conj:coord	_	AlignBegin=397533|AlignEnd=397765|Gloss=know
-16	wetin	wetin	PRON	_	PronType=Int	15	comp:obj	_	AlignBegin=397795|AlignEnd=398055|Gloss=what.Q
+15	know	know	VERB	_	_	16	parataxis:discourse	_	AlignBegin=397533|AlignEnd=397765|Gloss=know
+16	wetin	wetin	PRON	_	PronType=Int	11	conj:coord	_	AlignBegin=397795|AlignEnd=398055|Gloss=what.Q
 17	dey	dey	VERB	_	VerbType=Cop	16	mod@relcl	_	AlignBegin=398055|AlignEnd=398225|Gloss=be
 18	okay	OK	INTJ	_	_	17	comp:pred	_	AlignBegin=398225|AlignEnd=398485|Gloss=OK
 19	for	for	ADP	_	_	18	comp:obl	_	AlignBegin=398485|AlignEnd=398675|Gloss=for
@@ -2741,7 +2742,7 @@
 22	and	and	CCONJ	_	_	25	cc	_	AlignBegin=398895|AlignEnd=398975|Gloss=and
 23	all	all	DET	_	_	25	det	_	AlignBegin=398975|AlignEnd=399145|Gloss=all
 24	di	di	DET	_	Definite=Def|PronType=Art	25	det	_	AlignBegin=399145|AlignEnd=399225|Gloss=DEF.ART
-25	rest	rest	NOUN	_	_	15	conj:coord	_	AlignBegin=399225|AlignEnd=399619|Gloss=rest
+25	rest	rest	NOUN	_	_	16	conj:coord	_	AlignBegin=399225|AlignEnd=399619|Gloss=rest
 26	//	//	PUNCT	_	_	4	punct	_	AlignBegin=399619|AlignEnd=399649|Gloss=PUNCT
 
 # sent_id = WAZK_08_Fuel-Price-Increase_MG__100
@@ -2968,7 +2969,7 @@
 # speaker_id = Sp295
 # text = # ehen because as de dey carry di oil come back inside country < de suppose eh as de dey sell give { us |a we |a country people } wey { dey buy { kerosine |c fuel |c diesel |c and all di rest |c gas } |c dey { cook |c and all di rest } |c dey drive motor |c dey use generator } || as de dey sell to us < from di money wey we dey pay dem < de suppose dey remit { five |r five } naira //
 # text_en = Uhuh, because since the refined products are being brought into the country, they're supposed uh... as they sell to us, we, the country people who buy kerosine, fuel, diesel, and the like... gas for cooking, and the like, those who drive cars, use generators... as they sell to us, they ought to pay the five naira from their proceeds.
-# text_ortho = Ehen because as de dey carry di oil come back inside country, de suppose eh as de dey sell, sell give us, we, country people wey dey buy kerosine, fuel, diesel, and all di rest, gas, dey cook, and all di rest, dey drive motor, dey use generator, as de dey sell to us, from di money wey we dey pay dem, de suppose dey remit five, five naira.
+# text_ortho = Ehen because as de dey carry di oil come back inside country, de suppose eh as de dey sell give us, we, country people wey dey buy kerosine, fuel, diesel, and all di rest, gas, dey cook, and all di rest, dey drive motor, dey use generator, as de dey sell to us, from di money wey we dey pay dem, de suppose dey remit five, five naira.
 # timestamp = 1622815718761
 # user_id = bernard.l.caron
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=444050|AlignEnd=444545|Gloss=PUNCT
