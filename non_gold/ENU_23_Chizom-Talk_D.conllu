@@ -12,7 +12,7 @@
 # text = X //
 # text_en = X
 # text_ortho = X.
-1	X	X	X	_	_	0	root:scrap	_	AlignBegin=3880|AlignEnd=7570
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=3880|AlignEnd=7570
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=7570|AlignEnd=7570
 
 # sent_id = ENU_23_Chizom-Talk_DG__3
@@ -67,7 +67,7 @@
 9	talk	talk	VERB	_	_	7	compound:svc	_	AlignBegin=13025|AlignEnd=13216
 10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=13216|AlignEnd=13216
 11	you	you	PRON	_	_	12	subj	_	AlignBegin=13216|AlignEnd=13408
-12	dey	dey	AUX	_	_	7	conj:coord	_	AlignBegin=13408|AlignEnd=13600
+12	dey	dey	AUX	_	_	3	conj:coord	_	AlignBegin=13408|AlignEnd=13600
 13	do	do	VERB	_	_	12	comp:aux	_	AlignBegin=13600|AlignEnd=13792
 14	anyhow	anyhow	ADV	_	_	13	mod	_	AlignBegin=13792|AlignEnd=13984
 15	give	give	VERB	_	_	13	compound:svc	_	AlignBegin=13984|AlignEnd=14176
@@ -97,8 +97,8 @@
 1	me	me	PRON	_	_	2	subj	_	AlignBegin=16325|AlignEnd=16495
 2	dey	dey	AUX	_	_	0	root	_	AlignBegin=16495|AlignEnd=16665
 3	do	do	VERB	_	_	2	comp:aux	_	AlignBegin=16665|AlignEnd=16835
-4	guy	guy	NOUN	_	_	3	comp:obj	_	AlignBegin=16835|AlignEnd=17005
-5	give	give	VERB	_	_	3	compound:svc	_	AlignBegin=17005|AlignEnd=17175
+4	guy	guy	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=16835|AlignEnd=17005
+5	give	give	VERB	_	_	3	conj:coord	_	AlignBegin=17005|AlignEnd=17175
 6	you	you	PRON	_	_	5	comp:obj	_	AlignBegin=17175|AlignEnd=17345
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=17345|AlignEnd=17345
 
@@ -117,14 +117,14 @@
 # text_ortho = Come now make we do some bend down select now.
 1	come	come	VERB	_	_	0	root	_	AlignBegin=17895|AlignEnd=18205
 2	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=18205|AlignEnd=18515
-3	make	make	AUX	_	_	1	mod	_	AlignBegin=18515|AlignEnd=18825
+3	make	make	AUX	_	_	1	parataxis:conj	_	AlignBegin=18515|AlignEnd=18825
 4	we	we	PRON	_	_	5	subj	_	AlignBegin=18825|AlignEnd=19135
 5	do	do	VERB	_	_	3	comp:aux	_	AlignBegin=19135|AlignEnd=19445
-6	some	some	DET	_	_	7	det	_	AlignBegin=19445|AlignEnd=19755
-7	bend	bend	VERB	_	_	5	comp:obj@lvc	_	AlignBegin=19755|AlignEnd=20065
+6	some	some	DET	_	_	9	det	_	AlignBegin=19445|AlignEnd=19755
+7	bend	bend	VERB	_	_	5	mod	_	AlignBegin=19755|AlignEnd=20065
 8	down	down	ADP	_	_	7	compound:prt	_	AlignBegin=20065|AlignEnd=20375
-9	select	select	VERB	_	_	5	compound:svc	_	AlignBegin=20375|AlignEnd=20685
-10	now	now	ADV	_	_	9	mod	_	AlignBegin=20685|AlignEnd=20995
+9	select	select	VERB	_	_	5	conj:coord	_	AlignBegin=20375|AlignEnd=20685
+10	now	now	ADV	_	_	9	mod:emph	_	AlignBegin=20685|AlignEnd=20995
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=20995|AlignEnd=20995
 
 # sent_id = ENU_23_Chizom-Talk_DG__12
@@ -139,7 +139,7 @@
 5	abi	abi	CCONJ	_	_	7	cc	_	AlignBegin=21916|AlignEnd=22177
 6	one	one	DET	_	_	7	det	_	AlignBegin=22177|AlignEnd=22437
 7	body	body	NOUN	_	_	3	conj:coord	_	AlignBegin=22437|AlignEnd=22698
-8	wey	wey	SCONJ	_	_	7	mod:relcl	_	AlignBegin=22698|AlignEnd=22958
+8	wey	wey	SCONJ	_	_	7	mod@relcl	_	AlignBegin=22698|AlignEnd=22958
 9	I	I	PRON	_	_	10	subj	_	AlignBegin=22958|AlignEnd=23219
 10	dey	dey	VERB	_	_	8	comp:obj	_	AlignBegin=23219|AlignEnd=23480
 11	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=23480|AlignEnd=23480
@@ -165,7 +165,7 @@
 # text = come make we do small ting //
 # text_en = Come, let us do a little thing.
 # text_ortho = Come make we do small ting.
-1	come	come	AUX	_	_	0	root	_	AlignBegin=25365|AlignEnd=25806
+1	come	coake	AUX	_	_	0	root	_	AlignBegin=25365|AlignEnd=25806
 2	make	make	AUX	_	_	1	comp:aux	_	AlignBegin=25806|AlignEnd=26248
 3	we	we	PRON	_	_	4	subj	_	AlignBegin=26248|AlignEnd=26690
 4	do	do	VERB	_	_	2	comp:aux	_	AlignBegin=26690|AlignEnd=27131
@@ -179,7 +179,7 @@
 # text_en = You are not serious sir.
 # text_ortho = De are not serious oga,
 1	de	dem	PRON	_	_	2	subj	_	AlignBegin=26450|AlignEnd=26704|Lang=en
-2	are	are	VERB	_	_	0	root	_	AlignBegin=26704|AlignEnd=26958|Lang=en
+2	are	be	AUX	_	_	0	root	_	AlignBegin=26704|AlignEnd=26958|Lang=en
 3	not	not	PART	_	_	2	mod	_	AlignBegin=26958|AlignEnd=27212|Lang=en
 4	serious	serious	ADJ	_	_	5	mod	_	AlignBegin=27212|AlignEnd=27466|Lang=en
 5	oga	oga	NOUN	_	_	2	comp:pred	_	AlignBegin=27466|AlignEnd=27720|Lang=en
@@ -206,7 +206,7 @@
 # text = come let's run small ting now //
 # text_en = Come, let's do a little thing.
 # text_ortho = Come let's run small ting now.
-1	come	come	AUX	_	_	0	root	_	AlignBegin=31095|AlignEnd=31511|Lang=en
+1	come	Come	AUX	_	_	0	root	_	AlignBegin=31095|AlignEnd=31511|Lang=en
 2	let's	let's	VERB	_	_	1	comp:aux	_	AlignBegin=31511|AlignEnd=31928|Lang=en
 3	run	run	VERB	_	_	2	comp:obj@x	_	AlignBegin=31928|AlignEnd=32345|Lang=en
 4	small	small	ADJ	_	_	5	mod	_	AlignBegin=32345|AlignEnd=32761|Lang=en
@@ -277,7 +277,7 @@
 18	{	{	PUNCT	_	_	19	punct	_	AlignBegin=39928|AlignEnd=39928
 19	soji	soji	ADV	_	_	17	comp:aux	_	AlignBegin=39928|AlignEnd=40234
 20	|r	|r	PUNCT	_	_	21	punct	_	AlignBegin=40234|AlignEnd=40234
-21	soji	soji	NOUN	_	_	19	compound:redup	_	AlignBegin=40234|AlignEnd=40540
+21	soji	soji	ADV	_	_	19	compound:redup	_	AlignBegin=40234|AlignEnd=40540
 22	}	}	PUNCT	_	_	19	punct	_	AlignBegin=40540|AlignEnd=40540
 23	//	//	PUNCT	_	_	17	punct	_	AlignBegin=40540|AlignEnd=40540
 
@@ -306,7 +306,7 @@
 2	why	why	ADV	_	_	1	comp:pred	_	AlignBegin=38853|AlignEnd=39241
 3	de	dem	PRON	_	_	5	subj	_	AlignBegin=39241|AlignEnd=39629
 4	no	no	PART	_	_	5	mod	_	AlignBegin=39629|AlignEnd=40017
-5	gree	gree	VERB	_	_	2	mod:relcl	_	AlignBegin=40017|AlignEnd=40405
+5	gree	gree	VERB	_	_	2	mod@relcl	_	AlignBegin=40017|AlignEnd=40405
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=40405|AlignEnd=40405
 
 # sent_id = ENU_23_Chizom-Talk_DG__27
@@ -326,9 +326,9 @@
 2	go	go	AUX	_	_	0	root	_	AlignBegin=41597|AlignEnd=41935
 3	dey	dey	AUX	_	_	2	comp:aux	_	AlignBegin=41935|AlignEnd=42273
 4	do	do	VERB	_	_	3	comp:aux	_	AlignBegin=42273|AlignEnd=42611
-5	we	we	PRON	_	_	4	comp:obj	_	AlignBegin=42611|AlignEnd=42949
+5	we	we	PRON	_	_	7	comp:obj	_	AlignBegin=42611|AlignEnd=42949
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=42949|AlignEnd=42949
-7	tanana	tanana	NOUN	_	_	4	mod	_	AlignBegin=42949|AlignEnd=43287
+7	tanana	tanana	NOUN	_	_	4	comp:obj	_	AlignBegin=42949|AlignEnd=43287
 8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=43287|AlignEnd=43287
 9	tanana	tanana	NOUN	_	_	7	compound:redup	_	AlignBegin=43287|AlignEnd=43625
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=43625|AlignEnd=43625
@@ -367,7 +367,7 @@
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=45146|AlignEnd=45362|Lang=en
 3	can	can	AUX	_	_	0	root	_	AlignBegin=45362|AlignEnd=45578|Lang=en
 4	be	be	VERB	_	_	3	comp:aux	_	AlignBegin=45578|AlignEnd=45794|Lang=en
-5	able	able	ADJ	_	_	4	comp:pred@scrap	_	AlignBegin=45794|AlignEnd=46010|Lang=en
+5	able	able	ADJ	_	_	4	comp:pred	_	AlignBegin=45794|AlignEnd=46010|Lang=en
 6	&	&	PUNCT	_	_	3	punct	_	AlignBegin=46010|AlignEnd=46010
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=46010|AlignEnd=46010
 
@@ -376,7 +376,7 @@
 # text = okay //
 # text_en = Okay.
 # text_ortho = Okay.
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=46010|AlignEnd=46840
+1	okay	oka	INTJ	_	_	0	root	_	AlignBegin=46010|AlignEnd=46840
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=46840|AlignEnd=46840
 
 # sent_id = ENU_23_Chizom-Talk_DG__34
@@ -419,7 +419,7 @@
 3	know	know	VERB	_	_	1	comp:aux	_	AlignBegin=52657|AlignEnd=52868
 4	how	how	ADV	_	_	3	comp:obj	_	AlignBegin=52868|AlignEnd=53079
 5	we	we	PRON	_	_	6	subj	_	AlignBegin=53079|AlignEnd=53290
-6	look	look	VERB	_	_	4	mod:relcl	_	AlignBegin=53290|AlignEnd=53501
+6	look	look	VERB	_	_	4	mod@relcl	_	AlignBegin=53290|AlignEnd=53501
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=53501|AlignEnd=53501
 
 # sent_id = ENU_23_Chizom-Talk_DG__37
@@ -446,7 +446,7 @@
 1	I	I	PRON	_	_	3	subj	_	AlignBegin=55720|AlignEnd=55919
 2	no	no	PART	_	_	3	mod	_	AlignBegin=55919|AlignEnd=56118
 3	get	get	VERB	_	_	0	root	_	AlignBegin=56118|AlignEnd=56317
-4	time	time	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=56317|AlignEnd=56516
+4	time	time	NOUN	_	_	3	comp:obj	_	AlignBegin=56317|AlignEnd=56516
 5	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=56516|AlignEnd=56715
 6	dat	dat	DET	_	_	7	det	_	AlignBegin=56715|AlignEnd=56914
 7	ting	ting	NOUN	_	_	5	comp:obj	_	AlignBegin=56914|AlignEnd=57113
@@ -457,8 +457,8 @@
 # text = okay now //
 # text_en = Okay now.
 # text_ortho = Okay now.
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=57280|AlignEnd=57935
-2	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=57935|AlignEnd=58590
+1	okay	oka	INTJ	_	_	0	root	_	AlignBegin=57280|AlignEnd=57935
+2	now	now	ADV	_	_	1	discourse	_	AlignBegin=57935|AlignEnd=58590
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=58590|AlignEnd=58590
 
 # sent_id = ENU_23_Chizom-Talk_DG__41
@@ -468,15 +468,15 @@
 # text_ortho = If you wan talk better ting, talk better ting mah hear.
 1	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=57750|AlignEnd=57935
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=57935|AlignEnd=58120
-3	wan	wan	VERB	_	_	1	comp:obj	_	AlignBegin=58120|AlignEnd=58305
+3	wan	way	VERB	_	_	1	comp:obj	_	AlignBegin=58120|AlignEnd=58305
 4	talk	talk	VERB	_	_	3	comp:obj@x	_	AlignBegin=58305|AlignEnd=58490
 5	better	better	ADJ	_	_	6	mod	_	AlignBegin=58490|AlignEnd=58675
 6	ting	ting	NOUN	_	_	4	comp:obj	_	AlignBegin=58675|AlignEnd=58861
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=58861|AlignEnd=58861
 8	talk	talk	VERB	_	_	0	root	_	AlignBegin=58861|AlignEnd=59046
-9	better	better	ADJ	_	_	10	mod	_	AlignBegin=59046|AlignEnd=59231
+9	better	bett	ADJ	_	_	10	mod	_	AlignBegin=59046|AlignEnd=59231
 10	ting	ting	NOUN	_	_	8	comp:obj	_	AlignBegin=59231|AlignEnd=59416
-11	mah	mah	AUX	_	_	8	mod	_	AlignBegin=59416|AlignEnd=59601
+11	mah	make	AUX	_	_	8	mod	_	AlignBegin=59416|AlignEnd=59601
 12	hear	hear	VERB	_	_	11	comp:aux	_	AlignBegin=59601|AlignEnd=59787
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=59787|AlignEnd=59787
 
@@ -486,7 +486,7 @@
 # text_en = What is making Chsiom not to talk to me again?
 # text_ortho = Wetin dey make Chisom no dey follow me talk again?
 1	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=60370|AlignEnd=60697
-2	dey	dey	AUX	_	_	1	mod:relcl	_	AlignBegin=60697|AlignEnd=61024
+2	dey	dey	AUX	_	_	1	comp:cleft	_	AlignBegin=60697|AlignEnd=61024
 3	make	make	VERB	_	_	2	comp:aux	_	AlignBegin=61024|AlignEnd=61351
 4	Chisom	Chisom	PROPN	_	_	3	comp:obj	_	AlignBegin=61351|AlignEnd=61678
 5	no	no	PART	_	_	6	mod	_	AlignBegin=61678|AlignEnd=62005
@@ -520,7 +520,7 @@
 5	Chizom	Chizom	PROPN	_	_	6	subj	_	AlignBegin=64931|AlignEnd=65143
 6	na	na	PART	_	_	3	comp:obj	_	AlignBegin=65143|AlignEnd=65355
 7	child	child	NOUN	_	_	6	comp:pred	_	AlignBegin=65355|AlignEnd=65567
-8	now	now	ADV	_	_	6	mod:emph	_	AlignBegin=65567|AlignEnd=65780
+8	now	now	ADV	_	_	6	mod	_	AlignBegin=65567|AlignEnd=65780
 9	]	]	PUNCT	_	_	6	punct	_	AlignBegin=65780|AlignEnd=65780
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=65780|AlignEnd=65780
 
@@ -543,7 +543,7 @@
 # text = abi !//
 # text_en = Really!
 # text_ortho = Abi!
-1	abi	abi	CCONJ	_	_	0	root	_	AlignBegin=67330|AlignEnd=67830
+1	abi	abi	INTJ	_	_	0	root	_	AlignBegin=67330|AlignEnd=67830
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=67830|AlignEnd=67830
 
 # sent_id = ENU_23_Chizom-Talk_DG__47
@@ -559,15 +559,15 @@
 # text = like how many years dat girl go dey ?//
 # text_en = How old do you think that girl will be?
 # text_ortho = Like how many years dat girl go dey?
-1	like	like	ADP	_	_	7	dislocated	_	AlignBegin=68925|AlignEnd=69127
+1	like	like	ADP	_	_	0	root	_	AlignBegin=68925|AlignEnd=69127
 2	how	how	ADV	_	_	3	mod	_	AlignBegin=69127|AlignEnd=69330
 3	many	many	ADJ	_	_	4	mod	_	AlignBegin=69330|AlignEnd=69532
-4	years	years	NOUN	_	_	1	comp:obj	_	AlignBegin=69532|AlignEnd=69735
+4	years	year	NOUN	_	_	1	comp:obj	_	AlignBegin=69532|AlignEnd=69735
 5	dat	dat	DET	_	_	6	det	_	AlignBegin=69735|AlignEnd=69937
 6	girl	girl	NOUN	_	_	7	subj	_	AlignBegin=69937|AlignEnd=70140
-7	go	go	AUX	_	_	0	root	_	AlignBegin=70140|AlignEnd=70342
+7	go	go	AUX	_	_	4	comp:cleft	_	AlignBegin=70140|AlignEnd=70342
 8	dey	dey	VERB	_	_	7	comp:aux	_	AlignBegin=70342|AlignEnd=70545
-9	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=70545|AlignEnd=70545
+9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=70545|AlignEnd=70545
 
 # sent_id = ENU_23_Chizom-Talk_DG__49
 # speaker_id = Sp92
@@ -593,7 +593,7 @@
 # text = okay !//
 # text_en = Okay!
 # text_ortho = Okay,
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=73520|AlignEnd=74350
+1	okay	oka	INTJ	_	_	0	root	_	AlignBegin=73520|AlignEnd=74350
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=74350|AlignEnd=74350
 
 # sent_id = ENU_23_Chizom-Talk_DG__52
@@ -609,7 +609,7 @@
 # text = okay //
 # text_en = Okay.
 # text_ortho = Okay.
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=74640|AlignEnd=75210
+1	okay	oka	INTJ	_	_	0	root	_	AlignBegin=74640|AlignEnd=75210
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=75210|AlignEnd=75210
 
 # sent_id = ENU_23_Chizom-Talk_DG__54
@@ -676,7 +676,7 @@
 # text = don't worry //
 # text_en = Don't worry.
 # text_ortho = Don'T worry.
-1	don't	don't	PART	_	_	2	mod	_	AlignBegin=83515|AlignEnd=83707|Lang=en
+1	don't	donot	PART	_	_	2	mod	_	AlignBegin=83515|AlignEnd=83707|Lang=en
 2	worry	worry	VERB	_	_	0	root	_	AlignBegin=83707|AlignEnd=83900|Lang=en
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=83900|AlignEnd=83900
 
@@ -761,7 +761,7 @@
 6	dat	dat	DET	_	_	8	det	_	AlignBegin=90455|AlignEnd=90597
 7	kind	kind	ADJ	_	_	8	mod	_	AlignBegin=90597|AlignEnd=90739
 8	ting	ting	NOUN	_	_	5	comp:pred	_	AlignBegin=90739|AlignEnd=90881
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=90881|AlignEnd=91023
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=90881|AlignEnd=91023
 10	you	you	PRON	_	_	11	subj	_	AlignBegin=91023|AlignEnd=91165
 11	dey	dey	AUX	_	_	9	comp:obj	_	AlignBegin=91165|AlignEnd=91307
 12	chop	chop	VERB	_	_	11	comp:aux	_	AlignBegin=91307|AlignEnd=91450
@@ -773,14 +773,14 @@
 # text = still kwa give my guy one ting //
 # text_en = Still give my friend one thing.
 # text_ortho = Still kwa give my guy one ting.
-1	still	still	ADV	_	_	3	mod	_	AlignBegin=91560|AlignEnd=91904
-2	kwa	kwa	PART	_	_	3	discourse	_	AlignBegin=91904|AlignEnd=92248
-3	give	give	VERB	_	_	0	root	_	AlignBegin=92248|AlignEnd=92592
+1	still	still	ADV	_	_	2	mod	_	AlignBegin=91560|AlignEnd=91904
+2	kwa	kwa	AUX	_	_	0	root	_	AlignBegin=91904|AlignEnd=92248
+3	give	give	VERB	_	_	2	comp:aux	_	AlignBegin=92248|AlignEnd=92592
 4	my	my	PRON	_	_	5	mod:poss	_	AlignBegin=92592|AlignEnd=92937
 5	guy	guy	NOUN	_	_	3	comp:obj	_	AlignBegin=92937|AlignEnd=93281
 6	one	one	DET	_	_	7	det	_	AlignBegin=93281|AlignEnd=93625
 7	ting	ting	NOUN	_	_	3	comp:obj	_	AlignBegin=93625|AlignEnd=93970
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=93970|AlignEnd=93970
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=93970|AlignEnd=93970
 
 # sent_id = ENU_23_Chizom-Talk_DG__66
 # speaker_id = Sp92
@@ -795,7 +795,7 @@
 # text = dat your guy sef < I no understand dat one //
 # text_en = That friend of yours, I do not understand that one.
 # text_ortho = Dat your guy sef, I no understand dat one.
-1	dat	dat	DET	_	_	3	det	_	AlignBegin=94400|AlignEnd=94593
+1	dat	dat	SCONJ	_	_	3	discourse	_	AlignBegin=94400|AlignEnd=94593
 2	your	your	PRON	_	_	3	mod:poss	_	AlignBegin=94593|AlignEnd=94786
 3	guy	guy	NOUN	_	_	8	dislocated	_	AlignBegin=94786|AlignEnd=94979
 4	sef	sef	PART	_	_	3	mod:emph	_	AlignBegin=94979|AlignEnd=95172
@@ -847,8 +847,8 @@
 # text = okay now //
 # text_en = Okay now.
 # text_ortho = Okay now.
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=101915|AlignEnd=102332
-2	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=102332|AlignEnd=102750
+1	okay	oka	INTJ	_	_	0	root	_	AlignBegin=101915|AlignEnd=102332
+2	now	now	ADV	_	_	1	discourse	_	AlignBegin=102332|AlignEnd=102750
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=102750|AlignEnd=102750
 
 # sent_id = ENU_23_Chizom-Talk_DG__72
@@ -903,18 +903,18 @@
 9	dey	dey	VERB	_	_	5	comp:obj	_	AlignBegin=109546|AlignEnd=109776
 10	where	where	ADV	_	_	9	comp:pred	_	AlignBegin=109776|AlignEnd=110006
 11	she	she	PRON	_	_	12	subj	_	AlignBegin=110006|AlignEnd=110237
-12	dey	dey	VERB	_	_	10	mod:relcl	_	AlignBegin=110237|AlignEnd=110467
+12	dey	dey	VERB	_	_	10	mod@relcl	_	AlignBegin=110237|AlignEnd=110467
 13	o	o	PART	_	_	12	mod:emph	_	AlignBegin=110467|AlignEnd=110697
-14	>	>	PUNCT	_	_	16	punct	_	AlignBegin=110697|AlignEnd=110697
+14	>	>	PUNCT	_	_	18	punct	_	AlignBegin=110697|AlignEnd=110697
 15	no	no	PART	_	_	16	mod	_	AlignBegin=110697|AlignEnd=110927
-16	matter	matter	NOUN	_	_	9	mod:periph	_	AlignBegin=110927|AlignEnd=111157
+16	matter	matter	NOUN	_	_	18	mod:periph	_	AlignBegin=110927|AlignEnd=111157
 17	she	she	PRON	_	_	18	subj	_	AlignBegin=111157|AlignEnd=111388
-18	dey	dey	AUX	_	_	16	mod:relcl	_	AlignBegin=111388|AlignEnd=111618
+18	dey	dey	AUX	_	_	9	parataxis:conj	_	AlignBegin=111388|AlignEnd=111618
 19	do	do	VERB	_	_	18	comp:aux	_	AlignBegin=111618|AlignEnd=111848
 20	all	all	DET	_	_	22	mod	_	AlignBegin=111848|AlignEnd=112078
 21	dis	dis	DET	_	_	22	det	_	AlignBegin=112078|AlignEnd=112308
 22	tings	tings	NOUN	_	_	19	comp:obj	_	AlignBegin=112308|AlignEnd=112539
-23	wey	wey	SCONJ	_	_	22	mod:relcl	_	AlignBegin=112539|AlignEnd=112769
+23	wey	wey	SCONJ	_	_	22	mod@relcl	_	AlignBegin=112539|AlignEnd=112769
 24	she	she	PRON	_	_	25	subj	_	AlignBegin=112769|AlignEnd=112999
 25	dey	dey	AUX	_	_	23	comp:obj	_	AlignBegin=112999|AlignEnd=113229
 26	do	do	VERB	_	_	25	comp:aux	_	AlignBegin=113229|AlignEnd=113460
@@ -926,7 +926,7 @@
 # text = abi !//
 # text_en = Right?
 # text_ortho = Abi,
-1	abi	abi	CCONJ	_	_	0	root	_	AlignBegin=110760|AlignEnd=111670
+1	abi	abi	INTJ	_	_	0	root	_	AlignBegin=110760|AlignEnd=111670
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=111670|AlignEnd=111670
 
 # sent_id = ENU_23_Chizom-Talk_DG__77
@@ -969,18 +969,18 @@
 9	dey	dey	VERB	_	_	4	comp:obj	_	AlignBegin=116258|AlignEnd=116490
 10	where	where	ADV	_	_	9	comp:pred	_	AlignBegin=116490|AlignEnd=116722
 11	she	she	PRON	_	_	12	subj	_	AlignBegin=116722|AlignEnd=116954
-12	dey	dey	VERB	_	_	10	mod:relcl	_	AlignBegin=116954|AlignEnd=117186
+12	dey	dey	VERB	_	_	10	mod@relcl	_	AlignBegin=116954|AlignEnd=117186
 13	]	]	PUNCT	_	_	9	punct	_	AlignBegin=117186|AlignEnd=117186
 14	|c	|c	PUNCT	_	_	19	punct	_	AlignBegin=117186|AlignEnd=117186
 15	sey	sey	SCONJ	_	_	19	discourse	_	AlignBegin=117186|AlignEnd=117419
 16	[	[	PUNCT	_	_	19	punct	_	AlignBegin=117419|AlignEnd=117419
 17	I	I	PRON	_	_	19	subj	_	AlignBegin=117419|AlignEnd=117651
 18	no	no	PART	_	_	19	mod	_	AlignBegin=117651|AlignEnd=117883
-19	fit	fit	AUX	_	_	10	conj:coord	_	AlignBegin=117883|AlignEnd=118115
+19	fit	fit	AUX	_	_	9	conj:coord	_	AlignBegin=117883|AlignEnd=118115
 20	leave	leave	VERB	_	_	19	comp:aux	_	AlignBegin=118115|AlignEnd=118347
 21	am	am	PRON	_	_	20	comp:obj	_	AlignBegin=118347|AlignEnd=118580
 22	]	]	PUNCT	_	_	19	punct	_	AlignBegin=118580|AlignEnd=118580
-23	}	}	PUNCT	_	_	9	punct	_	AlignBegin=118580|AlignEnd=118580
+23	}	}	PUNCT	_	_	4	punct	_	AlignBegin=118580|AlignEnd=118580
 24	//	//	PUNCT	_	_	1	punct	_	AlignBegin=118580|AlignEnd=118580
 
 # sent_id = ENU_23_Chizom-Talk_DG__80
@@ -998,3 +998,4 @@
 # text_ortho = Haha.
 1	haha	haha	INTJ	_	_	0	root	_	AlignBegin=118745|AlignEnd=120380
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=120380|AlignEnd=120380
+
