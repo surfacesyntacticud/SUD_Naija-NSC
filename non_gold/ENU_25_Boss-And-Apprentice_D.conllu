@@ -5,7 +5,7 @@
 # text_en = Udoka, mad man.
 # text_ortho = Udoka onye ara.
 1	Udoka	Udoka	PROPN	_	_	0	root	_	AlignBegin=850|AlignEnd=1296
-2	onye	onye	X	_	_	1	flat:foreign	_	AlignBegin=1296|AlignEnd=1743|Lang=ig
+2	onye	onye	NOUN	_	_	1	flat:foreign	_	AlignBegin=1296|AlignEnd=1743|Lang=ig
 3	ara	ara	NOUN	_	_	2	flat:foreign	_	AlignBegin=1743|AlignEnd=2190|Lang=ig
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=2190|AlignEnd=2190
 
@@ -14,10 +14,10 @@
 # text = oga Giam o < what do you say about di ting wey happen today > oga ?//
 # text_en = Boss Giam o, what do you say about the thing that happened today, sir.
 # text_ortho = Oga Giam o, what do you say about di ting wey happen today oga?
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=1210|AlignEnd=1511
-2	Giam	Giam	PROPN	_	_	1	vocative	_	AlignBegin=1511|AlignEnd=1812
-3	o	o	PART	_	_	2	mod:emph	_	AlignBegin=1812|AlignEnd=2114
-4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=2114|AlignEnd=2114
+1	oga	oga	NOUN	_	_	5	dislocated	_	AlignBegin=1210|AlignEnd=1511
+2	Giam	Giam	PROPN	_	_	1	mod:appos	_	AlignBegin=1511|AlignEnd=1812
+3	o	o	PART	_	_	1	mod:emph	_	AlignBegin=1812|AlignEnd=2114
+4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=2114|AlignEnd=2114
 5	what	what	PRON	_	_	0	root	_	AlignBegin=2114|AlignEnd=2415|Lang=en
 6	do	do	AUX	_	_	5	comp:cleft	_	AlignBegin=2415|AlignEnd=2717|Lang=en
 7	you	you	PRON	_	_	6	subj	_	AlignBegin=2717|AlignEnd=3018|Lang=en
@@ -25,7 +25,7 @@
 9	about	about	ADP	_	_	8	comp:obl	_	AlignBegin=3320|AlignEnd=3621|Lang=en
 10	di	di	DET	_	_	11	det	_	AlignBegin=3621|AlignEnd=3922
 11	ting	ting	NOUN	_	_	9	comp:obj	_	AlignBegin=3922|AlignEnd=4224
-12	wey	wey	SCONJ	_	_	11	mod:relcl	_	AlignBegin=4224|AlignEnd=4525
+12	wey	wey	SCONJ	_	_	11	mod@relcl	_	AlignBegin=4224|AlignEnd=4525
 13	happen	happen	VERB	_	_	12	comp:obj	_	AlignBegin=4525|AlignEnd=4827
 14	today	today	NOUN	_	_	13	mod	_	AlignBegin=4827|AlignEnd=5128
 15	>	>	PUNCT	_	_	16	punct	_	AlignBegin=5128|AlignEnd=5128
@@ -38,7 +38,7 @@
 # text_en = What happened was that they brought jobs for us.
 # text_ortho = Wetin happen be sey dem bring for us now.
 1	wetin	wetin	PRON	_	_	3	subj	_	AlignBegin=6420|AlignEnd=6660
-2	happen	happen	VERB	_	_	1	mod:relcl	_	AlignBegin=6660|AlignEnd=6900
+2	happen	happen	VERB	_	_	1	mod@relcl	_	AlignBegin=6660|AlignEnd=6900
 3	be	be	VERB	_	_	0	root	_	AlignBegin=6900|AlignEnd=7140
 4	sey	sey	SCONJ	_	_	3	comp:pred	_	AlignBegin=7140|AlignEnd=7380
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=7380|AlignEnd=7380
@@ -55,7 +55,7 @@
 # text = eh I carry di work comot //
 # text_en = Ehn. I left with the work.
 # text_ortho = Eh I carry di work comot.
-1	eh	eh	INTJ	_	_	3	discourse	_	AlignBegin=8605|AlignEnd=8882
+1	eh	eh	ADJ	_	_	3	discourse	_	AlignBegin=8605|AlignEnd=8882
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=8882|AlignEnd=9160
 3	carry	carry	VERB	_	_	0	root	_	AlignBegin=9160|AlignEnd=9437
 4	di	di	DET	_	_	5	det	_	AlignBegin=9437|AlignEnd=9715
@@ -68,7 +68,7 @@
 # text = ah !//
 # text_en = Ah!
 # text_ortho = Ah!
-1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=9200|AlignEnd=9860
+1	ah	ah	ADJ	_	_	0	root	_	AlignBegin=9200|AlignEnd=9860
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=9860|AlignEnd=9860
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__6
@@ -90,7 +90,7 @@
 # text = no //
 # text_en = No o.
 # text_ortho = No.
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=11870|AlignEnd=12210
+1	no	no	PART	_	_	0	root	_	AlignBegin=11870|AlignEnd=12210
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=12210|AlignEnd=12210
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__8
@@ -98,14 +98,14 @@
 # text = I no dey here dey drink o //
 # text_en = I was not here drinking.
 # text_ortho = I no dey here dey drink o.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=12210|AlignEnd=12384
-2	no	no	PART	_	_	3	mod	_	AlignBegin=12384|AlignEnd=12558
-3	dey	dey	VERB	_	_	0	root	_	AlignBegin=12558|AlignEnd=12732
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=12210|AlignEnd=12384
+2	no	no	AUX	_	_	0	root	_	AlignBegin=12384|AlignEnd=12558
+3	dey	dey	VERB	_	_	2	comp:aux	_	AlignBegin=12558|AlignEnd=12732
 4	here	here	ADV	_	_	3	comp:pred	_	AlignBegin=12732|AlignEnd=12907
 5	dey	dey	AUX	_	_	3	mod	_	AlignBegin=12907|AlignEnd=13081
 6	drink	drink	VERB	_	_	5	comp:aux	_	AlignBegin=13081|AlignEnd=13255
-7	o	o	PART	_	_	6	mod:emph	_	AlignBegin=13255|AlignEnd=13430
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=13430|AlignEnd=13430
+7	o	o	PART	_	_	2	mod:emph	_	AlignBegin=13255|AlignEnd=13430
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=13430|AlignEnd=13430
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__9
 # speaker_id = Sp103
@@ -114,7 +114,7 @@
 # text_ortho = I just dey...
 1	I	I	PRON	_	_	3	subj	_	AlignBegin=13890|AlignEnd=14126
 2	just	just	ADV	_	_	3	mod	_	AlignBegin=14126|AlignEnd=14363
-3	dey	dey	AUX	_	_	0	root:scrap	_	AlignBegin=14363|AlignEnd=14600
+3	dey	dey	AUX	_	_	0	root@scrap	_	AlignBegin=14363|AlignEnd=14600
 4	&	&	PUNCT	_	_	3	punct	_	AlignBegin=14600|AlignEnd=14600
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=14600|AlignEnd=14600
 
@@ -125,7 +125,7 @@
 # text_ortho = Somebody just come...
 1	somebody	somebody	PRON	_	_	3	subj	_	AlignBegin=14600|AlignEnd=14933
 2	just	just	ADV	_	_	3	mod	_	AlignBegin=14933|AlignEnd=15266
-3	come	come	VERB	_	_	0	root:scrap	_	AlignBegin=15266|AlignEnd=15600
+3	come	come	VERB	_	_	0	root@scrap	_	AlignBegin=15266|AlignEnd=15600
 4	&	&	PUNCT	_	_	3	punct	_	AlignBegin=15600|AlignEnd=15600
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=15600|AlignEnd=15600
 
@@ -166,7 +166,7 @@
 # text = ah !//
 # text_en = Ah!
 # text_ortho = Ah!
-1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=18470|AlignEnd=19010
+1	ah	ah	ADJ	_	_	0	root	_	AlignBegin=18470|AlignEnd=19010
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=19010|AlignEnd=19010
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__14
@@ -174,13 +174,13 @@
 # text = I no dey work fan now ?//
 # text_en = Am I not repairing a fan now?
 # text_ortho = I no dey work fan now?
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=19535|AlignEnd=19723
-2	no	no	PART	_	_	3	mod	_	AlignBegin=19723|AlignEnd=19911
-3	dey	dey	AUX	_	_	0	root	_	AlignBegin=19911|AlignEnd=20100
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=19535|AlignEnd=19723
+2	no	no	AUX	_	_	0	root	_	AlignBegin=19723|AlignEnd=19911
+3	dey	dey	AUX	_	_	2	comp:aux	_	AlignBegin=19911|AlignEnd=20100
 4	work	work	VERB	_	_	3	comp:aux	_	AlignBegin=20100|AlignEnd=20288
-5	fan	fan	NOUN	_	_	4	mod	_	AlignBegin=20288|AlignEnd=20476
+5	fan	fan	NOUN	_	_	4	comp:obj	_	AlignBegin=20288|AlignEnd=20476
 6	now	now	ADV	_	_	4	mod	_	AlignBegin=20476|AlignEnd=20665
-7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=20665|AlignEnd=20665
+7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=20665|AlignEnd=20665
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__15
 # speaker_id = Sp104
@@ -189,8 +189,8 @@
 # text_ortho = Oga, you no...
 1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=19560|AlignEnd=19920
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=19920|AlignEnd=19920
-3	you	you	PRON	_	_	4	subj:scrap	_	AlignBegin=19920|AlignEnd=20280
-4	no	no	PART	_	_	0	root:scrap	_	AlignBegin=20280|AlignEnd=20640
+3	you	you	PRON	_	_	4	subj	_	AlignBegin=19920|AlignEnd=20280
+4	no	no	AUX	_	_	0	root@scrap	_	AlignBegin=20280|AlignEnd=20640
 5	&	&	PUNCT	_	_	4	punct	_	AlignBegin=20640|AlignEnd=20640
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=20640|AlignEnd=20640
 
@@ -209,19 +209,19 @@
 # text = oga < you no work //= oga < you no work anyting //
 # text_en = Sir, you didn't work. You didnt do anything.
 # text_ortho = Oga, you no work, oga, you no work anyting.
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=20705|AlignEnd=20988
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=20705|AlignEnd=20988
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=20988|AlignEnd=20988
-3	you	you	PRON	_	_	5	subj	_	AlignBegin=20988|AlignEnd=21272
-4	no	no	PART	_	_	5	mod	_	AlignBegin=21272|AlignEnd=21556
-5	work	work	VERB	_	_	0	root	_	AlignBegin=21556|AlignEnd=21840
-6	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=21840|AlignEnd=21840
-7	oga	oga	NOUN	_	_	11	vocative	_	AlignBegin=21840|AlignEnd=22124
+3	you	you	PRON	_	_	4	subj	_	AlignBegin=20988|AlignEnd=21272
+4	no	no	AUX	_	_	0	root	_	AlignBegin=21272|AlignEnd=21556
+5	work	work	VERB	_	_	4	comp:aux	_	AlignBegin=21556|AlignEnd=21840
+6	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=21840|AlignEnd=21840
+7	oga	oga	NOUN	_	_	10	vocative	_	AlignBegin=21840|AlignEnd=22124
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=22124|AlignEnd=22124
-9	you	you	PRON	_	_	11	subj	_	AlignBegin=22124|AlignEnd=22408
-10	no	no	PART	_	_	11	mod	_	AlignBegin=22408|AlignEnd=22692
-11	work	work	VERB	_	_	5	parataxis:conj	_	AlignBegin=22692|AlignEnd=22976
+9	you	you	PRON	_	_	10	subj	_	AlignBegin=22124|AlignEnd=22408
+10	no	no	AUX	_	_	4	parataxis:conj	_	AlignBegin=22408|AlignEnd=22692
+11	work	work	VERB	_	_	10	comp:aux	_	AlignBegin=22692|AlignEnd=22976
 12	anyting	anyting	PRON	_	_	11	comp:obj	_	AlignBegin=22976|AlignEnd=23260
-13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=23260|AlignEnd=23260
+13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=23260|AlignEnd=23260
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__18
 # speaker_id = Sp103
@@ -238,32 +238,32 @@
 # text = you no work //
 # text_en = You didn't work.
 # text_ortho = You no work.
-1	you	you	PRON	_	_	3	subj	_	AlignBegin=24130|AlignEnd=24340
-2	no	no	PART	_	_	3	mod	_	AlignBegin=24340|AlignEnd=24550
-3	work	work	VERB	_	_	0	root	_	AlignBegin=24550|AlignEnd=24760
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=24760|AlignEnd=24760
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=24130|AlignEnd=24340
+2	no	no	AUX	_	_	0	root	_	AlignBegin=24340|AlignEnd=24550
+3	work	work	VERB	_	_	2	comp:aux	_	AlignBegin=24550|AlignEnd=24760
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=24760|AlignEnd=24760
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__20
 # speaker_id = Sp103
 # text = once you bring { she~ || work } for my shed < I no work ?//
 # text_en = Once you bring a work to my shop, I didn't work?
 # text_ortho = Once you bring she-... work for my shed, I no work?
-1	once	once	SCONJ	_	_	15	mod:periph	_	AlignBegin=24985|AlignEnd=25192
+1	once	once	SCONJ	_	_	14	mod:periph	_	AlignBegin=24985|AlignEnd=25192
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=25192|AlignEnd=25399
 3	bring	bring	VERB	_	_	1	comp:obj	_	AlignBegin=25399|AlignEnd=25606
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=25606|AlignEnd=25606
 5	she~	X	X	_	_	3	comp:obj	_	AlignBegin=25606|AlignEnd=25814
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=25814|AlignEnd=25814
-7	work	work	VERB	_	_	5	conj:dicto	_	AlignBegin=25814|AlignEnd=26021
+7	work	work	NOUN	_	_	5	conj:dicto	_	AlignBegin=25814|AlignEnd=26021
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=26021|AlignEnd=26021
 9	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=26021|AlignEnd=26228
 10	my	my	PRON	_	_	11	mod:poss	_	AlignBegin=26228|AlignEnd=26435
 11	shed	shed	NOUN	_	_	9	comp:obj	_	AlignBegin=26435|AlignEnd=26643
 12	<	<	PUNCT	_	_	1	punct	_	AlignBegin=26643|AlignEnd=26643
-13	I	I	PRON	_	_	15	subj	_	AlignBegin=26643|AlignEnd=26850
-14	no	no	PART	_	_	15	mod	_	AlignBegin=26850|AlignEnd=27057
-15	work	work	VERB	_	_	0	root	_	AlignBegin=27057|AlignEnd=27265
-16	?//	?//	PUNCT	_	_	15	punct	_	AlignBegin=27265|AlignEnd=27265
+13	I	I	PRON	_	_	14	subj	_	AlignBegin=26643|AlignEnd=26850
+14	no	no	AUX	_	_	0	root	_	AlignBegin=26850|AlignEnd=27057
+15	work	work	NOUN	_	_	14	comp:aux	_	AlignBegin=27057|AlignEnd=27265
+16	?//	?//	PUNCT	_	_	14	punct	_	AlignBegin=27265|AlignEnd=27265
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__21
 # speaker_id = Sp104
@@ -274,7 +274,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=27644|AlignEnd=27644
 3	di	di	DET	_	_	4	det	_	AlignBegin=27644|AlignEnd=27908
 4	time	time	NOUN	_	_	13	mod:periph	_	AlignBegin=27908|AlignEnd=28172
-5	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=28172|AlignEnd=28436
+5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=28172|AlignEnd=28436
 6	I	I	PRON	_	_	7	subj	_	AlignBegin=28436|AlignEnd=28700
 7	come	come	VERB	_	_	5	comp:obj	_	AlignBegin=28700|AlignEnd=28964
 8	back	back	ADV	_	_	7	mod	_	AlignBegin=28964|AlignEnd=29228
@@ -282,8 +282,8 @@
 10	oga	oga	NOUN	_	_	13	vocative	_	AlignBegin=29228|AlignEnd=29492
 11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=29492|AlignEnd=29492
 12	you	you	PRON	_	_	13	subj	_	AlignBegin=29492|AlignEnd=29756
-13	dey	dey	VERB	_	_	0	root	_	AlignBegin=29756|AlignEnd=30020
-14	neat	neat	ADJ	_	_	13	comp:pred	_	AlignBegin=30020|AlignEnd=30285
+13	dey	dey	AUX	_	_	0	root	_	AlignBegin=29756|AlignEnd=30020
+14	neat	neat	VERB	_	_	13	comp:aux	_	AlignBegin=30020|AlignEnd=30285
 15	//	//	PUNCT	_	_	13	punct	_	AlignBegin=30285|AlignEnd=30285
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__22
@@ -291,7 +291,7 @@
 # text = hm //
 # text_en = Hm.
 # text_ortho = Hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=29560|AlignEnd=30210
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=29560|AlignEnd=30210
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=30210|AlignEnd=30210
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__23
@@ -299,7 +299,7 @@
 # text = ah !//
 # text_en = Ah!
 # text_ortho = Ah!
-1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=30440|AlignEnd=31130
+1	ah	ah	ADJ	_	_	0	root	_	AlignBegin=30440|AlignEnd=31130
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=31130|AlignEnd=31130
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__24
@@ -307,11 +307,11 @@
 # text = you no change cloth //
 # text_en = You didn't change your cloth.
 # text_ortho = You no change cloth.
-1	you	you	PRON	_	_	3	subj	_	AlignBegin=30475|AlignEnd=30763
-2	no	no	PART	_	_	3	mod	_	AlignBegin=30763|AlignEnd=31052
-3	change	change	VERB	_	_	0	root	_	AlignBegin=31052|AlignEnd=31341
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=30475|AlignEnd=30763
+2	no	no	AUX	_	_	0	root	_	AlignBegin=30763|AlignEnd=31052
+3	change	change	VERB	_	_	2	comp:aux	_	AlignBegin=31052|AlignEnd=31341
 4	cloth	cloth	NOUN	_	_	3	comp:obj	_	AlignBegin=31341|AlignEnd=31630
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=31630|AlignEnd=31630
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=31630|AlignEnd=31630
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__25
 # speaker_id = Sp103
@@ -327,7 +327,7 @@
 # text = ehn ?//
 # text_en = Ehn?
 # text_ortho = Ehn?
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=32180|AlignEnd=32650
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=32180|AlignEnd=32650
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=32650|AlignEnd=32650
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__27
@@ -336,11 +336,11 @@
 # text_en = I will...
 # text_ortho = I go..., I no...
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=32970|AlignEnd=33207
-2	go	go	AUX	_	_	0	root:scrap	_	AlignBegin=33207|AlignEnd=33445
+2	go	go	AUX	_	_	0	root@scrap	_	AlignBegin=33207|AlignEnd=33445
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=33445|AlignEnd=33445
 4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=33445|AlignEnd=33445
 5	I	I	PRON	_	_	6	subj	_	AlignBegin=33445|AlignEnd=33682
-6	no	no	PART	_	_	2	conj:dicto@scrap	_	AlignBegin=33682|AlignEnd=33920
+6	no	no	AUX	_	_	2	conj:dicto	_	AlignBegin=33682|AlignEnd=33920
 7	&	&	PUNCT	_	_	2	punct	_	AlignBegin=33920|AlignEnd=33920
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=33920|AlignEnd=33920
 
@@ -349,23 +349,23 @@
 # text = oga < you dey neat //= your hand dey neat //= everywhere < { neat |r neat } //
 # text_en = Boss, you were neat. Your hand was neat. Everywhere, was very neat.
 # text_ortho = Oga, you dey neat, your hand dey neat, everywhere, neat, neat.
-1	oga	oga	NOUN	_	_	4	dislocated	_	AlignBegin=32980|AlignEnd=33273
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=32980|AlignEnd=33273
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=33273|AlignEnd=33273
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=33273|AlignEnd=33567
-4	dey	dey	VERB	_	_	0	root	_	AlignBegin=33567|AlignEnd=33860
-5	neat	neat	ADJ	_	_	4	comp:pred	_	AlignBegin=33860|AlignEnd=34154
+4	dey	dey	AUX	_	_	0	root	_	AlignBegin=33567|AlignEnd=33860
+5	neat	neat	VERB	_	_	4	comp:aux	_	AlignBegin=33860|AlignEnd=34154
 6	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=34154|AlignEnd=34154
 7	your	your	PRON	_	_	8	mod:poss	_	AlignBegin=34154|AlignEnd=34448
 8	hand	hand	NOUN	_	_	9	subj	_	AlignBegin=34448|AlignEnd=34741
 9	dey	dey	AUX	_	_	4	parataxis:conj	_	AlignBegin=34741|AlignEnd=35035
-10	neat	neat	ADJ	_	_	9	comp:pred	_	AlignBegin=35035|AlignEnd=35329
+10	neat	neat	VERB	_	_	9	comp:aux	_	AlignBegin=35035|AlignEnd=35329
 11	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=35329|AlignEnd=35329
 12	everywhere	everywhere	ADV	_	_	15	mod:periph	_	AlignBegin=35329|AlignEnd=35622
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=35622|AlignEnd=35622
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=35622|AlignEnd=35622
-15	neat	neat	ADJ	_	_	9	parataxis:conj	_	AlignBegin=35622|AlignEnd=35916
+15	neat	neat	VERB	_	_	9	parataxis:conj	_	AlignBegin=35622|AlignEnd=35916
 16	|r	|r	PUNCT	_	_	17	punct	_	AlignBegin=35916|AlignEnd=35916
-17	neat	neat	ADJ	_	_	15	compound:redup	_	AlignBegin=35916|AlignEnd=36210
+17	neat	neat	PART	_	_	15	compound:redup	_	AlignBegin=35916|AlignEnd=36210
 18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=36210|AlignEnd=36210
 19	//	//	PUNCT	_	_	4	punct	_	AlignBegin=36210|AlignEnd=36210
 
@@ -375,7 +375,7 @@
 # text_en = I will...
 # text_ortho = I go...
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=35020|AlignEnd=35650
-2	go	go	AUX	_	_	0	root:scrap	_	AlignBegin=35650|AlignEnd=36280
+2	go	go	AUX	_	_	0	root@scrap	_	AlignBegin=35650|AlignEnd=36280
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=36280|AlignEnd=36280
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=36280|AlignEnd=36280
 
@@ -384,18 +384,18 @@
 # text = no I & //
 # text_en = No I...
 # text_ortho = No I...
-1	no	no	PART	_	_	2	discourse	_	AlignBegin=36435|AlignEnd=36700
-2	I	I	PRON	_	_	0	root:scrap	_	AlignBegin=36700|AlignEnd=36965
-3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=36965|AlignEnd=36965
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=36965|AlignEnd=36965
+1	no	no	PART	_	_	0	root@scrap	_	AlignBegin=36435|AlignEnd=36700
+2	I	I	PRON	_	_	1	comp:pred@scrap	_	AlignBegin=36700|AlignEnd=36965
+3	&	&	PUNCT	_	_	1	punct	_	AlignBegin=36965|AlignEnd=36965
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=36965|AlignEnd=36965
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__31
 # speaker_id = Sp104
 # text = you no & //
 # text_en = You didn't...
 # text_ortho = You no...
-1	you	you	PRON	_	_	2	subj:scrap	_	AlignBegin=36450|AlignEnd=36705
-2	no	no	PART	_	_	0	root:scrap	_	AlignBegin=36705|AlignEnd=36960
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=36450|AlignEnd=36705
+2	no	no	AUX	_	_	0	root@scrap	_	AlignBegin=36705|AlignEnd=36960
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=36960|AlignEnd=36960
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=36960|AlignEnd=36960
 
@@ -404,17 +404,17 @@
 # text = no I dey //
 # text_en = No I was...
 # text_ortho = No I dey.
-1	no	no	PART	_	_	3	discourse	_	AlignBegin=37135|AlignEnd=37323
+1	no	no	PART	_	_	0	root	_	AlignBegin=37135|AlignEnd=37323
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=37323|AlignEnd=37511
-3	dey	dey	VERB	_	_	0	root	_	AlignBegin=37511|AlignEnd=37700
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=37700|AlignEnd=37700
+3	dey	dey	VERB	_	_	1	comp:cleft	_	AlignBegin=37511|AlignEnd=37700
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=37700|AlignEnd=37700
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__33
 # speaker_id = Sp104
 # text = okay < how you take work ?//
 # text_en = Okay, how did you work?
 # text_ortho = Okay, how you take work,
-1	okay	okay	INTJ	_	_	3	discourse	_	AlignBegin=37240|AlignEnd=37506
+1	okay	OK	ADJ	_	_	3	discourse	_	AlignBegin=37240|AlignEnd=37506
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=37506|AlignEnd=37506
 3	how	how	ADV	_	_	0	root	_	AlignBegin=37506|AlignEnd=37772
 4	you	you	PRON	_	_	5	subj	_	AlignBegin=37772|AlignEnd=38038
@@ -427,7 +427,7 @@
 # text = XX //
 # text_en = X.
 # text_ortho = Xx.
-1	XX	XX	NUM	_	_	0	root	_	AlignBegin=37700|AlignEnd=38355
+1	XX	XX	NUM	_	_	0	root@scrap	_	AlignBegin=37700|AlignEnd=38355
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=38355|AlignEnd=38355
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__35
@@ -436,10 +436,10 @@
 # text_en = Tell me how did you work.
 # text_ortho = Tell me how you take work.
 1	tell	tell	VERB	_	_	0	root	_	AlignBegin=38570|AlignEnd=38758
-2	me	me	PRON	_	_	1	comp:obj	_	AlignBegin=38758|AlignEnd=38946
+2	me	me	PRON	_	_	1	comp:obl	_	AlignBegin=38758|AlignEnd=38946
 3	how	how	ADV	_	_	1	comp:obj	_	AlignBegin=38946|AlignEnd=39135
 4	you	you	PRON	_	_	5	subj	_	AlignBegin=39135|AlignEnd=39323
-5	take	take	VERB	_	_	3	mod:relcl	_	AlignBegin=39323|AlignEnd=39511
+5	take	take	VERB	_	_	3	mod@relcl	_	AlignBegin=39323|AlignEnd=39511
 6	work	work	NOUN	_	_	5	comp:obj	_	AlignBegin=39511|AlignEnd=39700
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=39700|AlignEnd=39700
 
@@ -448,7 +448,7 @@
 # text = if I change my cloth < I suppose dey under motor now ?//
 # text_en = If I changed my cloth, I', supposed to be under the car.
 # text_ortho = If I change my cloth, I suppose dey under motor now?
-1	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=39505|AlignEnd=39725
+1	if	if	SCONJ	_	_	8	mod:periph$cond	_	AlignBegin=39505|AlignEnd=39725
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=39725|AlignEnd=39946
 3	change	change	VERB	_	_	1	comp:obj	_	AlignBegin=39946|AlignEnd=40167
 4	my	my	PRON	_	_	5	mod:poss	_	AlignBegin=40167|AlignEnd=40388
@@ -467,7 +467,7 @@
 # text = ehn //
 # text_en = Ehn.
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=40525|AlignEnd=40995
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=40525|AlignEnd=40995
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=40995|AlignEnd=40995
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__38
@@ -475,32 +475,32 @@
 # text = ehn even if you dey enter inside engine wan work < even na for fridge >+ wey im dey do < you for change cloth //
 # text_en = Ehn, even if you are entering inside the engine because you want to work, even if it's in the fridge you were doing, you would have changed your cloth.
 # text_ortho = Ehn even if you dey enter inside engine wan work, even na for fridge wey im dey do, you for change cloth.
-1	ehn	ehn	INTJ	_	_	23	discourse	_	AlignBegin=42010|AlignEnd=42278
+1	ehn	ehn	ADJ	_	_	13	discourse	_	AlignBegin=42010|AlignEnd=42278
 2	even	even	ADV	_	_	3	mod	_	AlignBegin=42278|AlignEnd=42547
-3	if	if	SCONJ	_	_	23	mod:periph	_	AlignBegin=42547|AlignEnd=42815
+3	if	if	SCONJ	_	_	13	mod:periph$cond	_	AlignBegin=42547|AlignEnd=42815
 4	you	you	PRON	_	_	5	subj	_	AlignBegin=42815|AlignEnd=43084
 5	dey	dey	AUX	_	_	3	comp:obj	_	AlignBegin=43084|AlignEnd=43353
 6	enter	enter	VERB	_	_	5	comp:aux	_	AlignBegin=43353|AlignEnd=43621
 7	inside	inside	ADP	_	_	6	comp:obl	_	AlignBegin=43621|AlignEnd=43890
-8	engine	engine	NOUN	_	_	9	comp:obj	_	AlignBegin=43890|AlignEnd=44159
-9	wan	wan	VERB	_	_	6	mod	_	AlignBegin=44159|AlignEnd=44427
-10	work	work	NOUN	_	_	9	comp:obj	_	AlignBegin=44427|AlignEnd=44696
+8	engine	engine	NOUN	_	_	7	comp:obj	_	AlignBegin=43890|AlignEnd=44159
+9	wan	want	VERB	_	_	6	comp:obl$percep@x	_	AlignBegin=44159|AlignEnd=44427
+10	work	work	NOUN	_	_	6	comp:obj	_	AlignBegin=44427|AlignEnd=44696
 11	<	<	PUNCT	_	_	3	punct	_	AlignBegin=44696|AlignEnd=44696
 12	even	even	ADV	_	_	13	mod	_	AlignBegin=44696|AlignEnd=44965
-13	na	na	PART	_	_	23	discourse	_	AlignBegin=44965|AlignEnd=45233
+13	na	na	PART	_	_	0	root	_	AlignBegin=44965|AlignEnd=45233
 14	for	for	ADP	_	_	13	comp:pred	_	AlignBegin=45233|AlignEnd=45502
 15	fridge	fridge	NOUN	_	_	14	comp:obj	_	AlignBegin=45502|AlignEnd=45770
 16	>+	>+	PUNCT	_	_	17	punct	_	AlignBegin=45770|AlignEnd=45770
-17	wey	wey	SCONJ	_	_	13	comp:cleft	_	AlignBegin=45770|AlignEnd=46039
+17	wey	when	SCONJ	_	_	13	comp:cleft	_	AlignBegin=45770|AlignEnd=46039
 18	im	im	PRON	_	_	19	subj	_	AlignBegin=46039|AlignEnd=46308
 19	dey	dey	AUX	_	_	17	comp:obj	_	AlignBegin=46308|AlignEnd=46576
 20	do	do	VERB	_	_	19	comp:aux	_	AlignBegin=46576|AlignEnd=46845
-21	<	<	PUNCT	_	_	13	punct	_	AlignBegin=46845|AlignEnd=46845
+21	<	<	PUNCT	_	_	23	punct	_	AlignBegin=46845|AlignEnd=46845
 22	you	you	PRON	_	_	23	subj	_	AlignBegin=46845|AlignEnd=47114
-23	for	for	AUX	_	_	0	root	_	AlignBegin=47114|AlignEnd=47382
-24	change	change	VERB	_	_	25	compound	_	AlignBegin=47382|AlignEnd=47651
-25	cloth	cloth	NOUN	_	_	23	comp:obj	_	AlignBegin=47651|AlignEnd=47920
-26	//	//	PUNCT	_	_	23	punct	_	AlignBegin=47920|AlignEnd=47920
+23	for	for	AUX	_	_	13	comp:cleft	_	AlignBegin=47114|AlignEnd=47382
+24	change	change	VERB	_	_	23	comp:aux	_	AlignBegin=47382|AlignEnd=47651
+25	cloth	cloth	NOUN	_	_	24	comp:obj	_	AlignBegin=47651|AlignEnd=47920
+26	//	//	PUNCT	_	_	13	punct	_	AlignBegin=47920|AlignEnd=47920
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__39
 # speaker_id = Sp103
@@ -508,7 +508,7 @@
 # text_en = So if...
 # text_ortho = So if...
 1	so	so	ADV	_	_	2	discourse	_	AlignBegin=42640|AlignEnd=43115
-2	if	if	SCONJ	_	_	0	root:scrap	_	AlignBegin=43115|AlignEnd=43590
+2	if	if	SCONJ	_	_	0	root@scrap	_	AlignBegin=43115|AlignEnd=43590
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=43590|AlignEnd=43590
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=43590|AlignEnd=43590
 
@@ -520,9 +520,9 @@
 1	na	na	PART	_	_	0	root	_	AlignBegin=48030|AlignEnd=48202
 2	me	me	PRON	_	_	1	comp:pred	_	AlignBegin=48202|AlignEnd=48375
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=48375|AlignEnd=48375
-4	wey	wey	SCONJ	_	_	1	comp:cleft	_	AlignBegin=48375|AlignEnd=48548
-5	no	no	PART	_	_	6	mod	_	AlignBegin=48548|AlignEnd=48721
-6	dey	dey	AUX	_	_	4	comp:obj	_	AlignBegin=48721|AlignEnd=48894
+4	wey	when	SCONJ	_	_	1	comp:cleft	_	AlignBegin=48375|AlignEnd=48548
+5	no	no	AUX	_	_	4	comp:obj	_	AlignBegin=48548|AlignEnd=48721
+6	dey	dey	AUX	_	_	5	comp:aux	_	AlignBegin=48721|AlignEnd=48894
 7	change	change	VERB	_	_	6	comp:aux	_	AlignBegin=48894|AlignEnd=49067
 8	cloth	cloth	NOUN	_	_	7	comp:obj	_	AlignBegin=49067|AlignEnd=49240
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=49240|AlignEnd=49240
@@ -535,13 +535,13 @@
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=49240|AlignEnd=49381
 2	know	know	VERB	_	_	0	root	_	AlignBegin=49381|AlignEnd=49522
 3	sey	sey	SCONJ	_	_	2	comp:obj	_	AlignBegin=49522|AlignEnd=49663
-4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=49663|AlignEnd=49663
-5	I	I	PRON	_	_	7	subj	_	AlignBegin=49663|AlignEnd=49805
-6	no	no	PART	_	_	7	mod	_	AlignBegin=49805|AlignEnd=49946
-7	dey	dey	AUX	_	_	3	comp:obj	_	AlignBegin=49946|AlignEnd=50087
+4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=49663|AlignEnd=49663
+5	I	I	PRON	_	_	6	subj	_	AlignBegin=49663|AlignEnd=49805
+6	no	no	AUX	_	_	3	comp:obj	_	AlignBegin=49805|AlignEnd=49946
+7	dey	dey	AUX	_	_	6	comp:aux	_	AlignBegin=49946|AlignEnd=50087
 8	change	change	VERB	_	_	7	comp:aux	_	AlignBegin=50087|AlignEnd=50228
 9	cloth	cloth	NOUN	_	_	8	comp:obj	_	AlignBegin=50228|AlignEnd=50370
-10	]	]	PUNCT	_	_	7	punct	_	AlignBegin=50370|AlignEnd=50370
+10	]	]	PUNCT	_	_	6	punct	_	AlignBegin=50370|AlignEnd=50370
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=50370|AlignEnd=50370
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__42
@@ -558,14 +558,14 @@
 # text = if you wan climb up go mount ehn dish for dis ting < & //
 # text_en = If you want to climb up to mount a dish for eh this thing...
 # text_ortho = If you wan climb up go mount ehn dish for dis ting...
-1	if	if	SCONJ	_	_	0	root:scrap	_	AlignBegin=50730|AlignEnd=51032
+1	if	if	SCONJ	_	_	0	root@scrap	_	AlignBegin=50730|AlignEnd=51032
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=51032|AlignEnd=51334
-3	wan	wan	VERB	_	_	1	comp:obj	_	AlignBegin=51334|AlignEnd=51636
-4	climb	climb	VERB	_	_	3	comp:obj@x	_	AlignBegin=51636|AlignEnd=51938
+3	wan	want	VERB	_	_	1	comp:obj	_	AlignBegin=51334|AlignEnd=51636
+4	climb	climb	VERB	_	_	3	comp:obj$desire@x	_	AlignBegin=51636|AlignEnd=51938
 5	up	up	ADP	_	_	4	compound:prt	_	AlignBegin=51938|AlignEnd=52240
 6	go	go	VERB	_	_	4	compound:svc	_	AlignBegin=52240|AlignEnd=52542
-7	mount	mount	VERB	_	_	6	comp:obj@x	_	AlignBegin=52542|AlignEnd=52844
-8	ehn	ehn	INTJ	_	_	9	discourse	_	AlignBegin=52844|AlignEnd=53146
+7	mount	mount	VERB	_	_	6	compound:svc$purp	_	AlignBegin=52542|AlignEnd=52844
+8	ehn	ehn	ADJ	_	_	9	discourse	_	AlignBegin=52844|AlignEnd=53146
 9	dish	dish	NOUN	_	_	7	comp:obj	_	AlignBegin=53146|AlignEnd=53448
 10	for	for	ADP	_	_	7	comp:obl	_	AlignBegin=53448|AlignEnd=53750
 11	dis	dis	DET	_	_	12	det	_	AlignBegin=53750|AlignEnd=54052
@@ -594,7 +594,7 @@
 # text = ehn //
 # text_en = ehn ehen!
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=56145|AlignEnd=58555
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=56145|AlignEnd=58555
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=58555|AlignEnd=58555
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__46
@@ -602,12 +602,12 @@
 # text = I no dey change cloth //
 # text_en = I do not change clothes.
 # text_ortho = I no dey change cloth.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=56490|AlignEnd=56722
-2	no	no	PART	_	_	3	mod	_	AlignBegin=56722|AlignEnd=56954
-3	dey	dey	AUX	_	_	0	root	_	AlignBegin=56954|AlignEnd=57186
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=56490|AlignEnd=56722
+2	no	no	AUX	_	_	0	root	_	AlignBegin=56722|AlignEnd=56954
+3	dey	dey	AUX	_	_	2	comp:aux	_	AlignBegin=56954|AlignEnd=57186
 4	change	change	VERB	_	_	3	comp:aux	_	AlignBegin=57186|AlignEnd=57418
 5	cloth	cloth	NOUN	_	_	4	comp:obj	_	AlignBegin=57418|AlignEnd=57650
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=57650|AlignEnd=57650
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=57650|AlignEnd=57650
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__47
 # speaker_id = Sp104
@@ -626,13 +626,13 @@
 # text = okay me < if I wan enter inside motor < { I dey || I dey loo~ || I dey loose } & //
 # text_en = Okay, me, if I want to enter inside a car, I... I loo-... I loose...
 # text_ortho = Okay me, if I wan enter inside motor, I dey, I dey loo-... I dey loose...
-1	okay	okay	INTJ	_	_	13	discourse	_	AlignBegin=58995|AlignEnd=59174
+1	okay	OK	SCONJ	_	_	13	discourse	_	AlignBegin=58995|AlignEnd=59174
 2	me	me	PRON	_	_	13	dislocated	_	AlignBegin=59174|AlignEnd=59354
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=59354|AlignEnd=59354
-4	if	if	SCONJ	_	_	13	mod:periph	_	AlignBegin=59354|AlignEnd=59534
+4	if	if	SCONJ	_	_	13	mod:periph$cond	_	AlignBegin=59354|AlignEnd=59534
 5	I	I	PRON	_	_	6	subj	_	AlignBegin=59534|AlignEnd=59713
-6	wan	wan	VERB	_	_	4	comp:obj	_	AlignBegin=59713|AlignEnd=59893
-7	enter	enter	VERB	_	_	6	comp:obj@x	_	AlignBegin=59893|AlignEnd=60073
+6	wan	want	VERB	_	_	4	comp:obj	_	AlignBegin=59713|AlignEnd=59893
+7	enter	enter	VERB	_	_	6	comp:obj$desire@x	_	AlignBegin=59893|AlignEnd=60073
 8	inside	inside	ADP	_	_	7	comp:obl	_	AlignBegin=60073|AlignEnd=60252
 9	motor	motor	NOUN	_	_	8	comp:obj	_	AlignBegin=60252|AlignEnd=60432
 10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=60432|AlignEnd=60432
@@ -664,9 +664,9 @@
 # text = if I wan AC < I dey loose my pant //
 # text_en = If I want the AC, I loosen my pant.
 # text_ortho = If I wan AC, I dey loose my pant.
-1	if	if	SCONJ	_	_	7	mod:periph	_	AlignBegin=61870|AlignEnd=62117
+1	if	if	SCONJ	_	_	7	mod:periph$cond	_	AlignBegin=61870|AlignEnd=62117
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=62117|AlignEnd=62365
-3	wan	wan	VERB	_	_	1	comp:obj	_	AlignBegin=62365|AlignEnd=62613
+3	wan	want	VERB	_	_	1	comp:obj	_	AlignBegin=62365|AlignEnd=62613
 4	AC	AC	NOUN	_	_	3	comp:obj	_	AlignBegin=62613|AlignEnd=62861
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=62861|AlignEnd=62861
 6	I	I	PRON	_	_	7	subj	_	AlignBegin=62861|AlignEnd=63108
@@ -694,7 +694,7 @@
 # text = ah !//
 # text_en = Ah! haha.
 # text_ortho = Ah,
-1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=64240|AlignEnd=65075
+1	ah	ah	ADJ	_	_	0	root	_	AlignBegin=64240|AlignEnd=65075
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=65075|AlignEnd=65075
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__53
@@ -713,7 +713,7 @@
 # text = if you dey wo~ & //
 # text_en = If you are wo-...
 # text_ortho = If you dey wo-...
-1	if	if	SCONJ	_	_	0	root:scrap	_	AlignBegin=65611|AlignEnd=65830
+1	if	if	SCONJ	_	_	0	root@scrap	_	AlignBegin=65611|AlignEnd=65830
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=65830|AlignEnd=66050
 3	dey	dey	AUX	_	_	1	comp:obj	_	AlignBegin=66050|AlignEnd=66270
 4	wo~	X	X	_	_	3	comp:aux	_	AlignBegin=66270|AlignEnd=66490
@@ -725,7 +725,7 @@
 # text = aha !//
 # text_en = Ah.
 # text_ortho = Aha!
-1	aha	aha	INTJ	_	_	0	root	_	AlignBegin=66490|AlignEnd=67080
+1	aha	aha	ADJ	_	_	0	root	_	AlignBegin=66490|AlignEnd=67080
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=67080|AlignEnd=67080
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__56
@@ -737,8 +737,8 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=66753|AlignEnd=66753
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=66753|AlignEnd=67016
 4	get	get	VERB	_	_	0	root	_	AlignBegin=67016|AlignEnd=67280
-5	ehm	ehm	INTJ	_	_	7	discourse	_	AlignBegin=67280|AlignEnd=67543
-6	working	work	VERB	_	_	7	compound	_	AlignBegin=67543|AlignEnd=67806
+5	ehm	ehm	ADJ	_	_	7	discourse	_	AlignBegin=67280|AlignEnd=67543
+6	working	work	VERB	_	_	7	mod	_	AlignBegin=67543|AlignEnd=67806
 7	cloth	cloth	NOUN	_	_	4	comp:obj	_	AlignBegin=67806|AlignEnd=68070
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=68070|AlignEnd=68070
 
@@ -756,22 +756,22 @@
 # text = me < I no get //
 # text_en = Me, I don't have.
 # text_ortho = Me, I no get.
-1	me	me	PRON	_	_	5	dislocated	_	AlignBegin=68070|AlignEnd=68373
+1	me	me	PRON	_	_	4	dislocated	_	AlignBegin=68070|AlignEnd=68373
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=68373|AlignEnd=68373
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=68373|AlignEnd=68677
-4	no	no	PART	_	_	5	mod	_	AlignBegin=68677|AlignEnd=68981
-5	get	get	VERB	_	_	0	root	_	AlignBegin=68981|AlignEnd=69285
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=69285|AlignEnd=69285
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=68373|AlignEnd=68677
+4	no	no	AUX	_	_	0	root	_	AlignBegin=68677|AlignEnd=68981
+5	get	get	VERB	_	_	4	comp:aux	_	AlignBegin=68981|AlignEnd=69285
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=69285|AlignEnd=69285
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__59
 # speaker_id = Sp103
 # text = I no get //
 # text_en = I don't have.
 # text_ortho = I no get.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=68600|AlignEnd=68840
-2	no	no	PART	_	_	3	mod	_	AlignBegin=68840|AlignEnd=69080
-3	get	get	VERB	_	_	0	root	_	AlignBegin=69080|AlignEnd=69320
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=69320|AlignEnd=69320
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=68600|AlignEnd=68840
+2	no	no	AUX	_	_	0	root	_	AlignBegin=68840|AlignEnd=69080
+3	get	get	VERB	_	_	2	comp:aux	_	AlignBegin=69080|AlignEnd=69320
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=69320|AlignEnd=69320
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__60
 # speaker_id = Sp104
@@ -781,7 +781,7 @@
 1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=69310|AlignEnd=69660
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=69660|AlignEnd=69660
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=69660|AlignEnd=70010
-4	get	get	VERB	_	_	0	root:scrap	_	AlignBegin=70010|AlignEnd=70360
+4	get	get	VERB	_	_	0	root@scrap	_	AlignBegin=70010|AlignEnd=70360
 5	&	&	PUNCT	_	_	4	punct	_	AlignBegin=70360|AlignEnd=70360
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=70360|AlignEnd=70360
 
@@ -791,7 +791,7 @@
 # text_en = I... I... I...
 # text_ortho = I, I, I...
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=69320|AlignEnd=69320
-2	I	I	PRON	_	_	0	root:scrap	_	AlignBegin=69320|AlignEnd=69756
+2	I	I	PRON	_	_	0	root@scrap	_	AlignBegin=69320|AlignEnd=69756
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=69756|AlignEnd=69756
 4	I	I	PRON	_	_	2	conj:dicto	_	AlignBegin=69756|AlignEnd=70193
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=70193|AlignEnd=70193
@@ -805,8 +805,8 @@
 # text = okay ngwa < wetin you do ?//
 # text_en = Okay, then what did you do?
 # text_ortho = Okay ngwa, wetin you do?
-1	okay	okay	INTJ	_	_	4	discourse	_	AlignBegin=70360|AlignEnd=70666
-2	ngwa	ngwa	INTJ	_	_	4	discourse	_	AlignBegin=70666|AlignEnd=70972
+1	okay	OK	ADJ	_	_	4	discourse	_	AlignBegin=70360|AlignEnd=70666
+2	ngwa	ngwa	NOUN	_	_	4	discourse	_	AlignBegin=70666|AlignEnd=70972
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=70972|AlignEnd=70972
 4	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=70972|AlignEnd=71278
 5	you	you	PRON	_	_	6	subj	_	AlignBegin=71278|AlignEnd=71584
@@ -820,8 +820,8 @@
 # text_ortho = You tell me sey you work.
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=72000|AlignEnd=72175
 2	tell	tell	VERB	_	_	0	root	_	AlignBegin=72175|AlignEnd=72350
-3	me	me	PRON	_	_	2	comp:obj	_	AlignBegin=72350|AlignEnd=72525
-4	sey	sey	SCONJ	_	_	2	comp:obj	_	AlignBegin=72525|AlignEnd=72700
+3	me	me	PRON	_	_	2	comp:obl	_	AlignBegin=72350|AlignEnd=72525
+4	sey	sey	SCONJ	_	_	2	comp:obj$utter	_	AlignBegin=72525|AlignEnd=72700
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=72700|AlignEnd=72700
 6	you	you	PRON	_	_	7	subj	_	AlignBegin=72700|AlignEnd=72875
 7	work	work	VERB	_	_	4	comp:obj	_	AlignBegin=72875|AlignEnd=73050
@@ -843,7 +843,7 @@
 # text = okay !//
 # text_en = Okay.
 # text_ortho = Okay,
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=73100|AlignEnd=73840
+1	okay	OK	INTJ	_	_	0	root	_	AlignBegin=73100|AlignEnd=73840
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=73840|AlignEnd=73840
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__66
@@ -851,11 +851,11 @@
 # text = e get one woman wey just dey here < ( I just dey { inside || under } di motor //= di woman just dey on top } < if I tell am sey [ bring spanner ] < she go bring spanner //
 # text_en = There was one woman who was just here, I was just inside... under the car. The woman was just on top, If I tell her to bring to bring a spanner, she will bring a spanner.
 # text_ortho = E get one woman wey just dey here, ( I just dey inside, under di motor, di woman just dey on top, if I tell am sey bring spanner, she go bring spanner.
-1	e	im	PRON	_	_	2	subj:expl	_	AlignBegin=73840|AlignEnd=74067
+1	e	hen	PRON	_	_	2	subj@expl	_	AlignBegin=73840|AlignEnd=74067
 2	get	get	VERB	_	_	41	parataxis:discourse	_	AlignBegin=74067|AlignEnd=74295
 3	one	one	DET	_	_	4	det	_	AlignBegin=74295|AlignEnd=74523
 4	woman	woman	NOUN	_	_	2	comp:obj@agent	_	AlignBegin=74523|AlignEnd=74751
-5	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=74751|AlignEnd=74979
+5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=74751|AlignEnd=74979
 6	just	just	ADV	_	_	7	mod	_	AlignBegin=74979|AlignEnd=75206
 7	dey	dey	VERB	_	_	5	comp:obj	_	AlignBegin=75206|AlignEnd=75434
 8	here	here	ADV	_	_	7	comp:pred	_	AlignBegin=75434|AlignEnd=75662
@@ -863,7 +863,7 @@
 10	(	(	PUNCT	_	_	13	punct	_	AlignBegin=75662|AlignEnd=75662
 11	I	I	PRON	_	_	13	subj	_	AlignBegin=75662|AlignEnd=75890
 12	just	just	ADV	_	_	13	mod	_	AlignBegin=75890|AlignEnd=76118
-13	dey	dey	VERB	_	_	8	parataxis:parenth	_	AlignBegin=76118|AlignEnd=76345
+13	dey	dey	VERB	_	_	2	parataxis:discourse	_	AlignBegin=76118|AlignEnd=76345
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=76345|AlignEnd=76345
 15	inside	inside	ADP	_	_	13	comp:pred	_	AlignBegin=76345|AlignEnd=76573
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=76573|AlignEnd=76573
@@ -879,12 +879,12 @@
 26	on	on	ADP	_	_	25	comp:pred	_	AlignBegin=78168|AlignEnd=78396
 27	top	top	NOUN	_	_	26	comp:obj	_	AlignBegin=78396|AlignEnd=78624
 28	}	}	PUNCT	_	_	13	punct	_	AlignBegin=78624|AlignEnd=78624
-29	<	<	PUNCT	_	_	13	punct	_	AlignBegin=78624|AlignEnd=78624
-30	if	if	SCONJ	_	_	41	mod:periph	_	AlignBegin=78624|AlignEnd=78851
+29	<	<	PUNCT	_	_	2	punct	_	AlignBegin=78624|AlignEnd=78624
+30	if	if	SCONJ	_	_	41	mod:periph$cond	_	AlignBegin=78624|AlignEnd=78851
 31	I	I	PRON	_	_	32	subj	_	AlignBegin=78851|AlignEnd=79079
 32	tell	tell	VERB	_	_	30	comp:obj	_	AlignBegin=79079|AlignEnd=79307
-33	am	am	PRON	_	_	32	comp:obj	_	AlignBegin=79307|AlignEnd=79535
-34	sey	sey	SCONJ	_	_	32	comp:obj	_	AlignBegin=79535|AlignEnd=79763
+33	am	am	PRON	_	_	32	comp:obl	_	AlignBegin=79307|AlignEnd=79535
+34	sey	sey	SCONJ	_	_	32	comp:obj$utter	_	AlignBegin=79535|AlignEnd=79763
 35	[	[	PUNCT	_	_	36	punct	_	AlignBegin=79763|AlignEnd=79763
 36	bring	bring	VERB	_	_	34	comp:obj	_	AlignBegin=79763|AlignEnd=79990
 37	spanner	spanner	NOUN	_	_	36	comp:obj	_	AlignBegin=79990|AlignEnd=80218
@@ -901,7 +901,7 @@
 # text = hm //
 # text_en = Hm.
 # text_ortho = Hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=79840|AlignEnd=80250
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=79840|AlignEnd=80250
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=80250|AlignEnd=80250
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__68
@@ -911,7 +911,7 @@
 # text_ortho = So wait ehn.
 1	so	so	ADV	_	_	2	discourse	_	AlignBegin=81230|AlignEnd=81500
 2	wait	wait	VERB	_	_	0	root	_	AlignBegin=81500|AlignEnd=81770
-3	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=81770|AlignEnd=82040
+3	ehn	ehn	ADJ	_	_	2	discourse	_	AlignBegin=81770|AlignEnd=82040
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=82040|AlignEnd=82040
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__69
@@ -919,7 +919,7 @@
 # text = ehn //
 # text_en = Ehn,
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=81920|AlignEnd=82510
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=81920|AlignEnd=82510
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=82510|AlignEnd=82510
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__70
@@ -950,7 +950,7 @@
 # text = no !//
 # text_en = No! ehen, I was under the car now.
 # text_ortho = No!
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=83190|AlignEnd=83560
+1	no	no	PART	_	_	0	root	_	AlignBegin=83190|AlignEnd=83560
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=83560|AlignEnd=83560
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__73
@@ -958,7 +958,7 @@
 # text = ehen I dey under motor now //
 # text_en = Ehen, I was under the car.
 # text_ortho = Ehen I dey under motor now.
-1	ehen	ehen	INTJ	_	_	3	discourse	_	AlignBegin=83560|AlignEnd=83925
+1	ehen	ehen	ADJ	_	_	3	discourse	_	AlignBegin=83560|AlignEnd=83925
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=83925|AlignEnd=84290
 3	dey	dey	VERB	_	_	0	root	_	AlignBegin=84290|AlignEnd=84655
 4	under	under	ADP	_	_	3	comp:pred	_	AlignBegin=84655|AlignEnd=85020
@@ -973,7 +973,7 @@
 # text_ortho = Di motor wey you dey under, di woman con dey ontop of you under motor?
 1	di	di	DET	_	_	2	det	_	AlignBegin=84920|AlignEnd=85145
 2	motor	motor	NOUN	_	_	10	dislocated	_	AlignBegin=85145|AlignEnd=85370
-3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=85370|AlignEnd=85596
+3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=85370|AlignEnd=85596
 4	you	you	PRON	_	_	5	subj	_	AlignBegin=85596|AlignEnd=85821
 5	dey	dey	VERB	_	_	3	comp:obj	_	AlignBegin=85821|AlignEnd=86046
 6	under	under	ADP	_	_	5	comp:pred	_	AlignBegin=86046|AlignEnd=86272
@@ -984,7 +984,7 @@
 11	dey	dey	VERB	_	_	10	comp:aux	_	AlignBegin=86948|AlignEnd=87173
 12	ontop	ontop	ADP	_	_	11	comp:pred	_	AlignBegin=87173|AlignEnd=87398
 13	of	of	ADP	_	_	12	comp:obj	_	AlignBegin=87398|AlignEnd=87624
-14	you	you	PRON	_	_	12	comp:obj	_	AlignBegin=87624|AlignEnd=87849
+14	you	you	PRON	_	_	13	comp:obj	_	AlignBegin=87624|AlignEnd=87849
 15	under	under	ADP	_	_	11	mod	_	AlignBegin=87849|AlignEnd=88074
 16	motor	motor	NOUN	_	_	15	comp:obj	_	AlignBegin=88074|AlignEnd=88300
 17	?//	?//	PUNCT	_	_	10	punct	_	AlignBegin=88300|AlignEnd=88300
@@ -994,7 +994,7 @@
 # text = ehen now //
 # text_en = Ehen now.
 # text_ortho = Ehen now.
-1	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=88250|AlignEnd=88595
+1	ehen	ehen	ADJ	_	_	0	root	_	AlignBegin=88250|AlignEnd=88595
 2	now	now	ADV	_	_	1	discourse	_	AlignBegin=88595|AlignEnd=88940
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=88940|AlignEnd=88940
 
@@ -1021,13 +1021,13 @@
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=90673|AlignEnd=90673
 7	you	you	PRON	_	_	8	subj	_	AlignBegin=90673|AlignEnd=90842
 8	never	never	AUX	_	_	3	conj:dicto	_	AlignBegin=90842|AlignEnd=91010
-9	wan	wan	VERB	_	_	8	comp:aux	_	AlignBegin=91010|AlignEnd=91179
-10	tell	tell	VERB	_	_	9	comp:obj@x	_	AlignBegin=91179|AlignEnd=91347
-11	me	me	PRON	_	_	10	comp:obj	_	AlignBegin=91347|AlignEnd=91516
+9	wan	want	VERB	_	_	8	comp:aux	_	AlignBegin=91010|AlignEnd=91179
+10	tell	tell	VERB	_	_	9	comp:obj$desire@x	_	AlignBegin=91179|AlignEnd=91347
+11	me	me	PRON	_	_	10	comp:obl	_	AlignBegin=91347|AlignEnd=91516
 12	}	}	PUNCT	_	_	3	punct	_	AlignBegin=91516|AlignEnd=91516
 13	wetin	wetin	PRON	_	_	10	comp:obj	_	AlignBegin=91516|AlignEnd=91684
 14	you	you	PRON	_	_	15	subj	_	AlignBegin=91684|AlignEnd=91853
-15	dey	dey	AUX	_	_	13	mod:relcl	_	AlignBegin=91853|AlignEnd=92021
+15	dey	dey	AUX	_	_	13	mod@relcl	_	AlignBegin=91853|AlignEnd=92021
 16	do	do	VERB	_	_	15	comp:aux	_	AlignBegin=92021|AlignEnd=92190
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=92190|AlignEnd=92190
 
@@ -1036,7 +1036,7 @@
 # text = no !//
 # text_en = No.
 # text_ortho = No!
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=92240|AlignEnd=92630
+1	no	no	PART	_	_	0	root	_	AlignBegin=92240|AlignEnd=92630
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=92630|AlignEnd=92630
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__79
@@ -1086,27 +1086,27 @@
 # text = wey wit di woman wey dey ontop of you under motor ?//
 # text_en = That... with a woman who was on top of you, under a car?
 # text_ortho = Wey wit di woman wey dey ontop of you under motor?
-1	wey	wey	SCONJ	_	_	2	discourse	_	AlignBegin=96090|AlignEnd=96424
-2	wit	wit	ADP	_	_	0	root	_	AlignBegin=96424|AlignEnd=96759
+1	wey	wey	SCONJ	_	_	0	root	_	AlignBegin=96090|AlignEnd=96424
+2	wit	wit	ADP	_	_	1	comp:obj	_	AlignBegin=96424|AlignEnd=96759
 3	di	di	DET	_	_	4	det	_	AlignBegin=96759|AlignEnd=97093
 4	woman	woman	NOUN	_	_	2	comp:obj	_	AlignBegin=97093|AlignEnd=97428
-5	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=97428|AlignEnd=97762
+5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=97428|AlignEnd=97762
 6	dey	dey	VERB	_	_	5	comp:obj	_	AlignBegin=97762|AlignEnd=98097
 7	ontop	ontop	ADP	_	_	6	comp:pred	_	AlignBegin=98097|AlignEnd=98431
 8	of	of	ADP	_	_	7	comp:obj	_	AlignBegin=98431|AlignEnd=98766
 9	you	you	PRON	_	_	8	comp:obj	_	AlignBegin=98766|AlignEnd=99100
-10	under	under	ADP	_	_	6	mod	_	AlignBegin=99100|AlignEnd=99435
+10	under	under	ADP	_	_	7	mod	_	AlignBegin=99100|AlignEnd=99435
 11	motor	motor	NOUN	_	_	10	comp:obj	_	AlignBegin=99435|AlignEnd=99770
-12	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=99770|AlignEnd=99770
+12	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=99770|AlignEnd=99770
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__83
 # speaker_id = Sp103
 # text = ehn now //
 # text_en = Ehen.
 # text_ortho = Ehn now.
-1	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=99920|AlignEnd=100140
-2	now	now	ADV	_	_	0	root	_	AlignBegin=100140|AlignEnd=100360
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=100360|AlignEnd=100360
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=99920|AlignEnd=100140
+2	now	now	ADV	_	_	1	discourse	_	AlignBegin=100140|AlignEnd=100360
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=100360|AlignEnd=100360
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__84
 # speaker_id = Sp103
@@ -1116,7 +1116,7 @@
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=100360|AlignEnd=100587
 2	dey	dey	VERB	_	_	0	root	_	AlignBegin=100587|AlignEnd=100815
 3	under	under	ADP	_	_	2	comp:pred	_	AlignBegin=100815|AlignEnd=101042
-4	now	now	ADV	_	_	3	mod	_	AlignBegin=101042|AlignEnd=101270
+4	now	now	ADV	_	_	2	mod	_	AlignBegin=101042|AlignEnd=101270
 5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=101270|AlignEnd=101270
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__85
@@ -1140,8 +1140,8 @@
 # text = come if & //
 # text_en = See, if...
 # text_ortho = Come if...
-1	come	come	VERB	_	_	0	root	_	AlignBegin=103020|AlignEnd=103400
-2	if	if	SCONJ	_	_	1	mod	_	AlignBegin=103400|AlignEnd=103780
+1	come	come	VERB	_	_	0	root@scrap	_	AlignBegin=103020|AlignEnd=103400
+2	if	if	SCONJ	_	_	1	comp:obj@scrap	_	AlignBegin=103400|AlignEnd=103780
 3	&	&	PUNCT	_	_	1	punct	_	AlignBegin=103780|AlignEnd=103780
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=103780|AlignEnd=103780
 
@@ -1150,7 +1150,7 @@
 # text = hm no //
 # text_en = No...
 # text_ortho = Hm no.
-1	hm	hm	INTJ	_	_	2	discourse	_	AlignBegin=103940|AlignEnd=104560
+1	hm	hm	ADJ	_	_	2	discourse	_	AlignBegin=103940|AlignEnd=104560
 2	no	no	PART	_	_	0	root	_	AlignBegin=104560|AlignEnd=105180
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=105180|AlignEnd=105180
 
@@ -1159,17 +1159,17 @@
 # text = oga you no wan tell me wetin you dey do //
 # text_en = Sir, you don't want to tell me what you were doing.
 # text_ortho = Oga you no wan tell me wetin you dey do.
-1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=104290|AlignEnd=104452
-2	you	you	PRON	_	_	4	subj	_	AlignBegin=104452|AlignEnd=104614
-3	no	no	PART	_	_	4	mod	_	AlignBegin=104614|AlignEnd=104776
-4	wan	wan	VERB	_	_	0	root	_	AlignBegin=104776|AlignEnd=104938
-5	tell	tell	VERB	_	_	4	comp:obj@x	_	AlignBegin=104938|AlignEnd=105100
-6	me	me	PRON	_	_	5	comp:obj	_	AlignBegin=105100|AlignEnd=105262
+1	oga	oga	NOUN	_	_	3	dislocated	_	AlignBegin=104290|AlignEnd=104452
+2	you	you	PRON	_	_	3	subj	_	AlignBegin=104452|AlignEnd=104614
+3	no	no	AUX	_	_	0	root	_	AlignBegin=104614|AlignEnd=104776
+4	wan	want	VERB	_	_	3	comp:aux	_	AlignBegin=104776|AlignEnd=104938
+5	tell	tell	VERB	_	_	4	comp:obj$desire@x	_	AlignBegin=104938|AlignEnd=105100
+6	me	me	PRON	_	_	5	comp:obl	_	AlignBegin=105100|AlignEnd=105262
 7	wetin	wetin	PRON	_	_	5	comp:obj	_	AlignBegin=105262|AlignEnd=105424
 8	you	you	PRON	_	_	9	subj	_	AlignBegin=105424|AlignEnd=105586
-9	dey	dey	AUX	_	_	7	mod:relcl	_	AlignBegin=105586|AlignEnd=105748
+9	dey	dey	AUX	_	_	7	mod@relcl	_	AlignBegin=105586|AlignEnd=105748
 10	do	do	VERB	_	_	9	comp:aux	_	AlignBegin=105748|AlignEnd=105910
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=105910|AlignEnd=105910
+11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=105910|AlignEnd=105910
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__89
 # speaker_id = Sp103
@@ -1186,26 +1186,26 @@
 # text = { you no || naim make you no } come visit me where I dey repair dat ting ehn ?//
 # text_en = You didn't, that was why you didn't come to visit me when I was repairing that thing, ehn?
 # text_ortho = You no, naim make you no come visit me where I dey repair dat ting ehn?
-1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=105950|AlignEnd=105950
-2	you	you	PRON	_	_	0	root	_	AlignBegin=105950|AlignEnd=106170
-3	no	no	PART	_	_	2	unk:scrap	_	AlignBegin=106170|AlignEnd=106391
+1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=105950|AlignEnd=105950
+2	you	you	PRON	_	_	3	subj	_	AlignBegin=105950|AlignEnd=106170
+3	no	no	AUX	_	_	0	root	_	AlignBegin=106170|AlignEnd=106391
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=106391|AlignEnd=106391
 5	naim	naim	ADV	_	_	6	mod:periph	_	AlignBegin=106391|AlignEnd=106611
-6	make	make	AUX	_	_	2	conj:dicto	_	AlignBegin=106611|AlignEnd=106832
-7	you	you	PRON	_	_	10	subj	_	AlignBegin=106832|AlignEnd=107053
-8	no	no	PART	_	_	10	mod	_	AlignBegin=107053|AlignEnd=107273
-9	}	}	PUNCT	_	_	2	punct	_	AlignBegin=107273|AlignEnd=107273
-10	come	come	VERB	_	_	6	comp:aux	_	AlignBegin=107273|AlignEnd=107494
-11	visit	visit	VERB	_	_	10	comp:obj@x	_	AlignBegin=107494|AlignEnd=107715
+6	make	make	AUX	_	_	3	conj:dicto	_	AlignBegin=106611|AlignEnd=106832
+7	you	you	PRON	_	_	8	subj	_	AlignBegin=106832|AlignEnd=107053
+8	no	no	AUX	_	_	6	comp:aux	_	AlignBegin=107053|AlignEnd=107273
+9	}	}	PUNCT	_	_	3	punct	_	AlignBegin=107273|AlignEnd=107273
+10	come	con	AUX	_	_	8	comp:aux	_	AlignBegin=107273|AlignEnd=107494
+11	visit	visit	VERB	_	_	10	comp:aux	_	AlignBegin=107494|AlignEnd=107715
 12	me	me	PRON	_	_	11	comp:obj	_	AlignBegin=107715|AlignEnd=107935
-13	where	where	ADV	_	_	11	comp:obj	_	AlignBegin=107935|AlignEnd=108156
+13	where	where	ADV	_	_	11	mod	_	AlignBegin=107935|AlignEnd=108156
 14	I	I	PRON	_	_	15	subj	_	AlignBegin=108156|AlignEnd=108376
-15	dey	dey	AUX	_	_	13	mod:relcl	_	AlignBegin=108376|AlignEnd=108597
+15	dey	dey	AUX	_	_	13	mod@relcl	_	AlignBegin=108376|AlignEnd=108597
 16	repair	repair	VERB	_	_	15	comp:aux	_	AlignBegin=108597|AlignEnd=108818
 17	dat	dat	DET	_	_	18	det	_	AlignBegin=108818|AlignEnd=109038
 18	ting	ting	NOUN	_	_	16	comp:obj	_	AlignBegin=109038|AlignEnd=109259
-19	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=109259|AlignEnd=109480
-20	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=109480|AlignEnd=109480
+19	ehn	ehn	ADJ	_	_	3	discourse	_	AlignBegin=109259|AlignEnd=109480
+20	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=109480|AlignEnd=109480
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__91
 # speaker_id = Sp103
@@ -1241,7 +1241,7 @@
 # text = aha !//
 # text_en = Ah'a.
 # text_ortho = Aha!
-1	aha	aha	INTJ	_	_	0	root	_	AlignBegin=111170|AlignEnd=111550
+1	aha	aha	ADJ	_	_	0	root	_	AlignBegin=111170|AlignEnd=111550
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=111550|AlignEnd=111550
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__95
@@ -1250,7 +1250,7 @@
 # text_en = What... what sort of thing?
 # text_ortho = Wi-... which kind ting?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=111540|AlignEnd=111540
-2	wi~	X	X	_	_	7	det	_	AlignBegin=111540|AlignEnd=111722
+2	wi~	X	X	_	_	7	mod	_	AlignBegin=111540|AlignEnd=111722
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=111722|AlignEnd=111722
 4	which	which	DET	_	_	2	conj:dicto	_	AlignBegin=111722|AlignEnd=111905
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=111905|AlignEnd=111905
@@ -1264,9 +1264,9 @@
 # text_en = That was why...
 # text_ortho = Naim make you no...
 1	naim	naim	ADV	_	_	2	mod:periph	_	AlignBegin=111570|AlignEnd=111802
-2	make	make	AUX	_	_	0	root	_	AlignBegin=111802|AlignEnd=112035
-3	you	you	PRON	_	_	2	subj	_	AlignBegin=112035|AlignEnd=112267
-4	no	no	PART	_	_	2	comp:aux@scrap	_	AlignBegin=112267|AlignEnd=112500
+2	make	make	AUX	_	_	0	root@scrap	_	AlignBegin=111802|AlignEnd=112035
+3	you	you	PRON	_	_	4	subj	_	AlignBegin=112035|AlignEnd=112267
+4	no	no	AUX	_	_	2	comp:aux@scrap	_	AlignBegin=112267|AlignEnd=112500
 5	&	&	PUNCT	_	_	2	punct	_	AlignBegin=112500|AlignEnd=112500
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=112500|AlignEnd=112500
 
@@ -1280,12 +1280,12 @@
 3	here	here	ADV	_	_	2	comp:obj	_	AlignBegin=113054|AlignEnd=113281
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=113281|AlignEnd=113281
 5	you	you	PRON	_	_	6	subj	_	AlignBegin=113281|AlignEnd=113508
-6	con	con	AUX	_	_	2	parataxis:conj	_	AlignBegin=113508|AlignEnd=113736
+6	con	con	AUX	_	_	2	conj:coord	_	AlignBegin=113508|AlignEnd=113736
 7	dey	dey	VERB	_	_	6	comp:aux	_	AlignBegin=113736|AlignEnd=113963
 8	ontop	ontop	ADP	_	_	7	comp:pred	_	AlignBegin=113963|AlignEnd=114190
 9	of	of	ADP	_	_	8	comp:obj	_	AlignBegin=114190|AlignEnd=114417
 10	woman	woman	NOUN	_	_	9	comp:obj	_	AlignBegin=114417|AlignEnd=114645
-11	under	under	ADP	_	_	7	mod	_	AlignBegin=114645|AlignEnd=114872
+11	under	under	ADP	_	_	10	mod	_	AlignBegin=114645|AlignEnd=114872
 12	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=114872|AlignEnd=114872
 13	woman	woman	NOUN	_	_	14	subj	_	AlignBegin=114872|AlignEnd=115099
 14	con	con	AUX	_	_	6	parataxis:conj	_	AlignBegin=115099|AlignEnd=115326
@@ -1293,7 +1293,7 @@
 16	ontop	ontop	ADP	_	_	15	comp:pred	_	AlignBegin=115553|AlignEnd=115781
 17	of	of	ADP	_	_	16	comp:obj	_	AlignBegin=115781|AlignEnd=116008
 18	you	you	PRON	_	_	17	comp:obj	_	AlignBegin=116008|AlignEnd=116235
-19	under	under	ADP	_	_	15	mod	_	AlignBegin=116235|AlignEnd=116462
+19	under	under	ADP	_	_	16	mod	_	AlignBegin=116235|AlignEnd=116462
 20	motor	motor	NOUN	_	_	19	comp:obj	_	AlignBegin=116462|AlignEnd=116690
 21	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=116690|AlignEnd=116690
 
@@ -1311,7 +1311,7 @@
 # text = ehen now !//
 # text_en = Ehen now!
 # text_ortho = Ehen now!
-1	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=117065|AlignEnd=117242
+1	ehen	ehen	ADJ	_	_	0	root	_	AlignBegin=117065|AlignEnd=117242
 2	now	now	ADV	_	_	1	discourse	_	AlignBegin=117242|AlignEnd=117420
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=117420|AlignEnd=117420
 
@@ -1337,7 +1337,7 @@
 # text = ehen !//
 # text_en = Ehen?
 # text_ortho = Ehen!
-1	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=118770|AlignEnd=119500
+1	ehen	ehen	ADJ	_	_	0	root	_	AlignBegin=118770|AlignEnd=119500
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=119500|AlignEnd=119500
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__102
@@ -1345,7 +1345,7 @@
 # text = if you dey enjoy { wit |r wit |r wit |r wit } woman < you no like am ?//
 # text_en = If you are enjoying with... with... with... with a woman, don't you like it?
 # text_ortho = If you dey enjoy wit, wit, wit, wit woman, you no like am?
-1	if	if	SCONJ	_	_	18	mod:periph	_	AlignBegin=119340|AlignEnd=119552
+1	if	if	SCONJ	_	_	17	mod:periph$cond	_	AlignBegin=119340|AlignEnd=119552
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=119552|AlignEnd=119764
 3	dey	dey	AUX	_	_	1	comp:obj	_	AlignBegin=119764|AlignEnd=119976
 4	enjoy	enjoy	VERB	_	_	3	comp:aux	_	AlignBegin=119976|AlignEnd=120189
@@ -1360,11 +1360,11 @@
 13	}	}	PUNCT	_	_	6	punct	_	AlignBegin=121038|AlignEnd=121038
 14	woman	woman	NOUN	_	_	12	comp:obj	_	AlignBegin=121038|AlignEnd=121250
 15	<	<	PUNCT	_	_	1	punct	_	AlignBegin=121250|AlignEnd=121250
-16	you	you	PRON	_	_	18	subj	_	AlignBegin=121250|AlignEnd=121463
-17	no	no	PART	_	_	18	mod	_	AlignBegin=121463|AlignEnd=121675
-18	like	like	VERB	_	_	0	root	_	AlignBegin=121675|AlignEnd=121887
+16	you	you	PRON	_	_	17	subj	_	AlignBegin=121250|AlignEnd=121463
+17	no	no	AUX	_	_	0	root	_	AlignBegin=121463|AlignEnd=121675
+18	like	like	VERB	_	_	17	comp:aux	_	AlignBegin=121675|AlignEnd=121887
 19	am	am	PRON	_	_	18	comp:obj	_	AlignBegin=121887|AlignEnd=122100
-20	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=122100|AlignEnd=122100
+20	?//	?//	PUNCT	_	_	17	punct	_	AlignBegin=122100|AlignEnd=122100
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__103
 # speaker_id = Sp104
@@ -1374,16 +1374,16 @@
 1	naim	naim	ADV	_	_	2	mod:periph	_	AlignBegin=122200|AlignEnd=122394
 2	be	be	VERB	_	_	0	root	_	AlignBegin=122394|AlignEnd=122588
 3	sey	sey	SCONJ	_	_	2	comp:pred	_	AlignBegin=122588|AlignEnd=122782
-4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=122782|AlignEnd=122782
-5	no	no	PART	_	_	6	mod	_	AlignBegin=122782|AlignEnd=122976
-6	be	be	VERB	_	_	3	comp:obj	_	AlignBegin=122976|AlignEnd=123170
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=122782|AlignEnd=122782
+5	no	no	AUX	_	_	3	comp:obj	_	AlignBegin=122782|AlignEnd=122976
+6	be	be	VERB	_	_	5	comp:aux	_	AlignBegin=122976|AlignEnd=123170
 7	work	work	NOUN	_	_	6	comp:pred	_	AlignBegin=123170|AlignEnd=123364
 8	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=123364|AlignEnd=123364
 9	you	you	PRON	_	_	10	subj	_	AlignBegin=123364|AlignEnd=123558
 10	dey	dey	AUX	_	_	6	comp:cleft	_	AlignBegin=123558|AlignEnd=123752
 11	do	do	VERB	_	_	10	comp:aux	_	AlignBegin=123752|AlignEnd=123946
 12	now	now	ADV	_	_	11	mod	_	AlignBegin=123946|AlignEnd=124140
-13	]	]	PUNCT	_	_	6	punct	_	AlignBegin=124140|AlignEnd=124140
+13	]	]	PUNCT	_	_	5	punct	_	AlignBegin=124140|AlignEnd=124140
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=124140|AlignEnd=124140
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__104
@@ -1396,7 +1396,7 @@
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=123820|AlignEnd=123820
 4	na	na	PART	_	_	2	conj:dicto	_	AlignBegin=123820|AlignEnd=124130
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=124130|AlignEnd=124130
-6	na	na	PART	_	_	4	conj:dicto@scrap	_	AlignBegin=124130|AlignEnd=124440
+6	na	na	PART	_	_	4	conj:dicto	_	AlignBegin=124130|AlignEnd=124440
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=124440|AlignEnd=124440
 8	&	&	PUNCT	_	_	2	punct	_	AlignBegin=124440|AlignEnd=124440
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=124440|AlignEnd=124440
@@ -1413,7 +1413,7 @@
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=124884|AlignEnd=124884
 6	na	na	PART	_	_	0	root	_	AlignBegin=124884|AlignEnd=125106
 7	work	work	NOUN	_	_	6	comp:pred	_	AlignBegin=125106|AlignEnd=125328
-8	now	now	ADV	_	_	6	mod:emph	_	AlignBegin=125328|AlignEnd=125550
+8	now	now	ADV	_	_	6	discourse	_	AlignBegin=125328|AlignEnd=125550
 9	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=125550|AlignEnd=125550
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__106
@@ -1427,7 +1427,7 @@
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=126222|AlignEnd=126222
 5	dat	dat	DET	_	_	6	det	_	AlignBegin=126222|AlignEnd=126387
 6	one	one	NOUN	_	_	7	subj	_	AlignBegin=126387|AlignEnd=126551
-7	na	na	PART	_	_	2	parataxis:obj	_	AlignBegin=126551|AlignEnd=126715
+7	na	na	PART	_	_	2	parataxis:obj$utter	_	AlignBegin=126551|AlignEnd=126715
 8	work	work	NOUN	_	_	7	comp:pred	_	AlignBegin=126715|AlignEnd=126880
 9	]	]	PUNCT	_	_	7	punct	_	AlignBegin=126880|AlignEnd=126880
 10	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=126880|AlignEnd=126880
@@ -1437,11 +1437,11 @@
 # text = if my wife just dey & //
 # text_en = If my wife is just...
 # text_ortho = If my wife just dey...
-1	if	if	SCONJ	_	_	0	root:scrap	_	AlignBegin=126640|AlignEnd=126866
+1	if	if	SCONJ	_	_	0	root@scrap	_	AlignBegin=126640|AlignEnd=126866
 2	my	my	PRON	_	_	3	mod:poss	_	AlignBegin=126866|AlignEnd=127092
 3	wife	wife	NOUN	_	_	5	subj	_	AlignBegin=127092|AlignEnd=127318
 4	just	just	ADV	_	_	5	mod	_	AlignBegin=127318|AlignEnd=127544
-5	dey	dey	VERB	_	_	1	comp:obj	_	AlignBegin=127544|AlignEnd=127770
+5	dey	dey	AUX	_	_	1	comp:obj@scrap	_	AlignBegin=127544|AlignEnd=127770
 6	&	&	PUNCT	_	_	5	punct	_	AlignBegin=127770|AlignEnd=127770
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=127770|AlignEnd=127770
 
@@ -1455,12 +1455,12 @@
 3	im	im	PRON	_	_	2	comp:pred	_	AlignBegin=127126|AlignEnd=127373
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=127373|AlignEnd=127373
 5	you	you	PRON	_	_	2	comp:cleft@scrap	_	AlignBegin=127373|AlignEnd=127620
-6	&	&	PUNCT	_	_	8	punct	_	AlignBegin=127620|AlignEnd=127620
+6	&	&	PUNCT	_	_	2	punct	_	AlignBegin=127620|AlignEnd=127620
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=127620|AlignEnd=127620
 8	na	na	PART	_	_	2	conj:dicto	_	AlignBegin=127620|AlignEnd=127866
 9	im	im	PRON	_	_	8	comp:pred	_	AlignBegin=127866|AlignEnd=128113
 10	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=128113|AlignEnd=128113
-11	you	you	PRON	_	_	8	comp:cleft@scrap	_	AlignBegin=128113|AlignEnd=128360
+11	you	you	PRON	_	_	8	comp:pred@scrap	_	AlignBegin=128113|AlignEnd=128360
 12	&	&	PUNCT	_	_	2	punct	_	AlignBegin=128360|AlignEnd=128360
 13	}	}	PUNCT	_	_	2	punct	_	AlignBegin=128360|AlignEnd=128360
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=128360|AlignEnd=128360
@@ -1480,25 +1480,25 @@
 # text_en = Isn't it... isn't it what we do here?
 # text_ortho = No, no be everyday we dey do here.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=128360|AlignEnd=128360
-2	no	no	PART	_	_	6	mod	_	AlignBegin=128360|AlignEnd=128630
+2	no	no	AUX	_	_	0	root	_	AlignBegin=128360|AlignEnd=128630
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=128630|AlignEnd=128630
-4	no	no	PART	_	_	2	conj:dicto	_	AlignBegin=128630|AlignEnd=128901
+4	no	no	AUX	_	_	2	conj:dicto	_	AlignBegin=128630|AlignEnd=128901
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=128901|AlignEnd=128901
-6	be	be	VERB	_	_	0	root	_	AlignBegin=128901|AlignEnd=129171
+6	be	be	VERB	_	_	4	comp:aux	_	AlignBegin=128901|AlignEnd=129171
 7	everyday	everyday	ADV	_	_	6	comp:pred	_	AlignBegin=129171|AlignEnd=129442
 8	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=129442|AlignEnd=129442
 9	we	we	PRON	_	_	10	subj	_	AlignBegin=129442|AlignEnd=129713
 10	dey	dey	AUX	_	_	6	comp:cleft	_	AlignBegin=129713|AlignEnd=129983
 11	do	do	VERB	_	_	10	comp:aux	_	AlignBegin=129983|AlignEnd=130254
 12	here	here	ADV	_	_	11	mod	_	AlignBegin=130254|AlignEnd=130525
-13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=130525|AlignEnd=130525
+13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=130525|AlignEnd=130525
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__111
 # speaker_id = Sp104
 # text = hm ?//
 # text_en = Hm?
 # text_ortho = Hm?
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=130945|AlignEnd=131220
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=130945|AlignEnd=131220
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=131220|AlignEnd=131220
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__112
@@ -1506,8 +1506,8 @@
 # text = all of & //
 # text_en = All of
 # text_ortho = All of...
-1	all	all	DET	_	_	0	root:scrap	_	AlignBegin=131520|AlignEnd=132020
-2	of	of	ADP	_	_	1	none	_	AlignBegin=132020|AlignEnd=132520
+1	all	all	PRON	_	_	0	root@scrap	_	AlignBegin=131520|AlignEnd=132020
+2	of	of	ADP	_	_	1	mod	_	AlignBegin=132020|AlignEnd=132520
 3	&	&	PUNCT	_	_	1	punct	_	AlignBegin=132520|AlignEnd=132520
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=132520|AlignEnd=132520
 
@@ -1516,8 +1516,8 @@
 # text = no be dat kind of work >+ we dey do here //
 # text_en = It is not that kind of work we are doing here.
 # text_ortho = No be dat kind of work we dey do here.
-1	no	no	PART	_	_	2	mod	_	AlignBegin=131540|AlignEnd=131718
-2	be	be	VERB	_	_	0	root	_	AlignBegin=131718|AlignEnd=131896
+1	no	no	AUX	_	_	0	root	_	AlignBegin=131540|AlignEnd=131718
+2	be	be	VERB	_	_	1	comp:aux	_	AlignBegin=131718|AlignEnd=131896
 3	dat	dat	DET	_	_	4	det	_	AlignBegin=131896|AlignEnd=132074
 4	kind	kind	NOUN	_	_	2	comp:pred	_	AlignBegin=132074|AlignEnd=132252
 5	of	of	ADP	_	_	4	mod	_	AlignBegin=132252|AlignEnd=132430
@@ -1527,14 +1527,14 @@
 9	dey	dey	AUX	_	_	2	comp:cleft	_	AlignBegin=132786|AlignEnd=132964
 10	do	do	VERB	_	_	9	comp:aux	_	AlignBegin=132964|AlignEnd=133142
 11	here	here	ADV	_	_	10	mod	_	AlignBegin=133142|AlignEnd=133320
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133320|AlignEnd=133320
+12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=133320|AlignEnd=133320
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__114
 # speaker_id = Sp103
 # text = no !//
 # text_en = No!
 # text_ortho = No!
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=133420|AlignEnd=133860
+1	no	no	PART	_	_	0	root	_	AlignBegin=133420|AlignEnd=133860
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=133860|AlignEnd=133860
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__115
@@ -1542,7 +1542,7 @@
 # text = ehn ?//
 # text_en = Ehn?
 # text_ortho = Ehn?
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=133620|AlignEnd=134170
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=133620|AlignEnd=134170
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=134170|AlignEnd=134170
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__116
@@ -1550,8 +1550,8 @@
 # text = all of us just dey dey work //
 # text_en = All of us are here, wprking.
 # text_ortho = All of us just dey dey work.
-1	all	all	DET	_	_	5	subj	_	AlignBegin=133860|AlignEnd=134037
-2	of	of	ADP	_	_	1	none	_	AlignBegin=134037|AlignEnd=134214
+1	all	all	PRON	_	_	5	subj	_	AlignBegin=133860|AlignEnd=134037
+2	of	of	ADP	_	_	1	mod	_	AlignBegin=134037|AlignEnd=134214
 3	us	us	PRON	_	_	2	comp:obj	_	AlignBegin=134214|AlignEnd=134391
 4	just	just	ADV	_	_	5	mod	_	AlignBegin=134391|AlignEnd=134568
 5	dey	dey	AUX	_	_	0	root	_	AlignBegin=134568|AlignEnd=134745
@@ -1564,11 +1564,11 @@
 # text = as I carry you now < you con fear ?//
 # text_en = As I have carried you now, are you scared?
 # text_ortho = As I carry you now, you con fear?
-1	as	as	ADP	_	_	8	mod:periph	_	AlignBegin=135410|AlignEnd=135775
+1	as	as	ADP	_	_	8	mod:periph$tempo	_	AlignBegin=135410|AlignEnd=135775
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=135775|AlignEnd=136140
 3	carry	carry	VERB	_	_	1	comp:obj	_	AlignBegin=136140|AlignEnd=136505
 4	you	you	PRON	_	_	3	comp:obj	_	AlignBegin=136505|AlignEnd=136870
-5	now	now	ADV	_	_	3	mod:emph	_	AlignBegin=136870|AlignEnd=137235
+5	now	now	ADV	_	_	4	mod:emph	_	AlignBegin=136870|AlignEnd=137235
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=137235|AlignEnd=137235
 7	you	you	PRON	_	_	8	subj	_	AlignBegin=137235|AlignEnd=137600
 8	con	con	AUX	_	_	0	root	_	AlignBegin=137600|AlignEnd=137965
@@ -1580,7 +1580,7 @@
 # text = hm //
 # text_en = Hm.
 # text_ortho = Hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=136470|AlignEnd=136980
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=136470|AlignEnd=136980
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=136980|AlignEnd=136980
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__119
@@ -1588,7 +1588,7 @@
 # text = no //
 # text_en = No.
 # text_ortho = No.
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=137380|AlignEnd=137870
+1	no	no	PART	_	_	0	root	_	AlignBegin=137380|AlignEnd=137870
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=137870|AlignEnd=137870
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__120
@@ -1596,44 +1596,44 @@
 # text = you no fit carry me now //= you no fit carry me //
 # text_en = You can't carry me, you can't carry me.
 # text_ortho = You no fit carry me now, you no fit carry me.
-1	you	you	PRON	_	_	3	subj	_	AlignBegin=137870|AlignEnd=138036
-2	no	no	PART	_	_	3	mod	_	AlignBegin=138036|AlignEnd=138202
-3	fit	fit	AUX	_	_	0	root	_	AlignBegin=138202|AlignEnd=138369
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=137870|AlignEnd=138036
+2	no	no	AUX	_	_	0	root	_	AlignBegin=138036|AlignEnd=138202
+3	fit	fit	AUX	_	_	2	comp:aux	_	AlignBegin=138202|AlignEnd=138369
 4	carry	carry	VERB	_	_	3	comp:aux	_	AlignBegin=138369|AlignEnd=138535
 5	me	me	PRON	_	_	4	comp:obj	_	AlignBegin=138535|AlignEnd=138701
 6	now	now	ADV	_	_	4	mod:emph	_	AlignBegin=138701|AlignEnd=138868
-7	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=138868|AlignEnd=138868
-8	you	you	PRON	_	_	10	subj	_	AlignBegin=138868|AlignEnd=139034
-9	no	no	PART	_	_	10	mod	_	AlignBegin=139034|AlignEnd=139200
-10	fit	fit	AUX	_	_	3	parataxis:conj	_	AlignBegin=139200|AlignEnd=139367
+7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=138868|AlignEnd=138868
+8	you	you	PRON	_	_	9	subj	_	AlignBegin=138868|AlignEnd=139034
+9	no	no	AUX	_	_	2	parataxis:conj	_	AlignBegin=139034|AlignEnd=139200
+10	fit	fit	AUX	_	_	9	comp:aux	_	AlignBegin=139200|AlignEnd=139367
 11	carry	carry	VERB	_	_	10	comp:aux	_	AlignBegin=139367|AlignEnd=139533
 12	me	me	PRON	_	_	11	comp:obj	_	AlignBegin=139533|AlignEnd=139700
-13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=139700|AlignEnd=139700
+13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=139700|AlignEnd=139700
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__121
 # speaker_id = Sp103
 # text = so { I no fit ca~ || { I || I } no fit carry } you round ?//
 # text_en = So, I can't car-... I... I...can't carry you around?
 # text_ortho = So I no fit ca-... I, I no fit carry you round?
-1	so	so	ADV	_	_	5	discourse	_	AlignBegin=139670|AlignEnd=139876
-2	{	{	PUNCT	_	_	5	punct	_	AlignBegin=139876|AlignEnd=139876
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=139876|AlignEnd=140083
-4	no	no	PART	_	_	5	mod	_	AlignBegin=140083|AlignEnd=140290
-5	fit	fit	AUX	_	_	0	root	_	AlignBegin=140290|AlignEnd=140496
+1	so	so	ADV	_	_	4	discourse	_	AlignBegin=139670|AlignEnd=139876
+2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=139876|AlignEnd=139876
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=139876|AlignEnd=140083
+4	no	no	AUX	_	_	0	root	_	AlignBegin=140083|AlignEnd=140290
+5	fit	fit	AUX	_	_	4	comp:aux	_	AlignBegin=140290|AlignEnd=140496
 6	ca~	X	X	_	_	5	comp:aux	_	AlignBegin=140496|AlignEnd=140703
-7	||	||	PUNCT	_	_	14	punct	_	AlignBegin=140703|AlignEnd=140703
+7	||	||	PUNCT	_	_	13	punct	_	AlignBegin=140703|AlignEnd=140703
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=140703|AlignEnd=140703
-9	I	I	PRON	_	_	14	subj	_	AlignBegin=140703|AlignEnd=140910
+9	I	I	PRON	_	_	13	subj	_	AlignBegin=140703|AlignEnd=140910
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=140910|AlignEnd=140910
 11	I	I	PRON	_	_	9	conj:dicto	_	AlignBegin=140910|AlignEnd=141116
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=141116|AlignEnd=141116
-13	no	no	PART	_	_	14	mod	_	AlignBegin=141116|AlignEnd=141323
-14	fit	fit	AUX	_	_	5	conj:dicto	_	AlignBegin=141323|AlignEnd=141530
+13	no	no	AUX	_	_	4	conj:dicto	_	AlignBegin=141116|AlignEnd=141323
+14	fit	fit	AUX	_	_	13	comp:aux	_	AlignBegin=141323|AlignEnd=141530
 15	carry	carry	VERB	_	_	14	comp:aux	_	AlignBegin=141530|AlignEnd=141736
-16	}	}	PUNCT	_	_	5	punct	_	AlignBegin=141736|AlignEnd=141736
+16	}	}	PUNCT	_	_	4	punct	_	AlignBegin=141736|AlignEnd=141736
 17	you	you	PRON	_	_	15	comp:obj	_	AlignBegin=141736|AlignEnd=141943
 18	round	round	ADP	_	_	15	compound:prt	_	AlignBegin=141943|AlignEnd=142150
-19	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=142150|AlignEnd=142150
+19	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=142150|AlignEnd=142150
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__122
 # speaker_id = Sp104
@@ -1644,9 +1644,9 @@
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=140790|AlignEnd=140980
 3	tell	tell	VERB	_	_	1	comp:obj	_	AlignBegin=140980|AlignEnd=141170
 4	me	me	PRON	_	_	3	comp:obj	_	AlignBegin=141170|AlignEnd=141360
-5	make	make	AUX	_	_	3	parataxis:obj	_	AlignBegin=141360|AlignEnd=141550
+5	make	make	SCONJ	_	_	3	parataxis:obj$utter	_	AlignBegin=141360|AlignEnd=141550
 6	I	I	PRON	_	_	7	subj	_	AlignBegin=141550|AlignEnd=141740
-7	enter	enter	VERB	_	_	5	comp:aux	_	AlignBegin=141740|AlignEnd=141930
+7	enter	enter	VERB	_	_	5	comp:obj	_	AlignBegin=141740|AlignEnd=141930
 8	motor	motor	NOUN	_	_	7	comp:obj	_	AlignBegin=141930|AlignEnd=142120
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=142120|AlignEnd=142120
 
@@ -1668,21 +1668,21 @@
 # text = you no go fit carry me around //
 # text_en = And then you won't be able to carry me around.
 # text_ortho = You no go fit carry me around.
-1	you	you	PRON	_	_	3	subj	_	AlignBegin=143370|AlignEnd=143592
-2	no	no	PART	_	_	3	mod	_	AlignBegin=143592|AlignEnd=143815
-3	go	go	AUX	_	_	0	root	_	AlignBegin=143815|AlignEnd=144038
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=143370|AlignEnd=143592
+2	no	no	AUX	_	_	0	root	_	AlignBegin=143592|AlignEnd=143815
+3	go	go	AUX	_	_	2	comp:aux	_	AlignBegin=143815|AlignEnd=144038
 4	fit	fit	AUX	_	_	3	comp:aux	_	AlignBegin=144038|AlignEnd=144261
 5	carry	carry	VERB	_	_	4	comp:aux	_	AlignBegin=144261|AlignEnd=144484
 6	me	me	PRON	_	_	5	comp:obj	_	AlignBegin=144484|AlignEnd=144707
 7	around	around	ADP	_	_	5	compound:prt	_	AlignBegin=144707|AlignEnd=144930
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=144930|AlignEnd=144930
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=144930|AlignEnd=144930
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__125
 # speaker_id = Sp103
 # text = okay { so || so } you get peace of mind //
 # text_en = Okay, so... so you have peace of mind?
 # text_ortho = Okay so, so you get peace of mind,
-1	okay	okay	INTJ	_	_	8	discourse	_	AlignBegin=144120|AlignEnd=144352
+1	okay	OK	ADJ	_	_	8	discourse	_	AlignBegin=144120|AlignEnd=144352
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=144352|AlignEnd=144352
 3	so	so	ADV	_	_	8	discourse	_	AlignBegin=144352|AlignEnd=144585
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=144585|AlignEnd=144585
@@ -1708,7 +1708,7 @@
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=146728|AlignEnd=146728
 7	you	you	PRON	_	_	5	conj:dicto	_	AlignBegin=146728|AlignEnd=146915
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=146915|AlignEnd=146915
-9	wan	wan	VERB	_	_	3	comp:cleft	_	AlignBegin=146915|AlignEnd=147102
+9	wan	want	VERB	_	_	3	comp:cleft	_	AlignBegin=146915|AlignEnd=147102
 10	peace	peace	NOUN	_	_	9	comp:obj	_	AlignBegin=147102|AlignEnd=147290
 11	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=147290|AlignEnd=147290
 
@@ -1729,7 +1729,7 @@
 # text = mstchew !//
 # text_en = Mstchew.
 # text_ortho = Mstchew!
-1	mstchew	mstchew	INTJ	_	_	0	root	_	AlignBegin=148020|AlignEnd=148430
+1	mstchew	MSTCH	ADJ	_	_	0	root	_	AlignBegin=148020|AlignEnd=148430
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=148430|AlignEnd=148430
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__129
@@ -1737,12 +1737,12 @@
 # text = oga < you no talk //
 # text_en = Sir, you didn't say.
 # text_ortho = Oga, you no talk.
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=148710|AlignEnd=148982
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=148710|AlignEnd=148982
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=148982|AlignEnd=148982
-3	you	you	PRON	_	_	5	subj	_	AlignBegin=148982|AlignEnd=149255
-4	no	no	PART	_	_	5	mod	_	AlignBegin=149255|AlignEnd=149527
-5	talk	talk	VERB	_	_	0	root	_	AlignBegin=149527|AlignEnd=149800
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=149800|AlignEnd=149800
+3	you	you	PRON	_	_	4	subj	_	AlignBegin=148982|AlignEnd=149255
+4	no	no	AUX	_	_	0	root	_	AlignBegin=149255|AlignEnd=149527
+5	talk	talk	VERB	_	_	4	comp:aux	_	AlignBegin=149527|AlignEnd=149800
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=149800|AlignEnd=149800
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__130
 # speaker_id = Sp103
@@ -1750,8 +1750,8 @@
 # text_en = You want to piss in the gutter?
 # text_ortho = You wan piss inside gutter?
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=149230|AlignEnd=149502
-2	wan	wan	VERB	_	_	0	root	_	AlignBegin=149502|AlignEnd=149774
-3	piss	piss	VERB	_	_	2	comp:obj@x	_	AlignBegin=149774|AlignEnd=150046
+2	wan	want	VERB	_	_	0	root	_	AlignBegin=149502|AlignEnd=149774
+3	piss	piss	VERB	_	_	2	comp:obj$desire@x	_	AlignBegin=149774|AlignEnd=150046
 4	inside	inside	ADP	_	_	3	comp:obl	_	AlignBegin=150046|AlignEnd=150318
 5	gutter	gutter	NOUN	_	_	4	comp:obj	_	AlignBegin=150318|AlignEnd=150590
 6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=150590|AlignEnd=150590
@@ -1762,7 +1762,7 @@
 # text_en = The problem...
 # text_ortho = Di problem...
 1	di	di	DET	_	_	2	det	_	AlignBegin=149800|AlignEnd=150200
-2	problem	problem	NOUN	_	_	0	root:scrap	_	AlignBegin=150200|AlignEnd=150600
+2	problem	problem	NOUN	_	_	0	root@scrap	_	AlignBegin=150200|AlignEnd=150600
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=150600|AlignEnd=150600
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=150600|AlignEnd=150600
 
@@ -1774,7 +1774,7 @@
 1	listen	listen	VERB	_	_	0	root	_	AlignBegin=150750|AlignEnd=150956
 2	to	to	ADP	_	_	1	comp:obl	_	AlignBegin=150956|AlignEnd=151163
 3	me	me	PRON	_	_	2	comp:obj	_	AlignBegin=151163|AlignEnd=151370
-4	now	now	ADV	_	_	1	mod	_	AlignBegin=151370|AlignEnd=151576
+4	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=151370|AlignEnd=151576
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=151576|AlignEnd=151576
 6	understand	understand	VERB	_	_	1	parataxis:conj	_	AlignBegin=151576|AlignEnd=151783
 7	me	me	PRON	_	_	6	comp:obj	_	AlignBegin=151783|AlignEnd=151990
@@ -1785,7 +1785,7 @@
 # text = hm //
 # text_en = Hm.
 # text_ortho = Hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=151620|AlignEnd=152000
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=151620|AlignEnd=152000
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=152000|AlignEnd=152000
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__134
@@ -1804,13 +1804,13 @@
 # text = hm ehn sorry sir //= sorry sir //
 # text_en = Hm ehn, sorry sir. Sorry sir.
 # text_ortho = Hm ehn sorry sir, sorry sir.
-1	hm	hm	INTJ	_	_	4	discourse	_	AlignBegin=152880|AlignEnd=153078
-2	ehn	ehn	INTJ	_	_	4	discourse	_	AlignBegin=153078|AlignEnd=153276
+1	hm	hm	ADJ	_	_	4	discourse	_	AlignBegin=152880|AlignEnd=153078
+2	ehn	ehn	ADJ	_	_	4	discourse	_	AlignBegin=153078|AlignEnd=153276
 3	sorry	sorry	ADJ	_	_	4	mod	_	AlignBegin=153276|AlignEnd=153475
-4	sir	sir	NOUN	_	_	0	root	_	AlignBegin=153475|AlignEnd=153673
+4	sir	Sir	NOUN	_	_	0	root	_	AlignBegin=153475|AlignEnd=153673
 5	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=153673|AlignEnd=153673
-6	sorry	sorry	ADJ	_	_	7	mod	_	AlignBegin=153673|AlignEnd=153871
-7	sir	sir	ADJ	_	_	4	conj:coord	_	AlignBegin=153871|AlignEnd=154070
+6	sorry	sorry	ADJ	_	_	7	discourse	_	AlignBegin=153673|AlignEnd=153871
+7	sir	Sir	NOUN	_	_	4	conj:appos	_	AlignBegin=153871|AlignEnd=154070
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=154070|AlignEnd=154070
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__136
@@ -1818,17 +1818,17 @@
 # text = ehen { I'm || I be } your oga now //
 # text_en = Ehen, I am... I am your boss.
 # text_ortho = Ehen I'm, I be your oga now.
-1	ehen	ehen	INTJ	_	_	6	discourse	_	AlignBegin=153620|AlignEnd=153938
+1	ehen	ehen	ADJ	_	_	6	discourse	_	AlignBegin=153620|AlignEnd=153938
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=153938|AlignEnd=153938
-3	I'm	I'm	PRON	_	_	6	subj	_	AlignBegin=153938|AlignEnd=154257
+3	I'm	I'M	PRON	_	_	6	subj	_	AlignBegin=153938|AlignEnd=154257
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=154257|AlignEnd=154257
 5	I	I	PRON	_	_	6	subj	_	AlignBegin=154257|AlignEnd=154575
-6	be	be	VERB	_	_	0	root:scrap	_	AlignBegin=154575|AlignEnd=154894
+6	be	be	VERB	_	_	0	root@scrap	_	AlignBegin=154575|AlignEnd=154894
 7	}	}	PUNCT	_	_	6	punct	_	AlignBegin=154894|AlignEnd=154894
 8	your	your	PRON	_	_	9	mod:poss	_	AlignBegin=154894|AlignEnd=155212
 9	oga	oga	NOUN	_	_	6	comp:pred	_	AlignBegin=155212|AlignEnd=155531
 10	now	now	ADV	_	_	6	mod	_	AlignBegin=155531|AlignEnd=155850
-11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=155850|AlignEnd=155850
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=155850|AlignEnd=155850
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__137
 # speaker_id = Sp104
@@ -1844,8 +1844,8 @@
 # text = yes sir //
 # text_en = Yes sir.
 # text_ortho = Yes sir.
-1	yes	yes	INTJ	_	_	2	discourse	_	AlignBegin=155730|AlignEnd=155980
-2	sir	sir	INTJ	_	_	0	root	_	AlignBegin=155980|AlignEnd=156230
+1	yes	yes	ADJ	_	_	2	discourse	_	AlignBegin=155730|AlignEnd=155980
+2	sir	Sir	NOUN	_	_	0	root	_	AlignBegin=155980|AlignEnd=156230
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=156230|AlignEnd=156230
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__139
@@ -1853,10 +1853,10 @@
 # text = I sorry sir //
 # text_en = Sorry sir. sorry.
 # text_ortho = I sorry sir.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=156230|AlignEnd=156576
-2	sorry	sorry	ADJ	_	_	3	mod	_	AlignBegin=156576|AlignEnd=156923
-3	sir	sir	NOUN	_	_	0	root	_	AlignBegin=156923|AlignEnd=157270
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=157270|AlignEnd=157270
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=156230|AlignEnd=156576
+2	sorry	sorry	VERB	_	_	0	root	_	AlignBegin=156576|AlignEnd=156923
+3	sir	Sir	NOUN	_	_	2	comp:obj	_	AlignBegin=156923|AlignEnd=157270
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=157270|AlignEnd=157270
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__140
 # speaker_id = Sp103
@@ -1882,7 +1882,7 @@
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=158666|AlignEnd=158666
 18	I	I	PRON	_	_	16	conj:dicto	_	AlignBegin=158666|AlignEnd=158864|Lang=en
 19	}	}	PUNCT	_	_	12	punct	_	AlignBegin=158864|AlignEnd=158864
-20	teach	teach	VERB	_	_	10	mod:relcl	_	AlignBegin=158864|AlignEnd=159062|Lang=en
+20	teach	teach	VERB	_	_	10	mod@relcl	_	AlignBegin=158864|AlignEnd=159062|Lang=en
 21	you	you	PRON	_	_	20	comp:obj	_	AlignBegin=159062|AlignEnd=159260|Lang=en
 22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=159260|AlignEnd=159260
 
@@ -1892,7 +1892,7 @@
 # text_en = Sorry sir.
 # text_ortho = Sorry sir,
 1	sorry	sorry	ADJ	_	_	2	discourse	_	AlignBegin=158950|AlignEnd=159235
-2	sir	sir	NOUN	_	_	0	root	_	AlignBegin=159235|AlignEnd=159520
+2	sir	Sir	NOUN	_	_	0	root	_	AlignBegin=159235|AlignEnd=159520
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=159520|AlignEnd=159520
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__142
@@ -1918,7 +1918,7 @@
 # text = as I carry you go for dat place wey dem dey work fan < I tell you sey [ make you dey learn work { fu~ || fu~ || fu~ || for } dat place ] //
 # text_en = As I took you to the place where they repair fans, I told you to learn the job there.
 # text_ortho = As I carry you go for dat place wey dem dey work fan, I tell you sey make you dey learn work fu-... fu-... fu-... for dat place.
-1	as	as	ADP	_	_	16	mod:periph	_	AlignBegin=160060|AlignEnd=160265
+1	as	as	ADP	_	_	16	mod:periph$tempo	_	AlignBegin=160060|AlignEnd=160265
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=160265|AlignEnd=160470
 3	carry	carry	VERB	_	_	1	comp:obj	_	AlignBegin=160470|AlignEnd=160676
 4	you	you	PRON	_	_	3	comp:obj	_	AlignBegin=160676|AlignEnd=160881
@@ -1926,16 +1926,16 @@
 6	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=161086|AlignEnd=161292
 7	dat	dat	DET	_	_	8	det	_	AlignBegin=161292|AlignEnd=161497
 8	place	place	NOUN	_	_	6	comp:obj	_	AlignBegin=161497|AlignEnd=161702
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=161702|AlignEnd=161908
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=161702|AlignEnd=161908
 10	dem	dem	PRON	_	_	11	subj	_	AlignBegin=161908|AlignEnd=162113
 11	dey	dey	AUX	_	_	9	comp:obj	_	AlignBegin=162113|AlignEnd=162318
 12	work	work	VERB	_	_	11	comp:aux	_	AlignBegin=162318|AlignEnd=162524
-13	fan	fan	NOUN	_	_	12	mod	_	AlignBegin=162524|AlignEnd=162729
+13	fan	fan	NOUN	_	_	12	comp:obj	_	AlignBegin=162524|AlignEnd=162729
 14	<	<	PUNCT	_	_	1	punct	_	AlignBegin=162729|AlignEnd=162729
 15	I	I	PRON	_	_	16	subj	_	AlignBegin=162729|AlignEnd=162935
 16	tell	tell	VERB	_	_	0	root	_	AlignBegin=162935|AlignEnd=163140
-17	you	you	PRON	_	_	16	comp:obj	_	AlignBegin=163140|AlignEnd=163345
-18	sey	sey	SCONJ	_	_	16	comp:obj	_	AlignBegin=163345|AlignEnd=163551
+17	you	you	PRON	_	_	16	comp:obl	_	AlignBegin=163140|AlignEnd=163345
+18	sey	sey	SCONJ	_	_	16	comp:obj$utter	_	AlignBegin=163345|AlignEnd=163551
 19	[	[	PUNCT	_	_	20	punct	_	AlignBegin=163551|AlignEnd=163551
 20	make	make	AUX	_	_	18	comp:obj	_	AlignBegin=163551|AlignEnd=163756
 21	you	you	PRON	_	_	22	subj	_	AlignBegin=163756|AlignEnd=163961
@@ -1961,7 +1961,7 @@
 # text = hm //
 # text_en = Hm.
 # text_ortho = Hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=162320|AlignEnd=162730
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=162320|AlignEnd=162730
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=162730|AlignEnd=162730
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__145
@@ -1969,43 +1969,43 @@
 # text = oga < no be fan I dey learn //
 # text_en = Boss, It's not fan repair I'm learning.
 # text_ortho = Oga, no be fan I dey learn.
-1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=165070|AlignEnd=165282
+1	oga	oga	NOUN	_	_	3	vocative	_	AlignBegin=165070|AlignEnd=165282
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=165282|AlignEnd=165282
-3	no	no	PART	_	_	4	mod	_	AlignBegin=165282|AlignEnd=165495
-4	be	be	VERB	_	_	0	root	_	AlignBegin=165495|AlignEnd=165708
+3	no	no	AUX	_	_	0	root	_	AlignBegin=165282|AlignEnd=165495
+4	be	be	VERB	_	_	3	comp:aux	_	AlignBegin=165495|AlignEnd=165708
 5	fan	fan	NOUN	_	_	4	comp:pred	_	AlignBegin=165708|AlignEnd=165921
 6	I	I	PRON	_	_	7	subj	_	AlignBegin=165921|AlignEnd=166134
-7	dey	dey	AUX	_	_	5	mod:relcl	_	AlignBegin=166134|AlignEnd=166347
+7	dey	dey	AUX	_	_	4	comp:cleft	_	AlignBegin=166134|AlignEnd=166347
 8	learn	learn	VERB	_	_	7	comp:aux	_	AlignBegin=166347|AlignEnd=166560
-9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=166560|AlignEnd=166560
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=166560|AlignEnd=166560
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__146
 # speaker_id = Sp103
 # text = no be everyting wey your oga & //
 # text_en = It is not everything your boss...
 # text_ortho = No be everyting wey your oga...
-1	no	no	PART	_	_	2	mod	_	AlignBegin=166790|AlignEnd=167026
-2	be	be	VERB	_	_	0	root:scrap	_	AlignBegin=167026|AlignEnd=167263
+1	no	no	AUX	_	_	0	root@scrap	_	AlignBegin=166790|AlignEnd=167026
+2	be	be	VERB	_	_	1	comp:aux	_	AlignBegin=167026|AlignEnd=167263
 3	everyting	everyting	PRON	_	_	2	comp:pred	_	AlignBegin=167263|AlignEnd=167500
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=167500|AlignEnd=167736
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=167500|AlignEnd=167736
 5	your	your	PRON	_	_	6	mod:poss	_	AlignBegin=167736|AlignEnd=167973
 6	oga	oga	NOUN	_	_	4	comp:obj@scrap	_	AlignBegin=167973|AlignEnd=168210
-7	&	&	PUNCT	_	_	2	punct	_	AlignBegin=168210|AlignEnd=168210
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=168210|AlignEnd=168210
+7	&	&	PUNCT	_	_	1	punct	_	AlignBegin=168210|AlignEnd=168210
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=168210|AlignEnd=168210
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__147
 # speaker_id = Sp104
 # text = oga < I no go learn fan //
 # text_en = Boss, I will not learn fan repair.
 # text_ortho = Oga, I no go learn fan.
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=167560|AlignEnd=167823
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=167560|AlignEnd=167823
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=167823|AlignEnd=167823
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=167823|AlignEnd=168086
-4	no	no	PART	_	_	5	mod	_	AlignBegin=168086|AlignEnd=168350
-5	go	go	AUX	_	_	0	root	_	AlignBegin=168350|AlignEnd=168613
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=167823|AlignEnd=168086
+4	no	no	AUX	_	_	0	root	_	AlignBegin=168086|AlignEnd=168350
+5	go	go	AUX	_	_	4	comp:aux	_	AlignBegin=168350|AlignEnd=168613
 6	learn	learn	VERB	_	_	5	comp:aux	_	AlignBegin=168613|AlignEnd=168876
 7	fan	fan	NOUN	_	_	6	comp:obj	_	AlignBegin=168876|AlignEnd=169140
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=169140|AlignEnd=169140
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=169140|AlignEnd=169140
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__148
 # speaker_id = Sp103
@@ -2015,7 +2015,7 @@
 1	listen	listen	VERB	_	_	0	root	_	AlignBegin=168210|AlignEnd=168567
 2	to	to	ADP	_	_	1	comp:obl	_	AlignBegin=168567|AlignEnd=168925
 3	me	me	PRON	_	_	2	comp:obj	_	AlignBegin=168925|AlignEnd=169282
-4	now	now	ADV	_	_	1	mod	_	AlignBegin=169282|AlignEnd=169640
+4	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=169282|AlignEnd=169640
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=169640|AlignEnd=169640
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__149
@@ -2023,12 +2023,12 @@
 # text = no be everyting your & //
 # text_en = It is not everything your...
 # text_ortho = No be everyting your...
-1	no	no	PART	_	_	2	mod	_	AlignBegin=169880|AlignEnd=170180
-2	be	be	VERB	_	_	0	root	_	AlignBegin=170180|AlignEnd=170480
+1	no	no	AUX	_	_	0	root	_	AlignBegin=169880|AlignEnd=170180
+2	be	be	VERB	_	_	1	comp:aux	_	AlignBegin=170180|AlignEnd=170480
 3	everyting	everyting	PRON	_	_	2	comp:pred	_	AlignBegin=170480|AlignEnd=170780
-4	your	your	ADJ	_	_	3	unk:scrap	_	AlignBegin=170780|AlignEnd=171080
-5	&	&	PUNCT	_	_	2	punct	_	AlignBegin=171080|AlignEnd=171080
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=171080|AlignEnd=171080
+4	your	your	ADJ	_	_	3	mod:poss	_	AlignBegin=170780|AlignEnd=171080
+5	&	&	PUNCT	_	_	1	punct	_	AlignBegin=171080|AlignEnd=171080
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=171080|AlignEnd=171080
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__150
 # speaker_id = Sp104
@@ -2039,13 +2039,13 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=170700|AlignEnd=170700
 3	I	I	PRON	_	_	4	subj	_	AlignBegin=170700|AlignEnd=170950
 4	say	say	VERB	_	_	0	root	_	AlignBegin=170950|AlignEnd=171200
-5	[	[	PUNCT	_	_	8	punct	_	AlignBegin=171200|AlignEnd=171200
-6	I	I	PRON	_	_	8	subj	_	AlignBegin=171200|AlignEnd=171450
-7	no	no	PART	_	_	8	mod	_	AlignBegin=171450|AlignEnd=171700
-8	go	go	AUX	_	_	4	parataxis:obj	_	AlignBegin=171700|AlignEnd=171950
+5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=171200|AlignEnd=171200
+6	I	I	PRON	_	_	7	subj	_	AlignBegin=171200|AlignEnd=171450
+7	no	no	AUX	_	_	4	parataxis:obj$utter	_	AlignBegin=171450|AlignEnd=171700
+8	go	go	AUX	_	_	7	comp:aux	_	AlignBegin=171700|AlignEnd=171950
 9	learn	learn	VERB	_	_	8	comp:aux	_	AlignBegin=171950|AlignEnd=172200
 10	fan	fan	NOUN	_	_	9	comp:obj	_	AlignBegin=172200|AlignEnd=172450
-11	]	]	PUNCT	_	_	8	punct	_	AlignBegin=172450|AlignEnd=172450
+11	]	]	PUNCT	_	_	7	punct	_	AlignBegin=172450|AlignEnd=172450
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=172450|AlignEnd=172450
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__151
@@ -2054,13 +2054,13 @@
 # text_en = Now, okay now, what do you want to learn?
 # text_ortho = Now okay now, wetin you wan learn?
 1	now	now	ADV	_	_	5	mod:periph	_	AlignBegin=173250|AlignEnd=173481
-2	okay	okay	INTJ	_	_	5	discourse	_	AlignBegin=173481|AlignEnd=173712
+2	okay	OK	ADJ	_	_	5	discourse	_	AlignBegin=173481|AlignEnd=173712
 3	now	now	ADV	_	_	2	mod:emph	_	AlignBegin=173712|AlignEnd=173944
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=173944|AlignEnd=173944
 5	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=173944|AlignEnd=174175
 6	you	you	PRON	_	_	7	subj	_	AlignBegin=174175|AlignEnd=174407
-7	wan	wan	VERB	_	_	5	comp:cleft	_	AlignBegin=174407|AlignEnd=174638
-8	learn	learn	VERB	_	_	7	comp:obj@x	_	AlignBegin=174638|AlignEnd=174870
+7	wan	want	VERB	_	_	5	comp:cleft	_	AlignBegin=174407|AlignEnd=174638
+8	learn	learn	VERB	_	_	7	comp:obj$desire@x	_	AlignBegin=174638|AlignEnd=174870
 9	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=174870|AlignEnd=174870
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__152
@@ -2068,7 +2068,7 @@
 # text = ehen na electrical >+ na im I dey do //
 # text_en = Ehen, it's electrical I want to do.
 # text_ortho = Ehen na electrical na im I dey do.
-1	ehen	ehen	INTJ	_	_	2	discourse	_	AlignBegin=174860|AlignEnd=175070
+1	ehen	ehen	ADJ	_	_	2	discourse	_	AlignBegin=174860|AlignEnd=175070
 2	na	na	PART	_	_	0	root	_	AlignBegin=175070|AlignEnd=175280
 3	electrical	electrical	ADJ	_	_	2	comp:pred	_	AlignBegin=175280|AlignEnd=175490
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=175490|AlignEnd=175490
@@ -2084,11 +2084,11 @@
 # text = fan no dey inside //
 # text_en = Fan reparis are not included.
 # text_ortho = Fan no dey inside.
-1	fan	fan	NOUN	_	_	3	subj	_	AlignBegin=176540|AlignEnd=176800
-2	no	no	PART	_	_	3	mod	_	AlignBegin=176800|AlignEnd=177060
-3	dey	dey	VERB	_	_	0	root	_	AlignBegin=177060|AlignEnd=177320
+1	fan	fan	NOUN	_	_	2	subj	_	AlignBegin=176540|AlignEnd=176800
+2	no	no	AUX	_	_	0	root	_	AlignBegin=176800|AlignEnd=177060
+3	dey	dey	VERB	_	_	2	comp:aux	_	AlignBegin=177060|AlignEnd=177320
 4	inside	inside	ADP	_	_	3	comp:pred	_	AlignBegin=177320|AlignEnd=177580
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=177580|AlignEnd=177580
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=177580|AlignEnd=177580
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__154
 # speaker_id = Sp103
@@ -2096,7 +2096,7 @@
 # text_en = Fan... fan.
 # text_ortho = Fan, fan...
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=177710|AlignEnd=177710
-2	fan	fan	X	_	_	0	root:scrap	_	AlignBegin=177710|AlignEnd=178100
+2	fan	fan	NOUN	_	_	0	root@scrap	_	AlignBegin=177710|AlignEnd=178100
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=178100|AlignEnd=178100
 4	fan	fan	NOUN	_	_	2	conj:dicto	_	AlignBegin=178100|AlignEnd=178490
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=178490|AlignEnd=178490
@@ -2109,13 +2109,13 @@
 # text_en = Isn't ele-... electrical work not, not, not, not fan?
 # text_ortho = Ele-... electrical work no, no, no, no be fan?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=178840|AlignEnd=178840
-2	ele~	X	X	_	_	6	mod	_	AlignBegin=178840|AlignEnd=179120
+2	ele~	X	X	_	_	6	compound	_	AlignBegin=178840|AlignEnd=179120
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=179120|AlignEnd=179120
 4	electrical	electrical	ADJ	_	_	2	conj:dicto	_	AlignBegin=179120|AlignEnd=179400
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=179400|AlignEnd=179400
-6	work	work	NOUN	_	_	16	subj	_	AlignBegin=179400|AlignEnd=179680
+6	work	work	NOUN	_	_	8	subj	_	AlignBegin=179400|AlignEnd=179680
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=179680|AlignEnd=179680
-8	no	no	PART	_	_	6	mod	_	AlignBegin=179680|AlignEnd=179960
+8	no	no	AUX	_	_	0	root	_	AlignBegin=179680|AlignEnd=179960
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=179960|AlignEnd=179960
 10	no	no	PART	_	_	8	conj:dicto	_	AlignBegin=179960|AlignEnd=180240
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=180240|AlignEnd=180240
@@ -2123,21 +2123,21 @@
 13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=180520|AlignEnd=180520
 14	no	no	PART	_	_	12	conj:dicto	_	AlignBegin=180520|AlignEnd=180800
 15	}	}	PUNCT	_	_	8	punct	_	AlignBegin=180800|AlignEnd=180800
-16	be	be	VERB	_	_	0	root	_	AlignBegin=180800|AlignEnd=181080
+16	be	be	VERB	_	_	14	comp:aux	_	AlignBegin=180800|AlignEnd=181080
 17	fan	fan	NOUN	_	_	16	comp:pred	_	AlignBegin=181080|AlignEnd=181360
-18	?//	?//	PUNCT	_	_	16	punct	_	AlignBegin=181360|AlignEnd=181360
+18	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=181360|AlignEnd=181360
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__156
 # speaker_id = Sp104
 # text = no be for motor fan //
 # text_en = It's not for car fans.
 # text_ortho = No be for motor fan.
-1	no	no	PART	_	_	2	mod	_	AlignBegin=180560|AlignEnd=180826
-2	be	be	VERB	_	_	0	root	_	AlignBegin=180826|AlignEnd=181092
+1	no	no	AUX	_	_	0	root	_	AlignBegin=180560|AlignEnd=180826
+2	be	be	VERB	_	_	1	comp:aux	_	AlignBegin=180826|AlignEnd=181092
 3	for	for	ADP	_	_	2	comp:pred	_	AlignBegin=181092|AlignEnd=181358
 4	motor	motor	NOUN	_	_	5	compound	_	AlignBegin=181358|AlignEnd=181624
 5	fan	fan	NOUN	_	_	3	comp:obj	_	AlignBegin=181624|AlignEnd=181890
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=181890|AlignEnd=181890
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181890|AlignEnd=181890
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__157
 # speaker_id = Sp104
@@ -2150,7 +2150,7 @@
 4	motor	motor	NOUN	_	_	5	compound	_	AlignBegin=182730|AlignEnd=182973
 5	fan	fan	NOUN	_	_	3	comp:pred	_	AlignBegin=182973|AlignEnd=183216
 6	>	>	PUNCT	_	_	7	punct	_	AlignBegin=183216|AlignEnd=183216
-7	Oga	Oga	NOUN	_	_	3	vocative	_	AlignBegin=183216|AlignEnd=183460
+7	Oga	oga	NOUN	_	_	3	dislocated	_	AlignBegin=183216|AlignEnd=183460
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=183460|AlignEnd=183460
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__158
@@ -2158,7 +2158,7 @@
 # text = okay //
 # text_en = Okay,
 # text_ortho = Okay.
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=183620|AlignEnd=184190
+1	okay	OK	PUNCT	_	_	0	root	_	AlignBegin=183620|AlignEnd=184190
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=184190|AlignEnd=184190
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__159
@@ -2167,14 +2167,14 @@
 # text_en = But if it was the one here, I'll do it.
 # text_ortho = But if to sey na dis fan wey dey here, I go do am.
 1	but	but	CCONJ	_	_	15	discourse	_	AlignBegin=183640|AlignEnd=183832
-2	if	if	SCONJ	_	_	15	mod:periph	_	AlignBegin=183832|AlignEnd=184024
+2	if	if	SCONJ	_	_	15	mod:periph$cond	_	AlignBegin=183832|AlignEnd=184024
 3	to	to	ADP	_	_	2	comp:obj	_	AlignBegin=184024|AlignEnd=184216
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=184216|AlignEnd=184408
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=184408|AlignEnd=184408
-6	na	na	PART	_	_	4	comp:obj	_	AlignBegin=184408|AlignEnd=184600
+6	na	na	PART	_	_	2	comp:obj	_	AlignBegin=184408|AlignEnd=184600
 7	dis	dis	DET	_	_	8	det	_	AlignBegin=184600|AlignEnd=184792
 8	fan	fan	NOUN	_	_	6	comp:pred	_	AlignBegin=184792|AlignEnd=184985
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=184985|AlignEnd=185177
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=184985|AlignEnd=185177
 10	dey	dey	VERB	_	_	9	comp:obj	_	AlignBegin=185177|AlignEnd=185369
 11	here	here	ADV	_	_	10	comp:pred	_	AlignBegin=185369|AlignEnd=185561
 12	]	]	PUNCT	_	_	6	punct	_	AlignBegin=185561|AlignEnd=185561
@@ -2190,7 +2190,7 @@
 # text = okay //
 # text_en = Okay.
 # text_ortho = Okay.
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=186620|AlignEnd=187410
+1	okay	OK	PUNCT	_	_	0	root	_	AlignBegin=186620|AlignEnd=187410
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=187410|AlignEnd=187410
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__161
@@ -2202,9 +2202,9 @@
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=186861|AlignEnd=187102
 3	one	one	NOUN	_	_	4	subj	_	AlignBegin=187102|AlignEnd=187344
 4	na	na	PART	_	_	0	root	_	AlignBegin=187344|AlignEnd=187585
-5	motor	motor	NOUN	_	_	4	comp:pred	_	AlignBegin=187585|AlignEnd=187827
-6	fan	fan	ADP	_	_	5	mod	_	AlignBegin=187827|AlignEnd=188068
-7	oga	oga	NOUN	_	_	6	comp:obj	_	AlignBegin=188068|AlignEnd=188310
+5	motor	motor	NOUN	_	_	7	mod	_	AlignBegin=187585|AlignEnd=187827
+6	fan	fan	NOUN	_	_	7	mod	_	AlignBegin=187827|AlignEnd=188068
+7	oga	oga	NOUN	_	_	4	comp:pred	_	AlignBegin=188068|AlignEnd=188310
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=188310|AlignEnd=188310
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__162
@@ -2221,11 +2221,11 @@
 # text = I no go do //
 # text_en = I will not do.
 # text_ortho = I no go do.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=188310|AlignEnd=188437
-2	no	no	PART	_	_	3	mod	_	AlignBegin=188437|AlignEnd=188565
-3	go	go	AUX	_	_	0	root	_	AlignBegin=188565|AlignEnd=188692
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=188310|AlignEnd=188437
+2	no	no	AUX	_	_	0	root	_	AlignBegin=188437|AlignEnd=188565
+3	go	go	AUX	_	_	2	comp:aux	_	AlignBegin=188565|AlignEnd=188692
 4	do	do	VERB	_	_	3	comp:aux	_	AlignBegin=188692|AlignEnd=188820
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=188820|AlignEnd=188820
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=188820|AlignEnd=188820
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__164
 # speaker_id = Sp103
@@ -2235,14 +2235,14 @@
 1	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=188710|AlignEnd=189105
 2	dey	dey	VERB	_	_	1	comp:cleft	_	AlignBegin=189105|AlignEnd=189500
 3	different	different	ADJ	_	_	2	comp:pred	_	AlignBegin=189500|AlignEnd=189895
-4	between	between	ADP	_	_	3	comp:obl	_	AlignBegin=189895|AlignEnd=190290
+4	between	between	ADP	_	_	3	mod	_	AlignBegin=189895|AlignEnd=190290
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=190290|AlignEnd=190290
 6	motor	motor	NOUN	_	_	4	comp:obj	_	AlignBegin=190290|AlignEnd=190685
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=190685|AlignEnd=190685
 8	electrical	electrical	ADJ	_	_	6	conj:coord	_	AlignBegin=190685|AlignEnd=191080
 9	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=191080|AlignEnd=191080
 10	and	and	CCONJ	_	_	13	cc	_	AlignBegin=191080|AlignEnd=191475
-11	eh	eh	INTJ	_	_	13	discourse	_	AlignBegin=191475|AlignEnd=191870
+11	eh	eh	ADJ	_	_	13	discourse	_	AlignBegin=191475|AlignEnd=191870
 12	wiring	wiring	NOUN	_	_	13	compound	_	AlignBegin=191870|AlignEnd=192265
 13	electric	electric	ADJ	_	_	8	conj:coord	_	AlignBegin=192265|AlignEnd=192660
 14	}	}	PUNCT	_	_	6	punct	_	AlignBegin=192660|AlignEnd=192660
@@ -2253,14 +2253,14 @@
 # text = ehn de dey call dat one o automobile //
 # text_en = Eh, they call that one automobile.
 # text_ortho = Ehn de dey call dat one o automobile.
-1	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=191590|AlignEnd=191912
-2	de	dem	PRON	_	_	3	subj	_	AlignBegin=191912|AlignEnd=192235
+1	ehn	ehn	ADJ	_	_	3	discourse	_	AlignBegin=191590|AlignEnd=191912
+2	de	de	PRON	_	_	3	subj	_	AlignBegin=191912|AlignEnd=192235
 3	dey	dey	AUX	_	_	0	root	_	AlignBegin=192235|AlignEnd=192557
 4	call	call	VERB	_	_	3	comp:aux	_	AlignBegin=192557|AlignEnd=192880
 5	dat	dat	DET	_	_	6	det	_	AlignBegin=192880|AlignEnd=193202
 6	one	one	NOUN	_	_	4	comp:obj	_	AlignBegin=193202|AlignEnd=193525
-7	o	o	PART	_	_	8	mod:emph	_	AlignBegin=193525|AlignEnd=193847
-8	automobile	automobile	NOUN	_	_	4	comp:obj	_	AlignBegin=193847|AlignEnd=194170
+7	o	o	PART	_	_	3	mod:emph	_	AlignBegin=193525|AlignEnd=193847
+8	automobile	automobile	NOUN	_	_	4	comp:pred	_	AlignBegin=193847|AlignEnd=194170
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=194170|AlignEnd=194170
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__166
@@ -2270,7 +2270,7 @@
 # text_ortho = Dis one na...
 1	dis	dis	DET	_	_	2	det	_	AlignBegin=194170|AlignEnd=194446
 2	one	one	NOUN	_	_	3	subj	_	AlignBegin=194446|AlignEnd=194723
-3	na	na	PART	_	_	0	root:scrap	_	AlignBegin=194723|AlignEnd=195000
+3	na	na	PART	_	_	0	root@scrap	_	AlignBegin=194723|AlignEnd=195000
 4	&	&	PUNCT	_	_	3	punct	_	AlignBegin=195000|AlignEnd=195000
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=195000|AlignEnd=195000
 
@@ -2279,7 +2279,7 @@
 # text = yes !//
 # text_en = yes.
 # text_ortho = Yes!
-1	yes	yes	INTJ	_	_	0	root	_	AlignBegin=195000|AlignEnd=195500
+1	yes	yes	ADJ	_	_	0	root	_	AlignBegin=195000|AlignEnd=195500
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=195500|AlignEnd=195500
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__168
@@ -2310,12 +2310,12 @@
 # text = oga < de dey different o //
 # text_en = Boss, they are different o.
 # text_ortho = Oga, de dey different o.
-1	oga	oga	NOUN	_	_	4	dislocated	_	AlignBegin=198620|AlignEnd=198904
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=198620|AlignEnd=198904
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=198904|AlignEnd=198904
-3	de	dem	PRON	_	_	4	subj	_	AlignBegin=198904|AlignEnd=199188
+3	de	t	PRON	_	_	4	subj	_	AlignBegin=198904|AlignEnd=199188
 4	dey	dey	VERB	_	_	0	root	_	AlignBegin=199188|AlignEnd=199472
 5	different	different	ADJ	_	_	4	comp:pred	_	AlignBegin=199472|AlignEnd=199756
-6	o	o	PART	_	_	5	mod:emph	_	AlignBegin=199756|AlignEnd=200040
+6	o	o	PART	_	_	4	mod:emph	_	AlignBegin=199756|AlignEnd=200040
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=200040|AlignEnd=200040
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__171
@@ -2333,7 +2333,7 @@
 # text_en = You said this one...
 # text_ortho = You talk dis one...
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=200570|AlignEnd=200745
-2	talk	talk	VERB	_	_	0	root:scrap	_	AlignBegin=200745|AlignEnd=200920
+2	talk	talk	VERB	_	_	0	root@scrap	_	AlignBegin=200745|AlignEnd=200920
 3	dis	dis	DET	_	_	4	det	_	AlignBegin=200920|AlignEnd=201095
 4	one	one	NOUN	_	_	2	comp:obj	_	AlignBegin=201095|AlignEnd=201270
 5	&	&	PUNCT	_	_	2	punct	_	AlignBegin=201270|AlignEnd=201270
@@ -2344,17 +2344,17 @@
 # text = oga < di tools na { different |r different } tools //
 # text_en = Boss, the tools are different tools.
 # text_ortho = Oga, di tools na different, different tools.
-1	oga	oga	NOUN	_	_	5	dislocated	_	AlignBegin=200580|AlignEnd=200884
+1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=200580|AlignEnd=200884
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=200884|AlignEnd=200884
 3	di	di	DET	_	_	4	det	_	AlignBegin=200884|AlignEnd=201188
-4	tools	tools	NOUN	_	_	5	subj	_	AlignBegin=201188|AlignEnd=201492
+4	tools	tool	NOUN	_	_	5	subj	_	AlignBegin=201188|AlignEnd=201492
 5	na	na	PART	_	_	0	root	_	AlignBegin=201492|AlignEnd=201797
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=201797|AlignEnd=201797
 7	different	different	ADJ	_	_	11	mod	_	AlignBegin=201797|AlignEnd=202101
 8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=202101|AlignEnd=202101
 9	different	different	ADJ	_	_	7	compound:redup	_	AlignBegin=202101|AlignEnd=202405
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=202405|AlignEnd=202405
-11	tools	tools	NOUN	_	_	5	comp:pred	_	AlignBegin=202405|AlignEnd=202710
+11	tools	tool	NOUN	_	_	5	comp:pred	_	AlignBegin=202405|AlignEnd=202710
 12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=202710|AlignEnd=202710
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__174
@@ -2362,7 +2362,7 @@
 # text = no !//
 # text_en = X.
 # text_ortho = No!
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=201270|AlignEnd=201680
+1	no	no	PART	_	_	0	root	_	AlignBegin=201270|AlignEnd=201680
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=201680|AlignEnd=201680
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__175
@@ -2386,7 +2386,7 @@
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=203552|AlignEnd=203552
 6	talk	talk	VERB	_	_	0	root	_	AlignBegin=203552|AlignEnd=203794
 7	am	am	PRON	_	_	6	comp:obj	_	AlignBegin=203794|AlignEnd=204035
-8	for	for	ADP	_	_	6	mod	_	AlignBegin=204035|AlignEnd=204277
+8	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=204035|AlignEnd=204277
 9	Igbo	Igbo	PROPN	_	_	8	comp:obj	_	AlignBegin=204277|AlignEnd=204518
 10	now	now	ADV	_	_	6	mod	_	AlignBegin=204518|AlignEnd=204760
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=204760|AlignEnd=204760
@@ -2396,7 +2396,7 @@
 # text = mstchew !//
 # text_en = Mstchew.
 # text_ortho = Mstchew!
-1	mstchew	mstchew	INTJ	_	_	0	root	_	AlignBegin=203090|AlignEnd=203800
+1	mstchew	MSTCH	ADJ	_	_	0	root	_	AlignBegin=203090|AlignEnd=203800
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=203800|AlignEnd=203800
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__178
@@ -2411,7 +2411,7 @@
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=205552|AlignEnd=205552
 6	wetin	wetin	PRON	_	_	4	conj:dicto	_	AlignBegin=205552|AlignEnd=205908
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=205908|AlignEnd=205908
-8	be	be	VERB	_	_	6	mod:relcl	_	AlignBegin=205908|AlignEnd=206264
+8	be	be	VERB	_	_	6	mod@relcl	_	AlignBegin=205908|AlignEnd=206264
 9	automobile	automobile	NOUN	_	_	8	comp:pred	_	AlignBegin=206264|AlignEnd=206620
 10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=206620|AlignEnd=206620
 
@@ -2420,7 +2420,7 @@
 # text = ehn ?//
 # text_en = Ehn?
 # text_ortho = Ehn?
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=207480|AlignEnd=207840
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=207480|AlignEnd=207840
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=207840|AlignEnd=207840
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__180
@@ -2428,7 +2428,7 @@
 # text = ehn //
 # text_en = Ehn.
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=207810|AlignEnd=208240
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=207810|AlignEnd=208240
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=208240|AlignEnd=208240
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__181
@@ -2447,7 +2447,7 @@
 # text = hm //
 # text_en = Hm.
 # text_ortho = Hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=208650|AlignEnd=209090
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=208650|AlignEnd=209090
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=209090|AlignEnd=209090
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__183
@@ -2455,15 +2455,15 @@
 # text = you no know { automatic |c mobile } //
 # text_en = You don't know automatic and mobile.
 # text_ortho = You no know automatic, mobile.
-1	you	you	PRON	_	_	3	subj	_	AlignBegin=210260|AlignEnd=210642
-2	no	no	PART	_	_	3	mod	_	AlignBegin=210642|AlignEnd=211024
-3	know	know	VERB	_	_	0	root	_	AlignBegin=211024|AlignEnd=211406
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=210260|AlignEnd=210642
+2	no	no	AUX	_	_	0	root	_	AlignBegin=210642|AlignEnd=211024
+3	know	know	VERB	_	_	2	comp:aux	_	AlignBegin=211024|AlignEnd=211406
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=211406|AlignEnd=211406
 5	automatic	automatic	ADJ	_	_	3	comp:obj	_	AlignBegin=211406|AlignEnd=211788
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=211788|AlignEnd=211788
 7	mobile	mobile	ADJ	_	_	5	conj:coord	_	AlignBegin=211788|AlignEnd=212170
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=212170|AlignEnd=212170
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=212170|AlignEnd=212170
+9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=212170|AlignEnd=212170
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__184
 # speaker_id = Sp103
@@ -2478,7 +2478,7 @@
 # text = okay !//
 # text_en = okay.
 # text_ortho = Okay!
-1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=211610|AlignEnd=212160
+1	okay	OK	INTJ	_	_	0	root	_	AlignBegin=211610|AlignEnd=212160
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=212160|AlignEnd=212160
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__186
@@ -2486,14 +2486,14 @@
 # text = { dat one wey || dat one wey } I carry you go for dat place < no be automobile ?//
 # text_en = That one that... that one that I took you to that place,is it not automobile?
 # text_ortho = Dat one wey, dat one wey I carry you go for dat place, no be automobile?
-1	{	{	PUNCT	_	_	19	punct	_	AlignBegin=212210|AlignEnd=212210
+1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=212210|AlignEnd=212210
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=212210|AlignEnd=212426
-3	one	one	NOUN	_	_	19	dislocated	_	AlignBegin=212426|AlignEnd=212643
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=212643|AlignEnd=212860
+3	one	one	NOUN	_	_	18	dislocated	_	AlignBegin=212426|AlignEnd=212643
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=212643|AlignEnd=212860
 5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=212860|AlignEnd=212860
 6	dat	dat	DET	_	_	7	det	_	AlignBegin=212860|AlignEnd=213077
 7	one	one	NOUN	_	_	3	conj:dicto	_	AlignBegin=213077|AlignEnd=213294
-8	wey	wey	SCONJ	_	_	7	mod:relcl	_	AlignBegin=213294|AlignEnd=213511
+8	wey	wey	SCONJ	_	_	7	mod@relcl	_	AlignBegin=213294|AlignEnd=213511
 9	}	}	PUNCT	_	_	3	punct	_	AlignBegin=213511|AlignEnd=213511
 10	I	I	PRON	_	_	11	subj	_	AlignBegin=213511|AlignEnd=213728
 11	carry	carry	VERB	_	_	8	comp:obj	_	AlignBegin=213728|AlignEnd=213945
@@ -2503,10 +2503,10 @@
 15	dat	dat	DET	_	_	16	det	_	AlignBegin=214595|AlignEnd=214812
 16	place	place	NOUN	_	_	14	comp:obj	_	AlignBegin=214812|AlignEnd=215029
 17	<	<	PUNCT	_	_	3	punct	_	AlignBegin=215029|AlignEnd=215029
-18	no	no	PART	_	_	19	mod	_	AlignBegin=215029|AlignEnd=215246
-19	be	be	VERB	_	_	0	root	_	AlignBegin=215246|AlignEnd=215463
+18	no	no	AUX	_	_	0	root	_	AlignBegin=215029|AlignEnd=215246
+19	be	be	VERB	_	_	18	comp:aux	_	AlignBegin=215246|AlignEnd=215463
 20	automobile	automobile	NOUN	_	_	19	comp:pred	_	AlignBegin=215463|AlignEnd=215680
-21	?//	?//	PUNCT	_	_	19	punct	_	AlignBegin=215680|AlignEnd=215680
+21	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=215680|AlignEnd=215680
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__187
 # speaker_id = Sp104
@@ -2522,10 +2522,10 @@
 # text = ehn dat na ma automobile electrician //
 # text_en = Eh, that one is an automobile electrician.
 # text_ortho = Ehn dat na ma automobile electrician.
-1	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=215690|AlignEnd=216056
+1	ehn	ehn	ADJ	_	_	3	discourse	_	AlignBegin=215690|AlignEnd=216056
 2	dat	dat	PRON	_	_	3	subj	_	AlignBegin=216056|AlignEnd=216423
 3	na	na	PART	_	_	0	root	_	AlignBegin=216423|AlignEnd=216790
-4	ma	ma	DET	_	_	6	det	_	AlignBegin=216790|AlignEnd=217156
+4	ma	ma	PART	_	_	6	mod	_	AlignBegin=216790|AlignEnd=217156
 5	automobile	automobile	NOUN	_	_	6	mod	_	AlignBegin=217156|AlignEnd=217523
 6	electrician	electrician	NOUN	_	_	3	comp:pred	_	AlignBegin=217523|AlignEnd=217890
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=217890|AlignEnd=217890
@@ -2535,12 +2535,12 @@
 # text = okay ah listen to me now //
 # text_en = Okay, ah, listen to me now.
 # text_ortho = Okay ah listen to me now.
-1	okay	okay	INTJ	_	_	3	discourse	_	AlignBegin=217830|AlignEnd=218151
-2	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=218151|AlignEnd=218473
+1	okay	OK	ADJ	_	_	3	discourse	_	AlignBegin=217830|AlignEnd=218151
+2	ah	ah	ADJ	_	_	3	discourse	_	AlignBegin=218151|AlignEnd=218473
 3	listen	listen	VERB	_	_	0	root	_	AlignBegin=218473|AlignEnd=218795|Lang=en
 4	to	to	ADP	_	_	3	comp:obl	_	AlignBegin=218795|AlignEnd=219116|Lang=en
 5	me	me	PRON	_	_	4	comp:obj	_	AlignBegin=219116|AlignEnd=219438|Lang=en
-6	now	now	ADV	_	_	3	mod	_	AlignBegin=219438|AlignEnd=219760|Lang=en
+6	now	now	ADV	_	_	3	mod:emph	_	AlignBegin=219438|AlignEnd=219760|Lang=en
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=219760|AlignEnd=219760
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__190
@@ -2565,7 +2565,7 @@
 # text_ortho = As I just dey inside mo-... as I dey under now, and dat di.....
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=219880|AlignEnd=219880
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=219880|AlignEnd=219880
-3	as	as	ADP	_	_	0	root:scrap	_	AlignBegin=219880|AlignEnd=220215
+3	as	as	ADP	_	_	0	root@scrap	_	AlignBegin=219880|AlignEnd=220215
 4	I	I	PRON	_	_	6	subj	_	AlignBegin=220215|AlignEnd=220550
 5	just	just	ADV	_	_	6	mod	_	AlignBegin=220550|AlignEnd=220885
 6	dey	dey	VERB	_	_	3	comp:obj	_	AlignBegin=220885|AlignEnd=221220
@@ -2576,12 +2576,12 @@
 11	I	I	PRON	_	_	12	subj	_	AlignBegin=222225|AlignEnd=222560
 12	dey	dey	VERB	_	_	10	comp:obj	_	AlignBegin=222560|AlignEnd=222895
 13	under	under	ADP	_	_	12	comp:pred	_	AlignBegin=222895|AlignEnd=223230
-14	now	now	ADV	_	_	13	mod	_	AlignBegin=223230|AlignEnd=223565
+14	now	now	ADV	_	_	12	mod	_	AlignBegin=223230|AlignEnd=223565
 15	}	}	PUNCT	_	_	3	punct	_	AlignBegin=223565|AlignEnd=223565
 16	|c	|c	PUNCT	_	_	19	punct	_	AlignBegin=223565|AlignEnd=223565
 17	and	and	CCONJ	_	_	19	cc	_	AlignBegin=223565|AlignEnd=223900
 18	dat	dat	DET	_	_	19	det	_	AlignBegin=223900|AlignEnd=224235
-19	di	di	DET	_	_	10	comp:obj@scrap	_	AlignBegin=224235|AlignEnd=224570
+19	di	di	DET	_	_	12	comp:obj@scrap	_	AlignBegin=224235|AlignEnd=224570
 20	&	&	PUNCT	_	_	3	punct	_	AlignBegin=224570|AlignEnd=224570
 21	}	}	PUNCT	_	_	3	punct	_	AlignBegin=224570|AlignEnd=224570
 22	<	<	PUNCT	_	_	3	punct	_	AlignBegin=224570|AlignEnd=224570
@@ -2593,7 +2593,7 @@
 # text = ehn //
 # text_en = Ehn.
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=220650|AlignEnd=221310
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=220650|AlignEnd=221310
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=221310|AlignEnd=221310
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__193
@@ -2601,7 +2601,7 @@
 # text = ehn //
 # text_en = Ehn.
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=222530|AlignEnd=223280
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=222530|AlignEnd=223280
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=223280|AlignEnd=223280
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__194
@@ -2624,7 +2624,7 @@
 # text = ehn //
 # text_en = Ehn.
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=224570|AlignEnd=224920
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=224570|AlignEnd=224920
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=224920|AlignEnd=224920
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__196
@@ -2632,17 +2632,17 @@
 # text = no be automobile ?//
 # text_en = Is it not automobile?
 # text_ortho = No be automobile?
-1	no	no	PART	_	_	2	mod	_	AlignBegin=224980|AlignEnd=225266
-2	be	be	VERB	_	_	0	root	_	AlignBegin=225266|AlignEnd=225553
+1	no	no	AUX	_	_	0	root	_	AlignBegin=224980|AlignEnd=225266
+2	be	be	VERB	_	_	1	comp:aux	_	AlignBegin=225266|AlignEnd=225553
 3	automobile	automobile	NOUN	_	_	2	comp:pred	_	AlignBegin=225553|AlignEnd=225840
-4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=225840|AlignEnd=225840
+4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=225840|AlignEnd=225840
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__197
 # speaker_id = Sp104
 # text = no //
 # text_en = No.
 # text_ortho = No.
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=225950|AlignEnd=226200
+1	no	no	PART	_	_	0	root	_	AlignBegin=225950|AlignEnd=226200
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=226200|AlignEnd=226200
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__198
@@ -2650,7 +2650,7 @@
 # text = eh { dat one < otu || dat one } na otu mobile >+ you dey do //
 # text_en = Ehn, that one, vagina... that's vagina mobile you are doing.
 # text_ortho = Eh dat one, otu, dat one na otu mobile you dey do.
-1	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=226200|AlignEnd=226591
+1	eh	eh	ADJ	_	_	11	discourse	_	AlignBegin=226200|AlignEnd=226591
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=226591|AlignEnd=226591
 3	dat	dat	DET	_	_	4	det	_	AlignBegin=226591|AlignEnd=226983
 4	one	one	NOUN	_	_	11	dislocated	_	AlignBegin=226983|AlignEnd=227375
@@ -2674,21 +2674,21 @@
 # text = { no be || no be } { ele~ || ehn electrical } work ?//
 # text_en = Isn't it... isn't it ele... eh electrical repair?
 # text_ortho = No be, no be ele-... ehn electrical work?
-1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=226800|AlignEnd=226800
-2	no	no	PART	_	_	3	mod	_	AlignBegin=226800|AlignEnd=227138
-3	be	be	VERB	_	_	0	root	_	AlignBegin=227138|AlignEnd=227477
-4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=227477|AlignEnd=227477
-5	no	no	PART	_	_	6	mod	_	AlignBegin=227477|AlignEnd=227816
-6	be	be	VERB	_	_	3	conj:dicto	_	AlignBegin=227816|AlignEnd=228155
-7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=228155|AlignEnd=228155
+1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=226800|AlignEnd=226800
+2	no	no	AUX	_	_	0	root	_	AlignBegin=226800|AlignEnd=227138
+3	be	be	VERB	_	_	2	comp:aux	_	AlignBegin=227138|AlignEnd=227477
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=227477|AlignEnd=227477
+5	no	no	AUX	_	_	2	conj:dicto	_	AlignBegin=227477|AlignEnd=227816
+6	be	be	VERB	_	_	5	comp:aux	_	AlignBegin=227816|AlignEnd=228155
+7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=228155|AlignEnd=228155
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=228155|AlignEnd=228155
 9	ele~	X	X	_	_	14	mod	_	AlignBegin=228155|AlignEnd=228493
 10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=228493|AlignEnd=228493
-11	ehn	ehn	INTJ	_	_	12	discourse	_	AlignBegin=228493|AlignEnd=228832
+11	ehn	ehn	ADJ	_	_	12	discourse	_	AlignBegin=228493|AlignEnd=228832
 12	electrical	electrical	ADJ	_	_	9	conj:dicto	_	AlignBegin=228832|AlignEnd=229171
 13	}	}	PUNCT	_	_	9	punct	_	AlignBegin=229171|AlignEnd=229171
 14	work	work	NOUN	_	_	6	comp:pred	_	AlignBegin=229171|AlignEnd=229510
-15	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=229510|AlignEnd=229510
+15	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=229510|AlignEnd=229510
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__200
 # speaker_id = Sp103
@@ -2706,7 +2706,7 @@
 # text_ortho = Na otu mobile.
 1	na	na	PART	_	_	0	root	_	AlignBegin=230900|AlignEnd=231233
 2	otu	otu	NOUN	_	_	1	comp:pred	_	AlignBegin=231233|AlignEnd=231566
-3	mobile	mobile	ADJ	_	_	2	mod	_	AlignBegin=231566|AlignEnd=231900
+3	mobile	mobile	ADJ	_	_	1	comp:pred	_	AlignBegin=231566|AlignEnd=231900
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=231900|AlignEnd=231900
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__202
@@ -2714,10 +2714,10 @@
 # text = all of dem na & //
 # text_en = All of them are...
 # text_ortho = All of dem na...
-1	all	all	DET	_	_	4	subj	_	AlignBegin=230940|AlignEnd=231132
-2	of	of	ADP	_	_	1	none	_	AlignBegin=231132|AlignEnd=231325
+1	all	all	PRON	_	_	4	subj	_	AlignBegin=230940|AlignEnd=231132
+2	of	of	ADP	_	_	1	mod	_	AlignBegin=231132|AlignEnd=231325
 3	dem	dem	PRON	_	_	2	comp:obj	_	AlignBegin=231325|AlignEnd=231517
-4	na	na	PART	_	_	0	root:scrap	_	AlignBegin=231517|AlignEnd=231710
+4	na	na	PART	_	_	0	root@scrap	_	AlignBegin=231517|AlignEnd=231710
 5	&	&	PUNCT	_	_	4	punct	_	AlignBegin=231710|AlignEnd=231710
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=231710|AlignEnd=231710
 
@@ -2726,20 +2726,20 @@
 # text = if you wan underline am < dat's why e be sey [ na auto electrician work ] //
 # text_en = If you want to underline it, that's why it's auto electrician work.
 # text_ortho = If you wan underline am, dat's why e be sey na auto electrician work.
-1	if	if	SCONJ	_	_	7	mod:periph	_	AlignBegin=231710|AlignEnd=232002
+1	if	if	SCONJ	_	_	7	mod:periph$cond	_	AlignBegin=231710|AlignEnd=232002
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=232002|AlignEnd=232295
-3	wan	wan	VERB	_	_	1	comp:obj	_	AlignBegin=232295|AlignEnd=232588
-4	underline	underline	VERB	_	_	3	comp:obj@x	_	AlignBegin=232588|AlignEnd=232881
+3	wan	want	VERB	_	_	1	comp:obj	_	AlignBegin=232295|AlignEnd=232588
+4	underline	underline	VERB	_	_	3	comp:obj$desire@x	_	AlignBegin=232588|AlignEnd=232881
 5	am	am	PRON	_	_	4	comp:obj	_	AlignBegin=232881|AlignEnd=233174
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=233174|AlignEnd=233174
 7	dat's	dat's	PART	_	_	0	root	_	AlignBegin=233174|AlignEnd=233467
 8	why	why	ADV	_	_	7	comp:pred	_	AlignBegin=233467|AlignEnd=233760
-9	e	im	PRON	_	_	10	subj	_	AlignBegin=233760|AlignEnd=234052
-10	be	be	VERB	_	_	8	mod:relcl	_	AlignBegin=234052|AlignEnd=234345
+9	e	I	PRON	_	_	10	subj	_	AlignBegin=233760|AlignEnd=234052
+10	be	be	VERB	_	_	8	mod@relcl	_	AlignBegin=234052|AlignEnd=234345
 11	sey	sey	SCONJ	_	_	10	comp:pred	_	AlignBegin=234345|AlignEnd=234638
 12	[	[	PUNCT	_	_	13	punct	_	AlignBegin=234638|AlignEnd=234638
 13	na	na	PART	_	_	11	comp:obj	_	AlignBegin=234638|AlignEnd=234931
-14	auto	auto	NOUN	_	_	15	mod	_	AlignBegin=234931|AlignEnd=235224
+14	auto	auto	ADJ	_	_	16	mod	_	AlignBegin=234931|AlignEnd=235224
 15	electrician	electrician	ADJ	_	_	16	mod	_	AlignBegin=235224|AlignEnd=235517
 16	work	work	NOUN	_	_	13	comp:pred	_	AlignBegin=235517|AlignEnd=235810
 17	]	]	PUNCT	_	_	13	punct	_	AlignBegin=235810|AlignEnd=235810
@@ -2750,8 +2750,8 @@
 # text = ehn ehn electrical dey inside //
 # text_en = Ehn, ehn, electrical is inside.
 # text_ortho = Ehn ehn electrical dey inside.
-1	ehn	ehn	INTJ	_	_	4	discourse	_	AlignBegin=235930|AlignEnd=236400
-2	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=236400|AlignEnd=236870
+1	ehn	ehn	ADJ	_	_	4	discourse	_	AlignBegin=235930|AlignEnd=236400
+2	ehn	ehn	ADJ	_	_	4	discourse	_	AlignBegin=236400|AlignEnd=236870
 3	electrical	electrical	ADJ	_	_	4	subj	_	AlignBegin=236870|AlignEnd=237340
 4	dey	dey	VERB	_	_	0	root	_	AlignBegin=237340|AlignEnd=237810
 5	inside	inside	ADP	_	_	4	comp:pred	_	AlignBegin=237810|AlignEnd=238280
@@ -2774,8 +2774,8 @@
 # text_ortho = You go now dey just dey...
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=236960|AlignEnd=237176
 2	go	go	AUX	_	_	0	root	_	AlignBegin=237176|AlignEnd=237393
-3	now	now	ADV	_	_	2	mod	_	AlignBegin=237393|AlignEnd=237610
-4	dey	dey	AUX	_	_	2	mod	_	AlignBegin=237610|AlignEnd=237826
+3	now	now	ADV	_	_	4	mod	_	AlignBegin=237393|AlignEnd=237610
+4	dey	dey	AUX	_	_	2	comp:aux	_	AlignBegin=237610|AlignEnd=237826
 5	just	just	ADV	_	_	6	mod	_	AlignBegin=237826|AlignEnd=238043
 6	dey	dey	AUX	_	_	4	comp:aux@scrap	_	AlignBegin=238043|AlignEnd=238260
 7	&	&	PUNCT	_	_	2	punct	_	AlignBegin=238260|AlignEnd=238260
@@ -2791,14 +2791,14 @@
 3	electrical	electrical	ADJ	_	_	4	subj	_	AlignBegin=238560|AlignEnd=238810
 4	dey	dey	VERB	_	_	0	root	_	AlignBegin=238810|AlignEnd=239060
 5	inside	inside	ADP	_	_	4	comp:pred	_	AlignBegin=239060|AlignEnd=239310
-6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=239310|AlignEnd=239310
-7	but	but	CCONJ	_	_	9	cc	_	AlignBegin=239310|AlignEnd=239560
-8	no	no	PART	_	_	9	mod	_	AlignBegin=239560|AlignEnd=239810
-9	be	be	VERB	_	_	4	conj:coord	_	AlignBegin=239810|AlignEnd=240060
-10	auto	auto	NOUN	_	_	9	comp:pred	_	AlignBegin=240060|AlignEnd=240310
+6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=239310|AlignEnd=239310
+7	but	but	CCONJ	_	_	8	cc	_	AlignBegin=239310|AlignEnd=239560
+8	no	no	AUX	_	_	4	conj:coord	_	AlignBegin=239560|AlignEnd=239810
+9	be	be	VERB	_	_	8	comp:aux	_	AlignBegin=239810|AlignEnd=240060
+10	auto	auto	ADJ	_	_	9	comp:pred	_	AlignBegin=240060|AlignEnd=240310
 11	>+	>+	PUNCT	_	_	13	punct	_	AlignBegin=240310|AlignEnd=240310
 12	I	I	PRON	_	_	13	subj	_	AlignBegin=240310|AlignEnd=240560
-13	dey	dey	AUX	_	_	9	comp:cleft	_	AlignBegin=240560|AlignEnd=240810
+13	dey	dey	AUX	_	_	8	comp:cleft	_	AlignBegin=240560|AlignEnd=240810
 14	do	do	VERB	_	_	13	comp:aux	_	AlignBegin=240810|AlignEnd=241060
 15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=241060|AlignEnd=241060
 
@@ -2809,7 +2809,7 @@
 # text_ortho = Na normal house electrical.
 1	na	na	PART	_	_	0	root	_	AlignBegin=241330|AlignEnd=241770
 2	normal	normal	ADJ	_	_	3	mod	_	AlignBegin=241770|AlignEnd=242210
-3	house	house	NOUN	_	_	4	compound	_	AlignBegin=242210|AlignEnd=242650
+3	house	house	NOUN	_	_	1	comp:pred	_	AlignBegin=242210|AlignEnd=242650
 4	electrical	electrical	ADJ	_	_	1	comp:pred	_	AlignBegin=242650|AlignEnd=243090
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=243090|AlignEnd=243090
 
@@ -2828,11 +2828,11 @@
 # text = no be auto electrical //
 # text_en = Not auto electrical.
 # text_ortho = No be auto electrical.
-1	no	no	PART	_	_	2	mod	_	AlignBegin=243090|AlignEnd=243432
-2	be	be	VERB	_	_	0	root	_	AlignBegin=243432|AlignEnd=243775
-3	auto	auto	NOUN	_	_	4	compound	_	AlignBegin=243775|AlignEnd=244117
+1	no	no	AUX	_	_	0	root	_	AlignBegin=243090|AlignEnd=243432
+2	be	be	VERB	_	_	1	comp:aux	_	AlignBegin=243432|AlignEnd=243775
+3	auto	auto	X	_	_	4	mod	_	AlignBegin=243775|AlignEnd=244117
 4	electrical	electrical	ADJ	_	_	2	comp:pred	_	AlignBegin=244117|AlignEnd=244460
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=244460|AlignEnd=244460
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=244460|AlignEnd=244460
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__211
 # speaker_id = Sp103
@@ -2845,13 +2845,13 @@
 4	wet~	X	X	_	_	2	conj:dicto	_	AlignBegin=244985|AlignEnd=245380
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=245380|AlignEnd=245380
 6	wetin	wetin	PRON	_	_	4	conj:dicto	_	AlignBegin=245380|AlignEnd=245775
-7	dey	dey	AUX	_	_	6	mod:scrap	_	AlignBegin=245775|AlignEnd=246170
+7	dey	dey	AUX	_	_	6	comp:cleft	_	AlignBegin=245775|AlignEnd=246170
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=246170|AlignEnd=246170
 9	wetin	wetin	PRON	_	_	6	conj:dicto	_	AlignBegin=246170|AlignEnd=246565
-10	dey	dey	AUX	_	_	9	comp:cleft@scrap	_	AlignBegin=246565|AlignEnd=246960
+10	dey	dey	AUX	_	_	9	mod@relcl	_	AlignBegin=246565|AlignEnd=246960
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=246960|AlignEnd=246960
 12	wetin	wetin	PRON	_	_	9	conj:dicto	_	AlignBegin=246960|AlignEnd=247355
-13	dey	dey	AUX	_	_	12	mod:relcl	_	AlignBegin=247355|AlignEnd=247750
+13	dey	dey	AUX	_	_	12	mod@relcl	_	AlignBegin=247355|AlignEnd=247750
 14	}	}	PUNCT	_	_	2	punct	_	AlignBegin=247750|AlignEnd=247750
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=247750|AlignEnd=247750
 16	differ~	X	X	_	_	13	comp:aux	_	AlignBegin=247750|AlignEnd=248145
@@ -2867,14 +2867,14 @@
 # text = oga < I no dey auto anyting //
 # text_en = Boss I am not auto anything.
 # text_ortho = Oga, I no dey auto anyting.
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=245460|AlignEnd=245736
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=245460|AlignEnd=245736
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=245736|AlignEnd=245736
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=245736|AlignEnd=246013
-4	no	no	PART	_	_	5	mod	_	AlignBegin=246013|AlignEnd=246290
-5	dey	dey	AUX	_	_	0	root	_	AlignBegin=246290|AlignEnd=246566
-6	auto	auto	NOUN	_	_	7	comp:aux	_	AlignBegin=246566|AlignEnd=246843
-7	anyting	anyting	PRON	_	_	5	comp:obj	_	AlignBegin=246843|AlignEnd=247120
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=247120|AlignEnd=247120
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=245736|AlignEnd=246013
+4	no	no	AUX	_	_	0	root	_	AlignBegin=246013|AlignEnd=246290
+5	dey	dey	AUX	_	_	4	comp:aux	_	AlignBegin=246290|AlignEnd=246566
+6	auto	auto	ADJ	_	_	5	comp:aux	_	AlignBegin=246566|AlignEnd=246843
+7	anyting	anyting	PRON	_	_	6	comp:obj	_	AlignBegin=246843|AlignEnd=247120
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=247120|AlignEnd=247120
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__213
 # speaker_id = Sp104
@@ -2897,7 +2897,7 @@
 2	don	don	AUX	_	_	0	root	_	AlignBegin=250158|AlignEnd=250467
 3	understand	understand	VERB	_	_	2	comp:aux	_	AlignBegin=250467|AlignEnd=250776
 4	wetin	wetin	PRON	_	_	3	comp:obj	_	AlignBegin=250776|AlignEnd=251085
-5	keep	keep	VERB	_	_	4	mod:relcl	_	AlignBegin=251085|AlignEnd=251393
+5	keep	keep	VERB	_	_	4	mod@relcl	_	AlignBegin=251085|AlignEnd=251393
 6	you	you	PRON	_	_	5	comp:obj	_	AlignBegin=251393|AlignEnd=251702
 7	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=251702|AlignEnd=252011
 8	shop	shop	NOUN	_	_	7	comp:obj	_	AlignBegin=252011|AlignEnd=252320
@@ -2908,7 +2908,7 @@
 # text = wetin dey & //
 # text_en = what is in...
 # text_ortho = Wetin dey...
-1	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=250030|AlignEnd=250530
+1	wetin	wetin	PRON	_	_	0	root@scrap	_	AlignBegin=250030|AlignEnd=250530
 2	dey	dey	AUX	_	_	1	comp:cleft@scrap	_	AlignBegin=250530|AlignEnd=251030
 3	&	&	PUNCT	_	_	1	punct	_	AlignBegin=251030|AlignEnd=251030
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=251030|AlignEnd=251030
@@ -2926,10 +2926,10 @@
 # text = but oga < ehen //
 # text_en = But boss, ehen.
 # text_ortho = But oga, ehen.
-1	but	but	CCONJ	_	_	2	discourse	_	AlignBegin=252320|AlignEnd=252933
+1	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=252320|AlignEnd=252933
 2	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=252933|AlignEnd=253546
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=253546|AlignEnd=253546
-4	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=253546|AlignEnd=254160
+4	ehen	ehen	ADJ	_	_	0	root	_	AlignBegin=253546|AlignEnd=254160
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=254160|AlignEnd=254160
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__218
@@ -2941,7 +2941,7 @@
 2	go	go	AUX	_	_	0	root	_	AlignBegin=254212|AlignEnd=254454
 3	dey	dey	AUX	_	_	2	comp:aux	_	AlignBegin=254454|AlignEnd=254696
 4	learn	learn	VERB	_	_	3	comp:aux	_	AlignBegin=254696|AlignEnd=254938
-5	o	o	PART	_	_	4	mod:emph	_	AlignBegin=254938|AlignEnd=255180
+5	o	o	PART	_	_	2	mod:emph	_	AlignBegin=254938|AlignEnd=255180
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=255180|AlignEnd=255180
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__219
@@ -2950,7 +2950,7 @@
 # text_en = So, woman bah-
 # text_ortho = So woman ba...
 1	so	so	ADV	_	_	2	discourse	_	AlignBegin=254670|AlignEnd=255276
-2	woman	woman	NOUN	_	_	0	root:scrap	_	AlignBegin=255276|AlignEnd=255883
+2	woman	woman	NOUN	_	_	0	root@scrap	_	AlignBegin=255276|AlignEnd=255883
 3	ba	ba	PART	_	_	2	discourse	_	AlignBegin=255883|AlignEnd=256490
 4	&	&	PUNCT	_	_	2	punct	_	AlignBegin=256490|AlignEnd=256490
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=256490|AlignEnd=256490
@@ -2962,9 +2962,9 @@
 # text_ortho = Anyting wey, wey I teach you, you, you, you, you just dey learn am o.
 1	anyting	anyting	PRON	_	_	21	dislocated	_	AlignBegin=255240|AlignEnd=255426
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=255426|AlignEnd=255426
-3	wey	wey	SCONJ	_	_	1	mod:relcl	_	AlignBegin=255426|AlignEnd=255612
+3	wey	wey	SCONJ	_	_	1	mod@relcl	_	AlignBegin=255426|AlignEnd=255612
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=255612|AlignEnd=255612
-5	wey	wey	SCONJ	_	_	3	conj:dicto	_	AlignBegin=255612|AlignEnd=255798
+5	wey	when	SCONJ	_	_	3	conj:dicto	_	AlignBegin=255612|AlignEnd=255798
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=255798|AlignEnd=255798
 7	I	I	PRON	_	_	8	subj	_	AlignBegin=255798|AlignEnd=255984
 8	teach	teach	VERB	_	_	5	comp:obj	_	AlignBegin=255984|AlignEnd=256170
@@ -2983,7 +2983,7 @@
 21	dey	dey	AUX	_	_	0	root	_	AlignBegin=257286|AlignEnd=257472
 22	learn	learn	VERB	_	_	21	comp:aux	_	AlignBegin=257472|AlignEnd=257658
 23	am	am	PRON	_	_	22	comp:obj	_	AlignBegin=257658|AlignEnd=257844
-24	o	o	PART	_	_	23	mod:emph	_	AlignBegin=257844|AlignEnd=258030
+24	o	o	PART	_	_	21	mod:emph	_	AlignBegin=257844|AlignEnd=258030
 25	//	//	PUNCT	_	_	21	punct	_	AlignBegin=258030|AlignEnd=258030
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__221
@@ -2991,16 +2991,16 @@
 # text = oga < I no go learn di bad one //
 # text_en = Boss, I will not learn the bad one.
 # text_ortho = Oga, I no go learn di bad one.
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=257240|AlignEnd=257443
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=257240|AlignEnd=257443
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=257443|AlignEnd=257443
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=257443|AlignEnd=257647
-4	no	no	PART	_	_	5	mod	_	AlignBegin=257647|AlignEnd=257851
-5	go	go	AUX	_	_	0	root	_	AlignBegin=257851|AlignEnd=258055
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=257443|AlignEnd=257647
+4	no	no	AUX	_	_	0	root	_	AlignBegin=257647|AlignEnd=257851
+5	go	go	AUX	_	_	4	comp:aux	_	AlignBegin=257851|AlignEnd=258055
 6	learn	learn	VERB	_	_	5	comp:aux	_	AlignBegin=258055|AlignEnd=258258
 7	di	di	DET	_	_	9	det	_	AlignBegin=258258|AlignEnd=258462
 8	bad	bad	ADJ	_	_	9	mod	_	AlignBegin=258462|AlignEnd=258666
 9	one	one	NOUN	_	_	6	comp:obj	_	AlignBegin=258666|AlignEnd=258870
-10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=258870|AlignEnd=258870
+10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=258870|AlignEnd=258870
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__222
 # speaker_id = Sp104
@@ -3010,7 +3010,7 @@
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=258870|AlignEnd=259011
 2	dey	dey	AUX	_	_	0	root	_	AlignBegin=259011|AlignEnd=259153
 3	teach	teach	VERB	_	_	2	comp:aux	_	AlignBegin=259153|AlignEnd=259295
-4	me	me	PRON	_	_	3	comp:obj	_	AlignBegin=259295|AlignEnd=259436
+4	me	me	PRON	_	_	3	comp:obl	_	AlignBegin=259295|AlignEnd=259436
 5	bad	bad	ADJ	_	_	6	mod	_	AlignBegin=259436|AlignEnd=259578
 6	one	one	NOUN	_	_	3	comp:obj	_	AlignBegin=259578|AlignEnd=259720
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=259720|AlignEnd=259720
@@ -3020,12 +3020,12 @@
 # text = I no go learn am //
 # text_en = You are teaching me bad one. I will not learn it.
 # text_ortho = I no go learn am.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=259720|AlignEnd=259872
-2	no	no	PART	_	_	3	mod	_	AlignBegin=259872|AlignEnd=260024
-3	go	go	AUX	_	_	0	root	_	AlignBegin=260024|AlignEnd=260176
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=259720|AlignEnd=259872
+2	no	no	AUX	_	_	0	root	_	AlignBegin=259872|AlignEnd=260024
+3	go	go	AUX	_	_	2	comp:aux	_	AlignBegin=260024|AlignEnd=260176
 4	learn	learn	VERB	_	_	3	comp:aux	_	AlignBegin=260176|AlignEnd=260328
 5	am	am	PRON	_	_	4	comp:obj	_	AlignBegin=260328|AlignEnd=260480
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=260480|AlignEnd=260480
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=260480|AlignEnd=260480
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__224
 # speaker_id = Sp103
@@ -3033,7 +3033,7 @@
 # text_en = Whi... whi... whi... which sort of a bad thing?
 # text_ortho = We, we, we, which kind bad one?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=260040|AlignEnd=260040
-2	we	we	PRON	_	_	12	subj	_	AlignBegin=260040|AlignEnd=260307
+2	we	we	PRON	_	_	12	mod:poss	_	AlignBegin=260040|AlignEnd=260307
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=260307|AlignEnd=260307
 4	we	we	PRON	_	_	2	conj:dicto	_	AlignBegin=260307|AlignEnd=260574
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=260574|AlignEnd=260574
@@ -3044,7 +3044,7 @@
 10	kind	kind	ADJ	_	_	12	mod	_	AlignBegin=261108|AlignEnd=261375
 11	bad	bad	ADJ	_	_	12	mod	_	AlignBegin=261375|AlignEnd=261642
 12	one	one	NOUN	_	_	0	root	_	AlignBegin=261642|AlignEnd=261910
-13	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=261910|AlignEnd=261910
+13	?//	?//	PUNCT	_	_	12	punct	_	AlignBegin=261910|AlignEnd=261910
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__225
 # speaker_id = Sp104
@@ -3052,8 +3052,8 @@
 # text_en = You that a woman came to look for at the shop, instead of you to work, you were there under the car.
 # text_ortho = You wey woman fo-... fu-... find come shop, instead of you to work, you dey dere, dey under motor.
 1	you	you	PRON	_	_	21	dislocated	_	AlignBegin=261940|AlignEnd=262213
-2	wey	wey	SCONJ	_	_	1	mod:relcl	_	AlignBegin=262213|AlignEnd=262487
-3	woman	woman	NOUN	_	_	5	subj	_	AlignBegin=262487|AlignEnd=262761
+2	wey	wey	SCONJ	_	_	1	mod@relcl	_	AlignBegin=262213|AlignEnd=262487
+3	woman	woman	NOUN	_	_	11	subj	_	AlignBegin=262487|AlignEnd=262761
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=262761|AlignEnd=262761
 5	fo~	X	X	_	_	2	comp:obj	_	AlignBegin=262761|AlignEnd=263034
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=263034|AlignEnd=263034
@@ -3061,13 +3061,13 @@
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=263308|AlignEnd=263308
 9	find	find	VERB	_	_	7	conj:dicto	_	AlignBegin=263308|AlignEnd=263582
 10	}	}	PUNCT	_	_	5	punct	_	AlignBegin=263582|AlignEnd=263582
-11	come	come	VERB	_	_	9	compound:svc	_	AlignBegin=263582|AlignEnd=263855
-12	shop	shop	NOUN	_	_	11	comp:obj	_	AlignBegin=263855|AlignEnd=264129
+11	come	come	VERB	_	_	2	comp:obj	_	AlignBegin=263582|AlignEnd=263855
+12	shop	shop	NOUN	_	_	11	comp:obl	_	AlignBegin=263855|AlignEnd=264129
 13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=264129|AlignEnd=264129
 14	instead	instead	ADV	_	_	21	mod:periph	_	AlignBegin=264129|AlignEnd=264403
-15	of	of	ADP	_	_	14	comp:obj	_	AlignBegin=264403|AlignEnd=264676
+15	of	of	ADP	_	_	14	mod	_	AlignBegin=264403|AlignEnd=264676
 16	you	you	PRON	_	_	14	comp:obj	_	AlignBegin=264676|AlignEnd=264950
-17	to	to	ADP	_	_	14	comp:obl@x	_	AlignBegin=264950|AlignEnd=265224
+17	to	to	ADP	_	_	14	comp:obl	_	AlignBegin=264950|AlignEnd=265224
 18	work	work	VERB	_	_	17	comp:obj	_	AlignBegin=265224|AlignEnd=265497
 19	<	<	PUNCT	_	_	14	punct	_	AlignBegin=265497|AlignEnd=265497
 20	you	you	PRON	_	_	21	subj	_	AlignBegin=265497|AlignEnd=265771
@@ -3102,10 +3102,10 @@
 # text = so I no fit carry { mu~ || woman } come work ?//
 # text_en = So, I can't carry mu... a woman to work?
 # text_ortho = So I no fit carry mu-... woman come work?
-1	so	so	ADV	_	_	4	discourse	_	AlignBegin=269710|AlignEnd=269942
-2	I	I	PRON	_	_	4	subj	_	AlignBegin=269942|AlignEnd=270175
-3	no	no	PART	_	_	4	mod	_	AlignBegin=270175|AlignEnd=270408
-4	fit	fit	AUX	_	_	0	root	_	AlignBegin=270408|AlignEnd=270641
+1	so	so	ADV	_	_	3	discourse	_	AlignBegin=269710|AlignEnd=269942
+2	I	I	PRON	_	_	3	subj	_	AlignBegin=269942|AlignEnd=270175
+3	no	no	AUX	_	_	0	root	_	AlignBegin=270175|AlignEnd=270408
+4	fit	fit	AUX	_	_	3	comp:aux	_	AlignBegin=270408|AlignEnd=270641
 5	carry	carry	VERB	_	_	4	comp:aux	_	AlignBegin=270641|AlignEnd=270873
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=270873|AlignEnd=270873
 7	mu~	X	X	_	_	5	comp:obj	_	AlignBegin=270873|AlignEnd=271106
@@ -3113,8 +3113,8 @@
 9	woman	woman	NOUN	_	_	7	conj:dicto	_	AlignBegin=271106|AlignEnd=271339
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=271339|AlignEnd=271339
 11	come	come	VERB	_	_	5	compound:svc	_	AlignBegin=271339|AlignEnd=271572
-12	work	work	VERB	_	_	11	comp:obj@x	_	AlignBegin=271572|AlignEnd=271805
-13	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=271805|AlignEnd=271805
+12	work	work	NOUN	_	_	11	comp:obl	_	AlignBegin=271572|AlignEnd=271805
+13	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=271805|AlignEnd=271805
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__228
 # speaker_id = Sp103
@@ -3139,12 +3139,12 @@
 16	before	before	ADP	_	_	14	conj:dicto	_	AlignBegin=273537|AlignEnd=273738
 17	}	}	PUNCT	_	_	12	punct	_	AlignBegin=273738|AlignEnd=273738
 18	you	you	PRON	_	_	16	comp:obj	_	AlignBegin=273738|AlignEnd=273938
-19	o	o	PART	_	_	18	mod:emph	_	AlignBegin=273938|AlignEnd=274138
+19	o	o	PART	_	_	5	mod:emph	_	AlignBegin=273938|AlignEnd=274138
 20	>	>	PUNCT	_	_	21	punct	_	AlignBegin=274138|AlignEnd=274138
-21	if	if	SCONJ	_	_	5	mod:periph	_	AlignBegin=274138|AlignEnd=274339
-22	you	you	PRON	_	_	24	subj	_	AlignBegin=274339|AlignEnd=274539
-23	no	no	PART	_	_	24	mod	_	AlignBegin=274539|AlignEnd=274739
-24	know	know	VERB	_	_	21	comp:obj	_	AlignBegin=274739|AlignEnd=274940
+21	if	if	SCONJ	_	_	5	parataxis:parenth	_	AlignBegin=274138|AlignEnd=274339
+22	you	you	PRON	_	_	23	subj	_	AlignBegin=274339|AlignEnd=274539
+23	no	no	AUX	_	_	21	comp:obj	_	AlignBegin=274539|AlignEnd=274739
+24	know	know	VERB	_	_	23	comp:aux	_	AlignBegin=274739|AlignEnd=274940
 25	//	//	PUNCT	_	_	5	punct	_	AlignBegin=274940|AlignEnd=274940
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__229
@@ -3152,7 +3152,7 @@
 # text = ehen ?//
 # text_en = Ehen?
 # text_ortho = Ehen?
-1	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=275115|AlignEnd=275565
+1	ehen	ehen	ADJ	_	_	0	root	_	AlignBegin=275115|AlignEnd=275565
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=275565|AlignEnd=275565
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__230
@@ -3161,11 +3161,11 @@
 # text_en = You are under the woman o.
 # text_ortho = You are under di woman o.
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=275690|AlignEnd=275930|Lang=en
-2	are	are	VERB	_	_	0	root	_	AlignBegin=275930|AlignEnd=276170|Lang=en
+2	are	be	VERB	_	_	0	root	_	AlignBegin=275930|AlignEnd=276170|Lang=en
 3	under	under	ADP	_	_	2	comp:pred	_	AlignBegin=276170|AlignEnd=276410|Lang=en
 4	di	di	DET	_	_	5	det	_	AlignBegin=276410|AlignEnd=276650|Lang=en
 5	woman	woman	NOUN	_	_	3	comp:obj	_	AlignBegin=276650|AlignEnd=276890|Lang=en
-6	o	o	PART	_	_	5	mod:emph	_	AlignBegin=276890|AlignEnd=277130|Lang=en
+6	o	o	PART	_	_	2	mod:emph	_	AlignBegin=276890|AlignEnd=277130|Lang=en
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=277130|AlignEnd=277130
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__231
@@ -3173,12 +3173,12 @@
 # text = I no see am o //
 # text_en = I didn't see her o.
 # text_ortho = I no see am o.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=275715|AlignEnd=275994
-2	no	no	PART	_	_	3	mod	_	AlignBegin=275994|AlignEnd=276273
-3	see	see	VERB	_	_	0	root	_	AlignBegin=276273|AlignEnd=276552
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=275715|AlignEnd=275994
+2	no	no	AUX	_	_	0	root	_	AlignBegin=275994|AlignEnd=276273
+3	see	see	VERB	_	_	2	comp:aux	_	AlignBegin=276273|AlignEnd=276552
 4	am	am	PRON	_	_	3	comp:obj	_	AlignBegin=276552|AlignEnd=276831
-5	o	o	PART	_	_	4	mod:emph	_	AlignBegin=276831|AlignEnd=277110
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=277110|AlignEnd=277110
+5	o	o	PART	_	_	2	mod:emph	_	AlignBegin=276831|AlignEnd=277110
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=277110|AlignEnd=277110
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__232
 # speaker_id = Sp104
@@ -3198,7 +3198,7 @@
 # text = yes now //
 # text_en = Yes now.
 # text_ortho = Yes now.
-1	yes	yes	INTJ	_	_	0	root	_	AlignBegin=278290|AlignEnd=278645
+1	yes	yes	ADJ	_	_	0	root	_	AlignBegin=278290|AlignEnd=278645
 2	now	now	ADV	_	_	1	discourse	_	AlignBegin=278645|AlignEnd=279000
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=279000|AlignEnd=279000
 
@@ -3207,16 +3207,16 @@
 # text = oga < I no go dey under di woman //
 # text_en = Boss, I won't be under the woman.
 # text_ortho = Oga, I no go dey under di woman.
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=279052|AlignEnd=279262
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=279052|AlignEnd=279262
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=279262|AlignEnd=279262
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=279262|AlignEnd=279472
-4	no	no	PART	_	_	5	mod	_	AlignBegin=279472|AlignEnd=279683
-5	go	go	AUX	_	_	0	root	_	AlignBegin=279683|AlignEnd=279893
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=279262|AlignEnd=279472
+4	no	no	AUX	_	_	0	root	_	AlignBegin=279472|AlignEnd=279683
+5	go	go	AUX	_	_	4	comp:aux	_	AlignBegin=279683|AlignEnd=279893
 6	dey	dey	VERB	_	_	5	comp:aux	_	AlignBegin=279893|AlignEnd=280103
 7	under	under	ADP	_	_	6	comp:pred	_	AlignBegin=280103|AlignEnd=280314
 8	di	di	DET	_	_	9	det	_	AlignBegin=280314|AlignEnd=280524
 9	woman	woman	NOUN	_	_	7	comp:obj	_	AlignBegin=280524|AlignEnd=280735
-10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=280735|AlignEnd=280735
+10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=280735|AlignEnd=280735
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__235
 # speaker_id = Sp103
@@ -3225,7 +3225,7 @@
 # text_ortho = Ki lo n se nibeni?
 1	ki	ki	X	_	_	0	root	_	AlignBegin=279815|AlignEnd=279991|Lang=yo
 2	lo	lo	X	_	_	1	flat:foreign	_	AlignBegin=279991|AlignEnd=280167|Lang=yo
-3	n	n	X	_	_	2	flat:foreign	_	AlignBegin=280167|AlignEnd=280343|Lang=yo
+3	n	X	X	_	_	2	flat:foreign	_	AlignBegin=280167|AlignEnd=280343|Lang=yo
 4	se	se	X	_	_	2	flat:foreign	_	AlignBegin=280343|AlignEnd=280519|Lang=yo
 5	nibeni	nibeni	X	_	_	4	flat:foreign	_	AlignBegin=280519|AlignEnd=280695|Lang=yo
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=280695|AlignEnd=280695
@@ -3255,24 +3255,24 @@
 # text = ehn oga < I no go dey under di woman //
 # text_en = Ehn, boss, I won't be under the woman.
 # text_ortho = Ehn oga, I no go dey under di woman.
-1	ehn	ehn	INTJ	_	_	6	discourse	_	AlignBegin=280735|AlignEnd=280942
-2	oga	oga	NOUN	_	_	6	dislocated	_	AlignBegin=280942|AlignEnd=281150
+1	ehn	ehn	ADJ	_	_	5	discourse	_	AlignBegin=280735|AlignEnd=280942
+2	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=280942|AlignEnd=281150
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=281150|AlignEnd=281150
-4	I	I	PRON	_	_	6	subj	_	AlignBegin=281150|AlignEnd=281358
-5	no	no	PART	_	_	6	mod	_	AlignBegin=281358|AlignEnd=281566
-6	go	go	AUX	_	_	0	root	_	AlignBegin=281566|AlignEnd=281773
+4	I	I	PRON	_	_	5	subj	_	AlignBegin=281150|AlignEnd=281358
+5	no	no	AUX	_	_	0	root	_	AlignBegin=281358|AlignEnd=281566
+6	go	go	AUX	_	_	5	comp:aux	_	AlignBegin=281566|AlignEnd=281773
 7	dey	dey	VERB	_	_	6	comp:aux	_	AlignBegin=281773|AlignEnd=281981
 8	under	under	ADP	_	_	7	comp:pred	_	AlignBegin=281981|AlignEnd=282189
 9	di	di	DET	_	_	10	det	_	AlignBegin=282189|AlignEnd=282397
 10	woman	woman	NOUN	_	_	8	comp:obj	_	AlignBegin=282397|AlignEnd=282605
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=282605|AlignEnd=282605
+11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=282605|AlignEnd=282605
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__238
 # speaker_id = Sp104
 # text = no //
 # text_en = No.
 # text_ortho = No.
-1	no	no	INTJ	_	_	0	root	_	AlignBegin=283225|AlignEnd=283850
+1	no	no	PART	_	_	0	root	_	AlignBegin=283225|AlignEnd=283850
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=283850|AlignEnd=283850
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__239
@@ -3312,10 +3312,10 @@
 # text = ehn oga ehn & //
 # text_en = Ehn boss, ehn.
 # text_ortho = Ehn oga ehn...
-1	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=285975|AlignEnd=286463
-2	oga	oga	NOUN	_	_	0	root:scrap	_	AlignBegin=286463|AlignEnd=286951
-3	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=286951|AlignEnd=287440
-4	&	&	PUNCT	_	_	2	punct	_	AlignBegin=287440|AlignEnd=287440
+1	ehn	ehn	ADJ	_	_	2	discourse	_	AlignBegin=285975|AlignEnd=286463
+2	oga	oga	NOUN	_	_	0	root@scrap	_	AlignBegin=286463|AlignEnd=286951
+3	ehn	ehn	CCONJ	_	_	2	discourse	_	AlignBegin=286951|AlignEnd=287440
+4	&	&	PUNCT	_	_	3	punct	_	AlignBegin=287440|AlignEnd=287440
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=287440|AlignEnd=287440
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__242
@@ -3325,13 +3325,13 @@
 # text_ortho = You learn, you learn, you call...
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=287510|AlignEnd=287510
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=287510|AlignEnd=287691
-3	learn	learn	VERB	_	_	0	root	_	AlignBegin=287691|AlignEnd=287873
+3	learn	learn	VERB	_	_	0	root@scrap	_	AlignBegin=287691|AlignEnd=287873
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=287873|AlignEnd=287873
 5	you	you	PRON	_	_	6	subj	_	AlignBegin=287873|AlignEnd=288055
 6	learn	learn	VERB	_	_	3	conj:dicto	_	AlignBegin=288055|AlignEnd=288236
 7	||	||	PUNCT	_	_	9	punct	_	AlignBegin=288236|AlignEnd=288236
 8	you	you	PRON	_	_	9	subj	_	AlignBegin=288236|AlignEnd=288418
-9	call	call	VERB	_	_	6	conj:dicto@scrap	_	AlignBegin=288418|AlignEnd=288600
+9	call	call	VERB	_	_	6	conj:dicto	_	AlignBegin=288418|AlignEnd=288600
 10	}	}	PUNCT	_	_	3	punct	_	AlignBegin=288600|AlignEnd=288600
 11	&	&	PUNCT	_	_	3	punct	_	AlignBegin=288600|AlignEnd=288600
 12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=288600|AlignEnd=288600
@@ -3341,7 +3341,7 @@
 # text = ehn oga //
 # text_en = Ehn boss.
 # text_ortho = Ehn oga.
-1	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=287510|AlignEnd=287900
+1	ehn	ehn	ADJ	_	_	2	discourse	_	AlignBegin=287510|AlignEnd=287900
 2	oga	oga	NOUN	_	_	0	root	_	AlignBegin=287900|AlignEnd=288290
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=288290|AlignEnd=288290
 
@@ -3366,15 +3366,15 @@
 1	so	so	ADV	_	_	3	discourse	_	AlignBegin=289990|AlignEnd=290263
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=290263|AlignEnd=290536
 3	suppose	suppose	VERB	_	_	0	root	_	AlignBegin=290536|AlignEnd=290810
-4	dey	dey	AUX	_	_	3	comp:pred	_	AlignBegin=290810|AlignEnd=291083
+4	dey	dey	AUX	_	_	3	comp:obj@x	_	AlignBegin=290810|AlignEnd=291083
 5	learn	learn	VERB	_	_	4	comp:aux	_	AlignBegin=291083|AlignEnd=291356
 6	everyting	everyting	PRON	_	_	5	comp:obj	_	AlignBegin=291356|AlignEnd=291630
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=291630|AlignEnd=291630
-8	wey	wey	SCONJ	_	_	6	mod:relcl	_	AlignBegin=291630|AlignEnd=291903
+8	wey	wey	SCONJ	_	_	6	mod@relcl	_	AlignBegin=291630|AlignEnd=291903
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=291903|AlignEnd=291903
-10	wey	wey	SCONJ	_	_	8	conj:dicto	_	AlignBegin=291903|AlignEnd=292176
+10	wey	when	SCONJ	_	_	8	conj:dicto	_	AlignBegin=291903|AlignEnd=292176
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=292176|AlignEnd=292176
-12	wey	wey	SCONJ	_	_	10	conj:dicto	_	AlignBegin=292176|AlignEnd=292450
+12	wey	when	SCONJ	_	_	10	conj:dicto	_	AlignBegin=292176|AlignEnd=292450
 13	}	}	PUNCT	_	_	8	punct	_	AlignBegin=292450|AlignEnd=292450
 14	I	I	PRON	_	_	15	subj	_	AlignBegin=292450|AlignEnd=292723
 15	teach	teach	VERB	_	_	12	comp:obj	_	AlignBegin=292723|AlignEnd=292996
@@ -3386,8 +3386,8 @@
 # text = yes sir !//
 # text_en = Yes sir.
 # text_ortho = Yes sir!
-1	yes	yes	INTJ	_	_	2	discourse	_	AlignBegin=290005|AlignEnd=290347
-2	sir	sir	INTJ	_	_	0	root	_	AlignBegin=290347|AlignEnd=290690
+1	yes	yes	ADJ	_	_	2	discourse	_	AlignBegin=290005|AlignEnd=290347
+2	sir	Sir	NOUN	_	_	0	root	_	AlignBegin=290347|AlignEnd=290690
 3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=290690|AlignEnd=290690
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__247
@@ -3395,17 +3395,17 @@
 # text = oga < di bad one < I no go learn //
 # text_en = Boss, the bad one, I will not learn.
 # text_ortho = Oga, di bad one, I no go learn.
-1	oga	oga	NOUN	_	_	9	vocative	_	AlignBegin=292525|AlignEnd=292735
+1	oga	oga	NOUN	_	_	8	vocative	_	AlignBegin=292525|AlignEnd=292735
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=292735|AlignEnd=292735
 3	di	di	DET	_	_	5	det	_	AlignBegin=292735|AlignEnd=292945
 4	bad	bad	ADJ	_	_	5	mod	_	AlignBegin=292945|AlignEnd=293156
-5	one	one	NOUN	_	_	9	dislocated	_	AlignBegin=293156|AlignEnd=293366
+5	one	one	NOUN	_	_	8	dislocated	_	AlignBegin=293156|AlignEnd=293366
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=293366|AlignEnd=293366
-7	I	I	PRON	_	_	9	subj	_	AlignBegin=293366|AlignEnd=293576
-8	no	no	PART	_	_	9	mod	_	AlignBegin=293576|AlignEnd=293787
-9	go	go	AUX	_	_	0	root	_	AlignBegin=293787|AlignEnd=293997
+7	I	I	PRON	_	_	8	subj	_	AlignBegin=293366|AlignEnd=293576
+8	no	no	AUX	_	_	0	root	_	AlignBegin=293576|AlignEnd=293787
+9	go	go	AUX	_	_	8	comp:aux	_	AlignBegin=293787|AlignEnd=293997
 10	learn	learn	VERB	_	_	9	comp:aux	_	AlignBegin=293997|AlignEnd=294208
-11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=294208|AlignEnd=294208
+11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=294208|AlignEnd=294208
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__248
 # speaker_id = Sp103
@@ -3413,7 +3413,7 @@
 # text_en = whi... which one is bad, which one is the bad bad one.
 # text_ortho = Wu-... which one be bad, which one be bad, bad one?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=294955|AlignEnd=294955
-2	wu~	X	X	_	_	6	det	_	AlignBegin=294955|AlignEnd=295175
+2	wu~	X	X	_	_	6	discourse	_	AlignBegin=294955|AlignEnd=295175
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=295175|AlignEnd=295175
 4	which	which	DET	_	_	2	conj:dicto	_	AlignBegin=295175|AlignEnd=295395
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=295395|AlignEnd=295395
@@ -3422,14 +3422,14 @@
 8	bad	bad	ADJ	_	_	7	comp:pred	_	AlignBegin=295835|AlignEnd=296055
 9	?//=	?//=	PUNCT	_	_	11	punct	_	AlignBegin=296055|AlignEnd=296055
 10	which	which	DET	_	_	11	det	_	AlignBegin=296055|AlignEnd=296275
-11	one	one	NOUN	_	_	6	parataxis:conj	_	AlignBegin=296275|AlignEnd=296495
+11	one	one	NOUN	_	_	7	parataxis:conj	_	AlignBegin=296275|AlignEnd=296495
 12	be	be	VERB	_	_	11	comp:cleft	_	AlignBegin=296495|AlignEnd=296715
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=296715|AlignEnd=296715
 14	bad	bad	ADJ	_	_	18	mod	_	AlignBegin=296715|AlignEnd=296935
 15	|r	|r	PUNCT	_	_	16	punct	_	AlignBegin=296935|AlignEnd=296935
 16	bad	bad	ADJ	_	_	14	compound:redup	_	AlignBegin=296935|AlignEnd=297155
 17	}	}	PUNCT	_	_	14	punct	_	AlignBegin=297155|AlignEnd=297155
-18	one	one	NOUN	_	_	12	comp:pred@agent	_	AlignBegin=297155|AlignEnd=297375
+18	one	one	NOUN	_	_	12	comp:obj@agent	_	AlignBegin=297155|AlignEnd=297375
 19	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=297375|AlignEnd=297375
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__249
@@ -3440,11 +3440,11 @@
 1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=296390|AlignEnd=296735
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=296735|AlignEnd=296735
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=296735|AlignEnd=296735
-4	ọtọ	ọtọ	X	_	_	0	root	_	AlignBegin=296735|AlignEnd=297081|Lang=ig
+4	ọtọ	ọtọ	NOUN	_	_	0	root	_	AlignBegin=296735|AlignEnd=297081|Lang=ig
 5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=297081|AlignEnd=297081
-6	ọtọ	ọtọ	ADJ	_	_	4	compound:redup	_	AlignBegin=297081|AlignEnd=297427|Lang=ig
+6	ọtọ	ọtọ	X	_	_	4	compound:redup	_	AlignBegin=297081|AlignEnd=297427|Lang=ig
 7	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=297427|AlignEnd=297427
-8	ọtọ	ọtọ	ADJ	_	_	6	compound:redup	_	AlignBegin=297427|AlignEnd=297773|Lang=ig
+8	ọtọ	ọtọ	NOUN	_	_	6	compound:redup	_	AlignBegin=297427|AlignEnd=297773|Lang=ig
 9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=297773|AlignEnd=297773
 10	ọtọ	ọtọ	NOUN	_	_	8	compound:redup	_	AlignBegin=297773|AlignEnd=298119|Lang=ig
 11	}	}	PUNCT	_	_	4	punct	_	AlignBegin=298119|AlignEnd=298119
@@ -3459,24 +3459,24 @@
 # text_en = auto... vagina... vagina. Anyhow you say it, I won't learn it.
 # text_ortho = Auto, ọtọ, ọtọ, anyhow you call am, I no go learn am.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=299277|AlignEnd=299277
-2	auto	auto	NOUN	_	_	16	dislocated	_	AlignBegin=299277|AlignEnd=299546
+2	auto	auto	NOUN	_	_	15	dislocated	_	AlignBegin=299277|AlignEnd=299546
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=299546|AlignEnd=299546
-4	ọtọ	ọtọ	ADJ	_	_	2	compound:redup	_	AlignBegin=299546|AlignEnd=299815
+4	ọtọ	ọtọ	X	_	_	2	compound:redup	_	AlignBegin=299546|AlignEnd=299815
 5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=299815|AlignEnd=299815
 6	ọtọ	ọtọ	NOUN	_	_	4	compound:redup	_	AlignBegin=299815|AlignEnd=300085
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=300085|AlignEnd=300085
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=300085|AlignEnd=300085
-9	anyhow	anyhow	ADV	_	_	16	mod:periph	_	AlignBegin=300085|AlignEnd=300354
+9	anyhow	anyhow	ADV	_	_	15	mod:periph	_	AlignBegin=300085|AlignEnd=300354
 10	you	you	PRON	_	_	11	subj	_	AlignBegin=300354|AlignEnd=300624
-11	call	call	VERB	_	_	9	mod:relcl	_	AlignBegin=300624|AlignEnd=300893
+11	call	call	VERB	_	_	9	mod	_	AlignBegin=300624|AlignEnd=300893
 12	am	am	PRON	_	_	11	comp:obj	_	AlignBegin=300893|AlignEnd=301162
 13	<	<	PUNCT	_	_	9	punct	_	AlignBegin=301162|AlignEnd=301162
-14	I	I	PRON	_	_	16	subj	_	AlignBegin=301162|AlignEnd=301432
-15	no	no	PART	_	_	16	mod	_	AlignBegin=301432|AlignEnd=301701
-16	go	go	AUX	_	_	0	root	_	AlignBegin=301701|AlignEnd=301971
+14	I	I	PRON	_	_	15	subj	_	AlignBegin=301162|AlignEnd=301432
+15	no	no	AUX	_	_	0	root	_	AlignBegin=301432|AlignEnd=301701
+16	go	go	AUX	_	_	15	comp:aux	_	AlignBegin=301701|AlignEnd=301971
 17	learn	learn	VERB	_	_	16	comp:aux	_	AlignBegin=301971|AlignEnd=302240
 18	am	am	PRON	_	_	17	comp:obj	_	AlignBegin=302240|AlignEnd=302510
-19	//	//	PUNCT	_	_	16	punct	_	AlignBegin=302510|AlignEnd=302510
+19	//	//	PUNCT	_	_	15	punct	_	AlignBegin=302510|AlignEnd=302510
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__251
 # speaker_id = Sp103
@@ -3485,11 +3485,11 @@
 # text_ortho = I tink e dey for Bible bah?
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=302770|AlignEnd=302932
 2	tink	tink	VERB	_	_	0	root	_	AlignBegin=302932|AlignEnd=303095
-3	e	im	PRON	_	_	4	subj	_	AlignBegin=303095|AlignEnd=303258
-4	dey	dey	VERB	_	_	2	parataxis:obj	_	AlignBegin=303258|AlignEnd=303421
+3	e	t	PRON	_	_	4	subj	_	AlignBegin=303095|AlignEnd=303258
+4	dey	dey	VERB	_	_	2	parataxis:obj$utter	_	AlignBegin=303258|AlignEnd=303421
 5	for	for	ADP	_	_	4	comp:pred	_	AlignBegin=303421|AlignEnd=303584
 6	Bible	Bible	PROPN	_	_	5	comp:obj	_	AlignBegin=303584|AlignEnd=303747
-7	bah	bah	INTJ	_	_	2	discourse	_	AlignBegin=303747|AlignEnd=303910
+7	bah	bah	PART	_	_	2	discourse	_	AlignBegin=303747|AlignEnd=303910
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=303910|AlignEnd=303910
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__252
@@ -3497,10 +3497,10 @@
 # text = I no know //
 # text_en = I don't know.
 # text_ortho = I no know.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=304215|AlignEnd=304384
-2	no	no	PART	_	_	3	mod	_	AlignBegin=304384|AlignEnd=304553
-3	know	know	VERB	_	_	0	root	_	AlignBegin=304553|AlignEnd=304722
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=304722|AlignEnd=304722
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=304215|AlignEnd=304384
+2	no	no	AUX	_	_	0	root	_	AlignBegin=304384|AlignEnd=304553
+3	know	know	VERB	_	_	2	comp:aux	_	AlignBegin=304553|AlignEnd=304722
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=304722|AlignEnd=304722
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__253
 # speaker_id = Sp103
@@ -3508,12 +3508,12 @@
 # text_en = Is itin the di.. eh di... di... di... di...dictionary?
 # text_ortho = E dey for di-... e dey for di-... di-... di-... dictionary?
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=305100|AlignEnd=305100
-2	e	im	PRON	_	_	3	subj:expl	_	AlignBegin=305100|AlignEnd=305342
+2	e		PRON	_	_	3	subj	_	AlignBegin=305100|AlignEnd=305342
 3	dey	dey	VERB	_	_	0	root	_	AlignBegin=305342|AlignEnd=305585
 4	for	for	ADP	_	_	3	comp:pred	_	AlignBegin=305585|AlignEnd=305828
 5	di~	X	X	_	_	4	comp:obj	_	AlignBegin=305828|AlignEnd=306070
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=306070|AlignEnd=306070
-7	e	im	PRON	_	_	8	subj	_	AlignBegin=306070|AlignEnd=306313
+7	e		PRON	_	_	8	subj	_	AlignBegin=306070|AlignEnd=306313
 8	dey	dey	VERB	_	_	3	conj:dicto	_	AlignBegin=306313|AlignEnd=306556
 9	for	for	ADP	_	_	8	comp:pred	_	AlignBegin=306556|AlignEnd=306799
 10	di~	X	X	_	_	9	comp:obj	_	AlignBegin=306799|AlignEnd=307041
@@ -3531,10 +3531,10 @@
 # text = I no know //
 # text_en = I don't know.
 # text_ortho = I no know.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=305980|AlignEnd=306236
-2	no	no	PART	_	_	3	mod	_	AlignBegin=306236|AlignEnd=306493
-3	know	know	VERB	_	_	0	root	_	AlignBegin=306493|AlignEnd=306750
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=306750|AlignEnd=306750
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=305980|AlignEnd=306236
+2	no	no	AUX	_	_	0	root	_	AlignBegin=306236|AlignEnd=306493
+3	know	know	VERB	_	_	2	comp:aux	_	AlignBegin=306493|AlignEnd=306750
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=306750|AlignEnd=306750
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__255
 # speaker_id = Sp104
@@ -3554,7 +3554,7 @@
 2	never	never	AUX	_	_	0	root	_	AlignBegin=307801|AlignEnd=308053
 3	see	see	VERB	_	_	2	comp:aux	_	AlignBegin=308053|AlignEnd=308305
 4	ó̠tò̠̠	ó̠tò̠̠	PUNCT	_	_	5	punct	_	AlignBegin=308305|AlignEnd=308556
-5	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=308556|AlignEnd=308808
+5	for	for	ADP	_	_	3	mod	_	AlignBegin=308556|AlignEnd=308808
 6	Bible	Bible	PROPN	_	_	5	comp:obj	_	AlignBegin=308808|AlignEnd=309060
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=309060|AlignEnd=309060
 
@@ -3564,13 +3564,13 @@
 # text_en = Auto means, auto electrician and auto mobile.
 # text_ortho = Auto means auto-electrician, and automobile.
 1	auto	auto	PRON	_	_	2	subj	_	AlignBegin=308315|AlignEnd=308948
-2	means	means	VERB	_	_	0	root	_	AlignBegin=308948|AlignEnd=309581
+2	means	mean	VERB	_	_	0	root	_	AlignBegin=308948|AlignEnd=309581
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=309581|AlignEnd=309581
-4	auto-electrician	auto-electrician	NOUN	_	_	2	comp:obj	_	AlignBegin=309581|AlignEnd=310214
+4	auto-electrician	auto-electrician	ADJ	_	_	2	comp:obj	_	AlignBegin=309581|AlignEnd=310214
 5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=310214|AlignEnd=310214
 6	and	and	CCONJ	_	_	7	cc	_	AlignBegin=310214|AlignEnd=310847
 7	automobile	automobile	NOUN	_	_	4	conj:coord	_	AlignBegin=310847|AlignEnd=311480
-8	}	}	PUNCT	_	_	4	punct	_	AlignBegin=311480|AlignEnd=311480
+8	}	}	PUNCT	_	_	2	punct	_	AlignBegin=311480|AlignEnd=311480
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=311480|AlignEnd=311480
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__258
@@ -3578,7 +3578,7 @@
 # text = ehn //
 # text_en = Ehn,
 # text_ortho = Ehn.
-1	ehn	ehn	INTJ	_	_	0	root	_	AlignBegin=310350|AlignEnd=310730
+1	ehn	ehn	ADJ	_	_	0	root	_	AlignBegin=310350|AlignEnd=310730
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=310730|AlignEnd=310730
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__259
@@ -3586,11 +3586,11 @@
 # text = ehn I no know //
 # text_en = Ehn, I don't know.
 # text_ortho = Ehn I no know.
-1	ehn	ehn	INTJ	_	_	4	discourse	_	AlignBegin=311825|AlignEnd=312012
-2	I	I	PRON	_	_	4	subj	_	AlignBegin=312012|AlignEnd=312200
-3	no	no	PART	_	_	4	mod	_	AlignBegin=312200|AlignEnd=312387
-4	know	know	VERB	_	_	0	root	_	AlignBegin=312387|AlignEnd=312575
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=312575|AlignEnd=312575
+1	ehn	ehn	ADJ	_	_	3	discourse	_	AlignBegin=311825|AlignEnd=312012
+2	I	I	PRON	_	_	3	subj	_	AlignBegin=312012|AlignEnd=312200
+3	no	no	AUX	_	_	0	root	_	AlignBegin=312200|AlignEnd=312387
+4	know	know	VERB	_	_	3	comp:aux	_	AlignBegin=312387|AlignEnd=312575
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=312575|AlignEnd=312575
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__260
 # speaker_id = Sp103
@@ -3598,11 +3598,11 @@
 # text_en = All are all are auto.
 # text_ortho = All na, all na ó̠tò̠̠.
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=311970|AlignEnd=311970
-2	all	all	DET	_	_	3	det	_	AlignBegin=311970|AlignEnd=312336
+2	all	all	PRON	_	_	3	subj	_	AlignBegin=311970|AlignEnd=312336
 3	na	na	PART	_	_	0	root	_	AlignBegin=312336|AlignEnd=312702
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=312702|AlignEnd=312702
-5	all	all	DET	_	_	6	det	_	AlignBegin=312702|AlignEnd=313068
-6	na	na	PART	_	_	3	conj:dicto@scrap	_	AlignBegin=313068|AlignEnd=313434
+5	all	all	PRON	_	_	6	subj	_	AlignBegin=312702|AlignEnd=313068
+6	na	na	PART	_	_	3	conj:dicto	_	AlignBegin=313068|AlignEnd=313434
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=313434|AlignEnd=313434
 8	ó̠tò̠̠	ó̠tò̠̠	PUNCT	_	_	3	punct	_	AlignBegin=313434|AlignEnd=313800
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=313800|AlignEnd=313800
@@ -3612,9 +3612,9 @@
 # text = unless e dey for dictionary //
 # text_en = Unless it is in the dictionar.
 # text_ortho = Unless e dey for dictionary.
-1	unless	unless	SCONJ	_	_	0	root	_	AlignBegin=312695|AlignEnd=313004
-2	e	im	PRON	_	_	3	subj	_	AlignBegin=313004|AlignEnd=313313
-3	dey	dey	VERB	_	_	1	comp:obj	_	AlignBegin=313313|AlignEnd=313622
+1	unless	unless	SCONJ	_	_	3	discourse	_	AlignBegin=312695|AlignEnd=313004
+2	e	t	PRON	_	_	3	subj	_	AlignBegin=313004|AlignEnd=313313
+3	dey	dey	VERB	_	_	0	root	_	AlignBegin=313313|AlignEnd=313622
 4	for	for	ADP	_	_	3	comp:pred	_	AlignBegin=313622|AlignEnd=313931
 5	dictionary	dictionary	NOUN	_	_	4	comp:obj	_	AlignBegin=313931|AlignEnd=314240
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=314240|AlignEnd=314240
@@ -3624,20 +3624,20 @@
 # text = for Bible < I no tink //
 # text_en = In the Bible, I don't think (so).
 # text_ortho = For Bible, I no tink.
-1	for	for	ADP	_	_	6	mod:periph	_	AlignBegin=314240|AlignEnd=314459
+1	for	for	ADP	_	_	5	mod:periph	_	AlignBegin=314240|AlignEnd=314459
 2	Bible	Bible	PROPN	_	_	1	comp:obj	_	AlignBegin=314459|AlignEnd=314678
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=314678|AlignEnd=314678
-4	I	I	PRON	_	_	6	subj	_	AlignBegin=314678|AlignEnd=314897
-5	no	no	PART	_	_	6	mod	_	AlignBegin=314897|AlignEnd=315116
-6	tink	tink	VERB	_	_	0	root	_	AlignBegin=315116|AlignEnd=315335
-7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=315335|AlignEnd=315335
+4	I	I	PRON	_	_	5	subj	_	AlignBegin=314678|AlignEnd=314897
+5	no	no	AUX	_	_	0	root	_	AlignBegin=314897|AlignEnd=315116
+6	tink	tink	VERB	_	_	5	comp:aux	_	AlignBegin=315116|AlignEnd=315335
+7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=315335|AlignEnd=315335
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__263
 # speaker_id = Sp103
 # text = ehen now leave am now //
 # text_en = Ehen now, leave it.
 # text_ortho = Ehen now leave am now.
-1	ehen	ehen	INTJ	_	_	3	discourse	_	AlignBegin=315350|AlignEnd=315612
+1	ehen	ehen	ADJ	_	_	3	discourse	_	AlignBegin=315350|AlignEnd=315612
 2	now	now	ADV	_	_	3	discourse	_	AlignBegin=315612|AlignEnd=315874
 3	leave	leave	VERB	_	_	0	root	_	AlignBegin=315874|AlignEnd=316136
 4	am	am	PRON	_	_	3	comp:obj	_	AlignBegin=316136|AlignEnd=316398
@@ -3649,7 +3649,7 @@
 # text = hm //
 # text_en = Hm.
 # text_ortho = Hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=316100|AlignEnd=316600
+1	hm	hm	ADJ	_	_	0	root	_	AlignBegin=316100|AlignEnd=316600
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=316600|AlignEnd=316600
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__265
@@ -3676,7 +3676,7 @@
 # text = haha //
 # text_en = Haha.
 # text_ortho = Haha.
-1	haha	haha	INTJ	_	_	0	root	_	AlignBegin=316880|AlignEnd=317990
+1	haha	haha	ADJ	_	_	0	root	_	AlignBegin=316880|AlignEnd=317990
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=317990|AlignEnd=317990
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__267
@@ -3684,13 +3684,13 @@
 # text = oga < I no go learn //
 # text_en = Boss, I won't learn.
 # text_ortho = Oga, I no go learn.
-1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=319320|AlignEnd=319499
+1	oga	oga	NOUN	_	_	4	vocative	_	AlignBegin=319320|AlignEnd=319499
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=319499|AlignEnd=319499
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=319499|AlignEnd=319678
-4	no	no	PART	_	_	5	mod	_	AlignBegin=319678|AlignEnd=319857
-5	go	go	AUX	_	_	0	root	_	AlignBegin=319857|AlignEnd=320036
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=319499|AlignEnd=319678
+4	no	no	AUX	_	_	0	root	_	AlignBegin=319678|AlignEnd=319857
+5	go	go	AUX	_	_	4	comp:aux	_	AlignBegin=319857|AlignEnd=320036
 6	learn	learn	VERB	_	_	5	comp:aux	_	AlignBegin=320036|AlignEnd=320215
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=320215|AlignEnd=320215
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=320215|AlignEnd=320215
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__268
 # speaker_id = Sp103
@@ -3698,7 +3698,7 @@
 # text_en = So, as I took you to work outside the shop, so, gave you work to do...
 # text_ortho = So as I carry you go outside work, so e give you work dere to, to do.
 1	so	so	ADV	_	_	12	discourse	_	AlignBegin=320265|AlignEnd=320479
-2	as	as	ADP	_	_	12	mod:periph	_	AlignBegin=320479|AlignEnd=320694
+2	as	as	ADP	_	_	12	mod:periph$tempo	_	AlignBegin=320479|AlignEnd=320694
 3	I	I	PRON	_	_	4	subj	_	AlignBegin=320694|AlignEnd=320909
 4	carry	carry	VERB	_	_	2	comp:obj	_	AlignBegin=320909|AlignEnd=321123
 5	you	you	PRON	_	_	4	comp:obj	_	AlignBegin=321123|AlignEnd=321338
@@ -3707,9 +3707,9 @@
 8	work	work	NOUN	_	_	7	comp:obj	_	AlignBegin=321767|AlignEnd=321982
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=321982|AlignEnd=321982
 10	so	so	ADV	_	_	12	discourse	_	AlignBegin=321982|AlignEnd=322197
-11	e	im	PRON	_	_	12	subj	_	AlignBegin=322197|AlignEnd=322412
+11	e	t	PRON	_	_	12	subj	_	AlignBegin=322197|AlignEnd=322412
 12	give	give	VERB	_	_	0	root	_	AlignBegin=322412|AlignEnd=322626
-13	you	you	PRON	_	_	12	comp:obj	_	AlignBegin=322626|AlignEnd=322841
+13	you	you	PRON	_	_	12	comp:obl	_	AlignBegin=322626|AlignEnd=322841
 14	work	work	NOUN	_	_	12	comp:obj	_	AlignBegin=322841|AlignEnd=323056
 15	dere	dere	ADV	_	_	12	mod	_	AlignBegin=323056|AlignEnd=323270
 16	{	{	PUNCT	_	_	17	punct	_	AlignBegin=323270|AlignEnd=323270
@@ -3746,7 +3746,7 @@
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=324288|AlignEnd=324288
 6	dey	dey	AUX	_	_	0	root	_	AlignBegin=324288|AlignEnd=324487
 7	give	give	VERB	_	_	6	comp:aux	_	AlignBegin=324487|AlignEnd=324686
-8	me	me	PRON	_	_	7	comp:obj	_	AlignBegin=324686|AlignEnd=324885
+8	me	me	PRON	_	_	7	comp:obl	_	AlignBegin=324686|AlignEnd=324885
 9	too	too	ADV	_	_	10	mod	_	AlignBegin=324885|AlignEnd=325084
 10	much	much	ADJ	_	_	12	mod	_	AlignBegin=325084|AlignEnd=325283
 11	beer	beer	NOUN	_	_	12	compound	_	AlignBegin=325283|AlignEnd=325482
@@ -3765,7 +3765,7 @@
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=326750|AlignEnd=326750
 6	who	who	PRON	_	_	4	conj:dicto	_	AlignBegin=326750|AlignEnd=327010
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=327010|AlignEnd=327010
-8	dey	dey	AUX	_	_	2	comp:cleft	_	AlignBegin=327010|AlignEnd=327270
+8	dey	dey	AUX	_	_	6	comp:cleft	_	AlignBegin=327010|AlignEnd=327270
 9	give	give	VERB	_	_	8	comp:aux	_	AlignBegin=327270|AlignEnd=327530
 10	you	you	PRON	_	_	9	comp:obj	_	AlignBegin=327530|AlignEnd=327790
 11	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=327790|AlignEnd=327790
@@ -3802,26 +3802,26 @@
 # text = all dis ting wey you wan make I learn < where e\ wan { en~ || di } ting enter ?//
 # text_en = All these things you want me to learn, where will it... where you do want it to enter?
 # text_ortho = All dis ting wey you wan make I learn, where e\ wan en-... di ting enter?
-1	all	all	DET	_	_	3	mod	_	AlignBegin=328940|AlignEnd=329104
+1	all	all	DET	_	_	3	det	_	AlignBegin=328940|AlignEnd=329104
 2	dis	dis	DET	_	_	3	det	_	AlignBegin=329104|AlignEnd=329269
 3	ting	ting	NOUN	_	_	11	dislocated	_	AlignBegin=329269|AlignEnd=329434
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=329434|AlignEnd=329598
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=329434|AlignEnd=329598
 5	you	you	PRON	_	_	6	subj	_	AlignBegin=329598|AlignEnd=329763
-6	wan	wan	VERB	_	_	4	comp:obj	_	AlignBegin=329763|AlignEnd=329928
-7	make	make	AUX	_	_	6	comp:obj	_	AlignBegin=329928|AlignEnd=330092
+6	wan	want	VERB	_	_	4	comp:obj	_	AlignBegin=329763|AlignEnd=329928
+7	make	make	SCONJ	_	_	6	comp:obj$desire@x	_	AlignBegin=329928|AlignEnd=330092
 8	I	I	PRON	_	_	9	subj	_	AlignBegin=330092|AlignEnd=330257
-9	learn	learn	VERB	_	_	7	comp:aux	_	AlignBegin=330257|AlignEnd=330422
+9	learn	learn	VERB	_	_	7	comp:obj	_	AlignBegin=330257|AlignEnd=330422
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=330422|AlignEnd=330422
 11	where	where	ADV	_	_	0	root	_	AlignBegin=330422|AlignEnd=330586
-12	e\	e\	PRON	_	_	13	subj	_	AlignBegin=330586|AlignEnd=330751
-13	wan	wan	VERB	_	_	11	comp:cleft	_	AlignBegin=330751|AlignEnd=330916
+12	e\	X	PRON	_	_	13	subj	_	AlignBegin=330586|AlignEnd=330751
+13	wan	want	VERB	_	_	11	comp:cleft	_	AlignBegin=330751|AlignEnd=330916
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=330916|AlignEnd=330916
-15	en~	X	X	_	_	19	det	_	AlignBegin=330916|AlignEnd=331080
+15	en~	X	X	_	_	19	mod	_	AlignBegin=330916|AlignEnd=331080
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=331080|AlignEnd=331080
 17	di	di	DET	_	_	15	conj:dicto	_	AlignBegin=331080|AlignEnd=331245
 18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=331245|AlignEnd=331245
-19	ting	ting	NOUN	_	_	13	subj	_	AlignBegin=331245|AlignEnd=331410
-20	enter	enter	VERB	_	_	13	comp:obj@x	_	AlignBegin=331410|AlignEnd=331575
+19	ting	ting	NOUN	_	_	13	comp:obj	_	AlignBegin=331245|AlignEnd=331410
+20	enter	enter	VERB	_	_	13	comp:obj$desire@x	_	AlignBegin=331410|AlignEnd=331575
 21	?//	?//	PUNCT	_	_	11	punct	_	AlignBegin=331575|AlignEnd=331575
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__275
@@ -3841,8 +3841,8 @@
 # text_en = This one, where the pepper soup and the beer have occupied all the space?
 # text_ortho = Dis one wey pepper soup, and beer don occupy all di space?
 1	dis	dis	DET	_	_	2	det	_	AlignBegin=332745|AlignEnd=333093
-2	one	one	NOUN	_	_	11	subj	_	AlignBegin=333093|AlignEnd=333442
-3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=333442|AlignEnd=333791
+2	one	one	NOUN	_	_	0	root	_	AlignBegin=333093|AlignEnd=333442
+3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=333442|AlignEnd=333791
 4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=333791|AlignEnd=333791
 5	pepper	pepper	NOUN	_	_	6	compound	_	AlignBegin=333791|AlignEnd=334140
 6	soup	soup	NOUN	_	_	11	subj	_	AlignBegin=334140|AlignEnd=334488
@@ -3850,19 +3850,19 @@
 8	and	and	CCONJ	_	_	9	cc	_	AlignBegin=334488|AlignEnd=334837
 9	beer	beer	NOUN	_	_	6	conj:coord	_	AlignBegin=334837|AlignEnd=335186
 10	}	}	PUNCT	_	_	6	punct	_	AlignBegin=335186|AlignEnd=335186
-11	don	don	AUX	_	_	0	root	_	AlignBegin=335186|AlignEnd=335535
+11	don	don	AUX	_	_	3	comp:obj	_	AlignBegin=335186|AlignEnd=335535
 12	occupy	occupy	VERB	_	_	11	comp:aux	_	AlignBegin=335535|AlignEnd=335883
-13	all	all	DET	_	_	15	mod	_	AlignBegin=335883|AlignEnd=336232
+13	all	all	DET	_	_	15	det	_	AlignBegin=335883|AlignEnd=336232
 14	di	di	DET	_	_	15	det	_	AlignBegin=336232|AlignEnd=336581
 15	space	space	NOUN	_	_	12	comp:obj	_	AlignBegin=336581|AlignEnd=336930
-16	?//	?//	PUNCT	_	_	11	punct	_	AlignBegin=336930|AlignEnd=336930
+16	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=336930|AlignEnd=336930
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__277
 # speaker_id = Sp103
 # text = ehen now //
 # text_en = Ehen now
 # text_ortho = Ehen now.
-1	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=333325|AlignEnd=333925
+1	ehen	ehen	ADJ	_	_	0	root	_	AlignBegin=333325|AlignEnd=333925
 2	now	now	ADV	_	_	1	discourse	_	AlignBegin=333925|AlignEnd=334525
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=334525|AlignEnd=334525
 
@@ -3880,29 +3880,29 @@
 # text = oga now < { I no go || I no gree } //
 # text_en = Boss, no I will not. I don't agree.
 # text_ortho = Oga now, I no go, I no gree.
-1	oga	oga	NOUN	_	_	7	dislocated	_	AlignBegin=337470|AlignEnd=337705
+1	oga	oga	NOUN	_	_	6	dislocated	_	AlignBegin=337470|AlignEnd=337705
 2	now	now	ADV	_	_	1	mod:emph	_	AlignBegin=337705|AlignEnd=337940
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=337940|AlignEnd=337940
-4	{	{	PUNCT	_	_	7	punct	_	AlignBegin=337940|AlignEnd=337940
-5	I	I	PRON	_	_	7	subj	_	AlignBegin=337940|AlignEnd=338175
-6	no	no	PART	_	_	7	mod	_	AlignBegin=338175|AlignEnd=338410
-7	go	go	AUX	_	_	0	root	_	AlignBegin=338410|AlignEnd=338645
-8	||	||	PUNCT	_	_	11	punct	_	AlignBegin=338645|AlignEnd=338645
-9	I	I	PRON	_	_	11	subj	_	AlignBegin=338645|AlignEnd=338880
-10	no	no	PART	_	_	11	mod	_	AlignBegin=338880|AlignEnd=339115
-11	gree	gree	VERB	_	_	7	conj:dicto	_	AlignBegin=339115|AlignEnd=339350
-12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=339350|AlignEnd=339350
-13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=339350|AlignEnd=339350
+4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=337940|AlignEnd=337940
+5	I	I	PRON	_	_	6	subj	_	AlignBegin=337940|AlignEnd=338175
+6	no	no	AUX	_	_	0	root	_	AlignBegin=338175|AlignEnd=338410
+7	go	go	AUX	_	_	6	comp:aux	_	AlignBegin=338410|AlignEnd=338645
+8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=338645|AlignEnd=338645
+9	I	I	PRON	_	_	10	subj	_	AlignBegin=338645|AlignEnd=338880
+10	no	no	AUX	_	_	6	conj:dicto	_	AlignBegin=338880|AlignEnd=339115
+11	gree	gree	VERB	_	_	10	comp:aux	_	AlignBegin=339115|AlignEnd=339350
+12	}	}	PUNCT	_	_	6	punct	_	AlignBegin=339350|AlignEnd=339350
+13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=339350|AlignEnd=339350
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__280
 # speaker_id = Sp103
 # text = okay which means sey & //
 # text_en = Okay, which means that...
 # text_ortho = Okay which means sey...
-1	okay	okay	INTJ	_	_	3	discourse	_	AlignBegin=339090|AlignEnd=339370
-2	which	which	DET	_	_	3	subj	_	AlignBegin=339370|AlignEnd=339650
-3	means	means	VERB	_	_	0	root:scrap	_	AlignBegin=339650|AlignEnd=339930
-4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=339930|AlignEnd=340210
+1	okay	OK	CCONJ	_	_	3	discourse	_	AlignBegin=339090|AlignEnd=339370
+2	which	which	PRON	_	_	3	subj	_	AlignBegin=339370|AlignEnd=339650
+3	means	mean	VERB	_	_	0	root@scrap	_	AlignBegin=339650|AlignEnd=339930
+4	sey	sey	SCONJ	_	_	3	comp:obj@scrap	_	AlignBegin=339930|AlignEnd=340210
 5	&	&	PUNCT	_	_	3	punct	_	AlignBegin=340210|AlignEnd=340210
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=340210|AlignEnd=340210
 
@@ -3916,7 +3916,7 @@
 3	know	know	VERB	_	_	0	root	_	AlignBegin=340702|AlignEnd=340925
 4	wetin	wetin	PRON	_	_	3	comp:obj	_	AlignBegin=340925|AlignEnd=341149
 5	I	I	PRON	_	_	6	subj	_	AlignBegin=341149|AlignEnd=341372
-6	go	go	AUX	_	_	4	mod:relcl	_	AlignBegin=341372|AlignEnd=341596
+6	go	go	AUX	_	_	4	mod@relcl	_	AlignBegin=341372|AlignEnd=341596
 7	do	do	VERB	_	_	6	comp:aux	_	AlignBegin=341596|AlignEnd=341820
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=341820|AlignEnd=341820
 
@@ -3929,7 +3929,7 @@
 2	listen	listen	VERB	_	_	0	root	_	AlignBegin=340669|AlignEnd=341073
 3	to	to	ADP	_	_	2	comp:obl	_	AlignBegin=341073|AlignEnd=341477
 4	me	me	PRON	_	_	3	comp:obj	_	AlignBegin=341477|AlignEnd=341881
-5	now	now	ADV	_	_	2	mod	_	AlignBegin=341881|AlignEnd=342285
+5	now	now	ADV	_	_	2	mod:emph	_	AlignBegin=341881|AlignEnd=342285
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=342285|AlignEnd=342285
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__283
@@ -3941,7 +3941,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=342377|AlignEnd=342377
 3	see	see	VERB	_	_	0	root	_	AlignBegin=342377|AlignEnd=342679
 4	wetin	wetin	PRON	_	_	3	comp:obj	_	AlignBegin=342679|AlignEnd=342981
-5	go	go	AUX	_	_	4	mod:relcl	_	AlignBegin=342981|AlignEnd=343283
+5	go	go	AUX	_	_	4	mod@relcl	_	AlignBegin=342981|AlignEnd=343283
 6	happen	happen	VERB	_	_	5	comp:aux	_	AlignBegin=343283|AlignEnd=343585
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=343585|AlignEnd=343585
 
@@ -3951,18 +3951,18 @@
 # text_en = So... so those opporunites that I have been giving you in that place, you dont want iit?
 # text_ortho = So, so dose Igb aka ekpe nkita Igb wey, wen I just dey give you for dat place, y-... y-... you no want am?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=343595|AlignEnd=343595
-2	so	so	ADV	_	_	32	discourse	_	AlignBegin=343595|AlignEnd=343805
+2	so	so	ADV	_	_	31	discourse	_	AlignBegin=343595|AlignEnd=343805
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=343805|AlignEnd=343805
 4	so	so	ADV	_	_	2	compound:redup	_	AlignBegin=343805|AlignEnd=344015
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=344015|AlignEnd=344015
-6	dose	dose	DET	_	_	32	dislocated	_	AlignBegin=344015|AlignEnd=344225
-7	aka	aka	ADP	_	_	6	discourse	_	AlignBegin=344225|AlignEnd=344435|Lang=ig
-8	ekpe	ekpe	NOUN	_	_	6	flat:foreign	_	AlignBegin=344435|AlignEnd=344646|Lang=ig
-9	nkita	nkita	X	_	_	8	flat:foreign	_	AlignBegin=344646|AlignEnd=345066|Lang=ig
+6	dose	dose	PRON	_	_	31	dislocated	_	AlignBegin=344015|AlignEnd=344225
+7	aka	aka	ADP	_	_	6	mod	_	AlignBegin=344225|AlignEnd=344435|Lang=ig
+8	ekpe	ekpe	NOUN	_	_	7	flat:foreign	_	AlignBegin=344435|AlignEnd=344646|Lang=ig
+9	nkita	nkita	NOUN	_	_	8	flat:foreign	_	AlignBegin=344646|AlignEnd=345066|Lang=ig
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=345066|AlignEnd=345066
-11	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=345066|AlignEnd=345276
+11	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=345066|AlignEnd=345276
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=345276|AlignEnd=345276
-13	wen	wen	SCONJ	_	_	11	conj:dicto	_	AlignBegin=345276|AlignEnd=345486
+13	wen	when	SCONJ	_	_	11	conj:dicto	_	AlignBegin=345276|AlignEnd=345486
 14	}	}	PUNCT	_	_	11	punct	_	AlignBegin=345486|AlignEnd=345486
 15	I	I	PRON	_	_	17	subj	_	AlignBegin=345486|AlignEnd=345697
 16	just	just	ADV	_	_	17	mod	_	AlignBegin=345697|AlignEnd=345907
@@ -3972,25 +3972,25 @@
 20	for	for	ADP	_	_	18	comp:obl	_	AlignBegin=346538|AlignEnd=346748
 21	dat	dat	DET	_	_	22	det	_	AlignBegin=346748|AlignEnd=346958
 22	place	place	NOUN	_	_	20	comp:obj	_	AlignBegin=346958|AlignEnd=347168
-23	<	<	PUNCT	_	_	11	punct	_	AlignBegin=347168|AlignEnd=347168
+23	<	<	PUNCT	_	_	6	punct	_	AlignBegin=347168|AlignEnd=347168
 24	{	{	PUNCT	_	_	25	punct	_	AlignBegin=347168|AlignEnd=347168
-25	y~	X	X	_	_	32	subj	_	AlignBegin=347168|AlignEnd=347378
+25	y~	X	X	_	_	31	subj	_	AlignBegin=347168|AlignEnd=347378
 26	||	||	PUNCT	_	_	27	punct	_	AlignBegin=347378|AlignEnd=347378
 27	y~	X	X	_	_	25	conj:dicto	_	AlignBegin=347378|AlignEnd=347589
 28	||	||	PUNCT	_	_	29	punct	_	AlignBegin=347589|AlignEnd=347589
 29	you	you	PRON	_	_	27	conj:dicto	_	AlignBegin=347589|AlignEnd=347799
 30	}	}	PUNCT	_	_	25	punct	_	AlignBegin=347799|AlignEnd=347799
-31	no	no	PART	_	_	32	mod	_	AlignBegin=347799|AlignEnd=348009
-32	want	want	VERB	_	_	0	root	_	AlignBegin=348009|AlignEnd=348219
+31	no	no	AUX	_	_	0	root	_	AlignBegin=347799|AlignEnd=348009
+32	want	want	VERB	_	_	31	comp:aux	_	AlignBegin=348009|AlignEnd=348219
 33	am	am	PRON	_	_	32	comp:obj	_	AlignBegin=348219|AlignEnd=348430
-34	?//	?//	PUNCT	_	_	32	punct	_	AlignBegin=348430|AlignEnd=348430
+34	?//	?//	PUNCT	_	_	31	punct	_	AlignBegin=348430|AlignEnd=348430
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__285
 # speaker_id = Sp104
 # text = mstchew //
 # text_en = Mstchew
 # text_ortho = Mstchew.
-1	mstchew	mstchew	INTJ	_	_	0	root	_	AlignBegin=348550|AlignEnd=348830
+1	mstchew	MSTCH	ADJ	_	_	0	root	_	AlignBegin=348550|AlignEnd=348830
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=348830|AlignEnd=348830
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__286
@@ -3998,16 +3998,16 @@
 # text = oh oga < { no || no } problem //
 # text_en = Oh eh eh boss, no issue.
 # text_ortho = Oh oga, no, no problem.
-1	oh	oh	INTJ	_	_	9	discourse	_	AlignBegin=348940|AlignEnd=349337
-2	oga	oga	NOUN	_	_	9	vocative	_	AlignBegin=349337|AlignEnd=349734
+1	oh	oh	ADJ	_	_	5	discourse	_	AlignBegin=348940|AlignEnd=349337
+2	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=349337|AlignEnd=349734
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=349734|AlignEnd=349734
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=349734|AlignEnd=349734
-5	no	no	PART	_	_	9	mod	_	AlignBegin=349734|AlignEnd=350131
+5	no	no	PART	_	_	0	root	_	AlignBegin=349734|AlignEnd=350131
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=350131|AlignEnd=350131
 7	no	no	PART	_	_	5	conj:dicto	_	AlignBegin=350131|AlignEnd=350528
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=350528|AlignEnd=350528
-9	problem	problem	NOUN	_	_	0	root	_	AlignBegin=350528|AlignEnd=350925
-10	//	//	PUNCT	_	_	9	punct	_	AlignBegin=350925|AlignEnd=350925
+9	problem	problem	NOUN	_	_	7	comp:pred	_	AlignBegin=350528|AlignEnd=350925
+10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=350925|AlignEnd=350925
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__287
 # speaker_id = Sp104
@@ -4016,15 +4016,15 @@
 # text_ortho = See di all, di all, di akekpenketa, keep am.
 1	see	see	VERB	_	_	13	parataxis:discourse	_	AlignBegin=350925|AlignEnd=351218
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=351218|AlignEnd=351218
-3	di	di	DET	_	_	11	det	_	AlignBegin=351218|AlignEnd=351511
-4	all	all	DET	_	_	11	mod	_	AlignBegin=351511|AlignEnd=351805
+3	di	di	DET	_	_	4	det	_	AlignBegin=351218|AlignEnd=351511
+4	all	all	DET	_	_	11	det	_	AlignBegin=351511|AlignEnd=351805
 5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=351805|AlignEnd=351805
 6	di	di	DET	_	_	7	det	_	AlignBegin=351805|AlignEnd=352098
 7	all	all	DET	_	_	4	conj:dicto	_	AlignBegin=352098|AlignEnd=352391
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=352391|AlignEnd=352391
 9	di	di	DET	_	_	7	conj:dicto	_	AlignBegin=352391|AlignEnd=352685
 10	}	}	PUNCT	_	_	4	punct	_	AlignBegin=352685|AlignEnd=352685
-11	akekpenketa	akekpenketa	NOUN	_	_	1	dislocated	_	AlignBegin=352685|AlignEnd=352978|Lang=igb
+11	akekpenketa	akekpenketa	NOUN	_	_	13	dislocated	_	AlignBegin=352685|AlignEnd=352978|Lang=igb
 12	<	<	PUNCT	_	_	1	punct	_	AlignBegin=352978|AlignEnd=352978
 13	keep	keep	VERB	_	_	0	root	_	AlignBegin=352978|AlignEnd=353271
 14	am	am	PRON	_	_	13	comp:obj	_	AlignBegin=353271|AlignEnd=353565
@@ -4035,8 +4035,8 @@
 # text = okay okay listen to me //
 # text_en = Okay... okay, listen to me.
 # text_ortho = Okay okay listen to me.
-1	okay	okay	INTJ	_	_	3	discourse	_	AlignBegin=350932|AlignEnd=351352
-2	okay	okay	INTJ	_	_	3	discourse	_	AlignBegin=351352|AlignEnd=351772
+1	okay	OK	ADP	_	_	3	discourse	_	AlignBegin=350932|AlignEnd=351352
+2	okay	OK	ADP	_	_	3	discourse	_	AlignBegin=351352|AlignEnd=351772
 3	listen	listen	VERB	_	_	0	root	_	AlignBegin=351772|AlignEnd=352192
 4	to	to	ADP	_	_	3	comp:obl	_	AlignBegin=352192|AlignEnd=352612
 5	me	me	PRON	_	_	4	comp:obj	_	AlignBegin=352612|AlignEnd=353032
@@ -4056,19 +4056,19 @@
 # text = I no go chop again //
 # text_en = I won't eat again.
 # text_ortho = I no go chop again.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=353700|AlignEnd=353920
-2	no	no	PART	_	_	3	mod	_	AlignBegin=353920|AlignEnd=354140
-3	go	go	AUX	_	_	0	root	_	AlignBegin=354140|AlignEnd=354360
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=353700|AlignEnd=353920
+2	no	no	AUX	_	_	0	root	_	AlignBegin=353920|AlignEnd=354140
+3	go	go	AUX	_	_	2	comp:aux	_	AlignBegin=354140|AlignEnd=354360
 4	chop	chop	VERB	_	_	3	comp:aux	_	AlignBegin=354360|AlignEnd=354580
 5	again	again	ADV	_	_	4	mod	_	AlignBegin=354580|AlignEnd=354800
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=354800|AlignEnd=354800
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=354800|AlignEnd=354800
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__291
 # speaker_id = Sp103
 # text = starting from today & //
 # text_en = Starting from today...
 # text_ortho = Starting from today...
-1	starting	starting	ADV	_	_	0	root:scrap	_	AlignBegin=354715|AlignEnd=355078
+1	starting	start	VERB	_	_	0	root@scrap	_	AlignBegin=354715|AlignEnd=355078
 2	from	from	ADP	_	_	1	comp:obl	_	AlignBegin=355078|AlignEnd=355441
 3	today	today	NOUN	_	_	2	comp:obj	_	AlignBegin=355441|AlignEnd=355805
 4	&	&	PUNCT	_	_	1	punct	_	AlignBegin=355805|AlignEnd=355805
@@ -4079,13 +4079,13 @@
 # text = infact < I no go & //
 # text_en = in fact, I won't...
 # text_ortho = Infact, I no go...
-1	infact	infact	ADV	_	_	5	mod:periph	_	AlignBegin=354800|AlignEnd=355095
+1	infact	infact	ADV	_	_	4	mod:periph	_	AlignBegin=354800|AlignEnd=355095
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=355095|AlignEnd=355095
-3	I	I	PRON	_	_	5	subj	_	AlignBegin=355095|AlignEnd=355390
-4	no	no	PART	_	_	5	mod	_	AlignBegin=355390|AlignEnd=355685
-5	go	go	AUX	_	_	0	root:scrap	_	AlignBegin=355685|AlignEnd=355980
-6	&	&	PUNCT	_	_	5	punct	_	AlignBegin=355980|AlignEnd=355980
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=355980|AlignEnd=355980
+3	I	I	PRON	_	_	4	subj	_	AlignBegin=355095|AlignEnd=355390
+4	no	no	AUX	_	_	0	root@scrap	_	AlignBegin=355390|AlignEnd=355685
+5	go	go	AUX	_	_	4	comp:aux	_	AlignBegin=355685|AlignEnd=355980
+6	&	&	PUNCT	_	_	4	punct	_	AlignBegin=355980|AlignEnd=355980
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=355980|AlignEnd=355980
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__293
 # speaker_id = Sp104
@@ -4094,9 +4094,9 @@
 # text_ortho = Oga, sorry I don...
 1	oga	oga	NOUN	_	_	5	vocative	_	AlignBegin=355980|AlignEnd=356255
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=356255|AlignEnd=356255
-3	sorry	sorry	ADV	_	_	5	discourse	_	AlignBegin=356255|AlignEnd=356530
+3	sorry	sorry	ADJ	_	_	5	discourse	_	AlignBegin=356255|AlignEnd=356530
 4	I	I	PRON	_	_	5	subj	_	AlignBegin=356530|AlignEnd=356805
-5	don	don	AUX	_	_	0	root:scrap	_	AlignBegin=356805|AlignEnd=357080
+5	don	don	AUX	_	_	0	root@scrap	_	AlignBegin=356805|AlignEnd=357080
 6	&	&	PUNCT	_	_	5	punct	_	AlignBegin=357080|AlignEnd=357080
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=357080|AlignEnd=357080
 
@@ -4105,23 +4105,23 @@
 # text = { I no go || I no go talk || I no go talk } again //
 # text_en = I won't... So... I won't talk... I won't talk again.
 # text_ortho = I no go, I no go talk, I no go talk again.
-1	{	{	PUNCT	_	_	4	punct	_	AlignBegin=357080|AlignEnd=357080
-2	I	I	PRON	_	_	4	subj	_	AlignBegin=357080|AlignEnd=357317
-3	no	no	PART	_	_	4	mod	_	AlignBegin=357317|AlignEnd=357555
-4	go	go	AUX	_	_	0	root	_	AlignBegin=357555|AlignEnd=357792
-5	||	||	PUNCT	_	_	8	punct	_	AlignBegin=357792|AlignEnd=357792
-6	I	I	PRON	_	_	8	subj	_	AlignBegin=357792|AlignEnd=358030
-7	no	no	PART	_	_	8	mod	_	AlignBegin=358030|AlignEnd=358267
-8	go	go	AUX	_	_	4	conj:dicto	_	AlignBegin=358267|AlignEnd=358505
+1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=357080|AlignEnd=357080
+2	I	I	PRON	_	_	3	subj	_	AlignBegin=357080|AlignEnd=357317
+3	no	no	AUX	_	_	0	root	_	AlignBegin=357317|AlignEnd=357555
+4	go	go	AUX	_	_	3	comp:aux	_	AlignBegin=357555|AlignEnd=357792
+5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=357792|AlignEnd=357792
+6	I	I	PRON	_	_	7	subj	_	AlignBegin=357792|AlignEnd=358030
+7	no	no	AUX	_	_	3	conj:dicto	_	AlignBegin=358030|AlignEnd=358267
+8	go	go	AUX	_	_	7	comp:aux	_	AlignBegin=358267|AlignEnd=358505
 9	talk	talk	VERB	_	_	8	comp:aux	_	AlignBegin=358505|AlignEnd=358742
-10	||	||	PUNCT	_	_	13	punct	_	AlignBegin=358742|AlignEnd=358742
-11	I	I	PRON	_	_	13	subj	_	AlignBegin=358742|AlignEnd=358980
-12	no	no	PART	_	_	13	mod	_	AlignBegin=358980|AlignEnd=359217
-13	go	go	AUX	_	_	8	conj:dicto	_	AlignBegin=359217|AlignEnd=359455
+10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=358742|AlignEnd=358742
+11	I	I	PRON	_	_	12	subj	_	AlignBegin=358742|AlignEnd=358980
+12	no	no	AUX	_	_	7	conj:dicto	_	AlignBegin=358980|AlignEnd=359217
+13	go	go	AUX	_	_	12	comp:aux	_	AlignBegin=359217|AlignEnd=359455
 14	talk	talk	VERB	_	_	13	comp:aux	_	AlignBegin=359455|AlignEnd=359692
-15	}	}	PUNCT	_	_	4	punct	_	AlignBegin=359692|AlignEnd=359692
+15	}	}	PUNCT	_	_	3	punct	_	AlignBegin=359692|AlignEnd=359692
 16	again	again	ADV	_	_	14	mod	_	AlignBegin=359692|AlignEnd=359930
-17	//	//	PUNCT	_	_	4	punct	_	AlignBegin=359930|AlignEnd=359930
+17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=359930|AlignEnd=359930
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__295
 # speaker_id = Sp103
@@ -4139,7 +4139,7 @@
 9	for	for	ADP	_	_	8	mod	_	AlignBegin=359740|AlignEnd=360150
 10	}	}	PUNCT	_	_	2	punct	_	AlignBegin=360150|AlignEnd=360150
 11	two	two	NUM	_	_	12	det:num	_	AlignBegin=360150|AlignEnd=360560
-12	weeks	weeks	NOUN	_	_	9	comp:obj	_	AlignBegin=360560|AlignEnd=360970
+12	weeks	week	NOUN	_	_	9	comp:obj	_	AlignBegin=360560|AlignEnd=360970
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=360970|AlignEnd=360970
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__296
@@ -4147,9 +4147,9 @@
 # text = ehn ehn accepted //
 # text_en = Ehn, ehn accepted
 # text_ortho = Ehn ehn accepted.
-1	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=361120|AlignEnd=361595
-2	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=361595|AlignEnd=362070
-3	accepted	accepted	VERB	_	_	0	root	_	AlignBegin=362070|AlignEnd=362545
+1	ehn	ehn	ADJ	_	_	3	discourse	_	AlignBegin=361120|AlignEnd=361595
+2	ehn	ehn	ADJ	_	_	3	discourse	_	AlignBegin=361595|AlignEnd=362070
+3	accepted	accept	VERB	_	_	0	root	_	AlignBegin=362070|AlignEnd=362545
 4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=362545|AlignEnd=362545
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__297
@@ -4158,13 +4158,13 @@
 # text_en = eh no comment anymore.
 # text_ortho = No, no comment again.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=361155|AlignEnd=361155
-2	no	no	PART	_	_	6	mod	_	AlignBegin=361155|AlignEnd=361488
+2	no	no	PART	_	_	0	root	_	AlignBegin=361155|AlignEnd=361488
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=361488|AlignEnd=361488
-4	no	no	PART	_	_	2	conj:dicto	_	AlignBegin=361488|AlignEnd=361822
+4	no	no	AUX	_	_	2	conj:dicto	_	AlignBegin=361488|AlignEnd=361822
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=361822|AlignEnd=361822
-6	comment	comment	VERB	_	_	0	root	_	AlignBegin=361822|AlignEnd=362156
+6	comment	comment	VERB	_	_	4	comp:aux	_	AlignBegin=361822|AlignEnd=362156
 7	again	again	ADV	_	_	6	mod	_	AlignBegin=362156|AlignEnd=362490
-8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=362490|AlignEnd=362490
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=362490|AlignEnd=362490
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__298
 # speaker_id = Sp103
@@ -4172,9 +4172,9 @@
 # text_en = Bye.
 # text_ortho = Bye, bye!
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=362490|AlignEnd=362490
-2	bye	bye	INTJ	_	_	0	root	_	AlignBegin=362490|AlignEnd=363092
+2	bye	bye	ADJ	_	_	0	root	_	AlignBegin=362490|AlignEnd=363092
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=363092|AlignEnd=363092
-4	bye	bye	INTJ	_	_	2	compound:redup	_	AlignBegin=363092|AlignEnd=363695
+4	bye	bye	VERB	_	_	2	compound:redup	_	AlignBegin=363092|AlignEnd=363695
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=363695|AlignEnd=363695
 6	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=363695|AlignEnd=363695
 
@@ -4186,7 +4186,7 @@
 1	make	make	AUX	_	_	0	root	_	AlignBegin=362850|AlignEnd=363067
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=363067|AlignEnd=363285
 3	go	go	VERB	_	_	1	comp:aux	_	AlignBegin=363285|AlignEnd=363502
-4	house	house	NOUN	_	_	3	comp:obj	_	AlignBegin=363502|AlignEnd=363720
+4	house	house	NOUN	_	_	3	comp:obl	_	AlignBegin=363502|AlignEnd=363720
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=363720|AlignEnd=363720
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__300
@@ -4195,7 +4195,7 @@
 # text_en = I have...
 # text_ortho = I get...
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=363720|AlignEnd=364175
-2	get	get	VERB	_	_	0	root:scrap	_	AlignBegin=364175|AlignEnd=364630
+2	get	get	VERB	_	_	0	root@scrap	_	AlignBegin=364175|AlignEnd=364630
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=364630|AlignEnd=364630
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=364630|AlignEnd=364630
 
@@ -4207,7 +4207,7 @@
 1	suspension	suspension	NOUN	_	_	0	root	_	AlignBegin=363835|AlignEnd=364266
 2	>	>	PUNCT	_	_	4	punct	_	AlignBegin=364266|AlignEnd=364266
 3	two	two	NUM	_	_	4	det:num	_	AlignBegin=364266|AlignEnd=364698
-4	weeks	weeks	NOUN	_	_	1	dislocated	_	AlignBegin=364698|AlignEnd=365130
+4	weeks	week	NOUN	_	_	1	dislocated	_	AlignBegin=364698|AlignEnd=365130
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=365130|AlignEnd=365130
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__302
@@ -4215,10 +4215,10 @@
 # text = make I go give & //
 # text_en = Let me go and give...
 # text_ortho = Make I go give...
-1	make	make	AUX	_	_	0	root	_	AlignBegin=364975|AlignEnd=365260
+1	make	make	AUX	_	_	0	root@scrap	_	AlignBegin=364975|AlignEnd=365260
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=365260|AlignEnd=365545
-3	go	go	VERB	_	_	1	comp:aux	_	AlignBegin=365545|AlignEnd=365830
-4	give	give	VERB	_	_	3	comp:obj@scrap	_	AlignBegin=365830|AlignEnd=366115
+3	go	go	AUX	_	_	1	comp:aux	_	AlignBegin=365545|AlignEnd=365830
+4	give	give	VERB	_	_	3	comp:aux@scrap	_	AlignBegin=365830|AlignEnd=366115
 5	&	&	PUNCT	_	_	1	punct	_	AlignBegin=366115|AlignEnd=366115
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=366115|AlignEnd=366115
 
@@ -4227,8 +4227,8 @@
 # text = don't come here { till you & || till { your people |c and { your || your } mama |c and your papa |c and di people wey write di agreement } come } //
 # text_en = Don't come here till you... till your people, and your... you-... your mother and your father and the people that wrote the agreement come.
 # text_ortho = Don'T come here till you..., till your people, and your, your mama, and your papa, and di people wey write di agreement come.
-1	don't	don't	PART	_	_	2	mod	_	AlignBegin=365130|AlignEnd=365419|Lang=en
-2	come	come	VERB	_	_	0	root	_	AlignBegin=365419|AlignEnd=365708|Lang=en
+1	don't	donn	AUX	_	_	0	root	_	AlignBegin=365130|AlignEnd=365419|Lang=en
+2	come	come	VERB	_	_	1	comp:aux	_	AlignBegin=365419|AlignEnd=365708|Lang=en
 3	here	here	ADV	_	_	2	comp:obj	_	AlignBegin=365708|AlignEnd=365998|Lang=en
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=365998|AlignEnd=365998
 5	till	till	ADP	_	_	2	mod	_	AlignBegin=365998|AlignEnd=366287
@@ -4242,7 +4242,7 @@
 13	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=367444|AlignEnd=367444
 14	and	and	CCONJ	_	_	20	cc	_	AlignBegin=367444|AlignEnd=367734
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=367734|AlignEnd=367734
-16	your	your	PRON	_	_	20	mod:poss	_	AlignBegin=367734|AlignEnd=368023
+16	your	your	ADJ	_	_	20	mod:poss	_	AlignBegin=367734|AlignEnd=368023
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=368023|AlignEnd=368023
 18	your	your	ADJ	_	_	16	conj:dicto	_	AlignBegin=368023|AlignEnd=368312
 19	}	}	PUNCT	_	_	16	punct	_	AlignBegin=368312|AlignEnd=368312
@@ -4255,22 +4255,22 @@
 26	and	and	CCONJ	_	_	28	cc	_	AlignBegin=369470|AlignEnd=369759
 27	di	di	DET	_	_	28	det	_	AlignBegin=369759|AlignEnd=370048
 28	people	people	NOUN	_	_	24	conj:coord	_	AlignBegin=370048|AlignEnd=370338
-29	wey	wey	SCONJ	_	_	28	mod:relcl	_	AlignBegin=370338|AlignEnd=370627
+29	wey	wey	SCONJ	_	_	28	mod@relcl	_	AlignBegin=370338|AlignEnd=370627
 30	write	write	VERB	_	_	29	comp:obj	_	AlignBegin=370627|AlignEnd=370916
 31	di	di	DET	_	_	32	det	_	AlignBegin=370916|AlignEnd=371206
 32	agreement	agreement	NOUN	_	_	30	comp:obj	_	AlignBegin=371206|AlignEnd=371495
 33	}	}	PUNCT	_	_	12	punct	_	AlignBegin=371495|AlignEnd=371495
-34	come	come	VERB	_	_	29	comp:obj	_	AlignBegin=371495|AlignEnd=371785
+34	come	come	VERB	_	_	9	comp:obj	_	AlignBegin=371495|AlignEnd=371785
 35	}	}	PUNCT	_	_	5	punct	_	AlignBegin=371785|AlignEnd=371785
-36	//	//	PUNCT	_	_	2	punct	_	AlignBegin=371785|AlignEnd=371785
+36	//	//	PUNCT	_	_	1	punct	_	AlignBegin=371785|AlignEnd=371785
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__304
 # speaker_id = Sp104
 # text = yes sir //
 # text_en = Yes sir.
 # text_ortho = Yes sir.
-1	yes	yes	INTJ	_	_	2	discourse	_	AlignBegin=366260|AlignEnd=366495
-2	sir	sir	INTJ	_	_	0	root	_	AlignBegin=366495|AlignEnd=366730
+1	yes	yes	ADJ	_	_	2	discourse	_	AlignBegin=366260|AlignEnd=366495
+2	sir	Sir	NOUN	_	_	0	root	_	AlignBegin=366495|AlignEnd=366730
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=366730|AlignEnd=366730
 
 # sent_id = ENU_25_Boss-And-Apprentice_DG__305
@@ -4295,10 +4295,10 @@
 # text = make I go see my & //
 # text_en = Let me go and see my
 # text_ortho = Make I go see my...
-1	make	make	AUX	_	_	0	root	_	AlignBegin=368570|AlignEnd=368876
+1	make	make	AUX	_	_	0	root@scrap	_	AlignBegin=368570|AlignEnd=368876
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=368876|AlignEnd=369182
 3	go	go	AUX	_	_	1	comp:aux	_	AlignBegin=369182|AlignEnd=369488
-4	see	see	VERB	_	_	3	comp:aux	_	AlignBegin=369488|AlignEnd=369794
+4	see	see	VERB	_	_	3	comp:aux@scrap	_	AlignBegin=369488|AlignEnd=369794
 5	my	my	PRON	_	_	4	comp:obj@scrap	_	AlignBegin=369794|AlignEnd=370100
 6	&	&	PUNCT	_	_	1	punct	_	AlignBegin=370100|AlignEnd=370100
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=370100|AlignEnd=370100
@@ -4310,11 +4310,11 @@
 # text_ortho = Oga, eh my babe wey, my babe come.
 1	oga	oga	NOUN	_	_	6	vocative	_	AlignBegin=371080|AlignEnd=371362
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=371362|AlignEnd=371362
-3	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=371362|AlignEnd=371645
+3	eh	eh	ADJ	_	_	6	discourse	_	AlignBegin=371362|AlignEnd=371645
 4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=371645|AlignEnd=371645
 5	my	my	PRON	_	_	6	mod:poss	_	AlignBegin=371645|AlignEnd=371927
 6	babe	babe	NOUN	_	_	0	root	_	AlignBegin=371927|AlignEnd=372210
-7	wey	wey	SCONJ	_	_	6	mod:relcl	_	AlignBegin=372210|AlignEnd=372492
+7	wey	wey	SCONJ	_	_	6	mod@relcl	_	AlignBegin=372210|AlignEnd=372492
 8	||	||	PUNCT	_	_	11	punct	_	AlignBegin=372492|AlignEnd=372492
 9	my	my	PRON	_	_	10	mod:poss	_	AlignBegin=372492|AlignEnd=372775
 10	babe	babe	NOUN	_	_	11	subj	_	AlignBegin=372775|AlignEnd=373057
@@ -4328,9 +4328,9 @@
 # text_en = Bye bye.
 # text_ortho = Bye, bye!
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=372070|AlignEnd=372070
-2	bye	bye	INTJ	_	_	0	root	_	AlignBegin=372070|AlignEnd=372545
+2	bye	bye	ADJ	_	_	0	root	_	AlignBegin=372070|AlignEnd=372545
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=372545|AlignEnd=372545
-4	bye	bye	INTJ	_	_	2	compound:redup	_	AlignBegin=372545|AlignEnd=373020
+4	bye	bye	VERB	_	_	2	compound:redup	_	AlignBegin=372545|AlignEnd=373020
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=373020|AlignEnd=373020
 6	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=373020|AlignEnd=373020
 
@@ -4341,7 +4341,8 @@
 # text_ortho = Make I go see am.
 1	make	make	AUX	_	_	0	root	_	AlignBegin=373340|AlignEnd=373498
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=373498|AlignEnd=373656
-3	go	go	VERB	_	_	1	comp:aux	_	AlignBegin=373656|AlignEnd=373814
-4	see	see	VERB	_	_	3	comp:obj@x	_	AlignBegin=373814|AlignEnd=373972
+3	go	go	AUX	_	_	1	comp:aux	_	AlignBegin=373656|AlignEnd=373814
+4	see	see	VERB	_	_	3	comp:aux	_	AlignBegin=373814|AlignEnd=373972
 5	am	am	PRON	_	_	4	comp:obj	_	AlignBegin=373972|AlignEnd=374130
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=374130|AlignEnd=374130
+
