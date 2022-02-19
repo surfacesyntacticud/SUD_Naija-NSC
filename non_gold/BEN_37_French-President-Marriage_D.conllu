@@ -8,7 +8,7 @@
 2	like	like	ADP	_	_	10	mod:periph	_	AlignBegin=2886|AlignEnd=3133
 3	wetin	wetin	PRON	_	_	2	comp:obj	_	AlignBegin=3133|AlignEnd=3380
 4	I	I	PRON	_	_	5	subj	_	AlignBegin=3380|AlignEnd=3627
-5	dey	dey	AUX	_	_	3	mod:relcl	_	AlignBegin=3627|AlignEnd=3874
+5	dey	dey	AUX	_	_	3	mod@relcl	_	AlignBegin=3627|AlignEnd=3874
 6	talk	talk	VERB	_	_	5	comp:aux	_	AlignBegin=3874|AlignEnd=4121
 7	before	before	ADP	_	_	6	mod	_	AlignBegin=4121|AlignEnd=4368
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=4368|AlignEnd=4368
@@ -17,7 +17,7 @@
 11	[	[	PUNCT	_	_	16	punct	_	AlignBegin=4861|AlignEnd=4861
 12	wetin	wetin	PRON	_	_	16	dislocated	_	AlignBegin=4861|AlignEnd=5108
 13	cloth	cloth	NOUN	_	_	14	subj	_	AlignBegin=5108|AlignEnd=5355
-14	cover	cover	VERB	_	_	12	mod	_	AlignBegin=5355|AlignEnd=5602
+14	cover	cover	VERB	_	_	12	mod@relcl	_	AlignBegin=5355|AlignEnd=5602
 15	<	<	PUNCT	_	_	12	punct	_	AlignBegin=5602|AlignEnd=5602
 16	na	na	PART	_	_	10	parataxis:obj	_	AlignBegin=5602|AlignEnd=5849
 17	im	im	PRON	_	_	16	comp:pred	_	AlignBegin=5849|AlignEnd=6096
@@ -32,9 +32,9 @@
 # text = no dat issue of fine < & //
 # text_en = No, that issue of being beautiful...
 # text_ortho = No dat issue of fine...
-1	no	no	PART	_	_	3	discourse	_	AlignBegin=7280|AlignEnd=7512
+1	no	no	PART	_	_	3	mod:emph	_	AlignBegin=7280|AlignEnd=7512
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=7512|AlignEnd=7744
-3	issue	issue	NOUN	_	_	0	root:scrap	_	AlignBegin=7744|AlignEnd=7976
+3	issue	issue	NOUN	_	_	0	root@scrap	_	AlignBegin=7744|AlignEnd=7976
 4	of	of	ADP	_	_	3	mod	_	AlignBegin=7976|AlignEnd=8208
 5	fine	fine	ADJ	_	_	4	comp:obj	_	AlignBegin=8208|AlignEnd=8440
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=8440|AlignEnd=8440
@@ -51,8 +51,8 @@
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=8062|AlignEnd=8062
 4	di	di	DET	_	_	2	conj:dicto	_	AlignBegin=8062|AlignEnd=8445
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=8445|AlignEnd=8445
-6	area	area	NOUN	_	_	0	root:scrap	_	AlignBegin=8445|AlignEnd=8827
-7	of	of	ADP	_	_	6	mod:scrap	_	AlignBegin=8827|AlignEnd=9210
+6	area	area	NOUN	_	_	0	root	_	AlignBegin=8445|AlignEnd=8827
+7	of	of	ADP	_	_	6	mod@scrap	_	AlignBegin=8827|AlignEnd=9210
 8	&	&	PUNCT	_	_	6	punct	_	AlignBegin=9210|AlignEnd=9210
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=9210|AlignEnd=9210
 
@@ -63,11 +63,11 @@
 # text_ortho = Wetin make me, wetin make me go argue for dat issue of fine...
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=8560|AlignEnd=8560
 2	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=8560|AlignEnd=8713
-3	make	make	VERB	_	_	2	mod:relcl	_	AlignBegin=8713|AlignEnd=8867
+3	make	make	AUX	_	_	2	comp:cleft	_	AlignBegin=8713|AlignEnd=8867
 4	me	me	PRON	_	_	3	comp:obj	_	AlignBegin=8867|AlignEnd=9021
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=9021|AlignEnd=9021
 6	wetin	wetin	PRON	_	_	2	conj:dicto	_	AlignBegin=9021|AlignEnd=9175
-7	make	make	VERB	_	_	6	mod:relcl	_	AlignBegin=9175|AlignEnd=9329
+7	make	make	AUX	_	_	6	comp:cleft	_	AlignBegin=9175|AlignEnd=9329
 8	me	me	PRON	_	_	7	comp:obj	_	AlignBegin=9329|AlignEnd=9483
 9	}	}	PUNCT	_	_	2	punct	_	AlignBegin=9483|AlignEnd=9483
 10	go	go	VERB	_	_	7	comp:obj@x	_	AlignBegin=9483|AlignEnd=9636
@@ -86,8 +86,8 @@
 # text = because ehen & //
 # text_en = Because, ehen...
 # text_ortho = Because ehen...
-1	because	because	SCONJ	_	_	0	root:scrap	_	AlignBegin=10560|AlignEnd=12200
-2	ehen	ehen	INTJ	_	_	1	comp:obj@scrap	_	AlignBegin=12200|AlignEnd=13840
+1	because	because	SCONJ	_	_	2	cc	_	AlignBegin=10560|AlignEnd=12200
+2	ehen	ehen	INTJ	_	_	0	root@scrap	_	AlignBegin=12200|AlignEnd=13840
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=13840|AlignEnd=13840
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=13840|AlignEnd=13840
 
@@ -105,7 +105,7 @@
 # text_en = Well, well, I will agree with you because many boys this days or many men this days who want to marry, they say my wife is not fine if she does not have everything, if she does not do this, but they don't check the character.
 # text_ortho = Well, well I go agree with you because many boys dis days, or many men dis days wey want marry, de say my wife no fine if e nor get everything, if e no do dis, but de no dey look di character wise.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=13840|AlignEnd=13840
-2	well	well	ADV	_	_	7	discourse	_	AlignBegin=13840|AlignEnd=14031
+2	well	well	ADV	_	_	7	mod:periph	_	AlignBegin=13840|AlignEnd=14031
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=14031|AlignEnd=14031
 4	well	well	ADV	_	_	2	compound:redup	_	AlignBegin=14031|AlignEnd=14222
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=14222|AlignEnd=14222
@@ -116,10 +116,10 @@
 10	you	you	PRON	_	_	9	comp:obj	_	AlignBegin=14988|AlignEnd=15179
 11	because	because	SCONJ	_	_	8	mod	_	AlignBegin=15179|AlignEnd=15370
 12	{	{	PUNCT	_	_	14	punct	_	AlignBegin=15370|AlignEnd=15370
-13	many	many	ADJ	_	_	14	mod	_	AlignBegin=15370|AlignEnd=15562
-14	boys	boy	NOUN	_	_	29	dislocated	_	AlignBegin=15562|AlignEnd=15753
+13	many	many	ADJ	_	_	16	mod	_	AlignBegin=15370|AlignEnd=15562
+14	boys	boy	NOUN	_	_	29	mod:periph	_	AlignBegin=15562|AlignEnd=15753
 15	dis	dis	DET	_	_	16	det	_	AlignBegin=15753|AlignEnd=15945
-16	days	days	NOUN	_	_	29	mod:periph	_	AlignBegin=15945|AlignEnd=16136
+16	days	days	NOUN	_	_	14	conj:appos	_	AlignBegin=15945|AlignEnd=16136
 17	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=16136|AlignEnd=16136
 18	or	or	CCONJ	_	_	20	cc	_	AlignBegin=16136|AlignEnd=16327
 19	many	many	ADJ	_	_	20	mod	_	AlignBegin=16327|AlignEnd=16519
@@ -127,10 +127,10 @@
 21	dis	dis	DET	_	_	22	det	_	AlignBegin=16710|AlignEnd=16901
 22	days	days	NOUN	_	_	20	mod	_	AlignBegin=16901|AlignEnd=17093
 23	}	}	PUNCT	_	_	14	punct	_	AlignBegin=17093|AlignEnd=17093
-24	wey	wey	SCONJ	_	_	22	mod:relcl	_	AlignBegin=17093|AlignEnd=17284
+24	wey	wey	SCONJ	_	_	22	mod@relcl	_	AlignBegin=17093|AlignEnd=17284
 25	want	want	VERB	_	_	24	comp:obj	_	AlignBegin=17284|AlignEnd=17475
 26	marry	marry	VERB	_	_	25	comp:obj@x	_	AlignBegin=17475|AlignEnd=17667
-27	<	<	PUNCT	_	_	14	punct	_	AlignBegin=17667|AlignEnd=17667
+27	<	<	PUNCT	_	_	2	punct	_	AlignBegin=17667|AlignEnd=17667
 28	de	dem	PRON	_	_	29	subj	_	AlignBegin=17667|AlignEnd=17858
 29	say	say	VERB	_	_	11	comp:obj	_	AlignBegin=17858|AlignEnd=18050
 30	[	[	PUNCT	_	_	34	punct	_	AlignBegin=18050|AlignEnd=18050
@@ -140,7 +140,7 @@
 34	fine	fine	ADJ	_	_	29	parataxis:obj	_	AlignBegin=18624|AlignEnd=18815
 35	{	{	PUNCT	_	_	36	punct	_	AlignBegin=18815|AlignEnd=18815
 36	if	if	SCONJ	_	_	34	mod	_	AlignBegin=18815|AlignEnd=19006
-37	e	im	PRON	_	_	39	subj	_	AlignBegin=19006|AlignEnd=19198
+37	e	im	PRON	_	_	36	comp:obj@scrap	_	AlignBegin=19006|AlignEnd=19198
 38	nor	nor	PART	_	_	39	mod	_	AlignBegin=19198|AlignEnd=19389
 39	get	get	VERB	_	_	36	comp:obj	_	AlignBegin=19389|AlignEnd=19580
 40	everything	everything	PRON	_	_	39	comp:obj	_	AlignBegin=19580|AlignEnd=19772
@@ -160,7 +160,7 @@
 54	look	look	VERB	_	_	53	comp:aux	_	AlignBegin=21494|AlignEnd=21685
 55	di	di	DET	_	_	56	det	_	AlignBegin=21685|AlignEnd=21877
 56	character	character	NOUN	_	_	54	comp:obj	_	AlignBegin=21877|AlignEnd=22068
-57	wise	wise	ADJ	_	_	54	mod	_	AlignBegin=22068|AlignEnd=22260
+57	wise	wise	ADJ	_	_	54	comp:pred	_	AlignBegin=22068|AlignEnd=22260
 58	//	//	PUNCT	_	_	7	punct	_	AlignBegin=22260|AlignEnd=22260
 
 # sent_id = BEN_37_French-President-Marriage_DG__8
@@ -194,17 +194,17 @@
 16	de	dem	PRON	_	_	17	subj	_	AlignBegin=27140|AlignEnd=27407
 17	dey	dey	AUX	_	_	14	conj:dicto	_	AlignBegin=27407|AlignEnd=27674
 18	look	look	VERB	_	_	17	comp:aux	_	AlignBegin=27674|AlignEnd=27941
-19	}	}	PUNCT	_	_	23	punct	_	AlignBegin=27941|AlignEnd=27941
+19	}	}	PUNCT	_	_	4	punct	_	AlignBegin=27941|AlignEnd=27941
 20	{	{	PUNCT	_	_	23	punct	_	AlignBegin=27941|AlignEnd=27941
 21	di	di	DET	_	_	23	det	_	AlignBegin=27941|AlignEnd=28209
 22	outward	outward	ADJ	_	_	23	mod	_	AlignBegin=28209|AlignEnd=28476
 23	beauty	beauty	NOUN	_	_	18	comp:obj	_	AlignBegin=28476|AlignEnd=28743
 24	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=28743|AlignEnd=28743
-25	instead	instead	ADV	_	_	17	cc	_	AlignBegin=28743|AlignEnd=29010
-26	of	of	ADP	_	_	25	comp:obj	_	AlignBegin=29010|AlignEnd=29278
+25	instead	instead	ADV	_	_	14	mod	_	AlignBegin=28743|AlignEnd=29010
+26	of	of	ADP	_	_	25	unk@fixed	_	AlignBegin=29010|AlignEnd=29278
 27	di	di	DET	_	_	29	det	_	AlignBegin=29278|AlignEnd=29545
 28	inward	inward	ADJ	_	_	29	mod	_	AlignBegin=29545|AlignEnd=29812
-29	beauty	beauty	NOUN	_	_	25	comp:obj	_	AlignBegin=29812|AlignEnd=30080
+29	beauty	beauty	NOUN	_	_	26	comp:obj	_	AlignBegin=29812|AlignEnd=30080
 30	}	}	PUNCT	_	_	23	punct	_	AlignBegin=30080|AlignEnd=30080
 31	//	//	PUNCT	_	_	4	punct	_	AlignBegin=30080|AlignEnd=30080
 
@@ -221,11 +221,11 @@
 # text = because { de say eh || de describe am } sey [ moto wey be sey e fine for outside < you no know { di engine |c whether di engine go fit be di one wey fit carry you far } //
 # text_en = Because they say eh if they describe it that the motor that is fine outside, you don't know the engine, whether the engine will be able to be the one that will carry you far.
 # text_ortho = Because de say eh, de describe am sey, moto wey be sey e fine for outside, you no know di engine, whether di engine go fit be di one wey fit carry you far.
-1	because	because	SCONJ	_	_	4	discourse	_	AlignBegin=30580|AlignEnd=30740
+1	because	because	SCONJ	_	_	4	cc	_	AlignBegin=30580|AlignEnd=30740
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=30740|AlignEnd=30740
 3	de	dem	PRON	_	_	4	subj	_	AlignBegin=30740|AlignEnd=30900
 4	say	say	VERB	_	_	0	root	_	AlignBegin=30900|AlignEnd=31060
-5	eh	eh	INTJ	_	_	4	comp:obj@scrap	_	AlignBegin=31060|AlignEnd=31221
+5	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=31060|AlignEnd=31221
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=31221|AlignEnd=31221
 7	de	dem	PRON	_	_	8	subj	_	AlignBegin=31221|AlignEnd=31381
 8	describe	describe	VERB	_	_	4	conj:dicto	_	AlignBegin=31381|AlignEnd=31541
@@ -234,12 +234,12 @@
 11	sey	sey	SCONJ	_	_	8	comp:obj	_	AlignBegin=31702|AlignEnd=31862
 12	[	[	PUNCT	_	_	24	punct	_	AlignBegin=31862|AlignEnd=31862
 13	moto	moto	NOUN	_	_	24	dislocated	_	AlignBegin=31862|AlignEnd=32022
-14	wey	wey	SCONJ	_	_	13	mod:relcl	_	AlignBegin=32022|AlignEnd=32182
-15	be	be	VERB	_	_	14	comp:obj	_	AlignBegin=32182|AlignEnd=32343
-16	sey	sey	SCONJ	_	_	15	comp:pred	_	AlignBegin=32343|AlignEnd=32503
+14	wey	wey	SCONJ	_	_	13	mod@relcl	_	AlignBegin=32022|AlignEnd=32182
+15	be	be	VERB	_	_	14	comp:obj@fixed	_	AlignBegin=32182|AlignEnd=32343
+16	sey	sey	SCONJ	_	_	15	comp:pred@fixed	_	AlignBegin=32343|AlignEnd=32503
 17	e	im	PRON	_	_	18	subj	_	AlignBegin=32503|AlignEnd=32663
-18	fine	fine	ADJ	_	_	14	comp:obj	_	AlignBegin=32663|AlignEnd=32824
-19	for	for	ADP	_	_	18	comp:obl	_	AlignBegin=32824|AlignEnd=32984
+18	fine	fine	ADJ	_	_	16	comp:obj	_	AlignBegin=32663|AlignEnd=32824
+19	for	for	ADP	_	_	18	mod	_	AlignBegin=32824|AlignEnd=32984
 20	outside	outside	ADP	_	_	19	comp:obj	_	AlignBegin=32984|AlignEnd=33144
 21	<	<	PUNCT	_	_	13	punct	_	AlignBegin=33144|AlignEnd=33144
 22	you	you	PRON	_	_	24	subj	_	AlignBegin=33144|AlignEnd=33305
@@ -249,7 +249,7 @@
 26	di	di	DET	_	_	27	det	_	AlignBegin=33625|AlignEnd=33785
 27	engine	engine	NOUN	_	_	24	comp:obj	_	AlignBegin=33785|AlignEnd=33946
 28	|c	|c	PUNCT	_	_	29	punct	_	AlignBegin=33946|AlignEnd=33946
-29	whether	whether	SCONJ	_	_	24	conj:coord	_	AlignBegin=33946|AlignEnd=34106
+29	whether	whether	SCONJ	_	_	24	comp:obj	_	AlignBegin=33946|AlignEnd=34106
 30	di	di	DET	_	_	31	det	_	AlignBegin=34106|AlignEnd=34266
 31	engine	engine	NOUN	_	_	32	subj	_	AlignBegin=34266|AlignEnd=34427
 32	go	go	AUX	_	_	29	comp:obj	_	AlignBegin=34427|AlignEnd=34587
@@ -257,7 +257,7 @@
 34	be	be	VERB	_	_	33	comp:aux	_	AlignBegin=34747|AlignEnd=34907
 35	di	di	DET	_	_	36	det	_	AlignBegin=34907|AlignEnd=35068
 36	one	one	NOUN	_	_	34	comp:pred	_	AlignBegin=35068|AlignEnd=35228
-37	wey	wey	SCONJ	_	_	36	mod:relcl	_	AlignBegin=35228|AlignEnd=35388
+37	wey	wey	SCONJ	_	_	36	mod@relcl	_	AlignBegin=35228|AlignEnd=35388
 38	fit	fit	AUX	_	_	37	comp:obj	_	AlignBegin=35388|AlignEnd=35549
 39	carry	carry	VERB	_	_	38	comp:aux	_	AlignBegin=35549|AlignEnd=35709
 40	you	you	PRON	_	_	39	comp:obj	_	AlignBegin=35709|AlignEnd=35869
@@ -282,7 +282,7 @@
 2	know	know	VERB	_	_	0	root	_	AlignBegin=36497|AlignEnd=36635
 3	why	why	ADV	_	_	2	comp:obj	_	AlignBegin=36635|AlignEnd=36772
 4	I	I	PRON	_	_	5	subj	_	AlignBegin=36772|AlignEnd=36910
-5	dey	dey	AUX	_	_	3	mod:relcl	_	AlignBegin=36910|AlignEnd=37047
+5	dey	dey	AUX	_	_	3	comp:cleft	_	AlignBegin=36910|AlignEnd=37047
 6	talk	talk	VERB	_	_	5	comp:aux	_	AlignBegin=37047|AlignEnd=37185
 7	like	like	ADP	_	_	6	mod	_	AlignBegin=37185|AlignEnd=37322
 8	dis	dis	PRON	_	_	7	comp:obj	_	AlignBegin=37322|AlignEnd=37460
@@ -295,7 +295,7 @@
 # text_ortho = Why I dey bring dis issue be sey na you talk about how our olden days people, deir marriage take last.
 1	why	why	ADV	_	_	7	subj	_	AlignBegin=38020|AlignEnd=38305
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=38305|AlignEnd=38591
-3	dey	dey	AUX	_	_	1	mod:relcl	_	AlignBegin=38591|AlignEnd=38877
+3	dey	dey	AUX	_	_	1	mod@relcl	_	AlignBegin=38591|AlignEnd=38877
 4	bring	bring	VERB	_	_	3	comp:aux	_	AlignBegin=38877|AlignEnd=39162
 5	dis	dis	DET	_	_	6	det	_	AlignBegin=39162|AlignEnd=39448
 6	issue	issue	NOUN	_	_	4	comp:obj	_	AlignBegin=39448|AlignEnd=39734
@@ -308,14 +308,14 @@
 13	talk	talk	VERB	_	_	10	comp:cleft	_	AlignBegin=40877|AlignEnd=41162
 14	about	about	ADP	_	_	13	comp:obl	_	AlignBegin=41162|AlignEnd=41448
 15	how	how	ADV	_	_	14	comp:obj	_	AlignBegin=41448|AlignEnd=41734
-16	our	our	PRON	_	_	18	mod	_	AlignBegin=41734|AlignEnd=42020
+16	our	our	PRON	_	_	18	mod:poss	_	AlignBegin=41734|AlignEnd=42020
 17	olden	olden	ADJ	_	_	18	mod	_	AlignBegin=42020|AlignEnd=42305
-18	days	days	NOUN	_	_	23	mod:periph	_	AlignBegin=42305|AlignEnd=42591
+18	days	days	NOUN	_	_	19	mod	_	AlignBegin=42305|AlignEnd=42591
 19	people	people	NOUN	_	_	23	dislocated	_	AlignBegin=42591|AlignEnd=42877
 20	<	<	PUNCT	_	_	19	punct	_	AlignBegin=42877|AlignEnd=42877
 21	deir	deir	PRON	_	_	22	mod:poss	_	AlignBegin=42877|AlignEnd=43162
 22	marriage	marriage	NOUN	_	_	23	subj	_	AlignBegin=43162|AlignEnd=43448
-23	take	take	VERB	_	_	15	mod:relcl	_	AlignBegin=43448|AlignEnd=43734
+23	take	take	VERB	_	_	15	mod@relcl	_	AlignBegin=43448|AlignEnd=43734
 24	last	last	ADJ	_	_	23	mod	_	AlignBegin=43734|AlignEnd=44020
 25	]	]	PUNCT	_	_	10	punct	_	AlignBegin=44020|AlignEnd=44020
 26	//	//	PUNCT	_	_	7	punct	_	AlignBegin=44020|AlignEnd=44020
@@ -348,8 +348,8 @@
 13	boy	boy	NOUN	_	_	11	comp:obj	_	AlignBegin=47022|AlignEnd=47255
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=47255|AlignEnd=47255
 15	na	na	PART	_	_	7	comp:cleft	_	AlignBegin=47255|AlignEnd=47488
-16	im	im	PRON	_	_	15	comp:pred	_	AlignBegin=47488|AlignEnd=47721
-17	dey	dey	AUX	_	_	15	comp:obj	_	AlignBegin=47721|AlignEnd=47954
+16	im	im	PRON	_	_	15	comp:pred@fixed	_	AlignBegin=47488|AlignEnd=47721
+17	dey	dey	AUX	_	_	16	comp:obj	_	AlignBegin=47721|AlignEnd=47954
 18	go	go	VERB	_	_	17	comp:aux	_	AlignBegin=47954|AlignEnd=48187
 19	arrange	arrange	VERB	_	_	18	comp:obj@x	_	AlignBegin=48187|AlignEnd=48420
 20	//	//	PUNCT	_	_	7	punct	_	AlignBegin=48420|AlignEnd=48420
@@ -400,7 +400,7 @@
 # text_ortho = E don monitor...
 1	e	im	PRON	_	_	2	subj	_	AlignBegin=51440|AlignEnd=51840
 2	don	don	AUX	_	_	0	root	_	AlignBegin=51840|AlignEnd=52240
-3	monitor	monitor	VERB	_	_	2	comp:aux	_	AlignBegin=52240|AlignEnd=52640
+3	monitor	monitor	VERB	_	_	2	comp:aux@scrap	_	AlignBegin=52240|AlignEnd=52640
 4	&	&	PUNCT	_	_	2	punct	_	AlignBegin=52640|AlignEnd=52640
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=52640|AlignEnd=52640
 
@@ -420,7 +420,7 @@
 # text_ortho = Do what di...
 1	do	do	VERB	_	_	0	root	_	AlignBegin=52640|AlignEnd=52726
 2	what	what	PRON	_	_	1	comp:obj	_	AlignBegin=52726|AlignEnd=52813
-3	di	di	DET	_	_	2	unk:scrap	_	AlignBegin=52813|AlignEnd=52900
+3	di	di	DET	_	_	2	mod@scrap	_	AlignBegin=52813|AlignEnd=52900
 4	&	&	PUNCT	_	_	1	punct	_	AlignBegin=52900|AlignEnd=52900
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=52900|AlignEnd=52900
 
@@ -485,7 +485,7 @@
 20	don	don	AUX	_	_	17	parataxis:obj	_	AlignBegin=60421|AlignEnd=60598
 21	see	see	VERB	_	_	20	comp:aux	_	AlignBegin=60598|AlignEnd=60775
 22	woman	woman	NOUN	_	_	21	comp:obj	_	AlignBegin=60775|AlignEnd=60952
-23	wey	wey	SCONJ	_	_	22	mod:relcl	_	AlignBegin=60952|AlignEnd=61129
+23	wey	wey	SCONJ	_	_	22	mod@relcl	_	AlignBegin=60952|AlignEnd=61129
 24	you	you	PRON	_	_	25	subj	_	AlignBegin=61129|AlignEnd=61306
 25	wan	wan	VERB	_	_	23	comp:obj	_	AlignBegin=61306|AlignEnd=61483
 26	marry	marry	VERB	_	_	25	comp:obj@x	_	AlignBegin=61483|AlignEnd=61660
@@ -504,11 +504,11 @@
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=62928|AlignEnd=62928
 6	where	where	ADV	_	_	4	comp:obj	_	AlignBegin=62928|AlignEnd=63135
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=63135|AlignEnd=63135
-8	where	where	ADV	_	_	6	compound:redup	_	AlignBegin=63135|AlignEnd=63342
+8	where	where	ADV	_	_	6	conj:dicto	_	AlignBegin=63135|AlignEnd=63342
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=63342|AlignEnd=63342
 10	dat	dat	DET	_	_	11	det	_	AlignBegin=63342|AlignEnd=63549
 11	woman	woman	NOUN	_	_	12	subj	_	AlignBegin=63549|AlignEnd=63756
-12	come	come	VERB	_	_	8	mod:relcl	_	AlignBegin=63756|AlignEnd=63963
+12	come	come	VERB	_	_	8	comp:cleft	_	AlignBegin=63756|AlignEnd=63963
 13	from	from	ADP	_	_	12	comp:obl	_	AlignBegin=63963|AlignEnd=64170
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=64170|AlignEnd=64170
 
@@ -517,10 +517,10 @@
 # text = whether na mamy wata sef >+ you no know //
 # text_en = Maybe she's even a mermaid, you don't know.
 # text_ortho = Whether na mamy wata sef you no know.
-1	whether	whether	SCONJ	_	_	2	discourse	_	AlignBegin=64170|AlignEnd=64358
+1	whether	whether	SCONJ	_	_	2	mod:periph	_	AlignBegin=64170|AlignEnd=64358
 2	na	na	PART	_	_	0	root	_	AlignBegin=64358|AlignEnd=64547
-3	mamy	mamy	NOUN	_	_	4	mod	_	AlignBegin=64547|AlignEnd=64736
-4	wata	wata	X	_	_	2	comp:pred	_	AlignBegin=64736|AlignEnd=64925
+3	mamy	mamy	NOUN	_	_	2	comp:pred	_	AlignBegin=64547|AlignEnd=64736
+4	wata	wata	PRON	_	_	3	flat	_	AlignBegin=64736|AlignEnd=64925
 5	sef	sef	PART	_	_	4	mod:emph	_	AlignBegin=64925|AlignEnd=65113
 6	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=65113|AlignEnd=65113
 7	you	you	PRON	_	_	9	subj	_	AlignBegin=65113|AlignEnd=65302
@@ -563,7 +563,7 @@
 # text_en = So all these things are what they check out.
 # text_ortho = So all dese things, na wetin de dey check at.
 1	so	so	ADV	_	_	6	discourse	_	AlignBegin=71460|AlignEnd=71622
-2	all	all	DET	_	_	4	mod	_	AlignBegin=71622|AlignEnd=71784
+2	all	all	ADV	_	_	4	mod	_	AlignBegin=71622|AlignEnd=71784
 3	dese	dese	DET	_	_	4	det	_	AlignBegin=71784|AlignEnd=71946
 4	things	things	NOUN	_	_	6	dislocated	_	AlignBegin=71946|AlignEnd=72108
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=72108|AlignEnd=72108
@@ -582,10 +582,10 @@
 # text_en = That's what makes the true marriage.
 # text_ortho = Naim make di true marriage,
 1	naim	naim	ADV	_	_	2	mod:periph	_	AlignBegin=73380|AlignEnd=73716
-2	make	make	VERB	_	_	0	root	_	AlignBegin=73716|AlignEnd=74052
+2	make	make	AUX	_	_	0	root	_	AlignBegin=73716|AlignEnd=74052
 3	di	di	DET	_	_	5	det	_	AlignBegin=74052|AlignEnd=74388
 4	true	true	ADJ	_	_	5	mod	_	AlignBegin=74388|AlignEnd=74724
-5	marriage	marriage	NOUN	_	_	2	comp:pred	_	AlignBegin=74724|AlignEnd=75060
+5	marriage	marriage	NOUN	_	_	2	subj	_	AlignBegin=74724|AlignEnd=75060
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=75060|AlignEnd=75060
 
 # sent_id = BEN_37_French-President-Marriage_DG__32
@@ -598,13 +598,13 @@
 3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=75634|AlignEnd=75634
 4	di	di	DET	_	_	5	det	_	AlignBegin=75634|AlignEnd=75921
 5	things	things	NOUN	_	_	2	comp:pred	_	AlignBegin=75921|AlignEnd=76208
-6	wey	wey	SCONJ	_	_	5	mod:relcl	_	AlignBegin=76208|AlignEnd=76495
+6	wey	wey	SCONJ	_	_	5	mod@relcl	_	AlignBegin=76208|AlignEnd=76495
 7	dey	dey	VERB	_	_	6	comp:obj	_	AlignBegin=76495|AlignEnd=76782
 8	outside	outside	ADP	_	_	7	comp:pred	_	AlignBegin=76782|AlignEnd=77070
 9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=77070|AlignEnd=77070
 10	di	di	DET	_	_	11	det	_	AlignBegin=77070|AlignEnd=77357
 11	figure	figure	NOUN	_	_	5	conj:coord	_	AlignBegin=77357|AlignEnd=77644
-12	wey	wey	SCONJ	_	_	11	mod:relcl	_	AlignBegin=77644|AlignEnd=77931
+12	wey	wey	SCONJ	_	_	11	mod@relcl	_	AlignBegin=77644|AlignEnd=77931
 13	you	you	PRON	_	_	14	subj	_	AlignBegin=77931|AlignEnd=78218
 14	dey	dey	AUX	_	_	12	comp:obj	_	AlignBegin=78218|AlignEnd=78505
 15	see	see	VERB	_	_	14	comp:aux	_	AlignBegin=78505|AlignEnd=78792
@@ -620,7 +620,7 @@
 1	no	no	PART	_	_	2	mod	_	AlignBegin=79420|AlignEnd=79664
 2	be	be	VERB	_	_	0	root	_	AlignBegin=79664|AlignEnd=79908
 3	wetin	wetin	PRON	_	_	2	comp:pred	_	AlignBegin=79908|AlignEnd=80152
-4	dey	dey	VERB	_	_	3	mod:relcl	_	AlignBegin=80152|AlignEnd=80396
+4	dey	dey	VERB	_	_	3	mod@relcl	_	AlignBegin=80152|AlignEnd=80396
 5	outside	outside	ADP	_	_	4	comp:pred	_	AlignBegin=80396|AlignEnd=80640
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=80640|AlignEnd=80640
 
@@ -629,19 +629,19 @@
 # text = all dose things dey eh || e dey eh [ wetin de dey call am so ?//] || e no dey important //
 # text_en = All those things are eheh it is eh what they call it that it is not important.
 # text_ortho = All dose things dey eh, e dey eh wetin de dey call am so, e no dey important.
-1	all	all	DET	_	_	3	mod	_	AlignBegin=80840|AlignEnd=81105
+1	all	all	ADV	_	_	3	mod	_	AlignBegin=80840|AlignEnd=81105
 2	dose	dose	DET	_	_	3	det	_	AlignBegin=81105|AlignEnd=81370
 3	things	things	NOUN	_	_	4	subj	_	AlignBegin=81370|AlignEnd=81635
 4	dey	dey	VERB	_	_	0	root	_	AlignBegin=81635|AlignEnd=81900
 5	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=81900|AlignEnd=82165
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=82165|AlignEnd=82165
-7	e	im	PRON	_	_	8	subj:expl	_	AlignBegin=82165|AlignEnd=82430
+7	e	im	PRON	_	_	8	subj	_	AlignBegin=82165|AlignEnd=82430
 8	dey	dey	VERB	_	_	4	conj:dicto	_	AlignBegin=82430|AlignEnd=82695
 9	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=82695|AlignEnd=82960
 10	[	[	PUNCT	_	_	11	punct	_	AlignBegin=82960|AlignEnd=82960
-11	wetin	wetin	PRON	_	_	8	parataxis:obj	_	AlignBegin=82960|AlignEnd=83225
+11	wetin	wetin	PRON	_	_	8	comp:pred	_	AlignBegin=82960|AlignEnd=83225
 12	de	dem	PRON	_	_	13	subj	_	AlignBegin=83225|AlignEnd=83490
-13	dey	dey	AUX	_	_	11	comp:cleft	_	AlignBegin=83490|AlignEnd=83755
+13	dey	dey	AUX	_	_	11	mod@relcl	_	AlignBegin=83490|AlignEnd=83755
 14	call	call	VERB	_	_	13	comp:aux	_	AlignBegin=83755|AlignEnd=84020
 15	am	am	PRON	_	_	14	comp:obj	_	AlignBegin=84020|AlignEnd=84285
 16	so	so	ADV	_	_	14	mod	_	AlignBegin=84285|AlignEnd=84550
@@ -659,24 +659,24 @@
 # text_en = The most important thing is what is in the mind. What is in the heart, which cloths do covers.
 # text_ortho = Di most important ting na wetin dey di mind, wetin dey di heart, where be sey cloth dey cover.
 1	di	di	DET	_	_	4	det	_	AlignBegin=86040|AlignEnd=86275
-2	most	most	ADJ	_	_	3	mod	_	AlignBegin=86275|AlignEnd=86510
+2	most	most	ADJ	_	_	4	mod	_	AlignBegin=86275|AlignEnd=86510
 3	important	important	ADJ	_	_	4	mod	_	AlignBegin=86510|AlignEnd=86745
 4	ting	ting	NOUN	_	_	5	subj	_	AlignBegin=86745|AlignEnd=86981
 5	na	na	PART	_	_	0	root	_	AlignBegin=86981|AlignEnd=87216
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=87216|AlignEnd=87216
 7	wetin	wetin	PRON	_	_	5	comp:pred	_	AlignBegin=87216|AlignEnd=87451
-8	dey	dey	VERB	_	_	7	mod:relcl	_	AlignBegin=87451|AlignEnd=87686
+8	dey	dey	VERB	_	_	7	mod@relcl	_	AlignBegin=87451|AlignEnd=87686
 9	di	di	DET	_	_	10	det	_	AlignBegin=87686|AlignEnd=87922
 10	mind	mind	NOUN	_	_	8	comp:pred	_	AlignBegin=87922|AlignEnd=88157
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=88157|AlignEnd=88157
 12	wetin	wetin	PRON	_	_	7	conj:coord	_	AlignBegin=88157|AlignEnd=88392
-13	dey	dey	VERB	_	_	12	mod:relcl	_	AlignBegin=88392|AlignEnd=88627
+13	dey	dey	VERB	_	_	12	mod@relcl	_	AlignBegin=88392|AlignEnd=88627
 14	di	di	DET	_	_	15	det	_	AlignBegin=88627|AlignEnd=88863
 15	heart	heart	NOUN	_	_	13	comp:pred	_	AlignBegin=88863|AlignEnd=89098
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=89098|AlignEnd=89098
 17	where	where	ADV	_	_	12	conj:coord	_	AlignBegin=89098|AlignEnd=89333
-18	be	be	VERB	_	_	17	mod:relcl	_	AlignBegin=89333|AlignEnd=89568
-19	sey	sey	SCONJ	_	_	18	comp:pred	_	AlignBegin=89568|AlignEnd=89804
+18	be	be	VERB	_	_	17	mod@relcl	_	AlignBegin=89333|AlignEnd=89568
+19	sey	sey	SCONJ	_	_	18	comp:pred@fixed	_	AlignBegin=89568|AlignEnd=89804
 20	cloth	cloth	NOUN	_	_	21	subj	_	AlignBegin=89804|AlignEnd=90039
 21	dey	dey	AUX	_	_	19	comp:obj	_	AlignBegin=90039|AlignEnd=90274
 22	cover	cover	VERB	_	_	21	comp:aux	_	AlignBegin=90274|AlignEnd=90510
@@ -712,12 +712,12 @@
 # text = and dat is why it's covered //
 # text_en = And that is why it's covered.
 # text_ortho = And dat is why it's covered.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=93480|AlignEnd=93676|Lang=en
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=93480|AlignEnd=93676|Lang=en
 2	dat	dat	PRON	_	_	3	subj	_	AlignBegin=93676|AlignEnd=93873|Lang=en
 3	is	is	VERB	_	_	0	root	_	AlignBegin=93873|AlignEnd=94070|Lang=en
 4	why	why	ADV	_	_	3	comp:pred	_	AlignBegin=94070|AlignEnd=94266|Lang=en
-5	it's	it's	PRON	_	_	4	mod:relcl	_	AlignBegin=94266|AlignEnd=94463|Lang=en
-6	covered	covered	VERB	_	_	5	comp:aux	_	AlignBegin=94463|AlignEnd=94660|Lang=en
+5	it's	it's	PRON	_	_	4	mod:poss	_	AlignBegin=94266|AlignEnd=94463|Lang=en
+6	covered	covered	VERB	_	_	5	comp:pred	_	AlignBegin=94463|AlignEnd=94660|Lang=en
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=94660|AlignEnd=94660
 
 # sent_id = BEN_37_French-President-Marriage_DG__39
@@ -727,7 +727,7 @@
 # text_ortho = Any good thing na im de dey cover.
 1	any	any	DET	_	_	3	det	_	AlignBegin=94660|AlignEnd=94872
 2	good	good	ADJ	_	_	3	mod	_	AlignBegin=94872|AlignEnd=95085
-3	thing	thing	NOUN	_	_	4	dislocated	_	AlignBegin=95085|AlignEnd=95297
+3	thing	thing	NOUN	_	_	4	subj	_	AlignBegin=95085|AlignEnd=95297
 4	na	na	PART	_	_	0	root	_	AlignBegin=95297|AlignEnd=95510
 5	im	im	PRON	_	_	4	comp:pred	_	AlignBegin=95510|AlignEnd=95722
 6	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=95722|AlignEnd=95722
@@ -765,10 +765,10 @@
 # text_ortho = Before you go..., ai!
 1	before	before	ADP	_	_	6	mod:periph	_	AlignBegin=98660|AlignEnd=98905
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=98905|AlignEnd=99150
-3	go	go	AUX	_	_	1	comp:obj	_	AlignBegin=99150|AlignEnd=99395
-4	&	&	PUNCT	_	_	6	punct	_	AlignBegin=99395|AlignEnd=99395
+3	go	go	VERB	_	_	1	comp:obj	_	AlignBegin=99150|AlignEnd=99395
+4	&	&	PUNCT	_	_	1	punct	_	AlignBegin=99395|AlignEnd=99395
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=99395|AlignEnd=99395
-6	ai	ai	PRON	_	_	0	root	_	AlignBegin=99395|AlignEnd=99640
+6	ai	ai	INTJ	_	_	0	root	_	AlignBegin=99395|AlignEnd=99640
 7	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=99640|AlignEnd=99640
 
 # sent_id = BEN_37_French-President-Marriage_DG__43
@@ -778,7 +778,7 @@
 # text_ortho = Check am now!
 1	check	check	VERB	_	_	0	root	_	AlignBegin=99640|AlignEnd=99926
 2	am	am	PRON	_	_	1	comp:obj	_	AlignBegin=99926|AlignEnd=100213
-3	now	now	ADV	_	_	2	mod:emph	_	AlignBegin=100213|AlignEnd=100500
+3	now	now	ADV	_	_	1	mod	_	AlignBegin=100213|AlignEnd=100500
 4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=100500|AlignEnd=100500
 
 # sent_id = BEN_37_French-President-Marriage_DG__44
@@ -810,7 +810,7 @@
 5	see	see	VERB	_	_	4	comp:aux	_	AlignBegin=101314|AlignEnd=101586
 6	where	where	ADV	_	_	5	comp:obj	_	AlignBegin=101586|AlignEnd=101857
 7	gold	gold	NOUN	_	_	8	subj	_	AlignBegin=101857|AlignEnd=102129
-8	dey	dey	VERB	_	_	6	mod:relcl	_	AlignBegin=102129|AlignEnd=102401
+8	dey	dey	VERB	_	_	6	mod@relcl	_	AlignBegin=102129|AlignEnd=102401
 9	aha	aha	INTJ	_	_	8	discourse	_	AlignBegin=102401|AlignEnd=102672
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=102672|AlignEnd=102672
 11	before	before	ADP	_	_	2	conj:dicto	_	AlignBegin=102672|AlignEnd=102944
@@ -819,7 +819,7 @@
 14	see	see	VERB	_	_	13	comp:aux	_	AlignBegin=103487|AlignEnd=103758
 15	where	where	ADV	_	_	14	comp:obj	_	AlignBegin=103758|AlignEnd=104030
 16	gold	gold	NOUN	_	_	17	subj	_	AlignBegin=104030|AlignEnd=104302
-17	dey	dey	VERB	_	_	15	mod:relcl	_	AlignBegin=104302|AlignEnd=104573
+17	dey	dey	VERB	_	_	15	mod@relcl	_	AlignBegin=104302|AlignEnd=104573
 18	}	}	PUNCT	_	_	2	punct	_	AlignBegin=104573|AlignEnd=104573
 19	<	<	PUNCT	_	_	2	punct	_	AlignBegin=104573|AlignEnd=104573
 20	de	dem	PRON	_	_	21	subj	_	AlignBegin=104573|AlignEnd=104845
@@ -841,11 +841,11 @@
 # text = abi all dose money wey e dey sit for bank < you dey see sey [ de dey carry dem dey put for everywhere ] ?//
 # text_en = Or all that money which sits at the bank, do you see them carrying it, putting it anywhere?
 # text_ortho = Abi all dose money wey e dey sit for bank, you dey see sey de dey carry dem dey put for everywhere?
-1	abi	abi	CCONJ	_	_	13	discourse	_	AlignBegin=107520|AlignEnd=107703
-2	all	all	DET	_	_	4	mod	_	AlignBegin=107703|AlignEnd=107887
+1	abi	abi	CCONJ	_	_	13	cc	_	AlignBegin=107520|AlignEnd=107703
+2	all	all	ADV	_	_	4	mod	_	AlignBegin=107703|AlignEnd=107887
 3	dose	dose	DET	_	_	4	det	_	AlignBegin=107887|AlignEnd=108070
 4	money	money	NOUN	_	_	13	dislocated	_	AlignBegin=108070|AlignEnd=108254
-5	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=108254|AlignEnd=108438
+5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=108254|AlignEnd=108438
 6	e	im	PRON	_	_	7	subj	_	AlignBegin=108438|AlignEnd=108621
 7	dey	dey	AUX	_	_	5	comp:obj	_	AlignBegin=108621|AlignEnd=108805
 8	sit	sit	VERB	_	_	7	comp:aux	_	AlignBegin=108805|AlignEnd=108989
@@ -861,7 +861,7 @@
 18	dey	dey	AUX	_	_	15	comp:obj	_	AlignBegin=110274|AlignEnd=110458
 19	carry	carry	VERB	_	_	18	comp:aux	_	AlignBegin=110458|AlignEnd=110641
 20	dem	dem	PRON	_	_	19	comp:obj	_	AlignBegin=110641|AlignEnd=110825
-21	dey	dey	AUX	_	_	19	mod	_	AlignBegin=110825|AlignEnd=111009
+21	dey	dey	AUX	_	_	19	compound:svc	_	AlignBegin=110825|AlignEnd=111009
 22	put	put	VERB	_	_	21	comp:aux	_	AlignBegin=111009|AlignEnd=111192
 23	for	for	ADP	_	_	22	comp:obl	_	AlignBegin=111192|AlignEnd=111376
 24	everywhere	everywhere	ADV	_	_	23	comp:obj	_	AlignBegin=111376|AlignEnd=111560
@@ -876,20 +876,20 @@
 1	de	dem	PRON	_	_	2	subj	_	AlignBegin=111960|AlignEnd=112200
 2	dey	dey	AUX	_	_	0	root	_	AlignBegin=112200|AlignEnd=112441
 3	carry	carry	VERB	_	_	2	comp:aux	_	AlignBegin=112441|AlignEnd=112681
-4	dey	dey	AUX	_	_	3	mod	_	AlignBegin=112681|AlignEnd=112922
+4	dey	dey	AUX	_	_	3	compound:svc	_	AlignBegin=112681|AlignEnd=112922
 5	cover	cover	VERB	_	_	4	comp:aux	_	AlignBegin=112922|AlignEnd=113162
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=113162|AlignEnd=113162
 7	where	where	ADV	_	_	5	comp:obj	_	AlignBegin=113162|AlignEnd=113403
 8	de	dem	PRON	_	_	9	subj	_	AlignBegin=113403|AlignEnd=113644
-9	d~	X	X	_	_	7	mod:relcl	_	AlignBegin=113644|AlignEnd=113884
+9	d~	X	AUX	_	_	7	mod@relcl	_	AlignBegin=113644|AlignEnd=113884
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=113884|AlignEnd=113884
 11	where	where	ADV	_	_	7	conj:dicto	_	AlignBegin=113884|AlignEnd=114125
 12	de	dem	PRON	_	_	13	subj	_	AlignBegin=114125|AlignEnd=114365
-13	dey	dey	AUX	_	_	11	mod:relcl	_	AlignBegin=114365|AlignEnd=114606
+13	dey	dey	AUX	_	_	11	mod@relcl	_	AlignBegin=114365|AlignEnd=114606
 14	}	}	PUNCT	_	_	7	punct	_	AlignBegin=114606|AlignEnd=114606
 15	save	save	VERB	_	_	13	comp:aux	_	AlignBegin=114606|AlignEnd=114847
 16	them	them	PRON	_	_	15	comp:obj	_	AlignBegin=114847|AlignEnd=115087
-17	because	because	SCONJ	_	_	15	mod	_	AlignBegin=115087|AlignEnd=115328|Lang=en
+17	because	because	SCONJ	_	_	5	mod	_	AlignBegin=115087|AlignEnd=115328|Lang=en
 18	they	they	PRON	_	_	19	subj	_	AlignBegin=115328|AlignEnd=115568|Lang=en
 19	are	are	VERB	_	_	17	comp:obj	_	AlignBegin=115568|AlignEnd=115809|Lang=en
 20	important	important	ADJ	_	_	19	comp:pred	_	AlignBegin=115809|AlignEnd=116050|Lang=en
@@ -932,14 +932,14 @@
 # text = all dose one you dey see so na & //
 # text_en = All those ones you are seeing so is... what did they say?
 # text_ortho = All dose one you dey see so na...
-1	all	all	DET	_	_	3	mod	_	AlignBegin=122220|AlignEnd=122435
+1	all	all	ADV	_	_	3	mod	_	AlignBegin=122220|AlignEnd=122435
 2	dose	dose	DET	_	_	3	det	_	AlignBegin=122435|AlignEnd=122650
-3	one	one	NOUN	_	_	8	subj	_	AlignBegin=122650|AlignEnd=122865
+3	one	one	NOUN	_	_	8	dislocated	_	AlignBegin=122650|AlignEnd=122865
 4	you	you	PRON	_	_	5	subj	_	AlignBegin=122865|AlignEnd=123080
-5	dey	dey	AUX	_	_	3	mod:relcl	_	AlignBegin=123080|AlignEnd=123295
+5	dey	dey	AUX	_	_	3	mod@relcl	_	AlignBegin=123080|AlignEnd=123295
 6	see	see	VERB	_	_	5	comp:aux	_	AlignBegin=123295|AlignEnd=123510
 7	so	so	ADV	_	_	6	mod	_	AlignBegin=123510|AlignEnd=123725
-8	na	na	PART	_	_	0	root:scrap	_	AlignBegin=123725|AlignEnd=123940
+8	na	na	PART	_	_	0	root@scrap	_	AlignBegin=123725|AlignEnd=123940
 9	&	&	PUNCT	_	_	8	punct	_	AlignBegin=123940|AlignEnd=123940
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=123940|AlignEnd=123940
 
@@ -964,21 +964,21 @@
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=125278|AlignEnd=125278
 5	leave	leave	VERB	_	_	2	parataxis:obj	_	AlignBegin=125278|AlignEnd=125573
 6	moto	moto	NOUN	_	_	5	comp:obj	_	AlignBegin=125573|AlignEnd=125867
-7	wey	wey	SCONJ	_	_	6	mod:relcl	_	AlignBegin=125867|AlignEnd=126162
+7	wey	wey	SCONJ	_	_	6	mod@relcl	_	AlignBegin=125867|AlignEnd=126162
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=126162|AlignEnd=126162
 9	leave	leave	VERB	_	_	5	conj:dicto	_	AlignBegin=126162|AlignEnd=126456
 10	wetin	wetin	PRON	_	_	9	comp:obj	_	AlignBegin=126456|AlignEnd=126751
 11	de	dem	PRON	_	_	12	subj	_	AlignBegin=126751|AlignEnd=127045
-12	write	write	VERB	_	_	10	mod:relcl	_	AlignBegin=127045|AlignEnd=127340
+12	write	write	VERB	_	_	10	mod@relcl	_	AlignBegin=127045|AlignEnd=127340
 13	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=127340|AlignEnd=127634
 14	moto	moto	NOUN	_	_	15	compound	_	AlignBegin=127634|AlignEnd=127929
 15	body	body	NOUN	_	_	13	comp:obj	_	AlignBegin=127929|AlignEnd=128223
 16	}	}	PUNCT	_	_	5	punct	_	AlignBegin=128223|AlignEnd=128223
-17	make	make	AUX	_	_	2	mod	_	AlignBegin=128223|AlignEnd=128518
+17	make	make	AUX	_	_	12	mod	_	AlignBegin=128223|AlignEnd=128518
 18	you	you	PRON	_	_	19	subj	_	AlignBegin=128518|AlignEnd=128812
 19	enter	enter	VERB	_	_	17	comp:aux	_	AlignBegin=128812|AlignEnd=129107
 20	o	o	PART	_	_	19	mod:emph	_	AlignBegin=129107|AlignEnd=129401
-21	because	because	SCONJ	_	_	19	mod	_	AlignBegin=129401|AlignEnd=129696
+21	because	because	SCONJ	_	_	2	mod	_	AlignBegin=129401|AlignEnd=129696
 22	if	if	SCONJ	_	_	39	mod:periph	_	AlignBegin=129696|AlignEnd=129990
 23	you	you	PRON	_	_	24	subj	_	AlignBegin=129990|AlignEnd=130285
 24	check	check	VERB	_	_	22	comp:obj	_	AlignBegin=130285|AlignEnd=130579
@@ -991,9 +991,9 @@
 31	wetin	wetin	PRON	_	_	27	conj:dicto	_	AlignBegin=131757|AlignEnd=132051
 32	dem	dem	PRON	_	_	34	subj	_	AlignBegin=132051|AlignEnd=132346
 33	}	}	PUNCT	_	_	27	punct	_	AlignBegin=132346|AlignEnd=132346
-34	write	write	VERB	_	_	31	mod:relcl	_	AlignBegin=132346|AlignEnd=132640
+34	write	write	VERB	_	_	31	mod@relcl	_	AlignBegin=132346|AlignEnd=132640
 35	put	put	VERB	_	_	34	compound:svc	_	AlignBegin=132640|AlignEnd=132935
-36	ehn	ehn	INTJ	_	_	22	discourse	_	AlignBegin=132935|AlignEnd=133229
+36	ehn	ehn	INTJ	_	_	27	discourse	_	AlignBegin=132935|AlignEnd=133229
 37	<	<	PUNCT	_	_	22	punct	_	AlignBegin=133229|AlignEnd=133229
 38	e	im	PRON	_	_	39	subj	_	AlignBegin=133229|AlignEnd=133524
 39	fit	fit	AUX	_	_	21	comp:obj	_	AlignBegin=133524|AlignEnd=133818
@@ -1002,9 +1002,9 @@
 42	go	go	VERB	_	_	40	compound:svc	_	AlignBegin=134407|AlignEnd=134702
 43	anywhere	anywhere	ADV	_	_	42	comp:obj	_	AlignBegin=134702|AlignEnd=134996
 44	o	o	PART	_	_	43	mod:emph	_	AlignBegin=134996|AlignEnd=135291
-45	haha	haha	INTJ	_	_	43	discourse	_	AlignBegin=135291|AlignEnd=135585
-46	haha	haha	INTJ	_	_	39	discourse	_	AlignBegin=135585|AlignEnd=135880
-47	//]	//]	PUNCT	_	_	39	punct	_	AlignBegin=135880|AlignEnd=135880
+45	haha	haha	INTJ	_	_	42	discourse	_	AlignBegin=135291|AlignEnd=135585
+46	haha	haha	INTJ	_	_	40	discourse	_	AlignBegin=135585|AlignEnd=135880
+47	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=135880|AlignEnd=135880
 48	//	//	PUNCT	_	_	2	punct	_	AlignBegin=135880|AlignEnd=135880
 
 # sent_id = BEN_37_French-President-Marriage_DG__55
@@ -1019,7 +1019,7 @@
 5	people	people	NOUN	_	_	7	dislocated	_	AlignBegin=132163|AlignEnd=132574
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=132574|AlignEnd=132574
 7	na	na	PART	_	_	0	root	_	AlignBegin=132574|AlignEnd=132985
-8	una	una	PRON	_	_	9	subj	_	AlignBegin=132985|AlignEnd=133396
+8	una	una	PRON	_	_	9	comp:obj	_	AlignBegin=132985|AlignEnd=133396
 9	turn	turn	VERB	_	_	7	comp:cleft	_	AlignBegin=133396|AlignEnd=133807
 10	to	to	ADP	_	_	9	comp:obl@x	_	AlignBegin=133807|AlignEnd=134218
 11	call	call	VERB	_	_	10	comp:obj	_	AlignBegin=134218|AlignEnd=134629
@@ -1037,7 +1037,7 @@
 4	us	us	PRON	_	_	3	comp:obj	_	AlignBegin=135553|AlignEnd=135724
 5	how	how	ADV	_	_	3	comp:obj	_	AlignBegin=135724|AlignEnd=135895
 6	una	una	PRON	_	_	7	subj	_	AlignBegin=135895|AlignEnd=136066
-7	see	see	VERB	_	_	5	mod:relcl	_	AlignBegin=136066|AlignEnd=136237
+7	see	see	VERB	_	_	5	mod@relcl	_	AlignBegin=136066|AlignEnd=136237
 8	di	di	DET	_	_	9	det	_	AlignBegin=136237|AlignEnd=136408
 9	issue	issue	NOUN	_	_	7	comp:obj	_	AlignBegin=136408|AlignEnd=136580
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=136580|AlignEnd=136580
@@ -1050,7 +1050,7 @@
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=136580|AlignEnd=136580
 2	na	na	PART	_	_	0	root	_	AlignBegin=136580|AlignEnd=136778
 3	very	very	ADV	_	_	4	mod	_	AlignBegin=136778|AlignEnd=136977
-4	sim~	X	X	_	_	2	comp:pred	_	AlignBegin=136977|AlignEnd=137175
+4	sim~	X	ADJ	_	_	2	comp:pred	_	AlignBegin=136977|AlignEnd=137175
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=137175|AlignEnd=137175
 6	na	na	PART	_	_	2	conj:dicto	_	AlignBegin=137175|AlignEnd=137374
 7	very	very	ADV	_	_	8	mod	_	AlignBegin=137374|AlignEnd=137572
@@ -1074,24 +1074,24 @@
 # text_ortho = Eh man wey marry sixty years old plus, and e na thirty nine years, after some time ah, you no sure sey problem go dey di mar-...
 1	eh	eh	INTJ	_	_	24	discourse	_	AlignBegin=138380|AlignEnd=138634
 2	man	man	NOUN	_	_	24	dislocated	_	AlignBegin=138634|AlignEnd=138888
-3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=138888|AlignEnd=139142
+3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=138888|AlignEnd=139142
 4	marry	marry	VERB	_	_	3	comp:obj	_	AlignBegin=139142|AlignEnd=139396
 5	sixty	sixty	NUM	_	_	6	det:num	_	AlignBegin=139396|AlignEnd=139650
-6	years	years	NOUN	_	_	7	mod	_	AlignBegin=139650|AlignEnd=139904
-7	old	old	ADJ	_	_	4	comp:pred	_	AlignBegin=139904|AlignEnd=140158
-8	plus	plus	CCONJ	_	_	4	cc	_	AlignBegin=140158|AlignEnd=140412
+6	years	years	NOUN	_	_	4	mod	_	AlignBegin=139650|AlignEnd=139904
+7	old	old	ADJ	_	_	4	comp:obj	_	AlignBegin=139904|AlignEnd=140158
+8	plus	plus	CCONJ	_	_	7	cc	_	AlignBegin=140158|AlignEnd=140412
 9	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=140412|AlignEnd=140412
 10	and	and	CCONJ	_	_	12	cc	_	AlignBegin=140412|AlignEnd=140666
-11	e	im	PRON	_	_	12	subj:expl	_	AlignBegin=140666|AlignEnd=140920
-12	na	na	PART	_	_	4	conj:coord	_	AlignBegin=140920|AlignEnd=141174
-13	thirty	thirty	NUM	_	_	19	det:num	_	AlignBegin=141174|AlignEnd=141428
-14	nine	nine	NUM	_	_	13	flat	_	AlignBegin=141428|AlignEnd=141682
+11	e	im	PRON	_	_	12	subj	_	AlignBegin=140666|AlignEnd=140920
+12	na	na	PART	_	_	2	conj:coord	_	AlignBegin=140920|AlignEnd=141174
+13	thirty	thirty	NUM	_	_	14	compound	_	AlignBegin=141174|AlignEnd=141428
+14	nine	nine	NUM	_	_	15	det:num	_	AlignBegin=141428|AlignEnd=141682
 15	years	years	NOUN	_	_	12	comp:pred	_	AlignBegin=141682|AlignEnd=141937
 16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=141937|AlignEnd=141937
 17	after	after	ADP	_	_	24	mod:periph	_	AlignBegin=141937|AlignEnd=142191
 18	some	some	DET	_	_	19	det	_	AlignBegin=142191|AlignEnd=142445
 19	time	time	NOUN	_	_	17	comp:obj	_	AlignBegin=142445|AlignEnd=142699
-20	ah	ah	INTJ	_	_	19	discourse	_	AlignBegin=142699|AlignEnd=142953
+20	ah	ah	INTJ	_	_	15	discourse	_	AlignBegin=142699|AlignEnd=142953
 21	<	<	PUNCT	_	_	17	punct	_	AlignBegin=142953|AlignEnd=142953
 22	you	you	PRON	_	_	24	subj	_	AlignBegin=142953|AlignEnd=143207
 23	no	no	PART	_	_	24	mod	_	AlignBegin=143207|AlignEnd=143461
@@ -1102,9 +1102,9 @@
 28	go	go	AUX	_	_	25	comp:obj	_	AlignBegin=144223|AlignEnd=144477
 29	dey	dey	VERB	_	_	28	comp:aux	_	AlignBegin=144477|AlignEnd=144731
 30	di	di	DET	_	_	31	det	_	AlignBegin=144731|AlignEnd=144985
-31	mar~	X	X	_	_	29	comp:pred@scrap	_	AlignBegin=144985|AlignEnd=145240
-32	&	&	PUNCT	_	_	28	punct	_	AlignBegin=145240|AlignEnd=145240
-33	]	]	PUNCT	_	_	28	punct	_	AlignBegin=145240|AlignEnd=145240
+31	mar~	X	NOUN	_	_	29	comp:pred	_	AlignBegin=144985|AlignEnd=145240
+32	&	&	PUNCT	_	_	24	punct	_	AlignBegin=145240|AlignEnd=145240
+33	]	]	PUNCT	_	_	24	punct	_	AlignBegin=145240|AlignEnd=145240
 34	//	//	PUNCT	_	_	24	punct	_	AlignBegin=145240|AlignEnd=145240
 
 # sent_id = BEN_37_French-President-Marriage_DG__60
@@ -1131,7 +1131,7 @@
 # text = but if problem dey < { dat woman no go fit || dat woman no go fit } override di man { for di bo~ || for di marriage } say [ okay & ] //
 # text_en = But if there's problem, that woman will not be able to, that woman will not be able to override the man in the bo-... in the marriage and say "okay...."
 # text_ortho = But if problem dey, dat woman no go fit, dat woman no go fit override di man for di bo-... for di marriage say okay...
-1	but	but	CCONJ	_	_	10	discourse	_	AlignBegin=146880|AlignEnd=147092
+1	but	but	CCONJ	_	_	10	cc	_	AlignBegin=146880|AlignEnd=147092
 2	if	if	SCONJ	_	_	10	mod:periph	_	AlignBegin=147092|AlignEnd=147304
 3	problem	problem	NOUN	_	_	4	subj	_	AlignBegin=147304|AlignEnd=147516
 4	dey	dey	VERB	_	_	2	comp:obj	_	AlignBegin=147516|AlignEnd=147728
@@ -1153,19 +1153,19 @@
 20	di	di	DET	_	_	21	det	_	AlignBegin=150060|AlignEnd=150272
 21	man	man	NOUN	_	_	19	comp:obj	_	AlignBegin=150272|AlignEnd=150484
 22	{	{	PUNCT	_	_	23	punct	_	AlignBegin=150484|AlignEnd=150484
-23	for	for	ADP	_	_	19	comp:obl	_	AlignBegin=150484|AlignEnd=150696
+23	for	for	ADP	_	_	19	mod	_	AlignBegin=150484|AlignEnd=150696
 24	di	di	DET	_	_	25	det	_	AlignBegin=150696|AlignEnd=150908
-25	bo~	X	X	_	_	23	comp:obj	_	AlignBegin=150908|AlignEnd=151120
+25	bo~	X	NOUN	_	_	23	comp:obj	_	AlignBegin=150908|AlignEnd=151120
 26	||	||	PUNCT	_	_	27	punct	_	AlignBegin=151120|AlignEnd=151120
 27	for	for	ADP	_	_	23	conj:dicto	_	AlignBegin=151120|AlignEnd=151332
 28	di	di	DET	_	_	29	det	_	AlignBegin=151332|AlignEnd=151544
 29	marriage	marriage	NOUN	_	_	27	comp:obj	_	AlignBegin=151544|AlignEnd=151756
 30	}	}	PUNCT	_	_	23	punct	_	AlignBegin=151756|AlignEnd=151756
-31	say	say	VERB	_	_	23	compound:svc	_	AlignBegin=151756|AlignEnd=151968
-32	[	[	PUNCT	_	_	33	punct	_	AlignBegin=151968|AlignEnd=151968
+31	say	say	VERB	_	_	19	parataxis:discourse	_	AlignBegin=151756|AlignEnd=151968
+32	[	[	PUNCT	_	_	16	punct	_	AlignBegin=151968|AlignEnd=151968
 33	okay	okay	INTJ	_	_	31	parataxis:obj	_	AlignBegin=151968|AlignEnd=152180
-34	&	&	PUNCT	_	_	33	punct	_	AlignBegin=152180|AlignEnd=152180
-35	]	]	PUNCT	_	_	33	punct	_	AlignBegin=152180|AlignEnd=152180
+34	&	&	PUNCT	_	_	16	punct	_	AlignBegin=152180|AlignEnd=152180
+35	]	]	PUNCT	_	_	16	punct	_	AlignBegin=152180|AlignEnd=152180
 36	//	//	PUNCT	_	_	10	punct	_	AlignBegin=152180|AlignEnd=152180
 
 # sent_id = BEN_37_French-President-Marriage_DG__62
@@ -1176,7 +1176,7 @@
 1	di	di	DET	_	_	3	det	_	AlignBegin=151660|AlignEnd=152131
 2	only	only	ADJ	_	_	3	mod	_	AlignBegin=152131|AlignEnd=152602
 3	problem	problem	NOUN	_	_	19	dislocated	_	AlignBegin=152602|AlignEnd=153074
-4	wen	wen	SCONJ	_	_	3	mod:relcl	_	AlignBegin=153074|AlignEnd=153545
+4	wen	wen	SCONJ	_	_	3	mod@relcl	_	AlignBegin=153074|AlignEnd=153545
 5	I	I	PRON	_	_	6	subj	_	AlignBegin=153545|AlignEnd=154016
 6	see	see	VERB	_	_	4	comp:obj	_	AlignBegin=154016|AlignEnd=154488
 7	sey	sey	SCONJ	_	_	6	comp:obj	_	AlignBegin=154488|AlignEnd=154959
@@ -1188,10 +1188,10 @@
 13	marriage	marriage	NOUN	_	_	11	comp:obj	_	AlignBegin=156844|AlignEnd=157316
 14	]	]	PUNCT	_	_	10	punct	_	AlignBegin=157316|AlignEnd=157316
 15	<	<	PUNCT	_	_	3	punct	_	AlignBegin=157316|AlignEnd=157316
-16	one	one	NUM	_	_	19	dislocated	_	AlignBegin=157316|AlignEnd=157787
-17	<	<	PUNCT	_	_	16	punct	_	AlignBegin=157787|AlignEnd=157787
+16	one	one	NUM	_	_	19	det	_	AlignBegin=157316|AlignEnd=157787
+17	<	<	PUNCT	_	_	3	punct	_	AlignBegin=157787|AlignEnd=157787
 18	di	di	DET	_	_	19	det	_	AlignBegin=157787|AlignEnd=158258
-19	man	man	NOUN	_	_	0	root:scrap	_	AlignBegin=158258|AlignEnd=158730
+19	man	man	NOUN	_	_	0	root@scrap	_	AlignBegin=158258|AlignEnd=158730
 20	&	&	PUNCT	_	_	19	punct	_	AlignBegin=158730|AlignEnd=158730
 21	//	//	PUNCT	_	_	19	punct	_	AlignBegin=158730|AlignEnd=158730
 
@@ -1235,9 +1235,9 @@
 # text_en = Ma...
 # text_ortho = M-... ma-...
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=158730|AlignEnd=158730
-2	m~	X	X	_	_	0	root:scrap	_	AlignBegin=158730|AlignEnd=159380
+2	m~	X	X	_	_	0	root@scrap	_	AlignBegin=158730|AlignEnd=159380
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=159380|AlignEnd=159380
-4	ma~	X	X	_	_	2	conj:dicto	_	AlignBegin=159380|AlignEnd=160030
+4	ma~	X	PART	_	_	2	conj:dicto	_	AlignBegin=159380|AlignEnd=160030
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=160030|AlignEnd=160030
 6	&	&	PUNCT	_	_	2	punct	_	AlignBegin=160030|AlignEnd=160030
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=160030|AlignEnd=160030
@@ -1255,9 +1255,9 @@
 # text = apart from dat < & //
 # text_en = The only problem, which I see that it is in the marriage, one, the man, ehn, ma- No, apart from that, that one is not a problem. One of the only problem that is there (The only problem there ), is that the man, eh the man, is that, he won't have children.
 # text_ortho = Apart from dat...
-1	apart	apart	ADV	_	_	0	root:scrap	_	AlignBegin=160440|AlignEnd=160673
-2	from	from	ADP	_	_	1	comp:obj	_	AlignBegin=160673|AlignEnd=160906
-3	dat	dat	PRON	_	_	1	comp:obj	_	AlignBegin=160906|AlignEnd=161140
+1	apart	apart	ADV	_	_	0	root@scrap	_	AlignBegin=160440|AlignEnd=160673
+2	from	from	ADP	_	_	1	unk@fixed	_	AlignBegin=160673|AlignEnd=160906
+3	dat	dat	PRON	_	_	2	comp:obj	_	AlignBegin=160906|AlignEnd=161140
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=161140|AlignEnd=161140
 5	&	&	PUNCT	_	_	1	punct	_	AlignBegin=161140|AlignEnd=161140
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=161140|AlignEnd=161140
@@ -1285,15 +1285,15 @@
 3	di	di	DET	_	_	5	det	_	AlignBegin=162883|AlignEnd=163245
 4	only	only	ADJ	_	_	5	mod	_	AlignBegin=163245|AlignEnd=163607
 5	problem	problem	NOUN	_	_	2	comp:obj	_	AlignBegin=163607|AlignEnd=163969
-6	wey	wey	SCONJ	_	_	5	mod:relcl	_	AlignBegin=163969|AlignEnd=164330
+6	wey	wey	SCONJ	_	_	5	mod@relcl	_	AlignBegin=163969|AlignEnd=164330
 7	dey	dey	VERB	_	_	6	comp:obj	_	AlignBegin=164330|AlignEnd=164692
 8	dere	dere	ADV	_	_	7	comp:pred	_	AlignBegin=164692|AlignEnd=165054
-9	{	{	PUNCT	_	_	1	punct	_	AlignBegin=165054|AlignEnd=165054
+9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=165054|AlignEnd=165054
 10	be	be	VERB	_	_	0	root	_	AlignBegin=165054|AlignEnd=165416
 11	sey	sey	SCONJ	_	_	10	comp:pred	_	AlignBegin=165416|AlignEnd=165778
 12	{	{	PUNCT	_	_	14	punct	_	AlignBegin=165778|AlignEnd=165778
 13	di	di	DET	_	_	14	det	_	AlignBegin=165778|AlignEnd=166140
-14	man	man	NOUN	_	_	10	subj	_	AlignBegin=166140|AlignEnd=166501
+14	man	man	NOUN	_	_	11	comp:obj	_	AlignBegin=166140|AlignEnd=166501
 15	||	||	PUNCT	_	_	18	punct	_	AlignBegin=166501|AlignEnd=166501
 16	eh	eh	INTJ	_	_	18	discourse	_	AlignBegin=166501|AlignEnd=166863
 17	di	di	DET	_	_	18	det	_	AlignBegin=166863|AlignEnd=167225
@@ -1301,7 +1301,7 @@
 19	}	}	PUNCT	_	_	14	punct	_	AlignBegin=167587|AlignEnd=167587
 20	||	||	PUNCT	_	_	21	punct	_	AlignBegin=167587|AlignEnd=167587
 21	be	be	VERB	_	_	10	conj:dicto	_	AlignBegin=167587|AlignEnd=167949
-22	sey	sey	SCONJ	_	_	21	comp:pred	_	AlignBegin=167949|AlignEnd=168310
+22	sey	sey	SCONJ	_	_	21	comp:pred@fixed	_	AlignBegin=167949|AlignEnd=168310
 23	}	}	PUNCT	_	_	10	punct	_	AlignBegin=168310|AlignEnd=168310
 24	[	[	PUNCT	_	_	27	punct	_	AlignBegin=168310|AlignEnd=168310
 25	e	im	PRON	_	_	27	subj	_	AlignBegin=168310|AlignEnd=168672
@@ -1309,7 +1309,7 @@
 27	go	go	AUX	_	_	22	comp:obj	_	AlignBegin=169034|AlignEnd=169396
 28	get	get	VERB	_	_	27	comp:aux	_	AlignBegin=169396|AlignEnd=169758
 29	child	child	NOUN	_	_	28	comp:obj	_	AlignBegin=169758|AlignEnd=170120
-30	]	]	PUNCT	_	_	27	punct	_	AlignBegin=170120|AlignEnd=170120
+30	]	]	PUNCT	_	_	21	punct	_	AlignBegin=170120|AlignEnd=170120
 31	//	//	PUNCT	_	_	10	punct	_	AlignBegin=170120|AlignEnd=170120
 
 # sent_id = BEN_37_French-President-Marriage_DG__70
@@ -1325,7 +1325,7 @@
 # text = and di man sef no even worry //
 # text_en = And the man himself is not worried.
 # text_ortho = And di man sef no even worry.
-1	and	and	CCONJ	_	_	7	discourse	_	AlignBegin=171600|AlignEnd=171797
+1	and	and	CCONJ	_	_	7	cc	_	AlignBegin=171600|AlignEnd=171797
 2	di	di	DET	_	_	3	det	_	AlignBegin=171797|AlignEnd=171994
 3	man	man	NOUN	_	_	7	subj	_	AlignBegin=171994|AlignEnd=172191
 4	sef	sef	PART	_	_	3	mod:emph	_	AlignBegin=172191|AlignEnd=172388
@@ -1396,9 +1396,9 @@
 7	di	di	DET	_	_	8	det	_	AlignBegin=180345|AlignEnd=180671
 8	woman	woman	NOUN	_	_	9	subj	_	AlignBegin=180671|AlignEnd=180998
 9	go	go	AUX	_	_	0	root	_	AlignBegin=180998|AlignEnd=181324
-10	first	first	ADJ	_	_	12	mod	_	AlignBegin=181324|AlignEnd=181650
+10	first	first	ADV	_	_	13	mod	_	AlignBegin=181324|AlignEnd=181650
 11	di	di	DET	_	_	12	det	_	AlignBegin=181650|AlignEnd=181977
-12	man	man	NOUN	_	_	9	comp:obj	_	AlignBegin=181977|AlignEnd=182303
+12	man	man	NOUN	_	_	13	comp:obj	_	AlignBegin=181977|AlignEnd=182303
 13	die	die	VERB	_	_	9	comp:aux	_	AlignBegin=182303|AlignEnd=182630
 14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=182630|AlignEnd=182630
 
@@ -1407,8 +1407,8 @@
 # text = dats all //
 # text_en = That's all.
 # text_ortho = Dats all.
-1	dats	dats	PRON	_	_	2	discourse	_	AlignBegin=183220|AlignEnd=183440
-2	all	all	DET	_	_	0	root	_	AlignBegin=183440|AlignEnd=183660
+1	dats	dats	PRON	_	_	0	root	_	AlignBegin=183220|AlignEnd=183440
+2	all	all	ADV	_	_	1	comp:pred	_	AlignBegin=183440|AlignEnd=183660
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=183660|AlignEnd=183660
 
 # sent_id = BEN_37_French-President-Marriage_DG__76
@@ -1416,7 +1416,7 @@
 # text = and dat one sef < issue of death < e dey God hand //
 # text_en = And even that one, the issue of death, it is in God's hand.
 # text_ortho = And dat one sef, issue of death, e dey God hand.
-1	and	and	CCONJ	_	_	11	discourse	_	AlignBegin=184940|AlignEnd=185169
+1	and	and	CCONJ	_	_	11	cc	_	AlignBegin=184940|AlignEnd=185169
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=185169|AlignEnd=185398
 3	one	one	NOUN	_	_	11	dislocated	_	AlignBegin=185398|AlignEnd=185627
 4	sef	sef	PART	_	_	3	mod:emph	_	AlignBegin=185627|AlignEnd=185856
@@ -1442,16 +1442,16 @@
 4	be	be	VERB	_	_	1	comp:cleft	_	AlignBegin=188852|AlignEnd=189068
 5	di	di	DET	_	_	8	det	_	AlignBegin=189068|AlignEnd=189284
 6	only	only	ADJ	_	_	8	mod	_	AlignBegin=189284|AlignEnd=189500
-7	two	two	NUM	_	_	8	det:num	_	AlignBegin=189500|AlignEnd=189716
+7	two	two	NUM	_	_	8	mod:num	_	AlignBegin=189500|AlignEnd=189716
 8	problem	problem	NOUN	_	_	4	comp:pred	_	AlignBegin=189716|AlignEnd=189932
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=189932|AlignEnd=190148
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=189932|AlignEnd=190148
 10	I	I	PRON	_	_	11	subj	_	AlignBegin=190148|AlignEnd=190364
 11	get	get	VERB	_	_	9	comp:obj	_	AlignBegin=190364|AlignEnd=190580
 12	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=190580|AlignEnd=190580
 13	but	but	CCONJ	_	_	21	cc	_	AlignBegin=190580|AlignEnd=190796
 14	apart	apart	ADV	_	_	21	mod:periph	_	AlignBegin=190796|AlignEnd=191012
-15	from	from	ADP	_	_	14	comp:obj	_	AlignBegin=191012|AlignEnd=191228
-16	dat	dat	PRON	_	_	14	comp:obj	_	AlignBegin=191228|AlignEnd=191444
+15	from	from	ADP	_	_	14	unk@fixed	_	AlignBegin=191012|AlignEnd=191228
+16	dat	dat	PRON	_	_	15	comp:obj	_	AlignBegin=191228|AlignEnd=191444
 17	<	<	PUNCT	_	_	14	punct	_	AlignBegin=191444|AlignEnd=191444
 18	two	two	NUM	_	_	21	subj	_	AlignBegin=191444|AlignEnd=191660
 19	of	of	ADP	_	_	18	mod	_	AlignBegin=191660|AlignEnd=191876
@@ -1469,7 +1469,7 @@
 1	de	dem	PRON	_	_	2	subj	_	AlignBegin=193040|AlignEnd=193272
 2	don	don	AUX	_	_	0	root	_	AlignBegin=193272|AlignEnd=193505
 3	understand	understand	VERB	_	_	2	comp:aux	_	AlignBegin=193505|AlignEnd=193737
-4	deirs~	X	X	_	_	3	comp:obj	_	AlignBegin=193737|AlignEnd=193970
+4	deirs~	X	PRON	_	_	3	comp:obj@scrap	_	AlignBegin=193737|AlignEnd=193970
 5	&	&	PUNCT	_	_	2	punct	_	AlignBegin=193970|AlignEnd=193970
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=193970|AlignEnd=193970
 
@@ -1483,13 +1483,13 @@
 3	understanding	understanding	NOUN	_	_	1	comp:pred	_	AlignBegin=194534|AlignEnd=194816
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=194816|AlignEnd=194816
 5	na	na	PART	_	_	1	comp:cleft	_	AlignBegin=194816|AlignEnd=195098
-6	im	im	PRON	_	_	5	comp:pred	_	AlignBegin=195098|AlignEnd=195380
-7	dey	dey	AUX	_	_	5	comp:obj	_	AlignBegin=195380|AlignEnd=195662
+6	im	im	PRON	_	_	5	comp:pred@fixed	_	AlignBegin=195098|AlignEnd=195380
+7	dey	dey	AUX	_	_	6	comp:obj	_	AlignBegin=195380|AlignEnd=195662
 8	even	even	ADV	_	_	9	mod	_	AlignBegin=195662|AlignEnd=195944
 9	ginger	ginger	VERB	_	_	7	comp:aux	_	AlignBegin=195944|AlignEnd=196226
 10	di	di	DET	_	_	11	det	_	AlignBegin=196226|AlignEnd=196508
 11	guy	guy	NOUN	_	_	9	comp:obj	_	AlignBegin=196508|AlignEnd=196790
-12	go	go	VERB	_	_	9	conj:coord	_	AlignBegin=196790|AlignEnd=197072
+12	go	go	VERB	_	_	9	compound:svc	_	AlignBegin=196790|AlignEnd=197072
 13	marry	marry	VERB	_	_	12	comp:obj@x	_	AlignBegin=197072|AlignEnd=197354
 14	dat	dat	DET	_	_	16	det	_	AlignBegin=197354|AlignEnd=197636
 15	kind	kind	ADJ	_	_	16	mod	_	AlignBegin=197636|AlignEnd=197918
@@ -1501,7 +1501,7 @@
 # text = now { me dey talk of || meh me dey talk about respect } because one day wey be sey [ { { de go fit dey argue for inside house |c and { di man || di man || { di || di || di } woman } { go fit talk sey || go fit talk am sey || e go fit talk like sey } [ na im >+ be senior for di house ] } //
 # text_en = Now, I am the one talking of... I am talking about respect because one day when they are having an argument in the house and the man, the man, the, the, the woman will be able to say that, will be able to say that, she will be able to say like, that she is the most senior in the house.
 # text_ortho = Now me dey talk of, meh me dey talk about respect because one day wey be sey de go fit dey argue for inside house, and di man, di man, di, di, di woman go fit talk sey, go fit talk am sey, e go fit talk like sey, na im be senior for di house.
-1	now	now	ADV	_	_	4	mod:periph	_	AlignBegin=198180|AlignEnd=198327
+1	now	now	ADV	_	_	4	discourse	_	AlignBegin=198180|AlignEnd=198327
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=198327|AlignEnd=198327
 3	me	me	PRON	_	_	4	subj	_	AlignBegin=198327|AlignEnd=198474
 4	dey	dey	AUX	_	_	0	root	_	AlignBegin=198474|AlignEnd=198621
@@ -1515,23 +1515,23 @@
 12	about	about	ADP	_	_	11	comp:obl	_	AlignBegin=199504|AlignEnd=199651
 13	respect	respect	NOUN	_	_	12	comp:obj	_	AlignBegin=199651|AlignEnd=199798
 14	}	}	PUNCT	_	_	4	punct	_	AlignBegin=199798|AlignEnd=199798
-15	because	because	SCONJ	_	_	5	mod	_	AlignBegin=199798|AlignEnd=199945
+15	because	because	SCONJ	_	_	11	mod	_	AlignBegin=199798|AlignEnd=199945
 16	one	one	DET	_	_	17	det	_	AlignBegin=199945|AlignEnd=200092
-17	day	day	NOUN	_	_	15	mod:periph	_	AlignBegin=200092|AlignEnd=200240
-18	wey	wey	SCONJ	_	_	17	mod:relcl	_	AlignBegin=200240|AlignEnd=200387
-19	be	be	VERB	_	_	18	comp:obj	_	AlignBegin=200387|AlignEnd=200534
-20	sey	sey	SCONJ	_	_	19	comp:pred	_	AlignBegin=200534|AlignEnd=200681
+17	day	day	NOUN	_	_	15	comp:obj	_	AlignBegin=200092|AlignEnd=200240
+18	wey	wey	SCONJ	_	_	17	mod@relcl	_	AlignBegin=200240|AlignEnd=200387
+19	be	be	VERB	_	_	18	comp:obj@fixed	_	AlignBegin=200387|AlignEnd=200534
+20	sey	sey	SCONJ	_	_	19	comp:pred@fixed	_	AlignBegin=200534|AlignEnd=200681
 21	[	[	PUNCT	_	_	25	punct	_	AlignBegin=200681|AlignEnd=200681
 22	{	{	PUNCT	_	_	25	punct	_	AlignBegin=200681|AlignEnd=200681
 23	{	{	PUNCT	_	_	25	punct	_	AlignBegin=200681|AlignEnd=200681
 24	de	dem	PRON	_	_	25	subj	_	AlignBegin=200681|AlignEnd=200828
-25	go	go	AUX	_	_	18	comp:obj	_	AlignBegin=200828|AlignEnd=200975
+25	go	go	AUX	_	_	15	comp:obj	_	AlignBegin=200828|AlignEnd=200975
 26	fit	fit	AUX	_	_	25	comp:aux	_	AlignBegin=200975|AlignEnd=201122
 27	dey	dey	AUX	_	_	26	comp:aux	_	AlignBegin=201122|AlignEnd=201270
 28	argue	argue	VERB	_	_	27	comp:aux	_	AlignBegin=201270|AlignEnd=201417
 29	for	for	ADP	_	_	28	comp:obl	_	AlignBegin=201417|AlignEnd=201564
-30	inside	inside	ADP	_	_	29	comp:obj	_	AlignBegin=201564|AlignEnd=201711
-31	house	house	NOUN	_	_	29	comp:obj	_	AlignBegin=201711|AlignEnd=201858
+30	inside	inside	ADP	_	_	29	unk@fixed	_	AlignBegin=201564|AlignEnd=201711
+31	house	house	NOUN	_	_	30	comp:obj	_	AlignBegin=201711|AlignEnd=201858
 32	|c	|c	PUNCT	_	_	51	punct	_	AlignBegin=201858|AlignEnd=201858
 33	and	and	CCONJ	_	_	51	cc	_	AlignBegin=201858|AlignEnd=202005
 34	{	{	PUNCT	_	_	36	punct	_	AlignBegin=202005|AlignEnd=202005
@@ -1567,18 +1567,18 @@
 64	fit	fit	AUX	_	_	63	comp:aux	_	AlignBegin=204801|AlignEnd=204948
 65	talk	talk	VERB	_	_	64	comp:aux	_	AlignBegin=204948|AlignEnd=205095
 66	like	like	ADP	_	_	65	comp:obl	_	AlignBegin=205095|AlignEnd=205242
-67	sey	sey	SCONJ	_	_	66	comp:obj	_	AlignBegin=205242|AlignEnd=205390
-68	}	}	PUNCT	_	_	70	punct	_	AlignBegin=205390|AlignEnd=205390
+67	sey	sey	SCONJ	_	_	66	comp:obj@fixed	_	AlignBegin=205242|AlignEnd=205390
+68	}	}	PUNCT	_	_	51	punct	_	AlignBegin=205390|AlignEnd=205390
 69	[	[	PUNCT	_	_	70	punct	_	AlignBegin=205390|AlignEnd=205390
-70	na	na	PART	_	_	60	comp:obj	_	AlignBegin=205390|AlignEnd=205537
+70	na	na	PART	_	_	67	comp:obj	_	AlignBegin=205390|AlignEnd=205537
 71	im	im	PRON	_	_	70	comp:pred	_	AlignBegin=205537|AlignEnd=205684
 72	>+	>+	PUNCT	_	_	73	punct	_	AlignBegin=205684|AlignEnd=205684
-73	be	be	VERB	_	_	63	comp:cleft	_	AlignBegin=205684|AlignEnd=205831
+73	be	be	VERB	_	_	70	comp:cleft	_	AlignBegin=205684|AlignEnd=205831
 74	senior	senior	ADJ	_	_	73	comp:pred	_	AlignBegin=205831|AlignEnd=205978
-75	for	for	ADP	_	_	73	comp:obl	_	AlignBegin=205978|AlignEnd=206125
+75	for	for	ADP	_	_	65	comp:obl	_	AlignBegin=205978|AlignEnd=206125
 76	di	di	DET	_	_	77	det	_	AlignBegin=206125|AlignEnd=206272
 77	house	house	NOUN	_	_	75	comp:obj	_	AlignBegin=206272|AlignEnd=206420
-78	]	]	PUNCT	_	_	70	punct	_	AlignBegin=206420|AlignEnd=206420
+78	]	]	PUNCT	_	_	56	punct	_	AlignBegin=206420|AlignEnd=206420
 79	}	}	PUNCT	_	_	25	punct	_	AlignBegin=206420|AlignEnd=206420
 80	//	//	PUNCT	_	_	4	punct	_	AlignBegin=206420|AlignEnd=206420
 
@@ -1596,7 +1596,7 @@
 7	let	let	VERB	_	_	5	conj:dicto	_	AlignBegin=207284|AlignEnd=207500
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=207500|AlignEnd=207500
 9	di	di	DET	_	_	10	det	_	AlignBegin=207500|AlignEnd=207716
-10	man	man	NOUN	_	_	7	comp:obj	_	AlignBegin=207716|AlignEnd=207932
+10	man	man	NOUN	_	_	11	comp:obj	_	AlignBegin=207716|AlignEnd=207932
 11	know	know	VERB	_	_	7	comp:obj@x	_	AlignBegin=207932|AlignEnd=208148
 12	sey	sey	SCONJ	_	_	11	comp:obj	_	AlignBegin=208148|AlignEnd=208364
 13	[	[	PUNCT	_	_	15	punct	_	AlignBegin=208364|AlignEnd=208364
@@ -1627,7 +1627,7 @@
 4	na	na	PART	_	_	0	root	_	AlignBegin=211060|AlignEnd=211220
 5	insult	insult	NOUN	_	_	4	comp:pred	_	AlignBegin=211220|AlignEnd=211380
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=211380|AlignEnd=211380
-7	to	to	ADP	_	_	4	comp:cleft	_	AlignBegin=211380|AlignEnd=211540
+7	to	to	ADP	_	_	4	comp:pred	_	AlignBegin=211380|AlignEnd=211540
 8	di	di	DET	_	_	9	det	_	AlignBegin=211540|AlignEnd=211700
 9	man	man	NOUN	_	_	7	comp:obj	_	AlignBegin=211700|AlignEnd=211860
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=211860|AlignEnd=211860
@@ -1645,21 +1645,21 @@
 # text = and dat man go tink to di extent sey [ e go come get BP ] //
 # text_en = And that man will start thinking to the extent that he will then develop high blood pressure.
 # text_ortho = And dat man go tink to di extent sey e go come get BP.
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=211860|AlignEnd=212006
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=211860|AlignEnd=212006
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=212006|AlignEnd=212152
 3	man	man	NOUN	_	_	4	subj	_	AlignBegin=212152|AlignEnd=212299
 4	go	go	AUX	_	_	0	root	_	AlignBegin=212299|AlignEnd=212445
 5	tink	tink	VERB	_	_	4	comp:aux	_	AlignBegin=212445|AlignEnd=212592
-6	to	to	ADP	_	_	5	comp:obl	_	AlignBegin=212592|AlignEnd=212738
+6	to	to	ADP	_	_	5	mod	_	AlignBegin=212592|AlignEnd=212738
 7	di	di	DET	_	_	8	det	_	AlignBegin=212738|AlignEnd=212885
 8	extent	extent	NOUN	_	_	6	comp:obj	_	AlignBegin=212885|AlignEnd=213031
-9	sey	sey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=213031|AlignEnd=213177
+9	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=213031|AlignEnd=213177
 10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=213177|AlignEnd=213177
 11	e	im	PRON	_	_	12	subj	_	AlignBegin=213177|AlignEnd=213324
 12	go	go	AUX	_	_	9	comp:obj	_	AlignBegin=213324|AlignEnd=213470
 13	come	come	AUX	_	_	12	comp:aux	_	AlignBegin=213470|AlignEnd=213617
 14	get	get	VERB	_	_	13	comp:aux	_	AlignBegin=213617|AlignEnd=213763
-15	BP	BP	NOUN	_	_	14	comp:obj	_	AlignBegin=213763|AlignEnd=213910
+15	BP	BP	PROPN	_	_	14	comp:obj	_	AlignBegin=213763|AlignEnd=213910
 16	]	]	PUNCT	_	_	12	punct	_	AlignBegin=213910|AlignEnd=213910
 17	//	//	PUNCT	_	_	4	punct	_	AlignBegin=213910|AlignEnd=213910
 
@@ -1681,7 +1681,7 @@
 3	I	I	PRON	_	_	4	subj	_	AlignBegin=214095|AlignEnd=214281
 4	go	go	AUX	_	_	0	root	_	AlignBegin=214281|AlignEnd=214467
 5	say	say	VERB	_	_	4	comp:aux	_	AlignBegin=214467|AlignEnd=214653
-6	no	no	PART	_	_	5	discourse	_	AlignBegin=214653|AlignEnd=214839
+6	no	no	PART	_	_	5	parataxis:obj	_	AlignBegin=214653|AlignEnd=214839
 7	to	to	ADP	_	_	5	comp:obl	_	AlignBegin=214839|AlignEnd=215025
 8	dat	dat	DET	_	_	9	det	_	AlignBegin=215025|AlignEnd=215210
 9	one	one	NOUN	_	_	7	comp:obj	_	AlignBegin=215210|AlignEnd=215396
@@ -1731,13 +1731,13 @@
 # text_en = Wo- man enjoys repect above any other thing.
 # text_ortho = Wo, man like respect pass any other ting.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=221300|AlignEnd=221300
-2	wo	wo	X	_	_	6	subj	_	AlignBegin=221300|AlignEnd=221772
+2	wo	wo	PRON	_	_	6	subj	_	AlignBegin=221300|AlignEnd=221772
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=221772|AlignEnd=221772
 4	man	man	NOUN	_	_	2	conj:dicto	_	AlignBegin=221772|AlignEnd=222245
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=222245|AlignEnd=222245
 6	like	like	VERB	_	_	0	root	_	AlignBegin=222245|AlignEnd=222717
 7	respect	respect	NOUN	_	_	6	comp:obj	_	AlignBegin=222717|AlignEnd=223190
-8	pass	pass	VERB	_	_	6	compound:svc	_	AlignBegin=223190|AlignEnd=223662
+8	pass	pass	VERB	_	_	7	compound:svc	_	AlignBegin=223190|AlignEnd=223662
 9	any	any	DET	_	_	11	det	_	AlignBegin=223662|AlignEnd=224135
 10	other	other	ADJ	_	_	11	mod	_	AlignBegin=224135|AlignEnd=224607
 11	ting	ting	NOUN	_	_	8	comp:obj	_	AlignBegin=224607|AlignEnd=225080
@@ -1748,9 +1748,9 @@
 # text = so dat respect < e go give am //
 # text_en = So that respect, he will give him.
 # text_ortho = So dat respect, e go give am.
-1	so	so	SCONJ	_	_	6	discourse	_	AlignBegin=225640|AlignEnd=225848
+1	so	so	ADV	_	_	6	discourse	_	AlignBegin=225640|AlignEnd=225848
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=225848|AlignEnd=226057
-3	respect	respect	NOUN	_	_	1	comp:obj	_	AlignBegin=226057|AlignEnd=226265
+3	respect	respect	NOUN	_	_	6	dislocated	_	AlignBegin=226057|AlignEnd=226265
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=226265|AlignEnd=226265
 5	e	im	PRON	_	_	6	subj	_	AlignBegin=226265|AlignEnd=226474
 6	go	go	AUX	_	_	0	root	_	AlignBegin=226474|AlignEnd=226682
@@ -1818,7 +1818,7 @@
 # text_en = Zero nine zero three four eight two four two one four But that is the number you will reach us on this afternoon.
 # text_ortho = O, nine, O, three, four, eight, two, four, two, one, four, dat na di number una go take reach us dis afternoon.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=232320|AlignEnd=232320
-2	O	O	PART	_	_	34	dislocated	_	AlignBegin=232320|AlignEnd=232500
+2	O	O	PROPN	_	_	34	dislocated	_	AlignBegin=232320|AlignEnd=232500
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=232500|AlignEnd=232500
 4	nine	nine	NUM	_	_	2	conj:coord	_	AlignBegin=232500|AlignEnd=232680
 5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=232680|AlignEnd=232680
@@ -1828,7 +1828,7 @@
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=232861|AlignEnd=232861
 10	three	three	NUM	_	_	2	conj:coord	_	AlignBegin=232861|AlignEnd=233041
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=233041|AlignEnd=233041
-12	four	four	NUM	_	_	4	conj:coord	_	AlignBegin=233041|AlignEnd=233222
+12	four	four	NUM	_	_	10	conj:coord	_	AlignBegin=233041|AlignEnd=233222
 13	}	}	PUNCT	_	_	10	punct	_	AlignBegin=233222|AlignEnd=233222
 14	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=233222|AlignEnd=233222
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=233222|AlignEnd=233222
@@ -1854,12 +1854,12 @@
 35	di	di	DET	_	_	36	det	_	AlignBegin=234665|AlignEnd=234846
 36	number	number	NOUN	_	_	34	comp:pred	_	AlignBegin=234846|AlignEnd=235026
 37	una	una	PRON	_	_	38	subj	_	AlignBegin=235026|AlignEnd=235207
-38	go	go	AUX	_	_	36	mod:relcl	_	AlignBegin=235207|AlignEnd=235387
+38	go	go	AUX	_	_	34	comp:cleft	_	AlignBegin=235207|AlignEnd=235387
 39	take	take	VERB	_	_	38	comp:aux	_	AlignBegin=235387|AlignEnd=235568
 40	reach	reach	VERB	_	_	39	compound:svc	_	AlignBegin=235568|AlignEnd=235748
 41	us	us	PRON	_	_	40	comp:obj	_	AlignBegin=235748|AlignEnd=235929
 42	dis	dis	DET	_	_	43	det	_	AlignBegin=235929|AlignEnd=236109
-43	afternoon	afternoon	NOUN	_	_	39	mod	_	AlignBegin=236109|AlignEnd=236290
+43	afternoon	afternoon	NOUN	_	_	40	mod	_	AlignBegin=236109|AlignEnd=236290
 44	//	//	PUNCT	_	_	34	punct	_	AlignBegin=236290|AlignEnd=236290
 
 # sent_id = BEN_37_French-President-Marriage_DG__95
@@ -1871,7 +1871,7 @@
 2	us	us	PRON	_	_	1	comp:obj	_	AlignBegin=236405|AlignEnd=236520
 3	how	how	ADV	_	_	1	comp:obj	_	AlignBegin=236520|AlignEnd=236635
 4	you	you	PRON	_	_	5	subj	_	AlignBegin=236635|AlignEnd=236750
-5	see	see	VERB	_	_	3	mod:relcl	_	AlignBegin=236750|AlignEnd=236865
+5	see	see	VERB	_	_	3	mod@relcl	_	AlignBegin=236750|AlignEnd=236865
 6	am	am	PRON	_	_	5	comp:obj	_	AlignBegin=236865|AlignEnd=236980
 7	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=236980|AlignEnd=236980
 
@@ -1882,22 +1882,22 @@
 # text_ortho = President of thirty nine years dey marry more than if, almost infact na double of e age, for France.
 1	president	president	NOUN	_	_	6	subj	_	AlignBegin=237560|AlignEnd=237846
 2	of	of	ADP	_	_	1	mod	_	AlignBegin=237846|AlignEnd=238132
-3	thirty	thirty	NUM	_	_	5	det:num	_	AlignBegin=238132|AlignEnd=238418
-4	nine	nine	NUM	_	_	3	flat	_	AlignBegin=238418|AlignEnd=238705
+3	thirty	thirty	NUM	_	_	4	compound	_	AlignBegin=238132|AlignEnd=238418
+4	nine	nine	NUM	_	_	5	det:num	_	AlignBegin=238418|AlignEnd=238705
 5	years	years	NOUN	_	_	2	comp:obj	_	AlignBegin=238705|AlignEnd=238991
 6	dey	dey	AUX	_	_	0	root	_	AlignBegin=238991|AlignEnd=239277
 7	marry	marry	VERB	_	_	6	comp:aux	_	AlignBegin=239277|AlignEnd=239564
-8	more	more	ADJ	_	_	1	mod	_	AlignBegin=239564|AlignEnd=239850
-9	than	than	ADP	_	_	8	comp:obj	_	AlignBegin=239850|AlignEnd=240136
+8	more	more	ADJ	_	_	2	mod	_	AlignBegin=239564|AlignEnd=239850
+9	than	than	ADP	_	_	8	mod	_	AlignBegin=239850|AlignEnd=240136
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=240136|AlignEnd=240136
-11	if	if	SCONJ	_	_	7	mod	_	AlignBegin=240136|AlignEnd=240423
+11	if	if	SCONJ	_	_	9	mod	_	AlignBegin=240136|AlignEnd=240423
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=240423|AlignEnd=240423
 13	almost	almost	ADV	_	_	11	conj:dicto	_	AlignBegin=240423|AlignEnd=240709
 14	}	}	PUNCT	_	_	11	punct	_	AlignBegin=240709|AlignEnd=240709
 15	[	[	PUNCT	_	_	17	punct	_	AlignBegin=240709|AlignEnd=240709
 16	infact	infact	ADV	_	_	17	mod:periph	_	AlignBegin=240709|AlignEnd=240995
-17	na	na	PART	_	_	11	parataxis:parenth	_	AlignBegin=240995|AlignEnd=241282
-18	double	double	ADJ	_	_	17	comp:pred	_	AlignBegin=241282|AlignEnd=241568
+17	na	na	PART	_	_	9	comp:obj	_	AlignBegin=240995|AlignEnd=241282
+18	double	double	NOUN	_	_	17	comp:pred	_	AlignBegin=241282|AlignEnd=241568
 19	of	of	ADP	_	_	18	mod	_	AlignBegin=241568|AlignEnd=241854
 20	e	im	PRON	_	_	21	mod:poss	_	AlignBegin=241854|AlignEnd=242141
 21	age	age	NOUN	_	_	19	comp:obj	_	AlignBegin=242141|AlignEnd=242427
@@ -1937,28 +1937,28 @@
 # text = most especially Nigeria wey be sey we { like respect |c command respect } //
 # text_en = Most especially Nigeria where we like respect, command respect.
 # text_ortho = Most especially Nigeria wey be sey we like respect, command respect.
-1	most	most	ADJ	_	_	3	mod	_	AlignBegin=246160|AlignEnd=246404
+1	most	most	ADV	_	_	3	mod	_	AlignBegin=246160|AlignEnd=246404
 2	especially	especially	ADV	_	_	3	mod	_	AlignBegin=246404|AlignEnd=246649
 3	Nigeria	Nigeria	PROPN	_	_	0	root	_	AlignBegin=246649|AlignEnd=246893
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=246893|AlignEnd=247138
-5	be	be	VERB	_	_	4	comp:obj	_	AlignBegin=247138|AlignEnd=247382
-6	sey	sey	SCONJ	_	_	5	comp:pred	_	AlignBegin=247382|AlignEnd=247627
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=246893|AlignEnd=247138
+5	be	be	VERB	_	_	4	comp:obj@fixed	_	AlignBegin=247138|AlignEnd=247382
+6	sey	sey	SCONJ	_	_	5	comp:pred@fixed	_	AlignBegin=247382|AlignEnd=247627
 7	we	we	PRON	_	_	9	subj	_	AlignBegin=247627|AlignEnd=247871
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=247871|AlignEnd=247871
-9	like	like	VERB	_	_	4	comp:obj	_	AlignBegin=247871|AlignEnd=248116
+9	like	like	VERB	_	_	6	comp:obj	_	AlignBegin=247871|AlignEnd=248116
 10	respect	respect	NOUN	_	_	9	comp:obj	_	AlignBegin=248116|AlignEnd=248360
-11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=248360|AlignEnd=248360
-12	command	command	VERB	_	_	13	compound	_	AlignBegin=248360|AlignEnd=248605
-13	respect	respect	NOUN	_	_	9	conj:coord	_	AlignBegin=248605|AlignEnd=248850
+11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=248360|AlignEnd=248360
+12	command	command	VERB	_	_	10	conj:coord	_	AlignBegin=248360|AlignEnd=248605
+13	respect	respect	NOUN	_	_	12	comp:obj	_	AlignBegin=248605|AlignEnd=248850
 14	}	}	PUNCT	_	_	9	punct	_	AlignBegin=248850|AlignEnd=248850
-15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=248850|AlignEnd=248850
+15	//	//	PUNCT	_	_	9	punct	_	AlignBegin=248850|AlignEnd=248850
 
 # sent_id = BEN_37_French-President-Marriage_DG__100
 # speaker_id = Sp53
 # text = e fit still happen because if you go do research & //
 # text_en = It can still happen because if you go and research,
 # text_ortho = E fit still happen because if you go do research...
-1	e	im	PRON	_	_	2	subj:expl	_	AlignBegin=248700|AlignEnd=248923
+1	e	im	PRON	_	_	2	subj	_	AlignBegin=248700|AlignEnd=248923
 2	fit	fit	AUX	_	_	0	root	_	AlignBegin=248923|AlignEnd=249146
 3	still	still	ADV	_	_	4	mod	_	AlignBegin=249146|AlignEnd=249369
 4	happen	happen	VERB	_	_	2	comp:aux	_	AlignBegin=249369|AlignEnd=249592
@@ -2000,7 +2000,7 @@
 4	you	you	PRON	_	_	3	comp:obj	_	AlignBegin=253210|AlignEnd=253480
 5	>	>	PUNCT	_	_	7	punct	_	AlignBegin=253480|AlignEnd=253480
 6	my	my	PRON	_	_	7	mod:poss	_	AlignBegin=253480|AlignEnd=253750
-7	brother	brother	NOUN	_	_	2	vocative	_	AlignBegin=253750|AlignEnd=254020
+7	brother	brother	NOUN	_	_	3	parataxis:obj	_	AlignBegin=253750|AlignEnd=254020
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=254020|AlignEnd=254020
 
 # sent_id = BEN_37_French-President-Marriage_DG__103
@@ -2008,16 +2008,16 @@
 # text = inlaws wey go kick against dat ting many o //
 # text_en = The in-laws that will kick against that thing are many o.
 # text_ortho = Inlaws wey go kick against dat ting many o.
-1	inlaws	inlaws	NOUN	_	_	8	subj	_	AlignBegin=253500|AlignEnd=253680
-2	wey	wey	SCONJ	_	_	1	mod:relcl	_	AlignBegin=253680|AlignEnd=253860
+1	inlaws	inlaws	NOUN	_	_	0	root	_	AlignBegin=253500|AlignEnd=253680
+2	wey	wey	SCONJ	_	_	1	mod@relcl	_	AlignBegin=253680|AlignEnd=253860
 3	go	go	AUX	_	_	2	comp:obj	_	AlignBegin=253860|AlignEnd=254040
 4	kick	kick	VERB	_	_	3	comp:aux	_	AlignBegin=254040|AlignEnd=254220
 5	against	against	ADP	_	_	4	comp:obl	_	AlignBegin=254220|AlignEnd=254400
 6	dat	dat	DET	_	_	7	det	_	AlignBegin=254400|AlignEnd=254580
 7	ting	ting	NOUN	_	_	5	comp:obj	_	AlignBegin=254580|AlignEnd=254760
-8	many	many	ADJ	_	_	0	root	_	AlignBegin=254760|AlignEnd=254940
+8	many	many	ADJ	_	_	5	comp:obj	_	AlignBegin=254760|AlignEnd=254940
 9	o	o	PART	_	_	8	mod:emph	_	AlignBegin=254940|AlignEnd=255120
-10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=255120|AlignEnd=255120
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=255120|AlignEnd=255120
 
 # sent_id = BEN_37_French-President-Marriage_DG__104
 # speaker_id = Sp53
@@ -2058,15 +2058,15 @@
 1	na	na	PART	_	_	0	root	_	AlignBegin=259040|AlignEnd=259206
 2	di	di	DET	_	_	3	det	_	AlignBegin=259206|AlignEnd=259372
 3	one	one	NOUN	_	_	1	comp:pred	_	AlignBegin=259372|AlignEnd=259539
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=259539|AlignEnd=259705
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=259539|AlignEnd=259705
 5	shout	shout	VERB	_	_	4	comp:obj	_	AlignBegin=259705|AlignEnd=259871
 6	come	come	VERB	_	_	5	compound:svc	_	AlignBegin=259871|AlignEnd=260038
 7	out	out	ADP	_	_	6	compound:prt	_	AlignBegin=260038|AlignEnd=260204
 8	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=260204|AlignEnd=260204
 9	na	na	PART	_	_	1	comp:cleft	_	AlignBegin=260204|AlignEnd=260370
-10	im	im	PRON	_	_	9	comp:pred	_	AlignBegin=260370|AlignEnd=260537
+10	im	im	PRON	_	_	9	comp:pred@fixed	_	AlignBegin=260370|AlignEnd=260537
 11	you	you	PRON	_	_	12	subj	_	AlignBegin=260537|AlignEnd=260703
-12	hear	hear	VERB	_	_	9	comp:obj	_	AlignBegin=260703|AlignEnd=260870
+12	hear	hear	VERB	_	_	10	comp:obj	_	AlignBegin=260703|AlignEnd=260870
 13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=260870|AlignEnd=260870
 
 # sent_id = BEN_37_French-President-Marriage_DG__106
@@ -2097,7 +2097,7 @@
 5	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=264851|AlignEnd=264968
 6	di	di	DET	_	_	7	det	_	AlignBegin=264968|AlignEnd=265086
 7	program	program	NOUN	_	_	5	comp:obj	_	AlignBegin=265086|AlignEnd=265204
-8	right	right	ADV	_	_	9	mod	_	AlignBegin=265204|AlignEnd=265322
+8	right	right	ADV	_	_	5	mod	_	AlignBegin=265204|AlignEnd=265322
 9	now	now	ADV	_	_	3	mod	_	AlignBegin=265322|AlignEnd=265440
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=265440|AlignEnd=265440
 
@@ -2140,13 +2140,14 @@
 # text = and dat na how we see am dis afternoon //
 # text_en = And that's how we see it this afternoon.
 # text_ortho = And dat na how we see am dis afternoon.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=268260|AlignEnd=268430
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=268260|AlignEnd=268430
 2	dat	dat	PRON	_	_	3	subj	_	AlignBegin=268430|AlignEnd=268600
 3	na	na	PART	_	_	0	root	_	AlignBegin=268600|AlignEnd=268770
 4	how	how	ADV	_	_	3	comp:pred	_	AlignBegin=268770|AlignEnd=268940
 5	we	we	PRON	_	_	6	subj	_	AlignBegin=268940|AlignEnd=269110
-6	see	see	VERB	_	_	4	mod:relcl	_	AlignBegin=269110|AlignEnd=269280
+6	see	see	VERB	_	_	3	comp:cleft	_	AlignBegin=269110|AlignEnd=269280
 7	am	am	PRON	_	_	6	comp:obj	_	AlignBegin=269280|AlignEnd=269450
 8	dis	dis	DET	_	_	9	det	_	AlignBegin=269450|AlignEnd=269620
 9	afternoon	afternoon	NOUN	_	_	6	mod	_	AlignBegin=269620|AlignEnd=269790
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=269790|AlignEnd=269790
+

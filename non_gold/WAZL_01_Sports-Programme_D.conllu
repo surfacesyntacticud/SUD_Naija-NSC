@@ -4,27 +4,27 @@
 # text = { Ninety five point one |a Wazobia FM |a di people's station } //
 # text_en = Ninety five point one Wazobia FM, the people's station.
 # text_ortho = Ninety five point one, Wazobia FM, di people's station,
-1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=1676|AlignEnd=1676
-2	Ninety	Ninety	NUM	_	_	0	root	_	AlignBegin=1676|AlignEnd=1932
-3	five	five	NUM	_	_	2	flat	_	AlignBegin=1932|AlignEnd=2188
+1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=1676|AlignEnd=1676
+2	Ninety	Ninety	NUM	_	_	3	compound	_	AlignBegin=1676|AlignEnd=1932
+3	five	five	NUM	_	_	0	root	_	AlignBegin=1932|AlignEnd=2188
 4	point	point	NOUN	_	_	3	flat	_	AlignBegin=2188|AlignEnd=2444
-5	one	one	NUM	_	_	4	flat	_	AlignBegin=2444|AlignEnd=2700
+5	one	one	NUM	_	_	4	mod:num	_	AlignBegin=2444|AlignEnd=2700
 6	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=2700|AlignEnd=2700
-7	Wazobia	Wazobia	PROPN	_	_	2	conj:appos	_	AlignBegin=2700|AlignEnd=2956
+7	Wazobia	Wazobia	PROPN	_	_	3	conj:appos	_	AlignBegin=2700|AlignEnd=2956
 8	FM	FM	NOUN	_	_	7	flat	_	AlignBegin=2956|AlignEnd=3212
 9	|a	|a	PUNCT	_	_	12	punct	_	AlignBegin=3212|AlignEnd=3212
-10	di	di	DET	_	_	12	det	_	AlignBegin=3212|AlignEnd=3468
+10	di	di	DET	_	_	11	det	_	AlignBegin=3212|AlignEnd=3468
 11	people's	people's	NOUN	_	_	12	mod	_	AlignBegin=3468|AlignEnd=3724
 12	station	station	NOUN	_	_	7	conj:appos	_	AlignBegin=3724|AlignEnd=3980
-13	}	}	PUNCT	_	_	2	punct	_	AlignBegin=3980|AlignEnd=3980
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=3980|AlignEnd=3980
+13	}	}	PUNCT	_	_	3	punct	_	AlignBegin=3980|AlignEnd=3980
+14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=3980|AlignEnd=3980
 
 # sent_id = WAZL_01_Sports-Programme_DG__2
 # speaker_id = Sp308
 # text = sh~ eh we don show face again eh ( { Femi |c and di gang } ) for inside the studio //
 # text_en = Sh...eh we are here again eh, Femi and the gang in the studio.
 # text_ortho = Sh- eh we don show face again eh (Femi, and di gang) for inside the studio,
-1	sh~	X	X	_	_	4	discourse	_	AlignBegin=3980|AlignEnd=4202
+1	sh~	X	PART	_	_	4	discourse	_	AlignBegin=3980|AlignEnd=4202
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=4202|AlignEnd=4425
 3	we	we	PRON	_	_	4	subj	_	AlignBegin=4425|AlignEnd=4647
 4	don	don	AUX	_	_	0	root	_	AlignBegin=4647|AlignEnd=4870
@@ -34,7 +34,7 @@
 8	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=5537|AlignEnd=5760
 9	(	(	PUNCT	_	_	11	punct	_	AlignBegin=5760|AlignEnd=5760
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=5760|AlignEnd=5760
-11	Femi	Femi	PROPN	_	_	7	parataxis:parenth	_	AlignBegin=5760|AlignEnd=5982
+11	Femi	Femi	PROPN	_	_	6	parataxis:parenth	_	AlignBegin=5760|AlignEnd=5982
 12	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=5982|AlignEnd=5982
 13	and	and	CCONJ	_	_	15	cc	_	AlignBegin=5982|AlignEnd=6205
 14	di	di	DET	_	_	15	det	_	AlignBegin=6205|AlignEnd=6427
@@ -42,9 +42,9 @@
 16	}	}	PUNCT	_	_	11	punct	_	AlignBegin=6650|AlignEnd=6650
 17	)	)	PUNCT	_	_	11	punct	_	AlignBegin=6650|AlignEnd=6650
 18	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=6650|AlignEnd=6872
-19	inside	inside	ADP	_	_	18	comp:obj	_	AlignBegin=6872|AlignEnd=7095
+19	inside	inside	ADP	_	_	18	unk@fixed	_	AlignBegin=6872|AlignEnd=7095
 20	the	the	DET	_	_	21	det	_	AlignBegin=7095|AlignEnd=7317
-21	studio	studio	NOUN	_	_	18	comp:obj	_	AlignBegin=7317|AlignEnd=7540
+21	studio	studio	NOUN	_	_	19	comp:obj	_	AlignBegin=7317|AlignEnd=7540
 22	//	//	PUNCT	_	_	4	punct	_	AlignBegin=7540|AlignEnd=7540
 
 # sent_id = WAZL_01_Sports-Programme_DG__3
@@ -65,15 +65,15 @@
 # text = and na sports parole time dis early Monday momo //
 # text_en = And it's sports discussion time in this early Monday morning.
 # text_ortho = And na sports parole time dis early Monday momo.
-1	and	and	CCONJ	_	_	2	discourse	_	AlignBegin=9050|AlignEnd=9397
+1	and	and	CCONJ	_	_	2	cc	_	AlignBegin=9050|AlignEnd=9397
 2	na	na	PART	_	_	0	root	_	AlignBegin=9397|AlignEnd=9744
 3	sports	sports	NOUN	_	_	4	compound	_	AlignBegin=9744|AlignEnd=10092
 4	parole	parole	NOUN	_	_	5	compound	_	AlignBegin=10092|AlignEnd=10439
 5	time	time	NOUN	_	_	2	comp:pred	_	AlignBegin=10439|AlignEnd=10786
 6	dis	dis	DET	_	_	9	det	_	AlignBegin=10786|AlignEnd=11134
 7	early	early	ADJ	_	_	9	mod	_	AlignBegin=11134|AlignEnd=11481
-8	Monday	Monday	PROPN	_	_	9	mod	_	AlignBegin=11481|AlignEnd=11828
-9	momo	momo	NOUN	_	_	2	subj	_	AlignBegin=11828|AlignEnd=12176
+8	Monday	Monday	PROPN	_	_	9	compound	_	AlignBegin=11481|AlignEnd=11828
+9	momo	momo	NOUN	_	_	5	conj:appos	_	AlignBegin=11828|AlignEnd=12176
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=12176|AlignEnd=12176
 
 # sent_id = WAZL_01_Sports-Programme_DG__5
@@ -81,7 +81,7 @@
 # text = and eh we go start wit di one wey concern we local league //
 # text_en = And eh, we will start with the one which concerns our local league.
 # text_ortho = And eh we go start wit di one wey concern we local league,
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=12417|AlignEnd=12687
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=12417|AlignEnd=12687
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=12687|AlignEnd=12957
 3	we	we	PRON	_	_	4	subj	_	AlignBegin=12957|AlignEnd=13227
 4	go	go	AUX	_	_	0	root	_	AlignBegin=13227|AlignEnd=13497
@@ -89,7 +89,7 @@
 6	wit	wit	ADP	_	_	5	comp:obl	_	AlignBegin=13768|AlignEnd=14038
 7	di	di	DET	_	_	8	det	_	AlignBegin=14038|AlignEnd=14308
 8	one	one	NOUN	_	_	6	comp:obj	_	AlignBegin=14308|AlignEnd=14578
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=14578|AlignEnd=14849
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=14578|AlignEnd=14849
 10	concern	concern	VERB	_	_	9	comp:obj	_	AlignBegin=14849|AlignEnd=15119
 11	we	we	PRON	_	_	13	mod:poss	_	AlignBegin=15119|AlignEnd=15389
 12	local	local	ADJ	_	_	13	mod	_	AlignBegin=15389|AlignEnd=15659
@@ -101,23 +101,23 @@
 # text = eh because eh Gombe United dat side wey don stay tay for inside di National League //
 # text_en = Eh, because eh Gombe United, that side which did not spend much time in the National League.
 # text_ortho = Eh because eh Gombe United dat side wey don stay tay for inside di National League.
-1	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=15930|AlignEnd=16243
-2	because	because	SCONJ	_	_	7	discourse	_	AlignBegin=16243|AlignEnd=16557
-3	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=16557|AlignEnd=16871
-4	Gombe	Gombe	PROPN	_	_	7	dislocated	_	AlignBegin=16871|AlignEnd=17185
-5	United	United	ADJ	_	_	4	flat	_	AlignBegin=17185|AlignEnd=17498
+1	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=15930|AlignEnd=16243
+2	because	because	SCONJ	_	_	4	cc	_	AlignBegin=16243|AlignEnd=16557
+3	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=16557|AlignEnd=16871
+4	Gombe	Gombe	PROPN	_	_	0	root	_	AlignBegin=16871|AlignEnd=17185
+5	United	United	PROPN	_	_	4	flat	_	AlignBegin=17185|AlignEnd=17498
 6	dat	dat	DET	_	_	7	det	_	AlignBegin=17498|AlignEnd=17812
-7	side	side	NOUN	_	_	0	root	_	AlignBegin=17812|AlignEnd=18126
-8	wey	wey	SCONJ	_	_	7	mod:relcl	_	AlignBegin=18126|AlignEnd=18440
+7	side	side	NOUN	_	_	4	conj:appos	_	AlignBegin=17812|AlignEnd=18126
+8	wey	wey	SCONJ	_	_	7	mod@relcl	_	AlignBegin=18126|AlignEnd=18440
 9	don	don	AUX	_	_	8	comp:obj	_	AlignBegin=18440|AlignEnd=18753
 10	stay	stay	VERB	_	_	9	comp:aux	_	AlignBegin=18753|AlignEnd=19067
 11	tay	tay	VERB	_	_	10	compound:svc	_	AlignBegin=19067|AlignEnd=19381
 12	for	for	ADP	_	_	11	comp:obl	_	AlignBegin=19381|AlignEnd=19695
-13	inside	inside	ADP	_	_	12	comp:obj	_	AlignBegin=19695|AlignEnd=20008
-14	di	di	DET	_	_	15	det	_	AlignBegin=20008|AlignEnd=20322
-15	National	National	ADJ	_	_	12	comp:obj	_	AlignBegin=20322|AlignEnd=20636
-16	League	League	NOUN	_	_	15	flat	_	AlignBegin=20636|AlignEnd=20950
-17	//	//	PUNCT	_	_	7	punct	_	AlignBegin=20950|AlignEnd=20950
+13	inside	inside	ADP	_	_	12	unk@fixed	_	AlignBegin=19695|AlignEnd=20008
+14	di	di	DET	_	_	16	det	_	AlignBegin=20008|AlignEnd=20322
+15	National	National	ADJ	_	_	16	mod	_	AlignBegin=20322|AlignEnd=20636
+16	League	League	NOUN	_	_	13	comp:obj	_	AlignBegin=20636|AlignEnd=20950
+17	//	//	PUNCT	_	_	4	punct	_	AlignBegin=20950|AlignEnd=20950
 
 # sent_id = WAZL_01_Sports-Programme_DG__7
 # speaker_id = Sp308
@@ -130,11 +130,11 @@
 4	don	don	AUX	_	_	0	root	_	AlignBegin=21840|AlignEnd=22086
 5	enter	enter	VERB	_	_	4	comp:aux	_	AlignBegin=22086|AlignEnd=22332
 6	inside	inside	ADP	_	_	5	comp:obl	_	AlignBegin=22332|AlignEnd=22579
-7	di	di	DET	_	_	8	det	_	AlignBegin=22579|AlignEnd=22825
+7	di	di	DET	_	_	11	det	_	AlignBegin=22579|AlignEnd=22825
 8	Premier	Premier	ADJ	_	_	6	comp:obj	_	AlignBegin=22825|AlignEnd=23071
 9	League	League	PROPN	_	_	8	flat	_	AlignBegin=23071|AlignEnd=23317
 10	dis	dis	DET	_	_	11	det	_	AlignBegin=23317|AlignEnd=23563
-11	season	season	NOUN	_	_	5	mod	_	AlignBegin=23563|AlignEnd=23810
+11	season	season	NOUN	_	_	6	comp:obj	_	AlignBegin=23563|AlignEnd=23810
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=23810|AlignEnd=23810
 
 # sent_id = WAZL_01_Sports-Programme_DG__8
@@ -142,7 +142,7 @@
 # text = but eh de no dey do { very |r very } well //
 # text_en = But, they are not doing very well.
 # text_ortho = But eh de no dey do very, very well,
-1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=23810|AlignEnd=24032
+1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=23810|AlignEnd=24032
 2	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=24032|AlignEnd=24254
 3	de	dem	PRON	_	_	5	subj	_	AlignBegin=24254|AlignEnd=24476
 4	no	no	PART	_	_	5	mod	_	AlignBegin=24476|AlignEnd=24698
@@ -164,7 +164,7 @@
 1	de	dem	PRON	_	_	2	subj	_	AlignBegin=25810|AlignEnd=26066
 2	dey	dey	VERB	_	_	0	root	_	AlignBegin=26066|AlignEnd=26322
 3	third	third	ADJ	_	_	2	comp:pred	_	AlignBegin=26322|AlignEnd=26578
-4	from	from	ADP	_	_	3	comp:obl	_	AlignBegin=26578|AlignEnd=26835
+4	from	from	ADP	_	_	2	comp:obl	_	AlignBegin=26578|AlignEnd=26835
 5	bottom	bottom	NOUN	_	_	4	comp:obj	_	AlignBegin=26835|AlignEnd=27091
 6	of	of	ADP	_	_	5	mod	_	AlignBegin=27091|AlignEnd=27347
 7	di	di	DET	_	_	8	det	_	AlignBegin=27347|AlignEnd=27603
@@ -176,7 +176,7 @@
 # text = and di management of di club < de no dey happy { at all |r at all } //
 # text_en = And the management of the club, they are not happy at all.
 # text_ortho = And di management of di club, de no dey happy at all, at all.
-1	and	and	CCONJ	_	_	10	discourse	_	AlignBegin=27860|AlignEnd=28052
+1	and	and	CCONJ	_	_	10	cc	_	AlignBegin=27860|AlignEnd=28052
 2	di	di	DET	_	_	3	det	_	AlignBegin=28052|AlignEnd=28244
 3	management	management	NOUN	_	_	10	dislocated	_	AlignBegin=28244|AlignEnd=28436
 4	of	of	ADP	_	_	3	mod	_	AlignBegin=28436|AlignEnd=28628
@@ -189,10 +189,10 @@
 11	happy	happy	ADJ	_	_	10	comp:pred	_	AlignBegin=29589|AlignEnd=29782
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=29782|AlignEnd=29782
 13	at	at	ADP	_	_	11	mod	_	AlignBegin=29782|AlignEnd=29974
-14	all	all	DET	_	_	13	comp:obj	_	AlignBegin=29974|AlignEnd=30166
+14	all	all	ADV	_	_	13	unk@fixed	_	AlignBegin=29974|AlignEnd=30166
 15	|r	|r	PUNCT	_	_	16	punct	_	AlignBegin=30166|AlignEnd=30166
 16	at	at	ADP	_	_	13	compound:redup	_	AlignBegin=30166|AlignEnd=30358
-17	all	all	DET	_	_	16	comp:obj	_	AlignBegin=30358|AlignEnd=30551
+17	all	all	ADV	_	_	16	unk@fixed	_	AlignBegin=30358|AlignEnd=30551
 18	}	}	PUNCT	_	_	13	punct	_	AlignBegin=30551|AlignEnd=30551
 19	//	//	PUNCT	_	_	10	punct	_	AlignBegin=30551|AlignEnd=30551
 
@@ -201,28 +201,28 @@
 # text = and de don give { di coach himself |a eh Amanu Garuba } < de don give am three match eh to take improve di team > odawise { de go s~ || dey go sack } am comot from di job //
 # text_en = And they have given the coach himself, Amanu Garuba, they have given him three matches to improve the team, otherwise, they will sack him from the Job.
 # text_ortho = And de don give di coach himself, eh Amanu Garuba, de don give am three match eh to take improve di team odawise de go s-... dey go sack am comot from di job.
-1	and	and	CCONJ	_	_	16	discourse	_	AlignBegin=30904|AlignEnd=31185
+1	and	and	CCONJ	_	_	16	cc	_	AlignBegin=30904|AlignEnd=31185
 2	de	dem	PRON	_	_	3	subj	_	AlignBegin=31185|AlignEnd=31467
 3	don	don	AUX	_	_	16	parataxis:dislocated	_	AlignBegin=31467|AlignEnd=31749
 4	give	give	VERB	_	_	3	comp:aux	_	AlignBegin=31749|AlignEnd=32031
 5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=32031|AlignEnd=32031
 6	di	di	DET	_	_	7	det	_	AlignBegin=32031|AlignEnd=32312
 7	coach	coach	NOUN	_	_	4	comp:obj	_	AlignBegin=32312|AlignEnd=32594
-8	himself	himself	PRON	_	_	7	mod:emph	_	AlignBegin=32594|AlignEnd=32876
+8	himself	himself	ADV	_	_	7	mod	_	AlignBegin=32594|AlignEnd=32876
 9	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=32876|AlignEnd=32876
 10	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=32876|AlignEnd=33158
 11	Amanu	Amanu	PROPN	_	_	7	conj:appos	_	AlignBegin=33158|AlignEnd=33440
 12	Garuba	Garuba	PROPN	_	_	11	flat	_	AlignBegin=33440|AlignEnd=33721
 13	}	}	PUNCT	_	_	7	punct	_	AlignBegin=33721|AlignEnd=33721
-14	<	<	PUNCT	_	_	7	punct	_	AlignBegin=33721|AlignEnd=33721
+14	<	<	PUNCT	_	_	3	punct	_	AlignBegin=33721|AlignEnd=33721
 15	de	dem	PRON	_	_	16	subj	_	AlignBegin=33721|AlignEnd=34003
 16	don	don	AUX	_	_	0	root	_	AlignBegin=34003|AlignEnd=34285
 17	give	give	VERB	_	_	16	comp:aux	_	AlignBegin=34285|AlignEnd=34567
 18	am	am	PRON	_	_	17	comp:obj	_	AlignBegin=34567|AlignEnd=34849
 19	three	three	NUM	_	_	20	det:num	_	AlignBegin=34849|AlignEnd=35130
-20	match	match	NOUN	_	_	17	mod	_	AlignBegin=35130|AlignEnd=35412
-21	eh	eh	INTJ	_	_	22	discourse	_	AlignBegin=35412|AlignEnd=35694
-22	to	to	ADP	_	_	17	mod	_	AlignBegin=35694|AlignEnd=35976
+20	match	match	NOUN	_	_	17	comp:obj	_	AlignBegin=35130|AlignEnd=35412
+21	eh	eh	INTJ	_	_	20	discourse	_	AlignBegin=35412|AlignEnd=35694
+22	to	to	ADP	_	_	17	comp:obl@x	_	AlignBegin=35694|AlignEnd=35976
 23	take	take	VERB	_	_	22	comp:obj	_	AlignBegin=35976|AlignEnd=36258
 24	improve	improve	VERB	_	_	23	compound:svc	_	AlignBegin=36258|AlignEnd=36539
 25	di	di	DET	_	_	26	det	_	AlignBegin=36539|AlignEnd=36821
@@ -231,7 +231,7 @@
 28	odawise	odawise	ADV	_	_	31	mod:periph	_	AlignBegin=37103|AlignEnd=37385
 29	{	{	PUNCT	_	_	31	punct	_	AlignBegin=37385|AlignEnd=37385
 30	de	dem	PRON	_	_	31	subj	_	AlignBegin=37385|AlignEnd=37667
-31	go	go	AUX	_	_	16	parataxis:conj	_	AlignBegin=37667|AlignEnd=37948
+31	go	go	AUX	_	_	22	comp:obj	_	AlignBegin=37667|AlignEnd=37948
 32	s~	X	X	_	_	31	comp:aux	_	AlignBegin=37948|AlignEnd=38230
 33	||	||	PUNCT	_	_	34	punct	_	AlignBegin=38230|AlignEnd=38230
 34	dey	dey	AUX	_	_	31	conj:dicto	_	AlignBegin=38230|AlignEnd=38512
@@ -240,7 +240,7 @@
 37	}	}	PUNCT	_	_	31	punct	_	AlignBegin=39076|AlignEnd=39076
 38	am	am	PRON	_	_	36	comp:obj	_	AlignBegin=39076|AlignEnd=39357
 39	comot	comot	VERB	_	_	36	compound:svc	_	AlignBegin=39357|AlignEnd=39639
-40	from	from	ADP	_	_	36	comp:obl	_	AlignBegin=39639|AlignEnd=39921
+40	from	from	ADP	_	_	39	comp:obl	_	AlignBegin=39639|AlignEnd=39921
 41	di	di	DET	_	_	42	det	_	AlignBegin=39921|AlignEnd=40203
 42	job	job	NOUN	_	_	40	comp:obj	_	AlignBegin=40203|AlignEnd=40485
 43	//	//	PUNCT	_	_	16	punct	_	AlignBegin=40485|AlignEnd=40485
@@ -250,7 +250,7 @@
 # text = but eh di guy don talk sey [ no be im fault ] //
 # text_en = But eh, the guy has said that it's not his fault.
 # text_ortho = But eh di guy don talk sey no be im fault.
-1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=40485|AlignEnd=40669
+1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=40485|AlignEnd=40669
 2	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=40669|AlignEnd=40853
 3	di	di	DET	_	_	4	det	_	AlignBegin=40853|AlignEnd=41037
 4	guy	guy	NOUN	_	_	5	subj	_	AlignBegin=41037|AlignEnd=41221
@@ -274,19 +274,19 @@
 2	di	di	DET	_	_	3	det	_	AlignBegin=42758|AlignEnd=43006
 3	way	way	NOUN	_	_	19	dislocated	_	AlignBegin=43006|AlignEnd=43255
 4	dem	dem	PRON	_	_	5	subj	_	AlignBegin=43255|AlignEnd=43503
-5	dey	dey	AUX	_	_	3	mod:relcl	_	AlignBegin=43503|AlignEnd=43752
+5	dey	dey	AUX	_	_	3	mod@relcl	_	AlignBegin=43503|AlignEnd=43752
 6	play	play	VERB	_	_	5	comp:aux	_	AlignBegin=43752|AlignEnd=44000
 7	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=44000|AlignEnd=44249
 8	right	right	ADV	_	_	9	mod	_	AlignBegin=44249|AlignEnd=44497
 9	about	about	ADP	_	_	6	mod	_	AlignBegin=44497|AlignEnd=44746
-10	now	now	ADV	_	_	6	mod	_	AlignBegin=44746|AlignEnd=44994
+10	now	now	ADV	_	_	9	comp:obj	_	AlignBegin=44746|AlignEnd=44994
 11	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=44994|AlignEnd=45243
-12	inside	inside	ADP	_	_	11	comp:obj	_	AlignBegin=45243|AlignEnd=45491
+12	inside	inside	ADP	_	_	11	unk@fixed	_	AlignBegin=45243|AlignEnd=45491
 13	eh	eh	INTJ	_	_	14	discourse	_	AlignBegin=45491|AlignEnd=45740
-14	Gombe	Gombe	PROPN	_	_	11	comp:obj	_	AlignBegin=45740|AlignEnd=45988
+14	Gombe	Gombe	PROPN	_	_	12	comp:obj	_	AlignBegin=45740|AlignEnd=45988
 15	<	<	PUNCT	_	_	3	punct	_	AlignBegin=45988|AlignEnd=45988
 16	eh	eh	INTJ	_	_	19	discourse	_	AlignBegin=45988|AlignEnd=46236
-17	sey	sey	SCONJ	_	_	19	discourse	_	AlignBegin=46236|AlignEnd=46485
+17	sey	sey	SCONJ	_	_	19	cc	_	AlignBegin=46236|AlignEnd=46485
 18	de	dem	PRON	_	_	19	subj	_	AlignBegin=46485|AlignEnd=46733
 19	go	go	AUX	_	_	0	root	_	AlignBegin=46733|AlignEnd=46982
 20	try	try	VERB	_	_	19	comp:aux	_	AlignBegin=46982|AlignEnd=47230
@@ -294,7 +294,7 @@
 22	improve	improve	VERB	_	_	21	comp:obj	_	AlignBegin=47479|AlignEnd=47727
 23	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=47727|AlignEnd=47727
 24	but	but	CCONJ	_	_	27	cc	_	AlignBegin=47727|AlignEnd=47976
-25	e	im	PRON	_	_	27	subj:expl	_	AlignBegin=47976|AlignEnd=48224
+25	e	im	PRON	_	_	27	subj	_	AlignBegin=47976|AlignEnd=48224
 26	no	no	PART	_	_	27	mod	_	AlignBegin=48224|AlignEnd=48473
 27	dey	dey	VERB	_	_	20	conj:coord	_	AlignBegin=48473|AlignEnd=48721
 28	easy	easy	ADJ	_	_	27	comp:pred	_	AlignBegin=48721|AlignEnd=48970
@@ -309,8 +309,8 @@
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=49230|AlignEnd=49491
 3	look	look	VERB	_	_	1	comp:obj	_	AlignBegin=49491|AlignEnd=49752
 4	wetin	wetin	PRON	_	_	3	comp:obj	_	AlignBegin=49752|AlignEnd=50013
-5	people	people	NOUN	_	_	6	subj	_	AlignBegin=50013|AlignEnd=50274
-6	like	like	VERB	_	_	4	mod:relcl	_	AlignBegin=50274|AlignEnd=50535
+5	people	people	NOUN	_	_	3	subj	_	AlignBegin=50013|AlignEnd=50274
+6	like	like	ADP	_	_	5	mod	_	AlignBegin=50274|AlignEnd=50535
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=50535|AlignEnd=50535
 8	MFM	MFM	PROPN	_	_	6	comp:obj	_	AlignBegin=50535|AlignEnd=50796
 9	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=50796|AlignEnd=50796
@@ -319,20 +319,20 @@
 12	Enyimba	Enyimba	PROPN	_	_	8	conj:coord	_	AlignBegin=51318|AlignEnd=51579
 13	}	}	PUNCT	_	_	8	punct	_	AlignBegin=51579|AlignEnd=51579
 14	dem	dem	PRON	_	_	15	subj	_	AlignBegin=51579|AlignEnd=51840
-15	dey	dey	AUX	_	_	4	mod:relcl	_	AlignBegin=51840|AlignEnd=52101
+15	dey	dey	AUX	_	_	4	mod@relcl	_	AlignBegin=51840|AlignEnd=52101
 16	do	do	VERB	_	_	15	comp:aux	_	AlignBegin=52101|AlignEnd=52362
 17	for	for	ADP	_	_	16	comp:obl	_	AlignBegin=52362|AlignEnd=52623
-18	inside	inside	ADP	_	_	17	comp:obj	_	AlignBegin=52623|AlignEnd=52884
+18	inside	inside	ADP	_	_	17	unk@fixed	_	AlignBegin=52623|AlignEnd=52884
 19	di	di	DET	_	_	20	det	_	AlignBegin=52884|AlignEnd=53145
-20	league	league	NOUN	_	_	17	comp:obj	_	AlignBegin=53145|AlignEnd=53406
+20	league	league	NOUN	_	_	18	comp:obj	_	AlignBegin=53145|AlignEnd=53406
 21	<	<	PUNCT	_	_	1	punct	_	AlignBegin=53406|AlignEnd=53406
 22	eh	eh	INTJ	_	_	26	discourse	_	AlignBegin=53406|AlignEnd=53667
 23	{	{	PUNCT	_	_	26	punct	_	AlignBegin=53667|AlignEnd=53667
-24	e	im	PRON	_	_	26	subj:expl	_	AlignBegin=53667|AlignEnd=53928
+24	e	im	PRON	_	_	26	subj	_	AlignBegin=53667|AlignEnd=53928
 25	no	no	PART	_	_	26	mod	_	AlignBegin=53928|AlignEnd=54188
 26	dey	dey	VERB	_	_	0	root	_	AlignBegin=54188|AlignEnd=54449
 27	easy	easy	ADJ	_	_	26	comp:pred	_	AlignBegin=54449|AlignEnd=54710
-28	to	to	ADP	_	_	27	comp:obl@agent	_	AlignBegin=54710|AlignEnd=54971
+28	to	to	ADP	_	_	27	mod	_	AlignBegin=54710|AlignEnd=54971
 29	really	really	ADV	_	_	30	mod	_	AlignBegin=54971|AlignEnd=55232
 30	catch	catch	VERB	_	_	28	comp:obj	_	AlignBegin=55232|AlignEnd=55493
 31	up	up	ADP	_	_	30	compound:prt	_	AlignBegin=55493|AlignEnd=55754
@@ -347,8 +347,8 @@
 40	|r	|r	PUNCT	_	_	41	punct	_	AlignBegin=57320|AlignEnd=57320
 41	very	very	ADV	_	_	39	compound:redup	_	AlignBegin=57320|AlignEnd=57581
 42	}	}	PUNCT	_	_	39	punct	_	AlignBegin=57581|AlignEnd=57581
-43	best	best	ADJ	_	_	36	comp:obj	_	AlignBegin=57581|AlignEnd=57842
-44	to	to	ADP	_	_	43	comp:obl@x	_	AlignBegin=57842|AlignEnd=58103
+43	best	best	ADJ	_	_	36	comp:pred	_	AlignBegin=57581|AlignEnd=57842
+44	to	to	ADP	_	_	43	mod	_	AlignBegin=57842|AlignEnd=58103
 45	improve	improve	VERB	_	_	44	comp:obj	_	AlignBegin=58103|AlignEnd=58364
 46	inside	inside	ADP	_	_	45	comp:obl	_	AlignBegin=58364|AlignEnd=58625
 47	di	di	DET	_	_	48	det	_	AlignBegin=58625|AlignEnd=58886
@@ -361,29 +361,29 @@
 # text = and also { MFM coach himself eh |a Fidelis eh Ilechukwu } ( we know sey [ na dem >+ dey ontop of di table |c and eh smiling right about now } ) < eh de don talk sey [ yes < { dier top goal scorer |a Steven Odey } < e don come back to inside Naija ] //
 # text_en = And also MFM coach, eh Fidelis eh Ilechukwu, we know that they are the ones on top of the table, and eh smiling right about now, eh, they have said that yes, their top goal scorer, Steven Odey he has returned to Nigeria.
 # text_ortho = And also MFM coach himself eh, Fidelis eh Ilechukwu (we know sey na dem dey ontop of di table, and eh smiling right about now), eh de don talk sey, yes, dier top goal scorer, Steven Odey, e don come back to inside Naija.
-1	and	and	CCONJ	_	_	38	discourse	_	AlignBegin=59441|AlignEnd=59724
+1	and	and	CCONJ	_	_	38	cc	_	AlignBegin=59441|AlignEnd=59724
 2	also	also	ADV	_	_	38	mod:periph	_	AlignBegin=59724|AlignEnd=60008
 3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=60008|AlignEnd=60008
-4	MFM	MFM	NOUN	_	_	5	compound	_	AlignBegin=60008|AlignEnd=60292
+4	MFM	MFM	PROPN	_	_	5	compound	_	AlignBegin=60008|AlignEnd=60292
 5	coach	coach	NOUN	_	_	38	dislocated	_	AlignBegin=60292|AlignEnd=60576
-6	himself	himself	PRON	_	_	5	mod:emph	_	AlignBegin=60576|AlignEnd=60860
+6	himself	himself	ADV	_	_	5	mod	_	AlignBegin=60576|AlignEnd=60860
 7	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=60860|AlignEnd=61144
 8	|a	|a	PUNCT	_	_	9	punct	_	AlignBegin=61144|AlignEnd=61144
 9	Fidelis	Fidelis	PROPN	_	_	5	conj:appos	_	AlignBegin=61144|AlignEnd=61427
 10	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=61427|AlignEnd=61711
-11	Ilechukwu	Ilechukwu	PROPN	_	_	5	flat	_	AlignBegin=61711|AlignEnd=61995
+11	Ilechukwu	Ilechukwu	PROPN	_	_	9	flat	_	AlignBegin=61711|AlignEnd=61995
 12	}	}	PUNCT	_	_	5	punct	_	AlignBegin=61995|AlignEnd=61995
 13	(	(	PUNCT	_	_	15	punct	_	AlignBegin=61995|AlignEnd=61995
 14	we	we	PRON	_	_	15	subj	_	AlignBegin=61995|AlignEnd=62279
-15	know	know	VERB	_	_	9	parataxis:parenth	_	AlignBegin=62279|AlignEnd=62563
+15	know	know	VERB	_	_	5	parataxis:parenth	_	AlignBegin=62279|AlignEnd=62563
 16	sey	sey	SCONJ	_	_	15	comp:obj	_	AlignBegin=62563|AlignEnd=62847
 17	[	[	PUNCT	_	_	18	punct	_	AlignBegin=62847|AlignEnd=62847
 18	na	na	PART	_	_	16	comp:obj	_	AlignBegin=62847|AlignEnd=63130
 19	dem	dem	PRON	_	_	18	comp:pred	_	AlignBegin=63130|AlignEnd=63414
 20	>+	>+	PUNCT	_	_	21	punct	_	AlignBegin=63414|AlignEnd=63414
 21	dey	dey	VERB	_	_	18	comp:cleft	_	AlignBegin=63414|AlignEnd=63698
-22	ontop	ontop	ADP	_	_	21	comp:pred	_	AlignBegin=63698|AlignEnd=63982
-23	of	of	ADP	_	_	22	comp:obj	_	AlignBegin=63982|AlignEnd=64266
+22	ontop	ontop	VERB	_	_	21	comp:obj@x	_	AlignBegin=63698|AlignEnd=63982
+23	of	of	ADP	_	_	22	comp:obl	_	AlignBegin=63982|AlignEnd=64266
 24	di	di	DET	_	_	25	det	_	AlignBegin=64266|AlignEnd=64550
 25	table	table	NOUN	_	_	23	comp:obj	_	AlignBegin=64550|AlignEnd=64833
 26	|c	|c	PUNCT	_	_	29	punct	_	AlignBegin=64833|AlignEnd=64833
@@ -406,7 +406,7 @@
 43	<	<	PUNCT	_	_	42	punct	_	AlignBegin=68240|AlignEnd=68240
 44	{	{	PUNCT	_	_	48	punct	_	AlignBegin=68240|AlignEnd=68240
 45	dier	dier	PRON	_	_	48	mod:poss	_	AlignBegin=68240|AlignEnd=68523
-46	top	top	ADJ	_	_	48	mod	_	AlignBegin=68523|AlignEnd=68807
+46	top	top	NOUN	_	_	48	mod	_	AlignBegin=68523|AlignEnd=68807
 47	goal	goal	NOUN	_	_	48	compound	_	AlignBegin=68807|AlignEnd=69091
 48	scorer	scorer	NOUN	_	_	55	dislocated	_	AlignBegin=69091|AlignEnd=69375
 49	|a	|a	PUNCT	_	_	50	punct	_	AlignBegin=69375|AlignEnd=69375
@@ -420,7 +420,7 @@
 57	back	back	ADV	_	_	56	mod	_	AlignBegin=70794|AlignEnd=71078
 58	to	to	ADP	_	_	56	comp:obl	_	AlignBegin=71078|AlignEnd=71362
 59	inside	inside	ADP	_	_	58	comp:obj	_	AlignBegin=71362|AlignEnd=71646
-60	Naija	Naija	PROPN	_	_	58	comp:obj	_	AlignBegin=71646|AlignEnd=71930
+60	Naija	Naija	PROPN	_	_	59	comp:obj	_	AlignBegin=71646|AlignEnd=71930
 61	]	]	PUNCT	_	_	55	punct	_	AlignBegin=71930|AlignEnd=71930
 62	//	//	PUNCT	_	_	38	punct	_	AlignBegin=71930|AlignEnd=71930
 
@@ -429,7 +429,7 @@
 # text = because why ?//
 # text_en = Why?
 # text_ortho = Because why?
-1	because	because	SCONJ	_	_	2	discourse	_	AlignBegin=71930|AlignEnd=72335
+1	because	because	SCONJ	_	_	2	cc	_	AlignBegin=71930|AlignEnd=72335
 2	why	why	ADV	_	_	0	root	_	AlignBegin=72335|AlignEnd=72740
 3	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=72740|AlignEnd=72740
 
@@ -442,7 +442,7 @@
 2	bros	bros	NOUN	_	_	3	subj	_	AlignBegin=73005|AlignEnd=73271
 3	bin	bin	AUX	_	_	0	root	_	AlignBegin=73271|AlignEnd=73537
 4	comot	comot	VERB	_	_	3	comp:aux	_	AlignBegin=73537|AlignEnd=73803
-5	go	go	VERB	_	_	4	comp:obj@x	_	AlignBegin=73803|AlignEnd=74069
+5	go	go	VERB	_	_	4	compound:svc	_	AlignBegin=73803|AlignEnd=74069
 6	inside	inside	ADP	_	_	5	comp:obl	_	AlignBegin=74069|AlignEnd=74335
 7	Denmark	Denmark	PROPN	_	_	6	comp:obj	_	AlignBegin=74335|AlignEnd=74601
 8	before	before	ADP	_	_	5	mod	_	AlignBegin=74601|AlignEnd=74867
@@ -454,15 +454,15 @@
 # text_en = Eh, but he went for trials in one place without the permission of the club, and they frowned their faces like starch eh, that they was put on a wet and it's yet to dry up.
 # text_ortho = Eh but eh e go trials for one place witout permission of di club, and di club, dem be squeeze face like starch eh wey de put for cloth wey no dry at all, at all.
 1	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=75235|AlignEnd=75461
-2	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=75461|AlignEnd=75688
+2	but	but	CCONJ	_	_	5	cc	_	AlignBegin=75461|AlignEnd=75688
 3	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=75688|AlignEnd=75915
 4	e	im	PRON	_	_	5	subj	_	AlignBegin=75915|AlignEnd=76141
 5	go	go	VERB	_	_	0	root	_	AlignBegin=76141|AlignEnd=76368
 6	trials	trials	NOUN	_	_	5	comp:obj	_	AlignBegin=76368|AlignEnd=76595
-7	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=76595|AlignEnd=76821
-8	one	one	DET	_	_	9	det	_	AlignBegin=76821|AlignEnd=77048
+7	for	for	ADP	_	_	6	mod	_	AlignBegin=76595|AlignEnd=76821
+8	one	one	NUM	_	_	9	det:num	_	AlignBegin=76821|AlignEnd=77048
 9	place	place	NOUN	_	_	7	comp:obj	_	AlignBegin=77048|AlignEnd=77275
-10	witout	witout	ADP	_	_	5	mod	_	AlignBegin=77275|AlignEnd=77501
+10	witout	witout	ADP	_	_	22	mod	_	AlignBegin=77275|AlignEnd=77501
 11	permission	permission	NOUN	_	_	10	comp:obj	_	AlignBegin=77501|AlignEnd=77728
 12	of	of	ADP	_	_	11	mod	_	AlignBegin=77728|AlignEnd=77955
 13	di	di	DET	_	_	14	det	_	AlignBegin=77955|AlignEnd=78181
@@ -475,24 +475,24 @@
 20	dem	dem	PRON	_	_	21	subj	_	AlignBegin=79088|AlignEnd=79315
 21	be	be	AUX	_	_	5	conj:coord	_	AlignBegin=79315|AlignEnd=79541
 22	squeeze	squeeze	VERB	_	_	21	comp:aux	_	AlignBegin=79541|AlignEnd=79768
-23	face	face	NOUN	_	_	22	comp:obj@lvc	_	AlignBegin=79768|AlignEnd=79995
-24	like	like	ADP	_	_	23	mod	_	AlignBegin=79995|AlignEnd=80221
+23	face	face	VERB	_	_	22	compound:svc	_	AlignBegin=79768|AlignEnd=79995
+24	like	like	ADP	_	_	23	comp:obl	_	AlignBegin=79995|AlignEnd=80221
 25	starch	starch	NOUN	_	_	24	comp:obj	_	AlignBegin=80221|AlignEnd=80448
-26	eh	eh	INTJ	_	_	27	discourse	_	AlignBegin=80448|AlignEnd=80675
-27	wey	wey	SCONJ	_	_	25	mod:relcl	_	AlignBegin=80675|AlignEnd=80901
+26	eh	eh	INTJ	_	_	18	discourse	_	AlignBegin=80448|AlignEnd=80675
+27	wey	wey	SCONJ	_	_	18	mod@relcl	_	AlignBegin=80675|AlignEnd=80901
 28	de	dem	PRON	_	_	29	subj	_	AlignBegin=80901|AlignEnd=81128
 29	put	put	VERB	_	_	27	comp:obj	_	AlignBegin=81128|AlignEnd=81355
 30	for	for	ADP	_	_	29	comp:obl	_	AlignBegin=81355|AlignEnd=81581
 31	cloth	cloth	NOUN	_	_	30	comp:obj	_	AlignBegin=81581|AlignEnd=81808
-32	wey	wey	SCONJ	_	_	31	mod:relcl	_	AlignBegin=81808|AlignEnd=82035
+32	wey	wey	SCONJ	_	_	31	mod@relcl	_	AlignBegin=81808|AlignEnd=82035
 33	no	no	PART	_	_	34	mod	_	AlignBegin=82035|AlignEnd=82261
 34	dry	dry	ADJ	_	_	32	comp:obj	_	AlignBegin=82261|AlignEnd=82488
 35	{	{	PUNCT	_	_	36	punct	_	AlignBegin=82488|AlignEnd=82488
 36	at	at	ADP	_	_	34	mod	_	AlignBegin=82488|AlignEnd=82715
-37	all	all	DET	_	_	36	comp:obj	_	AlignBegin=82715|AlignEnd=82941
+37	all	all	ADV	_	_	36	unk@fixed	_	AlignBegin=82715|AlignEnd=82941
 38	|r	|r	PUNCT	_	_	39	punct	_	AlignBegin=82941|AlignEnd=82941
 39	at	at	ADP	_	_	36	compound:redup	_	AlignBegin=82941|AlignEnd=83168
-40	all	all	DET	_	_	39	comp:obj	_	AlignBegin=83168|AlignEnd=83395
+40	all	all	ADV	_	_	39	unk@fixed	_	AlignBegin=83168|AlignEnd=83395
 41	}	}	PUNCT	_	_	36	punct	_	AlignBegin=83395|AlignEnd=83395
 42	//	//	PUNCT	_	_	5	punct	_	AlignBegin=83395|AlignEnd=83395
 
@@ -501,7 +501,7 @@
 # text = but de say [ dem don forgive di guy ] //
 # text_en = But they said they have forgiven the guy.
 # text_ortho = But de say dem don forgive di guy,
-1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=83733|AlignEnd=83923
+1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=83733|AlignEnd=83923
 2	de	dem	PRON	_	_	3	subj	_	AlignBegin=83923|AlignEnd=84114
 3	say	say	VERB	_	_	0	root	_	AlignBegin=84114|AlignEnd=84305
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=84305|AlignEnd=84305
@@ -524,8 +524,8 @@
 4	go	go	VERB	_	_	3	comp:aux	_	AlignBegin=85757|AlignEnd=86005
 5	trial	trial	NOUN	_	_	4	comp:obj	_	AlignBegin=86005|AlignEnd=86254
 6	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=86254|AlignEnd=86502
-7	inside	inside	ADP	_	_	6	comp:obj	_	AlignBegin=86502|AlignEnd=86751
-8	denmark	denmark	NOUN	_	_	6	comp:obj	_	AlignBegin=86751|AlignEnd=86999
+7	inside	inside	ADP	_	_	6	unk@fixed	_	AlignBegin=86502|AlignEnd=86751
+8	denmark	denmark	NOUN	_	_	7	comp:obj	_	AlignBegin=86751|AlignEnd=86999
 9	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=86999|AlignEnd=86999
 10	but	but	CCONJ	_	_	14	cc	_	AlignBegin=86999|AlignEnd=87248
 11	di	di	DET	_	_	12	det	_	AlignBegin=87248|AlignEnd=87496
@@ -533,7 +533,7 @@
 13	no	no	PART	_	_	14	mod	_	AlignBegin=87745|AlignEnd=87993
 14	work	work	VERB	_	_	3	conj:coord	_	AlignBegin=87993|AlignEnd=88242
 15	at	at	ADP	_	_	14	mod	_	AlignBegin=88242|AlignEnd=88490
-16	all	all	DET	_	_	15	comp:obj	_	AlignBegin=88490|AlignEnd=88739
+16	all	all	ADV	_	_	15	unk@fixed	_	AlignBegin=88490|AlignEnd=88739
 17	}	}	PUNCT	_	_	3	punct	_	AlignBegin=88739|AlignEnd=88739
 18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=88739|AlignEnd=88739
 
@@ -542,7 +542,7 @@
 # text = and eh people don dey talk sey [ e be like sey [ Steven Odey forge age ] ] //
 # text_en = And eh, people have been saying that it seems that Steven Odey forged his age.
 # text_ortho = And eh people don dey talk sey e be like sey Steven Odey forge age,
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=89085|AlignEnd=89269
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=89085|AlignEnd=89269
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=89269|AlignEnd=89453
 3	people	people	NOUN	_	_	4	subj	_	AlignBegin=89453|AlignEnd=89638
 4	don	don	AUX	_	_	0	root	_	AlignBegin=89638|AlignEnd=89822
@@ -550,14 +550,14 @@
 6	talk	talk	VERB	_	_	5	comp:aux	_	AlignBegin=90006|AlignEnd=90191
 7	sey	sey	SCONJ	_	_	6	comp:obj	_	AlignBegin=90191|AlignEnd=90375
 8	[	[	PUNCT	_	_	10	punct	_	AlignBegin=90375|AlignEnd=90375
-9	e	im	PRON	_	_	10	subj:expl	_	AlignBegin=90375|AlignEnd=90559
+9	e	im	PRON	_	_	10	subj@expl	_	AlignBegin=90375|AlignEnd=90559
 10	be	be	VERB	_	_	7	comp:obj	_	AlignBegin=90559|AlignEnd=90744
 11	like	like	ADP	_	_	10	comp:pred	_	AlignBegin=90744|AlignEnd=90928
-12	sey	sey	SCONJ	_	_	11	comp:obj	_	AlignBegin=90928|AlignEnd=91112
+12	sey	sey	SCONJ	_	_	11	comp:obj@fixed	_	AlignBegin=90928|AlignEnd=91112
 13	[	[	PUNCT	_	_	16	punct	_	AlignBegin=91112|AlignEnd=91112
 14	Steven	Steven	PROPN	_	_	16	subj	_	AlignBegin=91112|AlignEnd=91297
 15	Odey	Odey	PROPN	_	_	14	flat	_	AlignBegin=91297|AlignEnd=91481
-16	forge	forge	VERB	_	_	11	comp:obj	_	AlignBegin=91481|AlignEnd=91665
+16	forge	forge	VERB	_	_	12	comp:obj	_	AlignBegin=91481|AlignEnd=91665
 17	age	age	NOUN	_	_	16	comp:obj	_	AlignBegin=91665|AlignEnd=91850
 18	]	]	PUNCT	_	_	16	punct	_	AlignBegin=91850|AlignEnd=91850
 19	]	]	PUNCT	_	_	10	punct	_	AlignBegin=91850|AlignEnd=91850
@@ -568,7 +568,7 @@
 # text = but di coach talk sey [ nothing like dat at all ] //= sey na im luck >+ no shine //
 # text_en = But the coach said that there is nothing like that all; that it was his luch which did not shine.
 # text_ortho = But di coach talk sey nothing like dat at all, sey na im luck no shine,
-1	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=91850|AlignEnd=92086
+1	but	but	CCONJ	_	_	4	cc	_	AlignBegin=91850|AlignEnd=92086
 2	di	di	DET	_	_	3	det	_	AlignBegin=92086|AlignEnd=92323
 3	coach	coach	NOUN	_	_	4	subj	_	AlignBegin=92323|AlignEnd=92560
 4	talk	talk	VERB	_	_	0	root	_	AlignBegin=92560|AlignEnd=92797
@@ -577,12 +577,12 @@
 7	nothing	nothing	PRON	_	_	5	comp:obj	_	AlignBegin=93034|AlignEnd=93271
 8	like	like	ADP	_	_	7	mod	_	AlignBegin=93271|AlignEnd=93508
 9	dat	dat	PRON	_	_	8	comp:obj	_	AlignBegin=93508|AlignEnd=93745
-10	at	at	ADP	_	_	7	mod	_	AlignBegin=93745|AlignEnd=93981
-11	all	all	DET	_	_	10	comp:obj	_	AlignBegin=93981|AlignEnd=94218
+10	at	at	ADP	_	_	8	mod	_	AlignBegin=93745|AlignEnd=93981
+11	all	all	ADV	_	_	10	unk@fixed	_	AlignBegin=93981|AlignEnd=94218
 12	]	]	PUNCT	_	_	7	punct	_	AlignBegin=94218|AlignEnd=94218
 13	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=94218|AlignEnd=94218
-14	sey	sey	SCONJ	_	_	15	discourse	_	AlignBegin=94218|AlignEnd=94455
-15	na	na	PART	_	_	4	parataxis:conj	_	AlignBegin=94455|AlignEnd=94692
+14	sey	sey	SCONJ	_	_	15	cc	_	AlignBegin=94218|AlignEnd=94455
+15	na	na	PART	_	_	5	comp:obj	_	AlignBegin=94455|AlignEnd=94692
 16	im	im	PRON	_	_	17	mod:poss	_	AlignBegin=94692|AlignEnd=94929
 17	luck	luck	NOUN	_	_	15	comp:pred	_	AlignBegin=94929|AlignEnd=95166
 18	>+	>+	PUNCT	_	_	20	punct	_	AlignBegin=95166|AlignEnd=95166
@@ -595,17 +595,17 @@
 # text = but e sure sey { many |r many } clubs eh still go want sign dis bros //
 # text_en = But he is sure that many, many clubs eh, still want to sign this brother.
 # text_ortho = But e sure sey many, many clubs eh still go want sign dis bros.
-1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=95640|AlignEnd=95906
-2	e	im	PRON	_	_	3	subj:expl	_	AlignBegin=95906|AlignEnd=96172
+1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=95640|AlignEnd=95906
+2	e	im	PRON	_	_	3	subj	_	AlignBegin=95906|AlignEnd=96172
 3	sure	sure	ADJ	_	_	0	root	_	AlignBegin=96172|AlignEnd=96438
-4	sey	sey	SCONJ	_	_	3	comp:obj@agent	_	AlignBegin=96438|AlignEnd=96704
+4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=96438|AlignEnd=96704
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=96704|AlignEnd=96704
 6	many	many	ADJ	_	_	10	mod	_	AlignBegin=96704|AlignEnd=96971
 7	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=96971|AlignEnd=96971
 8	many	many	ADJ	_	_	6	compound:redup	_	AlignBegin=96971|AlignEnd=97237
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=97237|AlignEnd=97237
 10	clubs	clubs	NOUN	_	_	13	subj	_	AlignBegin=97237|AlignEnd=97503
-11	eh	eh	INTJ	_	_	10	discourse	_	AlignBegin=97503|AlignEnd=97769
+11	eh	eh	INTJ	_	_	13	discourse	_	AlignBegin=97503|AlignEnd=97769
 12	still	still	ADV	_	_	13	mod	_	AlignBegin=97769|AlignEnd=98035
 13	go	go	AUX	_	_	4	comp:obj	_	AlignBegin=98035|AlignEnd=98302
 14	want	want	VERB	_	_	13	comp:aux	_	AlignBegin=98302|AlignEnd=98568
@@ -620,17 +620,17 @@
 # text_en = From MFM football club of Nigeria...
 # text_ortho = From eh eh eh, from MFM Football Club of Nigeria...
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=99744|AlignEnd=99744
-2	from	from	ADP	_	_	0	root:scrap	_	AlignBegin=99744|AlignEnd=100189
-3	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=100189|AlignEnd=100635
-4	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=100635|AlignEnd=101080
+2	from	from	ADP	_	_	0	root@scrap	_	AlignBegin=99744|AlignEnd=100189
+3	eh	eh	INTJ	_	_	2	discourse	_	AlignBegin=100189|AlignEnd=100635
+4	eh	eh	INTJ	_	_	2	discourse	_	AlignBegin=100635|AlignEnd=101080
 5	eh	eh	INTJ	_	_	2	discourse	_	AlignBegin=101080|AlignEnd=101526
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=101526|AlignEnd=101526
 7	from	from	ADP	_	_	2	conj:dicto	_	AlignBegin=101526|AlignEnd=101972
-8	MFM	MFM	PROPN	_	_	7	comp:obj	_	AlignBegin=101972|AlignEnd=102417
-9	Football	Football	NOUN	_	_	8	flat	_	AlignBegin=102417|AlignEnd=102863
-10	Club	Club	NOUN	_	_	9	flat	_	AlignBegin=102863|AlignEnd=103308
-11	of	of	ADP	_	_	10	flat	_	AlignBegin=103308|AlignEnd=103754
-12	Nigeria	Nigeria	PROPN	_	_	11	flat	_	AlignBegin=103754|AlignEnd=104200
+8	MFM	MFM	PROPN	_	_	10	compound	_	AlignBegin=101972|AlignEnd=102417
+9	Football	Football	NOUN	_	_	10	compound	_	AlignBegin=102417|AlignEnd=102863
+10	Club	Club	NOUN	_	_	7	comp:obj	_	AlignBegin=102863|AlignEnd=103308
+11	of	of	ADP	_	_	10	mod	_	AlignBegin=103308|AlignEnd=103754
+12	Nigeria	Nigeria	PROPN	_	_	11	comp:obj	_	AlignBegin=103754|AlignEnd=104200
 13	}	}	PUNCT	_	_	2	punct	_	AlignBegin=104200|AlignEnd=104200
 14	&	&	PUNCT	_	_	2	punct	_	AlignBegin=104200|AlignEnd=104200
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=104200|AlignEnd=104200
@@ -645,7 +645,7 @@
 3	go	go	AUX	_	_	0	root	_	AlignBegin=104785|AlignEnd=105078
 4	put	put	VERB	_	_	3	comp:aux	_	AlignBegin=105078|AlignEnd=105371
 5	Nigeria	Nigeria	PROPN	_	_	4	comp:obj	_	AlignBegin=105371|AlignEnd=105664
-6	dere	dere	ADV	_	_	4	mod	_	AlignBegin=105664|AlignEnd=105957
+6	dere	dere	ADV	_	_	4	comp:obj	_	AlignBegin=105664|AlignEnd=105957
 7	because	because	SCONJ	_	_	4	mod	_	AlignBegin=105957|AlignEnd=106249
 8	MFM	MFM	PROPN	_	_	10	dislocated	_	AlignBegin=106249|AlignEnd=106542
 9	de	dem	PRON	_	_	10	subj	_	AlignBegin=106542|AlignEnd=106835
@@ -654,10 +654,10 @@
 12	doing	do	VERB	_	_	10	comp:aux	_	AlignBegin=107421|AlignEnd=107714
 13	well	well	ADV	_	_	12	mod	_	AlignBegin=107714|AlignEnd=108006
 14	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=108006|AlignEnd=108299
-15	inside	inside	ADP	_	_	14	comp:obj	_	AlignBegin=108299|AlignEnd=108592
+15	inside	inside	ADP	_	_	14	unk@fixed	_	AlignBegin=108299|AlignEnd=108592
 16	we	we	PRON	_	_	18	mod:poss	_	AlignBegin=108592|AlignEnd=108885
 17	local	local	ADJ	_	_	18	mod	_	AlignBegin=108885|AlignEnd=109178
-18	league	league	NOUN	_	_	14	comp:obj	_	AlignBegin=109178|AlignEnd=109471
+18	league	league	NOUN	_	_	15	comp:obj	_	AlignBegin=109178|AlignEnd=109471
 19	here	here	ADV	_	_	18	mod	_	AlignBegin=109471|AlignEnd=109764
 20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=109764|AlignEnd=109764
 
@@ -666,25 +666,25 @@
 # text = and we go travel all di way to obodo oyibo now > where tins dey happen for inside football //
 # text_en = And we will travel all the way abroad now, where things are happening in football.
 # text_ortho = And we go travel all di way to obodo oyibo now where tins dey happen for inside football.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=110079|AlignEnd=110335
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=110079|AlignEnd=110335
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=110335|AlignEnd=110592
 3	go	go	AUX	_	_	0	root	_	AlignBegin=110592|AlignEnd=110848
 4	travel	travel	VERB	_	_	3	comp:aux	_	AlignBegin=110848|AlignEnd=111105
-5	all	all	DET	_	_	7	mod	_	AlignBegin=111105|AlignEnd=111361
+5	all	all	ADV	_	_	7	mod	_	AlignBegin=111105|AlignEnd=111361
 6	di	di	DET	_	_	7	det	_	AlignBegin=111361|AlignEnd=111618
 7	way	way	NOUN	_	_	4	comp:obj	_	AlignBegin=111618|AlignEnd=111874
-8	to	to	ADP	_	_	4	comp:obl	_	AlignBegin=111874|AlignEnd=112131
+8	to	to	ADP	_	_	7	comp:obl	_	AlignBegin=111874|AlignEnd=112131
 9	obodo	obodo	NOUN	_	_	8	comp:obj	_	AlignBegin=112131|AlignEnd=112388
-10	oyibo	oyibo	NOUN	_	_	9	mod	_	AlignBegin=112388|AlignEnd=112644
+10	oyibo	oyibo	INTJ	_	_	9	mod:emph	_	AlignBegin=112388|AlignEnd=112644
 11	now	now	ADV	_	_	4	mod	_	AlignBegin=112644|AlignEnd=112901
 12	>	>	PUNCT	_	_	13	punct	_	AlignBegin=112901|AlignEnd=112901
-13	where	where	ADV	_	_	3	mod:periph	_	AlignBegin=112901|AlignEnd=113157
+13	where	where	ADV	_	_	7	conj:coord	_	AlignBegin=112901|AlignEnd=113157
 14	tins	tins	NOUN	_	_	15	subj	_	AlignBegin=113157|AlignEnd=113414
-15	dey	dey	AUX	_	_	13	mod:relcl	_	AlignBegin=113414|AlignEnd=113670
+15	dey	dey	AUX	_	_	13	mod@relcl	_	AlignBegin=113414|AlignEnd=113670
 16	happen	happen	VERB	_	_	15	comp:aux	_	AlignBegin=113670|AlignEnd=113927
 17	for	for	ADP	_	_	16	comp:obl	_	AlignBegin=113927|AlignEnd=114183
-18	inside	inside	ADP	_	_	17	comp:obj	_	AlignBegin=114183|AlignEnd=114440
-19	football	football	NOUN	_	_	17	comp:obj	_	AlignBegin=114440|AlignEnd=114697
+18	inside	inside	ADP	_	_	17	unk@fixed	_	AlignBegin=114183|AlignEnd=114440
+19	football	football	NOUN	_	_	18	comp:obj	_	AlignBegin=114440|AlignEnd=114697
 20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=114697|AlignEnd=114697
 
 # sent_id = WAZL_01_Sports-Programme_DG__27
@@ -695,17 +695,17 @@
 1	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=114969|AlignEnd=115236
 2	first	first	ADJ	_	_	7	mod:periph	_	AlignBegin=115236|AlignEnd=115504
 3	of	of	ADP	_	_	2	mod	_	AlignBegin=115504|AlignEnd=115772
-4	all	all	DET	_	_	3	comp:obj	_	AlignBegin=115772|AlignEnd=116040
+4	all	all	ADV	_	_	3	comp:obj@fixed	_	AlignBegin=115772|AlignEnd=116040
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=116040|AlignEnd=116040
 6	we	we	PRON	_	_	7	subj	_	AlignBegin=116040|AlignEnd=116307
 7	go	go	AUX	_	_	0	root	_	AlignBegin=116307|AlignEnd=116575
 8	stop	stop	VERB	_	_	7	comp:aux	_	AlignBegin=116575|AlignEnd=116843
 9	for	for	ADP	_	_	8	comp:obl	_	AlignBegin=116843|AlignEnd=117111
-10	inside	inside	ADP	_	_	9	comp:obj	_	AlignBegin=117111|AlignEnd=117378
-11	Spain	Spain	PROPN	_	_	9	comp:obj	_	AlignBegin=117378|AlignEnd=117646
-12	wey	wey	SCONJ	_	_	11	mod:relcl	_	AlignBegin=117646|AlignEnd=117914
+10	inside	inside	ADP	_	_	9	unk@fixed	_	AlignBegin=117111|AlignEnd=117378
+11	Spain	Spain	PROPN	_	_	10	comp:obj	_	AlignBegin=117378|AlignEnd=117646
+12	wey	wey	SCONJ	_	_	8	mod	_	AlignBegin=117646|AlignEnd=117914
 13	di	di	DET	_	_	15	det	_	AlignBegin=117914|AlignEnd=118182
-14	title	title	NOUN	_	_	15	compound	_	AlignBegin=118182|AlignEnd=118450
+14	title	title	NOUN	_	_	15	mod	_	AlignBegin=118182|AlignEnd=118450
 15	race	race	NOUN	_	_	16	subj	_	AlignBegin=118450|AlignEnd=118717
 16	dey	dey	VERB	_	_	12	comp:obj	_	AlignBegin=118717|AlignEnd=118985
 17	{	{	PUNCT	_	_	18	punct	_	AlignBegin=118985|AlignEnd=118985
@@ -713,7 +713,7 @@
 19	|r	|r	PUNCT	_	_	20	punct	_	AlignBegin=119253|AlignEnd=119253
 20	very	very	ADV	_	_	18	compound:redup	_	AlignBegin=119253|AlignEnd=119521
 21	|r	|r	PUNCT	_	_	22	punct	_	AlignBegin=119521|AlignEnd=119521
-22	very	very	ADV	_	_	20	compound:redup	_	AlignBegin=119521|AlignEnd=119788
+22	very	very	ADV	_	_	18	compound:redup	_	AlignBegin=119521|AlignEnd=119788
 23	|r	|r	PUNCT	_	_	24	punct	_	AlignBegin=119788|AlignEnd=119788
 24	very	very	ADV	_	_	22	compound:redup	_	AlignBegin=119788|AlignEnd=120056
 25	|r	|r	PUNCT	_	_	26	punct	_	AlignBegin=120056|AlignEnd=120056
@@ -728,13 +728,13 @@
 # text = because { Real Madrid |c and Barcelona } de no gree for demsef //
 # text_en = Because Real Madrid and Barcelona, they didn't agree for themselves.
 # text_ortho = Because Real Madrid, and Barcelona de no gree for demsef.
-1	because	because	SCONJ	_	_	11	discourse	_	AlignBegin=120860|AlignEnd=121090
+1	because	because	SCONJ	_	_	11	cc	_	AlignBegin=120860|AlignEnd=121090
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=121090|AlignEnd=121090
 3	Real	Real	ADJ	_	_	11	dislocated	_	AlignBegin=121090|AlignEnd=121320
 4	Madrid	Madrid	PROPN	_	_	3	flat	_	AlignBegin=121320|AlignEnd=121550
 5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=121550|AlignEnd=121550
 6	and	and	CCONJ	_	_	7	cc	_	AlignBegin=121550|AlignEnd=121780
-7	Barcelona	Barcelona	PROPN	_	_	4	conj:coord	_	AlignBegin=121780|AlignEnd=122010
+7	Barcelona	Barcelona	PROPN	_	_	3	conj:coord	_	AlignBegin=121780|AlignEnd=122010
 8	}	}	PUNCT	_	_	3	punct	_	AlignBegin=122010|AlignEnd=122010
 9	de	dem	PRON	_	_	11	subj	_	AlignBegin=122010|AlignEnd=122240
 10	no	no	PART	_	_	11	mod	_	AlignBegin=122240|AlignEnd=122470
@@ -755,7 +755,7 @@
 5	dem	dem	PRON	_	_	7	mod:poss	_	AlignBegin=124720|AlignEnd=125042
 6	home	home	ADJ	_	_	7	mod	_	AlignBegin=125042|AlignEnd=125364
 7	match	match	NOUN	_	_	3	comp:obj	_	AlignBegin=125364|AlignEnd=125686
-8	against	against	ADP	_	_	3	comp:obl	_	AlignBegin=125686|AlignEnd=126008
+8	against	against	ADP	_	_	7	mod	_	AlignBegin=125686|AlignEnd=126008
 9	Villareal	Villareal	PROPN	_	_	8	comp:obj	_	AlignBegin=126008|AlignEnd=126330
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=126330|AlignEnd=126330
 
@@ -771,8 +771,8 @@
 5	small	small	ADJ	_	_	6	mod	_	AlignBegin=127341|AlignEnd=127593
 6	children	children	NOUN	_	_	4	comp:obj	_	AlignBegin=127593|AlignEnd=127846
 7	>	>	PUNCT	_	_	8	punct	_	AlignBegin=127846|AlignEnd=127846
-8	four	four	NUM	_	_	2	dislocated	_	AlignBegin=127846|AlignEnd=128099
-9	one	one	NUM	_	_	8	flat	_	AlignBegin=128099|AlignEnd=128352
+8	four	four	NUM	_	_	2	comp:obj	_	AlignBegin=127846|AlignEnd=128099
+9	one	one	NUM	_	_	8	conj:coord	_	AlignBegin=128099|AlignEnd=128352
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=128352|AlignEnd=128352
 
 # sent_id = WAZL_01_Sports-Programme_DG__31
@@ -781,10 +781,10 @@
 # text_en = Eh, but Real Madrid looked at them and said, you all are not serious.
 # text_ortho = Eh but Real Madrid look dem talk sey, una no serious,
 1	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=128675|AlignEnd=128890
-2	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=128890|AlignEnd=129106
-3	Real	Real	ADJ	_	_	5	mod:periph	_	AlignBegin=129106|AlignEnd=129322
+2	but	but	CCONJ	_	_	7	cc	_	AlignBegin=128890|AlignEnd=129106
+3	Real	Real	ADJ	_	_	5	mod	_	AlignBegin=129106|AlignEnd=129322
 4	Madrid	Madrid	PROPN	_	_	3	flat	_	AlignBegin=129322|AlignEnd=129538
-5	look	look	VERB	_	_	7	parataxis:discourse	_	AlignBegin=129538|AlignEnd=129754
+5	look	look	VERB	_	_	7	subj	_	AlignBegin=129538|AlignEnd=129754
 6	dem	dem	PRON	_	_	7	subj	_	AlignBegin=129754|AlignEnd=129970
 7	talk	talk	VERB	_	_	0	root	_	AlignBegin=129970|AlignEnd=130186
 8	sey	sey	SCONJ	_	_	7	comp:obj	_	AlignBegin=130186|AlignEnd=130402
@@ -800,7 +800,7 @@
 # text_en = Anything you can do, we can do better.
 # text_ortho = Anytin wey una go fit do, we go fit do better,
 1	anytin	anytin	PRON	_	_	9	dislocated	_	AlignBegin=131050|AlignEnd=131222
-2	wey	wey	SCONJ	_	_	1	mod:relcl	_	AlignBegin=131222|AlignEnd=131395
+2	wey	wey	SCONJ	_	_	1	mod@relcl	_	AlignBegin=131222|AlignEnd=131395
 3	una	una	PRON	_	_	4	subj	_	AlignBegin=131395|AlignEnd=131568
 4	go	go	AUX	_	_	2	comp:obj	_	AlignBegin=131568|AlignEnd=131740
 5	fit	fit	AUX	_	_	4	comp:aux	_	AlignBegin=131740|AlignEnd=131913
@@ -840,7 +840,7 @@
 # text = but dat one no matter //= naim Madrid put pressure { onto~ || ontop } dem |c punish dem more more > four zero //
 # text_en = But, that didn't matter; then Madrid put pressure on... them and punished them more, four and zero.
 # text_ortho = But dat one no matter, naim Madrid put pressure onto-... ontop dem, punish dem more more four zero.
-1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=135961|AlignEnd=136237
+1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=135961|AlignEnd=136237
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=136237|AlignEnd=136513
 3	one	one	NOUN	_	_	5	subj	_	AlignBegin=136513|AlignEnd=136789
 4	no	no	PART	_	_	5	mod	_	AlignBegin=136789|AlignEnd=137065
@@ -851,7 +851,7 @@
 9	put	put	VERB	_	_	5	parataxis:conj	_	AlignBegin=137893|AlignEnd=138169
 10	pressure	pressure	NOUN	_	_	9	comp:obj	_	AlignBegin=138169|AlignEnd=138446
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=138446|AlignEnd=138446
-12	onto~	X	X	_	_	9	comp:obl	_	AlignBegin=138446|AlignEnd=138722
+12	onto~	X	ADP	_	_	9	comp:obl	_	AlignBegin=138446|AlignEnd=138722
 13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=138722|AlignEnd=138722
 14	ontop	ontop	ADP	_	_	12	conj:dicto	_	AlignBegin=138722|AlignEnd=138998
 15	}	}	PUNCT	_	_	12	punct	_	AlignBegin=138998|AlignEnd=138998
@@ -861,9 +861,9 @@
 19	dem	dem	PRON	_	_	18	comp:obj	_	AlignBegin=139550|AlignEnd=139826
 20	more	more	ADJ	_	_	21	mod	_	AlignBegin=139826|AlignEnd=140102
 21	more	more	ADJ	_	_	18	mod	_	AlignBegin=140102|AlignEnd=140378
-22	>	>	PUNCT	_	_	23	punct	_	AlignBegin=140378|AlignEnd=140378
-23	four	four	NUM	_	_	18	dislocated	_	AlignBegin=140378|AlignEnd=140654
-24	zero	zero	NUM	_	_	23	flat	_	AlignBegin=140654|AlignEnd=140931
+22	>	>	PUNCT	_	_	24	punct	_	AlignBegin=140378|AlignEnd=140378
+23	four	four	NUM	_	_	18	comp:obj	_	AlignBegin=140378|AlignEnd=140654
+24	zero	zero	NUM	_	_	18	comp:obj	_	AlignBegin=140654|AlignEnd=140931
 25	//	//	PUNCT	_	_	5	punct	_	AlignBegin=140931|AlignEnd=140931
 
 # sent_id = WAZL_01_Sports-Programme_DG__36
@@ -876,9 +876,9 @@
 3	one	one	NOUN	_	_	4	subj	_	AlignBegin=141598|AlignEnd=141840
 4	finish	finish	VERB	_	_	0	root	_	AlignBegin=141840|AlignEnd=142082
 5	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=142082|AlignEnd=142324
-6	inside	inside	ADP	_	_	5	comp:obj	_	AlignBegin=142324|AlignEnd=142566
+6	inside	inside	ADP	_	_	5	unk@fixed	_	AlignBegin=142324|AlignEnd=142566
 7	Granada	Granada	PROPN	_	_	8	compound	_	AlignBegin=142566|AlignEnd=142808
-8	house	house	NOUN	_	_	5	comp:obj	_	AlignBegin=142808|AlignEnd=143050
+8	house	house	NOUN	_	_	6	comp:obj	_	AlignBegin=142808|AlignEnd=143050
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=143050|AlignEnd=143050
 
 # sent_id = WAZL_01_Sports-Programme_DG__37
@@ -894,17 +894,17 @@
 6	di	di	DET	_	_	7	det	_	AlignBegin=144252|AlignEnd=144492
 7	table	table	NOUN	_	_	5	comp:obj	_	AlignBegin=144492|AlignEnd=144732
 8	right	right	ADV	_	_	9	mod	_	AlignBegin=144732|AlignEnd=144973
-9	about	about	ADP	_	_	14	mod:periph	_	AlignBegin=144973|AlignEnd=145213
+9	about	about	ADP	_	_	2	mod	_	AlignBegin=144973|AlignEnd=145213
 10	now	now	ADV	_	_	9	comp:obj	_	AlignBegin=145213|AlignEnd=145454
 11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=145454|AlignEnd=145454
 12	Barcelona	Barcelona	PROPN	_	_	14	subj	_	AlignBegin=145454|AlignEnd=145694
 13	still	still	ADV	_	_	14	mod	_	AlignBegin=145694|AlignEnd=145935
 14	sidown	sidown	VERB	_	_	0	root	_	AlignBegin=145935|AlignEnd=146175
-15	jeje	jeje	NOUN	_	_	14	comp:obj	_	AlignBegin=146175|AlignEnd=146415
+15	jeje	jeje	ADJ	_	_	14	mod	_	AlignBegin=146175|AlignEnd=146415
 16	on	on	ADP	_	_	14	comp:obl	_	AlignBegin=146415|AlignEnd=146656
-17	top	top	NOUN	_	_	16	comp:obj	_	AlignBegin=146656|AlignEnd=146896
+17	top	top	NOUN	_	_	16	comp:obj@fixed	_	AlignBegin=146656|AlignEnd=146896
 18	eh	eh	INTJ	_	_	19	discourse	_	AlignBegin=146896|AlignEnd=147137
-19	wit	wit	ADP	_	_	15	mod	_	AlignBegin=147137|AlignEnd=147377
+19	wit	wit	ADP	_	_	14	mod	_	AlignBegin=147137|AlignEnd=147377
 20	di	di	DET	_	_	22	det	_	AlignBegin=147377|AlignEnd=147617
 21	same	same	ADJ	_	_	22	mod	_	AlignBegin=147617|AlignEnd=147858
 22	point	point	NOUN	_	_	19	comp:obj	_	AlignBegin=147858|AlignEnd=148098
@@ -918,8 +918,8 @@
 # text = but Real Madrid still get one game to play |c and de don put date ontop dat match //
 # text_en = But Real Madrid still have one game to play and they have fixed a date for the match.
 # text_ortho = But Real Madrid still get one game to play, and de don put date ontop dat match,
-1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=148820|AlignEnd=149064
-2	Real	Real	ADJ	_	_	5	subj	_	AlignBegin=149064|AlignEnd=149309
+1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=148820|AlignEnd=149064
+2	Real	Real	PROPN	_	_	5	subj	_	AlignBegin=149064|AlignEnd=149309
 3	Madrid	Madrid	PROPN	_	_	2	flat	_	AlignBegin=149309|AlignEnd=149554
 4	still	still	ADV	_	_	5	mod	_	AlignBegin=149554|AlignEnd=149798
 5	get	get	VERB	_	_	0	root	_	AlignBegin=149798|AlignEnd=150043
@@ -963,7 +963,7 @@
 # text = and dat match na against Celta Vigo //
 # text_en = And that match is against Celta Vigo.
 # text_ortho = And dat match na against Celta Vigo.
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=155230|AlignEnd=155604
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=155230|AlignEnd=155604
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=155604|AlignEnd=155978
 3	match	match	NOUN	_	_	4	subj	_	AlignBegin=155978|AlignEnd=156352
 4	na	na	PART	_	_	0	root	_	AlignBegin=156352|AlignEnd=156726
@@ -981,8 +981,8 @@
 2	oda	oda	ADJ	_	_	3	mod	_	AlignBegin=158395|AlignEnd=158662
 3	results	results	NOUN	_	_	9	dislocated	_	AlignBegin=158662|AlignEnd=158929
 4	for	for	ADP	_	_	3	mod	_	AlignBegin=158929|AlignEnd=159195
-5	inside	inside	ADP	_	_	4	comp:obj	_	AlignBegin=159195|AlignEnd=159462
-6	Spain	Spain	PROPN	_	_	4	comp:obj	_	AlignBegin=159462|AlignEnd=159729
+5	inside	inside	ADP	_	_	4	unk@fixed	_	AlignBegin=159195|AlignEnd=159462
+6	Spain	Spain	PROPN	_	_	5	comp:obj	_	AlignBegin=159462|AlignEnd=159729
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=159729|AlignEnd=159729
 8	we	we	PRON	_	_	9	subj	_	AlignBegin=159729|AlignEnd=159996
 9	know	know	VERB	_	_	0	root	_	AlignBegin=159996|AlignEnd=160262
@@ -992,9 +992,9 @@
 13	Madrid	Madrid	PROPN	_	_	12	flat	_	AlignBegin=160796|AlignEnd=161063
 14	beat	beat	VERB	_	_	10	comp:obj	_	AlignBegin=161063|AlignEnd=161329
 15	Eibar	Eibar	PROPN	_	_	14	comp:obj	_	AlignBegin=161329|AlignEnd=161596
-16	>	>	PUNCT	_	_	17	punct	_	AlignBegin=161596|AlignEnd=161596
-17	one	one	NUM	_	_	14	dislocated	_	AlignBegin=161596|AlignEnd=161863
-18	zero	zero	NUM	_	_	17	flat	_	AlignBegin=161863|AlignEnd=162130
+16	>	>	PUNCT	_	_	14	punct	_	AlignBegin=161596|AlignEnd=161596
+17	one	one	NUM	_	_	14	comp:obj	_	AlignBegin=161596|AlignEnd=161863
+18	zero	zero	NUM	_	_	14	conj:coord	_	AlignBegin=161863|AlignEnd=162130
 19	]	]	PUNCT	_	_	14	punct	_	AlignBegin=162130|AlignEnd=162130
 20	//	//	PUNCT	_	_	9	punct	_	AlignBegin=162130|AlignEnd=162130
 
@@ -1003,19 +1003,19 @@
 # text = and also < ehm Malaga punish Celta Vigo demselves > three nill //
 # text_en = And also, em Malaga punished Celta Vigo themselves, Three to nil.
 # text_ortho = And also, ehm Malaga punish Celta Vigo demselves three nill.
-1	and	and	CCONJ	_	_	6	discourse	_	AlignBegin=162130|AlignEnd=162680
-2	also	also	ADV	_	_	6	mod:periph	_	AlignBegin=162680|AlignEnd=163231
+1	and	and	CCONJ	_	_	12	cc	_	AlignBegin=162130|AlignEnd=162680
+2	also	also	ADV	_	_	12	mod:periph	_	AlignBegin=162680|AlignEnd=163231
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=163231|AlignEnd=163231
-4	ehm	ehm	INTJ	_	_	6	discourse	_	AlignBegin=163231|AlignEnd=163781
-5	Malaga	Malaga	PROPN	_	_	6	subj	_	AlignBegin=163781|AlignEnd=164332
-6	punish	punish	VERB	_	_	0	root	_	AlignBegin=164332|AlignEnd=164883
-7	Celta	Celta	PROPN	_	_	6	comp:obj	_	AlignBegin=164883|AlignEnd=165433
+4	ehm	ehm	INTJ	_	_	12	discourse	_	AlignBegin=163231|AlignEnd=163781
+5	Malaga	Malaga	PROPN	_	_	7	mod	_	AlignBegin=163781|AlignEnd=164332
+6	punish	punish	ADJ	_	_	7	mod	_	AlignBegin=164332|AlignEnd=164883
+7	Celta	Celta	PROPN	_	_	12	dislocated	_	AlignBegin=164883|AlignEnd=165433
 8	Vigo	Vigo	PROPN	_	_	7	flat	_	AlignBegin=165433|AlignEnd=165984
-9	demselves	demselves	PRON	_	_	8	mod:poss	_	AlignBegin=165984|AlignEnd=166534
+9	demselves	demselves	PRON	_	_	12	mod	_	AlignBegin=165984|AlignEnd=166534
 10	>	>	PUNCT	_	_	12	punct	_	AlignBegin=166534|AlignEnd=166534
-11	three	three	NUM	_	_	12	subj	_	AlignBegin=166534|AlignEnd=167085
-12	nill	nill	VERB	_	_	6	parataxis:obj	_	AlignBegin=167085|AlignEnd=167636
-13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=167636|AlignEnd=167636
+11	three	three	NUM	_	_	12	comp:pred	_	AlignBegin=166534|AlignEnd=167085
+12	nill	nill	VERB	_	_	0	root	_	AlignBegin=167085|AlignEnd=167636
+13	//	//	PUNCT	_	_	12	punct	_	AlignBegin=167636|AlignEnd=167636
 
 # sent_id = WAZL_01_Sports-Programme_DG__43
 # speaker_id = Sp308
@@ -1023,7 +1023,7 @@
 # text_en = Alright eh, just strolling inside the studio, someone from our sister station, Nigerian Info, eh, Nnamdi Ekugba, also will join me in the broadcast.
 # text_ortho = Alright eh just strolling inside the studio from our sister station, Nigerian Info, eh Nnamdi Ekugba also joins me inside the broadcast,
 1	alright	alright	ADV	_	_	22	discourse	_	AlignBegin=168422|AlignEnd=168782|Lang=en
-2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=168782|AlignEnd=169142|Lang=en
+2	eh	eh	INTJ	_	_	22	discourse	_	AlignBegin=168782|AlignEnd=169142|Lang=en
 3	just	just	ADV	_	_	4	mod	_	AlignBegin=169142|AlignEnd=169503|Lang=en
 4	strolling	stroll	VERB	_	_	22	mod:periph	_	AlignBegin=169503|AlignEnd=169863|Lang=en
 5	inside	inside	ADP	_	_	4	comp:obl	_	AlignBegin=169863|AlignEnd=170223|Lang=en
@@ -1035,7 +1035,7 @@
 11	sister	sister	NOUN	_	_	12	mod	_	AlignBegin=171665|AlignEnd=172025|Lang=en
 12	station	station	NOUN	_	_	8	comp:obj	_	AlignBegin=172025|AlignEnd=172386|Lang=en
 13	|a	|a	PUNCT	_	_	14	punct	_	AlignBegin=172386|AlignEnd=172386
-14	Nigerian	Nigerian	ADJ	_	_	12	conj:appos	_	AlignBegin=172386|AlignEnd=172746|Lang=en
+14	Nigerian	Nigerian	PROPN	_	_	12	conj:appos	_	AlignBegin=172386|AlignEnd=172746|Lang=en
 15	Info	Info	NOUN	_	_	14	flat	_	AlignBegin=172746|AlignEnd=173106|Lang=en
 16	}	}	PUNCT	_	_	12	punct	_	AlignBegin=173106|AlignEnd=173106
 17	<	<	PUNCT	_	_	4	punct	_	AlignBegin=173106|AlignEnd=173106
@@ -1045,7 +1045,7 @@
 21	also	also	ADV	_	_	22	mod	_	AlignBegin=174187|AlignEnd=174548|Lang=en
 22	joins	joins	VERB	_	_	0	root	_	AlignBegin=174548|AlignEnd=174908|Lang=en
 23	me	me	PRON	_	_	22	comp:obj	_	AlignBegin=174908|AlignEnd=175268|Lang=en
-24	inside	inside	ADP	_	_	22	comp:obl	_	AlignBegin=175268|AlignEnd=175629|Lang=en
+24	inside	inside	ADP	_	_	22	mod	_	AlignBegin=175268|AlignEnd=175629|Lang=en
 25	the	the	DET	_	_	26	det	_	AlignBegin=175629|AlignEnd=175989|Lang=en
 26	broadcast	broadcast	NOUN	_	_	24	comp:obj	_	AlignBegin=175989|AlignEnd=176350|Lang=en
 27	//	//	PUNCT	_	_	22	punct	_	AlignBegin=176350|AlignEnd=176350
@@ -1164,7 +1164,7 @@
 # text = but eh I bin dey talk about eh [ Spanish eh League ] eh for { di t~ || eh battle } for di { t~ || first } position //
 # text_en = But eh, I had been talking about the Spanish League, eh the t... eh battle for the t...first position.
 # text_ortho = But eh I bin dey talk about eh Spanish eh League eh for di t-... eh battle for di t-... first position.
-1	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=186420|AlignEnd=186691
+1	but	but	CCONJ	_	_	4	cc	_	AlignBegin=186420|AlignEnd=186691
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=186691|AlignEnd=186963
 3	I	I	PRON	_	_	4	subj	_	AlignBegin=186963|AlignEnd=187235
 4	bin	bin	AUX	_	_	0	root	_	AlignBegin=187235|AlignEnd=187506
@@ -1172,21 +1172,21 @@
 6	talk	talk	VERB	_	_	5	comp:aux	_	AlignBegin=187778|AlignEnd=188050
 7	about	about	ADP	_	_	6	comp:obl	_	AlignBegin=188050|AlignEnd=188321
 8	eh	eh	INTJ	_	_	12	discourse	_	AlignBegin=188321|AlignEnd=188593
-9	[	[	PUNCT	_	_	12	punct	_	AlignBegin=188593|AlignEnd=188593
-10	Spanish	Spanish	ADJ	_	_	7	comp:obj	_	AlignBegin=188593|AlignEnd=188865
-11	eh	eh	INTJ	_	_	12	discourse	_	AlignBegin=188865|AlignEnd=189136
-12	League	League	PROPN	_	_	10	flat	_	AlignBegin=189136|AlignEnd=189408
+9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=188593|AlignEnd=188593
+10	Spanish	Spanish	ADJ	_	_	12	mod	_	AlignBegin=188593|AlignEnd=188865
+11	eh	eh	INTJ	_	_	10	discourse	_	AlignBegin=188865|AlignEnd=189136
+12	League	League	NOUN	_	_	7	comp:obj	_	AlignBegin=189136|AlignEnd=189408
 13	]	]	PUNCT	_	_	10	punct	_	AlignBegin=189408|AlignEnd=189408
 14	eh	eh	INTJ	_	_	15	discourse	_	AlignBegin=189408|AlignEnd=189680
-15	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=189680|AlignEnd=189951
+15	for	for	ADP	_	_	6	mod	_	AlignBegin=189680|AlignEnd=189951
 16	{	{	PUNCT	_	_	18	punct	_	AlignBegin=189951|AlignEnd=189951
 17	di	di	DET	_	_	18	det	_	AlignBegin=189951|AlignEnd=190223
 18	t~	X	X	_	_	15	comp:obj	_	AlignBegin=190223|AlignEnd=190495
 19	||	||	PUNCT	_	_	21	punct	_	AlignBegin=190495|AlignEnd=190495
 20	eh	eh	INTJ	_	_	21	discourse	_	AlignBegin=190495|AlignEnd=190766
-21	battle	battle	NOUN	_	_	18	conj:dicto	_	AlignBegin=190766|AlignEnd=191038
+21	battle	battle	VERB	_	_	18	conj:dicto	_	AlignBegin=190766|AlignEnd=191038
 22	}	}	PUNCT	_	_	18	punct	_	AlignBegin=191038|AlignEnd=191038
-23	for	for	ADP	_	_	21	mod	_	AlignBegin=191038|AlignEnd=191310
+23	for	for	ADP	_	_	21	comp:obl	_	AlignBegin=191038|AlignEnd=191310
 24	di	di	DET	_	_	30	det	_	AlignBegin=191310|AlignEnd=191581
 25	{	{	PUNCT	_	_	26	punct	_	AlignBegin=191581|AlignEnd=191581
 26	t~	X	X	_	_	30	mod	_	AlignBegin=191581|AlignEnd=191853
@@ -1210,7 +1210,7 @@
 7	de	dem	PRON	_	_	8	subj	_	AlignBegin=193480|AlignEnd=193689
 8	don	don	AUX	_	_	0	root	_	AlignBegin=193689|AlignEnd=193898
 9	dey	dey	VERB	_	_	8	comp:aux	_	AlignBegin=193898|AlignEnd=194106
-10	used	used	VERB	_	_	9	comp:obj@x	_	AlignBegin=194106|AlignEnd=194315
+10	used	used	ADJ	_	_	9	comp:pred	_	AlignBegin=194106|AlignEnd=194315
 11	to	to	ADP	_	_	10	comp:obl	_	AlignBegin=194315|AlignEnd=194524
 12	di	di	DET	_	_	14	det	_	AlignBegin=194524|AlignEnd=194732
 13	first	first	ADJ	_	_	14	mod	_	AlignBegin=194732|AlignEnd=194941
@@ -1222,14 +1222,14 @@
 # text = but Madrid < eh de dey frown face for dem //
 # text_en = But Madrid, eh, they are frowning their faces at them.
 # text_ortho = But Madrid, eh de dey frown face for dem.
-1	but	but	CCONJ	_	_	6	discourse	_	AlignBegin=195150|AlignEnd=195387
+1	but	but	CCONJ	_	_	6	cc	_	AlignBegin=195150|AlignEnd=195387
 2	Madrid	Madrid	PROPN	_	_	6	dislocated	_	AlignBegin=195387|AlignEnd=195625
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=195625|AlignEnd=195625
 4	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=195625|AlignEnd=195863
 5	de	dem	PRON	_	_	6	subj	_	AlignBegin=195863|AlignEnd=196101
 6	dey	dey	AUX	_	_	0	root	_	AlignBegin=196101|AlignEnd=196338
 7	frown	frown	VERB	_	_	6	comp:aux	_	AlignBegin=196338|AlignEnd=196576
-8	face	face	NOUN	_	_	7	comp:obj	_	AlignBegin=196576|AlignEnd=196814
+8	face	face	NOUN	_	_	7	comp:obj@lvc	_	AlignBegin=196576|AlignEnd=196814
 9	for	for	ADP	_	_	7	comp:obl	_	AlignBegin=196814|AlignEnd=197052
 10	dem	dem	PRON	_	_	9	comp:obj	_	AlignBegin=197052|AlignEnd=197290
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=197290|AlignEnd=197290
@@ -1243,14 +1243,14 @@
 2	time	time	NOUN	_	_	6	mod:periph	_	AlignBegin=197439|AlignEnd=197589
 3	around	around	ADP	_	_	2	mod	_	AlignBegin=197589|AlignEnd=197739
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=197739|AlignEnd=197739
-5	e	im	PRON	_	_	6	subj:expl	_	AlignBegin=197739|AlignEnd=197888
+5	e	im	PRON	_	_	6	subj@expl	_	AlignBegin=197739|AlignEnd=197888
 6	be	be	VERB	_	_	0	root	_	AlignBegin=197888|AlignEnd=198038
-7	like	like	ADP	_	_	6	comp:obj@agent	_	AlignBegin=198038|AlignEnd=198188
-8	sey	sey	SCONJ	_	_	7	comp:obj	_	AlignBegin=198188|AlignEnd=198337
+7	like	like	ADP	_	_	6	comp:pred	_	AlignBegin=198038|AlignEnd=198188
+8	sey	sey	SCONJ	_	_	7	comp:obj@fixed	_	AlignBegin=198188|AlignEnd=198337
 9	[	[	PUNCT	_	_	12	punct	_	AlignBegin=198337|AlignEnd=198337
 10	dem	dem	PRON	_	_	12	subj	_	AlignBegin=198337|AlignEnd=198487
 11	no	no	PART	_	_	12	mod	_	AlignBegin=198487|AlignEnd=198637
-12	gree	gree	VERB	_	_	7	comp:obj	_	AlignBegin=198637|AlignEnd=198786
+12	gree	gree	VERB	_	_	8	comp:obj	_	AlignBegin=198637|AlignEnd=198786
 13	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=198786|AlignEnd=198936
 14	dem	dem	PRON	_	_	13	comp:obj	_	AlignBegin=198936|AlignEnd=199086
 15	]	]	PUNCT	_	_	12	punct	_	AlignBegin=199086|AlignEnd=199086
@@ -1287,8 +1287,8 @@
 12	[	[	PUNCT	_	_	13	punct	_	AlignBegin=202234|AlignEnd=202234
 13	wetin	wetin	PRON	_	_	11	comp:obj	_	AlignBegin=202234|AlignEnd=202513
 14	dem	dem	PRON	_	_	15	subj	_	AlignBegin=202513|AlignEnd=202792
-15	do	do	VERB	_	_	13	mod:relcl	_	AlignBegin=202792|AlignEnd=203072
-16	over	over	ADP	_	_	15	comp:obl	_	AlignBegin=203072|AlignEnd=203351
+15	do	do	VERB	_	_	13	mod@relcl	_	AlignBegin=202792|AlignEnd=203072
+16	over	over	ADP	_	_	15	mod	_	AlignBegin=203072|AlignEnd=203351
 17	di	di	DET	_	_	18	det	_	AlignBegin=203351|AlignEnd=203630
 18	weekend	weekend	NOUN	_	_	16	comp:obj	_	AlignBegin=203630|AlignEnd=203910
 19	]	]	PUNCT	_	_	13	punct	_	AlignBegin=203910|AlignEnd=203910
@@ -1303,8 +1303,8 @@
 2	say	say	VERB	_	_	0	root	_	AlignBegin=204130|AlignEnd=204351
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=204351|AlignEnd=204351
 4	na	na	PART	_	_	2	parataxis:obj	_	AlignBegin=204351|AlignEnd=204572
-5	four	four	NUM	_	_	4	comp:pred	_	AlignBegin=204572|AlignEnd=204793
-6	nil	nil	INTJ	_	_	4	comp:pred	_	AlignBegin=204793|AlignEnd=205014
+5	four	four	NUM	_	_	6	det:num	_	AlignBegin=204572|AlignEnd=204793
+6	nil	nil	NOUN	_	_	4	comp:pred	_	AlignBegin=204793|AlignEnd=205014
 7	]	]	PUNCT	_	_	4	punct	_	AlignBegin=205014|AlignEnd=205014
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=205014|AlignEnd=205014
 
@@ -1321,7 +1321,7 @@
 # text = but de bring Benzema come inside //= na dere >+ wahala take dey //
 # text_en = But they brought in Benzema; that's where the problem is.
 # text_ortho = But de bring Benzema come inside, na dere wahala take dey.
-1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=205568|AlignEnd=205777
+1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=205568|AlignEnd=205777
 2	de	dem	PRON	_	_	3	subj	_	AlignBegin=205777|AlignEnd=205986
 3	bring	bring	VERB	_	_	0	root	_	AlignBegin=205986|AlignEnd=206195
 4	Benzema	Benzema	PROPN	_	_	3	comp:obj	_	AlignBegin=206195|AlignEnd=206404
@@ -1333,7 +1333,7 @@
 10	>+	>+	PUNCT	_	_	12	punct	_	AlignBegin=207240|AlignEnd=207240
 11	wahala	wahala	NOUN	_	_	12	subj	_	AlignBegin=207240|AlignEnd=207449
 12	take	take	VERB	_	_	8	comp:cleft	_	AlignBegin=207449|AlignEnd=207658
-13	dey	dey	AUX	_	_	12	compound:svc	_	AlignBegin=207658|AlignEnd=207867
+13	dey	dey	VERB	_	_	12	compound:svc	_	AlignBegin=207658|AlignEnd=207867
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=207867|AlignEnd=207867
 
 # sent_id = WAZL_01_Sports-Programme_DG__61
@@ -1350,11 +1350,11 @@
 # text_en = Ehn, but it was four to nil that one ended.
 # text_ortho = Eh but eh na four nil dat one end,
 1	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=207993|AlignEnd=208170
-2	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=208170|AlignEnd=208347
+2	but	but	CCONJ	_	_	4	cc	_	AlignBegin=208170|AlignEnd=208347
 3	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=208347|AlignEnd=208524
 4	na	na	PART	_	_	0	root	_	AlignBegin=208524|AlignEnd=208701
-5	four	four	NUM	_	_	6	mod:num	_	AlignBegin=208701|AlignEnd=208878
-6	nil	nil	INTJ	_	_	4	comp:pred	_	AlignBegin=208878|AlignEnd=209055
+5	four	four	NUM	_	_	6	det:num	_	AlignBegin=208701|AlignEnd=208878
+6	nil	nil	NOUN	_	_	4	comp:pred	_	AlignBegin=208878|AlignEnd=209055
 7	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=209055|AlignEnd=209055
 8	dat	dat	DET	_	_	9	det	_	AlignBegin=209055|AlignEnd=209232
 9	one	one	NOUN	_	_	10	subj	_	AlignBegin=209232|AlignEnd=209409
@@ -1366,7 +1366,7 @@
 # text = but ehm eh we know sey [ eh Barcelona bin beat { eh || eh } dier own opponents ] //
 # text_en = But em, we know that eh Barcelona had beaten their eh...eh own opponents.
 # text_ortho = But ehm eh we know sey eh Barcelona bin beat eh, eh dier own opponents.
-1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=209587|AlignEnd=209887
+1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=209587|AlignEnd=209887
 2	ehm	ehm	INTJ	_	_	5	discourse	_	AlignBegin=209887|AlignEnd=210188
 3	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=210188|AlignEnd=210489
 4	we	we	PRON	_	_	5	subj	_	AlignBegin=210489|AlignEnd=210790
@@ -1393,46 +1393,46 @@
 # text = and eh dier manager dey say [ e be like sey [ dat man wey dem dey call Neymar < sey na dance >+ e dey dance for on top pitch //= eh sey no be football against Villareal ] ] //
 # text_en = Their manager is saying that it seems like that man who they call Neymar, it's dance he is dancing on the pitch; that it's not football against Villareal.
 # text_ortho = And eh dier manager dey say e be like sey dat man wey dem dey call Neymar, sey na dance e dey dance for on top pitch, eh sey no be football against Villareal.
-1	and	and	CCONJ	_	_	5	discourse	_	AlignBegin=214100|AlignEnd=214299
+1	and	and	CCONJ	_	_	5	cc	_	AlignBegin=214100|AlignEnd=214299
 2	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=214299|AlignEnd=214498
-3	dier	dier	NOUN	_	_	4	compound	_	AlignBegin=214498|AlignEnd=214697
+3	dier	dier	PRON	_	_	4	mod:poss	_	AlignBegin=214498|AlignEnd=214697
 4	manager	manager	NOUN	_	_	5	subj	_	AlignBegin=214697|AlignEnd=214897
 5	dey	dey	AUX	_	_	0	root	_	AlignBegin=214897|AlignEnd=215096
 6	say	say	VERB	_	_	5	comp:aux	_	AlignBegin=215096|AlignEnd=215295
 7	[	[	PUNCT	_	_	9	punct	_	AlignBegin=215295|AlignEnd=215295
-8	e	im	PRON	_	_	9	subj:expl	_	AlignBegin=215295|AlignEnd=215494
+8	e	im	PRON	_	_	9	subj@expl	_	AlignBegin=215295|AlignEnd=215494
 9	be	be	VERB	_	_	6	parataxis:obj	_	AlignBegin=215494|AlignEnd=215694
 10	like	like	ADP	_	_	9	comp:pred	_	AlignBegin=215694|AlignEnd=215893
-11	sey	sey	SCONJ	_	_	10	comp:obj	_	AlignBegin=215893|AlignEnd=216092
+11	sey	sey	SCONJ	_	_	10	comp:obj@fixed	_	AlignBegin=215893|AlignEnd=216092
 12	[	[	PUNCT	_	_	22	punct	_	AlignBegin=216092|AlignEnd=216092
 13	dat	dat	DET	_	_	14	det	_	AlignBegin=216092|AlignEnd=216291
 14	man	man	NOUN	_	_	22	dislocated	_	AlignBegin=216291|AlignEnd=216491
-15	wey	wey	SCONJ	_	_	14	mod:relcl	_	AlignBegin=216491|AlignEnd=216690
+15	wey	wey	SCONJ	_	_	14	mod@relcl	_	AlignBegin=216491|AlignEnd=216690
 16	dem	dem	PRON	_	_	17	subj	_	AlignBegin=216690|AlignEnd=216889
 17	dey	dey	AUX	_	_	15	comp:obj	_	AlignBegin=216889|AlignEnd=217088
 18	call	call	VERB	_	_	17	comp:aux	_	AlignBegin=217088|AlignEnd=217288
 19	Neymar	Neymar	PROPN	_	_	18	comp:obj	_	AlignBegin=217288|AlignEnd=217487
 20	<	<	PUNCT	_	_	14	punct	_	AlignBegin=217487|AlignEnd=217487
-21	sey	sey	SCONJ	_	_	22	discourse	_	AlignBegin=217487|AlignEnd=217686
-22	na	na	PART	_	_	10	comp:obj	_	AlignBegin=217686|AlignEnd=217886
+21	sey	sey	SCONJ	_	_	22	cc	_	AlignBegin=217487|AlignEnd=217686
+22	na	na	PART	_	_	11	comp:obj	_	AlignBegin=217686|AlignEnd=217886
 23	dance	dance	NOUN	_	_	22	comp:pred	_	AlignBegin=217886|AlignEnd=218085
 24	>+	>+	PUNCT	_	_	26	punct	_	AlignBegin=218085|AlignEnd=218085
 25	e	im	PRON	_	_	26	subj	_	AlignBegin=218085|AlignEnd=218284
 26	dey	dey	AUX	_	_	22	comp:cleft	_	AlignBegin=218284|AlignEnd=218483
 27	dance	dance	VERB	_	_	26	comp:aux	_	AlignBegin=218483|AlignEnd=218683
 28	for	for	ADP	_	_	27	comp:obl	_	AlignBegin=218683|AlignEnd=218882
-29	on	on	ADP	_	_	28	comp:obj	_	AlignBegin=218882|AlignEnd=219081
+29	on	on	ADP	_	_	28	unk@fixed	_	AlignBegin=218882|AlignEnd=219081
 30	top	top	NOUN	_	_	31	compound	_	AlignBegin=219081|AlignEnd=219280
 31	pitch	pitch	NOUN	_	_	29	comp:obj	_	AlignBegin=219280|AlignEnd=219480
 32	//=	//=	PUNCT	_	_	36	punct	_	AlignBegin=219480|AlignEnd=219480
 33	eh	eh	INTJ	_	_	36	discourse	_	AlignBegin=219480|AlignEnd=219679
-34	sey	sey	SCONJ	_	_	36	discourse	_	AlignBegin=219679|AlignEnd=219878
+34	sey	sey	SCONJ	_	_	36	cc	_	AlignBegin=219679|AlignEnd=219878
 35	no	no	PART	_	_	36	mod	_	AlignBegin=219878|AlignEnd=220077
-36	be	be	VERB	_	_	22	parataxis:conj	_	AlignBegin=220077|AlignEnd=220277
+36	be	be	VERB	_	_	26	parataxis:conj	_	AlignBegin=220077|AlignEnd=220277
 37	football	football	NOUN	_	_	36	comp:pred	_	AlignBegin=220277|AlignEnd=220476
 38	against	against	ADP	_	_	37	mod	_	AlignBegin=220476|AlignEnd=220675
 39	Villareal	Villareal	PROPN	_	_	38	comp:obj	_	AlignBegin=220675|AlignEnd=220875
-40	]	]	PUNCT	_	_	9	punct	_	AlignBegin=220875|AlignEnd=220875
+40	]	]	PUNCT	_	_	22	punct	_	AlignBegin=220875|AlignEnd=220875
 41	]	]	PUNCT	_	_	9	punct	_	AlignBegin=220875|AlignEnd=220875
 42	//	//	PUNCT	_	_	5	punct	_	AlignBegin=220875|AlignEnd=220875
 
@@ -1441,7 +1441,7 @@
 # text = sey no be footballer //
 # text_en = Not a footballer.
 # text_ortho = Sey no be footballer.
-1	sey	sey	SCONJ	_	_	3	discourse	_	AlignBegin=219449|AlignEnd=219676
+1	sey	sey	SCONJ	_	_	3	cc	_	AlignBegin=219449|AlignEnd=219676
 2	no	no	PART	_	_	3	mod	_	AlignBegin=219676|AlignEnd=219904
 3	be	be	VERB	_	_	0	root	_	AlignBegin=219904|AlignEnd=220132
 4	footballer	footballer	NOUN	_	_	3	comp:pred	_	AlignBegin=220132|AlignEnd=220360
@@ -1454,7 +1454,7 @@
 # text_ortho = Shey na dance dat man suppose dey dance?
 1	shey	shey	PART	_	_	2	discourse	_	AlignBegin=220875|AlignEnd=221046
 2	na	na	PART	_	_	0	root	_	AlignBegin=221046|AlignEnd=221217
-3	dance	dance	VERB	_	_	2	comp:pred	_	AlignBegin=221217|AlignEnd=221388
+3	dance	dance	NOUN	_	_	2	comp:pred	_	AlignBegin=221217|AlignEnd=221388
 4	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=221388|AlignEnd=221388
 5	dat	dat	DET	_	_	6	det	_	AlignBegin=221388|AlignEnd=221559
 6	man	man	NOUN	_	_	7	subj	_	AlignBegin=221559|AlignEnd=221730
@@ -1468,7 +1468,7 @@
 # text = sey no be sey e go dey play football dis life //
 # text_en = That he shouldn't be playing footbal in this life.
 # text_ortho = Sey no be sey e go dey play football dis life.
-1	sey	sey	SCONJ	_	_	3	discourse	_	AlignBegin=222352|AlignEnd=222493
+1	sey	sey	SCONJ	_	_	3	cc	_	AlignBegin=222352|AlignEnd=222493
 2	no	no	PART	_	_	3	mod	_	AlignBegin=222493|AlignEnd=222635
 3	be	be	VERB	_	_	0	root	_	AlignBegin=222635|AlignEnd=222777
 4	sey	sey	SCONJ	_	_	3	comp:pred	_	AlignBegin=222777|AlignEnd=222918
@@ -1487,7 +1487,7 @@
 # text_en = Eh, but eh, we know that most of them are saying, "ah, this man, you don't have respect; you are just dribbling your uncle everywhere."
 # text_ortho = Eh but eh we know sey most of dem dey say aha dis man you no get respect, you just dey dribble your uncle up and down,
 1	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=224079|AlignEnd=224259
-2	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=224259|AlignEnd=224439
+2	but	but	CCONJ	_	_	5	cc	_	AlignBegin=224259|AlignEnd=224439
 3	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=224439|AlignEnd=224620
 4	we	we	PRON	_	_	5	subj	_	AlignBegin=224620|AlignEnd=224800
 5	know	know	VERB	_	_	0	root	_	AlignBegin=224800|AlignEnd=224981
@@ -1526,7 +1526,7 @@
 # text_en = Eh, but no, it's not so.
 # text_ortho = Eh but no, eh no be so,
 1	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=228950|AlignEnd=229180
-2	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=229180|AlignEnd=229410
+2	but	but	CCONJ	_	_	7	cc	_	AlignBegin=229180|AlignEnd=229410
 3	no	no	PART	_	_	7	discourse	_	AlignBegin=229410|AlignEnd=229640
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=229640|AlignEnd=229640
 5	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=229640|AlignEnd=229871
@@ -1540,7 +1540,7 @@
 # text = but eh dis one < eh we don see as e take go //= di fight { e go || go } strong till di end //
 # text_en = But eh, this one, eh we have seen the way it has gone; the fight will be...will be strong till the end.
 # text_ortho = But eh dis one, eh we don see as e take go, di fight e go, go strong till di end.
-1	but	but	CCONJ	_	_	8	discourse	_	AlignBegin=230562|AlignEnd=230751
+1	but	but	CCONJ	_	_	8	cc	_	AlignBegin=230562|AlignEnd=230751
 2	eh	eh	INTJ	_	_	8	discourse	_	AlignBegin=230751|AlignEnd=230941
 3	dis	dis	DET	_	_	4	det	_	AlignBegin=230941|AlignEnd=231130
 4	one	one	NOUN	_	_	8	dislocated	_	AlignBegin=231130|AlignEnd=231320
@@ -1573,19 +1573,19 @@
 # text = but we know sey [ { Barce~ || Madrid } get ehm oustanding game ] //
 # text_en = But we know that Barce...Madrid has ehm, outstanding game.
 # text_ortho = But we know sey Barce-... Madrid get ehm oustanding game.
-1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=234544|AlignEnd=234841
+1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=234544|AlignEnd=234841
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=234841|AlignEnd=235139
 3	know	know	VERB	_	_	0	root	_	AlignBegin=235139|AlignEnd=235437
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=235437|AlignEnd=235734
 5	[	[	PUNCT	_	_	11	punct	_	AlignBegin=235734|AlignEnd=235734
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=235734|AlignEnd=235734
-7	Barce~	X	X	_	_	11	subj	_	AlignBegin=235734|AlignEnd=236032
+7	Barce~	X	PROPN	_	_	11	subj	_	AlignBegin=235734|AlignEnd=236032
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=236032|AlignEnd=236032
 9	Madrid	Madrid	PROPN	_	_	7	conj:dicto	_	AlignBegin=236032|AlignEnd=236330
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=236330|AlignEnd=236330
 11	get	get	VERB	_	_	4	comp:obj	_	AlignBegin=236330|AlignEnd=236627
 12	ehm	ehm	INTJ	_	_	14	discourse	_	AlignBegin=236627|AlignEnd=236925
-13	oustanding	oustand	VERB	_	_	14	mod	_	AlignBegin=236925|AlignEnd=237223
+13	oustanding	oustand	VERB	_	_	14	compound	_	AlignBegin=236925|AlignEnd=237223
 14	game	game	NOUN	_	_	11	comp:obj	_	AlignBegin=237223|AlignEnd=237521
 15	]	]	PUNCT	_	_	11	punct	_	AlignBegin=237521|AlignEnd=237521
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=237521|AlignEnd=237521
@@ -1595,7 +1595,7 @@
 # text = and if dem win dat outstanding game < eh de go dey three points above eh Barcelona //
 # text_en = And if they win that outstanding game, eh, they will three points eh above Barcelona.
 # text_ortho = And if dem win dat outstanding game, eh de go dey three points above eh Barcelona.
-1	and	and	CCONJ	_	_	11	discourse	_	AlignBegin=237521|AlignEnd=237730
+1	and	and	CCONJ	_	_	11	cc	_	AlignBegin=237521|AlignEnd=237730
 2	if	if	SCONJ	_	_	11	mod:periph	_	AlignBegin=237730|AlignEnd=237940
 3	dem	dem	PRON	_	_	4	subj	_	AlignBegin=237940|AlignEnd=238149
 4	win	win	VERB	_	_	2	comp:obj	_	AlignBegin=238149|AlignEnd=238359
@@ -1609,7 +1609,7 @@
 12	dey	dey	VERB	_	_	11	comp:aux	_	AlignBegin=239617|AlignEnd=239826
 13	three	three	NUM	_	_	14	det:num	_	AlignBegin=239826|AlignEnd=240036
 14	points	points	NOUN	_	_	12	comp:pred	_	AlignBegin=240036|AlignEnd=240246
-15	above	above	ADP	_	_	12	mod	_	AlignBegin=240246|AlignEnd=240455
+15	above	above	ADP	_	_	12	comp:pred	_	AlignBegin=240246|AlignEnd=240455
 16	eh	eh	INTJ	_	_	17	discourse	_	AlignBegin=240455|AlignEnd=240665
 17	Barcelona	Barcelona	PROPN	_	_	15	comp:obj	_	AlignBegin=240665|AlignEnd=240875
 18	//	//	PUNCT	_	_	11	punct	_	AlignBegin=240875|AlignEnd=240875
@@ -1623,8 +1623,8 @@
 2	go	go	AUX	_	_	0	root	_	AlignBegin=239459|AlignEnd=239720
 3	go	go	VERB	_	_	2	comp:aux	_	AlignBegin=239720|AlignEnd=239982
 4	on	on	ADP	_	_	3	comp:obl	_	AlignBegin=239982|AlignEnd=240243
-5	top	top	NOUN	_	_	4	comp:obj	_	AlignBegin=240243|AlignEnd=240505
-6	of	of	ADP	_	_	5	mod	_	AlignBegin=240505|AlignEnd=240766
+5	top	top	NOUN	_	_	4	comp:obj@fixed	_	AlignBegin=240243|AlignEnd=240505
+6	of	of	ADP	_	_	5	mod@fixed	_	AlignBegin=240505|AlignEnd=240766
 7	di	di	DET	_	_	8	det	_	AlignBegin=240766|AlignEnd=241028
 8	league	league	NOUN	_	_	6	comp:obj	_	AlignBegin=241028|AlignEnd=241289
 9	hm	hm	INTJ	_	_	2	discourse	_	AlignBegin=241289|AlignEnd=241551
@@ -1635,7 +1635,7 @@
 # text = but ehm now < two of dem just dey jam head togeda //= de no go play again until season end //
 # text_en = But em, now, two of them are just knocking horns together; they will not play again until the end of the season.
 # text_ortho = But ehm now, two of dem just dey jam head togeda, de no go play again until season end.
-1	but	but	CCONJ	_	_	9	discourse	_	AlignBegin=240875|AlignEnd=241109
+1	but	but	CCONJ	_	_	9	cc	_	AlignBegin=240875|AlignEnd=241109
 2	ehm	ehm	INTJ	_	_	9	discourse	_	AlignBegin=241109|AlignEnd=241343
 3	now	now	ADV	_	_	9	mod:periph	_	AlignBegin=241343|AlignEnd=241577
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=241577|AlignEnd=241577
@@ -1654,8 +1654,8 @@
 17	play	play	VERB	_	_	16	comp:aux	_	AlignBegin=244152|AlignEnd=244386
 18	again	again	ADV	_	_	17	mod	_	AlignBegin=244386|AlignEnd=244620
 19	until	until	ADP	_	_	17	mod	_	AlignBegin=244620|AlignEnd=244854
-20	season	season	NOUN	_	_	21	subj	_	AlignBegin=244854|AlignEnd=245088
-21	end	end	VERB	_	_	19	comp:obj	_	AlignBegin=245088|AlignEnd=245323
+20	season	season	NOUN	_	_	21	compound	_	AlignBegin=244854|AlignEnd=245088
+21	end	end	NOUN	_	_	19	comp:obj	_	AlignBegin=245088|AlignEnd=245323
 22	//	//	PUNCT	_	_	9	punct	_	AlignBegin=245323|AlignEnd=245323
 
 # sent_id = WAZL_01_Sports-Programme_DG__75
@@ -1664,7 +1664,7 @@
 # text_en = Ye-... but Barcelona still has an advantage over them, because eh, Madrid is still in the Champions League.
 # text_ortho = Ye-... but Barcelona still get advantage over dem because, eh Madrid dey for Champions League,
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=244773|AlignEnd=244773
-2	ye~	X	X	_	_	8	discourse	_	AlignBegin=244773|AlignEnd=245070
+2	ye~	X	INTJ	_	_	8	discourse	_	AlignBegin=244773|AlignEnd=245070
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=245070|AlignEnd=245070
 4	but	but	CCONJ	_	_	2	conj:dicto	_	AlignBegin=245070|AlignEnd=245368
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=245368|AlignEnd=245368
@@ -1672,7 +1672,7 @@
 7	still	still	ADV	_	_	8	mod	_	AlignBegin=245665|AlignEnd=245963
 8	get	get	VERB	_	_	0	root	_	AlignBegin=245963|AlignEnd=246261
 9	advantage	advantage	NOUN	_	_	8	comp:obj	_	AlignBegin=246261|AlignEnd=246558
-10	over	over	ADP	_	_	8	comp:obl	_	AlignBegin=246558|AlignEnd=246856
+10	over	over	ADP	_	_	9	mod	_	AlignBegin=246558|AlignEnd=246856
 11	dem	dem	PRON	_	_	10	comp:obj	_	AlignBegin=246856|AlignEnd=247153
 12	because	because	SCONJ	_	_	8	mod	_	AlignBegin=247153|AlignEnd=247451
 13	<+	<+	PUNCT	_	_	16	punct	_	AlignBegin=247451|AlignEnd=247451
@@ -1680,7 +1680,7 @@
 15	Madrid	Madrid	PROPN	_	_	16	subj	_	AlignBegin=247749|AlignEnd=248046
 16	dey	dey	VERB	_	_	12	comp:obj	_	AlignBegin=248046|AlignEnd=248344
 17	for	for	ADP	_	_	16	comp:pred	_	AlignBegin=248344|AlignEnd=248641
-18	Champions	Champions	NOUN	_	_	17	comp:obj	_	AlignBegin=248641|AlignEnd=248939
+18	Champions	Champions	PROPN	_	_	17	comp:obj	_	AlignBegin=248641|AlignEnd=248939
 19	League	League	PROPN	_	_	18	flat	_	AlignBegin=248939|AlignEnd=249237
 20	//	//	PUNCT	_	_	8	punct	_	AlignBegin=249237|AlignEnd=249237
 
@@ -1689,12 +1689,12 @@
 # text = so de dey torn in between & //
 # text_en = So, they are torn in between...
 # text_ortho = So de dey torn in between...
-1	so	so	ADV	_	_	3	discourse	_	AlignBegin=249237|AlignEnd=249522
+1	so	so	SCONJ	_	_	3	discourse	_	AlignBegin=249237|AlignEnd=249522
 2	de	dem	PRON	_	_	3	subj	_	AlignBegin=249522|AlignEnd=249808
 3	dey	dey	AUX	_	_	0	root	_	AlignBegin=249808|AlignEnd=250093
 4	torn	torn	ADJ	_	_	3	comp:aux	_	AlignBegin=250093|AlignEnd=250379
 5	in	in	ADP	_	_	4	mod	_	AlignBegin=250379|AlignEnd=250664
-6	between	between	ADP	_	_	5	comp:obj	_	AlignBegin=250664|AlignEnd=250950
+6	between	between	ADP	_	_	5	comp:obj@fixed	_	AlignBegin=250664|AlignEnd=250950
 7	&	&	PUNCT	_	_	3	punct	_	AlignBegin=250950|AlignEnd=250950
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=250950|AlignEnd=250950
 
@@ -1704,7 +1704,7 @@
 # text_en = They will rest well.
 # text_ortho = De-... dem go rest well.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=249353|AlignEnd=249353
-2	de~	X	X	_	_	6	subj	_	AlignBegin=249353|AlignEnd=249806
+2	de~	X	PRON	_	_	6	subj	_	AlignBegin=249353|AlignEnd=249806
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=249806|AlignEnd=249806
 4	dem	dem	PRON	_	_	2	conj:dicto	_	AlignBegin=249806|AlignEnd=250259
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=250259|AlignEnd=250259
@@ -1718,7 +1718,7 @@
 # text = and de go still play against Sevilla //
 # text_en = And they will still play against Sevilla.
 # text_ortho = And de go still play against Sevilla.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=250950|AlignEnd=251172
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=250950|AlignEnd=251172
 2	de	dem	PRON	_	_	3	subj	_	AlignBegin=251172|AlignEnd=251394
 3	go	go	AUX	_	_	0	root	_	AlignBegin=251394|AlignEnd=251617
 4	still	still	ADV	_	_	5	mod	_	AlignBegin=251617|AlignEnd=251839
@@ -1738,14 +1738,14 @@
 4	di	di	DET	_	_	6	det	_	AlignBegin=253347|AlignEnd=253546
 5	biggest	biggest	ADJ	_	_	6	mod	_	AlignBegin=253546|AlignEnd=253745
 6	game	game	NOUN	_	_	3	comp:pred	_	AlignBegin=253745|AlignEnd=253944
-7	wey	wey	SCONJ	_	_	6	mod:relcl	_	AlignBegin=253944|AlignEnd=254143
+7	wey	wey	SCONJ	_	_	6	mod@relcl	_	AlignBegin=253944|AlignEnd=254143
 8	Madrid	Madrid	PROPN	_	_	10	subj	_	AlignBegin=254143|AlignEnd=254342
 9	still	still	ADV	_	_	10	mod	_	AlignBegin=254342|AlignEnd=254541
 10	get	get	VERB	_	_	7	comp:obj	_	AlignBegin=254541|AlignEnd=254740
 11	to	to	ADP	_	_	10	comp:obl@x	_	AlignBegin=254740|AlignEnd=254939
 12	play	play	VERB	_	_	11	comp:obj	_	AlignBegin=254939|AlignEnd=255138
 13	ahead	ahead	ADV	_	_	12	mod	_	AlignBegin=255138|AlignEnd=255337
-14	of	of	ADP	_	_	13	mod	_	AlignBegin=255337|AlignEnd=255536
+14	of	of	ADP	_	_	13	unk@fixed	_	AlignBegin=255337|AlignEnd=255536
 15	dem	dem	PRON	_	_	14	comp:obj	_	AlignBegin=255536|AlignEnd=255735
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=255735|AlignEnd=255735
 
@@ -1754,7 +1754,7 @@
 # text = but { Madrid || Madrid } go beat Sevilla > if Benzema no play //
 # text_en = But Madrid...Madrid will beat Sevilla, if Benzema doesn't play.
 # text_ortho = But Madrid, Madrid go beat Sevilla if Benzema no play.
-1	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=254632|AlignEnd=254980
+1	but	but	CCONJ	_	_	7	cc	_	AlignBegin=254632|AlignEnd=254980
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=254980|AlignEnd=254980
 3	Madrid	Madrid	PROPN	_	_	7	subj	_	AlignBegin=254980|AlignEnd=255329
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=255329|AlignEnd=255329
@@ -1792,15 +1792,15 @@
 # text_ortho = Haha Benze-... Benzema na Benze- wetin e be.
 1	haha	haha	INTJ	_	_	7	discourse	_	AlignBegin=259124|AlignEnd=259549
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=259549|AlignEnd=259549
-3	Benze~	X	X	_	_	7	subj	_	AlignBegin=259549|AlignEnd=259975
+3	Benze~	X	PROPN	_	_	7	subj	_	AlignBegin=259549|AlignEnd=259975
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=259975|AlignEnd=259975
 5	Benzema	Benzema	PROPN	_	_	3	conj:dicto	_	AlignBegin=259975|AlignEnd=260400
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=260400|AlignEnd=260400
 7	na	na	PART	_	_	0	root	_	AlignBegin=260400|AlignEnd=260826
-8	Benze~	X	X	_	_	7	comp:pred	_	AlignBegin=260826|AlignEnd=261251
-9	wetin	wetin	PRON	_	_	8	mod	_	AlignBegin=261251|AlignEnd=261677
+8	Benze~	X	PROPN	_	_	7	comp:pred	_	AlignBegin=260826|AlignEnd=261251
+9	wetin	wetin	PRON	_	_	8	conj:coord	_	AlignBegin=261251|AlignEnd=261677
 10	e	im	PRON	_	_	11	subj	_	AlignBegin=261677|AlignEnd=262102
-11	be	be	VERB	_	_	9	mod:relcl	_	AlignBegin=262102|AlignEnd=262528
+11	be	be	VERB	_	_	9	mod@relcl	_	AlignBegin=262102|AlignEnd=262528
 12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=262528|AlignEnd=262528
 
 # sent_id = WAZL_01_Sports-Programme_DG__84
@@ -1822,7 +1822,7 @@
 # text_en = Alright, and eh, we will leave Spain and we will walk into England.
 # text_ortho = Alright and eh we comot from inside Spain, den we go waka enter inside England.
 1	alright	alright	ADV	_	_	5	discourse	_	AlignBegin=264366|AlignEnd=264625
-2	and	and	CCONJ	_	_	5	discourse	_	AlignBegin=264625|AlignEnd=264885
+2	and	and	CCONJ	_	_	1	cc	_	AlignBegin=264625|AlignEnd=264885
 3	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=264885|AlignEnd=265145
 4	we	we	PRON	_	_	5	subj	_	AlignBegin=265145|AlignEnd=265405
 5	comot	comot	VERB	_	_	0	root	_	AlignBegin=265405|AlignEnd=265665
@@ -1862,7 +1862,7 @@
 16	no	no	PART	_	_	17	mod	_	AlignBegin=271791|AlignEnd=272033
 17	fit	fit	AUX	_	_	0	root	_	AlignBegin=272033|AlignEnd=272275
 18	{	{	PUNCT	_	_	19	punct	_	AlignBegin=272275|AlignEnd=272275
-19	rem~	X	X	_	_	17	comp:aux	_	AlignBegin=272275|AlignEnd=272517
+19	rem~	X	VERB	_	_	17	comp:aux	_	AlignBegin=272275|AlignEnd=272517
 20	||	||	PUNCT	_	_	22	punct	_	AlignBegin=272517|AlignEnd=272517
 21	even	even	ADV	_	_	22	mod	_	AlignBegin=272517|AlignEnd=272759
 22	remember	remember	VERB	_	_	19	conj:dicto	_	AlignBegin=272759|AlignEnd=273001
@@ -1870,7 +1870,7 @@
 24	when	when	ADV	_	_	22	comp:obj	_	AlignBegin=273001|AlignEnd=273243
 25	James	James	PROPN	_	_	27	subj	_	AlignBegin=273243|AlignEnd=273485
 26	Milner	Milner	PROPN	_	_	25	flat	_	AlignBegin=273485|AlignEnd=273727
-27	don	don	AUX	_	_	24	comp:obj	_	AlignBegin=273727|AlignEnd=273969
+27	don	don	AUX	_	_	24	mod@relcl	_	AlignBegin=273727|AlignEnd=273969
 28	ever	ever	ADV	_	_	29	mod	_	AlignBegin=273969|AlignEnd=274211
 29	miss	miss	VERB	_	_	27	comp:aux	_	AlignBegin=274211|AlignEnd=274453
 30	penalty	penalty	NOUN	_	_	29	comp:obj	_	AlignBegin=274453|AlignEnd=274695
@@ -1900,7 +1900,7 @@
 # text_en = Eh, but, he has never missed any penalty, but yesterday, it seems that it was what the goalkeeper told in his ear, the thing confused him.
 # text_ortho = Eh but e, e never miss any penalty, but yesterday, e be like sey na di tin wey di goalkeeper tell am for ear di tin confuse am.
 1	eh	eh	INTJ	_	_	8	discourse	_	AlignBegin=274937|AlignEnd=275184
-2	but	but	CCONJ	_	_	8	discourse	_	AlignBegin=275184|AlignEnd=275432
+2	but	but	CCONJ	_	_	8	cc	_	AlignBegin=275184|AlignEnd=275432
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=275432|AlignEnd=275432
 4	e	im	PRON	_	_	8	subj	_	AlignBegin=275432|AlignEnd=275680
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=275680|AlignEnd=275680
@@ -1912,17 +1912,17 @@
 11	penalty	penalty	NOUN	_	_	9	comp:obj	_	AlignBegin=276672|AlignEnd=276920
 12	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=276920|AlignEnd=276920
 13	but	but	CCONJ	_	_	17	cc	_	AlignBegin=276920|AlignEnd=277168
-14	yesterday	yesterday	NOUN	_	_	17	mod:periph	_	AlignBegin=277168|AlignEnd=277415
-15	<	<	PUNCT	_	_	14	punct	_	AlignBegin=277415|AlignEnd=277415
-16	e	im	PRON	_	_	17	subj:expl	_	AlignBegin=277415|AlignEnd=277663
+14	yesterday	yesterday	NOUN	_	_	21	mod:periph	_	AlignBegin=277168|AlignEnd=277415
+15	<	<	PUNCT	_	_	4	punct	_	AlignBegin=277415|AlignEnd=277415
+16	e	im	PRON	_	_	17	subj@expl	_	AlignBegin=277415|AlignEnd=277663
 17	be	be	VERB	_	_	8	conj:coord	_	AlignBegin=277663|AlignEnd=277911
 18	like	like	ADP	_	_	17	comp:pred	_	AlignBegin=277911|AlignEnd=278159
-19	sey	sey	SCONJ	_	_	18	comp:obj	_	AlignBegin=278159|AlignEnd=278407
+19	sey	sey	SCONJ	_	_	18	comp:obj@fixed	_	AlignBegin=278159|AlignEnd=278407
 20	[	[	PUNCT	_	_	21	punct	_	AlignBegin=278407|AlignEnd=278407
-21	na	na	PART	_	_	18	comp:obj	_	AlignBegin=278407|AlignEnd=278655
+21	na	na	PART	_	_	19	comp:obj	_	AlignBegin=278407|AlignEnd=278655
 22	di	di	DET	_	_	23	det	_	AlignBegin=278655|AlignEnd=278903
 23	tin	tin	NOUN	_	_	21	comp:pred	_	AlignBegin=278903|AlignEnd=279151
-24	wey	wey	SCONJ	_	_	23	mod:relcl	_	AlignBegin=279151|AlignEnd=279399
+24	wey	wey	SCONJ	_	_	23	mod@relcl	_	AlignBegin=279151|AlignEnd=279399
 25	di	di	DET	_	_	26	det	_	AlignBegin=279399|AlignEnd=279646
 26	goalkeeper	goalkeeper	NOUN	_	_	27	subj	_	AlignBegin=279646|AlignEnd=279894
 27	tell	tell	VERB	_	_	24	comp:obj	_	AlignBegin=279894|AlignEnd=280142
@@ -1964,7 +1964,7 @@
 # text_en = Eh, their goalkeeper spoke to him for a very long time before he played that penalty.
 # text_ortho = Eh dem goalkeeper talk to am for a very long time before e play dat penalty,
 1	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=282172|AlignEnd=282333
-2	dem	dem	DET	_	_	3	det	_	AlignBegin=282333|AlignEnd=282495
+2	dem	dem	PRON	_	_	3	mod:poss	_	AlignBegin=282333|AlignEnd=282495
 3	goalkeeper	goalkeeper	NOUN	_	_	4	subj	_	AlignBegin=282495|AlignEnd=282657
 4	talk	talk	VERB	_	_	0	root	_	AlignBegin=282657|AlignEnd=282819
 5	to	to	ADP	_	_	4	comp:obl	_	AlignBegin=282819|AlignEnd=282981
@@ -2007,16 +2007,16 @@
 # text = X but if you see di height eh < e be like { David |c and Goliath } //
 # text_en = ...but if you see the height eh, it's like David and Goliath.
 # text_ortho = X but if you see di height eh, e be like David, and Goliath.
-1	X	X	X	_	_	11	none	_	AlignBegin=286428|AlignEnd=286755
-2	but	but	CCONJ	_	_	11	discourse	_	AlignBegin=286755|AlignEnd=287083
+1	X	X	X	_	_	11	discourse	_	AlignBegin=286428|AlignEnd=286755
+2	but	but	CCONJ	_	_	11	cc	_	AlignBegin=286755|AlignEnd=287083
 3	if	if	SCONJ	_	_	11	mod:periph	_	AlignBegin=287083|AlignEnd=287411
 4	you	you	PRON	_	_	5	subj	_	AlignBegin=287411|AlignEnd=287738
 5	see	see	VERB	_	_	3	comp:obj	_	AlignBegin=287738|AlignEnd=288066
 6	di	di	DET	_	_	7	det	_	AlignBegin=288066|AlignEnd=288394
 7	height	height	NOUN	_	_	5	comp:obj	_	AlignBegin=288394|AlignEnd=288722
-8	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=288722|AlignEnd=289049
+8	eh	eh	INTJ	_	_	3	discourse	_	AlignBegin=288722|AlignEnd=289049
 9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=289049|AlignEnd=289049
-10	e	im	PRON	_	_	11	subj	_	AlignBegin=289049|AlignEnd=289377
+10	e	im	PRON	_	_	11	subj@expl	_	AlignBegin=289049|AlignEnd=289377
 11	be	be	VERB	_	_	0	root	_	AlignBegin=289377|AlignEnd=289705
 12	like	like	ADP	_	_	11	comp:pred	_	AlignBegin=289705|AlignEnd=290032
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=290032|AlignEnd=290032
@@ -2046,17 +2046,17 @@
 4	one	one	NOUN	_	_	2	comp:obj	_	AlignBegin=291646|AlignEnd=291842
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=291842|AlignEnd=291842
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=291842|AlignEnd=291842
-7	d~	X	X	_	_	11	det	_	AlignBegin=291842|AlignEnd=292038
+7	d~	X	DET	_	_	11	det	_	AlignBegin=291842|AlignEnd=292038
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=292038|AlignEnd=292038
 9	di	di	DET	_	_	7	conj:dicto	_	AlignBegin=292038|AlignEnd=292234
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=292234|AlignEnd=292234
 11	way	way	NOUN	_	_	19	subj	_	AlignBegin=292234|AlignEnd=292430
 12	Fraiser	Fraiser	PROPN	_	_	14	subj	_	AlignBegin=292430|AlignEnd=292626
 13	Forster	Forster	PROPN	_	_	12	flat	_	AlignBegin=292626|AlignEnd=292822
-14	stand	stand	VERB	_	_	11	mod:relcl	_	AlignBegin=292822|AlignEnd=293018
-15	infront	infront	NOUN	_	_	14	comp:obl	_	AlignBegin=293018|AlignEnd=293214
-16	of	of	ADP	_	_	15	mod	_	AlignBegin=293214|AlignEnd=293411
-17	James	James	PROPN	_	_	15	comp:obj	_	AlignBegin=293411|AlignEnd=293607
+14	stand	stand	VERB	_	_	9	comp:obj	_	AlignBegin=292822|AlignEnd=293018
+15	infront	infront	ADP	_	_	14	mod	_	AlignBegin=293018|AlignEnd=293214
+16	of	of	ADP	_	_	15	unk@fixed	_	AlignBegin=293214|AlignEnd=293411
+17	James	James	PROPN	_	_	16	comp:obj	_	AlignBegin=293411|AlignEnd=293607
 18	Milner	Milner	PROPN	_	_	17	flat	_	AlignBegin=293607|AlignEnd=293803
 19	tell	tell	VERB	_	_	0	root	_	AlignBegin=293803|AlignEnd=293999
 20	am	am	PRON	_	_	19	comp:obj	_	AlignBegin=293999|AlignEnd=294195
@@ -2104,7 +2104,7 @@
 # text_en = Eh, but he would have said he is not playing again so that another person...
 # text_ortho = Eh but e for talk sey e no play again now make anoder person...
 1	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=298028|AlignEnd=298214
-2	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=298214|AlignEnd=298400
+2	but	but	CCONJ	_	_	4	cc	_	AlignBegin=298214|AlignEnd=298400
 3	e	im	PRON	_	_	4	subj	_	AlignBegin=298400|AlignEnd=298587
 4	for	for	AUX	_	_	0	root	_	AlignBegin=298587|AlignEnd=298773
 5	talk	talk	VERB	_	_	4	comp:aux	_	AlignBegin=298773|AlignEnd=298959
@@ -2114,10 +2114,10 @@
 9	no	no	PART	_	_	10	mod	_	AlignBegin=299332|AlignEnd=299518
 10	play	play	VERB	_	_	6	comp:obj	_	AlignBegin=299518|AlignEnd=299705
 11	again	again	ADV	_	_	10	mod	_	AlignBegin=299705|AlignEnd=299891
-12	now	now	ADV	_	_	10	mod:emph	_	AlignBegin=299891|AlignEnd=300077
+12	now	now	ADV	_	_	10	mod	_	AlignBegin=299891|AlignEnd=300077
 13	make	make	AUX	_	_	10	mod	_	AlignBegin=300077|AlignEnd=300264
 14	anoder	anoder	DET	_	_	15	det	_	AlignBegin=300264|AlignEnd=300450
-15	person	person	NOUN	_	_	13	comp:aux@scrap	_	AlignBegin=300450|AlignEnd=300637
+15	person	person	NOUN	_	_	13	comp:obj	_	AlignBegin=300450|AlignEnd=300637
 16	&	&	PUNCT	_	_	4	punct	_	AlignBegin=300637|AlignEnd=300637
 17	]	]	PUNCT	_	_	4	punct	_	AlignBegin=300637|AlignEnd=300637
 18	//	//	PUNCT	_	_	4	punct	_	AlignBegin=300637|AlignEnd=300637
@@ -2132,7 +2132,7 @@
 3	anoder	anoder	DET	_	_	4	det	_	AlignBegin=300010|AlignEnd=300469
 4	person	person	NOUN	_	_	5	subj	_	AlignBegin=300469|AlignEnd=300927
 5	play	play	VERB	_	_	2	comp:aux	_	AlignBegin=300927|AlignEnd=301385
-6	haha	haha	INTJ	_	_	2	discourse	_	AlignBegin=301385|AlignEnd=301844
+6	haha	haha	INTJ	_	_	5	discourse	_	AlignBegin=301385|AlignEnd=301844
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=301844|AlignEnd=301844
 
 # sent_id = WAZL_01_Sports-Programme_DG__99
@@ -2150,7 +2150,7 @@
 # text = but we know sey [ { dat k~ || dat kind } game < { na penalty f~ || { na penalty |c or mistake } from } di oder eh team dey always make you know di team win ] //
 # text_en = But we know that that game...that kind of game, it's penalty f... it's penalty or the mistake from the other eh team always makes, you know, the team to win.
 # text_ortho = But we know sey dat k-... dat kind game, na penalty f-... na penalty, or mistake from di oder eh team dey always make you know di team win.
-1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=302255|AlignEnd=302486
+1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=302255|AlignEnd=302486
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=302486|AlignEnd=302717
 3	know	know	VERB	_	_	0	root	_	AlignBegin=302717|AlignEnd=302948
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=302948|AlignEnd=303180
@@ -2166,8 +2166,8 @@
 14	<	<	PUNCT	_	_	13	punct	_	AlignBegin=304336|AlignEnd=304336
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=304336|AlignEnd=304336
 16	na	na	PART	_	_	4	comp:obj	_	AlignBegin=304336|AlignEnd=304567
-17	penalty	penalty	NOUN	_	_	18	compound	_	AlignBegin=304567|AlignEnd=304799
-18	f~	X	X	_	_	13	mod	_	AlignBegin=304799|AlignEnd=305030
+17	penalty	penalty	NOUN	_	_	16	comp:pred	_	AlignBegin=304567|AlignEnd=304799
+18	f~	X	X	_	_	17	mod:emph	_	AlignBegin=304799|AlignEnd=305030
 19	||	||	PUNCT	_	_	21	punct	_	AlignBegin=305030|AlignEnd=305030
 20	{	{	PUNCT	_	_	21	punct	_	AlignBegin=305030|AlignEnd=305030
 21	na	na	PART	_	_	16	conj:dicto	_	AlignBegin=305030|AlignEnd=305261
@@ -2176,20 +2176,20 @@
 24	or	or	CCONJ	_	_	25	cc	_	AlignBegin=305492|AlignEnd=305724
 25	mistake	mistake	NOUN	_	_	22	conj:coord	_	AlignBegin=305724|AlignEnd=305955
 26	}	}	PUNCT	_	_	21	punct	_	AlignBegin=305955|AlignEnd=305955
-27	from	from	ADP	_	_	25	mod	_	AlignBegin=305955|AlignEnd=306186
-28	}	}	PUNCT	_	_	16	punct	_	AlignBegin=306186|AlignEnd=306186
+27	from	from	ADP	_	_	25	comp:obl	_	AlignBegin=305955|AlignEnd=306186
+28	}	}	PUNCT	_	_	21	punct	_	AlignBegin=306186|AlignEnd=306186
 29	di	di	DET	_	_	32	det	_	AlignBegin=306186|AlignEnd=306417
 30	oder	oder	ADJ	_	_	32	mod	_	AlignBegin=306417|AlignEnd=306649
 31	eh	eh	INTJ	_	_	32	discourse	_	AlignBegin=306649|AlignEnd=306880
 32	team	team	NOUN	_	_	27	comp:obj	_	AlignBegin=306880|AlignEnd=307111
-33	dey	dey	AUX	_	_	27	comp:obj	_	AlignBegin=307111|AlignEnd=307343
+33	dey	dey	AUX	_	_	25	mod@relcl	_	AlignBegin=307111|AlignEnd=307343
 34	always	always	ADV	_	_	35	mod	_	AlignBegin=307343|AlignEnd=307574
-35	make	make	VERB	_	_	33	comp:aux	_	AlignBegin=307574|AlignEnd=307805
-36	you	you	PRON	_	_	35	subj	_	AlignBegin=307805|AlignEnd=308036
-37	know	know	VERB	_	_	35	comp:obj@x	_	AlignBegin=308036|AlignEnd=308268
+35	make	make	AUX	_	_	33	comp:aux	_	AlignBegin=307574|AlignEnd=307805
+36	you	you	PRON	_	_	37	subj	_	AlignBegin=307805|AlignEnd=308036
+37	know	know	VERB	_	_	35	comp:aux	_	AlignBegin=308036|AlignEnd=308268
 38	di	di	DET	_	_	39	det	_	AlignBegin=308268|AlignEnd=308499
 39	team	team	NOUN	_	_	37	comp:obj	_	AlignBegin=308499|AlignEnd=308730
-40	win	win	VERB	_	_	37	comp:obj@x	_	AlignBegin=308730|AlignEnd=308962
+40	win	win	VERB	_	_	37	compound:svc	_	AlignBegin=308730|AlignEnd=308962
 41	]	]	PUNCT	_	_	16	punct	_	AlignBegin=308962|AlignEnd=308962
 42	//	//	PUNCT	_	_	3	punct	_	AlignBegin=308962|AlignEnd=308962
 
@@ -2198,7 +2198,7 @@
 # text = but eh James Milner < im done come out say [ eh make dem blame am //= sey if im score dat penalty < maybe Liverpool go get eh di three points eh for dat match ] //
 # text_en = But eh, James Milner he has come out to say that they should blame him; that if he had scored that penalty, maybe Liverpool will have eh the three points eh in that match.
 # text_ortho = But eh James Milner, im done come out say eh make dem blame am, sey if im score dat penalty, maybe Liverpool go get eh di three points eh for dat match.
-1	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=308962|AlignEnd=309197
+1	but	but	CCONJ	_	_	7	cc	_	AlignBegin=308962|AlignEnd=309197
 2	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=309197|AlignEnd=309432
 3	James	James	PROPN	_	_	7	dislocated	_	AlignBegin=309432|AlignEnd=309668
 4	Milner	Milner	PROPN	_	_	3	flat	_	AlignBegin=309668|AlignEnd=309903
@@ -2215,7 +2215,7 @@
 15	blame	blame	VERB	_	_	13	comp:aux	_	AlignBegin=311786|AlignEnd=312021
 16	am	am	PRON	_	_	15	comp:obj	_	AlignBegin=312021|AlignEnd=312257
 17	//=	//=	PUNCT	_	_	27	punct	_	AlignBegin=312257|AlignEnd=312257
-18	sey	sey	SCONJ	_	_	27	discourse	_	AlignBegin=312257|AlignEnd=312492
+18	sey	sey	SCONJ	_	_	27	cc	_	AlignBegin=312257|AlignEnd=312492
 19	if	if	SCONJ	_	_	27	mod:periph	_	AlignBegin=312492|AlignEnd=312728
 20	im	im	PRON	_	_	21	subj	_	AlignBegin=312728|AlignEnd=312963
 21	score	score	VERB	_	_	19	comp:obj	_	AlignBegin=312963|AlignEnd=313198
@@ -2228,9 +2228,9 @@
 28	get	get	VERB	_	_	27	comp:aux	_	AlignBegin=314375|AlignEnd=314611
 29	eh	eh	INTJ	_	_	32	discourse	_	AlignBegin=314611|AlignEnd=314846
 30	di	di	DET	_	_	32	det	_	AlignBegin=314846|AlignEnd=315081
-31	three	three	NUM	_	_	32	det:num	_	AlignBegin=315081|AlignEnd=315317
+31	three	three	NUM	_	_	32	mod:num	_	AlignBegin=315081|AlignEnd=315317
 32	points	points	NOUN	_	_	28	comp:obj	_	AlignBegin=315317|AlignEnd=315552
-33	eh	eh	INTJ	_	_	34	discourse	_	AlignBegin=315552|AlignEnd=315787
+33	eh	eh	INTJ	_	_	21	discourse	_	AlignBegin=315552|AlignEnd=315787
 34	for	for	ADP	_	_	28	mod	_	AlignBegin=315787|AlignEnd=316023
 35	dat	dat	DET	_	_	36	det	_	AlignBegin=316023|AlignEnd=316258
 36	match	match	NOUN	_	_	34	comp:obj	_	AlignBegin=316258|AlignEnd=316494
@@ -2261,7 +2261,7 @@
 9	kind	kind	ADJ	_	_	10	mod	_	AlignBegin=318262|AlignEnd=318483
 10	penalty	penalty	NOUN	_	_	7	comp:obj	_	AlignBegin=318483|AlignEnd=318704
 11	im	im	PRON	_	_	12	subj	_	AlignBegin=318704|AlignEnd=318925
-12	dey	dey	AUX	_	_	10	mod:relcl	_	AlignBegin=318925|AlignEnd=319146
+12	dey	dey	AUX	_	_	10	mod@relcl	_	AlignBegin=318925|AlignEnd=319146
 13	take	take	VERB	_	_	12	comp:aux	_	AlignBegin=319146|AlignEnd=319367
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=319367|AlignEnd=319367
 
@@ -2270,7 +2270,7 @@
 # text = and we no go fault am because dat penalty < na better penalty //
 # text_en = And we will not fault him, because that penalty was a good penalty.
 # text_ortho = And we no go fault am because dat penalty, na better penalty.
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=319367|AlignEnd=319556
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=319367|AlignEnd=319556
 2	we	we	PRON	_	_	4	subj	_	AlignBegin=319556|AlignEnd=319746
 3	no	no	PART	_	_	4	mod	_	AlignBegin=319746|AlignEnd=319936
 4	go	go	AUX	_	_	0	root	_	AlignBegin=319936|AlignEnd=320126
@@ -2290,17 +2290,17 @@
 # text = e just be sey [ { ehm J~ || em Fraiser Forster } go di right way |c con try stretch very well //
 # text_en = It was just that ehm, J... Fraiser Forster went the right way and stretched very well.
 # text_ortho = E just be sey, ehm J-... em Fraiser Forster go di right way, con try stretch very well,
-1	e	im	PRON	_	_	3	subj:expl	_	AlignBegin=321646|AlignEnd=321954
+1	e	im	PRON	_	_	3	subj@expl	_	AlignBegin=321646|AlignEnd=321954
 2	just	just	ADV	_	_	3	mod	_	AlignBegin=321954|AlignEnd=322263
 3	be	be	VERB	_	_	0	root	_	AlignBegin=322263|AlignEnd=322572
-4	sey	sey	SCONJ	_	_	3	comp:obj@agent	_	AlignBegin=322572|AlignEnd=322881
+4	sey	sey	SCONJ	_	_	3	comp:pred	_	AlignBegin=322572|AlignEnd=322881
 5	[	[	PUNCT	_	_	14	punct	_	AlignBegin=322881|AlignEnd=322881
 6	{	{	PUNCT	_	_	8	punct	_	AlignBegin=322881|AlignEnd=322881
 7	ehm	ehm	INTJ	_	_	8	discourse	_	AlignBegin=322881|AlignEnd=323190
-8	J~	X	X	_	_	14	subj	_	AlignBegin=323190|AlignEnd=323499
+8	J~	X	PROPN	_	_	14	subj	_	AlignBegin=323190|AlignEnd=323499
 9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=323499|AlignEnd=323499
 10	em	em	INTJ	_	_	11	discourse	_	AlignBegin=323499|AlignEnd=323807
-11	Fraiser	Fraiser	PROPN	_	_	8	conj:dicto	_	AlignBegin=323807|AlignEnd=324116
+11	Fraiser	Fraiser	PROPN	_	_	8	conj:appos	_	AlignBegin=323807|AlignEnd=324116
 12	Forster	Forster	PROPN	_	_	11	flat	_	AlignBegin=324116|AlignEnd=324425
 13	}	}	PUNCT	_	_	8	punct	_	AlignBegin=324425|AlignEnd=324425
 14	go	go	VERB	_	_	4	comp:obj	_	AlignBegin=324425|AlignEnd=324734
@@ -2310,7 +2310,7 @@
 18	|c	|c	PUNCT	_	_	19	punct	_	AlignBegin=325660|AlignEnd=325660
 19	con	con	AUX	_	_	14	conj:coord	_	AlignBegin=325660|AlignEnd=325969
 20	try	try	VERB	_	_	19	comp:aux	_	AlignBegin=325969|AlignEnd=326278
-21	stretch	stretch	VERB	_	_	20	comp:obj@x	_	AlignBegin=326278|AlignEnd=326587
+21	stretch	stretch	VERB	_	_	20	compound:svc	_	AlignBegin=326278|AlignEnd=326587
 22	very	very	ADV	_	_	23	mod	_	AlignBegin=326587|AlignEnd=326896
 23	well	well	ADV	_	_	21	mod	_	AlignBegin=326896|AlignEnd=327205
 24	//	//	PUNCT	_	_	3	punct	_	AlignBegin=327205|AlignEnd=327205
@@ -2320,7 +2320,7 @@
 # text = and { di guy || di guy } na giant //
 # text_en = And the guy...the guy is a giant.
 # text_ortho = And di guy, di guy na giant.
-1	and	and	CCONJ	_	_	9	discourse	_	AlignBegin=325182|AlignEnd=325516
+1	and	and	CCONJ	_	_	9	cc	_	AlignBegin=325182|AlignEnd=325516
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=325516|AlignEnd=325516
 3	di	di	DET	_	_	4	det	_	AlignBegin=325516|AlignEnd=325850
 4	guy	guy	NOUN	_	_	9	subj	_	AlignBegin=325850|AlignEnd=326184
@@ -2329,7 +2329,7 @@
 7	guy	guy	NOUN	_	_	4	conj:dicto	_	AlignBegin=326518|AlignEnd=326852
 8	}	}	PUNCT	_	_	4	punct	_	AlignBegin=326852|AlignEnd=326852
 9	na	na	PART	_	_	0	root	_	AlignBegin=326852|AlignEnd=327186
-10	giant	giant	ADJ	_	_	9	comp:pred	_	AlignBegin=327186|AlignEnd=327521
+10	giant	giant	NOUN	_	_	9	comp:pred	_	AlignBegin=327186|AlignEnd=327521
 11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=327521|AlignEnd=327521
 
 # sent_id = WAZL_01_Sports-Programme_DG__107
@@ -2337,7 +2337,7 @@
 # text = and you know sey [ na giant again ] //
 # text_en = And we also know that he is a giant.
 # text_ortho = And you know sey na giant again,
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=327205|AlignEnd=327382
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=327205|AlignEnd=327382
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=327382|AlignEnd=327560
 3	know	know	VERB	_	_	0	root	_	AlignBegin=327560|AlignEnd=327738
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=327738|AlignEnd=327916
@@ -2353,7 +2353,7 @@
 # text = but eh nobody { go || go } blame James Milner //= im hit dat penalty very well //
 # text_en = But eh, nobody will...will blame James Milner; he kicked that penalty very well.
 # text_ortho = But eh nobody go, go blame James Milner, im hit dat penalty very well,
-1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=328450|AlignEnd=328679
+1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=328450|AlignEnd=328679
 2	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=328679|AlignEnd=328908
 3	nobody	nobody	PRON	_	_	5	subj	_	AlignBegin=328908|AlignEnd=329138
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=329138|AlignEnd=329138
@@ -2366,7 +2366,7 @@
 11	Milner	Milner	PROPN	_	_	10	flat	_	AlignBegin=330056|AlignEnd=330285
 12	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=330285|AlignEnd=330285
 13	im	im	PRON	_	_	14	subj	_	AlignBegin=330285|AlignEnd=330514
-14	hit	hit	VERB	_	_	5	parataxis:conj	_	AlignBegin=330514|AlignEnd=330744
+14	hit	hit	VERB	_	_	7	parataxis:conj	_	AlignBegin=330514|AlignEnd=330744
 15	dat	dat	DET	_	_	16	det	_	AlignBegin=330744|AlignEnd=330973
 16	penalty	penalty	NOUN	_	_	14	comp:obj	_	AlignBegin=330973|AlignEnd=331203
 17	very	very	ADV	_	_	18	mod	_	AlignBegin=331203|AlignEnd=331432
@@ -2380,7 +2380,7 @@
 # text_ortho = Na zero zero e bin end for dat game.
 1	na	na	PART	_	_	0	root	_	AlignBegin=331662|AlignEnd=331939
 2	zero	zero	NUM	_	_	1	comp:pred	_	AlignBegin=331939|AlignEnd=332216
-3	zero	zero	NUM	_	_	2	conj:coord	_	AlignBegin=332216|AlignEnd=332494
+3	zero	zero	NUM	_	_	2	flat	_	AlignBegin=332216|AlignEnd=332494
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=332494|AlignEnd=332494
 5	e	im	PRON	_	_	6	subj	_	AlignBegin=332494|AlignEnd=332771
 6	bin	bin	AUX	_	_	1	comp:cleft	_	AlignBegin=332771|AlignEnd=333048
@@ -2404,7 +2404,7 @@
 7	against	against	ADP	_	_	4	comp:obl	_	AlignBegin=335533|AlignEnd=335821
 8	Southhampton	Southhampton	PROPN	_	_	7	comp:obj	_	AlignBegin=335821|AlignEnd=336110
 9	dis	dis	DET	_	_	10	det	_	AlignBegin=336110|AlignEnd=336398
-10	season	season	NOUN	_	_	4	mod	_	AlignBegin=336398|AlignEnd=336687
+10	season	season	NOUN	_	_	7	mod	_	AlignBegin=336398|AlignEnd=336687
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=336687|AlignEnd=336687
 
 # sent_id = WAZL_01_Sports-Programme_DG__111
@@ -2412,20 +2412,20 @@
 # text = and { de no || de no || de no } gree X //
 # text_en = And they didn't... they didn't...they didn't agree...
 # text_ortho = And de no, de no, de no gree X.
-1	and	and	CCONJ	_	_	12	discourse	_	AlignBegin=336642|AlignEnd=336942
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=336642|AlignEnd=336942
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=336942|AlignEnd=336942
 3	de	dem	PRON	_	_	12	subj	_	AlignBegin=336942|AlignEnd=337243
-4	no	no	PART	_	_	3	unk:scrap	_	AlignBegin=337243|AlignEnd=337544
+4	no	no	PART	_	_	3	unk@scrap	_	AlignBegin=337243|AlignEnd=337544
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=337544|AlignEnd=337544
-6	de	dem	PRON	_	_	3	subj:scrap	_	AlignBegin=337544|AlignEnd=337844
-7	no	no	PART	_	_	6	unk:scrap	_	AlignBegin=337844|AlignEnd=338145
-8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=338145|AlignEnd=338145
-9	de	dem	PRON	_	_	10	subj	_	AlignBegin=338145|AlignEnd=338446
-10	no	no	PART	_	_	12	mod	_	AlignBegin=338446|AlignEnd=338746
-11	}	}	PUNCT	_	_	3	punct	_	AlignBegin=338746|AlignEnd=338746
+6	de	dem	PRON	_	_	4	subj	_	AlignBegin=337544|AlignEnd=337844
+7	no	no	PART	_	_	3	conj:dicto	_	AlignBegin=337844|AlignEnd=338145
+8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=338145|AlignEnd=338145
+9	de	dem	PRON	_	_	7	subj	_	AlignBegin=338145|AlignEnd=338446
+10	no	no	PART	_	_	7	conj:dicto	_	AlignBegin=338446|AlignEnd=338746
+11	}	}	PUNCT	_	_	4	punct	_	AlignBegin=338746|AlignEnd=338746
 12	gree	gree	VERB	_	_	0	root	_	AlignBegin=338746|AlignEnd=339047
 13	X	X	X	_	_	12	comp:obj	_	AlignBegin=339047|AlignEnd=339348
-14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=339348|AlignEnd=339348
+14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=339348|AlignEnd=339348
 
 # sent_id = WAZL_01_Sports-Programme_DG__112
 # speaker_id = Sp308
@@ -2462,10 +2462,10 @@
 4	points	points	NOUN	_	_	3	comp:obj	_	AlignBegin=341309|AlignEnd=341649
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=341649|AlignEnd=341649
 6	Manchester	Manchester	PROPN	_	_	8	subj	_	AlignBegin=341649|AlignEnd=341990
-7	United	United	ADJ	_	_	6	flat	_	AlignBegin=341990|AlignEnd=342331
+7	United	United	PROPN	_	_	6	flat	_	AlignBegin=341990|AlignEnd=342331
 8	suppose	suppose	VERB	_	_	0	root	_	AlignBegin=342331|AlignEnd=342672
 9	take	take	VERB	_	_	8	comp:obj@x	_	AlignBegin=342672|AlignEnd=343012
-10	advantage	advantage	NOUN	_	_	9	comp:obj	_	AlignBegin=343012|AlignEnd=343353
+10	advantage	advantage	NOUN	_	_	9	comp:obj@lvc	_	AlignBegin=343012|AlignEnd=343353
 11	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=343353|AlignEnd=343353
 12	but	but	CCONJ	_	_	15	cc	_	AlignBegin=343353|AlignEnd=343694
 13	Jose	Jose	PROPN	_	_	15	subj	_	AlignBegin=343694|AlignEnd=344035
@@ -2504,13 +2504,13 @@
 # text = no e get oder plans { for || for } Europa League //
 # text_en = No, he has other plans for...for Europa League.
 # text_ortho = No e get oder plans for, for Europa League.
-1	no	no	PART	_	_	3	discourse	_	AlignBegin=346443|AlignEnd=346666
-2	e	im	PRON	_	_	3	subj:expl	_	AlignBegin=346666|AlignEnd=346890
+1	no	no	PART	_	_	3	mod	_	AlignBegin=346443|AlignEnd=346666
+2	e	im	PRON	_	_	3	subj@expl	_	AlignBegin=346666|AlignEnd=346890
 3	get	get	VERB	_	_	0	root	_	AlignBegin=346890|AlignEnd=347113
 4	oder	oder	ADJ	_	_	5	mod	_	AlignBegin=347113|AlignEnd=347337
 5	plans	plans	NOUN	_	_	3	comp:obj@agent	_	AlignBegin=347337|AlignEnd=347560
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=347560|AlignEnd=347560
-7	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=347560|AlignEnd=347784
+7	for	for	ADP	_	_	5	mod	_	AlignBegin=347560|AlignEnd=347784
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=347784|AlignEnd=347784
 9	for	for	ADP	_	_	7	conj:dicto	_	AlignBegin=347784|AlignEnd=348007
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=348007|AlignEnd=348007
@@ -2527,9 +2527,9 @@
 2	so	so	ADV	_	_	7	discourse	_	AlignBegin=348729|AlignEnd=349003
 3	dat	dat	DET	_	_	4	det	_	AlignBegin=349003|AlignEnd=349277
 4	one	one	NOUN	_	_	7	dislocated	_	AlignBegin=349277|AlignEnd=349552
-5	e	im	PRON	_	_	7	subj:scrap	_	AlignBegin=349552|AlignEnd=349826
+5	e	im	PRON	_	_	7	subj@expl	_	AlignBegin=349552|AlignEnd=349826
 6	just	just	ADV	_	_	7	mod	_	AlignBegin=349826|AlignEnd=350100
-7	eh	eh	INTJ	_	_	0	root:scrap	_	AlignBegin=350100|AlignEnd=350375
+7	eh	eh	INTJ	_	_	0	root@scrap	_	AlignBegin=350100|AlignEnd=350375
 8	&	&	PUNCT	_	_	7	punct	_	AlignBegin=350375|AlignEnd=350375
 9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=350375|AlignEnd=350375
 
@@ -2544,9 +2544,9 @@
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=351051|AlignEnd=351051
 5	e	im	PRON	_	_	6	subj	_	AlignBegin=351051|AlignEnd=351277
 6	dash	dash	VERB	_	_	3	parataxis:obj	_	AlignBegin=351277|AlignEnd=351503
-7	Arsenal	Arsenal	PROPN	_	_	10	mod	_	AlignBegin=351503|AlignEnd=351728
+7	Arsenal	Arsenal	PROPN	_	_	6	comp:obj	_	AlignBegin=351503|AlignEnd=351728
 8	di	di	DET	_	_	10	det	_	AlignBegin=351728|AlignEnd=351954
-9	three	three	NUM	_	_	10	det:num	_	AlignBegin=351954|AlignEnd=352180
+9	three	three	NUM	_	_	10	mod:num	_	AlignBegin=351954|AlignEnd=352180
 10	points	points	NOUN	_	_	6	comp:obj	_	AlignBegin=352180|AlignEnd=352405
 11	]	]	PUNCT	_	_	6	punct	_	AlignBegin=352405|AlignEnd=352405
 12	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=352405|AlignEnd=352405
@@ -2555,9 +2555,9 @@
 15	work	work	VERB	_	_	3	conj:coord	_	AlignBegin=352856|AlignEnd=353082
 16	for	for	ADP	_	_	15	comp:obl	_	AlignBegin=353082|AlignEnd=353308
 17	di	di	DET	_	_	19	det	_	AlignBegin=353308|AlignEnd=353533
-18	two	two	NUM	_	_	19	det:num	_	AlignBegin=353533|AlignEnd=353759
+18	two	two	NUM	_	_	19	mod:num	_	AlignBegin=353533|AlignEnd=353759
 19	goals	goals	NOUN	_	_	16	comp:obj	_	AlignBegin=353759|AlignEnd=353985
-20	wey	wey	SCONJ	_	_	19	mod:relcl	_	AlignBegin=353985|AlignEnd=354210
+20	wey	wey	SCONJ	_	_	19	mod@relcl	_	AlignBegin=353985|AlignEnd=354210
 21	dem	dem	PRON	_	_	22	subj	_	AlignBegin=354210|AlignEnd=354436
 22	score	score	VERB	_	_	20	comp:obj	_	AlignBegin=354436|AlignEnd=354662
 23	//	//	PUNCT	_	_	3	punct	_	AlignBegin=354662|AlignEnd=354662
@@ -2588,17 +2588,17 @@
 # text = and we see Danny Welbeck < since im leave Manchester United < im don score three goals against Manchester United in four games //
 # text_en = And we see Danny Welbeck, since he left Manchester United, he has scored three goals against Manchester United in four games.
 # text_ortho = And we see Danny Welbeck, since im leave Manchester United, im don score three goals against Manchester United in four games,
-1	and	and	CCONJ	_	_	14	discourse	_	AlignBegin=355700|AlignEnd=355990
+1	and	and	CCONJ	_	_	14	cc	_	AlignBegin=355700|AlignEnd=355990
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=355990|AlignEnd=356280
 3	see	see	VERB	_	_	14	parataxis:discourse	_	AlignBegin=356280|AlignEnd=356571
 4	Danny	Danny	PROPN	_	_	3	comp:obj	_	AlignBegin=356571|AlignEnd=356861
 5	Welbeck	Welbeck	PROPN	_	_	4	flat	_	AlignBegin=356861|AlignEnd=357152
-6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=357152|AlignEnd=357152
+6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=357152|AlignEnd=357152
 7	since	since	ADP	_	_	14	mod:periph	_	AlignBegin=357152|AlignEnd=357442
 8	im	im	PRON	_	_	9	subj	_	AlignBegin=357442|AlignEnd=357733
 9	leave	leave	VERB	_	_	7	comp:obj	_	AlignBegin=357733|AlignEnd=358023
 10	Manchester	Manchester	PROPN	_	_	9	comp:obj	_	AlignBegin=358023|AlignEnd=358314
-11	United	United	ADJ	_	_	10	flat	_	AlignBegin=358314|AlignEnd=358604
+11	United	United	PROPN	_	_	10	flat	_	AlignBegin=358314|AlignEnd=358604
 12	<	<	PUNCT	_	_	7	punct	_	AlignBegin=358604|AlignEnd=358604
 13	im	im	PRON	_	_	14	subj	_	AlignBegin=358604|AlignEnd=358895
 14	don	don	AUX	_	_	0	root	_	AlignBegin=358895|AlignEnd=359185
@@ -2607,7 +2607,7 @@
 17	goals	goals	NOUN	_	_	15	comp:obj	_	AlignBegin=359766|AlignEnd=360057
 18	against	against	ADP	_	_	15	comp:obl	_	AlignBegin=360057|AlignEnd=360347
 19	Manchester	Manchester	PROPN	_	_	18	comp:obj	_	AlignBegin=360347|AlignEnd=360638
-20	United	United	ADJ	_	_	19	flat	_	AlignBegin=360638|AlignEnd=360928
+20	United	United	PROPN	_	_	19	flat	_	AlignBegin=360638|AlignEnd=360928
 21	in	in	ADP	_	_	15	mod	_	AlignBegin=360928|AlignEnd=361219
 22	four	four	NUM	_	_	23	det:num	_	AlignBegin=361219|AlignEnd=361509
 23	games	games	NOUN	_	_	21	comp:obj	_	AlignBegin=361509|AlignEnd=361800
@@ -2637,7 +2637,7 @@
 # text = and im dey celebrate !//
 # text_en = And he is celebrating.
 # text_ortho = And im dey celebrate!
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=363760|AlignEnd=363957
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=363760|AlignEnd=363957
 2	im	im	PRON	_	_	3	subj	_	AlignBegin=363957|AlignEnd=364155
 3	dey	dey	AUX	_	_	0	root	_	AlignBegin=364155|AlignEnd=364352
 4	celebrate	celebrate	VERB	_	_	3	comp:aux	_	AlignBegin=364352|AlignEnd=364550
@@ -2651,7 +2651,7 @@
 1	na	na	PART	_	_	0	root	_	AlignBegin=364550|AlignEnd=364671
 2	di	di	DET	_	_	3	det	_	AlignBegin=364671|AlignEnd=364792
 3	tin	tin	NOUN	_	_	1	comp:pred	_	AlignBegin=364792|AlignEnd=364913
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=364913|AlignEnd=365034
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=364913|AlignEnd=365034
 5	we	we	PRON	_	_	7	subj	_	AlignBegin=365034|AlignEnd=365155
 6	no	no	PART	_	_	7	mod	_	AlignBegin=365155|AlignEnd=365276
 7	like	like	VERB	_	_	4	comp:obj	_	AlignBegin=365276|AlignEnd=365397
@@ -2689,11 +2689,11 @@
 1	de	dem	PRON	_	_	2	subj	_	AlignBegin=366225|AlignEnd=366465
 2	sell	sell	VERB	_	_	0	root	_	AlignBegin=366465|AlignEnd=366706
 3	am	am	PRON	_	_	2	comp:obj	_	AlignBegin=366706|AlignEnd=366947
-4	now	now	ADV	_	_	3	mod:emph	_	AlignBegin=366947|AlignEnd=367188
+4	now	now	ADV	_	_	2	mod	_	AlignBegin=366947|AlignEnd=367188
 5	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=367188|AlignEnd=367188
 6	e	im	PRON	_	_	7	subj	_	AlignBegin=367188|AlignEnd=367429
 7	suppose	suppose	VERB	_	_	2	parataxis:conj	_	AlignBegin=367429|AlignEnd=367670
-8	cele~	X	X	_	_	7	comp:obj	_	AlignBegin=367670|AlignEnd=367911
+8	cele~	X	ADJ	_	_	7	comp:pred	_	AlignBegin=367670|AlignEnd=367911
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=367911|AlignEnd=367911
 
 # sent_id = WAZL_01_Sports-Programme_DG__129
@@ -2711,7 +2711,7 @@
 # text_ortho = Na two nil,
 1	na	na	PART	_	_	0	root	_	AlignBegin=368522|AlignEnd=368752
 2	two	two	NUM	_	_	3	det:num	_	AlignBegin=368752|AlignEnd=368982
-3	nil	nil	INTJ	_	_	1	comp:pred	_	AlignBegin=368982|AlignEnd=369212
+3	nil	nil	PART	_	_	1	comp:cleft	_	AlignBegin=368982|AlignEnd=369212
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=369212|AlignEnd=369212
 
 # sent_id = WAZL_01_Sports-Programme_DG__131
@@ -2728,7 +2728,7 @@
 7	leave	leave	VERB	_	_	6	comp:aux	_	AlignBegin=370328|AlignEnd=370551
 8	red	red	ADJ	_	_	9	mod	_	AlignBegin=370551|AlignEnd=370774
 9	card	card	NOUN	_	_	7	comp:obj	_	AlignBegin=370774|AlignEnd=370997
-10	wey	wey	SCONJ	_	_	9	mod:relcl	_	AlignBegin=370997|AlignEnd=371221
+10	wey	wey	SCONJ	_	_	9	mod@relcl	_	AlignBegin=370997|AlignEnd=371221
 11	im	im	PRON	_	_	12	subj	_	AlignBegin=371221|AlignEnd=371444
 12	dey	dey	AUX	_	_	10	comp:obj	_	AlignBegin=371444|AlignEnd=371667
 13	get	get	VERB	_	_	12	comp:aux	_	AlignBegin=371667|AlignEnd=371890
@@ -2740,7 +2740,7 @@
 19	now	now	ADV	_	_	17	mod	_	AlignBegin=372783|AlignEnd=373007
 20	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=373007|AlignEnd=373007
 21	better	better	ADJ	_	_	22	mod	_	AlignBegin=373007|AlignEnd=373230
-22	player	player	NOUN	_	_	15	conj:coord	_	AlignBegin=373230|AlignEnd=373453
+22	player	player	NOUN	_	_	18	conj:coord	_	AlignBegin=373230|AlignEnd=373453
 23	for	for	ADP	_	_	22	mod	_	AlignBegin=373453|AlignEnd=373676
 24	Arsenal	Arsenal	PROPN	_	_	23	comp:obj	_	AlignBegin=373676|AlignEnd=373900
 25	//	//	PUNCT	_	_	6	punct	_	AlignBegin=373900|AlignEnd=373900
@@ -2754,10 +2754,10 @@
 2	Arsenal	Arsenal	PROPN	_	_	3	subj	_	AlignBegin=374114|AlignEnd=374328
 3	know	know	VERB	_	_	0	root	_	AlignBegin=374328|AlignEnd=374542
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=374542|AlignEnd=374756
-5	[	[	PUNCT	_	_	8	punct	_	AlignBegin=374756|AlignEnd=374756
-6	all	all	DET	_	_	8	subj	_	AlignBegin=374756|AlignEnd=374970
+5	[	[	PUNCT	_	_	14	punct	_	AlignBegin=374756|AlignEnd=374756
+6	all	all	ADV	_	_	14	dislocated	_	AlignBegin=374756|AlignEnd=374970
 7	de	dem	PRON	_	_	8	subj	_	AlignBegin=374970|AlignEnd=375184
-8	need	need	VERB	_	_	14	parataxis:dislocated	_	AlignBegin=375184|AlignEnd=375398
+8	need	need	VERB	_	_	6	mod@relcl	_	AlignBegin=375184|AlignEnd=375398
 9	do	do	VERB	_	_	8	comp:obj@x	_	AlignBegin=375398|AlignEnd=375612
 10	for	for	ADP	_	_	9	comp:obl	_	AlignBegin=375612|AlignEnd=375826
 11	dat	dat	DET	_	_	12	det	_	AlignBegin=375826|AlignEnd=376040
@@ -2775,19 +2775,19 @@
 # text = and de bin win am > eh two nil ehm against Manchester United //
 # text_en = And they won it, eh two to nil ehm against Manchester United.
 # text_ortho = And de bin win am eh two nil ehm against Manchester United,
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=377339|AlignEnd=377561
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=377339|AlignEnd=377561
 2	de	dem	PRON	_	_	3	subj	_	AlignBegin=377561|AlignEnd=377784
 3	bin	bin	AUX	_	_	0	root	_	AlignBegin=377784|AlignEnd=378007
 4	win	win	VERB	_	_	3	comp:aux	_	AlignBegin=378007|AlignEnd=378230
 5	am	am	PRON	_	_	4	comp:obj	_	AlignBegin=378230|AlignEnd=378452
-6	>	>	PUNCT	_	_	8	punct	_	AlignBegin=378452|AlignEnd=378452
-7	eh	eh	INTJ	_	_	8	discourse	_	AlignBegin=378452|AlignEnd=378675
-8	two	two	NUM	_	_	9	det:num	_	AlignBegin=378675|AlignEnd=378898
-9	nil	nil	VERB	_	_	3	discourse	_	AlignBegin=378898|AlignEnd=379121
+6	>	>	PUNCT	_	_	9	punct	_	AlignBegin=378452|AlignEnd=378452
+7	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=378452|AlignEnd=378675
+8	two	two	NUM	_	_	3	dislocated	_	AlignBegin=378675|AlignEnd=378898
+9	nil	nil	PART	_	_	4	parataxis:parenth	_	AlignBegin=378898|AlignEnd=379121
 10	ehm	ehm	INTJ	_	_	11	discourse	_	AlignBegin=379121|AlignEnd=379343
-11	against	against	ADP	_	_	9	mod	_	AlignBegin=379343|AlignEnd=379566
+11	against	against	ADP	_	_	9	comp:obl	_	AlignBegin=379343|AlignEnd=379566
 12	Manchester	Manchester	PROPN	_	_	11	comp:obj	_	AlignBegin=379566|AlignEnd=379789
-13	United	United	ADJ	_	_	12	flat	_	AlignBegin=379789|AlignEnd=380012
+13	United	United	PROPN	_	_	12	flat	_	AlignBegin=379789|AlignEnd=380012
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=380012|AlignEnd=380012
 
 # sent_id = WAZL_01_Sports-Programme_DG__134
@@ -2835,7 +2835,7 @@
 # text = sey [ im don give dem dat game |c eh but Arsenal still be number six class captain //
 # text_en = That he has given them that game, and eh, but Arsenal is still number six class captain.
 # text_ortho = Sey, im don give dem dat game, eh but Arsenal still be number six class captain,
-1	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=384722|AlignEnd=384958
+1	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=384722|AlignEnd=384958
 2	[	[	PUNCT	_	_	4	punct	_	AlignBegin=384958|AlignEnd=384958
 3	im	im	PRON	_	_	4	subj	_	AlignBegin=384958|AlignEnd=385195
 4	don	don	AUX	_	_	0	root	_	AlignBegin=385195|AlignEnd=385432
@@ -2849,7 +2849,7 @@
 12	Arsenal	Arsenal	PROPN	_	_	14	subj	_	AlignBegin=386853|AlignEnd=387090
 13	still	still	ADV	_	_	14	mod	_	AlignBegin=387090|AlignEnd=387327
 14	be	be	VERB	_	_	4	conj:coord	_	AlignBegin=387327|AlignEnd=387564
-15	number	number	NOUN	_	_	18	mod	_	AlignBegin=387564|AlignEnd=387801
+15	number	number	NOUN	_	_	17	mod	_	AlignBegin=387564|AlignEnd=387801
 16	six	six	NUM	_	_	15	mod:num	_	AlignBegin=387801|AlignEnd=388038
 17	class	class	NOUN	_	_	18	compound	_	AlignBegin=388038|AlignEnd=388275
 18	captain	captain	NOUN	_	_	14	comp:pred	_	AlignBegin=388275|AlignEnd=388512
@@ -2880,7 +2880,7 @@
 4	stay	stay	VERB	_	_	3	comp:aux	_	AlignBegin=391517|AlignEnd=391916
 5	reach	reach	VERB	_	_	4	compound:svc	_	AlignBegin=391916|AlignEnd=392314
 6	Manchester	Manchester	PROPN	_	_	5	comp:obj	_	AlignBegin=392314|AlignEnd=392713
-7	United	United	ADJ	_	_	6	flat	_	AlignBegin=392713|AlignEnd=393111
+7	United	United	PROPN	_	_	6	flat	_	AlignBegin=392713|AlignEnd=393111
 8	for	for	ADP	_	_	5	mod	_	AlignBegin=393111|AlignEnd=393510
 9	six	six	NUM	_	_	10	det:num	_	AlignBegin=393510|AlignEnd=393908
 10	position	position	NOUN	_	_	8	comp:obj	_	AlignBegin=393908|AlignEnd=394307
@@ -2897,7 +2897,7 @@
 4	stay	stay	VERB	_	_	3	comp:aux	_	AlignBegin=392119|AlignEnd=392379
 5	reach	reach	VERB	_	_	4	compound:svc	_	AlignBegin=392379|AlignEnd=392640
 6	Man	Man	PROPN	_	_	5	comp:obj	_	AlignBegin=392640|AlignEnd=392901
-7	United	United	ADJ	_	_	6	flat	_	AlignBegin=392901|AlignEnd=393162
+7	United	United	PROPN	_	_	6	flat	_	AlignBegin=392901|AlignEnd=393162
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=393162|AlignEnd=393162
 
 # sent_id = WAZL_01_Sports-Programme_DG__140
@@ -2907,10 +2907,10 @@
 # text_ortho = De just, de just dey dere, just dey mark register, dey collect names of noise maker.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=393162|AlignEnd=393162
 2	de	dem	PRON	_	_	8	subj	_	AlignBegin=393162|AlignEnd=393469
-3	just	just	ADV	_	_	2	unk:scrap	_	AlignBegin=393469|AlignEnd=393777
+3	just	just	ADV	_	_	2	unk@scrap	_	AlignBegin=393469|AlignEnd=393777
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=393777|AlignEnd=393777
 5	de	dem	PRON	_	_	2	conj:dicto	_	AlignBegin=393777|AlignEnd=394085
-6	just	just	ADV	_	_	5	unk:scrap	_	AlignBegin=394085|AlignEnd=394393
+6	just	just	ADV	_	_	8	mod	_	AlignBegin=394085|AlignEnd=394393
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=394393|AlignEnd=394393
 8	dey	dey	VERB	_	_	0	root	_	AlignBegin=394393|AlignEnd=394701
 9	dere	dere	ADV	_	_	8	comp:pred	_	AlignBegin=394701|AlignEnd=395008
@@ -2938,5 +2938,6 @@
 3	stay	stay	VERB	_	_	2	comp:aux	_	AlignBegin=394999|AlignEnd=395300
 4	reach	reach	VERB	_	_	3	compound:svc	_	AlignBegin=395300|AlignEnd=395602
 5	Man	Man	PROPN	_	_	4	comp:obj	_	AlignBegin=395602|AlignEnd=395903
-6	United	United	ADJ	_	_	5	flat	_	AlignBegin=395903|AlignEnd=396205
+6	United	United	PROPN	_	_	5	flat	_	AlignBegin=395903|AlignEnd=396205
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=396205|AlignEnd=396205
+
