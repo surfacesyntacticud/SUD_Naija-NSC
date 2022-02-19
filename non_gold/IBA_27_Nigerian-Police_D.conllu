@@ -24,7 +24,7 @@
 # text_en = It is wel;.
 # text_ortho = Na wa o.
 1	na	na	PART	_	_	0	root	_	AlignBegin=3950|AlignEnd=4273
-2	wa	wa	INTJ	_	_	1	comp:pred	_	AlignBegin=4273|AlignEnd=4596
+2	wa	wa	NOUN	_	_	1	comp:pred	_	AlignBegin=4273|AlignEnd=4596
 3	o	o	PART	_	_	2	mod:emph	_	AlignBegin=4596|AlignEnd=4919
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=4919|AlignEnd=4919
 
@@ -46,11 +46,11 @@
 2	hear	hear	VERB	_	_	0	root	_	AlignBegin=5645|AlignEnd=5970
 3	di	di	DET	_	_	4	det	_	AlignBegin=5970|AlignEnd=6295
 4	news	news	NOUN	_	_	2	comp:obj	_	AlignBegin=6295|AlignEnd=6620
-5	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=6620|AlignEnd=6945
+5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=6620|AlignEnd=6945
 6	dem	dem	PRON	_	_	7	subj	_	AlignBegin=6945|AlignEnd=7270
 7	talk	talk	VERB	_	_	5	comp:obj	_	AlignBegin=7270|AlignEnd=7595
 8	dis	dis	DET	_	_	9	det	_	AlignBegin=7595|AlignEnd=7920
-9	morning	morning	NOUN	_	_	7	mod	_	AlignBegin=7920|AlignEnd=8246
+9	morning	morning	NOUN	_	_	7	comp:obj	_	AlignBegin=7920|AlignEnd=8246
 10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=8246|AlignEnd=8246
 
 # sent_id = IBA_27_Nigerian-Police_DG__6
@@ -78,7 +78,7 @@
 7	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=11188|AlignEnd=11538
 8	where	where	ADV	_	_	7	comp:obj	_	AlignBegin=11538|AlignEnd=11889
 9	you	you	PRON	_	_	10	subj	_	AlignBegin=11889|AlignEnd=12239
-10	go	go	AUX	_	_	8	mod:relcl	_	AlignBegin=12239|AlignEnd=12589
+10	go	go	AUX	_	_	8	mod@relcl	_	AlignBegin=12239|AlignEnd=12589
 11	fit	fit	AUX	_	_	10	comp:aux	_	AlignBegin=12589|AlignEnd=12940
 12	hear	hear	VERB	_	_	11	comp:aux	_	AlignBegin=12940|AlignEnd=13290
 13	am	am	PRON	_	_	12	comp:obj	_	AlignBegin=13290|AlignEnd=13641
@@ -94,7 +94,7 @@
 3	open	open	VERB	_	_	0	root	_	AlignBegin=14134|AlignEnd=14380
 4	it	it	PRON	_	_	3	comp:obj	_	AlignBegin=14380|AlignEnd=14627
 5	at	at	ADP	_	_	3	mod	_	AlignBegin=14627|AlignEnd=14873
-6	all	all	DET	_	_	5	comp:obj	_	AlignBegin=14873|AlignEnd=15120
+6	all	all	ADV	_	_	5	unk@fixed	_	AlignBegin=14873|AlignEnd=15120
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=15120|AlignEnd=15120
 
 # sent_id = IBA_27_Nigerian-Police_DG__9
@@ -146,11 +146,11 @@
 # text = wey im dey come //
 # text_en = When he was coming,
 # text_ortho = Wey im dey come.
-1	wey	wey	SCONJ	_	_	3	discourse	_	AlignBegin=22700|AlignEnd=22900
+1	wey	wey	SCONJ	_	_	0	root	_	AlignBegin=22700|AlignEnd=22900
 2	im	im	PRON	_	_	3	subj	_	AlignBegin=22900|AlignEnd=23100
-3	dey	dey	AUX	_	_	0	root	_	AlignBegin=23100|AlignEnd=23300
+3	dey	dey	AUX	_	_	1	comp:obj	_	AlignBegin=23100|AlignEnd=23300
 4	come	come	VERB	_	_	3	comp:aux	_	AlignBegin=23300|AlignEnd=23500
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=23500|AlignEnd=23500
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=23500|AlignEnd=23500
 
 # sent_id = IBA_27_Nigerian-Police_DG__13
 # speaker_id = Sp408
@@ -165,7 +165,7 @@
 6	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=26112|AlignEnd=26490|Lang=en
 7	ten	ten	NUM	_	_	5	comp:obj	_	AlignBegin=26490|AlignEnd=26868|Lang=en
 8	o'clock	o'clock	ADV	_	_	7	mod	_	AlignBegin=26868|AlignEnd=27246|Lang=en
-9	in	in	ADP	_	_	7	mod	_	AlignBegin=27246|AlignEnd=27624|Lang=en
+9	in	in	ADP	_	_	5	mod	_	AlignBegin=27246|AlignEnd=27624|Lang=en
 10	di	di	DET	_	_	11	det	_	AlignBegin=27624|AlignEnd=28002|Lang=en
 11	night	night	NOUN	_	_	9	comp:obj	_	AlignBegin=28002|AlignEnd=28380|Lang=en
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=28380|AlignEnd=28380
@@ -188,9 +188,9 @@
 # text = hm hm //
 # text_en = Hm hm.
 # text_ortho = Hm hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=31974|AlignEnd=32147
-2	hm	hm	INTJ	_	_	1	discourse	_	AlignBegin=32147|AlignEnd=32320
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32320|AlignEnd=32320
+1	hm	hm	INTJ	_	_	2	discourse	_	AlignBegin=31974|AlignEnd=32147
+2	hm	hm	INTJ	_	_	0	root	_	AlignBegin=32147|AlignEnd=32320
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=32320|AlignEnd=32320
 
 # sent_id = IBA_27_Nigerian-Police_DG__16
 # speaker_id = Sp408
@@ -224,7 +224,7 @@
 # text_ortho = Search everybody inside di moto.
 1	search	search	VERB	_	_	0	root	_	AlignBegin=38555|AlignEnd=38908
 2	everybody	everybody	PRON	_	_	1	comp:obj	_	AlignBegin=38908|AlignEnd=39261
-3	inside	inside	ADP	_	_	2	mod	_	AlignBegin=39261|AlignEnd=39614
+3	inside	inside	ADP	_	_	1	comp:obl	_	AlignBegin=39261|AlignEnd=39614
 4	di	di	DET	_	_	5	det	_	AlignBegin=39614|AlignEnd=39967
 5	moto	moto	NOUN	_	_	3	comp:obj	_	AlignBegin=39967|AlignEnd=40320
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=40320|AlignEnd=40320
@@ -262,8 +262,8 @@
 # text_en = The money they saw with him...
 # text_ortho = Di money wey dey see for im hand...
 1	di	di	DET	_	_	2	det	_	AlignBegin=45580|AlignEnd=45819
-2	money	money	NOUN	_	_	0	root:scrap	_	AlignBegin=45819|AlignEnd=46059
-3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=46059|AlignEnd=46299
+2	money	money	NOUN	_	_	0	root@scrap	_	AlignBegin=45819|AlignEnd=46059
+3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=46059|AlignEnd=46299
 4	dey	dey	AUX	_	_	3	comp:obj	_	AlignBegin=46299|AlignEnd=46539
 5	see	see	VERB	_	_	4	comp:aux	_	AlignBegin=46539|AlignEnd=46779
 6	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=46779|AlignEnd=47019
@@ -291,7 +291,7 @@
 12	inside	inside	ADP	_	_	3	comp:obl	_	AlignBegin=49609|AlignEnd=49873
 13	di	di	DET	_	_	14	det	_	AlignBegin=49873|AlignEnd=50137
 14	moto	moto	NOUN	_	_	12	comp:obj	_	AlignBegin=50137|AlignEnd=50401
-15	wey	wey	SCONJ	_	_	14	mod:relcl	_	AlignBegin=50401|AlignEnd=50665
+15	wey	wey	SCONJ	_	_	14	mod@relcl	_	AlignBegin=50401|AlignEnd=50665
 16	dey	dey	AUX	_	_	15	comp:obj	_	AlignBegin=50665|AlignEnd=50929
 17	come	come	VERB	_	_	16	comp:aux	_	AlignBegin=50929|AlignEnd=51193
 18	Ibadan	Ibadan	PROPN	_	_	17	comp:obj	_	AlignBegin=51193|AlignEnd=51457
@@ -338,8 +338,8 @@
 1	con	con	AUX	_	_	0	root	_	AlignBegin=56220|AlignEnd=56528
 2	tie	tie	VERB	_	_	1	comp:aux	_	AlignBegin=56528|AlignEnd=56836
 3	am	am	PRON	_	_	2	comp:obj	_	AlignBegin=56836|AlignEnd=57144
-4	like	like	ADP	_	_	2	comp:obl	_	AlignBegin=57144|AlignEnd=57452
-5	thief	thief	NOUN	_	_	4	comp:obj	_	AlignBegin=57452|AlignEnd=57760
+4	like	like	ADP	_	_	2	mod	_	AlignBegin=57144|AlignEnd=57452
+5	thief	thief	VERB	_	_	4	comp:obj	_	AlignBegin=57452|AlignEnd=57760
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=57760|AlignEnd=57760
 
 # sent_id = IBA_27_Nigerian-Police_DG__27
@@ -348,17 +348,17 @@
 # text_en = Collected all the money, about eh one hundred and sixteen thousand naira.
 # text_ortho = Collect all di money about eh one hundred and sixteen thousand naira.
 1	collect	collect	VERB	_	_	0	root	_	AlignBegin=58520|AlignEnd=58861
-2	all	all	DET	_	_	4	mod	_	AlignBegin=58861|AlignEnd=59202
+2	all	all	ADV	_	_	4	mod	_	AlignBegin=58861|AlignEnd=59202
 3	di	di	DET	_	_	4	det	_	AlignBegin=59202|AlignEnd=59543
 4	money	money	NOUN	_	_	1	comp:obj	_	AlignBegin=59543|AlignEnd=59884
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=59884|AlignEnd=59884
-6	about	about	ADP	_	_	1	dislocated	_	AlignBegin=59884|AlignEnd=60225
-7	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=60225|AlignEnd=60566
-8	one	one	NUM	_	_	13	det:num	_	AlignBegin=60566|AlignEnd=60907
-9	hundred	hundred	NUM	_	_	8	flat	_	AlignBegin=60907|AlignEnd=61248
-10	and	and	CCONJ	_	_	11	cc	_	AlignBegin=61248|AlignEnd=61589
-11	sixteen	sixteen	NUM	_	_	9	conj:coord	_	AlignBegin=61589|AlignEnd=61930
-12	thousand	thousand	NUM	_	_	11	flat	_	AlignBegin=61930|AlignEnd=62271
+6	about	about	ADP	_	_	1	mod	_	AlignBegin=59884|AlignEnd=60225
+7	eh	eh	INTJ	_	_	13	discourse	_	AlignBegin=60225|AlignEnd=60566
+8	one	one	NUM	_	_	9	compound	_	AlignBegin=60566|AlignEnd=60907
+9	hundred	hundred	NUM	_	_	13	det:num	_	AlignBegin=60907|AlignEnd=61248
+10	and	and	CCONJ	_	_	12	cc	_	AlignBegin=61248|AlignEnd=61589
+11	sixteen	sixteen	NUM	_	_	12	compound	_	AlignBegin=61589|AlignEnd=61930
+12	thousand	thousand	NUM	_	_	9	conj:coord	_	AlignBegin=61930|AlignEnd=62271
 13	naira	naira	NOUN	_	_	6	comp:obj	_	AlignBegin=62271|AlignEnd=62613
 14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=62613|AlignEnd=62613
 
@@ -398,7 +398,7 @@
 3	interview	interview	VERB	_	_	2	comp:aux	_	AlignBegin=65805|AlignEnd=66015
 4	di	di	DET	_	_	5	det	_	AlignBegin=66015|AlignEnd=66226
 5	man	man	NOUN	_	_	3	comp:obj	_	AlignBegin=66226|AlignEnd=66436
-6	wey	wey	SCONJ	_	_	5	mod:relcl	_	AlignBegin=66436|AlignEnd=66647
+6	wey	wey	SCONJ	_	_	5	mod@relcl	_	AlignBegin=66436|AlignEnd=66647
 7	me	me	PRON	_	_	10	dislocated	_	AlignBegin=66647|AlignEnd=66857
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=66857|AlignEnd=66857
 9	I	I	PRON	_	_	10	subj	_	AlignBegin=66857|AlignEnd=67068
@@ -430,7 +430,7 @@
 # text_ortho = Di tin wey me I wan ask you be sey police wey suppose eh dey secure people, wey dey come dey be turn to armed robber, e good?
 1	di	di	DET	_	_	2	det	_	AlignBegin=69174|AlignEnd=69524
 2	tin	tin	NOUN	_	_	9	subj	_	AlignBegin=69524|AlignEnd=69874
-3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=69874|AlignEnd=70224
+3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=69874|AlignEnd=70224
 4	me	me	PRON	_	_	6	dislocated	_	AlignBegin=70224|AlignEnd=70574
 5	I	I	PRON	_	_	6	subj	_	AlignBegin=70574|AlignEnd=70924
 6	wan	wan	VERB	_	_	3	comp:obj	_	AlignBegin=70924|AlignEnd=71274
@@ -441,18 +441,18 @@
 11	[	[	PUNCT	_	_	33	punct	_	AlignBegin=72675|AlignEnd=72675
 12	police	police	NOUN	_	_	33	dislocated	_	AlignBegin=72675|AlignEnd=73025
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=73025|AlignEnd=73025
-14	wey	wey	SCONJ	_	_	12	mod:relcl	_	AlignBegin=73025|AlignEnd=73375
+14	wey	wey	SCONJ	_	_	12	mod@relcl	_	AlignBegin=73025|AlignEnd=73375
 15	suppose	suppose	VERB	_	_	14	comp:obj	_	AlignBegin=73375|AlignEnd=73725
 16	eh	eh	INTJ	_	_	17	discourse	_	AlignBegin=73725|AlignEnd=74076
-17	dey	dey	VERB	_	_	15	comp:obj@x	_	AlignBegin=74076|AlignEnd=74426
+17	dey	dey	VERB	_	_	15	parataxis:obj	_	AlignBegin=74076|AlignEnd=74426
 18	secure	secure	ADJ	_	_	19	mod	_	AlignBegin=74426|AlignEnd=74776
-19	people	people	NOUN	_	_	17	comp:obj	_	AlignBegin=74776|AlignEnd=75126
+19	people	people	NOUN	_	_	17	comp:pred	_	AlignBegin=74776|AlignEnd=75126
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=75126|AlignEnd=75126
 21	wey	wey	SCONJ	_	_	14	conj:coord	_	AlignBegin=75126|AlignEnd=75476
 22	dey	dey	AUX	_	_	21	comp:obj	_	AlignBegin=75476|AlignEnd=75826
 23	come	come	VERB	_	_	22	comp:aux	_	AlignBegin=75826|AlignEnd=76176
-24	dey	dey	AUX	_	_	23	comp:obj@x	_	AlignBegin=76176|AlignEnd=76527
-25	be	be	AUX	_	_	24	comp:aux	_	AlignBegin=76527|AlignEnd=76877
+24	dey	dey	AUX	_	_	23	comp:pred	_	AlignBegin=76176|AlignEnd=76527
+25	be	be	VERB	_	_	24	comp:aux	_	AlignBegin=76527|AlignEnd=76877
 26	turn	turn	VERB	_	_	25	comp:aux	_	AlignBegin=76877|AlignEnd=77227
 27	to	to	ADP	_	_	26	comp:obl	_	AlignBegin=77227|AlignEnd=77577
 28	armed	armed	ADJ	_	_	29	mod	_	AlignBegin=77577|AlignEnd=77927
@@ -470,10 +470,10 @@
 # text_en = It's not good at all.
 # text_ortho = It'S not good at all.
 1	it's	it's	PART	_	_	0	root	_	AlignBegin=79015|AlignEnd=79239|Lang=en
-2	not	not	PART	_	_	1	mod	_	AlignBegin=79239|AlignEnd=79463|Lang=en
+2	not	not	PART	_	_	3	mod	_	AlignBegin=79239|AlignEnd=79463|Lang=en
 3	good	good	ADJ	_	_	1	comp:pred	_	AlignBegin=79463|AlignEnd=79688|Lang=en
 4	at	at	ADP	_	_	3	mod	_	AlignBegin=79688|AlignEnd=79912|Lang=en
-5	all	all	DET	_	_	4	comp:obj	_	AlignBegin=79912|AlignEnd=80137|Lang=en
+5	all	all	ADV	_	_	4	unk@fixed	_	AlignBegin=79912|AlignEnd=80137|Lang=en
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=80137|AlignEnd=80137
 
 # sent_id = IBA_27_Nigerian-Police_DG__34
@@ -484,10 +484,10 @@
 1	for	for	ADP	_	_	0	root	_	AlignBegin=79844|AlignEnd=80131
 2	dis	dis	DET	_	_	3	det	_	AlignBegin=80131|AlignEnd=80419
 3	Nigeria	Nigeria	PROPN	_	_	1	comp:obj	_	AlignBegin=80419|AlignEnd=80706
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=80706|AlignEnd=80994
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=80706|AlignEnd=80994
 5	we	we	PRON	_	_	6	subj	_	AlignBegin=80994|AlignEnd=81281
 6	dey	dey	AUX	_	_	4	comp:obj	_	AlignBegin=81281|AlignEnd=81569
-7	talk	talk	VERB	_	_	6	comp:aux	_	AlignBegin=81569|AlignEnd=81857
+7	talk	talk	VERB	_	_	6	comp:aux@scrap	_	AlignBegin=81569|AlignEnd=81857
 8	&	&	PUNCT	_	_	1	punct	_	AlignBegin=81857|AlignEnd=81857
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=81857|AlignEnd=81857
 
@@ -503,17 +503,17 @@
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=81239|AlignEnd=81239
 6	di	di	DET	_	_	4	conj:dicto	_	AlignBegin=81239|AlignEnd=81514
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=81514|AlignEnd=81514
-8	Nigeria	Nigeria	PROPN	_	_	0	root	_	AlignBegin=81514|AlignEnd=81790
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=81790|AlignEnd=82065
+8	Nigeria	Nigeria	PROPN	_	_	13	comp:pred	_	AlignBegin=81514|AlignEnd=81790
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=81790|AlignEnd=82065
 10	we	we	PRON	_	_	11	subj	_	AlignBegin=82065|AlignEnd=82341
 11	dey	dey	VERB	_	_	9	comp:obj	_	AlignBegin=82341|AlignEnd=82616
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=82616|AlignEnd=82616
-13	it's	it's	PART	_	_	11	comp:obj	_	AlignBegin=82616|AlignEnd=82892
+13	it's	it's	PART	_	_	0	root	_	AlignBegin=82616|AlignEnd=82892
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=82892|AlignEnd=82892
-15	o	o	PART	_	_	13	mod:emph	_	AlignBegin=82892|AlignEnd=83167
+15	o	o	PART	_	_	13	comp:pred	_	AlignBegin=82892|AlignEnd=83167
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=83167|AlignEnd=83167
 17	o	o	PART	_	_	15	conj:dicto	_	AlignBegin=83167|AlignEnd=83443
-18	||	||	PUNCT	_	_	6	punct	_	AlignBegin=83443|AlignEnd=83443
+18	||	||	PUNCT	_	_	19	punct	_	AlignBegin=83443|AlignEnd=83443
 19	o	o	PART	_	_	17	conj:dicto	_	AlignBegin=83443|AlignEnd=83718
 20	}	}	PUNCT	_	_	15	punct	_	AlignBegin=83718|AlignEnd=83718
 21	||	||	PUNCT	_	_	23	punct	_	AlignBegin=83718|AlignEnd=83718
@@ -522,7 +522,7 @@
 24	||	||	PUNCT	_	_	25	punct	_	AlignBegin=83994|AlignEnd=83994
 25	na	na	PART	_	_	23	conj:dicto	_	AlignBegin=83994|AlignEnd=84269
 26	}	}	PUNCT	_	_	23	punct	_	AlignBegin=84269|AlignEnd=84269
-27	}	}	PUNCT	_	_	23	punct	_	AlignBegin=84269|AlignEnd=84269
+27	}	}	PUNCT	_	_	13	punct	_	AlignBegin=84269|AlignEnd=84269
 28	different	different	ADJ	_	_	29	mod	_	AlignBegin=84269|AlignEnd=84545
 29	one	one	NOUN	_	_	25	comp:pred	_	AlignBegin=84545|AlignEnd=84820
 30	o	o	PART	_	_	29	mod:emph	_	AlignBegin=84820|AlignEnd=85096
@@ -555,9 +555,9 @@
 12	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=88152|AlignEnd=88152
 13	but	but	CCONJ	_	_	15	cc	_	AlignBegin=88152|AlignEnd=88534
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=88534|AlignEnd=88534
-15	now	now	ADV	_	_	8	conj:coord	_	AlignBegin=88534|AlignEnd=88916
+15	now	now	ADV	_	_	8	mod:periph	_	AlignBegin=88534|AlignEnd=88916
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=88916|AlignEnd=88916
-17	now	now	ADV	_	_	15	compound:redup	_	AlignBegin=88916|AlignEnd=89298
+17	now	now	ADV	_	_	15	conj:dicto	_	AlignBegin=88916|AlignEnd=89298
 18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=89298|AlignEnd=89298
 19	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=89298|AlignEnd=89298
 
@@ -606,13 +606,13 @@
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=93860|AlignEnd=94406|Lang=en
 2	saw	saw	VERB	_	_	0	root	_	AlignBegin=94406|AlignEnd=94952|Lang=en
 3	sometin	sometin	PRON	_	_	2	comp:obj	_	AlignBegin=94952|AlignEnd=95498|Lang=en
-4	li~	X	X	_	_	3	mod	_	AlignBegin=95498|AlignEnd=96044|Lang=en
-5	it's	it's	PART	_	_	4	comp:cleft	_	AlignBegin=96044|AlignEnd=96590|Lang=en
+4	li~	X	PART	_	_	3	mod:emph	_	AlignBegin=95498|AlignEnd=96044|Lang=en
+5	it's	it's	PART	_	_	2	mod	_	AlignBegin=96044|AlignEnd=96590|Lang=en
 6	almost	almost	ADV	_	_	7	mod	_	AlignBegin=96590|AlignEnd=97136|Lang=en
 7	around	around	ADP	_	_	5	comp:pred	_	AlignBegin=97136|AlignEnd=97682|Lang=en
-8	twenty	twenty	NUM	_	_	10	det:num	_	AlignBegin=97682|AlignEnd=98228|Lang=en
-9	five	five	NUM	_	_	8	flat	_	AlignBegin=98228|AlignEnd=98774|Lang=en
-10	years	years	NOUN	_	_	7	comp:obj	_	AlignBegin=98774|AlignEnd=99320|Lang=en
+8	twenty	twenty	NUM	_	_	9	compound	_	AlignBegin=97682|AlignEnd=98228|Lang=en
+9	five	five	NUM	_	_	10	det:num	_	AlignBegin=98228|AlignEnd=98774|Lang=en
+10	years	years	NOUN	_	_	5	comp:pred	_	AlignBegin=98774|AlignEnd=99320|Lang=en
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=99320|AlignEnd=99320
 
 # sent_id = IBA_27_Nigerian-Police_DG__42
@@ -679,7 +679,7 @@
 3	taxi	taxi	NOUN	_	_	4	compound	_	AlignBegin=107976|AlignEnd=108435|Lang=en
 4	driver	driver	NOUN	_	_	2	comp:obj	_	AlignBegin=108435|AlignEnd=108894|Lang=en
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=108894|AlignEnd=108894
-6	to	to	ADP	_	_	2	mod	_	AlignBegin=108894|AlignEnd=109353|Lang=en
+6	to	to	ADP	_	_	2	comp:obl@x	_	AlignBegin=108894|AlignEnd=109353|Lang=en
 7	|	|	PUNCT	_	_	8	punct	_	AlignBegin=109353|AlignEnd=109353
 8	to	to	ADP	_	_	6	conj:dicto	_	AlignBegin=109353|AlignEnd=109812|Lang=en
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=109812|AlignEnd=109812
@@ -710,7 +710,7 @@
 # text = wen he is going <+ he say [ ah this road is not clear //] //
 # text_en = While he was going he said "ah, this road, is not clear."
 # text_ortho = Wen he is going, he say ah this road is not clear.
-1	wen	wen	SCONJ	_	_	7	mod:periph	_	AlignBegin=111649|AlignEnd=112034|Lang=en
+1	wen	wen	SCONJ	_	_	7	dislocated	_	AlignBegin=111649|AlignEnd=112034|Lang=en
 2	he	he	PRON	_	_	3	subj	_	AlignBegin=112034|AlignEnd=112419|Lang=en
 3	is	is	AUX	_	_	1	comp:obj	_	AlignBegin=112419|AlignEnd=112805|Lang=en
 4	going	go	VERB	_	_	3	comp:aux	_	AlignBegin=112805|AlignEnd=113190|Lang=en
@@ -721,7 +721,7 @@
 9	ah	ah	INTJ	_	_	12	discourse	_	AlignBegin=113961|AlignEnd=114346|Lang=en
 10	this	this	DET	_	_	11	det	_	AlignBegin=114346|AlignEnd=114732|Lang=en
 11	road	road	NOUN	_	_	12	subj	_	AlignBegin=114732|AlignEnd=115117|Lang=en
-12	is	is	VERB	_	_	7	parataxis:obj	_	AlignBegin=115117|AlignEnd=115503|Lang=en
+12	is	is	AUX	_	_	7	parataxis:obj	_	AlignBegin=115117|AlignEnd=115503|Lang=en
 13	not	not	PART	_	_	14	mod	_	AlignBegin=115503|AlignEnd=115888|Lang=en
 14	clear	clear	ADJ	_	_	12	comp:pred	_	AlignBegin=115888|AlignEnd=116274|Lang=en
 15	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=116274|AlignEnd=116274
@@ -744,7 +744,7 @@
 10	}	}	PUNCT	_	_	4	punct	_	AlignBegin=119127|AlignEnd=119127
 11	police	police	NOUN	_	_	12	compound	_	AlignBegin=119127|AlignEnd=119534
 12	station	station	NOUN	_	_	9	comp:obj	_	AlignBegin=119534|AlignEnd=119942
-13	to	to	ADP	_	_	9	mod	_	AlignBegin=119942|AlignEnd=120349|Lang=en
+13	to	to	ADP	_	_	9	comp:obl@x	_	AlignBegin=119942|AlignEnd=120349|Lang=en
 14	sleep	sleep	VERB	_	_	13	comp:obj	_	AlignBegin=120349|AlignEnd=120757|Lang=en
 15	there	there	ADV	_	_	14	mod	_	AlignBegin=120757|AlignEnd=121164|Lang=en
 16	till	till	ADP	_	_	14	mod	_	AlignBegin=121164|AlignEnd=121572|Lang=en
@@ -787,7 +787,7 @@
 # text_ortho = Di money wey dey inside, dey collect it, and he go, di man go.
 1	di	di	DET	_	_	2	det	_	AlignBegin=127166|AlignEnd=127449
 2	money	money	NOUN	_	_	8	dislocated	_	AlignBegin=127449|AlignEnd=127733
-3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=127733|AlignEnd=128017
+3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=127733|AlignEnd=128017
 4	dey	dey	VERB	_	_	3	comp:obj	_	AlignBegin=128017|AlignEnd=128301
 5	inside	inside	ADP	_	_	4	comp:pred	_	AlignBegin=128301|AlignEnd=128585
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=128585|AlignEnd=128585
@@ -815,8 +815,8 @@
 # text_ortho = When he reach dere, in the morning, they said that the man e don go, back to Adeja.
 1	when	when	SCONJ	_	_	11	mod:periph	_	AlignBegin=131600|AlignEnd=131952|Lang=en
 2	he	he	PRON	_	_	3	subj	_	AlignBegin=131952|AlignEnd=132304|Lang=en
-3	reach	reach	VERB	_	_	1	comp:obj	_	AlignBegin=132304|AlignEnd=132656|Lang=en
-4	dere	dere	ADV	_	_	3	mod	_	AlignBegin=132656|AlignEnd=133008|Lang=en
+3	reach	reach	VERB	_	_	1	mod@relcl	_	AlignBegin=132304|AlignEnd=132656|Lang=en
+4	dere	dere	ADV	_	_	3	comp:obj	_	AlignBegin=132656|AlignEnd=133008|Lang=en
 5	<+	<+	PUNCT	_	_	1	punct	_	AlignBegin=133008|AlignEnd=133008
 6	in	in	ADP	_	_	11	mod:periph	_	AlignBegin=133008|AlignEnd=133361|Lang=en
 7	the	the	DET	_	_	8	det	_	AlignBegin=133361|AlignEnd=133713|Lang=en
@@ -832,7 +832,7 @@
 17	go	go	VERB	_	_	16	comp:aux	_	AlignBegin=136531|AlignEnd=136883
 18	//+	//+	PUNCT	_	_	19	punct	_	AlignBegin=136883|AlignEnd=136883
 19	back	back	ADV	_	_	17	mod	_	AlignBegin=136883|AlignEnd=137235
-20	to	to	ADP	_	_	17	comp:obl	_	AlignBegin=137235|AlignEnd=137587
+20	to	to	ADP	_	_	19	comp:obl	_	AlignBegin=137235|AlignEnd=137587
 21	Adeja	Adeja	PROPN	_	_	20	comp:obj	_	AlignBegin=137587|AlignEnd=137940
 22	//	//	PUNCT	_	_	11	punct	_	AlignBegin=137940|AlignEnd=137940
 
@@ -865,23 +865,23 @@
 1	no	no	PART	_	_	2	mod	_	AlignBegin=140175|AlignEnd=140560
 2	be	be	VERB	_	_	0	root	_	AlignBegin=140560|AlignEnd=140945
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=140945|AlignEnd=140945
-4	d~	X	X	_	_	8	mod	_	AlignBegin=140945|AlignEnd=141331
+4	d~	X	DET	_	_	8	det	_	AlignBegin=140945|AlignEnd=141331
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=141331|AlignEnd=141331
 6	di	di	DET	_	_	4	conj:dicto	_	AlignBegin=141331|AlignEnd=141716
 7	}	}	PUNCT	_	_	4	punct	_	AlignBegin=141716|AlignEnd=141716
 8	tin	tin	NOUN	_	_	2	comp:pred	_	AlignBegin=141716|AlignEnd=142102
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=142102|AlignEnd=142487
-10	him	him	PRON	_	_	9	comp:obj@scrap	_	AlignBegin=142487|AlignEnd=142872
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=142102|AlignEnd=142487
+10	him	him	PRON	_	_	9	comp:obj	_	AlignBegin=142487|AlignEnd=142872
 11	and	and	CCONJ	_	_	10	cc	_	AlignBegin=142872|AlignEnd=143258
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=143258|AlignEnd=143258
-13	ta~	X	X	_	_	10	mod	_	AlignBegin=143258|AlignEnd=143643
+13	ta~	X	X	_	_	10	mod@relcl	_	AlignBegin=143258|AlignEnd=143643
 14	||	||	PUNCT	_	_	15	punct	_	AlignBegin=143643|AlignEnd=143643
 15	him	him	PRON	_	_	13	conj:dicto	_	AlignBegin=143643|AlignEnd=144029
 16	}	}	PUNCT	_	_	13	punct	_	AlignBegin=144029|AlignEnd=144029
-17	{t~	X	X	_	_	8	punct	_	AlignBegin=144029|AlignEnd=144029
+17	{t~	X	PUNCT	_	_	10	punct	_	AlignBegin=144029|AlignEnd=144029
 18	||	||	PUNCT	_	_	19	punct	_	AlignBegin=144029|AlignEnd=144029
-19	talk	talk	VERB	_	_	13	conj:dicto	_	AlignBegin=144029|AlignEnd=144414
-20	}	}	PUNCT	_	_	8	punct	_	AlignBegin=144414|AlignEnd=144414
+19	talk	talk	VERB	_	_	10	conj:dicto	_	AlignBegin=144029|AlignEnd=144414
+20	}	}	PUNCT	_	_	19	punct	_	AlignBegin=144414|AlignEnd=144414
 21	togeda	togeda	ADV	_	_	19	mod	_	AlignBegin=144414|AlignEnd=144800
 22	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=144800|AlignEnd=144800
 
@@ -895,9 +895,9 @@
 3	he	he	PRON	_	_	4	subj	_	AlignBegin=145680|AlignEnd=146040|Lang=en
 4	go	go	VERB	_	_	0	root	_	AlignBegin=146040|AlignEnd=146400|Lang=en
 5	to	to	ADP	_	_	4	comp:obl@x	_	AlignBegin=146400|AlignEnd=146760|Lang=en
-6	to	to	ADP	_	_	4	comp:obl@x	_	AlignBegin=146760|AlignEnd=147120|Lang=en
+6	to	to	ADP	_	_	5	comp:obj@fixed	_	AlignBegin=146760|AlignEnd=147120|Lang=en
 7	meet	meet	VERB	_	_	6	comp:obj	_	AlignBegin=147120|AlignEnd=147480|Lang=en
-8	all	all	DET	_	_	10	mod	_	AlignBegin=147480|AlignEnd=147840|Lang=en
+8	all	all	ADV	_	_	10	mod	_	AlignBegin=147480|AlignEnd=147840|Lang=en
 9	deir	deir	PRON	_	_	10	mod:poss	_	AlignBegin=147840|AlignEnd=148200|Lang=en
 10	people	people	NOUN	_	_	7	comp:obj	_	AlignBegin=148200|AlignEnd=148560|Lang=en
 11	at	at	ADP	_	_	7	comp:obl	_	AlignBegin=148560|AlignEnd=148920|Lang=en
@@ -909,7 +909,7 @@
 # text = dat & //
 # text_en = that...
 # text_ortho = Dat...
-1	dat	dat	DET	_	_	0	root:scrap	_	AlignBegin=149700|AlignEnd=149955
+1	dat	dat	PRON	_	_	0	root@scrap	_	AlignBegin=149700|AlignEnd=149955
 2	&	&	PUNCT	_	_	1	punct	_	AlignBegin=149955|AlignEnd=149955
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=149955|AlignEnd=149955
 
@@ -931,17 +931,17 @@
 11	Chairman	Chairman	NOUN	_	_	9	comp:obj	_	AlignBegin=153437|AlignEnd=153770|Lang=en
 12	di	di	DET	_	_	14	det	_	AlignBegin=153770|AlignEnd=154103|Lang=en
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=154103|AlignEnd=154103
-14	u~	X	X	_	_	9	comp:obj	_	AlignBegin=154103|AlignEnd=154436|Lang=en
+14	u~	X	X	_	_	11	mod	_	AlignBegin=154103|AlignEnd=154436|Lang=en
 15	||	||	PUNCT	_	_	17	punct	_	AlignBegin=154436|AlignEnd=154436
 16	national	national	ADJ	_	_	17	mod	_	AlignBegin=154436|AlignEnd=154769|Lang=en
 17	union	union	NOUN	_	_	14	conj:dicto	_	AlignBegin=154769|AlignEnd=155102|Lang=en
 18	}	}	PUNCT	_	_	14	punct	_	AlignBegin=155102|AlignEnd=155102
-19	for	for	ADP	_	_	17	mod	_	AlignBegin=155102|AlignEnd=155435|Lang=en
-20	cab	cab	NOUN	_	_	19	comp:obj	_	AlignBegin=155435|AlignEnd=155768|Lang=en
-21	dat	dat	PRON	_	_	20	comp:obj	_	AlignBegin=155768|AlignEnd=156101|Lang=en
+19	for	for	ADP	_	_	9	comp:obl	_	AlignBegin=155102|AlignEnd=155435|Lang=en
+20	cab	cab	NOUN	_	_	19	comp:obj@fixed	_	AlignBegin=155435|AlignEnd=155768|Lang=en
+21	dat	dat	SCONJ	_	_	19	comp:obj	_	AlignBegin=155768|AlignEnd=156101|Lang=en
 22	[	[	PUNCT	_	_	24	punct	_	AlignBegin=156101|AlignEnd=156101
 23	he	he	PRON	_	_	24	subj	_	AlignBegin=156101|AlignEnd=156434|Lang=en
-24	want	want	VERB	_	_	20	comp:obj	_	AlignBegin=156434|AlignEnd=156767|Lang=en
+24	want	want	VERB	_	_	21	comp:obj	_	AlignBegin=156434|AlignEnd=156767|Lang=en
 25	to	to	ADP	_	_	24	comp:obl@x	_	AlignBegin=156767|AlignEnd=157100|Lang=en
 26	see	see	VERB	_	_	25	comp:obj	_	AlignBegin=157100|AlignEnd=157433|Lang=en
 27	Alhaji	Alhaji	PROPN	_	_	26	comp:obj	_	AlignBegin=157433|AlignEnd=157766|Lang=en
@@ -979,32 +979,32 @@
 10	ah	ah	INTJ	_	_	13	discourse	_	AlignBegin=162400|AlignEnd=162704
 11	{	{	PUNCT	_	_	13	punct	_	AlignBegin=162704|AlignEnd=162704
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=162704|AlignEnd=162704
-13	XX	XX	ADJ	_	_	8	parataxis:obj	_	AlignBegin=162704|AlignEnd=163007
+13	XX	XX	X	_	_	8	parataxis:obj	_	AlignBegin=162704|AlignEnd=163007
 14	dis	dis	DET	_	_	13	det	_	AlignBegin=163007|AlignEnd=163311
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=163311|AlignEnd=163311
-16	ma~	X	X	_	_	8	parataxis:obj	_	AlignBegin=163311|AlignEnd=163615
+16	ma~	X	X	_	_	13	mod	_	AlignBegin=163311|AlignEnd=163615
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=163615|AlignEnd=163615
-18	ma~	X	X	_	_	16	conj:dicto	_	AlignBegin=163615|AlignEnd=163918
-19	}	}	PUNCT	_	_	13	punct	_	AlignBegin=163918|AlignEnd=163918
+18	ma~	X	PART	_	_	16	conj:dicto	_	AlignBegin=163615|AlignEnd=163918
+19	}	}	PUNCT	_	_	16	punct	_	AlignBegin=163918|AlignEnd=163918
 20	em	em	INTJ	_	_	18	discourse	_	AlignBegin=163918|AlignEnd=164222
 21	(	(	PUNCT	_	_	23	punct	_	AlignBegin=164222|AlignEnd=164222
 22	e	im	PRON	_	_	23	subj	_	AlignBegin=164222|AlignEnd=164525
-23	call	call	VERB	_	_	18	parataxis:parenth	_	AlignBegin=164525|AlignEnd=164829
+23	call	call	VERB	_	_	18	parataxis:conj	_	AlignBegin=164525|AlignEnd=164829
 24	im	im	PRON	_	_	25	mod:poss	_	AlignBegin=164829|AlignEnd=165133
 25	name	name	NOUN	_	_	23	comp:obj	_	AlignBegin=165133|AlignEnd=165436
 26	//	//	PUNCT	_	_	23	punct	_	AlignBegin=165436|AlignEnd=165436
-27	)	)	PUNCT	_	_	23	punct	_	AlignBegin=165436|AlignEnd=165436
+27	)	)	PUNCT	_	_	20	punct	_	AlignBegin=165436|AlignEnd=165436
 28	||	||	PUNCT	_	_	31	punct	_	AlignBegin=165436|AlignEnd=165436
-29	dat	dat	SCONJ	_	_	13	conj:dicto	_	AlignBegin=165436|AlignEnd=165740
+29	dat	dat	DET	_	_	31	det	_	AlignBegin=165436|AlignEnd=165740
 30	dis	dis	DET	_	_	31	det	_	AlignBegin=165740|AlignEnd=166044
-31	man	man	NOUN	_	_	34	dislocated	_	AlignBegin=166044|AlignEnd=166347
+31	man	man	NOUN	_	_	13	conj:dicto	_	AlignBegin=166044|AlignEnd=166347
 32	}	}	PUNCT	_	_	13	punct	_	AlignBegin=166347|AlignEnd=166347
 33	you	you	PRON	_	_	34	subj	_	AlignBegin=166347|AlignEnd=166651
 34	saw	saw	VERB	_	_	29	comp:obj	_	AlignBegin=166651|AlignEnd=166955
 35	him	him	PRON	_	_	34	comp:obj	_	AlignBegin=166955|AlignEnd=167258
 36	or	or	CCONJ	_	_	37	cc	_	AlignBegin=167258|AlignEnd=167562
-37	don't	don't	PART	_	_	34	conj:coord	_	AlignBegin=167562|AlignEnd=167866
-38	//	//	PUNCT	_	_	34	punct	_	AlignBegin=167866|AlignEnd=167866
+37	don't	don't	AUX	_	_	34	mod	_	AlignBegin=167562|AlignEnd=167866
+38	//	//	PUNCT	_	_	13	punct	_	AlignBegin=167866|AlignEnd=167866
 39	]	]	PUNCT	_	_	13	punct	_	AlignBegin=167866|AlignEnd=167866
 40	//	//	PUNCT	_	_	8	punct	_	AlignBegin=167866|AlignEnd=167866
 
@@ -1016,7 +1016,7 @@
 1	de	dem	PRON	_	_	2	subj	_	AlignBegin=167866|AlignEnd=168190
 2	say	say	VERB	_	_	0	root	_	AlignBegin=168190|AlignEnd=168515
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=168515|AlignEnd=168515
-4	no	no	PART	_	_	2	parataxis:obj	_	AlignBegin=168515|AlignEnd=168840
+4	no	no	INTJ	_	_	2	parataxis:obj	_	AlignBegin=168515|AlignEnd=168840
 5	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=168840|AlignEnd=168840
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=168840|AlignEnd=168840
 
@@ -1046,10 +1046,10 @@
 19	but	but	CCONJ	_	_	22	cc	_	AlignBegin=173581|AlignEnd=173880
 20	e	im	PRON	_	_	22	subj	_	AlignBegin=173880|AlignEnd=174178
 21	no	no	PART	_	_	22	mod	_	AlignBegin=174178|AlignEnd=174477
-22	see	see	VERB	_	_	16	conj:coord	_	AlignBegin=174477|AlignEnd=174776
+22	see	see	VERB	_	_	12	conj:coord	_	AlignBegin=174477|AlignEnd=174776
 23	am	am	PRON	_	_	22	comp:obj	_	AlignBegin=174776|AlignEnd=175074
 24	at	at	ADP	_	_	22	mod	_	AlignBegin=175074|AlignEnd=175373
-25	all	all	DET	_	_	24	comp:obj	_	AlignBegin=175373|AlignEnd=175672
+25	all	all	ADV	_	_	24	unk@fixed	_	AlignBegin=175373|AlignEnd=175672
 26	}	}	PUNCT	_	_	12	punct	_	AlignBegin=175672|AlignEnd=175672
 27	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=175672|AlignEnd=175672
 28	//	//	PUNCT	_	_	2	punct	_	AlignBegin=175672|AlignEnd=175672
@@ -1067,7 +1067,7 @@
 6	di	di	DET	_	_	8	det	_	AlignBegin=176554|AlignEnd=176748
 7	dis	dis	DET	_	_	8	det	_	AlignBegin=176748|AlignEnd=176941
 8	thing	thing	NOUN	_	_	5	comp:pred	_	AlignBegin=176941|AlignEnd=177135
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=177135|AlignEnd=177328
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=177135|AlignEnd=177328
 10	e	im	PRON	_	_	11	subj	_	AlignBegin=177328|AlignEnd=177522
 11	happen	happen	VERB	_	_	9	comp:obj	_	AlignBegin=177522|AlignEnd=177716
 12	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=177716|AlignEnd=177716
@@ -1090,10 +1090,10 @@
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=181507|AlignEnd=181507
 11	police	police	NOUN	_	_	12	compound	_	AlignBegin=181507|AlignEnd=182049
 12	station	station	NOUN	_	_	4	comp:obj	_	AlignBegin=182049|AlignEnd=182591
-13	at	at	ADP	_	_	12	mod	_	AlignBegin=182591|AlignEnd=183133
+13	at	at	ADP	_	_	20	mod	_	AlignBegin=182591|AlignEnd=183133
 14	eh	eh	INTJ	_	_	15	discourse	_	AlignBegin=183133|AlignEnd=183674
 15	Adeja	Adeja	PROPN	_	_	13	comp:obj	_	AlignBegin=183674|AlignEnd=184216
-16	<+	<+	PUNCT	_	_	1	punct	_	AlignBegin=184216|AlignEnd=184216
+16	<+	<+	PUNCT	_	_	18	punct	_	AlignBegin=184216|AlignEnd=184216
 17	e	im	PRON	_	_	18	subj	_	AlignBegin=184216|AlignEnd=184758
 18	call	call	VERB	_	_	0	root	_	AlignBegin=184758|AlignEnd=185299
 19	deir	deir	PRON	_	_	20	mod:poss	_	AlignBegin=185299|AlignEnd=185841
@@ -1109,7 +1109,7 @@
 1	so	so	ADV	_	_	10	discourse	_	AlignBegin=187484|AlignEnd=187787
 2	wetin	wetin	PRON	_	_	10	subj	_	AlignBegin=187787|AlignEnd=188090
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=188090|AlignEnd=188393
-4	dey	dey	AUX	_	_	2	mod:relcl	_	AlignBegin=188393|AlignEnd=188696
+4	dey	dey	AUX	_	_	2	mod@relcl	_	AlignBegin=188393|AlignEnd=188696
 5	try	try	VERB	_	_	4	comp:aux	_	AlignBegin=188696|AlignEnd=188999
 6	dey	dey	AUX	_	_	5	comp:pred	_	AlignBegin=188999|AlignEnd=189302
 7	tell	tell	VERB	_	_	6	comp:aux	_	AlignBegin=189302|AlignEnd=189605
@@ -1120,20 +1120,20 @@
 12	[	[	PUNCT	_	_	15	punct	_	AlignBegin=190818|AlignEnd=190818
 13	eh	eh	INTJ	_	_	15	discourse	_	AlignBegin=190818|AlignEnd=191121
 14	police	police	NOUN	_	_	15	compound	_	AlignBegin=191121|AlignEnd=191424
-15	station	station	NOUN	_	_	11	comp:obj	_	AlignBegin=191424|AlignEnd=191727
-16	wey	wey	SCONJ	_	_	15	mod:relcl	_	AlignBegin=191727|AlignEnd=192030
+15	station	station	NOUN	_	_	11	subj	_	AlignBegin=191424|AlignEnd=191727
+16	wey	wey	SCONJ	_	_	15	mod@relcl	_	AlignBegin=191727|AlignEnd=192030
 17	suppose	suppose	VERB	_	_	16	comp:obj	_	AlignBegin=192030|AlignEnd=192334
 18	dey	dey	VERB	_	_	17	comp:obj@x	_	AlignBegin=192334|AlignEnd=192637
 19	secure	secure	ADJ	_	_	18	comp:pred	_	AlignBegin=192637|AlignEnd=192940
 20	>	>	PUNCT	_	_	21	punct	_	AlignBegin=192940|AlignEnd=192940
-21	because	because	SCONJ	_	_	15	mod	_	AlignBegin=192940|AlignEnd=193243
+21	because	because	SCONJ	_	_	10	cc	_	AlignBegin=192940|AlignEnd=193243
 22	di	di	DET	_	_	23	det	_	AlignBegin=193243|AlignEnd=193546
 23	man	man	NOUN	_	_	25	subj	_	AlignBegin=193546|AlignEnd=193849
 24	no	no	PART	_	_	25	mod	_	AlignBegin=193849|AlignEnd=194152
 25	want	want	VERB	_	_	21	comp:obj	_	AlignBegin=194152|AlignEnd=194455
-26	die	die	VERB	_	_	25	comp:obj@scrap	_	AlignBegin=194455|AlignEnd=194759
+26	die	die	VERB	_	_	25	comp:obj@x	_	AlignBegin=194455|AlignEnd=194759
 27	&	&	PUNCT	_	_	10	punct	_	AlignBegin=194759|AlignEnd=194759
-28	]	]	PUNCT	_	_	25	punct	_	AlignBegin=194759|AlignEnd=194759
+28	]	]	PUNCT	_	_	10	punct	_	AlignBegin=194759|AlignEnd=194759
 29	//	//	PUNCT	_	_	10	punct	_	AlignBegin=194759|AlignEnd=194759
 
 # sent_id = IBA_27_Nigerian-Police_DG__69
@@ -1145,7 +1145,7 @@
 2	no	no	PART	_	_	3	mod	_	AlignBegin=193878|AlignEnd=194223
 3	secure	secure	ADJ	_	_	0	root	_	AlignBegin=194223|AlignEnd=194568
 4	at	at	ADP	_	_	3	mod	_	AlignBegin=194568|AlignEnd=194913
-5	all	all	DET	_	_	4	comp:obj	_	AlignBegin=194913|AlignEnd=195258
+5	all	all	ADV	_	_	4	unk@fixed	_	AlignBegin=194913|AlignEnd=195258
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=195258|AlignEnd=195258
 
 # sent_id = IBA_27_Nigerian-Police_DG__70
@@ -1174,7 +1174,7 @@
 # text_ortho = Di man wey dat driver go drop for police station, dey don kill am collect im money.
 1	di	di	DET	_	_	2	det	_	AlignBegin=196350|AlignEnd=196618
 2	man	man	NOUN	_	_	12	dislocated	_	AlignBegin=196618|AlignEnd=196886
-3	wey	wey	SCONJ	_	_	2	mod:relcl	_	AlignBegin=196886|AlignEnd=197154
+3	wey	wey	SCONJ	_	_	2	mod@relcl	_	AlignBegin=196886|AlignEnd=197154
 4	dat	dat	DET	_	_	5	det	_	AlignBegin=197154|AlignEnd=197422
 5	driver	driver	NOUN	_	_	6	subj	_	AlignBegin=197422|AlignEnd=197690
 6	go	go	AUX	_	_	3	comp:obj	_	AlignBegin=197690|AlignEnd=197958
@@ -1222,7 +1222,7 @@
 2	so	so	ADV	_	_	10	discourse	_	AlignBegin=201806|AlignEnd=202210
 3	wetin	wetin	PRON	_	_	10	subj	_	AlignBegin=202210|AlignEnd=202615
 4	we	we	PRON	_	_	5	subj	_	AlignBegin=202615|AlignEnd=203019
-5	dey	dey	AUX	_	_	3	mod:relcl	_	AlignBegin=203019|AlignEnd=203424
+5	dey	dey	AUX	_	_	3	mod@relcl	_	AlignBegin=203019|AlignEnd=203424
 6	talk	talk	VERB	_	_	5	comp:aux	_	AlignBegin=203424|AlignEnd=203828
 7	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=203828|AlignEnd=204233
 8	Nigeria	Nigeria	PROPN	_	_	7	comp:obj	_	AlignBegin=204233|AlignEnd=204637
@@ -1255,12 +1255,12 @@
 # text_ortho = Di Nige-... di Nigeria wey we dey XX...
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=204041|AlignEnd=204041
 2	di	di	DET	_	_	3	det	_	AlignBegin=204041|AlignEnd=204350
-3	Nige~	X	X	_	_	0	root	_	AlignBegin=204350|AlignEnd=204659
+3	Nige~	X	PROPN	_	_	0	root	_	AlignBegin=204350|AlignEnd=204659
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=204659|AlignEnd=204659
 5	di	di	DET	_	_	6	det	_	AlignBegin=204659|AlignEnd=204968
 6	Nigeria	Nigeria	PROPN	_	_	3	conj:dicto	_	AlignBegin=204968|AlignEnd=205278
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=205278|AlignEnd=205278
-8	wey	wey	SCONJ	_	_	6	mod:relcl	_	AlignBegin=205278|AlignEnd=205587
+8	wey	wey	SCONJ	_	_	6	mod@relcl	_	AlignBegin=205278|AlignEnd=205587
 9	we	we	PRON	_	_	10	subj	_	AlignBegin=205587|AlignEnd=205896
 10	dey	dey	VERB	_	_	8	comp:obj	_	AlignBegin=205896|AlignEnd=206205
 11	XX	XX	ADJ	_	_	10	comp:pred@scrap	_	AlignBegin=206205|AlignEnd=206515
@@ -1273,7 +1273,7 @@
 # text_en = Another...
 # text_ortho = Anoda XX...
 1	anoda	anoder	DET	_	_	2	det	_	AlignBegin=209298|AlignEnd=209799
-2	XX	XX	ADJ	_	_	0	root:scrap	_	AlignBegin=209799|AlignEnd=210300
+2	XX	XX	ADJ	_	_	0	root@scrap	_	AlignBegin=209799|AlignEnd=210300
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=210300|AlignEnd=210300
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=210300|AlignEnd=210300
 
@@ -1291,7 +1291,7 @@
 # text = abi ?//
 # text_en = Yes? Isn't it so?
 # text_ortho = Abi?
-1	abi	abi	CCONJ	_	_	0	root	_	AlignBegin=211319|AlignEnd=211741
+1	abi	abi	INTJ	_	_	0	root	_	AlignBegin=211319|AlignEnd=211741
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=211741|AlignEnd=211741
 
 # sent_id = IBA_27_Nigerian-Police_DG__80
@@ -1328,7 +1328,7 @@
 # text_ortho = Wetin we go fit do before Nigeria go come back o?
 1	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=213577|AlignEnd=214001
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=214001|AlignEnd=214425
-3	go	go	AUX	_	_	1	mod:relcl	_	AlignBegin=214425|AlignEnd=214849
+3	go	go	AUX	_	_	1	comp:cleft	_	AlignBegin=214425|AlignEnd=214849
 4	fit	fit	AUX	_	_	3	comp:aux	_	AlignBegin=214849|AlignEnd=215273
 5	do	do	VERB	_	_	4	comp:aux	_	AlignBegin=215273|AlignEnd=215697
 6	>	>	PUNCT	_	_	7	punct	_	AlignBegin=215697|AlignEnd=215697
@@ -1359,7 +1359,7 @@
 4	know	know	VERB	_	_	3	comp:aux	_	AlignBegin=216653|AlignEnd=216864
 5	wetin	wetin	PRON	_	_	4	comp:obj	_	AlignBegin=216864|AlignEnd=217075
 6	we	we	PRON	_	_	7	subj	_	AlignBegin=217075|AlignEnd=217286
-7	can	can	AUX	_	_	5	mod:relcl	_	AlignBegin=217286|AlignEnd=217497
+7	can	can	AUX	_	_	5	mod@relcl	_	AlignBegin=217286|AlignEnd=217497
 8	do	do	VERB	_	_	7	comp:aux	_	AlignBegin=217497|AlignEnd=217708
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=217708|AlignEnd=217708
 
@@ -1394,7 +1394,7 @@
 # text_en = In everything, everything we say God God God.
 # text_ortho = Everytin, everytin we dey say God, God, God.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=221067|AlignEnd=221067
-2	everytin	everytin	PRON	_	_	7	mod:periph	_	AlignBegin=221067|AlignEnd=221390
+2	everytin	everytin	PRON	_	_	7	dislocated	_	AlignBegin=221067|AlignEnd=221390
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=221390|AlignEnd=221390
 4	everytin	everytin	PRON	_	_	2	compound:redup	_	AlignBegin=221390|AlignEnd=221714
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=221714|AlignEnd=221714
@@ -1417,7 +1417,7 @@
 # text_en = They say...
 # text_ortho = De say...
 1	de	dem	PRON	_	_	2	subj	_	AlignBegin=222254|AlignEnd=222440
-2	say	say	VERB	_	_	0	root:scrap	_	AlignBegin=222440|AlignEnd=222627
+2	say	say	VERB	_	_	0	root@scrap	_	AlignBegin=222440|AlignEnd=222627
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=222627|AlignEnd=222627
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=222627|AlignEnd=222627
 
@@ -1438,14 +1438,14 @@
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=223845|AlignEnd=223845
 11	de	dem	PRON	_	_	9	conj:dicto	_	AlignBegin=223845|AlignEnd=224054
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=224054|AlignEnd=224054
-13	say	say	VERB	_	_	6	comp:obj	_	AlignBegin=224054|AlignEnd=224262
-14	[	[	PUNCT	_	_	17	punct	_	AlignBegin=224262|AlignEnd=224262
-15	dat	dat	PRON	_	_	17	subj	_	AlignBegin=224262|AlignEnd=224471
+13	say	say	VERB	_	_	2	comp:obj	_	AlignBegin=224054|AlignEnd=224262
+14	[	[	PUNCT	_	_	15	punct	_	AlignBegin=224262|AlignEnd=224262
+15	dat	dat	PRON	_	_	17	parataxis:obj	_	AlignBegin=224262|AlignEnd=224471
 16	we	we	PRON	_	_	17	subj	_	AlignBegin=224471|AlignEnd=224679
-17	want	want	VERB	_	_	13	parataxis:obj	_	AlignBegin=224679|AlignEnd=224888
+17	want	want	VERB	_	_	9	mod@relcl	_	AlignBegin=224679|AlignEnd=224888
 18	do	do	VERB	_	_	17	comp:obj@x	_	AlignBegin=224888|AlignEnd=225097
 19	sometin	sometin	PRON	_	_	18	comp:obj	_	AlignBegin=225097|AlignEnd=225305
-20	]	]	PUNCT	_	_	17	punct	_	AlignBegin=225305|AlignEnd=225305
+20	]	]	PUNCT	_	_	15	punct	_	AlignBegin=225305|AlignEnd=225305
 21	<	<	PUNCT	_	_	2	punct	_	AlignBegin=225305|AlignEnd=225305
 22	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=225305|AlignEnd=225514
 23	we	we	PRON	_	_	24	subj	_	AlignBegin=225514|AlignEnd=225722
@@ -1469,18 +1469,18 @@
 # text_ortho = Di tin wey we fit do, di tin wey we fit do...
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=227100|AlignEnd=227100
 2	di	di	DET	_	_	3	det	_	AlignBegin=227100|AlignEnd=227331
-3	tin	tin	NOUN	_	_	0	root:scrap	_	AlignBegin=227331|AlignEnd=227563
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=227563|AlignEnd=227795
+3	tin	tin	NOUN	_	_	0	root@scrap	_	AlignBegin=227331|AlignEnd=227563
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=227563|AlignEnd=227795
 5	we	we	PRON	_	_	6	subj	_	AlignBegin=227795|AlignEnd=228026
 6	fit	fit	AUX	_	_	4	comp:obj	_	AlignBegin=228026|AlignEnd=228258
 7	do	do	VERB	_	_	6	comp:aux	_	AlignBegin=228258|AlignEnd=228490
 8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=228490|AlignEnd=228490
 9	di	di	DET	_	_	10	det	_	AlignBegin=228490|AlignEnd=228721
 10	tin	tin	NOUN	_	_	3	conj:dicto	_	AlignBegin=228721|AlignEnd=228953
-11	wey	wey	SCONJ	_	_	10	mod:relcl	_	AlignBegin=228953|AlignEnd=229185
+11	wey	wey	SCONJ	_	_	10	mod@relcl	_	AlignBegin=228953|AlignEnd=229185
 12	we	we	PRON	_	_	13	subj	_	AlignBegin=229185|AlignEnd=229416
 13	fit	fit	AUX	_	_	11	comp:obj	_	AlignBegin=229416|AlignEnd=229648
-14	do	do	VERB	_	_	13	comp:aux	_	AlignBegin=229648|AlignEnd=229880
+14	do	do	VERB	_	_	13	comp:aux@scrap	_	AlignBegin=229648|AlignEnd=229880
 15	}	}	PUNCT	_	_	3	punct	_	AlignBegin=229880|AlignEnd=229880
 16	&	&	PUNCT	_	_	3	punct	_	AlignBegin=229880|AlignEnd=229880
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=229880|AlignEnd=229880
@@ -1490,10 +1490,10 @@
 # text = all di people wey get ah //
 # text_en = All the people who have eh...
 # text_ortho = All di people wey get ah.
-1	all	all	DET	_	_	3	mod	_	AlignBegin=227338|AlignEnd=227601
+1	all	all	ADV	_	_	3	mod	_	AlignBegin=227338|AlignEnd=227601
 2	di	di	DET	_	_	3	det	_	AlignBegin=227601|AlignEnd=227865
 3	people	people	NOUN	_	_	0	root	_	AlignBegin=227865|AlignEnd=228129
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=228129|AlignEnd=228392
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=228129|AlignEnd=228392
 5	get	get	VERB	_	_	4	comp:obj	_	AlignBegin=228392|AlignEnd=228656
 6	ah	ah	INTJ	_	_	5	discourse	_	AlignBegin=228656|AlignEnd=228920
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=228920|AlignEnd=228920
@@ -1515,24 +1515,24 @@
 10	everything	everything	PRON	_	_	9	comp:obj	_	AlignBegin=233267|AlignEnd=233671
 11	]	]	PUNCT	_	_	8	punct	_	AlignBegin=233671|AlignEnd=233671
 12	|c	|c	PUNCT	_	_	31	punct	_	AlignBegin=233671|AlignEnd=233671
-13	but	but	CCONJ	_	_	31	cc	_	AlignBegin=233671|AlignEnd=234074
+13	but	but	CCONJ	_	_	20	cc	_	AlignBegin=233671|AlignEnd=234074
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=234074|AlignEnd=234074
 15	we	we	PRON	_	_	20	subj	_	AlignBegin=234074|AlignEnd=234478
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=234478|AlignEnd=234478
 17	God	God	PROPN	_	_	15	conj:dicto	_	AlignBegin=234478|AlignEnd=234882
 18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=234882|AlignEnd=234882
 19	no	no	PART	_	_	20	mod	_	AlignBegin=234882|AlignEnd=235286
-20	go	go	AUX	_	_	4	conj:coord	_	AlignBegin=235286|AlignEnd=235690
+20	go	go	AUX	_	_	31	conj:coord	_	AlignBegin=235286|AlignEnd=235690
 21	come	come	VERB	_	_	20	comp:aux	_	AlignBegin=235690|AlignEnd=236094
 22	down	down	ADP	_	_	21	compound:prt	_	AlignBegin=236094|AlignEnd=236498
-23	from	from	ADP	_	_	21	comp:obl	_	AlignBegin=236498|AlignEnd=236902
-24	heaven	heaven	NOUN	_	_	25	compound	_	AlignBegin=236902|AlignEnd=237305
-25	yonder	yonder	NOUN	_	_	23	comp:obj	_	AlignBegin=237305|AlignEnd=237709
-26	come	come	AUX	_	_	31	mod	_	AlignBegin=237709|AlignEnd=238113
-27	do	do	VERB	_	_	26	comp:aux	_	AlignBegin=238113|AlignEnd=238517
+23	from	from	ADP	_	_	22	unk@fixed	_	AlignBegin=236498|AlignEnd=236902
+24	heaven	heaven	NOUN	_	_	23	comp:obj	_	AlignBegin=236902|AlignEnd=237305
+25	yonder	yonder	SCONJ	_	_	21	mod	_	AlignBegin=237305|AlignEnd=237709
+26	come	come	VERB	_	_	21	compound:svc	_	AlignBegin=237709|AlignEnd=238113
+27	do	do	VERB	_	_	26	comp:obj@x	_	AlignBegin=238113|AlignEnd=238517
 28	am	am	PRON	_	_	27	comp:obj	_	AlignBegin=238517|AlignEnd=238921
 29	here	here	ADV	_	_	27	mod	_	AlignBegin=238921|AlignEnd=239325
-30	<	<	PUNCT	_	_	31	punct	_	AlignBegin=239325|AlignEnd=239325
+30	<	<	PUNCT	_	_	20	punct	_	AlignBegin=239325|AlignEnd=239325
 31	na	na	PART	_	_	4	conj:coord	_	AlignBegin=239325|AlignEnd=239729
 32	we	we	PRON	_	_	31	comp:pred	_	AlignBegin=239729|AlignEnd=240133
 33	//	//	PUNCT	_	_	4	punct	_	AlignBegin=240133|AlignEnd=240133
@@ -1573,12 +1573,12 @@
 14	God	God	PROPN	_	_	13	comp:obj	_	AlignBegin=244621|AlignEnd=245069
 15	}	}	PUNCT	_	_	4	punct	_	AlignBegin=245069|AlignEnd=245069
 16	so	so	SCONJ	_	_	11	mod	_	AlignBegin=245069|AlignEnd=245518
-17	dat	dat	PRON	_	_	16	comp:obj	_	AlignBegin=245518|AlignEnd=245967
+17	dat	dat	PRON	_	_	16	unk@fixed	_	AlignBegin=245518|AlignEnd=245967
 18	tins	tins	NOUN	_	_	19	subj	_	AlignBegin=245967|AlignEnd=246416
 19	go	go	AUX	_	_	16	comp:obj	_	AlignBegin=246416|AlignEnd=246865
 20	dey	dey	VERB	_	_	19	comp:aux	_	AlignBegin=246865|AlignEnd=247313
 21	okay	okay	ADJ	_	_	20	comp:pred	_	AlignBegin=247313|AlignEnd=247762
-22	as	as	ADP	_	_	20	mod	_	AlignBegin=247762|AlignEnd=248211
+22	as	as	ADP	_	_	11	mod	_	AlignBegin=247762|AlignEnd=248211
 23	we	we	PRON	_	_	24	subj	_	AlignBegin=248211|AlignEnd=248660
 24	want	want	VERB	_	_	22	comp:obj	_	AlignBegin=248660|AlignEnd=249109
 25	am	am	PRON	_	_	24	comp:obj	_	AlignBegin=249109|AlignEnd=249558
@@ -1589,7 +1589,7 @@
 # text = XX //
 # text_en = X.
 # text_ortho = Xx.
-1	XX	XX	NUM	_	_	0	root	_	AlignBegin=240600|AlignEnd=242440
+1	XX	XX	PRON	_	_	0	root	_	AlignBegin=240600|AlignEnd=242440
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=242440|AlignEnd=242440
 
 # sent_id = IBA_27_Nigerian-Police_DG__98
@@ -1597,8 +1597,8 @@
 # text = mind to & //
 # text_en = Mind to...
 # text_ortho = Mind to...
-1	mind	mind	NOUN	_	_	0	root:scrap	_	AlignBegin=243633|AlignEnd=244013
-2	to	to	ADP	_	_	1	mod:scrap	_	AlignBegin=244013|AlignEnd=244394
+1	mind	mind	NOUN	_	_	0	root	_	AlignBegin=243633|AlignEnd=244013
+2	to	to	ADP	_	_	1	mod@scrap	_	AlignBegin=244013|AlignEnd=244394
 3	&	&	PUNCT	_	_	1	punct	_	AlignBegin=244394|AlignEnd=244394
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=244394|AlignEnd=244394
 
@@ -1607,7 +1607,7 @@
 # text = XX //
 # text_en = X.
 # text_ortho = Xx.
-1	XX	XX	NUM	_	_	0	root	_	AlignBegin=247401|AlignEnd=249504
+1	XX	XX	PRON	_	_	0	root	_	AlignBegin=247401|AlignEnd=249504
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=249504|AlignEnd=249504
 
 # sent_id = IBA_27_Nigerian-Police_DG__100
@@ -1624,25 +1624,25 @@
 # text_en = The police that is supposed to take care of people they are the ones now killing people, they are the ones now robbing people.
 # text_ortho = Police wey e suppose to dey take care of people, na im come dey kill people, na im dey rob people.
 1	police	police	NOUN	_	_	12	dislocated	_	AlignBegin=250090|AlignEnd=250395
-2	wey	wey	SCONJ	_	_	1	mod:relcl	_	AlignBegin=250395|AlignEnd=250701
+2	wey	wey	SCONJ	_	_	1	mod@relcl	_	AlignBegin=250395|AlignEnd=250701
 3	e	im	PRON	_	_	4	subj	_	AlignBegin=250701|AlignEnd=251006
 4	suppose	suppose	VERB	_	_	2	comp:obj	_	AlignBegin=251006|AlignEnd=251312
 5	to	to	ADP	_	_	4	comp:obl@x	_	AlignBegin=251312|AlignEnd=251617
 6	dey	dey	AUX	_	_	5	comp:obj	_	AlignBegin=251617|AlignEnd=251923
 7	take	take	VERB	_	_	6	comp:aux	_	AlignBegin=251923|AlignEnd=252228
 8	care	care	NOUN	_	_	7	comp:obj@lvc	_	AlignBegin=252228|AlignEnd=252534
-9	of	of	ADP	_	_	7	comp:obl	_	AlignBegin=252534|AlignEnd=252839
+9	of	of	ADP	_	_	8	mod	_	AlignBegin=252534|AlignEnd=252839
 10	people	people	NOUN	_	_	9	comp:obj	_	AlignBegin=252839|AlignEnd=253145
 11	<	<	PUNCT	_	_	1	punct	_	AlignBegin=253145|AlignEnd=253145
 12	na	na	PART	_	_	0	root	_	AlignBegin=253145|AlignEnd=253450
-13	im	im	PRON	_	_	12	comp:pred	_	AlignBegin=253450|AlignEnd=253756
+13	im	im	PRON	_	_	12	comp:pred@fixed	_	AlignBegin=253450|AlignEnd=253756
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=253756|AlignEnd=253756
 15	come	come	AUX	_	_	12	comp:cleft	_	AlignBegin=253756|AlignEnd=254061
 16	dey	dey	AUX	_	_	15	comp:aux	_	AlignBegin=254061|AlignEnd=254367
 17	kill	kill	VERB	_	_	16	comp:aux	_	AlignBegin=254367|AlignEnd=254672
 18	people	people	NOUN	_	_	17	comp:obj	_	AlignBegin=254672|AlignEnd=254978
 19	//+	//+	PUNCT	_	_	20	punct	_	AlignBegin=254978|AlignEnd=254978
-20	na	na	PART	_	_	12	comp:cleft	_	AlignBegin=254978|AlignEnd=255283
+20	na	na	PART	_	_	15	parataxis:conj	_	AlignBegin=254978|AlignEnd=255283
 21	im	im	PRON	_	_	20	comp:pred	_	AlignBegin=255283|AlignEnd=255589
 22	>+	>+	PUNCT	_	_	23	punct	_	AlignBegin=255589|AlignEnd=255589
 23	dey	dey	AUX	_	_	20	comp:cleft	_	AlignBegin=255589|AlignEnd=255894
@@ -1676,17 +1676,17 @@
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=254778|AlignEnd=254778
 6	na	na	PART	_	_	4	conj:dicto	_	AlignBegin=254778|AlignEnd=255114
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=255114|AlignEnd=255114
-8	dem	dem	PRON	_	_	9	subj	_	AlignBegin=255114|AlignEnd=255450
-9	be	be	VERB	_	_	6	comp:obj	_	AlignBegin=255450|AlignEnd=255787
+8	dem	dem	PRON	_	_	6	comp:pred	_	AlignBegin=255114|AlignEnd=255450
+9	be	be	VERB	_	_	6	comp:cleft	_	AlignBegin=255450|AlignEnd=255787
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=255787|AlignEnd=255787
-11	highwa~	X	X	_	_	17	mod	_	AlignBegin=255787|AlignEnd=256123
+11	highwa~	X	NOUN	_	_	17	mod	_	AlignBegin=255787|AlignEnd=256123
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=256123|AlignEnd=256123
-13	high~	X	X	_	_	11	conj:dicto	_	AlignBegin=256123|AlignEnd=256459
+13	high~	X	NOUN	_	_	11	conj:dicto	_	AlignBegin=256123|AlignEnd=256459
 14	||	||	PUNCT	_	_	15	punct	_	AlignBegin=256459|AlignEnd=256459
 15	highway	highway	NOUN	_	_	13	conj:dicto	_	AlignBegin=256459|AlignEnd=256795
 16	}	}	PUNCT	_	_	11	punct	_	AlignBegin=256795|AlignEnd=256795
 17	robber	robber	NOUN	_	_	9	comp:pred	_	AlignBegin=256795|AlignEnd=257131
-18	now	now	ADV	_	_	9	mod	_	AlignBegin=257131|AlignEnd=257468
+18	now	now	ADV	_	_	17	mod:emph	_	AlignBegin=257131|AlignEnd=257468
 19	//	//	PUNCT	_	_	2	punct	_	AlignBegin=257468|AlignEnd=257468
 
 # sent_id = IBA_27_Nigerian-Police_DG__104
@@ -1701,22 +1701,22 @@
 5	don	don	AUX	_	_	0	root	_	AlignBegin=258294|AlignEnd=258484
 6	come	come	VERB	_	_	5	comp:aux	_	AlignBegin=258484|AlignEnd=258673
 7	o	o	PART	_	_	6	mod:emph	_	AlignBegin=258673|AlignEnd=258862
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=258862|AlignEnd=258862
-9	Buhari	Buhari	PROPN	_	_	1	subj	_	AlignBegin=258862|AlignEnd=259052
-10	don	don	AUX	_	_	4	parataxis:parenth	_	AlignBegin=259052|AlignEnd=259241
-11	talk	talk	VERB	_	_	1	comp:aux	_	AlignBegin=259241|AlignEnd=259430
-12	am	am	PRON	_	_	6	comp:obj	_	AlignBegin=259430|AlignEnd=259619
-13	sey	sey	SCONJ	_	_	6	comp:obj	_	AlignBegin=259619|AlignEnd=259809
-14	[	[	PUNCT	_	_	5	punct	_	AlignBegin=259809|AlignEnd=259809
+8	//	//	PUNCT	_	_	10	punct	_	AlignBegin=258862|AlignEnd=258862
+9	Buhari	Buhari	PROPN	_	_	10	subj	_	AlignBegin=258862|AlignEnd=259052
+10	don	don	AUX	_	_	5	parataxis:conj	_	AlignBegin=259052|AlignEnd=259241
+11	talk	talk	VERB	_	_	10	comp:aux	_	AlignBegin=259241|AlignEnd=259430
+12	am	am	PRON	_	_	11	comp:obj	_	AlignBegin=259430|AlignEnd=259619
+13	sey	sey	SCONJ	_	_	11	comp:obj	_	AlignBegin=259619|AlignEnd=259809
+14	[	[	PUNCT	_	_	16	punct	_	AlignBegin=259809|AlignEnd=259809
 15	{	{	PUNCT	_	_	16	punct	_	AlignBegin=259809|AlignEnd=259809
-16	change	change	NOUN	_	_	13	comp:obj	_	AlignBegin=259809|AlignEnd=259998
+16	change	change	VERB	_	_	13	comp:obj	_	AlignBegin=259809|AlignEnd=259998
 17	|r	|r	PUNCT	_	_	18	punct	_	AlignBegin=259998|AlignEnd=259998
-18	change	change	NOUN	_	_	16	compound:redup	_	AlignBegin=259998|AlignEnd=260187
+18	change	change	VERB	_	_	16	compound:redup	_	AlignBegin=259998|AlignEnd=260187
 19	|r	|r	PUNCT	_	_	20	punct	_	AlignBegin=260187|AlignEnd=260187
-20	change	change	NOUN	_	_	18	compound:redup	_	AlignBegin=260187|AlignEnd=260377
+20	change	change	VERB	_	_	18	compound:redup	_	AlignBegin=260187|AlignEnd=260377
 21	}	}	PUNCT	_	_	16	punct	_	AlignBegin=260377|AlignEnd=260377
 22	//	//	PUNCT	_	_	16	punct	_	AlignBegin=260377|AlignEnd=260377
-23	]	]	PUNCT	_	_	5	punct	_	AlignBegin=260377|AlignEnd=260377
+23	]	]	PUNCT	_	_	16	punct	_	AlignBegin=260377|AlignEnd=260377
 24	//	//	PUNCT	_	_	5	punct	_	AlignBegin=260377|AlignEnd=260377
 
 # sent_id = IBA_27_Nigerian-Police_DG__105
@@ -1743,11 +1743,11 @@
 5	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=262195|AlignEnd=262649
 6	[	[	PUNCT	_	_	8	punct	_	AlignBegin=262649|AlignEnd=262649
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=262649|AlignEnd=262649
-8	change	change	NOUN	_	_	5	comp:obj	_	AlignBegin=262649|AlignEnd=263104
+8	change	change	VERB	_	_	5	comp:obj	_	AlignBegin=262649|AlignEnd=263104
 9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=263104|AlignEnd=263104
-10	change	change	NOUN	_	_	8	compound:redup	_	AlignBegin=263104|AlignEnd=263558
+10	change	change	VERB	_	_	8	compound:redup	_	AlignBegin=263104|AlignEnd=263558
 11	|r	|r	PUNCT	_	_	12	punct	_	AlignBegin=263558|AlignEnd=263558
-12	change	change	NOUN	_	_	10	compound:redup	_	AlignBegin=263558|AlignEnd=264013
+12	change	change	VERB	_	_	10	compound:redup	_	AlignBegin=263558|AlignEnd=264013
 13	}	}	PUNCT	_	_	8	punct	_	AlignBegin=264013|AlignEnd=264013
 14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=264013|AlignEnd=264013
 15	]	]	PUNCT	_	_	8	punct	_	AlignBegin=264013|AlignEnd=264013
@@ -1759,7 +1759,7 @@
 # text_en = Change has...
 # text_ortho = Change don.
 1	change	change	NOUN	_	_	2	subj	_	AlignBegin=262361|AlignEnd=262813
-2	don	don	AUX	_	_	0	root:scrap	_	AlignBegin=262813|AlignEnd=263266
+2	don	don	AUX	_	_	0	root	_	AlignBegin=262813|AlignEnd=263266
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=263266|AlignEnd=263266
 
 # sent_id = IBA_27_Nigerian-Police_DG__108
@@ -1809,8 +1809,8 @@
 1	na	na	PART	_	_	0	root	_	AlignBegin=266122|AlignEnd=266364
 2	only	only	ADJ	_	_	3	mod	_	AlignBegin=266364|AlignEnd=266607
 3	God	God	PROPN	_	_	1	comp:pred	_	AlignBegin=266607|AlignEnd=266849
-4	who	who	PRON	_	_	3	mod:relcl	_	AlignBegin=266849|AlignEnd=267092
-5	can	can	AUX	_	_	4	comp:cleft	_	AlignBegin=267092|AlignEnd=267334
+4	who	who	PRON	_	_	1	comp:cleft	_	AlignBegin=266849|AlignEnd=267092
+5	can	can	AUX	_	_	4	mod@relcl	_	AlignBegin=267092|AlignEnd=267334
 6	save	save	VERB	_	_	5	comp:aux	_	AlignBegin=267334|AlignEnd=267577
 7	us	us	PRON	_	_	6	comp:obj	_	AlignBegin=267577|AlignEnd=267820
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=267820|AlignEnd=267820
@@ -1832,7 +1832,7 @@
 # text = and we go pray for God to save us |c and we sef < we go call oursef to do normal //
 # text_en = And we will pray to God to save us, and we too, we'll call ourselves to behave properly.
 # text_ortho = And we go pray for God to save us, and we sef, we go call oursef to do normal.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=268160|AlignEnd=268562
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=268160|AlignEnd=268562
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=268562|AlignEnd=268965
 3	go	go	AUX	_	_	0	root	_	AlignBegin=268965|AlignEnd=269367
 4	pray	pray	VERB	_	_	3	comp:aux	_	AlignBegin=269367|AlignEnd=269770
@@ -1869,9 +1869,9 @@
 # text = hm hm //
 # text_en = Hm m.
 # text_ortho = Hm hm.
-1	hm	hm	INTJ	_	_	0	root	_	AlignBegin=275683|AlignEnd=276141
-2	hm	hm	INTJ	_	_	1	discourse	_	AlignBegin=276141|AlignEnd=276600
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=276600|AlignEnd=276600
+1	hm	hm	INTJ	_	_	2	discourse	_	AlignBegin=275683|AlignEnd=276141
+2	hm	hm	INTJ	_	_	0	root	_	AlignBegin=276141|AlignEnd=276600
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=276600|AlignEnd=276600
 
 # sent_id = IBA_27_Nigerian-Police_DG__116
 # speaker_id = Sp409
@@ -1901,7 +1901,7 @@
 # text_en = Yes sir.
 # text_ortho = Yes sir.
 1	yes	yes	INTJ	_	_	2	discourse	_	AlignBegin=278572|AlignEnd=278794
-2	sir	sir	INTJ	_	_	0	root	_	AlignBegin=278794|AlignEnd=279017
+2	sir	sir	NOUN	_	_	0	root	_	AlignBegin=278794|AlignEnd=279017
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=279017|AlignEnd=279017
 
 # sent_id = IBA_27_Nigerian-Police_DG__119
@@ -1923,3 +1923,4 @@
 # text_ortho = Amen.
 1	amen	amen	INTJ	_	_	0	root	_	AlignBegin=279606|AlignEnd=280290
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=280290|AlignEnd=280290
+
