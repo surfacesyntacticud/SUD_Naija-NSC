@@ -27,7 +27,7 @@
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=8850|AlignEnd=8850
 3	Chelsea	Chelsea	PROPN	_	_	0	root	_	AlignBegin=8850|AlignEnd=9660
 4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=9660|AlignEnd=9660
-5	Man	Man	PROPN	_	_	3	compound	_	AlignBegin=9660|AlignEnd=10470
+5	Man	Man	PROPN	_	_	3	conj:coord	_	AlignBegin=9660|AlignEnd=10470
 6	City	City	NOUN	_	_	5	flat	_	AlignBegin=10470|AlignEnd=11280
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=11280|AlignEnd=11280
 8	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=11280|AlignEnd=11280
@@ -43,11 +43,11 @@
 4	go	go	AUX	_	_	0	root	_	AlignBegin=12280|AlignEnd=12533
 5	play	play	VERB	_	_	4	comp:aux	_	AlignBegin=12533|AlignEnd=12786
 6	full	full	ADJ	_	_	7	mod	_	AlignBegin=12786|AlignEnd=13040
-7	time	time	NOUN	_	_	5	comp:obj	_	AlignBegin=13040|AlignEnd=13293
+7	time	time	NOUN	_	_	5	mod	_	AlignBegin=13040|AlignEnd=13293
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=13293|AlignEnd=13293
-9	0	0	X	_	_	5	comp:obj	_	AlignBegin=13293|AlignEnd=13546
+9	0	0	NUM	_	_	5	comp:obj	_	AlignBegin=13293|AlignEnd=13546
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=13546|AlignEnd=13546
-11	0	0	PROPN	_	_	9	conj:coord	_	AlignBegin=13546|AlignEnd=13800
+11	0	0	NUM	_	_	9	conj:coord	_	AlignBegin=13546|AlignEnd=13800
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=13800|AlignEnd=13800
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=13800|AlignEnd=13800
 
@@ -77,7 +77,7 @@
 # text_ortho = And, and kukuma now, and kukuma now, I go play am over 2.5.
 1	{	{	PUNCT	_	_	7	punct	_	AlignBegin=17380|AlignEnd=17380
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=17380|AlignEnd=17380
-3	and	and	CCONJ	_	_	7	cc	_	AlignBegin=17380|AlignEnd=17640
+3	and	and	CCONJ	_	_	16	discourse	_	AlignBegin=17380|AlignEnd=17640
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=17640|AlignEnd=17640
 5	and	and	CCONJ	_	_	3	conj:dicto	_	AlignBegin=17640|AlignEnd=17901
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=17901|AlignEnd=17901
@@ -85,7 +85,7 @@
 8	now	now	ADV	_	_	7	mod:emph	_	AlignBegin=18162|AlignEnd=18423
 9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=18423|AlignEnd=18423
 10	and	and	CCONJ	_	_	11	cc	_	AlignBegin=18423|AlignEnd=18683
-11	kukuma	kukuma	ADV	_	_	7	conj:dicto	_	AlignBegin=18683|AlignEnd=18944
+11	kukuma	kukuma	ADV	_	_	7	compound:redup	_	AlignBegin=18683|AlignEnd=18944
 12	now	now	ADV	_	_	11	mod:emph	_	AlignBegin=18944|AlignEnd=19205
 13	}	}	PUNCT	_	_	7	punct	_	AlignBegin=19205|AlignEnd=19205
 14	<	<	PUNCT	_	_	7	punct	_	AlignBegin=19205|AlignEnd=19205
@@ -93,8 +93,8 @@
 16	go	go	AUX	_	_	0	root	_	AlignBegin=19466|AlignEnd=19726
 17	play	play	VERB	_	_	16	comp:aux	_	AlignBegin=19726|AlignEnd=19987
 18	am	am	PRON	_	_	17	comp:obj	_	AlignBegin=19987|AlignEnd=20248
-19	over	over	ADP	_	_	17	mod	_	AlignBegin=20248|AlignEnd=20509
-20	2.5	2.5	X	_	_	19	comp:obj	_	AlignBegin=20509|AlignEnd=20770
+19	over	over	ADP	_	_	17	comp:obl	_	AlignBegin=20248|AlignEnd=20509
+20	2.5	2.5	NUM	_	_	19	comp:obj	_	AlignBegin=20509|AlignEnd=20770
 21	//	//	PUNCT	_	_	16	punct	_	AlignBegin=20770|AlignEnd=20770
 
 # sent_id = ENU_26_Sport-Betting_M__7
@@ -105,7 +105,7 @@
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=21200|AlignEnd=21435
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=21435|AlignEnd=21435
 3	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=21435|AlignEnd=21670
-4	o	o	PART	_	_	6	mod:emph	_	AlignBegin=21670|AlignEnd=21905
+4	o	o	PART	_	_	3	mod:emph	_	AlignBegin=21670|AlignEnd=21905
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=21905|AlignEnd=21905
 6	wetin	wetin	PRON	_	_	3	conj:dicto	_	AlignBegin=21905|AlignEnd=22140
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=22140|AlignEnd=22140
@@ -122,8 +122,8 @@
 # text_ortho = Even dis Arsenal Everton, ah dis people go play 2, 1,
 1	even	even	ADV	_	_	3	mod	_	AlignBegin=23190|AlignEnd=23610
 2	dis	dis	DET	_	_	3	det	_	AlignBegin=23610|AlignEnd=24031
-3	Arsenal	Arsenal	PROPN	_	_	8	mod	_	AlignBegin=24031|AlignEnd=24452
-4	Everton	Everton	PROPN	_	_	3	conj:appos	_	AlignBegin=24452|AlignEnd=24873
+3	Arsenal	Arsenal	PROPN	_	_	9	dislocated	_	AlignBegin=24031|AlignEnd=24452
+4	Everton	Everton	PROPN	_	_	3	flat	_	AlignBegin=24452|AlignEnd=24873
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=24873|AlignEnd=24873
 6	ah	ah	INTJ	_	_	9	discourse	_	AlignBegin=24873|AlignEnd=25294
 7	dis	dis	DET	_	_	8	det	_	AlignBegin=25294|AlignEnd=25715
@@ -151,7 +151,7 @@
 # text_en = Two one, which sort of nonsense is this one now?
 # text_ortho = Two, one, which kind nonsense be dis one now?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=29650|AlignEnd=29650
-2	two	two	NUM	_	_	9	dislocated	_	AlignBegin=29650|AlignEnd=29937
+2	two	two	NUM	_	_	9	det:num	_	AlignBegin=29650|AlignEnd=29937
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=29937|AlignEnd=29937
 4	one	one	NUM	_	_	2	conj:coord	_	AlignBegin=29937|AlignEnd=30225
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=30225|AlignEnd=30225
@@ -161,8 +161,8 @@
 9	nonsense	nonsense	NOUN	_	_	0	root	_	AlignBegin=30801|AlignEnd=31088
 10	be	be	VERB	_	_	9	comp:cleft	_	AlignBegin=31088|AlignEnd=31376
 11	dis	dis	DET	_	_	12	det	_	AlignBegin=31376|AlignEnd=31664
-12	one	one	NOUN	_	_	10	comp:pred	_	AlignBegin=31664|AlignEnd=31952
-13	now	now	ADV	_	_	12	mod:emph	_	AlignBegin=31952|AlignEnd=32240
+12	one	one	NOUN	_	_	10	comp:obj@agent	_	AlignBegin=31664|AlignEnd=31952
+13	now	now	ADV	_	_	10	mod:emph	_	AlignBegin=31952|AlignEnd=32240
 14	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=32240|AlignEnd=32240
 
 # sent_id = ENU_26_Sport-Betting_M__11
@@ -180,23 +180,23 @@
 # text_en = Just, justm just, ju- ju- just look at my ninety seven thousand
 # text_ortho = Just, just, just, just, just, just look at my 97 thousand!
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=33920|AlignEnd=33920
-2	just	just	ADV	_	_	14	mod	_	AlignBegin=33920|AlignEnd=34183
+2	just	just	ADV	_	_	14	mod:periph	_	AlignBegin=33920|AlignEnd=34183
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=34183|AlignEnd=34183
 4	just	just	ADV	_	_	2	conj:dicto	_	AlignBegin=34183|AlignEnd=34447
-5	||	||	PUNCT	_	_	4	punct	_	AlignBegin=34447|AlignEnd=34447
-6	just	just	ADV	_	_	2	conj:dicto	_	AlignBegin=34447|AlignEnd=34710
+5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=34447|AlignEnd=34447
+6	just	just	ADV	_	_	4	conj:dicto	_	AlignBegin=34447|AlignEnd=34710
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=34710|AlignEnd=34710
 8	just	just	ADV	_	_	6	conj:dicto	_	AlignBegin=34710|AlignEnd=34974
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=34974|AlignEnd=34974
 10	just	just	ADV	_	_	8	conj:dicto	_	AlignBegin=34974|AlignEnd=35238
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=35238|AlignEnd=35238
-12	just	just	ADV	_	_	10	conj:dicto	_	AlignBegin=35238|AlignEnd=35501
+12	just	just	ADV	_	_	10	compound:redup	_	AlignBegin=35238|AlignEnd=35501
 13	}	}	PUNCT	_	_	2	punct	_	AlignBegin=35501|AlignEnd=35501
 14	look	look	VERB	_	_	0	root	_	AlignBegin=35501|AlignEnd=35765
 15	at	at	ADP	_	_	14	comp:obl	_	AlignBegin=35765|AlignEnd=36029
-16	my	my	PRON	_	_	18	mod:poss	_	AlignBegin=36029|AlignEnd=36292
-17	97	97	NUM	_	_	18	compound	_	AlignBegin=36292|AlignEnd=36556
-18	thousand	thousand	NUM	_	_	15	comp:obj	_	AlignBegin=36556|AlignEnd=36820
+16	my	my	PRON	_	_	17	mod	_	AlignBegin=36029|AlignEnd=36292
+17	97	97	NUM	_	_	15	comp:obj	_	AlignBegin=36292|AlignEnd=36556
+18	thousand	thousand	NUM	_	_	17	flat	_	AlignBegin=36556|AlignEnd=36820
 19	!//	!//	PUNCT	_	_	14	punct	_	AlignBegin=36820|AlignEnd=36820
 
 # sent_id = ENU_26_Sport-Betting_M__13
@@ -221,7 +221,7 @@
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=39493|AlignEnd=39493
 4	just	just	ADV	_	_	10	mod	_	AlignBegin=39493|AlignEnd=39650
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=39650|AlignEnd=39650
-6	just	just	ADV	_	_	4	conj:dicto	_	AlignBegin=39650|AlignEnd=39806
+6	just	just	ADV	_	_	4	compound:redup	_	AlignBegin=39650|AlignEnd=39806
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=39806|AlignEnd=39806
 8	just	just	ADV	_	_	6	compound:redup	_	AlignBegin=39806|AlignEnd=39963
 9	}	}	PUNCT	_	_	4	punct	_	AlignBegin=39963|AlignEnd=39963
@@ -244,9 +244,9 @@
 6	}	}	PUNCT	_	_	2	punct	_	AlignBegin=42719|AlignEnd=42719
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=42719|AlignEnd=42719
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=42719|AlignEnd=42719
-9	dis	dis	PRON	_	_	16	subj	_	AlignBegin=42719|AlignEnd=43262
+9	dis	dis	DET	_	_	16	dislocated	_	AlignBegin=42719|AlignEnd=43262
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=43262|AlignEnd=43262
-11	all	all	ADV	_	_	9	conj:dicto	_	AlignBegin=43262|AlignEnd=43805
+11	all	all	DET	_	_	9	conj:dicto	_	AlignBegin=43262|AlignEnd=43805
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=43805|AlignEnd=43805
 13	of	of	ADP	_	_	9	mod	_	AlignBegin=43805|AlignEnd=44348
 14	dem	dem	PRON	_	_	13	comp:obj	_	AlignBegin=44348|AlignEnd=44891
@@ -259,18 +259,18 @@
 # text = all this useless people go play full time { 0 |c 0 } //
 # text_en = All these useless people went and played full time zero zero.
 # text_ortho = All this useless people go play full time 0, 0,
-1	all	all	ADV	_	_	2	det	_	AlignBegin=45435|AlignEnd=45747
+1	all	all	DET	_	_	4	det	_	AlignBegin=45435|AlignEnd=45747
 2	this	this	DET	_	_	4	det	_	AlignBegin=45747|AlignEnd=46060
 3	useless	useless	ADJ	_	_	4	mod	_	AlignBegin=46060|AlignEnd=46373
 4	people	people	NOUN	_	_	5	subj	_	AlignBegin=46373|AlignEnd=46685
 5	go	go	AUX	_	_	0	root	_	AlignBegin=46685|AlignEnd=46998
 6	play	play	VERB	_	_	5	comp:aux	_	AlignBegin=46998|AlignEnd=47311
 7	full	full	ADJ	_	_	8	mod	_	AlignBegin=47311|AlignEnd=47623
-8	time	time	NOUN	_	_	6	comp:obj	_	AlignBegin=47623|AlignEnd=47936
+8	time	time	NOUN	_	_	6	mod	_	AlignBegin=47623|AlignEnd=47936
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=47936|AlignEnd=47936
-10	0	0	X	_	_	6	comp:obj	_	AlignBegin=47936|AlignEnd=48249
+10	0	0	NUM	_	_	6	comp:obj	_	AlignBegin=47936|AlignEnd=48249
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=48249|AlignEnd=48249
-12	0	0	PROPN	_	_	10	conj:coord	_	AlignBegin=48249|AlignEnd=48562
+12	0	0	NUM	_	_	10	conj:coord	_	AlignBegin=48249|AlignEnd=48562
 13	}	}	PUNCT	_	_	10	punct	_	AlignBegin=48562|AlignEnd=48562
 14	//	//	PUNCT	_	_	5	punct	_	AlignBegin=48562|AlignEnd=48562
 
@@ -291,7 +291,7 @@
 1	full	full	ADJ	_	_	2	mod	_	AlignBegin=49780|AlignEnd=50008
 2	time	time	NOUN	_	_	10	mod:periph	_	AlignBegin=50008|AlignEnd=50236
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=50236|AlignEnd=50236
-4	0	0	X	_	_	2	compound:redup	_	AlignBegin=50236|AlignEnd=50464
+4	0	0	INTJ	_	_	2	parataxis:parenth	_	AlignBegin=50236|AlignEnd=50464
 5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=50464|AlignEnd=50464
 6	0	0	NUM	_	_	4	conj:coord	_	AlignBegin=50464|AlignEnd=50692
 7	}	}	PUNCT	_	_	4	punct	_	AlignBegin=50692|AlignEnd=50692
@@ -299,18 +299,18 @@
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=50692|AlignEnd=50692
 10	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=50692|AlignEnd=50920
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=50920|AlignEnd=50920
-12	we~	X	PRON	_	_	10	conj:dicto	_	AlignBegin=50920|AlignEnd=51148
+12	we~	X	X	_	_	10	conj:dicto	_	AlignBegin=50920|AlignEnd=51148
 13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=51148|AlignEnd=51148
-14	we~	X	PRON	_	_	12	conj:dicto	_	AlignBegin=51148|AlignEnd=51376
+14	we~	X	X	_	_	12	conj:dicto	_	AlignBegin=51148|AlignEnd=51376
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=51376|AlignEnd=51376
 16	wetin	wetin	PRON	_	_	14	conj:dicto	_	AlignBegin=51376|AlignEnd=51604
 17	}	}	PUNCT	_	_	10	punct	_	AlignBegin=51604|AlignEnd=51604
 18	I	I	PRON	_	_	19	subj	_	AlignBegin=51604|AlignEnd=51832
-19	go	go	AUX	_	_	16	comp:cleft	_	AlignBegin=51832|AlignEnd=52060
+19	go	go	AUX	_	_	16	mod@relcl	_	AlignBegin=51832|AlignEnd=52060
 20	play	play	VERB	_	_	19	comp:aux	_	AlignBegin=52060|AlignEnd=52288
 21	Man	Man	PROPN	_	_	20	comp:obj	_	AlignBegin=52288|AlignEnd=52516
 22	U	U	NOUN	_	_	21	flat	_	AlignBegin=52516|AlignEnd=52744
-23	straight	straight	ADJ	_	_	20	mod	_	AlignBegin=52744|AlignEnd=52972
+23	straight	straight	ADJ	_	_	24	mod	_	AlignBegin=52744|AlignEnd=52972
 24	win	win	VERB	_	_	20	compound:svc	_	AlignBegin=52972|AlignEnd=53200
 25	//	//	PUNCT	_	_	10	punct	_	AlignBegin=53200|AlignEnd=53200
 
@@ -345,7 +345,7 @@
 10	you	you	PRON	_	_	11	subj	_	AlignBegin=56346|AlignEnd=56540
 11	dey	dey	AUX	_	_	9	mod@relcl	_	AlignBegin=56540|AlignEnd=56733
 12	do	do	VERB	_	_	11	comp:aux	_	AlignBegin=56733|AlignEnd=56926
-13	o	o	PART	_	_	12	mod:emph	_	AlignBegin=56926|AlignEnd=57120
+13	o	o	PART	_	_	8	mod:emph	_	AlignBegin=56926|AlignEnd=57120
 14	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=57120|AlignEnd=57120
 
 # sent_id = ENU_26_Sport-Betting_M__21
@@ -355,7 +355,7 @@
 # text_ortho = Dis kind ting, mstchew dis, di, di, di...
 1	dis	dis	DET	_	_	3	det	_	AlignBegin=57740|AlignEnd=58000
 2	kind	kind	ADJ	_	_	3	mod	_	AlignBegin=58000|AlignEnd=58260
-3	ting	ting	NOUN	_	_	7	conj:appos	_	AlignBegin=58260|AlignEnd=58520
+3	ting	ting	NOUN	_	_	7	dislocated	_	AlignBegin=58260|AlignEnd=58520
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=58520|AlignEnd=58520
 5	mstchew	mstchew	INTJ	_	_	7	discourse	_	AlignBegin=58520|AlignEnd=58780
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=58780|AlignEnd=58780
@@ -376,22 +376,22 @@
 # text_en = infact, it is as if I I will stop this bet.
 # text_ortho = In fact e, e be like sey I, I go stop dis bet.
 1	in	in	ADP	_	_	8	mod:periph	_	AlignBegin=60380|AlignEnd=60545
-2	fact	fact	NOUN	_	_	1	unk@fixed	_	AlignBegin=60545|AlignEnd=60710
+2	fact	fact	NOUN	_	_	1	comp:obj	_	AlignBegin=60545|AlignEnd=60710
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=60710|AlignEnd=60710
-4	e	im	PRON	_	_	8	subj	_	AlignBegin=60710|AlignEnd=60876
+4	e	im	PRON	_	_	8	subj@expl	_	AlignBegin=60710|AlignEnd=60876
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=60876|AlignEnd=60876
 6	e	im	PRON	_	_	4	conj:dicto	_	AlignBegin=60876|AlignEnd=61041
 7	}	}	PUNCT	_	_	4	punct	_	AlignBegin=61041|AlignEnd=61041
 8	be	be	VERB	_	_	0	root	_	AlignBegin=61041|AlignEnd=61206
 9	like	like	ADP	_	_	8	comp:pred	_	AlignBegin=61206|AlignEnd=61372
-10	sey	sey	SCONJ	_	_	9	comp:obj@fixed	_	AlignBegin=61372|AlignEnd=61537
+10	sey	sey	SCONJ	_	_	9	comp:obj	_	AlignBegin=61372|AlignEnd=61537
 11	[	[	PUNCT	_	_	17	punct	_	AlignBegin=61537|AlignEnd=61537
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=61537|AlignEnd=61537
 13	I	I	PRON	_	_	17	subj	_	AlignBegin=61537|AlignEnd=61703
 14	||	||	PUNCT	_	_	15	punct	_	AlignBegin=61703|AlignEnd=61703
 15	I	I	PRON	_	_	13	conj:dicto	_	AlignBegin=61703|AlignEnd=61868
 16	}	}	PUNCT	_	_	13	punct	_	AlignBegin=61868|AlignEnd=61868
-17	go	go	AUX	_	_	10	comp:obj	_	AlignBegin=61868|AlignEnd=62033
+17	go	go	AUX	_	_	9	comp:obj	_	AlignBegin=61868|AlignEnd=62033
 18	stop	stop	VERB	_	_	17	comp:aux	_	AlignBegin=62033|AlignEnd=62199
 19	dis	dis	DET	_	_	20	det	_	AlignBegin=62199|AlignEnd=62364
 20	bet	bet	NOUN	_	_	18	comp:obj	_	AlignBegin=62364|AlignEnd=62530
@@ -405,7 +405,7 @@
 # text_ortho = Mstchew in fact I, I go stop am, I go stop am, I go stop am.
 1	mstchew	mstchew	INTJ	_	_	9	discourse	_	AlignBegin=62990|AlignEnd=63128
 2	in	in	ADP	_	_	9	mod:periph	_	AlignBegin=63128|AlignEnd=63266
-3	fact	fact	NOUN	_	_	2	unk@fixed	_	AlignBegin=63266|AlignEnd=63404
+3	fact	fact	NOUN	_	_	2	comp:obj	_	AlignBegin=63266|AlignEnd=63404
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=63404|AlignEnd=63404
 5	I	I	PRON	_	_	9	subj	_	AlignBegin=63404|AlignEnd=63542
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=63542|AlignEnd=63542
@@ -435,13 +435,13 @@
 2	see	see	VERB	_	_	0	root	_	AlignBegin=65780|AlignEnd=66120
 3	dis	dis	DET	_	_	4	det	_	AlignBegin=66120|AlignEnd=66460
 4	one	one	NOUN	_	_	2	comp:obj	_	AlignBegin=66460|AlignEnd=66800
-5	>	>	PUNCT	_	_	8	punct	_	AlignBegin=66800|AlignEnd=66800
-6	{	{	PUNCT	_	_	8	punct	_	AlignBegin=66800|AlignEnd=66800
-7	Man	Man	NOUN	_	_	8	compound	_	AlignBegin=66800|AlignEnd=67140
-8	City	City	NOUN	_	_	2	comp:obj	_	AlignBegin=67140|AlignEnd=67480
+5	>	>	PUNCT	_	_	7	punct	_	AlignBegin=66800|AlignEnd=66800
+6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=66800|AlignEnd=66800
+7	Man	Man	PROPN	_	_	2	dislocated	_	AlignBegin=66800|AlignEnd=67140
+8	City	City	NOUN	_	_	7	flat	_	AlignBegin=67140|AlignEnd=67480
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=67480|AlignEnd=67480
-10	Stoke	Stoke	PROPN	_	_	8	conj:coord	_	AlignBegin=67480|AlignEnd=67820
-11	}	}	PUNCT	_	_	8	punct	_	AlignBegin=67820|AlignEnd=67820
+10	Stoke	Stoke	PROPN	_	_	7	conj:coord	_	AlignBegin=67480|AlignEnd=67820
+11	}	}	PUNCT	_	_	7	punct	_	AlignBegin=67820|AlignEnd=67820
 12	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=67820|AlignEnd=67820
 
 # sent_id = ENU_26_Sport-Betting_M__25
@@ -458,15 +458,15 @@
 # text_en = My brother, over two point five.
 # text_ortho = My broder, over, over 2.5,
 1	my	my	PRON	_	_	2	mod:poss	_	AlignBegin=68660|AlignEnd=69162
-2	broder	broder	NOUN	_	_	9	vocative	_	AlignBegin=69162|AlignEnd=69664
+2	broder	broder	NOUN	_	_	5	vocative	_	AlignBegin=69162|AlignEnd=69664
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=69664|AlignEnd=69664
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=69664|AlignEnd=69664
-5	over	over	ADP	_	_	9	mod	_	AlignBegin=69664|AlignEnd=70166
+5	over	over	ADP	_	_	0	root	_	AlignBegin=69664|AlignEnd=70166
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=70166|AlignEnd=70166
 7	over	over	ADP	_	_	5	conj:dicto	_	AlignBegin=70166|AlignEnd=70668
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=70668|AlignEnd=70668
-9	2.5	2.5	X	_	_	0	root	_	AlignBegin=70668|AlignEnd=71170
-10	!//	!//	PUNCT	_	_	9	punct	_	AlignBegin=71170|AlignEnd=71170
+9	2.5	2.5	NUM	_	_	7	comp:obj	_	AlignBegin=70668|AlignEnd=71170
+10	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=71170|AlignEnd=71170
 
 # sent_id = ENU_26_Sport-Betting_M__27
 # speaker_id = Sp105
@@ -475,7 +475,7 @@
 # text_ortho = I carry 2 odd.
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=71170|AlignEnd=71452
 2	carry	carry	VERB	_	_	0	root	_	AlignBegin=71452|AlignEnd=71735
-3	2	2	PUNCT	_	_	4	det	_	AlignBegin=71735|AlignEnd=72017
+3	2	2	NUM	_	_	4	det:num	_	AlignBegin=71735|AlignEnd=72017
 4	odd	odd	NOUN	_	_	2	comp:obj	_	AlignBegin=72017|AlignEnd=72300
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=72300|AlignEnd=72300
 
@@ -484,11 +484,11 @@
 # text = 2.40 odd con win 1.0 //
 # text_en = Two point forty odds then won one point zero.
 # text_ortho = 2.40 odd con win 1.0.
-1	2.40	2.40	X	_	_	2	punct	_	AlignBegin=72950|AlignEnd=73584
+1	2.40	2.40	NUM	_	_	3	mod:periph	_	AlignBegin=72950|AlignEnd=73584
 2	odd	odd	NOUN	_	_	3	subj	_	AlignBegin=73584|AlignEnd=74218
 3	con	con	AUX	_	_	0	root	_	AlignBegin=74218|AlignEnd=74852
 4	win	win	VERB	_	_	3	comp:aux	_	AlignBegin=74852|AlignEnd=75486
-5	1.0	1.0	PUNCT	_	_	4	comp:obj	_	AlignBegin=75486|AlignEnd=76120
+5	1.0	1.0	NUM	_	_	4	comp:obj	_	AlignBegin=75486|AlignEnd=76120
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=76120|AlignEnd=76120
 
 # sent_id = ENU_26_Sport-Betting_M__29
@@ -522,8 +522,8 @@
 8	dem	dem	PRON	_	_	9	subj	_	AlignBegin=80230|AlignEnd=80472
 9	dey	dey	AUX	_	_	7	mod@relcl	_	AlignBegin=80472|AlignEnd=80714
 10	do	do	VERB	_	_	9	comp:aux	_	AlignBegin=80714|AlignEnd=80956
-11	dere	dere	ADV	_	_	10	comp:obj	_	AlignBegin=80956|AlignEnd=81198
-12	o	o	PART	_	_	11	mod:emph	_	AlignBegin=81198|AlignEnd=81440
+11	dere	dere	ADV	_	_	10	mod	_	AlignBegin=80956|AlignEnd=81198
+12	o	o	PART	_	_	6	mod:emph	_	AlignBegin=81198|AlignEnd=81440
 13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=81440|AlignEnd=81440
 
 # sent_id = ENU_26_Sport-Betting_M__32
@@ -536,7 +536,7 @@
 3	no	no	PART	_	_	0	root	_	AlignBegin=81942|AlignEnd=82145
 4	|r	|r	PUNCT	_	_	5	punct	_	AlignBegin=82145|AlignEnd=82145
 5	no	no	PART	_	_	3	compound:redup	_	AlignBegin=82145|AlignEnd=82347
-6	|r	|r	PUNCT	_	_	5	punct	_	AlignBegin=82347|AlignEnd=82347
+6	|r	|r	PUNCT	_	_	7	punct	_	AlignBegin=82347|AlignEnd=82347
 7	no	no	PART	_	_	5	compound:redup	_	AlignBegin=82347|AlignEnd=82550
 8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=82550|AlignEnd=82550
 9	no	no	PART	_	_	7	compound:redup	_	AlignBegin=82550|AlignEnd=82752
@@ -554,7 +554,7 @@
 # text = but mstchew ey !//
 # text_en = But, Mstchew. ehi!
 # text_ortho = But mstchew ey!
-1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=83830|AlignEnd=84380
+1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=83830|AlignEnd=84380
 2	mstchew	mstchew	INTJ	_	_	3	discourse	_	AlignBegin=84380|AlignEnd=84930
 3	ey	ey	INTJ	_	_	0	root	_	AlignBegin=84930|AlignEnd=85480
 4	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=85480|AlignEnd=85480
@@ -575,7 +575,7 @@
 # text_en = till just ah!
 # text_ortho = Till just ah...!
 1	till	till	ADP	_	_	0	root@scrap	_	AlignBegin=89570|AlignEnd=90246
-2	just	just	ADV	_	_	1	mod	_	AlignBegin=90246|AlignEnd=90923
+2	just	just	ADV	_	_	3	mod	_	AlignBegin=90246|AlignEnd=90923
 3	ah	ah	INTJ	_	_	1	discourse	_	AlignBegin=90923|AlignEnd=91600
 4	&	&	PUNCT	_	_	1	punct	_	AlignBegin=91600|AlignEnd=91600
 5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=91600|AlignEnd=91600
@@ -588,7 +588,7 @@
 1	dis	dis	DET	_	_	2	det	_	AlignBegin=91760|AlignEnd=92048
 2	one	one	NOUN	_	_	3	subj	_	AlignBegin=92048|AlignEnd=92336
 3	na	na	PART	_	_	0	root	_	AlignBegin=92336|AlignEnd=92624
-4	2.3	2.3	NUM	_	_	5	mod	_	AlignBegin=92624|AlignEnd=92912
+4	2.3	2.3	NUM	_	_	5	det:num	_	AlignBegin=92624|AlignEnd=92912
 5	odd	odd	NOUN	_	_	3	comp:pred	_	AlignBegin=92912|AlignEnd=93200
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=93200|AlignEnd=93200
 
@@ -621,7 +621,7 @@
 8	play	play	VERB	_	_	7	comp:aux	_	AlignBegin=96833|AlignEnd=97162
 9	}	}	PUNCT	_	_	3	punct	_	AlignBegin=97162|AlignEnd=97162
 10	first	first	ADJ	_	_	11	mod	_	AlignBegin=97162|AlignEnd=97491
-11	half	half	NOUN	_	_	12	mod	_	AlignBegin=97491|AlignEnd=97820
+11	half	half	NOUN	_	_	12	compound	_	AlignBegin=97491|AlignEnd=97820
 12	draw	draw	NOUN	_	_	8	comp:obj	_	AlignBegin=97820|AlignEnd=98148
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=98148|AlignEnd=98148
 14	de	dem	PRON	_	_	15	subj	_	AlignBegin=98148|AlignEnd=98477
@@ -647,7 +647,7 @@
 3	rubbish	rubbish	NOUN	_	_	0	root	_	AlignBegin=100920|AlignEnd=101155
 4	be	be	VERB	_	_	3	comp:cleft	_	AlignBegin=101155|AlignEnd=101390
 5	dis	dis	DET	_	_	6	det	_	AlignBegin=101390|AlignEnd=101625
-6	one	one	NOUN	_	_	4	comp:pred	_	AlignBegin=101625|AlignEnd=101860
+6	one	one	NOUN	_	_	4	comp:obj@agent	_	AlignBegin=101625|AlignEnd=101860
 7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=101860|AlignEnd=101860
 
 # sent_id = ENU_26_Sport-Betting_M__40
@@ -660,7 +660,7 @@
 3	nonsense	nonsense	NOUN	_	_	0	root	_	AlignBegin=103294|AlignEnd=103491
 4	be	be	VERB	_	_	3	comp:cleft	_	AlignBegin=103491|AlignEnd=103688
 5	dis	dis	DET	_	_	6	det	_	AlignBegin=103688|AlignEnd=103885
-6	one	one	NOUN	_	_	4	comp:pred	_	AlignBegin=103885|AlignEnd=104082
+6	one	one	NOUN	_	_	4	comp:obj@agent	_	AlignBegin=103885|AlignEnd=104082
 7	now	now	ADV	_	_	6	mod:emph	_	AlignBegin=104082|AlignEnd=104280
 8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=104280|AlignEnd=104280
 
@@ -710,9 +710,9 @@
 # text = or oh !//
 # text_en = or oh!
 # text_ortho = Or oh!
-1	or	or	CCONJ	_	_	2	cc	_	AlignBegin=110880|AlignEnd=111775
-2	oh	oh	INTJ	_	_	0	root	_	AlignBegin=111775|AlignEnd=112670
-3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=112670|AlignEnd=112670
+1	or	or	INTJ	_	_	0	root	_	AlignBegin=110880|AlignEnd=111775
+2	oh	oh	INTJ	_	_	1	discourse	_	AlignBegin=111775|AlignEnd=112670
+3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=112670|AlignEnd=112670
 
 # sent_id = ENU_26_Sport-Betting_M__46
 # speaker_id = Sp105
@@ -720,7 +720,7 @@
 # text_en = Burnely... Burnely... Burnely versus Man City, three one.
 # text_ortho = Burnely, Burnely, Man..., Burnely, Man City, ah three, one.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=113650|AlignEnd=113650
-2	Burnely	Burnely	PROPN	_	_	21	vocative	_	AlignBegin=113650|AlignEnd=114220
+2	Burnely	Burnely	PROPN	_	_	21	dislocated	_	AlignBegin=113650|AlignEnd=114220
 3	||	||	PUNCT	_	_	5	punct	_	AlignBegin=114220|AlignEnd=114220
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=114220|AlignEnd=114220
 5	Burnely	Burnely	PROPN	_	_	2	conj:dicto	_	AlignBegin=114220|AlignEnd=114790
@@ -731,9 +731,9 @@
 10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=115360|AlignEnd=115360
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=115360|AlignEnd=115360
 12	Burnely	Burnely	PROPN	_	_	5	conj:dicto	_	AlignBegin=115360|AlignEnd=115930
-13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=115930|AlignEnd=115930
-14	Man	Man	NOUN	_	_	15	compound	_	AlignBegin=115930|AlignEnd=116500
-15	City	City	NOUN	_	_	12	conj:coord	_	AlignBegin=116500|AlignEnd=117070
+13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=115930|AlignEnd=115930
+14	Man	Man	PROPN	_	_	12	conj:coord	_	AlignBegin=115930|AlignEnd=116500
+15	City	City	NOUN	_	_	14	flat	_	AlignBegin=116500|AlignEnd=117070
 16	}	}	PUNCT	_	_	12	punct	_	AlignBegin=117070|AlignEnd=117070
 17	}	}	PUNCT	_	_	2	punct	_	AlignBegin=117070|AlignEnd=117070
 18	<	<	PUNCT	_	_	2	punct	_	AlignBegin=117070|AlignEnd=117070
@@ -750,21 +750,21 @@
 # text = mstchew ah dis kind ting no good o //= dis kind ting no go //
 # text_en = Mstchew. Ah, this kind of thing is not good.
 # text_ortho = Mstchew ah dis kind ting no good o, dis kind ting no go.
-1	mstchew	mstchew	INTJ	_	_	7	discourse	_	AlignBegin=119450|AlignEnd=119675
-2	ah	ah	INTJ	_	_	7	discourse	_	AlignBegin=119675|AlignEnd=119900
+1	mstchew	mstchew	INTJ	_	_	6	discourse	_	AlignBegin=119450|AlignEnd=119675
+2	ah	ah	INTJ	_	_	6	discourse	_	AlignBegin=119675|AlignEnd=119900
 3	dis	dis	DET	_	_	5	det	_	AlignBegin=119900|AlignEnd=120126
 4	kind	kind	ADJ	_	_	5	mod	_	AlignBegin=120126|AlignEnd=120351
-5	ting	ting	NOUN	_	_	7	subj	_	AlignBegin=120351|AlignEnd=120576
-6	no	no	PART	_	_	7	mod	_	AlignBegin=120576|AlignEnd=120802
-7	good	good	ADJ	_	_	0	root	_	AlignBegin=120802|AlignEnd=121027
-8	o	o	PART	_	_	7	mod:emph	_	AlignBegin=121027|AlignEnd=121253
-9	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=121253|AlignEnd=121253
+5	ting	ting	NOUN	_	_	6	subj	_	AlignBegin=120351|AlignEnd=120576
+6	no	no	AUX	_	_	0	root	_	AlignBegin=120576|AlignEnd=120802
+7	good	good	ADJ	_	_	6	comp:aux	_	AlignBegin=120802|AlignEnd=121027
+8	o	o	PART	_	_	6	mod:emph	_	AlignBegin=121027|AlignEnd=121253
+9	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=121253|AlignEnd=121253
 10	dis	dis	DET	_	_	12	det	_	AlignBegin=121253|AlignEnd=121478
 11	kind	kind	ADJ	_	_	12	mod	_	AlignBegin=121478|AlignEnd=121703
-12	ting	ting	NOUN	_	_	14	subj	_	AlignBegin=121703|AlignEnd=121929
-13	no	no	PART	_	_	14	mod	_	AlignBegin=121929|AlignEnd=122154
-14	go	go	AUX	_	_	7	parataxis:conj	_	AlignBegin=122154|AlignEnd=122380
-15	//	//	PUNCT	_	_	7	punct	_	AlignBegin=122380|AlignEnd=122380
+12	ting	ting	NOUN	_	_	13	subj	_	AlignBegin=121703|AlignEnd=121929
+13	no	no	AUX	_	_	6	parataxis:conj	_	AlignBegin=121929|AlignEnd=122154
+14	go	go	AUX	_	_	13	comp:aux	_	AlignBegin=122154|AlignEnd=122380
+15	//	//	PUNCT	_	_	6	punct	_	AlignBegin=122380|AlignEnd=122380
 
 # sent_id = ENU_26_Sport-Betting_M__48
 # speaker_id = Sp105
@@ -775,19 +775,19 @@
 2	look	look	VERB	_	_	0	root	_	AlignBegin=122633|AlignEnd=122887
 3	at	at	ADP	_	_	2	comp:obl	_	AlignBegin=122887|AlignEnd=123140
 4	my	my	PRON	_	_	7	mod:poss	_	AlignBegin=123140|AlignEnd=123394
-5	three	three	NUM	_	_	6	compound	_	AlignBegin=123394|AlignEnd=123647
-6	hundred	hundred	NUM	_	_	7	det:num	_	AlignBegin=123647|AlignEnd=123901
+5	three	three	NUM	_	_	7	det:num	_	AlignBegin=123394|AlignEnd=123647
+6	hundred	hundred	NUM	_	_	5	flat	_	AlignBegin=123647|AlignEnd=123901
 7	naira	naira	NOUN	_	_	3	comp:obj	_	AlignBegin=123901|AlignEnd=124154
 8	wey	wey	SCONJ	_	_	7	mod@relcl	_	AlignBegin=124154|AlignEnd=124408
 9	I	I	PRON	_	_	10	subj	_	AlignBegin=124408|AlignEnd=124661
 10	use	use	VERB	_	_	8	comp:obj	_	AlignBegin=124661|AlignEnd=124915
-11	bet	bet	VERB	_	_	13	mod@relcl	_	AlignBegin=124915|AlignEnd=125168
+11	bet	bet	VERB	_	_	10	compound:svc	_	AlignBegin=124915|AlignEnd=125168
 12	dis	dis	DET	_	_	13	det	_	AlignBegin=125168|AlignEnd=125422
-13	game	game	NOUN	_	_	10	comp:obj	_	AlignBegin=125422|AlignEnd=125675
+13	game	game	NOUN	_	_	11	comp:obj	_	AlignBegin=125422|AlignEnd=125675
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=125675|AlignEnd=125675
-15	don	don	AUX	_	_	10	conj:coord	_	AlignBegin=125675|AlignEnd=125929
+15	don	don	AUX	_	_	2	conj:coord	_	AlignBegin=125675|AlignEnd=125929
 16	go	go	VERB	_	_	15	comp:aux	_	AlignBegin=125929|AlignEnd=126182
-17	like	like	ADP	_	_	16	mod	_	AlignBegin=126182|AlignEnd=126436
+17	like	like	ADP	_	_	16	comp:obl	_	AlignBegin=126182|AlignEnd=126436
 18	dat	dat	PRON	_	_	17	comp:obj	_	AlignBegin=126436|AlignEnd=126690
 19	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=126690|AlignEnd=126690
 
@@ -805,7 +805,7 @@
 # text_en = mstchew oh! let me just wait for weekend game.
 # text_ortho = Mstchew oh meh I just wait for weekend game sha.
 1	mstchew	mstchew	INTJ	_	_	3	discourse	_	AlignBegin=128290|AlignEnd=128650
-2	oh	oh	INTJ	_	_	1	discourse	_	AlignBegin=128650|AlignEnd=129010
+2	oh	oh	INTJ	_	_	3	discourse	_	AlignBegin=128650|AlignEnd=129010
 3	meh	meh	AUX	_	_	0	root	_	AlignBegin=129010|AlignEnd=129370
 4	I	I	PRON	_	_	6	subj	_	AlignBegin=129370|AlignEnd=129730
 5	just	just	ADV	_	_	6	mod	_	AlignBegin=129730|AlignEnd=130090
@@ -822,7 +822,7 @@
 # text_en = No no no n- n- n- n- no problem.
 # text_ortho = No, no, no, no wahala!
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=132075|AlignEnd=132075
-2	no	no	PART	_	_	10	mod	_	AlignBegin=132075|AlignEnd=132396
+2	no	no	PART	_	_	0	root	_	AlignBegin=132075|AlignEnd=132396
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=132396|AlignEnd=132396
 4	no	no	PART	_	_	2	conj:dicto	_	AlignBegin=132396|AlignEnd=132717
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=132717|AlignEnd=132717
@@ -830,8 +830,8 @@
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=133038|AlignEnd=133038
 8	no	no	PART	_	_	6	conj:dicto	_	AlignBegin=133038|AlignEnd=133359
 9	}	}	PUNCT	_	_	2	punct	_	AlignBegin=133359|AlignEnd=133359
-10	wahala	wahala	NOUN	_	_	0	root	_	AlignBegin=133359|AlignEnd=133680
-11	!//	!//	PUNCT	_	_	10	punct	_	AlignBegin=133680|AlignEnd=133680
+10	wahala	wahala	NOUN	_	_	8	comp:pred	_	AlignBegin=133359|AlignEnd=133680
+11	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=133680|AlignEnd=133680
 
 # sent_id = ENU_26_Sport-Betting_M__52
 # speaker_id = Sp105
@@ -843,7 +843,7 @@
 3	go	go	AUX	_	_	0	root	_	AlignBegin=134508|AlignEnd=134713
 4	just	just	ADV	_	_	5	mod	_	AlignBegin=134713|AlignEnd=134917
 5	try	try	VERB	_	_	3	comp:aux	_	AlignBegin=134917|AlignEnd=135122
-6	wait	wait	VERB	_	_	5	comp:obj@x	_	AlignBegin=135122|AlignEnd=135326
+6	wait	wait	VERB	_	_	5	comp:obj$desire@x	_	AlignBegin=135122|AlignEnd=135326
 7	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=135326|AlignEnd=135531
 8	weekend	weekend	NOUN	_	_	9	compound	_	AlignBegin=135531|AlignEnd=135735
 9	game	game	NOUN	_	_	7	comp:obj	_	AlignBegin=135735|AlignEnd=135940
@@ -854,7 +854,7 @@
 # text = no wahala !//
 # text_en = No problem.
 # text_ortho = No wahala!
-1	no	no	PART	_	_	2	mod	_	AlignBegin=136580|AlignEnd=136905
-2	wahala	wahala	NOUN	_	_	0	root	_	AlignBegin=136905|AlignEnd=137230
-3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=137230|AlignEnd=137230
+1	no	no	PART	_	_	0	root	_	AlignBegin=136580|AlignEnd=136905
+2	wahala	wahala	NOUN	_	_	1	comp:pred	_	AlignBegin=136905|AlignEnd=137230
+3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=137230|AlignEnd=137230
 

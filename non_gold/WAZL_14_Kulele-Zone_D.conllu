@@ -5,7 +5,7 @@
 # text_en = Can I also tell you about Rakata?
 # text_ortho = Can I also tell you about Rakata?
 1	can	can	AUX	_	_	0	root	_	AlignBegin=2701|AlignEnd=2919|Lang=en
-2	I	I	PRON	_	_	4	subj	_	AlignBegin=2919|AlignEnd=3138|Lang=en
+2	I	I	PRON	_	_	1	subj	_	AlignBegin=2919|AlignEnd=3138|Lang=en
 3	also	also	ADV	_	_	4	mod	_	AlignBegin=3138|AlignEnd=3357|Lang=en
 4	tell	tell	VERB	_	_	1	comp:aux	_	AlignBegin=3357|AlignEnd=3575|Lang=en
 5	you	you	PRON	_	_	4	comp:obj	_	AlignBegin=3575|AlignEnd=3794|Lang=en
@@ -29,7 +29,7 @@
 # text_ortho = I like as una dey report una self.
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=4800|AlignEnd=4986
 2	like	like	VERB	_	_	0	root	_	AlignBegin=4986|AlignEnd=5173
-3	as	as	ADP	_	_	2	comp:obj	_	AlignBegin=5173|AlignEnd=5359
+3	as	as	ADP	_	_	2	mod$tempo	_	AlignBegin=5173|AlignEnd=5359
 4	una	una	PRON	_	_	5	subj	_	AlignBegin=5359|AlignEnd=5546
 5	dey	dey	AUX	_	_	3	comp:obj	_	AlignBegin=5546|AlignEnd=5732
 6	report	report	VERB	_	_	5	comp:aux	_	AlignBegin=5732|AlignEnd=5919
@@ -87,7 +87,7 @@
 2	do	do	VERB	_	_	0	root	_	AlignBegin=9848|AlignEnd=10140|Lang=en
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=10140|AlignEnd=10140
 4	feel	feel	VERB	_	_	2	conj:coord	_	AlignBegin=10140|AlignEnd=10432|Lang=en
-5	free	free	ADJ	_	_	4	comp:obj@lvc	_	AlignBegin=10432|AlignEnd=10724|Lang=en
+5	free	free	ADJ	_	_	4	comp:pred	_	AlignBegin=10432|AlignEnd=10724|Lang=en
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=10724|AlignEnd=10724
 
 # sent_id = WAZL_14_Kulele-Zone_DG__9
@@ -96,13 +96,13 @@
 # text_en = So, when we now went to ehm, Femi... you know that Femi took us to an old people 's home at Yaba
 # text_ortho = So when we come go ehm hm Femi you know sey Femi carry us go eh old people's home yesterday for Yaba.
 1	so	so	ADV	_	_	10	discourse	_	AlignBegin=10932|AlignEnd=11252
-2	when	when	SCONJ	_	_	10	mod:periph	_	AlignBegin=11252|AlignEnd=11572
+2	when	when	ADV	_	_	10	mod:periph$tempo	_	AlignBegin=11252|AlignEnd=11572
 3	we	we	PRON	_	_	4	subj	_	AlignBegin=11572|AlignEnd=11893
 4	come	come	AUX	_	_	2	comp:obj	_	AlignBegin=11893|AlignEnd=12213
 5	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=12213|AlignEnd=12533
 6	ehm	ehm	INTJ	_	_	8	discourse	_	AlignBegin=12533|AlignEnd=12854
 7	hm	hm	INTJ	_	_	8	discourse	_	AlignBegin=12854|AlignEnd=13174
-8	Femi	Femi	PROPN	_	_	5	comp:obj	_	AlignBegin=13174|AlignEnd=13494
+8	Femi	Femi	PROPN	_	_	5	comp:obl	_	AlignBegin=13174|AlignEnd=13494
 9	you	you	PRON	_	_	10	subj	_	AlignBegin=13494|AlignEnd=13815
 10	know	know	VERB	_	_	0	root	_	AlignBegin=13815|AlignEnd=14135
 11	sey	sey	SCONJ	_	_	10	comp:obj	_	AlignBegin=14135|AlignEnd=14456
@@ -113,8 +113,8 @@
 16	eh	eh	INTJ	_	_	19	discourse	_	AlignBegin=15737|AlignEnd=16057
 17	old	old	ADJ	_	_	18	mod	_	AlignBegin=16057|AlignEnd=16378
 18	people's	people's	NOUN	_	_	19	mod	_	AlignBegin=16378|AlignEnd=16698
-19	home	home	NOUN	_	_	20	compound	_	AlignBegin=16698|AlignEnd=17018
-20	yesterday	yesterday	NOUN	_	_	15	comp:obj	_	AlignBegin=17018|AlignEnd=17339
+19	home	home	NOUN	_	_	15	comp:obl	_	AlignBegin=16698|AlignEnd=17018
+20	yesterday	yesterday	NOUN	_	_	15	mod	_	AlignBegin=17018|AlignEnd=17339
 21	for	for	ADP	_	_	15	mod	_	AlignBegin=17339|AlignEnd=17659
 22	Yaba	Yaba	PROPN	_	_	21	comp:obj	_	AlignBegin=17659|AlignEnd=17980
 23	//	//	PUNCT	_	_	10	punct	_	AlignBegin=17980|AlignEnd=17980
@@ -162,7 +162,7 @@
 5	we	we	PRON	_	_	6	subj	_	AlignBegin=19071|AlignEnd=19261
 6	come	come	AUX	_	_	2	comp:cleft	_	AlignBegin=19261|AlignEnd=19451
 7	reach	reach	VERB	_	_	6	comp:aux	_	AlignBegin=19451|AlignEnd=19640
-8	di	di	DET	_	_	7	comp:obj@scrap	_	AlignBegin=19640|AlignEnd=19830
+8	di	di	DET	_	_	9	det	_	AlignBegin=19640|AlignEnd=19830
 9	dere	dere	ADV	_	_	7	comp:obj	_	AlignBegin=19830|AlignEnd=20020
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=20020|AlignEnd=20020
 
@@ -174,7 +174,7 @@
 1	Ratata	Ratata	NOUN	_	_	2	subj	_	AlignBegin=20020|AlignEnd=20370
 2	con	con	AUX	_	_	0	root	_	AlignBegin=20370|AlignEnd=20721
 3	begin	begin	VERB	_	_	2	comp:aux	_	AlignBegin=20721|AlignEnd=21071
-4	dey	dey	AUX	_	_	3	comp:pred	_	AlignBegin=21071|AlignEnd=21422
+4	dey	dey	AUX	_	_	3	comp:obj$phase@x	_	AlignBegin=21071|AlignEnd=21422
 5	snap	snap	VERB	_	_	4	comp:aux	_	AlignBegin=21422|AlignEnd=21772
 6	ehn	ehn	INTJ	_	_	7	discourse	_	AlignBegin=21772|AlignEnd=22123
 7	pictures	pictures	NOUN	_	_	5	comp:obj	_	AlignBegin=22123|AlignEnd=22474
@@ -204,17 +204,17 @@
 # text = and no be sey [ na you know male ] //
 # text_en = It is not as if he is a male,
 # text_ortho = And no be sey na you know male.
-1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=24290|AlignEnd=24641
-2	no	no	PART	_	_	3	mod	_	AlignBegin=24641|AlignEnd=24992
-3	be	be	VERB	_	_	0	root	_	AlignBegin=24992|AlignEnd=25343
+1	and	and	CCONJ	_	_	2	discourse	_	AlignBegin=24290|AlignEnd=24641
+2	no	no	AUX	_	_	0	root	_	AlignBegin=24641|AlignEnd=24992
+3	be	be	VERB	_	_	2	comp:aux	_	AlignBegin=24992|AlignEnd=25343
 4	sey	sey	SCONJ	_	_	3	comp:pred	_	AlignBegin=25343|AlignEnd=25695
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=25695|AlignEnd=25695
 6	na	na	PART	_	_	4	comp:obj	_	AlignBegin=25695|AlignEnd=26046
 7	you	you	PRON	_	_	8	subj	_	AlignBegin=26046|AlignEnd=26397
-8	know	know	VERB	_	_	6	comp:cleft	_	AlignBegin=26397|AlignEnd=26748
+8	know	know	VERB	_	_	6	parataxis:discourse	_	AlignBegin=26397|AlignEnd=26748
 9	male	male	NOUN	_	_	8	comp:obj	_	AlignBegin=26748|AlignEnd=27100
 10	]	]	PUNCT	_	_	6	punct	_	AlignBegin=27100|AlignEnd=27100
-11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=27100|AlignEnd=27100
+11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=27100|AlignEnd=27100
 
 # sent_id = WAZL_14_Kulele-Zone_DG__18
 # speaker_id = Sp328
@@ -259,7 +259,7 @@
 # text_en = Does anyone look like?
 # text_ortho = Anyone be like...
 1	anyone	anyone	PRON	_	_	2	subj	_	AlignBegin=31380|AlignEnd=31686
-2	be	be	VERB	_	_	0	root	_	AlignBegin=31686|AlignEnd=31992
+2	be	be	AUX	_	_	0	root@scrap	_	AlignBegin=31686|AlignEnd=31992
 3	like	like	ADP	_	_	2	comp:pred@scrap	_	AlignBegin=31992|AlignEnd=32298
 4	&	&	PUNCT	_	_	2	punct	_	AlignBegin=32298|AlignEnd=32298
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=32298|AlignEnd=32298
@@ -278,7 +278,7 @@
 # text_en = Eve and Kay baba, there were the ones who suprised me.
 # text_ortho = Eve, and Kay baba na dem surprise me X,
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=32583|AlignEnd=32583
-2	Eve	Eve	PROPN	_	_	8	subj	_	AlignBegin=32583|AlignEnd=32746
+2	Eve	Eve	PROPN	_	_	8	dislocated	_	AlignBegin=32583|AlignEnd=32746
 3	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=32746|AlignEnd=32746
 4	and	and	CCONJ	_	_	6	cc	_	AlignBegin=32746|AlignEnd=32909
 5	Kay	Kay	PROPN	_	_	6	compound	_	AlignBegin=32909|AlignEnd=33073
@@ -289,7 +289,7 @@
 10	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=33563|AlignEnd=33563
 11	surprise	surprise	VERB	_	_	8	comp:cleft	_	AlignBegin=33563|AlignEnd=33726
 12	me	me	PRON	_	_	11	comp:obj	_	AlignBegin=33726|AlignEnd=33889
-13	X	X	X	_	_	12	mod:emph	_	AlignBegin=33889|AlignEnd=34053
+13	X	X	X	_	_	11	mod:emph	_	AlignBegin=33889|AlignEnd=34053
 14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=34053|AlignEnd=34053
 
 # sent_id = WAZL_14_Kulele-Zone_DG__24
@@ -297,13 +297,13 @@
 # text = Kay baba get { fe~ || women fans || { women |r women } } //
 # text_en = Kay baba has fe-... women fans, women women.
 # text_ortho = Kay baba get fe-... women fans, women, women.
-1	Kay	Kay	AUX	_	_	3	discourse	_	AlignBegin=34276|AlignEnd=34903
-2	baba	baba	NOUN	_	_	3	subj	_	AlignBegin=34903|AlignEnd=35531
+1	Kay	Kay	PROPN	_	_	3	subj	_	AlignBegin=34276|AlignEnd=34903
+2	baba	baba	NOUN	_	_	1	flat	_	AlignBegin=34903|AlignEnd=35531
 3	get	get	VERB	_	_	0	root	_	AlignBegin=35531|AlignEnd=36159
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=36159|AlignEnd=36159
-5	fe~	X	NOUN	_	_	3	comp:obj	_	AlignBegin=36159|AlignEnd=36787
+5	fe~	X	X	_	_	3	comp:obj	_	AlignBegin=36159|AlignEnd=36787
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=36787|AlignEnd=36787
-7	women	women	NOUN	_	_	8	compound	_	AlignBegin=36787|AlignEnd=37415
+7	women	women	NOUN	_	_	8	mod	_	AlignBegin=36787|AlignEnd=37415
 8	fans	fans	NOUN	_	_	5	conj:dicto	_	AlignBegin=37415|AlignEnd=38043
 9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=38043|AlignEnd=38043
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=38043|AlignEnd=38043
@@ -340,22 +340,22 @@
 10	k	k	X	_	_	15	subj	_	AlignBegin=40852|AlignEnd=41139
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=41139|AlignEnd=41139
 12	Kay	Kay	PROPN	_	_	10	conj:dicto	_	AlignBegin=41139|AlignEnd=41427
-13	baba	baba	NOUN	_	_	12	flat	_	AlignBegin=41427|AlignEnd=41714
+13	baba	baba	NOUN	_	_	15	vocative	_	AlignBegin=41427|AlignEnd=41714
 14	}	}	PUNCT	_	_	10	punct	_	AlignBegin=41714|AlignEnd=41714
 15	dey	dey	AUX	_	_	8	comp:obj	_	AlignBegin=41714|AlignEnd=42002
 16	come	come	VERB	_	_	15	comp:aux	_	AlignBegin=42002|AlignEnd=42289
 17	<	<	PUNCT	_	_	3	punct	_	AlignBegin=42289|AlignEnd=42289
-18	all	all	ADV	_	_	20	mod	_	AlignBegin=42289|AlignEnd=42576
+18	all	all	DET	_	_	20	det	_	AlignBegin=42289|AlignEnd=42576
 19	dose	dose	DET	_	_	20	det	_	AlignBegin=42576|AlignEnd=42864
 20	women	women	NOUN	_	_	21	subj	_	AlignBegin=42864|AlignEnd=43151
 21	go	go	AUX	_	_	0	root	_	AlignBegin=43151|AlignEnd=43439
 22	don	don	AUX	_	_	21	comp:aux	_	AlignBegin=43439|AlignEnd=43726
-23	dey	dey	VERB	_	_	22	comp:aux	_	AlignBegin=43726|AlignEnd=44014
+23	dey	dey	AUX	_	_	22	comp:aux	_	AlignBegin=43726|AlignEnd=44014
 24	[	[	PUNCT	_	_	25	punct	_	AlignBegin=44014|AlignEnd=44014
 25	hail	hail	VERB	_	_	23	comp:aux	_	AlignBegin=44014|AlignEnd=44301
 26	kay	kay	VERB	_	_	25	compound:svc	_	AlignBegin=44301|AlignEnd=44589
-27	for	for	ADP	_	_	26	comp:obl	_	AlignBegin=44589|AlignEnd=44876
-28	kay	kay	AUX	_	_	27	comp:obj	_	AlignBegin=44876|AlignEnd=45164
+27	for	for	ADP	_	_	26	comp:pred	_	AlignBegin=44589|AlignEnd=44876
+28	kay	kay	ADJ	_	_	27	comp:obj	_	AlignBegin=44876|AlignEnd=45164
 29	]	]	PUNCT	_	_	25	punct	_	AlignBegin=45164|AlignEnd=45164
 30	//	//	PUNCT	_	_	21	punct	_	AlignBegin=45164|AlignEnd=45164
 
@@ -372,7 +372,7 @@
 # text = but wetin & //
 # text_en = but what...?
 # text_ortho = But wetin...
-1	but	but	CCONJ	_	_	2	cc	_	AlignBegin=42986|AlignEnd=43408
+1	but	but	CCONJ	_	_	2	discourse	_	AlignBegin=42986|AlignEnd=43408
 2	wetin	wetin	PRON	_	_	0	root@scrap	_	AlignBegin=43408|AlignEnd=43830
 3	&	&	PUNCT	_	_	2	punct	_	AlignBegin=43830|AlignEnd=43830
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=43830|AlignEnd=43830
@@ -383,20 +383,20 @@
 # text_en = but what, no no no but what do you expect about Kay baba?
 # text_ortho = No, no, no but wetin you expect about Kay baba?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=43830|AlignEnd=43830
-2	no	no	PART	_	_	9	mod	_	AlignBegin=43830|AlignEnd=44053
+2	no	no	PART	_	_	0	root	_	AlignBegin=43830|AlignEnd=44053
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=44053|AlignEnd=44053
 4	no	no	PART	_	_	2	conj:coord	_	AlignBegin=44053|AlignEnd=44277
 5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=44277|AlignEnd=44277
 6	no	no	PART	_	_	4	conj:coord	_	AlignBegin=44277|AlignEnd=44501
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=44501|AlignEnd=44501
 8	but	but	CCONJ	_	_	9	cc	_	AlignBegin=44501|AlignEnd=44725
-9	wetin	wetin	PRON	_	_	0	root	_	AlignBegin=44725|AlignEnd=44949
+9	wetin	wetin	PRON	_	_	2	comp:pred	_	AlignBegin=44725|AlignEnd=44949
 10	you	you	PRON	_	_	11	subj	_	AlignBegin=44949|AlignEnd=45172
 11	expect	expect	VERB	_	_	9	comp:cleft	_	AlignBegin=45172|AlignEnd=45396
 12	about	about	ADP	_	_	11	comp:obl	_	AlignBegin=45396|AlignEnd=45620
 13	Kay	Kay	PROPN	_	_	14	compound	_	AlignBegin=45620|AlignEnd=45844
 14	baba	baba	NOUN	_	_	12	comp:obj	_	AlignBegin=45844|AlignEnd=46068
-15	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=46068|AlignEnd=46068
+15	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=46068|AlignEnd=46068
 
 # sent_id = WAZL_14_Kulele-Zone_DG__30
 # speaker_id = Sp328
@@ -404,23 +404,23 @@
 # text_en = all those things... what of all those ehn things he does at night?
 # text_ortho = All dose things, all dose ehn, all dese wey e dey do for, for night nko?
 1	{	{	PUNCT	_	_	4	punct	_	AlignBegin=46316|AlignEnd=46316
-2	all	all	ADV	_	_	4	mod	_	AlignBegin=46316|AlignEnd=46571
+2	all	all	DET	_	_	4	det	_	AlignBegin=46316|AlignEnd=46571
 3	dose	dose	DET	_	_	4	det	_	AlignBegin=46571|AlignEnd=46827
 4	things	things	NOUN	_	_	0	root	_	AlignBegin=46827|AlignEnd=47083
 5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=47083|AlignEnd=47083
-6	all	all	ADV	_	_	7	mod	_	AlignBegin=47083|AlignEnd=47339
-7	dose	dose	DET	_	_	4	det	_	AlignBegin=47339|AlignEnd=47594
+6	all	all	DET	_	_	7	det	_	AlignBegin=47083|AlignEnd=47339
+7	dose	dose	DET	_	_	4	conj:dicto	_	AlignBegin=47339|AlignEnd=47594
 8	ehn	ehn	INTJ	_	_	7	discourse	_	AlignBegin=47594|AlignEnd=47850
 9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=47850|AlignEnd=47850
-10	all	all	ADV	_	_	11	mod	_	AlignBegin=47850|AlignEnd=48106
+10	all	all	DET	_	_	11	det	_	AlignBegin=47850|AlignEnd=48106
 11	dese	dese	DET	_	_	7	conj:dicto	_	AlignBegin=48106|AlignEnd=48362
-12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=48362|AlignEnd=48362
-13	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=48362|AlignEnd=48617
+12	}	}	PUNCT	_	_	4	punct	_	AlignBegin=48362|AlignEnd=48362
+13	wey	wey	SCONJ	_	_	11	mod@relcl	_	AlignBegin=48362|AlignEnd=48617
 14	e	im	PRON	_	_	15	subj	_	AlignBegin=48617|AlignEnd=48873
 15	dey	dey	AUX	_	_	13	comp:obj	_	AlignBegin=48873|AlignEnd=49129
 16	do	do	VERB	_	_	15	comp:aux	_	AlignBegin=49129|AlignEnd=49385
 17	{	{	PUNCT	_	_	18	punct	_	AlignBegin=49385|AlignEnd=49385
-18	for	for	ADP	_	_	16	comp:obl	_	AlignBegin=49385|AlignEnd=49640
+18	for	for	ADP	_	_	16	mod	_	AlignBegin=49385|AlignEnd=49640
 19	||	||	PUNCT	_	_	20	punct	_	AlignBegin=49640|AlignEnd=49640
 20	for	for	ADP	_	_	18	conj:dicto	_	AlignBegin=49640|AlignEnd=49896
 21	}	}	PUNCT	_	_	18	punct	_	AlignBegin=49896|AlignEnd=49896
@@ -435,9 +435,9 @@
 # text_ortho = No but young ladies, but like young ladies, these were married people haha.
 1	no	no	PART	_	_	14	discourse	_	AlignBegin=46324|AlignEnd=46879
 2	{	{	PUNCT	_	_	5	punct	_	AlignBegin=46879|AlignEnd=46879
-3	but	but	CCONJ	_	_	5	cc	_	AlignBegin=46879|AlignEnd=47435
+3	but	but	CCONJ	_	_	14	discourse	_	AlignBegin=46879|AlignEnd=47435
 4	young	young	ADJ	_	_	5	mod	_	AlignBegin=47435|AlignEnd=47991
-5	ladies	ladies	NOUN	_	_	14	dislocated	_	AlignBegin=47991|AlignEnd=48547
+5	ladies	ladies	NOUN	_	_	1	dislocated	_	AlignBegin=47991|AlignEnd=48547
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=48547|AlignEnd=48547
 7	but	but	CCONJ	_	_	8	cc	_	AlignBegin=48547|AlignEnd=49103
 8	like	like	ADP	_	_	5	conj:dicto	_	AlignBegin=49103|AlignEnd=49659
@@ -446,9 +446,9 @@
 11	}	}	PUNCT	_	_	5	punct	_	AlignBegin=50771|AlignEnd=50771
 12	<	<	PUNCT	_	_	5	punct	_	AlignBegin=50771|AlignEnd=50771
 13	these	these	PRON	_	_	14	subj	_	AlignBegin=50771|AlignEnd=51327|Lang=en
-14	were	were	AUX	_	_	0	root	_	AlignBegin=51327|AlignEnd=51883|Lang=en
-15	married	married	VERB	_	_	14	comp:aux	_	AlignBegin=51883|AlignEnd=52439|Lang=en
-16	people	people	NOUN	_	_	15	comp:obj	_	AlignBegin=52439|AlignEnd=52995|Lang=en
+14	were	were	VERB	_	_	0	root	_	AlignBegin=51327|AlignEnd=51883|Lang=en
+15	married	married	VERB	_	_	16	mod	_	AlignBegin=51883|AlignEnd=52439|Lang=en
+16	people	people	NOUN	_	_	14	comp:pred	_	AlignBegin=52439|AlignEnd=52995|Lang=en
 17	haha	haha	INTJ	_	_	14	discourse	_	AlignBegin=52995|AlignEnd=53551
 18	//	//	PUNCT	_	_	14	punct	_	AlignBegin=53551|AlignEnd=53551
 
@@ -459,15 +459,15 @@
 # text_ortho = Somebody, sotay e tell am sey ehm im married girlfriends dem, dey here.
 1	somebody	somebody	PRON	_	_	5	dislocated	_	AlignBegin=53809|AlignEnd=54108
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=54108|AlignEnd=54108
-3	sotay	sotay	SCONJ	_	_	5	cc	_	AlignBegin=54108|AlignEnd=54407
+3	sotay	sotay	SCONJ	_	_	5	discourse	_	AlignBegin=54108|AlignEnd=54407
 4	e	im	PRON	_	_	5	subj	_	AlignBegin=54407|AlignEnd=54706
 5	tell	tell	VERB	_	_	0	root	_	AlignBegin=54706|AlignEnd=55006
-6	am	am	PRON	_	_	5	comp:obj	_	AlignBegin=55006|AlignEnd=55305
-7	sey	sey	SCONJ	_	_	5	comp:obj	_	AlignBegin=55305|AlignEnd=55604
+6	am	am	PRON	_	_	5	comp:obl	_	AlignBegin=55006|AlignEnd=55305
+7	sey	sey	SCONJ	_	_	5	comp:obj$utter	_	AlignBegin=55305|AlignEnd=55604
 8	[	[	PUNCT	_	_	15	punct	_	AlignBegin=55604|AlignEnd=55604
 9	ehm	ehm	INTJ	_	_	15	discourse	_	AlignBegin=55604|AlignEnd=55904
 10	im	im	PRON	_	_	12	mod:poss	_	AlignBegin=55904|AlignEnd=56203
-11	married	married	ADJ	_	_	12	mod	_	AlignBegin=56203|AlignEnd=56502
+11	married	married	VERB	_	_	12	mod	_	AlignBegin=56203|AlignEnd=56502
 12	girlfriends	girlfriends	NOUN	_	_	15	dislocated	_	AlignBegin=56502|AlignEnd=56802
 13	dem	dem	PART	_	_	12	mod	_	AlignBegin=56802|AlignEnd=57101
 14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=57101|AlignEnd=57101
@@ -481,11 +481,11 @@
 # text = { all dose || all dose } things wey e dey do for night < wetin you think ?//
 # text_en = all those... All those things he does at night, what do you think?
 # text_ortho = All dose, all dose things wey e dey do for night, wetin you think?
-1	{	{	PUNCT	_	_	8	punct	_	AlignBegin=53820|AlignEnd=53820
-2	all	all	ADV	_	_	8	mod	_	AlignBegin=53820|AlignEnd=54332
+1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=53820|AlignEnd=53820
+2	all	all	DET	_	_	8	det	_	AlignBegin=53820|AlignEnd=54332
 3	dose	dose	DET	_	_	8	det	_	AlignBegin=54332|AlignEnd=54845
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=54845|AlignEnd=54845
-5	all	all	ADV	_	_	3	compound:redup	_	AlignBegin=54845|AlignEnd=55358
+5	all	all	DET	_	_	6	det	_	AlignBegin=54845|AlignEnd=55358
 6	dose	dose	DET	_	_	3	conj:dicto	_	AlignBegin=55358|AlignEnd=55871
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=55871|AlignEnd=55871
 8	things	things	NOUN	_	_	16	dislocated	_	AlignBegin=55871|AlignEnd=56383
@@ -507,8 +507,8 @@
 # text_en = haha haha.
 # text_ortho = Haha, haha.
 1	haha	haha	INTJ	_	_	0	root	_	AlignBegin=58060|AlignEnd=59560
-2	//	//	PUNCT	_	_	3	punct	_	AlignBegin=59560|AlignEnd=59560
-3	haha	haha	INTJ	_	_	1	parataxis:conj	_	AlignBegin=59560|AlignEnd=61060
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=59560|AlignEnd=59560
+3	haha	haha	INTJ	_	_	2	discourse	_	AlignBegin=59560|AlignEnd=61060
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=61060|AlignEnd=61060
 
 # sent_id = WAZL_14_Kulele-Zone_DG__35
@@ -527,10 +527,10 @@
 # text_en = so but Kay... em Ratata
 # text_ortho = So but Kay... ehm Ratata?
 1	so	so	ADV	_	_	3	discourse	_	AlignBegin=62181|AlignEnd=62657
-2	but	but	CCONJ	_	_	3	cc	_	AlignBegin=62657|AlignEnd=63133
+2	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=62657|AlignEnd=63133
 3	Kay&	Kay&	PROPN	_	_	0	root	_	AlignBegin=63133|AlignEnd=63609
 4	ehm	ehm	INTJ	_	_	5	discourse	_	AlignBegin=63609|AlignEnd=64085
-5	Ratata	Ratata	PROPN	_	_	3	conj:appos	_	AlignBegin=64085|AlignEnd=64562
+5	Ratata	Ratata	PROPN	_	_	3	conj:dicto	_	AlignBegin=64085|AlignEnd=64562
 6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=64562|AlignEnd=64562
 
 # sent_id = WAZL_14_Kulele-Zone_DG__37
@@ -538,7 +538,7 @@
 # text = Kay !//
 # text_en = kay.
 # text_ortho = Kay!
-1	Kay	Kay	PROPN	_	_	0	root	_	AlignBegin=62214|AlignEnd=64631
+1	Kay	Kay	INTJ	_	_	0	root	_	AlignBegin=62214|AlignEnd=64631
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=64631|AlignEnd=64631
 
 # sent_id = WAZL_14_Kulele-Zone_DG__38
@@ -546,7 +546,7 @@
 # text = so { abeg |r abeg |r abeg } { which || which } one be di ones wey dey near am ?//
 # text_en = so, please, please, please, which which are the ones that go near him?
 # text_ortho = So abeg, abeg, abeg which, which one be di ones wey dey near am?
-1	so	so	ADV	_	_	3	discourse	_	AlignBegin=64562|AlignEnd=64896
+1	so	so	ADV	_	_	14	discourse	_	AlignBegin=64562|AlignEnd=64896
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=64896|AlignEnd=64896
 3	abeg	abeg	INTJ	_	_	14	discourse	_	AlignBegin=64896|AlignEnd=65231
 4	|r	|r	PUNCT	_	_	5	punct	_	AlignBegin=65231|AlignEnd=65231
@@ -555,7 +555,7 @@
 7	abeg	abeg	INTJ	_	_	5	compound:redup	_	AlignBegin=65566|AlignEnd=65901
 8	}	}	PUNCT	_	_	3	punct	_	AlignBegin=65901|AlignEnd=65901
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=65901|AlignEnd=65901
-10	which	which	DET	_	_	14	mod	_	AlignBegin=65901|AlignEnd=66235
+10	which	which	DET	_	_	14	det	_	AlignBegin=65901|AlignEnd=66235
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=66235|AlignEnd=66235
 12	which	which	DET	_	_	10	conj:dicto	_	AlignBegin=66235|AlignEnd=66570
 13	}	}	PUNCT	_	_	10	punct	_	AlignBegin=66570|AlignEnd=66570
@@ -565,9 +565,9 @@
 17	ones	ones	NOUN	_	_	15	comp:pred	_	AlignBegin=67575|AlignEnd=67909
 18	wey	wey	SCONJ	_	_	17	mod@relcl	_	AlignBegin=67909|AlignEnd=68244
 19	dey	dey	VERB	_	_	18	comp:obj	_	AlignBegin=68244|AlignEnd=68579
-20	near	near	ADJ	_	_	19	comp:pred	_	AlignBegin=68579|AlignEnd=68914
+20	near	near	ADP	_	_	19	comp:pred	_	AlignBegin=68579|AlignEnd=68914
 21	am	am	PRON	_	_	20	comp:obj	_	AlignBegin=68914|AlignEnd=69249
-22	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=69249|AlignEnd=69249
+22	?//	?//	PUNCT	_	_	14	punct	_	AlignBegin=69249|AlignEnd=69249
 
 # sent_id = WAZL_14_Kulele-Zone_DG__39
 # speaker_id = Sp327
@@ -582,7 +582,7 @@
 # text = X
 # text_en = X
 # text_ortho = X
-1	X	X	X	_	_	0	root	_	AlignBegin=66000|AlignEnd=66478
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=66000|AlignEnd=66478
 
 # sent_id = WAZL_14_Kulele-Zone_DG__41
 # speaker_id = Sp327
@@ -643,7 +643,7 @@
 2	see	see	VERB	_	_	0	root	_	AlignBegin=73535|AlignEnd=73706
 3	one	one	NUM	_	_	2	comp:obj	_	AlignBegin=73706|AlignEnd=73877
 4	of	of	ADP	_	_	3	mod	_	AlignBegin=73877|AlignEnd=74048
-5	his	his	PRON	_	_	6	mod:poss	_	AlignBegin=74048|AlignEnd=74219
+5	his	his	PRON	_	_	6	mod	_	AlignBegin=74048|AlignEnd=74219
 6	spare	spare	ADJ	_	_	4	comp:obj	_	AlignBegin=74219|AlignEnd=74390
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=74390|AlignEnd=74390
 
@@ -652,13 +652,13 @@
 # text = I no go call her name //
 # text_en = I won't call her name.
 # text_ortho = I no go call her name.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=74390|AlignEnd=74541
-2	no	no	PART	_	_	3	mod	_	AlignBegin=74541|AlignEnd=74692
-3	go	go	AUX	_	_	0	root	_	AlignBegin=74692|AlignEnd=74844
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=74390|AlignEnd=74541
+2	no	no	AUX	_	_	0	root	_	AlignBegin=74541|AlignEnd=74692
+3	go	go	AUX	_	_	2	comp:aux	_	AlignBegin=74692|AlignEnd=74844
 4	call	call	VERB	_	_	3	comp:aux	_	AlignBegin=74844|AlignEnd=74995
 5	her	her	PRON	_	_	6	mod:poss	_	AlignBegin=74995|AlignEnd=75146
 6	name	name	NOUN	_	_	4	comp:obj	_	AlignBegin=75146|AlignEnd=75298
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=75298|AlignEnd=75298
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=75298|AlignEnd=75298
 
 # sent_id = WAZL_14_Kulele-Zone_DG__47
 # speaker_id = Sp328
@@ -673,7 +673,7 @@
 # text = but I see one of im spec //
 # text_en = but I saw one of your spec.
 # text_ortho = But I see one of im spec.
-1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=75760|AlignEnd=75913
+1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=75760|AlignEnd=75913
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=75913|AlignEnd=76066
 3	see	see	VERB	_	_	0	root	_	AlignBegin=76066|AlignEnd=76219
 4	one	one	NUM	_	_	3	comp:obj	_	AlignBegin=76219|AlignEnd=76372
@@ -696,7 +696,7 @@
 # text = X
 # text_en = X.
 # text_ortho = X
-1	X	X	X	_	_	0	root	_	AlignBegin=77600|AlignEnd=77672
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=77600|AlignEnd=77672
 
 # sent_id = WAZL_14_Kulele-Zone_DG__51
 # speaker_id = Sp327
@@ -725,10 +725,10 @@
 # text_ortho = Okay you know some amebo, we go reserve some amebo for later, we go keep, we go keep am,
 1	okay	okay	INTJ	_	_	8	discourse	_	AlignBegin=79020|AlignEnd=79323
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=79323|AlignEnd=79626
-3	know	know	VERB	_	_	8	parataxis:discourse	_	AlignBegin=79626|AlignEnd=79930
+3	know	know	VERB	_	_	8	parataxis:dislocated	_	AlignBegin=79626|AlignEnd=79930
 4	some	some	DET	_	_	5	det	_	AlignBegin=79930|AlignEnd=80233
-5	amebo	amebo	NOUN	_	_	8	dislocated	_	AlignBegin=80233|AlignEnd=80537
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=80537|AlignEnd=80537
+5	amebo	amebo	NOUN	_	_	3	comp:obj	_	AlignBegin=80233|AlignEnd=80537
+6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=80537|AlignEnd=80537
 7	we	we	PRON	_	_	8	subj	_	AlignBegin=80537|AlignEnd=80840
 8	go	go	AUX	_	_	0	root	_	AlignBegin=80840|AlignEnd=81144
 9	reserve	reserve	VERB	_	_	8	comp:aux	_	AlignBegin=81144|AlignEnd=81447
@@ -754,12 +754,12 @@
 # text = yes we no go talk all of dem for outside //= { we go keep am || we go talk am later } //
 # text_en = Yes, we will not say all of it out in the open. We will keep it, we will talk about it later.
 # text_ortho = Yes we no go talk all of dem for outside, we go keep am, we go talk am later.
-1	yes	yes	INTJ	_	_	4	discourse	_	AlignBegin=81003|AlignEnd=81202
-2	we	we	PRON	_	_	4	subj	_	AlignBegin=81202|AlignEnd=81401
-3	no	no	PART	_	_	4	mod	_	AlignBegin=81401|AlignEnd=81600
-4	go	go	AUX	_	_	0	root	_	AlignBegin=81600|AlignEnd=81799
+1	yes	yes	INTJ	_	_	3	discourse	_	AlignBegin=81003|AlignEnd=81202
+2	we	we	PRON	_	_	3	subj	_	AlignBegin=81202|AlignEnd=81401
+3	no	no	AUX	_	_	0	root	_	AlignBegin=81401|AlignEnd=81600
+4	go	go	AUX	_	_	3	comp:aux	_	AlignBegin=81600|AlignEnd=81799
 5	talk	talk	VERB	_	_	4	comp:aux	_	AlignBegin=81799|AlignEnd=81998
-6	all	all	ADV	_	_	5	comp:obj	_	AlignBegin=81998|AlignEnd=82197
+6	all	all	PRON	_	_	5	comp:obj	_	AlignBegin=81998|AlignEnd=82197
 7	of	of	ADP	_	_	6	mod	_	AlignBegin=82197|AlignEnd=82396
 8	dem	dem	PRON	_	_	7	comp:obj	_	AlignBegin=82396|AlignEnd=82595
 9	for	for	ADP	_	_	5	mod	_	AlignBegin=82595|AlignEnd=82794
@@ -767,7 +767,7 @@
 11	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=82994|AlignEnd=82994
 12	{	{	PUNCT	_	_	14	punct	_	AlignBegin=82994|AlignEnd=82994
 13	we	we	PRON	_	_	14	subj	_	AlignBegin=82994|AlignEnd=83193
-14	go	go	AUX	_	_	4	parataxis:conj	_	AlignBegin=83193|AlignEnd=83392
+14	go	go	AUX	_	_	3	parataxis:conj	_	AlignBegin=83193|AlignEnd=83392
 15	keep	keep	VERB	_	_	14	comp:aux	_	AlignBegin=83392|AlignEnd=83591
 16	am	am	PRON	_	_	15	comp:obj	_	AlignBegin=83591|AlignEnd=83790
 17	||	||	PUNCT	_	_	19	punct	_	AlignBegin=83790|AlignEnd=83790
@@ -777,7 +777,7 @@
 21	am	am	PRON	_	_	20	comp:obj	_	AlignBegin=84387|AlignEnd=84586
 22	later	later	ADJ	_	_	20	mod	_	AlignBegin=84586|AlignEnd=84786
 23	}	}	PUNCT	_	_	14	punct	_	AlignBegin=84786|AlignEnd=84786
-24	//	//	PUNCT	_	_	4	punct	_	AlignBegin=84786|AlignEnd=84786
+24	//	//	PUNCT	_	_	3	punct	_	AlignBegin=84786|AlignEnd=84786
 
 # sent_id = WAZL_14_Kulele-Zone_DG__55
 # speaker_id = Sp328
@@ -825,22 +825,22 @@
 # text = e no gree comot for im corner //
 # text_en = she did not want to leave his corner.
 # text_ortho = E no gree comot for im corner.
-1	e	im	PRON	_	_	3	subj	_	AlignBegin=88249|AlignEnd=88423
-2	no	no	PART	_	_	3	mod	_	AlignBegin=88423|AlignEnd=88598
-3	gree	gree	VERB	_	_	0	root	_	AlignBegin=88598|AlignEnd=88772
-4	comot	comot	VERB	_	_	3	comp:obj@x	_	AlignBegin=88772|AlignEnd=88947
+1	e	im	PRON	_	_	2	subj	_	AlignBegin=88249|AlignEnd=88423
+2	no	no	AUX	_	_	0	root	_	AlignBegin=88423|AlignEnd=88598
+3	gree	gree	VERB	_	_	2	comp:aux	_	AlignBegin=88598|AlignEnd=88772
+4	comot	comot	VERB	_	_	3	comp:obj$phase@x	_	AlignBegin=88772|AlignEnd=88947
 5	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=88947|AlignEnd=89121
 6	im	im	PRON	_	_	7	mod:poss	_	AlignBegin=89121|AlignEnd=89296
 7	corner	corner	NOUN	_	_	5	comp:obj	_	AlignBegin=89296|AlignEnd=89471
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=89471|AlignEnd=89471
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=89471|AlignEnd=89471
 
 # sent_id = WAZL_14_Kulele-Zone_DG__60
 # speaker_id = Sp328
 # text = okay ah !//
 # text_en = okay ah.
 # text_ortho = Okay ah!
-1	okay	okay	INTJ	_	_	2	discourse	_	AlignBegin=89480|AlignEnd=90727
-2	ah	ah	INTJ	_	_	0	root	_	AlignBegin=90727|AlignEnd=91975
+1	okay	okay	INTJ	_	_	0	root	_	AlignBegin=89480|AlignEnd=90727
+2	ah	ah	INTJ	_	_	1	discourse	_	AlignBegin=90727|AlignEnd=91975
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=91975|AlignEnd=91975
 
 # sent_id = WAZL_14_Kulele-Zone_DG__61
@@ -861,17 +861,17 @@
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=91276|AlignEnd=91276
 12	dey	dey	AUX	_	_	8	conj:coord	_	AlignBegin=91276|AlignEnd=91450
 13	snap	snap	VERB	_	_	12	comp:aux	_	AlignBegin=91450|AlignEnd=91625
-14	}	}	PUNCT	_	_	8	punct	_	AlignBegin=91625|AlignEnd=91625
-15	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=91625|AlignEnd=91625
-16	no	no	PART	_	_	17	mod	_	AlignBegin=91625|AlignEnd=91799
-17	be	be	VERB	_	_	4	parataxis:conj	_	AlignBegin=91799|AlignEnd=91974
+14	}	}	PUNCT	_	_	4	punct	_	AlignBegin=91625|AlignEnd=91625
+15	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=91625|AlignEnd=91625
+16	no	no	AUX	_	_	4	parataxis:conj	_	AlignBegin=91625|AlignEnd=91799
+17	be	be	VERB	_	_	16	comp:aux	_	AlignBegin=91799|AlignEnd=91974
 18	{	{	PUNCT	_	_	19	punct	_	AlignBegin=91974|AlignEnd=91974
-19	me	me	PRON	_	_	17	comp:pred@agent	_	AlignBegin=91974|AlignEnd=92148
+19	me	me	PRON	_	_	24	subj	_	AlignBegin=91974|AlignEnd=92148
 20	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=92148|AlignEnd=92148
 21	and	and	CCONJ	_	_	22	cc	_	AlignBegin=92148|AlignEnd=92323
 22	you	you	PRON	_	_	19	conj:coord	_	AlignBegin=92323|AlignEnd=92497
 23	}	}	PUNCT	_	_	19	punct	_	AlignBegin=92497|AlignEnd=92497
-24	sit	sit	VERB	_	_	17	comp:cleft	_	AlignBegin=92497|AlignEnd=92672
+24	sit	sit	VERB	_	_	17	comp:pred	_	AlignBegin=92497|AlignEnd=92672
 25	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=92672|AlignEnd=92672
 
 # sent_id = WAZL_14_Kulele-Zone_DG__62
@@ -879,16 +879,16 @@
 # text = ah ah okay e no gree comot in corner ?//
 # text_en = ah ah.
 # text_ortho = Ah ah okay e no gree comot in corner,
-1	ah	ah	INTJ	_	_	6	discourse	_	AlignBegin=91975|AlignEnd=92190
-2	ah	ah	INTJ	_	_	6	discourse	_	AlignBegin=92190|AlignEnd=92405
-3	okay	okay	INTJ	_	_	6	discourse	_	AlignBegin=92405|AlignEnd=92620
-4	e	im	PRON	_	_	6	subj	_	AlignBegin=92620|AlignEnd=92835
-5	no	no	PART	_	_	6	mod	_	AlignBegin=92835|AlignEnd=93050
-6	gree	gree	VERB	_	_	0	root	_	AlignBegin=93050|AlignEnd=93265
-7	comot	comot	VERB	_	_	6	comp:obj@x	_	AlignBegin=93265|AlignEnd=93480
+1	ah	ah	INTJ	_	_	5	discourse	_	AlignBegin=91975|AlignEnd=92190
+2	ah	ah	INTJ	_	_	5	discourse	_	AlignBegin=92190|AlignEnd=92405
+3	okay	okay	INTJ	_	_	5	discourse	_	AlignBegin=92405|AlignEnd=92620
+4	e	im	PRON	_	_	5	subj	_	AlignBegin=92620|AlignEnd=92835
+5	no	no	AUX	_	_	0	root	_	AlignBegin=92835|AlignEnd=93050
+6	gree	gree	VERB	_	_	5	comp:aux	_	AlignBegin=93050|AlignEnd=93265
+7	comot	comot	VERB	_	_	6	comp:obj$phase@x	_	AlignBegin=93265|AlignEnd=93480
 8	in	in	ADP	_	_	7	comp:obl	_	AlignBegin=93480|AlignEnd=93695
 9	corner	corner	NOUN	_	_	8	comp:obj	_	AlignBegin=93695|AlignEnd=93910
-10	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=93910|AlignEnd=93910
+10	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=93910|AlignEnd=93910
 
 # sent_id = WAZL_14_Kulele-Zone_DG__63
 # speaker_id = Sp328
@@ -897,12 +897,12 @@
 # text_ortho = Maybe na PA for dat day o.
 1	maybe	maybe	ADV	_	_	2	mod:periph	_	AlignBegin=93910|AlignEnd=94123
 2	na	na	PART	_	_	0	root	_	AlignBegin=94123|AlignEnd=94336
-3	PA	PA	PROPN	_	_	2	comp:pred	_	AlignBegin=94336|AlignEnd=94549
+3	PA	PA	NOUN	_	_	2	comp:pred	_	AlignBegin=94336|AlignEnd=94549
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=94549|AlignEnd=94549
 5	for	for	ADP	_	_	2	comp:cleft	_	AlignBegin=94549|AlignEnd=94762
 6	dat	dat	DET	_	_	7	det	_	AlignBegin=94762|AlignEnd=94975
 7	day	day	NOUN	_	_	5	comp:obj	_	AlignBegin=94975|AlignEnd=95188
-8	o	o	PART	_	_	7	mod:emph	_	AlignBegin=95188|AlignEnd=95401
+8	o	o	PART	_	_	2	mod:emph	_	AlignBegin=95188|AlignEnd=95401
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=95401|AlignEnd=95401
 
 # sent_id = WAZL_14_Kulele-Zone_DG__64
@@ -918,11 +918,11 @@
 # text = smally dey listen abeg o //
 # text_en = Smally is listening, please.
 # text_ortho = Smally dey listen abeg o.
-1	smally	smally	ADJ	_	_	2	discourse	_	AlignBegin=95445|AlignEnd=95682
+1	smally	smally	ADJ	_	_	2	mod	_	AlignBegin=95445|AlignEnd=95682
 2	dey	dey	AUX	_	_	0	root	_	AlignBegin=95682|AlignEnd=95919
 3	listen	listen	VERB	_	_	2	comp:aux	_	AlignBegin=95919|AlignEnd=96157
 4	abeg	abeg	INTJ	_	_	2	discourse	_	AlignBegin=96157|AlignEnd=96394
-5	o	o	PART	_	_	4	mod:emph	_	AlignBegin=96394|AlignEnd=96632
+5	o	o	PART	_	_	2	mod:emph	_	AlignBegin=96394|AlignEnd=96632
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=96632|AlignEnd=96632
 
 # sent_id = WAZL_14_Kulele-Zone_DG__66
@@ -931,24 +931,24 @@
 # text_en = No no no, she wasn't the PA.
 # text_ortho = No, no, no no be PA o,
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=96632|AlignEnd=96632
-2	no	no	PART	_	_	9	mod	_	AlignBegin=96632|AlignEnd=96849
+2	no	no	PART	_	_	8	subj	_	AlignBegin=96632|AlignEnd=96849
 3	|r	|r	PUNCT	_	_	4	punct	_	AlignBegin=96849|AlignEnd=96849
 4	no	no	PART	_	_	2	compound:redup	_	AlignBegin=96849|AlignEnd=97066
 5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=97066|AlignEnd=97066
 6	no	no	PART	_	_	4	compound:redup	_	AlignBegin=97066|AlignEnd=97283
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=97283|AlignEnd=97283
-8	no	no	PART	_	_	9	mod	_	AlignBegin=97283|AlignEnd=97501
-9	be	be	VERB	_	_	0	root	_	AlignBegin=97501|AlignEnd=97718
+8	no	no	AUX	_	_	0	root	_	AlignBegin=97283|AlignEnd=97501
+9	be	be	VERB	_	_	8	comp:aux	_	AlignBegin=97501|AlignEnd=97718
 10	PA	PA	NOUN	_	_	9	comp:pred	_	AlignBegin=97718|AlignEnd=97935
-11	o	o	PART	_	_	10	mod:emph	_	AlignBegin=97935|AlignEnd=98153
-12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=98153|AlignEnd=98153
+11	o	o	PART	_	_	8	mod:emph	_	AlignBegin=97935|AlignEnd=98153
+12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=98153|AlignEnd=98153
 
 # sent_id = WAZL_14_Kulele-Zone_DG__67
 # speaker_id = Sp328
 # text = X
 # text_en = oh o.
 # text_ortho = X
-1	X	X	X	_	_	0	root	_	AlignBegin=96632|AlignEnd=97725
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=96632|AlignEnd=97725
 
 # sent_id = WAZL_14_Kulele-Zone_DG__68
 # speaker_id = Sp328
@@ -963,23 +963,23 @@
 # text = smally no be PA //= no be PA //= no be PA //= no be PA //
 # text_en = Smally is not the PA, not the PA, not the PA.
 # text_ortho = Smally no be PA, no be PA, no be PA, no be PA.
-1	smally	smally	ADJ	_	_	3	discourse	_	AlignBegin=98153|AlignEnd=98320
-2	no	no	PART	_	_	3	mod	_	AlignBegin=98320|AlignEnd=98488
-3	be	be	VERB	_	_	0	root	_	AlignBegin=98488|AlignEnd=98656
+1	smally	smally	SCONJ	_	_	2	mod:periph	_	AlignBegin=98153|AlignEnd=98320
+2	no	no	AUX	_	_	0	root	_	AlignBegin=98320|AlignEnd=98488
+3	be	be	VERB	_	_	2	comp:aux	_	AlignBegin=98488|AlignEnd=98656
 4	PA	PA	NOUN	_	_	3	comp:pred	_	AlignBegin=98656|AlignEnd=98824
-5	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=98824|AlignEnd=98824
-6	no	no	PART	_	_	7	mod	_	AlignBegin=98824|AlignEnd=98992
-7	be	be	VERB	_	_	3	parataxis:conj	_	AlignBegin=98992|AlignEnd=99160
+5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=98824|AlignEnd=98824
+6	no	no	AUX	_	_	2	parataxis:conj	_	AlignBegin=98824|AlignEnd=98992
+7	be	be	VERB	_	_	6	comp:aux	_	AlignBegin=98992|AlignEnd=99160
 8	PA	PA	NOUN	_	_	7	comp:pred	_	AlignBegin=99160|AlignEnd=99327
-9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=99327|AlignEnd=99327
-10	no	no	PART	_	_	11	mod	_	AlignBegin=99327|AlignEnd=99495
-11	be	be	VERB	_	_	7	parataxis:conj	_	AlignBegin=99495|AlignEnd=99663
+9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=99327|AlignEnd=99327
+10	no	no	AUX	_	_	6	parataxis:conj	_	AlignBegin=99327|AlignEnd=99495
+11	be	be	VERB	_	_	10	comp:aux	_	AlignBegin=99495|AlignEnd=99663
 12	PA	PA	NOUN	_	_	11	comp:pred	_	AlignBegin=99663|AlignEnd=99831
-13	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=99831|AlignEnd=99831
-14	no	no	PART	_	_	15	mod	_	AlignBegin=99831|AlignEnd=99999
-15	be	be	VERB	_	_	11	parataxis:conj	_	AlignBegin=99999|AlignEnd=100167
+13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=99831|AlignEnd=99831
+14	no	no	AUX	_	_	10	parataxis:conj	_	AlignBegin=99831|AlignEnd=99999
+15	be	be	VERB	_	_	14	comp:aux	_	AlignBegin=99999|AlignEnd=100167
 16	PA	PA	NOUN	_	_	15	comp:pred	_	AlignBegin=100167|AlignEnd=100335
-17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=100335|AlignEnd=100335
+17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=100335|AlignEnd=100335
 
 # sent_id = WAZL_14_Kulele-Zone_DG__70
 # speaker_id = Sp328
@@ -996,13 +996,13 @@
 # text = no no be PA > smally //
 # text_en = no no, smally is not the PA.
 # text_ortho = No no be PA smally,
-1	no	no	PART	_	_	3	mod	_	AlignBegin=100341|AlignEnd=100719
-2	no	no	PART	_	_	3	mod	_	AlignBegin=100719|AlignEnd=101098
-3	be	be	VERB	_	_	0	root	_	AlignBegin=101098|AlignEnd=101476
+1	no	no	AUX	_	_	0	root	_	AlignBegin=100341|AlignEnd=100719
+2	no	no	AUX	_	_	1	comp:aux	_	AlignBegin=100719|AlignEnd=101098
+3	be	be	VERB	_	_	2	comp:aux	_	AlignBegin=101098|AlignEnd=101476
 4	PA	PA	NOUN	_	_	3	comp:pred	_	AlignBegin=101476|AlignEnd=101855
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=101855|AlignEnd=101855
-6	smally	smally	ADJ	_	_	3	parataxis:conj	_	AlignBegin=101855|AlignEnd=102234
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=102234|AlignEnd=102234
+6	smally	smally	ADJ	_	_	3	mod:periph	_	AlignBegin=101855|AlignEnd=102234
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=102234|AlignEnd=102234
 
 # sent_id = WAZL_14_Kulele-Zone_DG__72
 # speaker_id = Sp328
@@ -1019,10 +1019,10 @@
 # text_en = She just... she came, she was just coming.
 # text_ortho = E just e come, e just dey come.
 1	{	{	PUNCT	_	_	5	punct	_	AlignBegin=102234|AlignEnd=102234
-2	e	im	PRON	_	_	5	subj	_	AlignBegin=102234|AlignEnd=102503
+2	e	im	PRON	_	_	5	subj@expl	_	AlignBegin=102234|AlignEnd=102503
 3	just	just	ADV	_	_	5	mod	_	AlignBegin=102503|AlignEnd=102772
 4	e	im	PRON	_	_	5	subj	_	AlignBegin=102772|AlignEnd=103042
-5	come	come	AUX	_	_	0	root	_	AlignBegin=103042|AlignEnd=103311
+5	come	come	VERB	_	_	0	root	_	AlignBegin=103042|AlignEnd=103311
 6	||	||	PUNCT	_	_	9	punct	_	AlignBegin=103311|AlignEnd=103311
 7	e	im	PRON	_	_	9	subj	_	AlignBegin=103311|AlignEnd=103580
 8	just	just	ADV	_	_	9	mod	_	AlignBegin=103580|AlignEnd=103850
@@ -1058,12 +1058,12 @@
 3	career	career	NOUN	_	_	4	compound	_	AlignBegin=109557|AlignEnd=109901
 4	matter	matter	NOUN	_	_	2	comp:pred	_	AlignBegin=109901|AlignEnd=110245
 5	we	we	PRON	_	_	6	subj	_	AlignBegin=110245|AlignEnd=110589
-6	go	go	AUX	_	_	2	comp:cleft	_	AlignBegin=110589|AlignEnd=110933
+6	go	go	AUX	_	_	4	mod@relcl	_	AlignBegin=110589|AlignEnd=110933
 7	use	use	VERB	_	_	6	comp:aux	_	AlignBegin=110933|AlignEnd=111277
 8	start	start	VERB	_	_	7	compound:svc	_	AlignBegin=111277|AlignEnd=111621
 9	today	today	NOUN	_	_	8	comp:obj	_	AlignBegin=111621|AlignEnd=111965
 10	>	>	PUNCT	_	_	11	punct	_	AlignBegin=111965|AlignEnd=111965
-11	as	as	ADP	_	_	2	mod:periph	_	AlignBegin=111965|AlignEnd=112309
+11	as	as	ADP	_	_	2	mod	_	AlignBegin=111965|AlignEnd=112309
 12	usual	usual	ADJ	_	_	11	comp:obj	_	AlignBegin=112309|AlignEnd=112653
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=112653|AlignEnd=112653
 
@@ -1091,7 +1091,7 @@
 # text = and den by four o'clock < ehm we go enter { eko |c and I see am } //
 # text_en = and then by four o clock ehm we will start ' eko and I see am'.
 # text_ortho = And den by four o'clock, ehm we go enter eko, and I see am,
-1	and	and	CCONJ	_	_	9	cc	_	AlignBegin=113020|AlignEnd=113256
+1	and	and	CCONJ	_	_	9	discourse	_	AlignBegin=113020|AlignEnd=113256
 2	den	dem	ADV	_	_	9	mod:periph	_	AlignBegin=113256|AlignEnd=113492
 3	by	by	ADP	_	_	9	mod:periph	_	AlignBegin=113492|AlignEnd=113728
 4	four	four	NUM	_	_	3	comp:obj	_	AlignBegin=113728|AlignEnd=113964
@@ -1130,8 +1130,8 @@
 12	time	time	NOUN	_	_	11	comp:pred	_	AlignBegin=118996|AlignEnd=119263
 13	wey	wey	SCONJ	_	_	12	mod@relcl	_	AlignBegin=119263|AlignEnd=119531
 14	we	we	PRON	_	_	15	subj	_	AlignBegin=119531|AlignEnd=119798
-15	go	go	VERB	_	_	13	comp:obj	_	AlignBegin=119798|AlignEnd=120065
-16	gossip	gossip	NOUN	_	_	15	comp:obj@x	_	AlignBegin=120065|AlignEnd=120333
+15	go	go	AUX	_	_	13	comp:obj	_	AlignBegin=119798|AlignEnd=120065
+16	gossip	gossip	VERB	_	_	15	comp:aux	_	AlignBegin=120065|AlignEnd=120333
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=120333|AlignEnd=120333
 
 # sent_id = WAZL_14_Kulele-Zone_DG__81
@@ -1139,8 +1139,8 @@
 # text = but as e be < we get { somet || somebody } wey dey inside di studio here wey dey very gallant //
 # text_en = But as it is we have somebody inside the studio here who is inside the studio here who is very gallant.
 # text_ortho = But as e be, we get somet, somebody wey dey inside di studio here wey dey very gallant.
-1	but	but	CCONJ	_	_	7	cc	_	AlignBegin=120333|AlignEnd=120579
-2	as	as	ADP	_	_	7	mod:periph	_	AlignBegin=120579|AlignEnd=120826
+1	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=120333|AlignEnd=120579
+2	as	as	ADP	_	_	7	mod:periph$reason	_	AlignBegin=120579|AlignEnd=120826
 3	e	im	PRON	_	_	4	subj@expl	_	AlignBegin=120826|AlignEnd=121073
 4	be	be	VERB	_	_	2	comp:obj	_	AlignBegin=121073|AlignEnd=121320
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=121320|AlignEnd=121320
@@ -1202,7 +1202,7 @@
 1	e	im	PRON	_	_	2	subj	_	AlignBegin=126930|AlignEnd=127373
 2	tall	tall	ADJ	_	_	0	root	_	AlignBegin=127373|AlignEnd=127816
 3	pass	pass	VERB	_	_	2	compound:svc	_	AlignBegin=127816|AlignEnd=128259
-4	all	all	ADV	_	_	3	comp:obj	_	AlignBegin=128259|AlignEnd=128702
+4	all	all	PRON	_	_	3	comp:obj	_	AlignBegin=128259|AlignEnd=128702
 5	of	of	ADP	_	_	4	mod	_	AlignBegin=128702|AlignEnd=129145
 6	us	us	PRON	_	_	5	comp:obj	_	AlignBegin=129145|AlignEnd=129588
 7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=129588|AlignEnd=129588
@@ -1224,7 +1224,7 @@
 23	fresh	fresh	ADJ	_	_	22	comp:pred	_	AlignBegin=134904|AlignEnd=135347
 24	//=	//=	PUNCT	_	_	26	punct	_	AlignBegin=135347|AlignEnd=135347
 25	e	im	PRON	_	_	26	subj	_	AlignBegin=135347|AlignEnd=135790
-26	come	come	AUX	_	_	22	parataxis:conj	_	AlignBegin=135790|AlignEnd=136233
+26	come	come	VERB	_	_	22	parataxis:conj@scrap	_	AlignBegin=135790|AlignEnd=136233
 27	&	&	PUNCT	_	_	2	punct	_	AlignBegin=136233|AlignEnd=136233
 28	//	//	PUNCT	_	_	2	punct	_	AlignBegin=136233|AlignEnd=136233
 
@@ -1251,10 +1251,10 @@
 # text = ehen oh haha //
 # text_en = Ehen.. haha.
 # text_ortho = Ehen oh haha.
-1	ehen	ehen	INTJ	_	_	3	discourse	_	AlignBegin=132736|AlignEnd=134221
-2	oh	oh	INTJ	_	_	3	discourse	_	AlignBegin=134221|AlignEnd=135706
-3	haha	haha	INTJ	_	_	0	root	_	AlignBegin=135706|AlignEnd=137192
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=137192|AlignEnd=137192
+1	ehen	ehen	INTJ	_	_	0	root	_	AlignBegin=132736|AlignEnd=134221
+2	oh	oh	INTJ	_	_	1	discourse	_	AlignBegin=134221|AlignEnd=135706
+3	haha	haha	INTJ	_	_	1	discourse	_	AlignBegin=135706|AlignEnd=137192
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=137192|AlignEnd=137192
 
 # sent_id = WAZL_14_Kulele-Zone_DG__89
 # speaker_id = Sp327
@@ -1270,7 +1270,7 @@
 7	complete	complete	VERB	_	_	0	root	_	AlignBegin=137801|AlignEnd=138115
 8	from	from	ADP	_	_	7	comp:obl	_	AlignBegin=138115|AlignEnd=138428
 9	head	head	NOUN	_	_	8	comp:obj	_	AlignBegin=138428|AlignEnd=138742
-10	reach	reach	VERB	_	_	7	compound:svc	_	AlignBegin=138742|AlignEnd=139056
+10	reach	reach	VERB	_	_	8	compound:svc	_	AlignBegin=138742|AlignEnd=139056
 11	down	down	ADP	_	_	10	compound:prt	_	AlignBegin=139056|AlignEnd=139370
 12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=139370|AlignEnd=139370
 
@@ -1287,7 +1287,7 @@
 # text = X
 # text_en = X.
 # text_ortho = X
-1	X	X	X	_	_	0	root	_	AlignBegin=139370|AlignEnd=139518
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=139370|AlignEnd=139518
 
 # sent_id = WAZL_14_Kulele-Zone_DG__92
 # speaker_id = Sp327
@@ -1317,7 +1317,7 @@
 # text_en = No, but I am interested in something, I want to ask him whether he is married.
 # text_ortho = No but I am interested in something, I wan ask am weda e don marry.
 1	no	no	PART	_	_	4	discourse	_	AlignBegin=141266|AlignEnd=141440
-2	but	but	CCONJ	_	_	4	cc	_	AlignBegin=141440|AlignEnd=141615
+2	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=141440|AlignEnd=141615
 3	I	I	PRON	_	_	4	subj	_	AlignBegin=141615|AlignEnd=141790
 4	am	am	VERB	_	_	0	root	_	AlignBegin=141790|AlignEnd=141965
 5	interested	interested	ADJ	_	_	4	comp:pred	_	AlignBegin=141965|AlignEnd=142140
@@ -1326,9 +1326,9 @@
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=142489|AlignEnd=142489
 9	I	I	PRON	_	_	10	subj	_	AlignBegin=142489|AlignEnd=142664
 10	wan	wan	VERB	_	_	4	conj:coord	_	AlignBegin=142664|AlignEnd=142839
-11	ask	ask	VERB	_	_	10	comp:obj@x	_	AlignBegin=142839|AlignEnd=143014
+11	ask	ask	VERB	_	_	10	comp:obj$desire@x	_	AlignBegin=142839|AlignEnd=143014
 12	am	am	PRON	_	_	11	comp:obj	_	AlignBegin=143014|AlignEnd=143188
-13	weda	weda	SCONJ	_	_	11	comp:obj	_	AlignBegin=143188|AlignEnd=143363
+13	weda	weda	SCONJ	_	_	12	mod@relcl	_	AlignBegin=143188|AlignEnd=143363
 14	e	im	PRON	_	_	15	subj	_	AlignBegin=143363|AlignEnd=143538
 15	don	don	AUX	_	_	13	comp:obj	_	AlignBegin=143538|AlignEnd=143713
 16	marry	marry	VERB	_	_	15	comp:aux	_	AlignBegin=143713|AlignEnd=143888
@@ -1368,11 +1368,11 @@
 3	have	have	VERB	_	_	2	comp:aux	_	AlignBegin=147743|AlignEnd=148186|Lang=en
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=148186|AlignEnd=148186
 5	dey	dey	AUX	_	_	2	conj:dicto	_	AlignBegin=148186|AlignEnd=148629|Lang=en
-6	have	have	VERB	_	_	5	comp:aux	_	AlignBegin=148629|AlignEnd=149072|Lang=en
+6	have	have	AUX	_	_	5	comp:aux	_	AlignBegin=148629|AlignEnd=149072|Lang=en
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=149072|AlignEnd=149072
-8	disvirgined	disvirgined	VERB	_	_	6	comp:obj@x	_	AlignBegin=149072|AlignEnd=149515|Lang=en
+8	disvirgined	disvirgined	VERB	_	_	6	comp:aux	_	AlignBegin=149072|AlignEnd=149515|Lang=en
 9	his	his	PRON	_	_	11	mod:poss	_	AlignBegin=149515|AlignEnd=149958|Lang=en
-10	marital	marital	NOUN	_	_	11	mod	_	AlignBegin=149958|AlignEnd=150401|Lang=en
+10	marital	marital	ADJ	_	_	11	mod	_	AlignBegin=149958|AlignEnd=150401|Lang=en
 11	status	status	NOUN	_	_	8	comp:obj	_	AlignBegin=150401|AlignEnd=150844|Lang=en
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=150844|AlignEnd=150844
 
@@ -1404,12 +1404,12 @@
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=150854|AlignEnd=151093
 2	know	know	VERB	_	_	11	parataxis:discourse	_	AlignBegin=151093|AlignEnd=151333
 3	di	di	DET	_	_	4	det	_	AlignBegin=151333|AlignEnd=151573
-4	moment	moment	NOUN	_	_	11	dislocated	_	AlignBegin=151573|AlignEnd=151813
+4	moment	moment	NOUN	_	_	2	comp:obj	_	AlignBegin=151573|AlignEnd=151813
 5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=151813|AlignEnd=152053
 6	I	I	PRON	_	_	7	subj	_	AlignBegin=152053|AlignEnd=152293
 7	see	see	VERB	_	_	5	comp:obj	_	AlignBegin=152293|AlignEnd=152533
 8	am	am	PRON	_	_	7	comp:obj	_	AlignBegin=152533|AlignEnd=152773
-9	<	<	PUNCT	_	_	4	punct	_	AlignBegin=152773|AlignEnd=152773
+9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=152773|AlignEnd=152773
 10	I	I	PRON	_	_	11	subj	_	AlignBegin=152773|AlignEnd=153013
 11	come	come	AUX	_	_	0	root	_	AlignBegin=153013|AlignEnd=153253
 12	dey	dey	AUX	_	_	11	comp:aux	_	AlignBegin=153253|AlignEnd=153493
@@ -1441,12 +1441,12 @@
 # text = taken < he's not single anymore //
 # text_en = He's taken, it is not single any more //
 # text_ortho = Taken, he's not single anymore.
-1	taken	taken	VERB	_	_	0	root@scrap	_	AlignBegin=156452|AlignEnd=156729|Lang=en
+1	taken	taken	VERB	_	_	0	root	_	AlignBegin=156452|AlignEnd=156729|Lang=en
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=156729|AlignEnd=156729
 3	he's	he's	PRON	_	_	1	subj	_	AlignBegin=156729|AlignEnd=157007|Lang=en
 4	not	not	PART	_	_	5	mod	_	AlignBegin=157007|AlignEnd=157284|Lang=en
-5	single	single	ADJ	_	_	1	comp:obj	_	AlignBegin=157284|AlignEnd=157562|Lang=en
-6	anymore	anymore	ADV	_	_	5	mod	_	AlignBegin=157562|AlignEnd=157840|Lang=en
+5	single	single	ADJ	_	_	1	comp:pred	_	AlignBegin=157284|AlignEnd=157562|Lang=en
+6	anymore	anymore	ADV	_	_	5	mod:emph	_	AlignBegin=157562|AlignEnd=157840|Lang=en
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=157840|AlignEnd=157840
 
 # sent_id = WAZL_14_Kulele-Zone_DG__104
@@ -1477,7 +1477,7 @@
 # text_ortho = Uzor, naim be sey you go dey look, you go look di...
 1	Uzor	Uzor	PROPN	_	_	4	dislocated	_	AlignBegin=159240|AlignEnd=159514
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=159514|AlignEnd=159514
-3	naim	naim	ADV	_	_	4	mod:periph	_	AlignBegin=159514|AlignEnd=159788
+3	naim	naim	ADV	_	_	4	mod	_	AlignBegin=159514|AlignEnd=159788
 4	be	be	VERB	_	_	0	root	_	AlignBegin=159788|AlignEnd=160063
 5	sey	sey	SCONJ	_	_	4	comp:pred	_	AlignBegin=160063|AlignEnd=160337
 6	[	[	PUNCT	_	_	8	punct	_	AlignBegin=160337|AlignEnd=160337
@@ -1490,7 +1490,7 @@
 13	go	go	AUX	_	_	8	conj:dicto	_	AlignBegin=161709|AlignEnd=161983
 14	look	look	VERB	_	_	13	comp:aux	_	AlignBegin=161983|AlignEnd=162257
 15	di	di	DET	_	_	14	comp:obj@scrap	_	AlignBegin=162257|AlignEnd=162532
-16	&	&	PUNCT	_	_	4	punct	_	AlignBegin=162532|AlignEnd=162532
+16	&	&	PUNCT	_	_	8	punct	_	AlignBegin=162532|AlignEnd=162532
 17	//	//	PUNCT	_	_	8	punct	_	AlignBegin=162532|AlignEnd=162532
 18	]	]	PUNCT	_	_	8	punct	_	AlignBegin=162532|AlignEnd=162532
 19	//	//	PUNCT	_	_	4	punct	_	AlignBegin=162532|AlignEnd=162532
@@ -1511,11 +1511,11 @@
 # text = you no see sey since wey we start < na straight >+ I dey look //
 # text_en = You didnt see that since when we started, I have been looking straight.
 # text_ortho = You no see sey since wey we start, na straight I dey look.
-1	you	you	PRON	_	_	3	subj	_	AlignBegin=161933|AlignEnd=162117
-2	no	no	PART	_	_	3	mod	_	AlignBegin=162117|AlignEnd=162302
-3	see	see	VERB	_	_	0	root	_	AlignBegin=162302|AlignEnd=162487
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=161933|AlignEnd=162117
+2	no	no	AUX	_	_	0	root	_	AlignBegin=162117|AlignEnd=162302
+3	see	see	VERB	_	_	2	comp:aux	_	AlignBegin=162302|AlignEnd=162487
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=162487|AlignEnd=162672
-5	since	since	ADP	_	_	10	mod:periph	_	AlignBegin=162672|AlignEnd=162856
+5	since	since	ADP	_	_	10	mod:periph$tempa	_	AlignBegin=162672|AlignEnd=162856
 6	wey	wey	SCONJ	_	_	5	comp:obj	_	AlignBegin=162856|AlignEnd=163041
 7	we	we	PRON	_	_	8	subj	_	AlignBegin=163041|AlignEnd=163226
 8	start	start	VERB	_	_	6	comp:obj	_	AlignBegin=163226|AlignEnd=163411
@@ -1526,7 +1526,7 @@
 13	I	I	PRON	_	_	14	subj	_	AlignBegin=163780|AlignEnd=163965
 14	dey	dey	AUX	_	_	10	comp:cleft	_	AlignBegin=163965|AlignEnd=164150
 15	look	look	VERB	_	_	14	comp:aux	_	AlignBegin=164150|AlignEnd=164335
-16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=164335|AlignEnd=164335
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=164335|AlignEnd=164335
 
 # sent_id = WAZL_14_Kulele-Zone_DG__109
 # speaker_id = Sp328
@@ -1541,9 +1541,9 @@
 # text = I no dey look di side wey im dey //= I just dey look straight //= I just mind my business //
 # text_en = I was not looking at the side he is in, I was just looking straight, minding my business.
 # text_ortho = I no dey look di side wey im dey, I just dey look straight, I just mind my business.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=164347|AlignEnd=164584
-2	no	no	PART	_	_	3	mod	_	AlignBegin=164584|AlignEnd=164822
-3	dey	dey	AUX	_	_	0	root	_	AlignBegin=164822|AlignEnd=165060
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=164347|AlignEnd=164584
+2	no	no	AUX	_	_	0	root	_	AlignBegin=164584|AlignEnd=164822
+3	dey	dey	AUX	_	_	2	comp:aux	_	AlignBegin=164822|AlignEnd=165060
 4	look	look	VERB	_	_	3	comp:aux	_	AlignBegin=165060|AlignEnd=165298
 5	di	di	DET	_	_	6	det	_	AlignBegin=165298|AlignEnd=165536
 6	side	side	NOUN	_	_	4	comp:obj	_	AlignBegin=165536|AlignEnd=165774
@@ -1553,7 +1553,7 @@
 10	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=166488|AlignEnd=166488
 11	I	I	PRON	_	_	13	subj	_	AlignBegin=166488|AlignEnd=166726
 12	just	just	ADV	_	_	13	mod	_	AlignBegin=166726|AlignEnd=166964
-13	dey	dey	AUX	_	_	3	parataxis:conj	_	AlignBegin=166964|AlignEnd=167202
+13	dey	dey	AUX	_	_	2	parataxis:conj	_	AlignBegin=166964|AlignEnd=167202
 14	look	look	VERB	_	_	13	comp:aux	_	AlignBegin=167202|AlignEnd=167440
 15	straight	straight	ADJ	_	_	14	mod	_	AlignBegin=167440|AlignEnd=167678
 16	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=167678|AlignEnd=167678
@@ -1562,48 +1562,48 @@
 19	mind	mind	VERB	_	_	13	parataxis:conj	_	AlignBegin=168154|AlignEnd=168392
 20	my	my	PRON	_	_	21	mod:poss	_	AlignBegin=168392|AlignEnd=168630
 21	business	business	NOUN	_	_	19	comp:obj	_	AlignBegin=168630|AlignEnd=168868
-22	//	//	PUNCT	_	_	3	punct	_	AlignBegin=168868|AlignEnd=168868
+22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=168868|AlignEnd=168868
 
 # sent_id = WAZL_14_Kulele-Zone_DG__111
 # speaker_id = Sp328
 # text = no look dat side haha //
 # text_en = dont look at that side, haha.
 # text_ortho = No look dat side haha.
-1	no	no	PART	_	_	2	mod	_	AlignBegin=165125|AlignEnd=165689
-2	look	look	VERB	_	_	0	root	_	AlignBegin=165689|AlignEnd=166253
+1	no	no	AUX	_	_	0	root	_	AlignBegin=165125|AlignEnd=165689
+2	look	look	VERB	_	_	1	comp:aux	_	AlignBegin=165689|AlignEnd=166253
 3	dat	dat	DET	_	_	4	det	_	AlignBegin=166253|AlignEnd=166818
 4	side	side	NOUN	_	_	2	comp:obj	_	AlignBegin=166818|AlignEnd=167382
-5	haha	haha	INTJ	_	_	2	discourse	_	AlignBegin=167382|AlignEnd=167947
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=167947|AlignEnd=167947
+5	haha	haha	INTJ	_	_	1	discourse	_	AlignBegin=167382|AlignEnd=167947
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167947|AlignEnd=167947
 
 # sent_id = WAZL_14_Kulele-Zone_DG__112
 # speaker_id = Sp328
 # text = as I see di potential because { e || e || e match || e match } all dose dose your descriptions //
 # text_en = As I see di potentials because he... matches, it matches all those your descriptions
 # text_ortho = As I see di potential because e, e, e match, e match all dose dose your descriptions.
-1	as	as	ADP	_	_	0	root@scrap	_	AlignBegin=168545|AlignEnd=168848
+1	as	as	ADP	_	_	6	mod:periph$tempo	_	AlignBegin=168545|AlignEnd=168848
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=168848|AlignEnd=169151
 3	see	see	VERB	_	_	1	comp:obj	_	AlignBegin=169151|AlignEnd=169454
 4	di	di	DET	_	_	5	det	_	AlignBegin=169454|AlignEnd=169758
 5	potential	potential	NOUN	_	_	3	comp:obj	_	AlignBegin=169758|AlignEnd=170061
-6	because	because	SCONJ	_	_	3	mod	_	AlignBegin=170061|AlignEnd=170364
+6	because	because	SCONJ	_	_	0	mod$reason	_	AlignBegin=170061|AlignEnd=170364
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=170364|AlignEnd=170364
-8	e	im	PRON	_	_	6	subj	_	AlignBegin=170364|AlignEnd=170668
+8	e	im	PRON	_	_	3	subj	_	AlignBegin=170364|AlignEnd=170668
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=170668|AlignEnd=170668
 10	e	im	PRON	_	_	8	conj:dicto	_	AlignBegin=170668|AlignEnd=170971
-11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=170971|AlignEnd=170971
-12	e	im	PRON	_	_	10	conj:dicto	_	AlignBegin=170971|AlignEnd=171274
+11	||	||	PUNCT	_	_	13	punct	_	AlignBegin=170971|AlignEnd=170971
+12	e	im	PRON	_	_	13	subj	_	AlignBegin=170971|AlignEnd=171274
 13	match	match	NOUN	_	_	8	conj:dicto	_	AlignBegin=171274|AlignEnd=171577
 14	||	||	PUNCT	_	_	16	punct	_	AlignBegin=171577|AlignEnd=171577
 15	e	im	PRON	_	_	16	subj	_	AlignBegin=171577|AlignEnd=171881
 16	match	match	VERB	_	_	13	conj:dicto	_	AlignBegin=171881|AlignEnd=172184
 17	}	}	PUNCT	_	_	8	punct	_	AlignBegin=172184|AlignEnd=172184
-18	all	all	ADV	_	_	22	mod	_	AlignBegin=172184|AlignEnd=172487
+18	all	all	DET	_	_	22	det	_	AlignBegin=172184|AlignEnd=172487
 19	dose	dose	DET	_	_	22	det	_	AlignBegin=172487|AlignEnd=172791
 20	dose	dose	DET	_	_	22	det	_	AlignBegin=172791|AlignEnd=173094
 21	your	your	PRON	_	_	22	mod:poss	_	AlignBegin=173094|AlignEnd=173397
 22	descriptions	descriptions	NOUN	_	_	16	comp:obj	_	AlignBegin=173397|AlignEnd=173701
-23	//	//	PUNCT	_	_	8	punct	_	AlignBegin=173701|AlignEnd=173701
+23	//	//	PUNCT	_	_	6	punct	_	AlignBegin=173701|AlignEnd=173701
 
 # sent_id = WAZL_14_Kulele-Zone_DG__113
 # speaker_id = Sp327
@@ -1627,28 +1627,28 @@
 # text = if e say e meets || e meet my spec } now < in fact I for don turn dey follow like am //
 # text_en = If it were that he meets it meets my spec now, infact,I would have turned like this and joined in to like himl.
 # text_ortho = If e say e meets, e meet my spec now, in fact I for don turn dey follow like am.
-1	if	if	SCONJ	_	_	17	mod:periph	_	AlignBegin=172044|AlignEnd=172245
+1	if	if	SCONJ	_	_	17	mod:periph$cond	_	AlignBegin=172044|AlignEnd=172245
 2	e	im	PRON	_	_	3	subj	_	AlignBegin=172245|AlignEnd=172446
 3	say	say	VERB	_	_	1	comp:obj	_	AlignBegin=172446|AlignEnd=172647
 4	e	im	PRON	_	_	5	subj	_	AlignBegin=172647|AlignEnd=172848
-5	meets	meets	VERB	_	_	3	parataxis:obj	_	AlignBegin=172848|AlignEnd=173049
+5	meets	meets	VERB	_	_	3	parataxis:obj$utter	_	AlignBegin=172848|AlignEnd=173049
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=173049|AlignEnd=173049
 7	e	im	PRON	_	_	8	subj	_	AlignBegin=173049|AlignEnd=173250
 8	meet	meet	VERB	_	_	5	conj:dicto	_	AlignBegin=173250|AlignEnd=173451
 9	my	my	PRON	_	_	10	mod:poss	_	AlignBegin=173451|AlignEnd=173652
 10	spec	spec	NOUN	_	_	8	comp:obj	_	AlignBegin=173652|AlignEnd=173853
-11	}	}	PUNCT	_	_	5	punct	_	AlignBegin=173853|AlignEnd=173853
+11	}	}	PUNCT	_	_	3	punct	_	AlignBegin=173853|AlignEnd=173853
 12	now	now	ADV	_	_	8	mod	_	AlignBegin=173853|AlignEnd=174055
 13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=174055|AlignEnd=174055
 14	in	in	ADP	_	_	17	mod:periph	_	AlignBegin=174055|AlignEnd=174256
-15	fact	fact	NOUN	_	_	14	unk@fixed	_	AlignBegin=174256|AlignEnd=174457
+15	fact	fact	NOUN	_	_	14	comp:obj	_	AlignBegin=174256|AlignEnd=174457
 16	I	I	PRON	_	_	17	subj	_	AlignBegin=174457|AlignEnd=174658
 17	for	for	AUX	_	_	0	root	_	AlignBegin=174658|AlignEnd=174859
 18	don	don	AUX	_	_	17	comp:aux	_	AlignBegin=174859|AlignEnd=175060
 19	turn	turn	VERB	_	_	18	comp:aux	_	AlignBegin=175060|AlignEnd=175261
-20	dey	dey	AUX	_	_	19	mod	_	AlignBegin=175261|AlignEnd=175462
+20	dey	dey	AUX	_	_	19	compound:svc	_	AlignBegin=175261|AlignEnd=175462
 21	follow	follow	VERB	_	_	20	comp:aux	_	AlignBegin=175462|AlignEnd=175663
-22	like	like	ADP	_	_	21	mod	_	AlignBegin=175663|AlignEnd=175864
+22	like	like	ADP	_	_	21	comp:obl	_	AlignBegin=175663|AlignEnd=175864
 23	am	am	PRON	_	_	22	comp:obj	_	AlignBegin=175864|AlignEnd=176066
 24	//	//	PUNCT	_	_	17	punct	_	AlignBegin=176066|AlignEnd=176066
 
@@ -1657,12 +1657,12 @@
 # text = you no see sey [ as I just dey look { straight |r straight } ] haha //
 # text_en = You didnt see as I am just looking straight straight haha.
 # text_ortho = You no see sey as I just dey look straight, straight haha.
-1	you	you	PRON	_	_	3	subj	_	AlignBegin=176066|AlignEnd=176371
-2	no	no	PART	_	_	3	mod	_	AlignBegin=176371|AlignEnd=176677
-3	see	see	VERB	_	_	0	root	_	AlignBegin=176677|AlignEnd=176982
+1	you	you	PRON	_	_	2	subj	_	AlignBegin=176066|AlignEnd=176371
+2	no	no	AUX	_	_	0	root	_	AlignBegin=176371|AlignEnd=176677
+3	see	see	VERB	_	_	2	comp:aux	_	AlignBegin=176677|AlignEnd=176982
 4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=176982|AlignEnd=177288
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=177288|AlignEnd=177288
-6	as	as	ADP	_	_	4	discourse	_	AlignBegin=177288|AlignEnd=177593
+6	as	as	ADP	_	_	4	mod:periph$tempo	_	AlignBegin=177288|AlignEnd=177593
 7	I	I	PRON	_	_	9	subj	_	AlignBegin=177593|AlignEnd=177899
 8	just	just	ADV	_	_	9	mod	_	AlignBegin=177899|AlignEnd=178205
 9	dey	dey	AUX	_	_	6	comp:obj	_	AlignBegin=178205|AlignEnd=178510
@@ -1673,8 +1673,8 @@
 14	straight	straight	ADJ	_	_	12	compound:redup	_	AlignBegin=179121|AlignEnd=179427
 15	}	}	PUNCT	_	_	12	punct	_	AlignBegin=179427|AlignEnd=179427
 16	]	]	PUNCT	_	_	6	punct	_	AlignBegin=179427|AlignEnd=179427
-17	haha	haha	INTJ	_	_	3	discourse	_	AlignBegin=179427|AlignEnd=179733
-18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=179733|AlignEnd=179733
+17	haha	haha	INTJ	_	_	2	discourse	_	AlignBegin=179427|AlignEnd=179733
+18	//	//	PUNCT	_	_	2	punct	_	AlignBegin=179733|AlignEnd=179733
 
 # sent_id = WAZL_14_Kulele-Zone_DG__116
 # speaker_id = Sp328
@@ -1690,26 +1690,26 @@
 # text = { I no get || I dont have } a business here //
 # text_en = I do not have, I dont have a business here.
 # text_ortho = I no get, I dont have a business here.
-1	{	{	PUNCT	_	_	4	punct	_	AlignBegin=180279|AlignEnd=180279
-2	I	I	PRON	_	_	4	subj	_	AlignBegin=180279|AlignEnd=180484
-3	no	no	PART	_	_	4	mod	_	AlignBegin=180484|AlignEnd=180690
-4	get	get	VERB	_	_	0	root	_	AlignBegin=180690|AlignEnd=180896
+1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=180279|AlignEnd=180279
+2	I	I	PRON	_	_	3	subj	_	AlignBegin=180279|AlignEnd=180484
+3	no	no	AUX	_	_	0	root	_	AlignBegin=180484|AlignEnd=180690
+4	get	get	VERB	_	_	3	comp:aux	_	AlignBegin=180690|AlignEnd=180896
 5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=180896|AlignEnd=180896
 6	I	I	PRON	_	_	7	subj	_	AlignBegin=180896|AlignEnd=181101
-7	dont	dont	AUX	_	_	4	conj:dicto	_	AlignBegin=181101|AlignEnd=181307
-8	have	have	VERB	_	_	7	comp:aux	_	AlignBegin=181307|AlignEnd=181513
-9	}	}	PUNCT	_	_	4	punct	_	AlignBegin=181513|AlignEnd=181513
+7	dont	dont	AUX	_	_	3	conj:dicto	_	AlignBegin=181101|AlignEnd=181307
+8	have	have	VERB	_	_	7	comp:cleft	_	AlignBegin=181307|AlignEnd=181513
+9	}	}	PUNCT	_	_	3	punct	_	AlignBegin=181513|AlignEnd=181513
 10	a	a	DET	_	_	11	det	_	AlignBegin=181513|AlignEnd=181718
 11	business	business	NOUN	_	_	8	comp:obj	_	AlignBegin=181718|AlignEnd=181924
 12	here	here	ADV	_	_	8	mod	_	AlignBegin=181924|AlignEnd=182130
-13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=182130|AlignEnd=182130
+13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=182130|AlignEnd=182130
 
 # sent_id = WAZL_14_Kulele-Zone_DG__118
 # speaker_id = Sp328
 # text = as I enter here like dis < I say [ see Uzor ] //
 # text_en = As i entered like this, I said see Uzor.
 # text_ortho = As I enter here like dis, I say see Uzor.
-1	as	as	ADP	_	_	9	mod:periph	_	AlignBegin=180880|AlignEnd=181119
+1	as	as	ADP	_	_	9	mod:periph$tempo	_	AlignBegin=180880|AlignEnd=181119
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=181119|AlignEnd=181358
 3	enter	enter	VERB	_	_	1	comp:obj	_	AlignBegin=181358|AlignEnd=181597
 4	here	here	ADV	_	_	3	comp:obj	_	AlignBegin=181597|AlignEnd=181836
@@ -1719,7 +1719,7 @@
 8	I	I	PRON	_	_	9	subj	_	AlignBegin=182314|AlignEnd=182553
 9	say	say	VERB	_	_	0	root	_	AlignBegin=182553|AlignEnd=182792
 10	[	[	PUNCT	_	_	11	punct	_	AlignBegin=182792|AlignEnd=182792
-11	see	see	VERB	_	_	9	parataxis:obj	_	AlignBegin=182792|AlignEnd=183031
+11	see	see	VERB	_	_	9	parataxis:obj$utter	_	AlignBegin=182792|AlignEnd=183031
 12	Uzor	Uzor	PROPN	_	_	11	comp:obj	_	AlignBegin=183031|AlignEnd=183270
 13	]	]	PUNCT	_	_	11	punct	_	AlignBegin=183270|AlignEnd=183270
 14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=183270|AlignEnd=183270
@@ -1738,7 +1738,7 @@
 # text_en = yes as I as I entered like this, you were the one that came to my mind.
 # text_ortho = Yes as I woul, enter like dis, na your, na you come my mind.
 1	yes	yes	INTJ	_	_	13	discourse	_	AlignBegin=184462|AlignEnd=184694
-2	as	as	ADP	_	_	13	mod:periph	_	AlignBegin=184694|AlignEnd=184927
+2	as	as	ADP	_	_	13	mod:periph$tempo	_	AlignBegin=184694|AlignEnd=184927
 3	I	I	PRON	_	_	5	subj	_	AlignBegin=184927|AlignEnd=185159
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=185159|AlignEnd=185159
 5	woul	woul	VERB	_	_	2	comp:obj	_	AlignBegin=185159|AlignEnd=185392
@@ -1750,7 +1750,7 @@
 11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=186090|AlignEnd=186090
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=186090|AlignEnd=186090
 13	na	na	PART	_	_	0	root	_	AlignBegin=186090|AlignEnd=186323
-14	your	your	ADJ	_	_	13	comp:pred	_	AlignBegin=186323|AlignEnd=186555
+14	your	your	ADJ	_	_	13	comp:pred@scrap	_	AlignBegin=186323|AlignEnd=186555
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=186555|AlignEnd=186555
 16	na	na	PART	_	_	13	conj:dicto	_	AlignBegin=186555|AlignEnd=186788
 17	you	you	PRON	_	_	16	comp:pred	_	AlignBegin=186788|AlignEnd=187021
@@ -1798,7 +1798,7 @@
 # text = X
 # text_en = X.
 # text_ortho = X
-1	X	X	X	_	_	0	root	_	AlignBegin=189600|AlignEnd=189820
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=189600|AlignEnd=189820
 
 # sent_id = WAZL_14_Kulele-Zone_DG__126
 # speaker_id = Sp327
@@ -1810,7 +1810,7 @@
 3	such	such	ADV	_	_	6	mod	_	AlignBegin=190499|AlignEnd=190918|Lang=en
 4	a	a	DET	_	_	6	det	_	AlignBegin=190918|AlignEnd=191338|Lang=en
 5	heart	heart	NOUN	_	_	6	compound	_	AlignBegin=191338|AlignEnd=191757|Lang=en
-6	breaker	breaker	VERB	_	_	2	comp:pred	_	AlignBegin=191757|AlignEnd=192177|Lang=en
+6	breaker	breaker	NOUN	_	_	2	comp:pred	_	AlignBegin=191757|AlignEnd=192177|Lang=en
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=192177|AlignEnd=192177
 
 # sent_id = WAZL_14_Kulele-Zone_DG__127
@@ -1834,11 +1834,11 @@
 # text = all the same //= all the same //
 # text_en = All the same...
 # text_ortho = All the same, all the same.
-1	all	all	ADV	_	_	3	mod	_	AlignBegin=192610|AlignEnd=192943
+1	all	all	DET	_	_	3	det	_	AlignBegin=192610|AlignEnd=192943
 2	the	the	DET	_	_	3	det	_	AlignBegin=192943|AlignEnd=193276
 3	same	same	ADJ	_	_	0	root	_	AlignBegin=193276|AlignEnd=193610
 4	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=193610|AlignEnd=193610
-5	all	all	ADV	_	_	7	mod	_	AlignBegin=193610|AlignEnd=193943
+5	all	all	DET	_	_	7	det	_	AlignBegin=193610|AlignEnd=193943
 6	the	the	DET	_	_	7	det	_	AlignBegin=193943|AlignEnd=194276
 7	same	same	ADJ	_	_	3	parataxis:conj	_	AlignBegin=194276|AlignEnd=194610
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=194610|AlignEnd=194610
@@ -1848,28 +1848,28 @@
 # text = but where you dey < you no see am on time ?//
 # text_en = But where you where, you did not see him on time?
 # text_ortho = But where you dey, you no see am on time?
-1	but	but	CCONJ	_	_	8	cc	_	AlignBegin=194961|AlignEnd=195168
-2	where	where	ADV	_	_	8	mod:periph	_	AlignBegin=195168|AlignEnd=195375
+1	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=194961|AlignEnd=195168
+2	where	where	ADV	_	_	7	dislocated	_	AlignBegin=195168|AlignEnd=195375
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=195375|AlignEnd=195582
 4	dey	dey	VERB	_	_	2	mod@relcl	_	AlignBegin=195582|AlignEnd=195789
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=195789|AlignEnd=195789
-6	you	you	PRON	_	_	8	subj	_	AlignBegin=195789|AlignEnd=195996
-7	no	no	PART	_	_	8	mod	_	AlignBegin=195996|AlignEnd=196203
-8	see	see	VERB	_	_	0	root	_	AlignBegin=196203|AlignEnd=196410
+6	you	you	PRON	_	_	7	subj	_	AlignBegin=195789|AlignEnd=195996
+7	no	no	AUX	_	_	0	root	_	AlignBegin=195996|AlignEnd=196203
+8	see	see	VERB	_	_	7	comp:aux	_	AlignBegin=196203|AlignEnd=196410
 9	am	am	PRON	_	_	8	comp:obj	_	AlignBegin=196410|AlignEnd=196617
 10	on	on	ADP	_	_	8	mod	_	AlignBegin=196617|AlignEnd=196824
 11	time	time	NOUN	_	_	10	comp:obj	_	AlignBegin=196824|AlignEnd=197031
-12	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=197031|AlignEnd=197031
+12	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=197031|AlignEnd=197031
 
 # sent_id = WAZL_14_Kulele-Zone_DG__131
 # speaker_id = Sp327
 # text = but { dat || na } me >+ go see am |c abi na im >+ no see me on time?//
 # text_en = but that Will I be the one to see him or he was the one that didn;t see me on time?
 # text_ortho = But dat, na me go see am, abi na im no see me on time?
-1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=198044|AlignEnd=198201
+1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=198044|AlignEnd=198201
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=198201|AlignEnd=198201
 3	dat	dat	PRON	_	_	0	root	_	AlignBegin=198201|AlignEnd=198358
-4	||	||	PUNCT	_	_	3	punct	_	AlignBegin=198358|AlignEnd=198358
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=198358|AlignEnd=198358
 5	na	na	PART	_	_	3	conj:dicto	_	AlignBegin=198358|AlignEnd=198515
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=198515|AlignEnd=198515
 7	me	me	PRON	_	_	5	comp:pred	_	AlignBegin=198515|AlignEnd=198672
@@ -1881,9 +1881,9 @@
 13	abi	abi	CCONJ	_	_	14	cc	_	AlignBegin=199143|AlignEnd=199300
 14	na	na	PART	_	_	5	conj:coord	_	AlignBegin=199300|AlignEnd=199457
 15	im	im	PRON	_	_	14	comp:pred	_	AlignBegin=199457|AlignEnd=199614
-16	>+	>+	PUNCT	_	_	18	punct	_	AlignBegin=199614|AlignEnd=199614
-17	no	no	PART	_	_	18	mod	_	AlignBegin=199614|AlignEnd=199771
-18	see	see	VERB	_	_	14	comp:cleft	_	AlignBegin=199771|AlignEnd=199928
+16	>+	>+	PUNCT	_	_	17	punct	_	AlignBegin=199614|AlignEnd=199614
+17	no	no	AUX	_	_	14	comp:cleft	_	AlignBegin=199614|AlignEnd=199771
+18	see	see	VERB	_	_	17	comp:aux	_	AlignBegin=199771|AlignEnd=199928
 19	me	me	PRON	_	_	18	comp:obj	_	AlignBegin=199928|AlignEnd=200085
 20	on	on	ADP	_	_	18	mod	_	AlignBegin=200085|AlignEnd=200242
 21	time?//	time?//	NOUN	_	_	20	comp:obj	_	AlignBegin=200242|AlignEnd=200400
@@ -1893,12 +1893,12 @@
 # text = abi na im >+ no see you on time ?//
 # text_en = or was he the one that didnt see you on time.
 # text_ortho = Abi na im no see you on time?
-1	abi	abi	CCONJ	_	_	2	cc	_	AlignBegin=198544|AlignEnd=198714
+1	abi	abi	CCONJ	_	_	2	discourse	_	AlignBegin=198544|AlignEnd=198714
 2	na	na	PART	_	_	0	root	_	AlignBegin=198714|AlignEnd=198885
 3	im	im	PRON	_	_	2	comp:pred	_	AlignBegin=198885|AlignEnd=199055
-4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=199055|AlignEnd=199055
-5	no	no	PART	_	_	6	mod	_	AlignBegin=199055|AlignEnd=199226
-6	see	see	VERB	_	_	2	comp:cleft	_	AlignBegin=199226|AlignEnd=199397
+4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=199055|AlignEnd=199055
+5	no	no	AUX	_	_	2	comp:cleft	_	AlignBegin=199055|AlignEnd=199226
+6	see	see	VERB	_	_	5	comp:aux	_	AlignBegin=199226|AlignEnd=199397
 7	you	you	PRON	_	_	6	comp:obj	_	AlignBegin=199397|AlignEnd=199567
 8	on	on	ADP	_	_	6	mod	_	AlignBegin=199567|AlignEnd=199738
 9	time	time	NOUN	_	_	8	comp:obj	_	AlignBegin=199738|AlignEnd=199909
@@ -1912,17 +1912,17 @@
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=201058|AlignEnd=201264
 2	know	know	VERB	_	_	30	parataxis:discourse	_	AlignBegin=201264|AlignEnd=201471
 3	dat	dat	DET	_	_	4	det	_	AlignBegin=201471|AlignEnd=201677
-4	thing	thing	NOUN	_	_	30	dislocated	_	AlignBegin=201677|AlignEnd=201884
+4	thing	thing	NOUN	_	_	2	comp:obj	_	AlignBegin=201677|AlignEnd=201884
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=201884|AlignEnd=201884
 6	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=201884|AlignEnd=202090
 7	dem	dem	PRON	_	_	8	subj	_	AlignBegin=202090|AlignEnd=202297
 8	dey	dey	AUX	_	_	6	comp:obj	_	AlignBegin=202297|AlignEnd=202503
 9	talk	talk	VERB	_	_	8	comp:aux	_	AlignBegin=202503|AlignEnd=202710
 10	sey	sey	SCONJ	_	_	9	comp:obj	_	AlignBegin=202710|AlignEnd=202916
-11	[	[	PUNCT	_	_	13	punct	_	AlignBegin=202916|AlignEnd=202916
-12	e	im	PRON	_	_	13	subj	_	AlignBegin=202916|AlignEnd=203123|Lang=en
-13	who	who	PRON	_	_	10	comp:obj	_	AlignBegin=203123|AlignEnd=203329|Lang=en
-14	finds	finds	VERB	_	_	13	unk@scrap	_	AlignBegin=203329|AlignEnd=203536|Lang=en
+11	[	[	PUNCT	_	_	14	punct	_	AlignBegin=202916|AlignEnd=202916
+12	e	im	PRON	_	_	14	dislocated	_	AlignBegin=202916|AlignEnd=203123|Lang=en
+13	who	who	PRON	_	_	6	comp:obj@scrap	_	AlignBegin=203123|AlignEnd=203329|Lang=en
+14	finds	finds	VERB	_	_	13	mod@relcl	_	AlignBegin=203329|AlignEnd=203536|Lang=en
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=203536|AlignEnd=203536
 16	wey	wey	SCONJ	_	_	13	conj:dicto	_	AlignBegin=203536|AlignEnd=203742
 17	de	dem	PRON	_	_	18	subj	_	AlignBegin=203742|AlignEnd=203949
@@ -1930,13 +1930,13 @@
 19	say	say	VERB	_	_	18	comp:aux	_	AlignBegin=204155|AlignEnd=204362
 20	[	[	PUNCT	_	_	22	punct	_	AlignBegin=204362|AlignEnd=204362
 21	e	im	PRON	_	_	22	subj	_	AlignBegin=204362|AlignEnd=204568
-22	who	who	PRON	_	_	19	parataxis:obj	_	AlignBegin=204568|AlignEnd=204775
+22	who	who	PRON	_	_	19	parataxis:obj$utter	_	AlignBegin=204568|AlignEnd=204775
 23	finds	finds	VERB	_	_	22	comp:cleft	_	AlignBegin=204775|AlignEnd=204981
 24	a	a	DET	_	_	25	det	_	AlignBegin=204981|AlignEnd=205188
 25	wife	wife	NOUN	_	_	23	comp:obj	_	AlignBegin=205188|AlignEnd=205394
 26	]	]	PUNCT	_	_	22	punct	_	AlignBegin=205394|AlignEnd=205394
-27	}	}	PUNCT	_	_	13	punct	_	AlignBegin=205394|AlignEnd=205394
-28	<	<	PUNCT	_	_	4	punct	_	AlignBegin=205394|AlignEnd=205394
+27	}	}	PUNCT	_	_	6	punct	_	AlignBegin=205394|AlignEnd=205394
+28	<	<	PUNCT	_	_	2	punct	_	AlignBegin=205394|AlignEnd=205394
 29	der	der	PRON	_	_	30	subj	_	AlignBegin=205394|AlignEnd=205601
 30	must	must	AUX	_	_	0	root	_	AlignBegin=205601|AlignEnd=205807
 31	be	be	VERB	_	_	30	comp:aux	_	AlignBegin=205807|AlignEnd=206014
@@ -1949,20 +1949,20 @@
 # text = Uzor < you no position //
 # text_en = Uzor, you didnt position.
 # text_ortho = Uzor, you no position.
-1	Uzor	Uzor	PROPN	_	_	5	dislocated	_	AlignBegin=206427|AlignEnd=206704
+1	Uzor	Uzor	PROPN	_	_	4	dislocated	_	AlignBegin=206427|AlignEnd=206704
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=206704|AlignEnd=206704
-3	you	you	PRON	_	_	5	subj	_	AlignBegin=206704|AlignEnd=206982
-4	no	no	PART	_	_	5	mod	_	AlignBegin=206982|AlignEnd=207260
-5	position	position	VERB	_	_	0	root	_	AlignBegin=207260|AlignEnd=207538
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=207538|AlignEnd=207538
+3	you	you	PRON	_	_	4	subj	_	AlignBegin=206704|AlignEnd=206982
+4	no	no	AUX	_	_	0	root	_	AlignBegin=206982|AlignEnd=207260
+5	position	position	VERB	_	_	4	comp:aux	_	AlignBegin=207260|AlignEnd=207538
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=207538|AlignEnd=207538
 
 # sent_id = WAZL_14_Kulele-Zone_DG__135
 # speaker_id = Sp327
 # text = no when we come back < we go ask am [ who im marry |c { where dem fin-|| where e find am } ] ?//
 # text_en = no when we come back, we would ask him whom he married and where he found her.
 # text_ortho = No when we come back, we go ask am who im marry, where dem fin-... where e find am?
-1	no	no	PART	_	_	2	mod:emph	_	AlignBegin=206470|AlignEnd=206729
-2	when	when	SCONJ	_	_	8	mod:periph	_	AlignBegin=206729|AlignEnd=206988
+1	no	no	INTJ	_	_	8	discourse	_	AlignBegin=206470|AlignEnd=206729
+2	when	when	ADV	_	_	8	mod:periph$tempo	_	AlignBegin=206729|AlignEnd=206988
 3	we	we	PRON	_	_	4	subj	_	AlignBegin=206988|AlignEnd=207247
 4	come	come	VERB	_	_	2	comp:obj	_	AlignBegin=207247|AlignEnd=207506
 5	back	back	ADV	_	_	4	mod	_	AlignBegin=207506|AlignEnd=207765
@@ -1972,14 +1972,14 @@
 9	ask	ask	VERB	_	_	8	comp:aux	_	AlignBegin=208284|AlignEnd=208543
 10	am	am	PRON	_	_	9	comp:obj	_	AlignBegin=208543|AlignEnd=208802
 11	[	[	PUNCT	_	_	12	punct	_	AlignBegin=208802|AlignEnd=208802
-12	who	who	PRON	_	_	9	parataxis:obj	_	AlignBegin=208802|AlignEnd=209061
+12	who	who	PRON	_	_	9	comp:obj	_	AlignBegin=208802|AlignEnd=209061
 13	im	im	PRON	_	_	14	subj	_	AlignBegin=209061|AlignEnd=209320
 14	marry	marry	VERB	_	_	12	comp:cleft	_	AlignBegin=209320|AlignEnd=209579
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=209579|AlignEnd=209579
 16	{	{	PUNCT	_	_	17	punct	_	AlignBegin=209579|AlignEnd=209579
 17	where	where	ADV	_	_	12	conj:coord	_	AlignBegin=209579|AlignEnd=209839
-18	dem	dem	PRON	_	_	17	mod:poss	_	AlignBegin=209839|AlignEnd=210098
-19	fin-||	fin-||	X	_	_	17	mod@relcl	_	AlignBegin=210098|AlignEnd=210357
+18	dem	dem	PRON	_	_	19	subj	_	AlignBegin=209839|AlignEnd=210098
+19	fin-||	fin-||	VERB	_	_	17	comp:cleft	_	AlignBegin=210098|AlignEnd=210357
 20	where	where	ADV	_	_	17	conj:dicto	_	AlignBegin=210357|AlignEnd=210616
 21	e	im	PRON	_	_	22	subj	_	AlignBegin=210616|AlignEnd=210875
 22	find	find	VERB	_	_	20	mod@relcl	_	AlignBegin=210875|AlignEnd=211134
@@ -1993,9 +1993,9 @@
 # text = and where dem & //
 # text_en = and where them...
 # text_ortho = And where dem...
-1	and	and	CCONJ	_	_	2	cc	_	AlignBegin=209688|AlignEnd=210256
-2	where	where	ADV	_	_	0	root	_	AlignBegin=210256|AlignEnd=210825
-3	dem	dem	PRON	_	_	2	comp:cleft@scrap	_	AlignBegin=210825|AlignEnd=211394
+1	and	and	CCONJ	_	_	2	discourse	_	AlignBegin=209688|AlignEnd=210256
+2	where	where	ADV	_	_	0	root@scrap	_	AlignBegin=210256|AlignEnd=210825
+3	dem	dem	PRON	_	_	2	unk@scrap	_	AlignBegin=210825|AlignEnd=211394
 4	&	&	PUNCT	_	_	2	punct	_	AlignBegin=211394|AlignEnd=211394
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=211394|AlignEnd=211394
 
@@ -2029,7 +2029,7 @@
 # text = so dat dose kind & //
 # text_en = so that those sort of...
 # text_ortho = So dat dose kind...
-1	so	so	ADV	_	_	4	discourse	_	AlignBegin=214420|AlignEnd=214692
+1	so	so	SCONJ	_	_	4	discourse	_	AlignBegin=214420|AlignEnd=214692
 2	dat	dat	DET	_	_	4	det	_	AlignBegin=214692|AlignEnd=214965
 3	dose	dose	DET	_	_	4	det	_	AlignBegin=214965|AlignEnd=215238
 4	kind	kind	ADJ	_	_	0	root@scrap	_	AlignBegin=215238|AlignEnd=215511
@@ -2044,9 +2044,9 @@
 1	e	im	PRON	_	_	2	subj@expl	_	AlignBegin=215511|AlignEnd=215733
 2	be	be	VERB	_	_	0	root	_	AlignBegin=215733|AlignEnd=215955
 3	like	like	ADP	_	_	2	comp:pred	_	AlignBegin=215955|AlignEnd=216177
-4	sey	sey	SCONJ	_	_	3	comp:obj@fixed	_	AlignBegin=216177|AlignEnd=216399
+4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=216177|AlignEnd=216399
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=216399|AlignEnd=216399
-6	na	na	PART	_	_	4	comp:obj	_	AlignBegin=216399|AlignEnd=216621
+6	na	na	PART	_	_	3	comp:obj	_	AlignBegin=216399|AlignEnd=216621
 7	dose	dose	DET	_	_	9	det	_	AlignBegin=216621|AlignEnd=216843
 8	kind	kind	ADJ	_	_	9	mod	_	AlignBegin=216843|AlignEnd=217065
 9	places	places	NOUN	_	_	6	comp:pred	_	AlignBegin=217065|AlignEnd=217287
@@ -2071,14 +2071,14 @@
 # text = X
 # text_en = x
 # text_ortho = X
-1	X	X	X	_	_	0	root	_	AlignBegin=218540|AlignEnd=218740
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=218540|AlignEnd=218740
 
 # sent_id = WAZL_14_Kulele-Zone_DG__143
 # speaker_id = Sp327
 # text = when we come back < we go get to meet di person //
 # text_en = when we come back, we will have to meet the person.
 # text_ortho = When we come back, we go get to meet di person.
-1	when	when	SCONJ	_	_	7	mod:periph	_	AlignBegin=219847|AlignEnd=220021
+1	when	when	ADV	_	_	7	mod:periph$tempo	_	AlignBegin=219847|AlignEnd=220021
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=220021|AlignEnd=220196
 3	come	come	VERB	_	_	1	comp:obj	_	AlignBegin=220196|AlignEnd=220371
 4	back	back	ADV	_	_	3	mod	_	AlignBegin=220371|AlignEnd=220546
@@ -2086,7 +2086,7 @@
 6	we	we	PRON	_	_	7	subj	_	AlignBegin=220546|AlignEnd=220721
 7	go	go	AUX	_	_	0	root	_	AlignBegin=220721|AlignEnd=220896
 8	get	get	VERB	_	_	7	comp:aux	_	AlignBegin=220896|AlignEnd=221071
-9	to	to	ADP	_	_	8	comp:obl@x	_	AlignBegin=221071|AlignEnd=221246
+9	to	to	ADP	_	_	8	comp:obl$phase@x	_	AlignBegin=221071|AlignEnd=221246
 10	meet	meet	VERB	_	_	9	comp:obj	_	AlignBegin=221246|AlignEnd=221421
 11	di	di	DET	_	_	12	det	_	AlignBegin=221421|AlignEnd=221596
 12	person	person	NOUN	_	_	10	comp:obj	_	AlignBegin=221596|AlignEnd=221771
@@ -2112,20 +2112,20 @@
 5	follow	follow	VERB	_	_	4	comp:aux	_	AlignBegin=222437|AlignEnd=222600
 6	yarn	yarn	VERB	_	_	5	compound:svc	_	AlignBegin=222600|AlignEnd=222762
 7	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=222762|AlignEnd=222925
-8	inside	inside	ADP	_	_	7	unk@fixed	_	AlignBegin=222925|AlignEnd=223088
+8	inside	inside	ADP	_	_	7	comp:obj	_	AlignBegin=222925|AlignEnd=223088
 9	di	di	DET	_	_	10	det	_	AlignBegin=223088|AlignEnd=223251
-10	studio	studio	NOUN	_	_	8	comp:obj	_	AlignBegin=223251|AlignEnd=223414
+10	studio	studio	NOUN	_	_	7	comp:obj	_	AlignBegin=223251|AlignEnd=223414
 11	here	here	ADV	_	_	10	mod	_	AlignBegin=223414|AlignEnd=223577
-12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=223577|AlignEnd=223577
+12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=223577|AlignEnd=223577
 
 # sent_id = WAZL_14_Kulele-Zone_DG__146
 # speaker_id = Sp327
 # text = but { Ratata < e dey inside di studio |c { cordi |a di cordinator } |c and { me |a myself } |c and moi |c Uzor Ododo Oba } //
 # text_en = But Ratata is inside the studio, cordi the cordinator, me myself ma, and moi, Uzo Ododo Oba.
 # text_ortho = But Ratata, e dey inside di studio, cordi, di cordinator, and me, myself, and moi, Uzor Ododo Oba,
-1	but	but	CCONJ	_	_	6	cc	_	AlignBegin=223577|AlignEnd=223957
-2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=223957|AlignEnd=223957
-3	Ratata	Ratata	PROPN	_	_	6	dislocated	_	AlignBegin=223957|AlignEnd=224338
+1	but	but	CCONJ	_	_	6	discourse	_	AlignBegin=223577|AlignEnd=223957
+2	{	{	PUNCT	_	_	6	punct	_	AlignBegin=223957|AlignEnd=223957
+3	Ratata	Ratata	NOUN	_	_	6	dislocated	_	AlignBegin=223957|AlignEnd=224338
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=224338|AlignEnd=224338
 5	e	im	PRON	_	_	6	subj	_	AlignBegin=224338|AlignEnd=224719
 6	dey	dey	VERB	_	_	0	root	_	AlignBegin=224719|AlignEnd=225100
@@ -2152,8 +2152,8 @@
 27	|c	|c	PUNCT	_	_	28	punct	_	AlignBegin=229290|AlignEnd=229290
 28	Uzor	Uzor	PROPN	_	_	26	conj:coord	_	AlignBegin=229290|AlignEnd=229671
 29	Ododo	Ododo	PROPN	_	_	28	flat	_	AlignBegin=229671|AlignEnd=230052
-30	Oba	Oba	PROPN	_	_	29	flat	_	AlignBegin=230052|AlignEnd=230433
-31	}	}	PUNCT	_	_	12	punct	_	AlignBegin=230433|AlignEnd=230433
+30	Oba	Oba	NOUN	_	_	28	flat	_	AlignBegin=230052|AlignEnd=230433
+31	}	}	PUNCT	_	_	6	punct	_	AlignBegin=230433|AlignEnd=230433
 32	//	//	PUNCT	_	_	6	punct	_	AlignBegin=230433|AlignEnd=230433
 
 # sent_id = WAZL_14_Kulele-Zone_DG__147
@@ -2173,7 +2173,7 @@
 # text = X
 # text_en = X
 # text_ortho = X
-1	X	X	X	_	_	0	root	_	AlignBegin=231985|AlignEnd=232867
+1	X	X	X	_	_	0	root@scrap	_	AlignBegin=231985|AlignEnd=232867
 
 # sent_id = WAZL_14_Kulele-Zone_DG__149
 # speaker_id = Sp328

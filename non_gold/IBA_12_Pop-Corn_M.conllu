@@ -5,7 +5,7 @@
 # text_en = If he... so I now decided that, before I will start school, I want to see what... I want to see what I wu... I will do before I start school.
 # text_ortho = If e, so I come decide sey before I go enter school, I wan see wetin, I wan see wetin I wu-... I go do before I enter school.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=2760|AlignEnd=2760
-2	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=2760|AlignEnd=3131
+2	if	if	SCONJ	_	_	8	mod:periph$cond	_	AlignBegin=2760|AlignEnd=3131
 3	e	im	PRON	_	_	2	comp:obj@scrap	_	AlignBegin=3131|AlignEnd=3502
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=3502|AlignEnd=3502
 5	so	so	ADV	_	_	2	conj:dicto	_	AlignBegin=3502|AlignEnd=3874
@@ -15,7 +15,7 @@
 9	decide	decide	VERB	_	_	8	comp:aux	_	AlignBegin=4617|AlignEnd=4988
 10	sey	sey	SCONJ	_	_	9	comp:obj	_	AlignBegin=4988|AlignEnd=5359
 11	[	[	PUNCT	_	_	20	punct	_	AlignBegin=5359|AlignEnd=5359
-12	before	before	ADP	_	_	20	mod:periph	_	AlignBegin=5359|AlignEnd=5731
+12	before	before	ADP	_	_	20	mod:periph$tempb	_	AlignBegin=5359|AlignEnd=5731
 13	I	I	PRON	_	_	14	subj	_	AlignBegin=5731|AlignEnd=6102
 14	go	go	AUX	_	_	12	comp:obj	_	AlignBegin=6102|AlignEnd=6474
 15	enter	enter	VERB	_	_	14	comp:aux	_	AlignBegin=6474|AlignEnd=6845
@@ -24,23 +24,23 @@
 18	{	{	PUNCT	_	_	20	punct	_	AlignBegin=7216|AlignEnd=7216
 19	I	I	PRON	_	_	20	subj	_	AlignBegin=7216|AlignEnd=7588
 20	wan	wan	VERB	_	_	10	comp:obj	_	AlignBegin=7588|AlignEnd=7959
-21	see	see	VERB	_	_	20	comp:obj@x	_	AlignBegin=7959|AlignEnd=8331
+21	see	see	VERB	_	_	20	comp:obj$desire@x	_	AlignBegin=7959|AlignEnd=8331
 22	wetin	wetin	PRON	_	_	21	comp:obj	_	AlignBegin=8331|AlignEnd=8702
 23	||	||	PUNCT	_	_	25	punct	_	AlignBegin=8702|AlignEnd=8702
 24	I	I	PRON	_	_	25	subj	_	AlignBegin=8702|AlignEnd=9074
 25	wan	wan	VERB	_	_	20	conj:dicto	_	AlignBegin=9074|AlignEnd=9445
-26	see	see	VERB	_	_	25	comp:obj@x	_	AlignBegin=9445|AlignEnd=9816
+26	see	see	VERB	_	_	25	comp:obj$desire@x	_	AlignBegin=9445|AlignEnd=9816
 27	wetin	wetin	PRON	_	_	26	comp:obj	_	AlignBegin=9816|AlignEnd=10188
 28	}	}	PUNCT	_	_	20	punct	_	AlignBegin=10188|AlignEnd=10188
 29	{	{	PUNCT	_	_	31	punct	_	AlignBegin=10188|AlignEnd=10188
 30	I	I	PRON	_	_	31	subj	_	AlignBegin=10188|AlignEnd=10559
-31	wu~	X	AUX	_	_	27	mod@relcl	_	AlignBegin=10559|AlignEnd=10931
+31	wu~	X	X	_	_	27	mod@relcl	_	AlignBegin=10559|AlignEnd=10931
 32	||	||	PUNCT	_	_	34	punct	_	AlignBegin=10931|AlignEnd=10931
 33	I	I	PRON	_	_	34	subj	_	AlignBegin=10931|AlignEnd=11302
 34	go	go	AUX	_	_	31	conj:dicto	_	AlignBegin=11302|AlignEnd=11673
 35	}	}	PUNCT	_	_	31	punct	_	AlignBegin=11673|AlignEnd=11673
 36	do	do	VERB	_	_	34	comp:aux	_	AlignBegin=11673|AlignEnd=12045
-37	before	before	ADP	_	_	36	mod	_	AlignBegin=12045|AlignEnd=12416
+37	before	before	ADP	_	_	36	mod$tempb	_	AlignBegin=12045|AlignEnd=12416
 38	I	I	PRON	_	_	39	subj	_	AlignBegin=12416|AlignEnd=12788
 39	enter	enter	VERB	_	_	37	comp:obj	_	AlignBegin=12788|AlignEnd=13159
 40	school	school	NOUN	_	_	39	comp:obj	_	AlignBegin=13159|AlignEnd=13531
@@ -53,7 +53,7 @@
 # text_en = So, it is just...
 # text_ortho = So na just...
 1	so	so	ADV	_	_	2	discourse	_	AlignBegin=13873|AlignEnd=14288
-2	na	na	PART	_	_	0	root	_	AlignBegin=14288|AlignEnd=14704
+2	na	na	PART	_	_	0	root@scrap	_	AlignBegin=14288|AlignEnd=14704
 3	just	just	ADV	_	_	2	comp:pred@scrap	_	AlignBegin=14704|AlignEnd=15120
 4	&	&	PUNCT	_	_	2	punct	_	AlignBegin=15120|AlignEnd=15120
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=15120|AlignEnd=15120
@@ -68,7 +68,7 @@
 3	one	one	NUM	_	_	14	subj	_	AlignBegin=15400|AlignEnd=15681
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=15681|AlignEnd=15681
 5	ehn	ehn	INTJ	_	_	6	discourse	_	AlignBegin=15681|AlignEnd=15962
-6	one	one	NOUN	_	_	3	conj:dicto	_	AlignBegin=15962|AlignEnd=16242
+6	one	one	NUM	_	_	3	conj:dicto	_	AlignBegin=15962|AlignEnd=16242
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=16242|AlignEnd=16242
 8	of	of	ADP	_	_	6	mod	_	AlignBegin=16242|AlignEnd=16523
 9	my	my	PRON	_	_	10	mod:poss	_	AlignBegin=16523|AlignEnd=16804
@@ -78,8 +78,8 @@
 13	just	just	ADV	_	_	14	mod	_	AlignBegin=17646|AlignEnd=17926
 14	come	come	VERB	_	_	0	root	_	AlignBegin=17926|AlignEnd=18207
 15	one	one	DET	_	_	16	det	_	AlignBegin=18207|AlignEnd=18488
-16	day	day	NOUN	_	_	14	comp:obj	_	AlignBegin=18488|AlignEnd=18768
-17	sey	sey	SCONJ	_	_	16	mod@relcl	_	AlignBegin=18768|AlignEnd=19049
+16	day	day	NOUN	_	_	14	mod	_	AlignBegin=18488|AlignEnd=18768
+17	sey	sey	SCONJ	_	_	14	comp:obj	_	AlignBegin=18768|AlignEnd=19049
 18	[	[	PUNCT	_	_	21	punct	_	AlignBegin=19049|AlignEnd=19049
 19	ah	ah	INTJ	_	_	21	discourse	_	AlignBegin=19049|AlignEnd=19330
 20	im	im	PRON	_	_	21	subj	_	AlignBegin=19330|AlignEnd=19610
@@ -89,8 +89,8 @@
 24	wey	wey	SCONJ	_	_	23	mod@relcl	_	AlignBegin=20452|AlignEnd=20733
 25	e	im	PRON	_	_	26	subj	_	AlignBegin=20733|AlignEnd=21014
 26	wan	wan	VERB	_	_	24	comp:obj	_	AlignBegin=21014|AlignEnd=21294
-27	follow	follow	VERB	_	_	26	comp:obj@x	_	AlignBegin=21294|AlignEnd=21575
-28	am	am	PRON	_	_	27	comp:obj	_	AlignBegin=21575|AlignEnd=21856
+27	follow	follow	VERB	_	_	26	comp:obj$desire@x	_	AlignBegin=21294|AlignEnd=21575
+28	am	am	PRON	_	_	29	mod:poss	_	AlignBegin=21575|AlignEnd=21856
 29	work	work	NOUN	_	_	27	comp:obj	_	AlignBegin=21856|AlignEnd=22137
 30	]	]	PUNCT	_	_	21	punct	_	AlignBegin=22137|AlignEnd=22137
 31	//	//	PUNCT	_	_	14	punct	_	AlignBegin=22137|AlignEnd=22137
@@ -106,7 +106,7 @@
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=23771|AlignEnd=23771
 5	okay	okay	INTJ	_	_	7	discourse	_	AlignBegin=23771|AlignEnd=24079
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=24079|AlignEnd=24079
-7	meh	meh	AUX	_	_	3	parataxis:obj	_	AlignBegin=24079|AlignEnd=24386
+7	meh	meh	AUX	_	_	3	parataxis:obj$utter	_	AlignBegin=24079|AlignEnd=24386
 8	I	I	PRON	_	_	7	subj	_	AlignBegin=24386|AlignEnd=24693
 9	just	just	ADV	_	_	7	unk@scrap	_	AlignBegin=24693|AlignEnd=25001
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=25001|AlignEnd=25001
@@ -115,18 +115,18 @@
 13	just	just	ADV	_	_	15	mod	_	AlignBegin=25615|AlignEnd=25923
 14	}	}	PUNCT	_	_	7	punct	_	AlignBegin=25923|AlignEnd=25923
 15	go	go	VERB	_	_	11	comp:aux	_	AlignBegin=25923|AlignEnd=26230
-16	learn	learn	VERB	_	_	15	comp:obj@x	_	AlignBegin=26230|AlignEnd=26537
+16	learn	learn	VERB	_	_	15	compound:svc$purp	_	AlignBegin=26230|AlignEnd=26537
 17	di	di	DET	_	_	18	det	_	AlignBegin=26537|AlignEnd=26845
 18	stuff	stuff	NOUN	_	_	16	comp:obj	_	AlignBegin=26845|AlignEnd=27152
 19	from	from	ADP	_	_	16	comp:obl	_	AlignBegin=27152|AlignEnd=27459
 20	di	di	DET	_	_	21	det	_	AlignBegin=27459|AlignEnd=27767
 21	person	person	NOUN	_	_	19	comp:obj	_	AlignBegin=27767|AlignEnd=28074
-22	so	so	SCONJ	_	_	16	mod	_	AlignBegin=28074|AlignEnd=28381
-23	dat	dat	PRON	_	_	22	unk@fixed	_	AlignBegin=28381|AlignEnd=28689
+22	so	so	SCONJ	_	_	16	mod$purp	_	AlignBegin=28074|AlignEnd=28381
+23	dat	dat	SCONJ	_	_	22	comp:obj	_	AlignBegin=28381|AlignEnd=28689
 24	by	by	ADP	_	_	36	mod:periph	_	AlignBegin=28689|AlignEnd=28996
 25	time	time	NOUN	_	_	24	comp:obj	_	AlignBegin=28996|AlignEnd=29303
 26	<	<	PUNCT	_	_	24	punct	_	AlignBegin=29303|AlignEnd=29303
-27	if	if	SCONJ	_	_	36	mod:periph	_	AlignBegin=29303|AlignEnd=29610
+27	if	if	SCONJ	_	_	36	mod:periph$cond	_	AlignBegin=29303|AlignEnd=29610
 28	I	I	PRON	_	_	29	subj	_	AlignBegin=29610|AlignEnd=29918
 29	enter	enter	VERB	_	_	27	comp:obj	_	AlignBegin=29918|AlignEnd=30225
 30	school	school	NOUN	_	_	29	comp:obj	_	AlignBegin=30225|AlignEnd=30532
@@ -158,7 +158,7 @@
 3	I	I	PRON	_	_	4	subj	_	AlignBegin=35700|AlignEnd=36068
 4	come	come	AUX	_	_	0	root	_	AlignBegin=36068|AlignEnd=36436
 5	go	go	VERB	_	_	4	comp:aux	_	AlignBegin=36436|AlignEnd=36803
-6	join	join	VERB	_	_	5	comp:obj@x	_	AlignBegin=36803|AlignEnd=37171
+6	join	join	VERB	_	_	5	compound:svc$purp	_	AlignBegin=36803|AlignEnd=37171
 7	di	di	DET	_	_	8	det	_	AlignBegin=37171|AlignEnd=37539
 8	business	business	NOUN	_	_	6	comp:obj	_	AlignBegin=37539|AlignEnd=37907
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=37907|AlignEnd=37907
@@ -168,12 +168,12 @@
 # text = as di man teach me all di tings now < di man con later leave di place for me sey [ me < { a~ || as } I be good boy { to || to } im < { make I just leave di || make im just leave di machine } for me //
 # text_en = As the man taught me all the things now, the man then later left the place for me that me, a... as I am a good boy to... to him, he should just leave the... he should just leave the machine for me.
 # text_ortho = As di man teach me all di tings now, di man con later leave di place for me sey, me, a-... as I be good boy to, to im, make I just leave di, make im just leave di machine for me.
-1	as	as	ADP	_	_	13	mod:periph	_	AlignBegin=38309|AlignEnd=38568
+1	as	as	ADP	_	_	13	mod:periph$tempo	_	AlignBegin=38309|AlignEnd=38568
 2	di	di	DET	_	_	3	det	_	AlignBegin=38568|AlignEnd=38827
 3	man	man	NOUN	_	_	4	subj	_	AlignBegin=38827|AlignEnd=39087
 4	teach	teach	VERB	_	_	1	comp:obj	_	AlignBegin=39087|AlignEnd=39346
-5	me	me	PRON	_	_	4	comp:obj	_	AlignBegin=39346|AlignEnd=39606
-6	all	all	ADV	_	_	8	mod	_	AlignBegin=39606|AlignEnd=39865
+5	me	me	PRON	_	_	4	comp:obl	_	AlignBegin=39346|AlignEnd=39606
+6	all	all	DET	_	_	8	det	_	AlignBegin=39606|AlignEnd=39865
 7	di	di	DET	_	_	8	det	_	AlignBegin=39865|AlignEnd=40125
 8	tings	tings	NOUN	_	_	4	comp:obj	_	AlignBegin=40125|AlignEnd=40384
 9	now	now	ADV	_	_	4	mod	_	AlignBegin=40384|AlignEnd=40644
@@ -187,7 +187,7 @@
 17	place	place	NOUN	_	_	15	comp:obj	_	AlignBegin=42200|AlignEnd=42460
 18	for	for	ADP	_	_	15	comp:obl	_	AlignBegin=42460|AlignEnd=42719
 19	me	me	PRON	_	_	18	comp:obj	_	AlignBegin=42719|AlignEnd=42979
-20	sey	sey	SCONJ	_	_	15	comp:obj	_	AlignBegin=42979|AlignEnd=43238
+20	sey	sey	SCONJ	_	_	15	comp:obl$attitude	_	AlignBegin=42979|AlignEnd=43238
 21	[	[	PUNCT	_	_	41	punct	_	AlignBegin=43238|AlignEnd=43238
 22	me	me	PRON	_	_	41	dislocated	_	AlignBegin=43238|AlignEnd=43498
 23	<	<	PUNCT	_	_	22	punct	_	AlignBegin=43498|AlignEnd=43498
@@ -201,7 +201,7 @@
 31	good	good	ADJ	_	_	32	mod	_	AlignBegin=44535|AlignEnd=44795
 32	boy	boy	NOUN	_	_	30	comp:pred	_	AlignBegin=44795|AlignEnd=45054
 33	{	{	PUNCT	_	_	34	punct	_	AlignBegin=45054|AlignEnd=45054
-34	to	to	ADP	_	_	32	mod	_	AlignBegin=45054|AlignEnd=45314
+34	to	to	ADP	_	_	30	mod	_	AlignBegin=45054|AlignEnd=45314
 35	||	||	PUNCT	_	_	36	punct	_	AlignBegin=45314|AlignEnd=45314
 36	to	to	ADP	_	_	34	conj:dicto	_	AlignBegin=45314|AlignEnd=45573
 37	}	}	PUNCT	_	_	34	punct	_	AlignBegin=45573|AlignEnd=45573
@@ -240,7 +240,7 @@
 8	}	}	PUNCT	_	_	4	punct	_	AlignBegin=50756|AlignEnd=50756
 9	now	now	ADV	_	_	4	mod:emph	_	AlignBegin=50756|AlignEnd=51037
 10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=51037|AlignEnd=51037
-11	currently	currently	ADV	_	_	15	mod:periph	_	AlignBegin=51037|AlignEnd=51317
+11	currently	currently	ADV	_	_	15	mod	_	AlignBegin=51037|AlignEnd=51317
 12	now	now	ADV	_	_	11	mod:emph	_	AlignBegin=51317|AlignEnd=51598
 13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=51598|AlignEnd=51598
 14	im	im	PRON	_	_	15	subj	_	AlignBegin=51598|AlignEnd=51878
@@ -253,7 +253,7 @@
 # text = But im just leave dis place for me sey [ because of sey [ I be good boy for im ] ] //
 # text_en = But he just left this place for me that because I am a good boy to him.
 # text_ortho = But im just leave dis place for me sey because of sey I be good boy for im.
-1	But	But	CCONJ	_	_	4	cc	_	AlignBegin=52440|AlignEnd=52640
+1	But	But	CCONJ	_	_	4	discourse	_	AlignBegin=52440|AlignEnd=52640
 2	im	im	PRON	_	_	4	subj	_	AlignBegin=52640|AlignEnd=52841
 3	just	just	ADV	_	_	4	mod	_	AlignBegin=52841|AlignEnd=53042
 4	leave	leave	VERB	_	_	0	root	_	AlignBegin=53042|AlignEnd=53243
@@ -261,14 +261,14 @@
 6	place	place	NOUN	_	_	4	comp:obj	_	AlignBegin=53444|AlignEnd=53645
 7	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=53645|AlignEnd=53845
 8	me	me	PRON	_	_	7	comp:obj	_	AlignBegin=53845|AlignEnd=54046
-9	sey	sey	SCONJ	_	_	4	comp:obj	_	AlignBegin=54046|AlignEnd=54247
+9	sey	sey	SCONJ	_	_	4	comp:obl$attitude	_	AlignBegin=54046|AlignEnd=54247
 10	[	[	PUNCT	_	_	11	punct	_	AlignBegin=54247|AlignEnd=54247
-11	because	because	SCONJ	_	_	9	comp:obj	_	AlignBegin=54247|AlignEnd=54448
-12	of	of	ADP	_	_	11	unk@fixed	_	AlignBegin=54448|AlignEnd=54649
-13	sey	sey	SCONJ	_	_	12	comp:obj@fixed	_	AlignBegin=54649|AlignEnd=54850
+11	because	because	SCONJ	_	_	9	comp:obj@scrap	_	AlignBegin=54247|AlignEnd=54448
+12	of	of	ADP	_	_	11	comp:obj	_	AlignBegin=54448|AlignEnd=54649
+13	sey	sey	SCONJ	_	_	12	comp:obj	_	AlignBegin=54649|AlignEnd=54850
 14	[	[	PUNCT	_	_	16	punct	_	AlignBegin=54850|AlignEnd=54850
 15	I	I	PRON	_	_	16	subj	_	AlignBegin=54850|AlignEnd=55050
-16	be	be	VERB	_	_	13	comp:obj	_	AlignBegin=55050|AlignEnd=55251
+16	be	be	VERB	_	_	11	comp:obj	_	AlignBegin=55050|AlignEnd=55251
 17	good	good	ADJ	_	_	18	mod	_	AlignBegin=55251|AlignEnd=55452
 18	boy	boy	NOUN	_	_	16	comp:pred	_	AlignBegin=55452|AlignEnd=55653
 19	for	for	ADP	_	_	16	mod	_	AlignBegin=55653|AlignEnd=55854
@@ -297,7 +297,7 @@
 # text_en = So, since then, that is how I am doing the business... the... the... the business by myself.
 # text_ortho = So ever since den now, naim I con dey do business, di, di, di business for myself.
 1	so	so	ADV	_	_	9	discourse	_	AlignBegin=58367|AlignEnd=58774
-2	ever	ever	ADV	_	_	3	mod	_	AlignBegin=58774|AlignEnd=59181
+2	ever	ever	ADV	_	_	9	mod:periph	_	AlignBegin=58774|AlignEnd=59181
 3	since	since	ADP	_	_	9	mod:periph	_	AlignBegin=59181|AlignEnd=59588
 4	den	dem	ADV	_	_	3	comp:obj	_	AlignBegin=59588|AlignEnd=59995
 5	now	now	ADV	_	_	4	mod:emph	_	AlignBegin=59995|AlignEnd=60403
@@ -348,21 +348,21 @@
 # text = and na di business money >+ na im I take graduate from my school before I come dey here now { for || for } temporarily until I get my own job //
 # text_en = And it was the money from the business, that I used used until I graduated from my school before I then came here now temporarily, until I have my own job.
 # text_ortho = And na di business money na im I take graduate from my school before I come dey here now for, for temporarily until I get my own job.
-1	and	and	CCONJ	_	_	2	cc	_	AlignBegin=70965|AlignEnd=71407
+1	and	and	CCONJ	_	_	2	discourse	_	AlignBegin=70965|AlignEnd=71407
 2	na	na	PART	_	_	0	root	_	AlignBegin=71407|AlignEnd=71849
 3	di	di	DET	_	_	5	det	_	AlignBegin=71849|AlignEnd=72291
 4	business	business	NOUN	_	_	5	compound	_	AlignBegin=72291|AlignEnd=72734
 5	money	money	NOUN	_	_	2	comp:pred	_	AlignBegin=72734|AlignEnd=73176
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=73176|AlignEnd=73176
 7	na	na	PART	_	_	2	comp:cleft	_	AlignBegin=73176|AlignEnd=73618
-8	im	im	PRON	_	_	7	comp:pred@fixed	_	AlignBegin=73618|AlignEnd=74060
+8	im	im	PRON	_	_	7	comp:pred	_	AlignBegin=73618|AlignEnd=74060
 9	I	I	PRON	_	_	10	subj	_	AlignBegin=74060|AlignEnd=74503
-10	take	take	VERB	_	_	8	comp:obj	_	AlignBegin=74503|AlignEnd=74945
+10	take	take	VERB	_	_	7	comp:obj	_	AlignBegin=74503|AlignEnd=74945
 11	graduate	graduate	VERB	_	_	10	compound:svc	_	AlignBegin=74945|AlignEnd=75387
 12	from	from	ADP	_	_	11	comp:obl	_	AlignBegin=75387|AlignEnd=75829
 13	my	my	PRON	_	_	14	mod:poss	_	AlignBegin=75829|AlignEnd=76272
 14	school	school	NOUN	_	_	12	comp:obj	_	AlignBegin=76272|AlignEnd=76714
-15	before	before	ADP	_	_	11	mod	_	AlignBegin=76714|AlignEnd=77156
+15	before	before	ADP	_	_	11	mod$tempb	_	AlignBegin=76714|AlignEnd=77156
 16	I	I	PRON	_	_	17	subj	_	AlignBegin=77156|AlignEnd=77598
 17	come	come	AUX	_	_	15	comp:obj	_	AlignBegin=77598|AlignEnd=78041
 18	dey	dey	VERB	_	_	17	comp:aux	_	AlignBegin=78041|AlignEnd=78483
@@ -398,7 +398,7 @@
 # text = and di pop corn business { an~ || is } a very lucrative business //
 # text_en = And, the, pop corn business an... is a very lucrative business.
 # text_ortho = And di pop corn business an-... is a very lucrative business.
-1	and	and	CCONJ	_	_	7	cc	_	AlignBegin=85980|AlignEnd=86597
+1	and	and	CCONJ	_	_	7	discourse	_	AlignBegin=85980|AlignEnd=86597
 2	di	di	DET	_	_	5	det	_	AlignBegin=86597|AlignEnd=87214|Lang=en
 3	pop	pop	NOUN	_	_	4	compound	_	AlignBegin=87214|AlignEnd=87831|Lang=en
 4	corn	corn	NOUN	_	_	5	compound	_	AlignBegin=87831|AlignEnd=88448|Lang=en
@@ -420,11 +420,11 @@
 # text_en = If someone... if you see a person that manages it well, infact, you will, you will really enjoy it.
 # text_ortho = If someone, if you see person wey e manage am well, in fact you go, you go really enjoy am.
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=93379|AlignEnd=93379
-2	if	if	SCONJ	_	_	20	mod:periph	_	AlignBegin=93379|AlignEnd=93812
+2	if	if	SCONJ	_	_	20	mod:periph$cond	_	AlignBegin=93379|AlignEnd=93812
 3	someone	someone	PRON	_	_	2	comp:obj@scrap	_	AlignBegin=93812|AlignEnd=94246
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=94246|AlignEnd=94246
 5	if	if	SCONJ	_	_	2	conj:dicto	_	AlignBegin=94246|AlignEnd=94680
-6	you	you	PRON	_	_	5	subj	_	AlignBegin=94680|AlignEnd=95114
+6	you	you	PRON	_	_	8	subj	_	AlignBegin=94680|AlignEnd=95114
 7	}	}	PUNCT	_	_	2	punct	_	AlignBegin=95114|AlignEnd=95114
 8	see	see	VERB	_	_	5	comp:obj	_	AlignBegin=95114|AlignEnd=95548
 9	person	person	NOUN	_	_	8	comp:obj	_	AlignBegin=95548|AlignEnd=95982
@@ -435,7 +435,7 @@
 14	well	well	ADV	_	_	12	mod	_	AlignBegin=97717|AlignEnd=98151
 15	<	<	PUNCT	_	_	2	punct	_	AlignBegin=98151|AlignEnd=98151
 16	in	in	ADP	_	_	20	mod:periph	_	AlignBegin=98151|AlignEnd=98585
-17	fact	fact	NOUN	_	_	16	unk@fixed	_	AlignBegin=98585|AlignEnd=99019
+17	fact	fact	NOUN	_	_	16	comp:obj	_	AlignBegin=98585|AlignEnd=99019
 18	{	{	PUNCT	_	_	20	punct	_	AlignBegin=99019|AlignEnd=99019
 19	you	you	PRON	_	_	20	subj	_	AlignBegin=99019|AlignEnd=99452
 20	go	go	AUX	_	_	0	root	_	AlignBegin=99452|AlignEnd=99886
@@ -453,7 +453,7 @@
 # text = and I tank God about dat //
 # text_en = And I thank God about that.
 # text_ortho = And I tank God about dat.
-1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=102689|AlignEnd=103303
+1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=102689|AlignEnd=103303
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=103303|AlignEnd=103918
 3	tank	tank	VERB	_	_	0	root	_	AlignBegin=103918|AlignEnd=104533
 4	God	God	PROPN	_	_	3	comp:obj	_	AlignBegin=104533|AlignEnd=105148
@@ -499,20 +499,20 @@
 # text = if you wan learn am < you go just go market |c go buy di maize //
 # text_en = If you want to learn it, you will just go to the market to buy the maize.
 # text_ortho = If you wan learn am, you go just go market, go buy di maize.
-1	if	if	SCONJ	_	_	8	mod:periph	_	AlignBegin=115420|AlignEnd=115705
+1	if	if	SCONJ	_	_	8	mod:periph$cond	_	AlignBegin=115420|AlignEnd=115705
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=115705|AlignEnd=115990
 3	wan	wan	VERB	_	_	1	comp:obj	_	AlignBegin=115990|AlignEnd=116275
-4	learn	learn	VERB	_	_	3	comp:obj@x	_	AlignBegin=116275|AlignEnd=116560
+4	learn	learn	VERB	_	_	3	comp:obj$desire@x	_	AlignBegin=116275|AlignEnd=116560
 5	am	am	PRON	_	_	4	comp:obj	_	AlignBegin=116560|AlignEnd=116846
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116846|AlignEnd=116846
 7	you	you	PRON	_	_	8	subj	_	AlignBegin=116846|AlignEnd=117131
 8	go	go	AUX	_	_	0	root	_	AlignBegin=117131|AlignEnd=117416
 9	just	just	ADV	_	_	10	mod	_	AlignBegin=117416|AlignEnd=117701
 10	go	go	VERB	_	_	8	comp:aux	_	AlignBegin=117701|AlignEnd=117986
-11	market	market	NOUN	_	_	10	comp:obj	_	AlignBegin=117986|AlignEnd=118272
+11	market	market	NOUN	_	_	10	comp:obl	_	AlignBegin=117986|AlignEnd=118272
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=118272|AlignEnd=118272
 13	go	go	VERB	_	_	10	conj:coord	_	AlignBegin=118272|AlignEnd=118557
-14	buy	buy	VERB	_	_	13	comp:obj@x	_	AlignBegin=118557|AlignEnd=118842
+14	buy	buy	VERB	_	_	13	compound:svc$purp	_	AlignBegin=118557|AlignEnd=118842
 15	di	di	DET	_	_	16	det	_	AlignBegin=118842|AlignEnd=119127
 16	maize	maize	NOUN	_	_	14	comp:obj	_	AlignBegin=119127|AlignEnd=119413
 17	//	//	PUNCT	_	_	8	punct	_	AlignBegin=119413|AlignEnd=119413
@@ -522,21 +522,21 @@
 # text = and when you buy di maize < if na { imported one you wan use |c or di local one } < it depending di one you really like //
 # text_en = And when you buy the maize, if it is the imported one you want to use or the local one, it depends on the one you really like.
 # text_ortho = And when you buy di maize, if na imported one you wan use, or di local one, it depending di one you really like.
-1	and	and	CCONJ	_	_	24	cc	_	AlignBegin=119692|AlignEnd=120109
-2	when	when	SCONJ	_	_	24	mod:periph	_	AlignBegin=120109|AlignEnd=120527
+1	and	and	CCONJ	_	_	24	discourse	_	AlignBegin=119692|AlignEnd=120109
+2	when	when	ADV	_	_	24	mod:periph$tempo	_	AlignBegin=120109|AlignEnd=120527
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=120527|AlignEnd=120945
 4	buy	buy	VERB	_	_	2	comp:obj	_	AlignBegin=120945|AlignEnd=121363
 5	di	di	DET	_	_	6	det	_	AlignBegin=121363|AlignEnd=121781
 6	maize	maize	NOUN	_	_	4	comp:obj	_	AlignBegin=121781|AlignEnd=122199
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=122199|AlignEnd=122199
-8	if	if	SCONJ	_	_	24	mod:periph	_	AlignBegin=122199|AlignEnd=122616
+8	if	if	SCONJ	_	_	24	mod:periph$cond	_	AlignBegin=122199|AlignEnd=122616
 9	na	na	PART	_	_	8	comp:obj	_	AlignBegin=122616|AlignEnd=123034
 10	{	{	PUNCT	_	_	12	punct	_	AlignBegin=123034|AlignEnd=123034
-11	imported	imported	ADJ	_	_	12	compound	_	AlignBegin=123034|AlignEnd=123452
+11	imported	imported	ADJ	_	_	12	mod	_	AlignBegin=123034|AlignEnd=123452
 12	one	one	NOUN	_	_	9	comp:pred	_	AlignBegin=123452|AlignEnd=123870
 13	you	you	PRON	_	_	14	subj	_	AlignBegin=123870|AlignEnd=124288
 14	wan	wan	VERB	_	_	12	mod@relcl	_	AlignBegin=124288|AlignEnd=124706
-15	use	use	VERB	_	_	14	comp:obj@x	_	AlignBegin=124706|AlignEnd=125123
+15	use	use	VERB	_	_	14	comp:obj$desire@x	_	AlignBegin=124706|AlignEnd=125123
 16	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=125123|AlignEnd=125123
 17	or	or	CCONJ	_	_	20	cc	_	AlignBegin=125123|AlignEnd=125541
 18	di	di	DET	_	_	20	det	_	AlignBegin=125541|AlignEnd=125959
@@ -544,13 +544,13 @@
 20	one	one	NOUN	_	_	12	conj:coord	_	AlignBegin=126377|AlignEnd=126795
 21	}	}	PUNCT	_	_	12	punct	_	AlignBegin=126795|AlignEnd=126795
 22	<	<	PUNCT	_	_	8	punct	_	AlignBegin=126795|AlignEnd=126795
-23	it	it	PRON	_	_	24	subj@expl	_	AlignBegin=126795|AlignEnd=127213
+23	it	it	PRON	_	_	24	subj	_	AlignBegin=126795|AlignEnd=127213
 24	depending	depend	VERB	_	_	0	root	_	AlignBegin=127213|AlignEnd=127630
 25	di	di	DET	_	_	26	det	_	AlignBegin=127630|AlignEnd=128048
 26	one	one	NOUN	_	_	24	comp:obj	_	AlignBegin=128048|AlignEnd=128466
 27	you	you	PRON	_	_	29	subj	_	AlignBegin=128466|AlignEnd=128884
 28	really	really	ADV	_	_	29	mod	_	AlignBegin=128884|AlignEnd=129302
-29	like	like	VERB	_	_	24	mod	_	AlignBegin=129302|AlignEnd=129720
+29	like	like	VERB	_	_	20	mod@relcl	_	AlignBegin=129302|AlignEnd=129720
 30	//	//	PUNCT	_	_	24	punct	_	AlignBegin=129720|AlignEnd=129720
 
 # sent_id = IBA_12_Pop-Corn_M__22
@@ -558,11 +558,11 @@
 # text = but if you want to buy di imported one < di imported one ehn is even better dan dat local one //
 # text_en = But, if you want to buy the imported one, the imported one is even better than that local one.
 # text_ortho = But if you want to buy di imported one, di imported one ehn is even better dan dat local one.
-1	but	but	CCONJ	_	_	15	cc	_	AlignBegin=129720|AlignEnd=130288
-2	if	if	SCONJ	_	_	15	mod:periph	_	AlignBegin=130288|AlignEnd=130856
+1	but	but	CCONJ	_	_	15	discourse	_	AlignBegin=129720|AlignEnd=130288
+2	if	if	SCONJ	_	_	15	mod:periph$cond	_	AlignBegin=130288|AlignEnd=130856
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=130856|AlignEnd=131424
 4	want	want	VERB	_	_	2	comp:obj	_	AlignBegin=131424|AlignEnd=131992
-5	to	to	ADP	_	_	4	comp:obl@x	_	AlignBegin=131992|AlignEnd=132560
+5	to	to	ADP	_	_	4	comp:obl$desire@x	_	AlignBegin=131992|AlignEnd=132560
 6	buy	buy	VERB	_	_	5	comp:obj	_	AlignBegin=132560|AlignEnd=133128
 7	di	di	DET	_	_	9	det	_	AlignBegin=133128|AlignEnd=133696
 8	imported	imported	ADJ	_	_	9	mod	_	AlignBegin=133696|AlignEnd=134264
@@ -571,7 +571,7 @@
 11	di	di	DET	_	_	13	det	_	AlignBegin=134832|AlignEnd=135400|Lang=en
 12	imported	imported	ADJ	_	_	13	mod	_	AlignBegin=135400|AlignEnd=135968|Lang=en
 13	one	one	NOUN	_	_	15	subj	_	AlignBegin=135968|AlignEnd=136536|Lang=en
-14	ehn	ehn	INTJ	_	_	13	discourse	_	AlignBegin=136536|AlignEnd=137104|Lang=en
+14	ehn	ehn	INTJ	_	_	15	discourse	_	AlignBegin=136536|AlignEnd=137104|Lang=en
 15	is	is	VERB	_	_	0	root	_	AlignBegin=137104|AlignEnd=137672|Lang=en
 16	even	even	ADV	_	_	17	mod	_	AlignBegin=137672|AlignEnd=138240|Lang=en
 17	better	better	ADJ	_	_	15	comp:pred	_	AlignBegin=138240|AlignEnd=138808|Lang=en
@@ -586,15 +586,15 @@
 # text = because dat local one < di ting no dey gree pop finish |c but di imported one < { everyting go pop |c and e go make your business & } //
 # text_en = Because that local one, the thing will not agree to pop completely, but the imported one, everything will pop, and it will make your business...
 # text_ortho = Because dat local one, di ting no dey gree pop finish, but di imported one, everyting go pop, and e go make your business...
-1	because	because	SCONJ	_	_	9	cc	_	AlignBegin=141080|AlignEnd=141492|Lang=en
+1	because	because	SCONJ	_	_	8	discourse	_	AlignBegin=141080|AlignEnd=141492|Lang=en
 2	dat	dat	DET	_	_	4	det	_	AlignBegin=141492|AlignEnd=141905|Lang=en
 3	local	local	ADJ	_	_	4	mod	_	AlignBegin=141905|AlignEnd=142318|Lang=en
-4	one	one	NOUN	_	_	9	dislocated	_	AlignBegin=142318|AlignEnd=142731|Lang=en
+4	one	one	NOUN	_	_	8	dislocated	_	AlignBegin=142318|AlignEnd=142731|Lang=en
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=142731|AlignEnd=142731
 6	di	di	DET	_	_	7	det	_	AlignBegin=142731|AlignEnd=143143
-7	ting	ting	NOUN	_	_	9	subj	_	AlignBegin=143143|AlignEnd=143556
-8	no	no	PART	_	_	9	mod	_	AlignBegin=143556|AlignEnd=143969
-9	dey	dey	AUX	_	_	0	root	_	AlignBegin=143969|AlignEnd=144382
+7	ting	ting	NOUN	_	_	8	subj	_	AlignBegin=143143|AlignEnd=143556
+8	no	no	AUX	_	_	0	root	_	AlignBegin=143556|AlignEnd=143969
+9	dey	dey	AUX	_	_	8	comp:aux	_	AlignBegin=143969|AlignEnd=144382
 10	gree	gree	VERB	_	_	9	comp:aux	_	AlignBegin=144382|AlignEnd=144794
 11	pop	pop	NOUN	_	_	10	comp:obj	_	AlignBegin=144794|AlignEnd=145207
 12	finish	finish	VERB	_	_	10	compound:svc	_	AlignBegin=145207|AlignEnd=145620
@@ -606,8 +606,8 @@
 18	<	<	PUNCT	_	_	17	punct	_	AlignBegin=147271|AlignEnd=147271
 19	{	{	PUNCT	_	_	21	punct	_	AlignBegin=147271|AlignEnd=147271
 20	everyting	everyting	PRON	_	_	21	subj	_	AlignBegin=147271|AlignEnd=147684
-21	go	go	AUX	_	_	9	conj:coord	_	AlignBegin=147684|AlignEnd=148096
-22	pop	pop	VERB	_	_	21	comp:aux	_	AlignBegin=148096|AlignEnd=148509
+21	go	go	AUX	_	_	8	conj:coord	_	AlignBegin=147684|AlignEnd=148096
+22	pop	pop	NOUN	_	_	21	comp:aux	_	AlignBegin=148096|AlignEnd=148509
 23	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=148509|AlignEnd=148509
 24	and	and	CCONJ	_	_	26	cc	_	AlignBegin=148509|AlignEnd=148922
 25	e	im	PRON	_	_	26	subj	_	AlignBegin=148922|AlignEnd=149335
@@ -615,9 +615,9 @@
 27	make	make	VERB	_	_	26	comp:aux	_	AlignBegin=149747|AlignEnd=150160
 28	your	your	PRON	_	_	29	mod:poss	_	AlignBegin=150160|AlignEnd=150573
 29	business	business	NOUN	_	_	27	comp:obj	_	AlignBegin=150573|AlignEnd=150986
-30	&	&	PUNCT	_	_	9	punct	_	AlignBegin=150986|AlignEnd=150986
+30	&	&	PUNCT	_	_	8	punct	_	AlignBegin=150986|AlignEnd=150986
 31	}	}	PUNCT	_	_	21	punct	_	AlignBegin=150986|AlignEnd=150986
-32	//	//	PUNCT	_	_	9	punct	_	AlignBegin=150986|AlignEnd=150986
+32	//	//	PUNCT	_	_	8	punct	_	AlignBegin=150986|AlignEnd=150986
 
 # sent_id = IBA_12_Pop-Corn_M__24
 # speaker_id = Sp378
@@ -647,39 +647,39 @@
 # text = but if you wan use di local one < dat local one < { if you no || if you no dey } professional < di ting no go fine for face //
 # text_en = But if you want to use the local one, that local one, if you are not... if you are not a professional, the thing will not be attractive.
 # text_ortho = But if you wan use di local one, dat local one, if you no, if you no dey professional, di ting no go fine for face.
-1	but	but	CCONJ	_	_	29	cc	_	AlignBegin=154245|AlignEnd=154498
-2	if	if	SCONJ	_	_	29	mod:periph	_	AlignBegin=154498|AlignEnd=154751
+1	but	but	CCONJ	_	_	28	discourse	_	AlignBegin=154245|AlignEnd=154498
+2	if	if	SCONJ	_	_	28	mod:periph$cond	_	AlignBegin=154498|AlignEnd=154751
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=154751|AlignEnd=155004
 4	wan	wan	VERB	_	_	2	comp:obj	_	AlignBegin=155004|AlignEnd=155258
-5	use	use	VERB	_	_	4	comp:obj@x	_	AlignBegin=155258|AlignEnd=155511
+5	use	use	VERB	_	_	4	comp:obj$desire@x	_	AlignBegin=155258|AlignEnd=155511
 6	di	di	DET	_	_	8	det	_	AlignBegin=155511|AlignEnd=155764
 7	local	local	ADJ	_	_	8	mod	_	AlignBegin=155764|AlignEnd=156017
 8	one	one	NOUN	_	_	5	comp:obj	_	AlignBegin=156017|AlignEnd=156271
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=156271|AlignEnd=156271
 10	dat	dat	DET	_	_	12	det	_	AlignBegin=156271|AlignEnd=156524
 11	local	local	ADJ	_	_	12	mod	_	AlignBegin=156524|AlignEnd=156777
-12	one	one	NOUN	_	_	29	dislocated	_	AlignBegin=156777|AlignEnd=157030
+12	one	one	NOUN	_	_	28	dislocated	_	AlignBegin=156777|AlignEnd=157030
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=157030|AlignEnd=157030
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=157030|AlignEnd=157030
-15	if	if	SCONJ	_	_	29	mod:periph	_	AlignBegin=157030|AlignEnd=157284
-16	you	you	PRON	_	_	15	comp:obj	_	AlignBegin=157284|AlignEnd=157537
-17	no	no	PART	_	_	16	unk@scrap	_	AlignBegin=157537|AlignEnd=157790
+15	if	if	SCONJ	_	_	28	mod:periph$cond	_	AlignBegin=157030|AlignEnd=157284
+16	you	you	PRON	_	_	17	subj	_	AlignBegin=157284|AlignEnd=157537
+17	no	no	AUX	_	_	15	comp:obj	_	AlignBegin=157537|AlignEnd=157790
 18	||	||	PUNCT	_	_	19	punct	_	AlignBegin=157790|AlignEnd=157790
 19	if	if	SCONJ	_	_	15	conj:dicto	_	AlignBegin=157790|AlignEnd=158044
-20	you	you	PRON	_	_	22	subj	_	AlignBegin=158044|AlignEnd=158297
-21	no	no	PART	_	_	22	mod	_	AlignBegin=158297|AlignEnd=158550
-22	dey	dey	VERB	_	_	19	comp:obj	_	AlignBegin=158550|AlignEnd=158803
+20	you	you	PRON	_	_	21	subj	_	AlignBegin=158044|AlignEnd=158297
+21	no	no	AUX	_	_	19	comp:obj	_	AlignBegin=158297|AlignEnd=158550
+22	dey	dey	VERB	_	_	21	comp:aux	_	AlignBegin=158550|AlignEnd=158803
 23	}	}	PUNCT	_	_	15	punct	_	AlignBegin=158803|AlignEnd=158803
 24	professional	professional	ADJ	_	_	22	comp:pred	_	AlignBegin=158803|AlignEnd=159057
 25	<	<	PUNCT	_	_	15	punct	_	AlignBegin=159057|AlignEnd=159057
 26	di	di	DET	_	_	27	det	_	AlignBegin=159057|AlignEnd=159310
-27	ting	ting	NOUN	_	_	29	subj	_	AlignBegin=159310|AlignEnd=159563
-28	no	no	PART	_	_	29	mod	_	AlignBegin=159563|AlignEnd=159816
-29	go	go	AUX	_	_	0	root	_	AlignBegin=159816|AlignEnd=160070
+27	ting	ting	NOUN	_	_	28	subj	_	AlignBegin=159310|AlignEnd=159563
+28	no	no	AUX	_	_	0	root	_	AlignBegin=159563|AlignEnd=159816
+29	go	go	AUX	_	_	28	comp:aux	_	AlignBegin=159816|AlignEnd=160070
 30	fine	fine	ADJ	_	_	29	comp:aux	_	AlignBegin=160070|AlignEnd=160323
 31	for	for	ADP	_	_	30	comp:obl	_	AlignBegin=160323|AlignEnd=160576
 32	face	face	NOUN	_	_	31	comp:obj	_	AlignBegin=160576|AlignEnd=160830
-33	//	//	PUNCT	_	_	29	punct	_	AlignBegin=160830|AlignEnd=160830
+33	//	//	PUNCT	_	_	28	punct	_	AlignBegin=160830|AlignEnd=160830
 
 # sent_id = IBA_12_Pop-Corn_M__26
 # speaker_id = Sp378
@@ -697,8 +697,8 @@
 # text = and before you start di business < you go get your tings ready //
 # text_en = And before you start the business, you will get your things ready.
 # text_ortho = And before you start di business, you go get your tings ready,
-1	and	and	CCONJ	_	_	9	cc	_	AlignBegin=161730|AlignEnd=161995
-2	before	before	ADP	_	_	9	mod:periph	_	AlignBegin=161995|AlignEnd=162261
+1	and	and	CCONJ	_	_	9	discourse	_	AlignBegin=161730|AlignEnd=161995
+2	before	before	ADP	_	_	9	mod:periph$tempb	_	AlignBegin=161995|AlignEnd=162261
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=162261|AlignEnd=162527
 4	start	start	VERB	_	_	2	comp:obj	_	AlignBegin=162527|AlignEnd=162793
 5	di	di	DET	_	_	6	det	_	AlignBegin=162793|AlignEnd=163059
@@ -709,7 +709,7 @@
 10	get	get	VERB	_	_	9	comp:aux	_	AlignBegin=163856|AlignEnd=164122
 11	your	your	PRON	_	_	12	mod:poss	_	AlignBegin=164122|AlignEnd=164388
 12	tings	tings	NOUN	_	_	10	comp:obj	_	AlignBegin=164388|AlignEnd=164654
-13	ready	ready	ADJ	_	_	10	comp:pred	_	AlignBegin=164654|AlignEnd=164920
+13	ready	ready	ADJ	_	_	10	comp:pred@x	_	AlignBegin=164654|AlignEnd=164920
 14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=164920|AlignEnd=164920
 
 # sent_id = IBA_12_Pop-Corn_M__28
@@ -723,23 +723,23 @@
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=165680|AlignEnd=165680
 5	you	you	PRON	_	_	6	subj	_	AlignBegin=165680|AlignEnd=165933
 6	wan	wan	VERB	_	_	2	comp:cleft	_	AlignBegin=165933|AlignEnd=166186
-7	ehn	ehn	INTJ	_	_	6	comp:obj@scrap	_	AlignBegin=166186|AlignEnd=166440
+7	ehn	ehn	INTJ	_	_	1	discourse	_	AlignBegin=166186|AlignEnd=166440
 8	&	&	PUNCT	_	_	1	punct	_	AlignBegin=166440|AlignEnd=166440
-9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=166440|AlignEnd=166440
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=166440|AlignEnd=166440
 
 # sent_id = IBA_12_Pop-Corn_M__29
 # speaker_id = Sp378
 # text = if { na sugar >+ you wan use |c or honey |c or ehn flavours } < you go don get am ready //
 # text_en = If it is sugar you want to use or honey or ehn, flavours, you would have gotten them ready.
 # text_ortho = If na sugar you wan use, or honey, or ehn flavours, you go don get am ready.
-1	if	if	SCONJ	_	_	19	mod:periph	_	AlignBegin=166440|AlignEnd=167021
+1	if	if	SCONJ	_	_	19	mod:periph$cond	_	AlignBegin=166440|AlignEnd=167021
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=167021|AlignEnd=167021
 3	na	na	PART	_	_	1	comp:obj	_	AlignBegin=167021|AlignEnd=167602
 4	sugar	sugar	NOUN	_	_	3	comp:pred	_	AlignBegin=167602|AlignEnd=168184
 5	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=168184|AlignEnd=168184
 6	you	you	PRON	_	_	7	subj	_	AlignBegin=168184|AlignEnd=168765
 7	wan	wan	VERB	_	_	3	comp:cleft	_	AlignBegin=168765|AlignEnd=169347
-8	use	use	VERB	_	_	7	comp:obj@x	_	AlignBegin=169347|AlignEnd=169928
+8	use	use	VERB	_	_	7	comp:obj$desire@x	_	AlignBegin=169347|AlignEnd=169928
 9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=169928|AlignEnd=169928
 10	or	or	CCONJ	_	_	11	cc	_	AlignBegin=169928|AlignEnd=170509
 11	honey	honey	NOUN	_	_	3	conj:coord	_	AlignBegin=170509|AlignEnd=171091
@@ -754,7 +754,7 @@
 20	don	don	AUX	_	_	19	comp:aux	_	AlignBegin=173998|AlignEnd=174579
 21	get	get	VERB	_	_	20	comp:aux	_	AlignBegin=174579|AlignEnd=175161
 22	am	am	PRON	_	_	21	comp:obj	_	AlignBegin=175161|AlignEnd=175742
-23	ready	ready	ADJ	_	_	21	comp:obj	_	AlignBegin=175742|AlignEnd=176324
+23	ready	ready	ADJ	_	_	21	comp:pred@x	_	AlignBegin=175742|AlignEnd=176324
 24	//	//	PUNCT	_	_	19	punct	_	AlignBegin=176324|AlignEnd=176324
 
 # sent_id = IBA_12_Pop-Corn_M__30
@@ -777,7 +777,7 @@
 13	your	your	PRON	_	_	14	mod:poss	_	AlignBegin=181967|AlignEnd=182570
 14	sugar	sugar	NOUN	_	_	11	conj:coord	_	AlignBegin=182570|AlignEnd=183173
 15	}	}	PUNCT	_	_	8	punct	_	AlignBegin=183173|AlignEnd=183173
-16	<	<	PUNCT	_	_	8	punct	_	AlignBegin=183173|AlignEnd=183173
+16	<	<	PUNCT	_	_	2	punct	_	AlignBegin=183173|AlignEnd=183173
 17	{	{	PUNCT	_	_	19	punct	_	AlignBegin=183173|AlignEnd=183173
 18	everyting	everyting	PRON	_	_	19	subj	_	AlignBegin=183173|AlignEnd=183776
 19	go	go	AUX	_	_	0	root	_	AlignBegin=183776|AlignEnd=184380
@@ -785,9 +785,9 @@
 21	||	||	PUNCT	_	_	23	punct	_	AlignBegin=184380|AlignEnd=184380
 22	just	just	ADV	_	_	23	mod	_	AlignBegin=184380|AlignEnd=184983
 23	make	make	VERB	_	_	19	conj:dicto	_	AlignBegin=184983|AlignEnd=185586
-24	sure	sure	ADJ	_	_	23	comp:obj@lvc	_	AlignBegin=185586|AlignEnd=186189
+24	sure	sure	ADJ	_	_	23	comp:pred	_	AlignBegin=185586|AlignEnd=186189
 25	}	}	PUNCT	_	_	19	punct	_	AlignBegin=186189|AlignEnd=186189
-26	sey	sey	SCONJ	_	_	23	comp:obj	_	AlignBegin=186189|AlignEnd=186792
+26	sey	sey	SCONJ	_	_	24	comp:obl	_	AlignBegin=186189|AlignEnd=186792
 27	[	[	PUNCT	_	_	30	punct	_	AlignBegin=186792|AlignEnd=186792
 28	{	{	PUNCT	_	_	30	punct	_	AlignBegin=186792|AlignEnd=186792
 29	everyting	everyting	PRON	_	_	30	subj	_	AlignBegin=186792|AlignEnd=187395
@@ -798,7 +798,7 @@
 34	}	}	PUNCT	_	_	30	punct	_	AlignBegin=189204|AlignEnd=189204
 35	dey	dey	VERB	_	_	33	comp:aux	_	AlignBegin=189204|AlignEnd=189807
 36	okay	okay	INTJ	_	_	35	comp:pred	_	AlignBegin=189807|AlignEnd=190410
-37	by	by	ADP	_	_	35	comp:obl	_	AlignBegin=190410|AlignEnd=191013
+37	by	by	ADP	_	_	36	mod	_	AlignBegin=190410|AlignEnd=191013
 38	your	your	PRON	_	_	39	mod:poss	_	AlignBegin=191013|AlignEnd=191616
 39	side	side	NOUN	_	_	37	comp:obj	_	AlignBegin=191616|AlignEnd=192220
 40	]	]	PUNCT	_	_	30	punct	_	AlignBegin=192220|AlignEnd=192220
@@ -809,8 +809,8 @@
 # text = and before you start di someting < you go don learn am { well |r well } from person { wey || wey } e dey professional //
 # text_en = And before you start the something, you would have learnt it very well from a person that... that is a professional.
 # text_ortho = And before you start di someting, you go don learn am well, well from person wey, wey e dey professional.
-1	and	and	CCONJ	_	_	9	cc	_	AlignBegin=192830|AlignEnd=193120
-2	before	before	ADP	_	_	9	mod:periph	_	AlignBegin=193120|AlignEnd=193411
+1	and	and	CCONJ	_	_	9	discourse	_	AlignBegin=192830|AlignEnd=193120
+2	before	before	ADP	_	_	9	mod:periph$tempb	_	AlignBegin=193120|AlignEnd=193411
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=193411|AlignEnd=193701
 4	start	start	VERB	_	_	2	comp:obj	_	AlignBegin=193701|AlignEnd=193992
 5	di	di	DET	_	_	6	det	_	AlignBegin=193992|AlignEnd=194282
@@ -864,7 +864,7 @@
 4	time	time	NOUN	_	_	2	comp:obj	_	AlignBegin=201255|AlignEnd=201591
 5	you	you	PRON	_	_	6	subj	_	AlignBegin=201591|AlignEnd=201927
 6	finish	finish	VERB	_	_	4	mod@relcl	_	AlignBegin=201927|AlignEnd=202264
-7	learning	learn	VERB	_	_	6	comp:obj	_	AlignBegin=202264|AlignEnd=202600
+7	learning	learn	VERB	_	_	6	comp:obj$phase@x	_	AlignBegin=202264|AlignEnd=202600
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=202600|AlignEnd=202600
 9	den	dem	ADV	_	_	12	mod:periph	_	AlignBegin=202600|AlignEnd=202936
 10	{	{	PUNCT	_	_	12	punct	_	AlignBegin=202936|AlignEnd=202936
@@ -881,7 +881,7 @@
 21	di	di	DET	_	_	22	det	_	AlignBegin=205291|AlignEnd=205627
 22	business	business	NOUN	_	_	20	comp:obj	_	AlignBegin=205627|AlignEnd=205963
 23	on	on	ADP	_	_	20	mod	_	AlignBegin=205963|AlignEnd=206300
-24	your	your	PRON	_	_	25	mod:poss	_	AlignBegin=206300|AlignEnd=206636
+24	your	your	ADJ	_	_	25	mod	_	AlignBegin=206300|AlignEnd=206636
 25	own	own	ADJ	_	_	23	comp:obj	_	AlignBegin=206636|AlignEnd=206973
 26	//	//	PUNCT	_	_	12	punct	_	AlignBegin=206973|AlignEnd=206973
 
@@ -891,9 +891,9 @@
 # text_en = So, and how to do the pop corn?
 # text_ortho = So and how to do di popcorn?
 1	so	so	ADV	_	_	3	discourse	_	AlignBegin=207194|AlignEnd=207717
-2	and	and	CCONJ	_	_	3	cc	_	AlignBegin=207717|AlignEnd=208240
+2	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=207717|AlignEnd=208240
 3	how	how	ADV	_	_	0	root	_	AlignBegin=208240|AlignEnd=208763
-4	to	to	ADP	_	_	3	mod	_	AlignBegin=208763|AlignEnd=209286
+4	to	to	ADP	_	_	3	mod@relcl	_	AlignBegin=208763|AlignEnd=209286
 5	do	do	VERB	_	_	4	comp:obj	_	AlignBegin=209286|AlignEnd=209809
 6	di	di	DET	_	_	7	det	_	AlignBegin=209809|AlignEnd=210332
 7	popcorn	popcorn	NOUN	_	_	5	comp:obj	_	AlignBegin=210332|AlignEnd=210856
@@ -904,19 +904,19 @@
 # text = when you plug your machine < after you plug am < { if di || if di } pot don hot < you just find one ehn { milk cup oil |c or small container } //
 # text_en = When you plug your machine, after you plug it, if the pot is hot enough, you will just get one ehn, milk cup or a small container.
 # text_ortho = When you plug your machine, after you plug am, if di, if di pot don hot, you just find one ehn milk cup oil, or small container,
-1	when	when	SCONJ	_	_	25	mod:periph	_	AlignBegin=211310|AlignEnd=211720
+1	when	when	ADV	_	_	25	mod:periph$tempo	_	AlignBegin=211310|AlignEnd=211720
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=211720|AlignEnd=212130
 3	plug	plug	VERB	_	_	1	comp:obj	_	AlignBegin=212130|AlignEnd=212541
 4	your	your	PRON	_	_	5	mod:poss	_	AlignBegin=212541|AlignEnd=212951
 5	machine	machine	NOUN	_	_	3	comp:obj	_	AlignBegin=212951|AlignEnd=213361
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=213361|AlignEnd=213361
-7	after	after	ADP	_	_	25	mod:periph	_	AlignBegin=213361|AlignEnd=213772
+7	after	after	ADP	_	_	25	mod:periph$tempa	_	AlignBegin=213361|AlignEnd=213772
 8	you	you	PRON	_	_	9	subj	_	AlignBegin=213772|AlignEnd=214182
 9	plug	plug	VERB	_	_	7	comp:obj	_	AlignBegin=214182|AlignEnd=214592
 10	am	am	PRON	_	_	9	comp:obj	_	AlignBegin=214592|AlignEnd=215003
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=215003|AlignEnd=215003
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=215003|AlignEnd=215003
-13	if	if	SCONJ	_	_	25	mod:periph	_	AlignBegin=215003|AlignEnd=215413
+13	if	if	SCONJ	_	_	25	mod:periph$cond	_	AlignBegin=215003|AlignEnd=215413
 14	di	di	DET	_	_	13	comp:obj@scrap	_	AlignBegin=215413|AlignEnd=215824
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=215824|AlignEnd=215824
 16	if	if	SCONJ	_	_	13	conj:dicto	_	AlignBegin=215824|AlignEnd=216234
@@ -969,7 +969,7 @@
 # text = when you put am for di pot < den you go come add ehn either { butter |c or groundnut oil } //
 # text_en = When you put it in the pot, then, you will now add ehn, either butter or groundnut oil.
 # text_ortho = When you put am for di pot, den you go come add ehn either butter, or groundnut oil.
-1	when	when	SCONJ	_	_	11	mod:periph	_	AlignBegin=227960|AlignEnd=228418
+1	when	when	ADV	_	_	11	mod:periph$tempo	_	AlignBegin=227960|AlignEnd=228418
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=228418|AlignEnd=228876
 3	put	put	VERB	_	_	1	comp:obj	_	AlignBegin=228876|AlignEnd=229334
 4	am	am	PRON	_	_	3	comp:obj	_	AlignBegin=229334|AlignEnd=229792
@@ -983,7 +983,7 @@
 12	come	come	AUX	_	_	11	comp:aux	_	AlignBegin=232541|AlignEnd=232999
 13	add	add	VERB	_	_	12	comp:aux	_	AlignBegin=232999|AlignEnd=233457
 14	ehn	ehn	INTJ	_	_	17	discourse	_	AlignBegin=233457|AlignEnd=233915
-15	either	either	PUNCT	_	_	17	mod	_	AlignBegin=233915|AlignEnd=234373
+15	either	either	CCONJ	_	_	17	cc	_	AlignBegin=233915|AlignEnd=234373
 16	{	{	PUNCT	_	_	17	punct	_	AlignBegin=234373|AlignEnd=234373
 17	butter	butter	NOUN	_	_	13	comp:obj	_	AlignBegin=234373|AlignEnd=234831
 18	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=234831|AlignEnd=234831
@@ -1038,8 +1038,8 @@
 17	you	you	PRON	_	_	18	subj	_	AlignBegin=247406|AlignEnd=247737
 18	go	go	AUX	_	_	15	conj:dicto	_	AlignBegin=247737|AlignEnd=248069
 19	}	}	PUNCT	_	_	15	punct	_	AlignBegin=248069|AlignEnd=248069
-20	come	come	VERB	_	_	18	comp:aux	_	AlignBegin=248069|AlignEnd=248400
-21	add	add	VERB	_	_	20	comp:obj@x	_	AlignBegin=248400|AlignEnd=248732
+20	come	come	AUX	_	_	18	comp:aux	_	AlignBegin=248069|AlignEnd=248400
+21	add	add	VERB	_	_	20	comp:aux	_	AlignBegin=248400|AlignEnd=248732
 22	sugar	sugar	NOUN	_	_	21	comp:obj	_	AlignBegin=248732|AlignEnd=249064
 23	//	//	PUNCT	_	_	15	punct	_	AlignBegin=249064|AlignEnd=249064
 
@@ -1048,7 +1048,7 @@
 # text = when you add di sugar < so { it || it || it } is now di sugar dat will make ehn di pop corn to sweet very well //
 # text_en = When you add the sugar, so, it... it... it is now the sugar that will make ehn, the pop corn to be very sweet.
 # text_ortho = When you add di sugar, so it, it, it is now di sugar dat will make ehn di pop corn to sweet very well.
-1	when	when	SCONJ	_	_	15	mod:periph	_	AlignBegin=249286|AlignEnd=249584
+1	when	when	ADV	_	_	15	mod:periph$tempo	_	AlignBegin=249286|AlignEnd=249584
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=249584|AlignEnd=249882
 3	add	add	VERB	_	_	1	comp:obj	_	AlignBegin=249882|AlignEnd=250180
 4	di	di	DET	_	_	5	det	_	AlignBegin=250180|AlignEnd=250478
@@ -1073,10 +1073,10 @@
 23	di	di	DET	_	_	25	det	_	AlignBegin=254354|AlignEnd=254653
 24	pop	pop	NOUN	_	_	25	compound	_	AlignBegin=254653|AlignEnd=254951
 25	corn	corn	NOUN	_	_	21	comp:obj	_	AlignBegin=254951|AlignEnd=255249
-26	to	to	ADP	_	_	21	comp:obl@x	_	AlignBegin=255249|AlignEnd=255547
+26	to	to	ADP	_	_	21	mod	_	AlignBegin=255249|AlignEnd=255547
 27	sweet	sweet	ADJ	_	_	26	comp:obj	_	AlignBegin=255547|AlignEnd=255845
 28	very	very	ADV	_	_	29	mod	_	AlignBegin=255845|AlignEnd=256143
-29	well	well	ADV	_	_	27	mod	_	AlignBegin=256143|AlignEnd=256442
+29	well	well	ADV	_	_	26	mod	_	AlignBegin=256143|AlignEnd=256442
 30	//	//	PUNCT	_	_	15	punct	_	AlignBegin=256442|AlignEnd=256442
 
 # sent_id = IBA_12_Pop-Corn_M__41
@@ -1085,8 +1085,8 @@
 # text_en = Or if you... if you like adding ehn, salt or ehn, honey, it is the same process.
 # text_ortho = Or if you, or if you like adding ehn salt, or ehn honey, it's di same process.
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=257402|AlignEnd=257402
-2	or	or	CCONJ	_	_	21	cc	_	AlignBegin=257402|AlignEnd=257926|Lang=en
-3	if	if	SCONJ	_	_	21	mod:periph	_	AlignBegin=257926|AlignEnd=258450|Lang=en
+2	or	or	CCONJ	_	_	21	discourse	_	AlignBegin=257402|AlignEnd=257926|Lang=en
+3	if	if	SCONJ	_	_	21	mod:periph$cond	_	AlignBegin=257926|AlignEnd=258450|Lang=en
 4	you	you	PRON	_	_	3	comp:obj@scrap	_	AlignBegin=258450|AlignEnd=258974|Lang=en
 5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=258974|AlignEnd=258974
 6	or	or	CCONJ	_	_	7	cc	_	AlignBegin=258974|AlignEnd=259498|Lang=en
@@ -1094,7 +1094,7 @@
 8	you	you	PRON	_	_	10	subj	_	AlignBegin=260022|AlignEnd=260546|Lang=en
 9	}	}	PUNCT	_	_	3	punct	_	AlignBegin=260546|AlignEnd=260546
 10	like	like	VERB	_	_	7	comp:obj	_	AlignBegin=260546|AlignEnd=261070|Lang=en
-11	adding	add	VERB	_	_	10	comp:obj@x	_	AlignBegin=261070|AlignEnd=261594|Lang=en
+11	adding	add	VERB	_	_	10	comp:obj	_	AlignBegin=261070|AlignEnd=261594|Lang=en
 12	ehn	ehn	INTJ	_	_	14	discourse	_	AlignBegin=261594|AlignEnd=262118|Lang=en
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=262118|AlignEnd=262118
 14	salt	salt	NOUN	_	_	11	comp:obj	_	AlignBegin=262118|AlignEnd=262642|Lang=en
@@ -1104,7 +1104,7 @@
 18	honey	honey	NOUN	_	_	14	conj:coord	_	AlignBegin=263690|AlignEnd=264214|Lang=en
 19	}	}	PUNCT	_	_	14	punct	_	AlignBegin=264214|AlignEnd=264214
 20	<	<	PUNCT	_	_	3	punct	_	AlignBegin=264214|AlignEnd=264214
-21	it's	it's	PART	_	_	0	root	_	AlignBegin=264214|AlignEnd=264738|Lang=en
+21	it's	it's	PRON	_	_	0	root	_	AlignBegin=264214|AlignEnd=264738|Lang=en
 22	di	di	DET	_	_	24	det	_	AlignBegin=264738|AlignEnd=265262|Lang=en
 23	same	same	ADJ	_	_	24	mod	_	AlignBegin=265262|AlignEnd=265786|Lang=en
 24	process	process	NOUN	_	_	21	comp:pred	_	AlignBegin=265786|AlignEnd=266311|Lang=en
@@ -1115,7 +1115,7 @@
 # text = when you { take ehn || start } { wit di || wit di } mstchew either { groundnut oil |c { or || or } butter } < so it's di same process //
 # text_en = When you use ehn... start with the... with the mstchew either groundnut oil or... or butter, so, it is the same process.
 # text_ortho = When you take ehn, start wit di, wit di mstchew either groundnut oil, or, or butter, so it's di same process.
-1	when	when	SCONJ	_	_	31	mod:periph	_	AlignBegin=267249|AlignEnd=267741|Lang=en
+1	when	when	ADV	_	_	31	mod:periph$tempo	_	AlignBegin=267249|AlignEnd=267741|Lang=en
 2	you	you	PRON	_	_	4	subj	_	AlignBegin=267741|AlignEnd=268234|Lang=en
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=268234|AlignEnd=268234
 4	take	take	VERB	_	_	1	comp:obj	_	AlignBegin=268234|AlignEnd=268727|Lang=en
@@ -1128,13 +1128,13 @@
 11	di	di	DET	_	_	10	comp:obj@scrap	_	AlignBegin=270205|AlignEnd=270698|Lang=en
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=270698|AlignEnd=270698
 13	wit	wit	ADP	_	_	10	conj:dicto	_	AlignBegin=270698|AlignEnd=271190|Lang=en
-14	di	di	DET	_	_	13	unk@fixed	_	AlignBegin=271190|AlignEnd=271683|Lang=en
+14	di	di	DET	_	_	20	det	_	AlignBegin=271190|AlignEnd=271683|Lang=en
 15	}	}	PUNCT	_	_	10	punct	_	AlignBegin=271683|AlignEnd=271683
-16	mstchew	mstchew	INTJ	_	_	7	discourse	_	AlignBegin=271683|AlignEnd=272176|Lang=en
-17	either	either	ADV	_	_	20	mod	_	AlignBegin=272176|AlignEnd=272668|Lang=en
+16	mstchew	mstchew	INTJ	_	_	20	discourse	_	AlignBegin=271683|AlignEnd=272176|Lang=en
+17	either	either	CCONJ	_	_	20	cc	_	AlignBegin=272176|AlignEnd=272668|Lang=en
 18	{	{	PUNCT	_	_	20	punct	_	AlignBegin=272668|AlignEnd=272668
 19	groundnut	groundnut	NOUN	_	_	20	compound	_	AlignBegin=272668|AlignEnd=273161|Lang=en
-20	oil	oil	NOUN	_	_	7	comp:obj	_	AlignBegin=273161|AlignEnd=273654|Lang=en
+20	oil	oil	NOUN	_	_	7	comp:obj@agent	_	AlignBegin=273161|AlignEnd=273654|Lang=en
 21	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=273654|AlignEnd=273654
 22	{	{	PUNCT	_	_	23	punct	_	AlignBegin=273654|AlignEnd=273654
 23	or	or	CCONJ	_	_	27	cc	_	AlignBegin=273654|AlignEnd=274147|Lang=en
@@ -1145,7 +1145,7 @@
 28	}	}	PUNCT	_	_	20	punct	_	AlignBegin=275132|AlignEnd=275132
 29	<	<	PUNCT	_	_	1	punct	_	AlignBegin=275132|AlignEnd=275132
 30	so	so	ADV	_	_	31	discourse	_	AlignBegin=275132|AlignEnd=275625|Lang=en
-31	it's	it's	PART	_	_	0	root	_	AlignBegin=275625|AlignEnd=276117|Lang=en
+31	it's	it's	PRON	_	_	0	root	_	AlignBegin=275625|AlignEnd=276117|Lang=en
 32	di	di	DET	_	_	34	det	_	AlignBegin=276117|AlignEnd=276610|Lang=en
 33	same	same	ADJ	_	_	34	mod	_	AlignBegin=276610|AlignEnd=277103|Lang=en
 34	process	process	NOUN	_	_	31	comp:pred	_	AlignBegin=277103|AlignEnd=277596|Lang=en
@@ -1175,19 +1175,19 @@
 17	di	di	DET	_	_	18	det	_	AlignBegin=283881|AlignEnd=284286
 18	sugar	sugar	NOUN	_	_	15	comp:obj	_	AlignBegin=284286|AlignEnd=284692
 19	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=284692|AlignEnd=284692
-20	either	either	DET	_	_	21	mod	_	AlignBegin=284692|AlignEnd=285097
+20	either	either	CCONJ	_	_	21	cc	_	AlignBegin=284692|AlignEnd=285097
 21	salt	salt	NOUN	_	_	18	conj:coord	_	AlignBegin=285097|AlignEnd=285503
 22	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=285503|AlignEnd=285503
 23	or	or	CCONJ	_	_	24	cc	_	AlignBegin=285503|AlignEnd=285908
-24	eida	eida	CCONJ	_	_	21	conj:coord	_	AlignBegin=285908|AlignEnd=286313
-25	&	&	PUNCT	_	_	27	punct	_	AlignBegin=286313|AlignEnd=286313
+24	eida	eida	NOUN	_	_	32	conj:dicto	_	AlignBegin=285908|AlignEnd=286313
+25	&	&	PUNCT	_	_	13	punct	_	AlignBegin=286313|AlignEnd=286313
 26	}	}	PUNCT	_	_	18	punct	_	AlignBegin=286313|AlignEnd=286313
 27	depending	depend	VERB	_	_	15	mod	_	AlignBegin=286313|AlignEnd=286719
 28	di	di	DET	_	_	29	det	_	AlignBegin=286719|AlignEnd=287124
 29	choice	choice	NOUN	_	_	27	comp:obj	_	AlignBegin=287124|AlignEnd=287530
 30	{	{	PUNCT	_	_	32	punct	_	AlignBegin=287530|AlignEnd=287530
 31	you	you	PRON	_	_	32	subj	_	AlignBegin=287530|AlignEnd=287935
-32	want	want	VERB	_	_	27	parataxis:obj	_	AlignBegin=287935|AlignEnd=288340
+32	want	want	VERB	_	_	27	comp:obj	_	AlignBegin=287935|AlignEnd=288340
 33	|c	|c	PUNCT	_	_	36	punct	_	AlignBegin=288340|AlignEnd=288340
 34	you	you	PRON	_	_	36	subj	_	AlignBegin=288340|AlignEnd=288746
 35	really	really	ADV	_	_	36	mod	_	AlignBegin=288746|AlignEnd=289151
@@ -1200,7 +1200,7 @@
 # text = so dat is it //= dat is how to make pop corn //
 # text_en = So, that is it; that is how to make pop corn.
 # text_ortho = So dat is it, dat is how to make pop corn.
-1	so	so	ADV	_	_	3	discourse	_	AlignBegin=290537|AlignEnd=290750|Lang=en
+1	so	so	SCONJ	_	_	3	discourse	_	AlignBegin=290537|AlignEnd=290750|Lang=en
 2	dat	dat	PRON	_	_	3	subj	_	AlignBegin=290750|AlignEnd=290964|Lang=en
 3	is	is	VERB	_	_	0	root	_	AlignBegin=290964|AlignEnd=291177|Lang=en
 4	it	it	PRON	_	_	3	comp:pred	_	AlignBegin=291177|AlignEnd=291391|Lang=en
@@ -1208,7 +1208,7 @@
 6	dat	dat	PRON	_	_	7	subj	_	AlignBegin=291391|AlignEnd=291605|Lang=en
 7	is	is	VERB	_	_	3	parataxis:conj	_	AlignBegin=291605|AlignEnd=291818|Lang=en
 8	how	how	ADV	_	_	7	comp:pred	_	AlignBegin=291818|AlignEnd=292032|Lang=en
-9	to	to	ADP	_	_	8	mod	_	AlignBegin=292032|AlignEnd=292246|Lang=en
+9	to	to	ADP	_	_	8	mod@relcl	_	AlignBegin=292032|AlignEnd=292246|Lang=en
 10	make	make	VERB	_	_	9	comp:obj	_	AlignBegin=292246|AlignEnd=292459|Lang=en
 11	pop	pop	NOUN	_	_	12	compound	_	AlignBegin=292459|AlignEnd=292673|Lang=en
 12	corn	corn	NOUN	_	_	10	comp:obj	_	AlignBegin=292673|AlignEnd=292887|Lang=en
@@ -1219,22 +1219,22 @@
 # text = and if you dey do am < if di smell dey perceive around < so it is den >+ di customer go dey come //
 # text_en = And if you are frying it, if the flavour is perceived around, so, it is then the customers will be coming.
 # text_ortho = And if you dey do am, if di smell dey perceive around, so it is den di customer go dey come.
-1	and	and	CCONJ	_	_	17	cc	_	AlignBegin=295518|AlignEnd=295880
-2	if	if	SCONJ	_	_	17	mod:periph	_	AlignBegin=295880|AlignEnd=296242
+1	and	and	CCONJ	_	_	17	discourse	_	AlignBegin=295518|AlignEnd=295880
+2	if	if	SCONJ	_	_	17	mod:periph$cond	_	AlignBegin=295880|AlignEnd=296242
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=296242|AlignEnd=296605
 4	dey	dey	AUX	_	_	2	comp:obj	_	AlignBegin=296605|AlignEnd=296967
 5	do	do	VERB	_	_	4	comp:aux	_	AlignBegin=296967|AlignEnd=297330
 6	am	am	PRON	_	_	5	comp:obj	_	AlignBegin=297330|AlignEnd=297692
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=297692|AlignEnd=297692
-8	if	if	SCONJ	_	_	17	mod:periph	_	AlignBegin=297692|AlignEnd=298055
+8	if	if	SCONJ	_	_	17	mod:periph$cond	_	AlignBegin=297692|AlignEnd=298055
 9	di	di	DET	_	_	10	det	_	AlignBegin=298055|AlignEnd=298417
 10	smell	smell	NOUN	_	_	11	subj	_	AlignBegin=298417|AlignEnd=298779
 11	dey	dey	AUX	_	_	8	comp:obj	_	AlignBegin=298779|AlignEnd=299142
 12	perceive	perceive	VERB	_	_	11	comp:aux	_	AlignBegin=299142|AlignEnd=299504
-13	around	around	ADP	_	_	12	compound:prt	_	AlignBegin=299504|AlignEnd=299867
+13	around	around	ADP	_	_	12	mod	_	AlignBegin=299504|AlignEnd=299867
 14	<	<	PUNCT	_	_	8	punct	_	AlignBegin=299867|AlignEnd=299867
-15	so	so	ADV	_	_	17	cc	_	AlignBegin=299867|AlignEnd=300229|Lang=en
-16	it	it	PRON	_	_	17	subj@expl	_	AlignBegin=300229|AlignEnd=300592|Lang=en
+15	so	so	ADV	_	_	8	discourse	_	AlignBegin=299867|AlignEnd=300229|Lang=en
+16	it	it	PRON	_	_	17	subj	_	AlignBegin=300229|AlignEnd=300592|Lang=en
 17	is	is	VERB	_	_	0	root	_	AlignBegin=300592|AlignEnd=300954|Lang=en
 18	den	dem	ADV	_	_	17	comp:pred	_	AlignBegin=300954|AlignEnd=301316|Lang=en
 19	>+	>+	PUNCT	_	_	22	punct	_	AlignBegin=301316|AlignEnd=301316
@@ -1250,51 +1250,51 @@
 # text = but if you get di pop corn already made < if get am ground < if you no dey do am < customer no dey too dey come like dat //
 # text_en = But if you get the pop corn already made, if you get it already made, if you are not frying it, customers will not be patronizing you as such.
 # text_ortho = But if you get di pop corn already made, if get am ground, if you no dey do am, customer no dey too dey come like dat,
-1	but	but	CCONJ	_	_	25	cc	_	AlignBegin=303338|AlignEnd=303613
-2	if	if	SCONJ	_	_	25	mod:periph	_	AlignBegin=303613|AlignEnd=303889
+1	but	but	CCONJ	_	_	24	discourse	_	AlignBegin=303338|AlignEnd=303613
+2	if	if	SCONJ	_	_	24	mod:periph$cond	_	AlignBegin=303613|AlignEnd=303889
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=303889|AlignEnd=304165
 4	get	get	VERB	_	_	2	comp:obj	_	AlignBegin=304165|AlignEnd=304441
 5	di	di	DET	_	_	7	det	_	AlignBegin=304441|AlignEnd=304717
 6	pop	pop	NOUN	_	_	7	compound	_	AlignBegin=304717|AlignEnd=304993
 7	corn	corn	NOUN	_	_	4	comp:obj	_	AlignBegin=304993|AlignEnd=305269
-8	already	already	ADV	_	_	4	mod	_	AlignBegin=305269|AlignEnd=305545
+8	already	already	ADV	_	_	9	mod	_	AlignBegin=305269|AlignEnd=305545
 9	made	make	VERB	_	_	4	compound:svc	_	AlignBegin=305545|AlignEnd=305821
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=305821|AlignEnd=305821
-11	if	if	SCONJ	_	_	25	mod:periph	_	AlignBegin=305821|AlignEnd=306097
+11	if	if	SCONJ	_	_	24	mod:periph$cond	_	AlignBegin=305821|AlignEnd=306097
 12	get	get	VERB	_	_	11	comp:obj	_	AlignBegin=306097|AlignEnd=306373
-13	am	am	PRON	_	_	12	comp:obj	_	AlignBegin=306373|AlignEnd=306649
+13	am	am	PRON	_	_	12	comp:obl	_	AlignBegin=306373|AlignEnd=306649
 14	ground	ground	NOUN	_	_	12	comp:obj	_	AlignBegin=306649|AlignEnd=306925
 15	<	<	PUNCT	_	_	11	punct	_	AlignBegin=306925|AlignEnd=306925
-16	if	if	SCONJ	_	_	25	mod:periph	_	AlignBegin=306925|AlignEnd=307201
-17	you	you	PRON	_	_	19	subj	_	AlignBegin=307201|AlignEnd=307477
-18	no	no	PART	_	_	19	mod	_	AlignBegin=307477|AlignEnd=307753
-19	dey	dey	AUX	_	_	16	comp:obj	_	AlignBegin=307753|AlignEnd=308029
+16	if	if	SCONJ	_	_	24	mod:periph$cond	_	AlignBegin=306925|AlignEnd=307201
+17	you	you	PRON	_	_	18	subj	_	AlignBegin=307201|AlignEnd=307477
+18	no	no	AUX	_	_	16	comp:obj	_	AlignBegin=307477|AlignEnd=307753
+19	dey	dey	AUX	_	_	18	comp:aux	_	AlignBegin=307753|AlignEnd=308029
 20	do	do	VERB	_	_	19	comp:aux	_	AlignBegin=308029|AlignEnd=308305
 21	am	am	PRON	_	_	20	comp:obj	_	AlignBegin=308305|AlignEnd=308581
 22	<	<	PUNCT	_	_	16	punct	_	AlignBegin=308581|AlignEnd=308581
-23	customer	customer	NOUN	_	_	25	subj	_	AlignBegin=308581|AlignEnd=308857
-24	no	no	PART	_	_	25	mod	_	AlignBegin=308857|AlignEnd=309133
-25	dey	dey	AUX	_	_	0	root	_	AlignBegin=309133|AlignEnd=309409
+23	customer	customer	NOUN	_	_	24	subj	_	AlignBegin=308581|AlignEnd=308857
+24	no	no	AUX	_	_	0	root	_	AlignBegin=308857|AlignEnd=309133
+25	dey	dey	AUX	_	_	24	comp:aux	_	AlignBegin=309133|AlignEnd=309409
 26	too	too	ADV	_	_	27	mod	_	AlignBegin=309409|AlignEnd=309685
 27	dey	dey	AUX	_	_	25	comp:aux	_	AlignBegin=309685|AlignEnd=309961
 28	come	come	VERB	_	_	27	comp:aux	_	AlignBegin=309961|AlignEnd=310237
-29	like	like	ADP	_	_	28	mod	_	AlignBegin=310237|AlignEnd=310513
+29	like	like	ADP	_	_	28	comp:obl	_	AlignBegin=310237|AlignEnd=310513
 30	dat	dat	PRON	_	_	29	comp:obj	_	AlignBegin=310513|AlignEnd=310789
-31	//	//	PUNCT	_	_	25	punct	_	AlignBegin=310789|AlignEnd=310789
+31	//	//	PUNCT	_	_	24	punct	_	AlignBegin=310789|AlignEnd=310789
 
 # sent_id = IBA_12_Pop-Corn_M__47
 # speaker_id = Sp378
 # text = but if you dey do am < when people dey hear di smell < na so >+ dem go dey come //
 # text_en = But if you are frying it, when people perceive the smell, it is then they will be coming.
 # text_ortho = But if you dey do am, when people dey hear di smell, na so dem go dey come.
-1	but	but	CCONJ	_	_	15	cc	_	AlignBegin=310789|AlignEnd=311001
-2	if	if	SCONJ	_	_	15	mod:periph	_	AlignBegin=311001|AlignEnd=311214
+1	but	but	CCONJ	_	_	15	discourse	_	AlignBegin=310789|AlignEnd=311001
+2	if	if	SCONJ	_	_	15	mod:periph$cond	_	AlignBegin=311001|AlignEnd=311214
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=311214|AlignEnd=311427
 4	dey	dey	AUX	_	_	2	comp:obj	_	AlignBegin=311427|AlignEnd=311640
 5	do	do	VERB	_	_	4	comp:aux	_	AlignBegin=311640|AlignEnd=311853
 6	am	am	PRON	_	_	5	comp:obj	_	AlignBegin=311853|AlignEnd=312066
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=312066|AlignEnd=312066
-8	when	when	SCONJ	_	_	15	mod:periph	_	AlignBegin=312066|AlignEnd=312279
+8	when	when	ADV	_	_	15	mod:periph$tempo	_	AlignBegin=312066|AlignEnd=312279
 9	people	people	NOUN	_	_	10	subj	_	AlignBegin=312279|AlignEnd=312492
 10	dey	dey	AUX	_	_	8	comp:obj	_	AlignBegin=312492|AlignEnd=312705
 11	hear	hear	VERB	_	_	10	comp:aux	_	AlignBegin=312705|AlignEnd=312918
@@ -1328,7 +1328,7 @@
 # text_ortho = I dey Ondo State before, before I come for Ibadan, come do di business.
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=323272|AlignEnd=323549
 2	dey	dey	VERB	_	_	0	root	_	AlignBegin=323549|AlignEnd=323826
-3	Ondo	Ondo	PROPN	_	_	4	compound	_	AlignBegin=323826|AlignEnd=324104
+3	Ondo	Ondo	PROPN	_	_	2	comp:pred	_	AlignBegin=323826|AlignEnd=324104
 4	State	State	NOUN	_	_	2	comp:pred	_	AlignBegin=324104|AlignEnd=324381
 5	>	>	PUNCT	_	_	7	punct	_	AlignBegin=324381|AlignEnd=324381
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=324381|AlignEnd=324381
@@ -1338,12 +1338,12 @@
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=324936|AlignEnd=324936
 11	I	I	PRON	_	_	13	subj	_	AlignBegin=324936|AlignEnd=325213
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=325213|AlignEnd=325213
-13	come	come	VERB	_	_	2	conj:coord	_	AlignBegin=325213|AlignEnd=325490
+13	come	come	VERB	_	_	2	comp:cleft	_	AlignBegin=325213|AlignEnd=325490
 14	for	for	ADP	_	_	13	comp:obl	_	AlignBegin=325490|AlignEnd=325768
 15	Ibadan	Ibadan	PROPN	_	_	14	comp:obj	_	AlignBegin=325768|AlignEnd=326045
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=326045|AlignEnd=326045
 17	come	come	VERB	_	_	13	conj:coord	_	AlignBegin=326045|AlignEnd=326322
-18	do	do	VERB	_	_	17	comp:obj@x	_	AlignBegin=326322|AlignEnd=326600
+18	do	do	VERB	_	_	17	compound:svc$purp	_	AlignBegin=326322|AlignEnd=326600
 19	di	di	DET	_	_	20	det	_	AlignBegin=326600|AlignEnd=326877
 20	business	business	NOUN	_	_	18	comp:obj	_	AlignBegin=326877|AlignEnd=327155
 21	}	}	PUNCT	_	_	13	punct	_	AlignBegin=327155|AlignEnd=327155
@@ -1357,9 +1357,9 @@
 1	I	I	PRON	_	_	2	subj	_	AlignBegin=329294|AlignEnd=329522
 2	dey	dey	AUX	_	_	0	root	_	AlignBegin=329522|AlignEnd=329750
 3	go	go	VERB	_	_	2	comp:aux	_	AlignBegin=329750|AlignEnd=329978
-4	school	school	NOUN	_	_	3	comp:obj	_	AlignBegin=329978|AlignEnd=330206
-5	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=330206|AlignEnd=330434
-6	Ondo	Ondo	PROPN	_	_	7	compound	_	AlignBegin=330434|AlignEnd=330662
+4	school	school	NOUN	_	_	3	comp:obl	_	AlignBegin=329978|AlignEnd=330206
+5	for	for	ADP	_	_	3	mod	_	AlignBegin=330206|AlignEnd=330434
+6	Ondo	Ondo	PROPN	_	_	5	comp:obj	_	AlignBegin=330434|AlignEnd=330662
 7	State	State	NOUN	_	_	5	comp:obj	_	AlignBegin=330662|AlignEnd=330891
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=330891|AlignEnd=330891
 
@@ -1370,19 +1370,19 @@
 # text_ortho = So after when I finish school, na im I come for Ibadan come find job.
 1	so	so	ADV	_	_	8	discourse	_	AlignBegin=331318|AlignEnd=331595
 2	after	after	ADP	_	_	8	mod:periph	_	AlignBegin=331595|AlignEnd=331873
-3	when	when	SCONJ	_	_	2	comp:obj	_	AlignBegin=331873|AlignEnd=332151
+3	when	when	ADV	_	_	2	comp:obj	_	AlignBegin=331873|AlignEnd=332151
 4	I	I	PRON	_	_	5	subj	_	AlignBegin=332151|AlignEnd=332429
 5	finish	finish	VERB	_	_	3	mod@relcl	_	AlignBegin=332429|AlignEnd=332707
 6	school	school	NOUN	_	_	5	comp:obj	_	AlignBegin=332707|AlignEnd=332985
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=332985|AlignEnd=332985
 8	na	na	PART	_	_	0	root	_	AlignBegin=332985|AlignEnd=333263
-9	im	im	PRON	_	_	8	comp:pred@fixed	_	AlignBegin=333263|AlignEnd=333541
+9	im	im	PRON	_	_	8	comp:pred	_	AlignBegin=333263|AlignEnd=333541
 10	>+	>+	PUNCT	_	_	12	punct	_	AlignBegin=333541|AlignEnd=333541
 11	I	I	PRON	_	_	12	subj	_	AlignBegin=333541|AlignEnd=333819
 12	come	come	VERB	_	_	8	comp:cleft	_	AlignBegin=333819|AlignEnd=334097
 13	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=334097|AlignEnd=334375
 14	Ibadan	Ibadan	PROPN	_	_	13	comp:obj	_	AlignBegin=334375|AlignEnd=334653
-15	come	come	AUX	_	_	12	mod	_	AlignBegin=334653|AlignEnd=334931
+15	come	come	AUX	_	_	12	mod$purp	_	AlignBegin=334653|AlignEnd=334931
 16	find	find	VERB	_	_	15	comp:aux	_	AlignBegin=334931|AlignEnd=335209
 17	job	job	NOUN	_	_	16	comp:obj	_	AlignBegin=335209|AlignEnd=335487
 18	//	//	PUNCT	_	_	8	punct	_	AlignBegin=335487|AlignEnd=335487
@@ -1392,7 +1392,7 @@
 # text = before I come see dis opportunity < just grab am //
 # text_en = Before I came across this opportunity and I just grabbed it.
 # text_ortho = Before I come see dis opportunity, just grab am.
-1	before	before	ADP	_	_	9	mod:periph	_	AlignBegin=335499|AlignEnd=335823
+1	before	before	ADP	_	_	9	mod:periph$tempb	_	AlignBegin=335499|AlignEnd=335823
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=335823|AlignEnd=336148
 3	come	come	AUX	_	_	1	comp:obj	_	AlignBegin=336148|AlignEnd=336473
 4	see	see	VERB	_	_	3	comp:aux	_	AlignBegin=336473|AlignEnd=336797
@@ -1417,16 +1417,16 @@
 # text = I no be di person wey dey do am //
 # text_en = I'm not the one that does it.
 # text_ortho = I no be di person wey dey do am.
-1	I	I	PRON	_	_	3	subj	_	AlignBegin=344480|AlignEnd=344695
-2	no	no	PART	_	_	3	mod	_	AlignBegin=344695|AlignEnd=344911
-3	be	be	VERB	_	_	0	root	_	AlignBegin=344911|AlignEnd=345126
+1	I	I	PRON	_	_	2	subj	_	AlignBegin=344480|AlignEnd=344695
+2	no	no	AUX	_	_	0	root	_	AlignBegin=344695|AlignEnd=344911
+3	be	be	VERB	_	_	2	comp:aux	_	AlignBegin=344911|AlignEnd=345126
 4	di	di	DET	_	_	5	det	_	AlignBegin=345126|AlignEnd=345342
 5	person	person	NOUN	_	_	3	comp:pred	_	AlignBegin=345342|AlignEnd=345557
 6	wey	wey	SCONJ	_	_	5	mod@relcl	_	AlignBegin=345557|AlignEnd=345773
 7	dey	dey	AUX	_	_	6	comp:obj	_	AlignBegin=345773|AlignEnd=345988
 8	do	do	VERB	_	_	7	comp:aux	_	AlignBegin=345988|AlignEnd=346204
 9	am	am	PRON	_	_	8	comp:obj	_	AlignBegin=346204|AlignEnd=346420
-10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=346420|AlignEnd=346420
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=346420|AlignEnd=346420
 
 # sent_id = IBA_12_Pop-Corn_M__55
 # speaker_id = Sp378
@@ -1441,11 +1441,11 @@
 # text = how di money { de~ || dey } enter < it depends how & //
 # text_en = How the money is... is entering, it depends on how...
 # text_ortho = How di money de-... dey enter, it depends how...
-1	how	how	ADV	_	_	12	comp:obj	_	AlignBegin=351433|AlignEnd=351806
+1	how	how	ADV	_	_	12	dislocated	_	AlignBegin=351433|AlignEnd=351806
 2	di	di	DET	_	_	3	det	_	AlignBegin=351806|AlignEnd=352179
-3	money	money	NOUN	_	_	12	dislocated	_	AlignBegin=352179|AlignEnd=352552
+3	money	money	NOUN	_	_	5	subj	_	AlignBegin=352179|AlignEnd=352552
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=352552|AlignEnd=352552
-5	de~	X	PRON	_	_	1	mod@relcl	_	AlignBegin=352552|AlignEnd=352925
+5	de~	X	X	_	_	1	mod@relcl	_	AlignBegin=352552|AlignEnd=352925
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=352925|AlignEnd=352925
 7	dey	dey	AUX	_	_	5	conj:dicto	_	AlignBegin=352925|AlignEnd=353298
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=353298|AlignEnd=353298
@@ -1463,12 +1463,12 @@
 # text_en = Ehn, as you make sales, as customers are coming, that is how the money will be entering.
 # text_ortho = Ehn as you dey sell, as customer dey come, na so di money go dey enter.
 1	ehn	ehn	INTJ	_	_	12	discourse	_	AlignBegin=354790|AlignEnd=355142
-2	as	as	ADP	_	_	12	mod:periph	_	AlignBegin=355142|AlignEnd=355494
+2	as	as	ADP	_	_	12	mod:periph$tempo	_	AlignBegin=355142|AlignEnd=355494
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=355494|AlignEnd=355847
 4	dey	dey	AUX	_	_	2	comp:obj	_	AlignBegin=355847|AlignEnd=356199
 5	sell	sell	VERB	_	_	4	comp:aux	_	AlignBegin=356199|AlignEnd=356551
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=356551|AlignEnd=356551
-7	as	as	ADP	_	_	12	mod:periph	_	AlignBegin=356551|AlignEnd=356904
+7	as	as	ADP	_	_	12	mod:periph$tempo	_	AlignBegin=356551|AlignEnd=356904
 8	customer	customer	NOUN	_	_	9	subj	_	AlignBegin=356904|AlignEnd=357256
 9	dey	dey	AUX	_	_	7	comp:obj	_	AlignBegin=357256|AlignEnd=357609
 10	come	come	VERB	_	_	9	comp:aux	_	AlignBegin=357609|AlignEnd=357961
