@@ -4,7 +4,7 @@
 # text = all my people < we don show for di background right here for inside di station wey dey Rock Solid 100.9 FM //
 # text_en = All my people, we have appeared on the background, right here in the station that is rocking Solid one hundred point nine FM.
 # text_ortho = All my people, we don show for di background right here for inside di station wey dey Rock Solid 100.9 FM.
-1	all	all	DET	_	_	3	mod	_	AlignBegin=1440|AlignEnd=1703
+1	all	all	ADV	_	_	3	mod	_	AlignBegin=1440|AlignEnd=1703
 2	my	my	PRON	_	_	3	mod:poss	_	AlignBegin=1703|AlignEnd=1967
 3	people	people	NOUN	_	_	6	dislocated	_	AlignBegin=1967|AlignEnd=2231
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=2231|AlignEnd=2231
@@ -16,14 +16,14 @@
 10	background	background	NOUN	_	_	8	comp:obj	_	AlignBegin=3550|AlignEnd=3814
 11	right	right	ADV	_	_	12	mod	_	AlignBegin=3814|AlignEnd=4078
 12	here	here	ADV	_	_	7	mod	_	AlignBegin=4078|AlignEnd=4341
-13	for	for	ADP	_	_	7	comp:obl	_	AlignBegin=4341|AlignEnd=4605
-14	inside	inside	ADP	_	_	13	comp:obj	_	AlignBegin=4605|AlignEnd=4869
+13	for	for	ADP	_	_	7	mod	_	AlignBegin=4341|AlignEnd=4605
+14	inside	inside	ADP	_	_	13	unk@fixed	_	AlignBegin=4605|AlignEnd=4869
 15	di	di	DET	_	_	16	det	_	AlignBegin=4869|AlignEnd=5133
-16	station	station	NOUN	_	_	13	comp:obj	_	AlignBegin=5133|AlignEnd=5397
-17	wey	wey	SCONJ	_	_	16	mod:relcl	_	AlignBegin=5397|AlignEnd=5660
+16	station	station	NOUN	_	_	14	comp:obj	_	AlignBegin=5133|AlignEnd=5397
+17	wey	wey	SCONJ	_	_	16	mod@relcl	_	AlignBegin=5397|AlignEnd=5660
 18	dey	dey	AUX	_	_	17	comp:obj	_	AlignBegin=5660|AlignEnd=5924
 19	Rock	Rock	PROPN	_	_	18	comp:pred	_	AlignBegin=5924|AlignEnd=6188
-20	Solid	Solid	ADJ	_	_	19	flat	_	AlignBegin=6188|AlignEnd=6452
+20	Solid	Solid	PROPN	_	_	19	flat	_	AlignBegin=6188|AlignEnd=6452
 21	100.9	100.9	NUM	_	_	19	flat	_	AlignBegin=6452|AlignEnd=6716
 22	FM	FM	NOUN	_	_	21	flat	_	AlignBegin=6716|AlignEnd=6980
 23	//	//	PUNCT	_	_	6	punct	_	AlignBegin=6980|AlignEnd=6980
@@ -42,15 +42,15 @@
 # text = today na di sixteen day for inside di month of October < and ehn officially < if you check you calendar < you go see sey [ sixteen days don waka comot for work ] //
 # text_en = today is the sixteenth day in the month of October. And ehn, officially, if you check your calendar you will see that sixteen days have walked away from work.
 # text_ortho = Today na di sixteen day for inside di month of October, and ehn officially, if you check you calendar, you go see sey sixteen days don waka comot for work.
-1	today	today	NOUN	_	_	2	mod:periph	_	AlignBegin=8720|AlignEnd=8972
+1	today	today	NOUN	_	_	2	subj	_	AlignBegin=8720|AlignEnd=8972
 2	na	na	PART	_	_	0	root	_	AlignBegin=8972|AlignEnd=9224
 3	di	di	DET	_	_	5	det	_	AlignBegin=9224|AlignEnd=9476
-4	sixteen	sixteen	NUM	_	_	5	det:num	_	AlignBegin=9476|AlignEnd=9728
+4	sixteen	sixteen	NUM	_	_	5	mod:num	_	AlignBegin=9476|AlignEnd=9728
 5	day	day	NOUN	_	_	2	comp:pred	_	AlignBegin=9728|AlignEnd=9980
-6	for	for	ADP	_	_	5	mod	_	AlignBegin=9980|AlignEnd=10232
-7	inside	inside	ADP	_	_	6	comp:obj	_	AlignBegin=10232|AlignEnd=10484
+6	for	for	ADP	_	_	2	mod	_	AlignBegin=9980|AlignEnd=10232
+7	inside	inside	ADP	_	_	6	unk@fixed	_	AlignBegin=10232|AlignEnd=10484
 8	di	di	DET	_	_	9	det	_	AlignBegin=10484|AlignEnd=10736
-9	month	month	NOUN	_	_	6	comp:obj	_	AlignBegin=10736|AlignEnd=10988
+9	month	month	NOUN	_	_	7	comp:obj	_	AlignBegin=10736|AlignEnd=10988
 10	of	of	ADP	_	_	9	mod	_	AlignBegin=10988|AlignEnd=11240
 11	October	October	PROPN	_	_	10	comp:obj	_	AlignBegin=11240|AlignEnd=11492
 12	<	<	PUNCT	_	_	2	punct	_	AlignBegin=11492|AlignEnd=11492
@@ -88,22 +88,22 @@
 2	by	by	ADP	_	_	8	mod:periph	_	AlignBegin=16563|AlignEnd=16807
 3	{di	{di	PUNCT	_	_	2	punct	_	AlignBegin=16807|AlignEnd=16807
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=16807|AlignEnd=16807
-5	dat	dat	DET	_	_	2	conj:dicto	_	AlignBegin=16807|AlignEnd=17050
-6	}	}	PUNCT	_	_	2	punct	_	AlignBegin=17050|AlignEnd=17050
-7	one	one	NOUN	_	_	2	subj	_	AlignBegin=17050|AlignEnd=17294
+5	dat	dat	DET	_	_	7	conj:dicto	_	AlignBegin=16807|AlignEnd=17050
+6	}	}	PUNCT	_	_	7	punct	_	AlignBegin=17050|AlignEnd=17050
+7	one	one	NOUN	_	_	2	comp:obj	_	AlignBegin=17050|AlignEnd=17294
 8	be	be	VERB	_	_	0	root	_	AlignBegin=17294|AlignEnd=17537
 9	sey	sey	SCONJ	_	_	8	comp:pred	_	AlignBegin=17537|AlignEnd=17781
 10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=17781|AlignEnd=17781
 11	we	we	PRON	_	_	12	subj	_	AlignBegin=17781|AlignEnd=18024
 12	get	get	VERB	_	_	9	comp:obj	_	AlignBegin=18024|AlignEnd=18268
-13	less	less	ADJ	_	_	16	mod	_	AlignBegin=18268|AlignEnd=18511
-14	dan	dan	ADP	_	_	13	comp:obj	_	AlignBegin=18511|AlignEnd=18755
+13	less	less	ADJ	_	_	12	mod	_	AlignBegin=18268|AlignEnd=18511
+14	dan	dan	ADP	_	_	13	mod	_	AlignBegin=18511|AlignEnd=18755
 15	fifteen	fifteen	NUM	_	_	16	det:num	_	AlignBegin=18755|AlignEnd=18998
-16	days	days	NOUN	_	_	12	comp:obj	_	AlignBegin=18998|AlignEnd=19242
+16	days	days	NOUN	_	_	14	comp:obj	_	AlignBegin=18998|AlignEnd=19242
 17	before	before	ADP	_	_	12	mod	_	AlignBegin=19242|AlignEnd=19485
 18	de	dem	PRON	_	_	19	subj	_	AlignBegin=19485|AlignEnd=19729
 19	end	end	VERB	_	_	17	comp:obj	_	AlignBegin=19729|AlignEnd=19972
-20	of	of	ADP	_	_	19	comp:obl	_	AlignBegin=19972|AlignEnd=20216
+20	of	of	ADP	_	_	19	mod	_	AlignBegin=19972|AlignEnd=20216
 21	October	October	PROPN	_	_	20	comp:obj	_	AlignBegin=20216|AlignEnd=20460
 22	]	]	PUNCT	_	_	12	punct	_	AlignBegin=20460|AlignEnd=20460
 23	//	//	PUNCT	_	_	8	punct	_	AlignBegin=20460|AlignEnd=20460
@@ -113,27 +113,27 @@
 # text = and yes we get { like || up to like } let me say [ sixty someting days before Christmas ] //
 # text_en = And the years, we have like, up to like, let me say sixty something days before Christmas.
 # text_ortho = And yes we get like, up to like let me say sixty someting days before Christmas,
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=20520|AlignEnd=20855
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=20520|AlignEnd=20855
 2	yes	yes	INTJ	_	_	4	discourse	_	AlignBegin=20855|AlignEnd=21190
 3	we	we	PRON	_	_	4	subj	_	AlignBegin=21190|AlignEnd=21525
 4	get	get	VERB	_	_	0	root	_	AlignBegin=21525|AlignEnd=21860
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=21860|AlignEnd=21860
-6	like	like	ADP	_	_	4	discourse	_	AlignBegin=21860|AlignEnd=22195
-7	||	||	PUNCT	_	_	10	punct	_	AlignBegin=22195|AlignEnd=22195
+6	like	like	ADP	_	_	4	mod	_	AlignBegin=21860|AlignEnd=22195
+7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=22195|AlignEnd=22195
 8	up	up	ADP	_	_	6	conj:dicto	_	AlignBegin=22195|AlignEnd=22530
-9	to	to	ADP	_	_	8	comp:obj	_	AlignBegin=22530|AlignEnd=22865
-10	like	like	ADP	_	_	8	comp:obj	_	AlignBegin=22865|AlignEnd=23200
+9	to	to	ADP	_	_	8	unk@fixed	_	AlignBegin=22530|AlignEnd=22865
+10	like	like	VERB	_	_	9	comp:obj	_	AlignBegin=22865|AlignEnd=23200
 11	}	}	PUNCT	_	_	6	punct	_	AlignBegin=23200|AlignEnd=23200
-12	let	let	VERB	_	_	10	comp:obj	_	AlignBegin=23200|AlignEnd=23535
+12	let	let	VERB	_	_	4	compound:svc	_	AlignBegin=23200|AlignEnd=23535
 13	me	me	PRON	_	_	12	comp:obj	_	AlignBegin=23535|AlignEnd=23870
 14	say	say	VERB	_	_	12	comp:obj@x	_	AlignBegin=23870|AlignEnd=24205
 15	[	[	PUNCT	_	_	18	punct	_	AlignBegin=24205|AlignEnd=24205
 16	sixty	sixty	NUM	_	_	18	det:num	_	AlignBegin=24205|AlignEnd=24540
-17	someting	someting	PRON	_	_	16	flat	_	AlignBegin=24540|AlignEnd=24875
+17	someting	someting	PRON	_	_	18	mod:poss	_	AlignBegin=24540|AlignEnd=24875
 18	days	days	NOUN	_	_	14	parataxis:obj	_	AlignBegin=24875|AlignEnd=25210
 19	before	before	ADP	_	_	18	mod	_	AlignBegin=25210|AlignEnd=25545
 20	Christmas	Christmas	PROPN	_	_	19	comp:obj	_	AlignBegin=25545|AlignEnd=25880
-21	]	]	PUNCT	_	_	16	punct	_	AlignBegin=25880|AlignEnd=25880
+21	]	]	PUNCT	_	_	18	punct	_	AlignBegin=25880|AlignEnd=25880
 22	//	//	PUNCT	_	_	4	punct	_	AlignBegin=25880|AlignEnd=25880
 
 # sent_id = ENU_28_World-Food-Day_M__6
@@ -146,7 +146,7 @@
 3	too	too	ADV	_	_	4	mod	_	AlignBegin=26272|AlignEnd=26468
 4	like	like	VERB	_	_	1	comp:cleft	_	AlignBegin=26468|AlignEnd=26664
 5	Christmas	Christmas	PROPN	_	_	4	comp:obj	_	AlignBegin=26664|AlignEnd=26860
-6	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=26860|AlignEnd=26860
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=26860|AlignEnd=26860
 
 # sent_id = ENU_28_World-Food-Day_M__7
 # speaker_id = Sp108
@@ -154,11 +154,11 @@
 # text_en = Maybe it's because that's the month of my birth, December.
 # text_ortho = Maybe because na di month wey de take born me December,
 1	maybe	maybe	ADV	_	_	3	mod:periph	_	AlignBegin=26860|AlignEnd=27061
-2	because	because	SCONJ	_	_	3	discourse	_	AlignBegin=27061|AlignEnd=27263
+2	because	because	SCONJ	_	_	3	cc	_	AlignBegin=27061|AlignEnd=27263
 3	na	na	PART	_	_	0	root	_	AlignBegin=27263|AlignEnd=27465
 4	di	di	DET	_	_	5	det	_	AlignBegin=27465|AlignEnd=27667
 5	month	month	NOUN	_	_	3	comp:pred	_	AlignBegin=27667|AlignEnd=27869
-6	wey	wey	SCONJ	_	_	5	mod:relcl	_	AlignBegin=27869|AlignEnd=28070
+6	wey	wey	SCONJ	_	_	5	mod@relcl	_	AlignBegin=27869|AlignEnd=28070
 7	de	dem	PRON	_	_	8	subj	_	AlignBegin=28070|AlignEnd=28272
 8	take	take	VERB	_	_	6	comp:obj	_	AlignBegin=28272|AlignEnd=28474
 9	born	born	VERB	_	_	8	compound:svc	_	AlignBegin=28474|AlignEnd=28676
@@ -173,19 +173,19 @@
 # text_en = Mstchew But then for the records, because I am expecting a lot of gifts from you all, My birthday officially is the twenty sixth day of December.
 # text_ortho = Mstchew but den, for di record, because of sey I dey expect a lot of gift from una, my birthday, officially, na di twenty sixth day of December.
 1	mstchew	mstchew	INTJ	_	_	29	discourse	_	AlignBegin=29250|AlignEnd=29550
-2	but	but	CCONJ	_	_	29	discourse	_	AlignBegin=29550|AlignEnd=29850
+2	but	but	CCONJ	_	_	1	cc	_	AlignBegin=29550|AlignEnd=29850
 3	den	dem	ADV	_	_	29	mod:periph	_	AlignBegin=29850|AlignEnd=30151
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=30151|AlignEnd=30151
-5	for	for	ADP	_	_	29	dislocated	_	AlignBegin=30151|AlignEnd=30451
+5	for	for	ADP	_	_	29	mod:periph	_	AlignBegin=30151|AlignEnd=30451
 6	di	di	DET	_	_	7	det	_	AlignBegin=30451|AlignEnd=30751
 7	record	record	NOUN	_	_	5	comp:obj	_	AlignBegin=30751|AlignEnd=31052
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=31052|AlignEnd=31052
 9	because	because	SCONJ	_	_	29	mod:periph	_	AlignBegin=31052|AlignEnd=31352
-10	of	of	ADP	_	_	9	comp:obj	_	AlignBegin=31352|AlignEnd=31652
-11	sey	sey	SCONJ	_	_	10	comp:obj	_	AlignBegin=31652|AlignEnd=31953
+10	of	of	ADP	_	_	9	unk@fixed	_	AlignBegin=31352|AlignEnd=31652
+11	sey	sey	SCONJ	_	_	10	comp:obj@fixed	_	AlignBegin=31652|AlignEnd=31953
 12	[	[	PUNCT	_	_	14	punct	_	AlignBegin=31953|AlignEnd=31953
 13	I	I	PRON	_	_	14	subj	_	AlignBegin=31953|AlignEnd=32253
-14	dey	dey	AUX	_	_	9	comp:obj	_	AlignBegin=32253|AlignEnd=32553
+14	dey	dey	AUX	_	_	11	comp:obj	_	AlignBegin=32253|AlignEnd=32553
 15	expect	expect	VERB	_	_	14	comp:aux	_	AlignBegin=32553|AlignEnd=32854
 16	a	a	DET	_	_	17	det	_	AlignBegin=32854|AlignEnd=33154
 17	lot	lot	NOUN	_	_	15	comp:obj	_	AlignBegin=33154|AlignEnd=33455
@@ -202,8 +202,8 @@
 28	<	<	PUNCT	_	_	27	punct	_	AlignBegin=35557|AlignEnd=35557
 29	na	na	PART	_	_	0	root	_	AlignBegin=35557|AlignEnd=35857
 30	di	di	DET	_	_	33	det	_	AlignBegin=35857|AlignEnd=36158
-31	twenty	twenty	NUM	_	_	33	mod	_	AlignBegin=36158|AlignEnd=36458
-32	sixth	sixth	ADJ	_	_	31	mod	_	AlignBegin=36458|AlignEnd=36758
+31	twenty	twenty	NUM	_	_	33	compound	_	AlignBegin=36158|AlignEnd=36458
+32	sixth	sixth	ADJ	_	_	33	mod	_	AlignBegin=36458|AlignEnd=36758
 33	day	day	NOUN	_	_	29	comp:pred	_	AlignBegin=36758|AlignEnd=37059
 34	of	of	ADP	_	_	33	mod	_	AlignBegin=37059|AlignEnd=37359
 35	December	December	PROPN	_	_	34	comp:obj	_	AlignBegin=37359|AlignEnd=37660
@@ -250,7 +250,7 @@
 7	of	of	ADP	_	_	6	mod	_	AlignBegin=42820|AlignEnd=43080
 8	October	October	PROPN	_	_	7	comp:obj	_	AlignBegin=43080|AlignEnd=43340
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=43340|AlignEnd=43340
-10	for	for	ADP	_	_	18	dislocated	_	AlignBegin=43340|AlignEnd=43600
+10	for	for	ADP	_	_	18	mod:periph	_	AlignBegin=43340|AlignEnd=43600
 11	di	di	DET	_	_	12	det	_	AlignBegin=43600|AlignEnd=43860
 12	world	world	NOUN	_	_	10	comp:obj	_	AlignBegin=43860|AlignEnd=44120
 13	<	<	PUNCT	_	_	10	punct	_	AlignBegin=44120|AlignEnd=44120
@@ -261,10 +261,10 @@
 18	know	know	VERB	_	_	0	root	_	AlignBegin=44900|AlignEnd=45160
 19	am	am	PRON	_	_	18	comp:obj	_	AlignBegin=45160|AlignEnd=45420
 20	as	as	ADP	_	_	18	mod	_	AlignBegin=45420|AlignEnd=45680
-21	the	the	DET	_	_	22	det	_	AlignBegin=45680|AlignEnd=45940
-22	World	World	NOUN	_	_	20	comp:obj	_	AlignBegin=45940|AlignEnd=46200
-23	Food	Food	NOUN	_	_	22	flat	_	AlignBegin=46200|AlignEnd=46460
-24	Day	Day	NOUN	_	_	23	flat	_	AlignBegin=46460|AlignEnd=46720
+21	the	the	DET	_	_	24	det	_	AlignBegin=45680|AlignEnd=45940
+22	World	World	NOUN	_	_	24	compound	_	AlignBegin=45940|AlignEnd=46200
+23	Food	Food	NOUN	_	_	24	compound	_	AlignBegin=46200|AlignEnd=46460
+24	Day	Day	NOUN	_	_	20	comp:obj	_	AlignBegin=46460|AlignEnd=46720
 25	//	//	PUNCT	_	_	18	punct	_	AlignBegin=46720|AlignEnd=46720
 
 # sent_id = ENU_28_World-Food-Day_M__11
@@ -273,7 +273,7 @@
 # text_en = Mstchew, and then, we will tell you some kind of things
 # text_ortho = Mstchew and eh we go tell you some kind tings,
 1	mstchew	mstchew	INTJ	_	_	5	discourse	_	AlignBegin=46940|AlignEnd=47146
-2	and	and	CCONJ	_	_	5	discourse	_	AlignBegin=47146|AlignEnd=47352
+2	and	and	CCONJ	_	_	5	cc	_	AlignBegin=47146|AlignEnd=47352
 3	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=47352|AlignEnd=47558
 4	we	we	PRON	_	_	5	subj	_	AlignBegin=47558|AlignEnd=47764
 5	go	go	AUX	_	_	0	root	_	AlignBegin=47764|AlignEnd=47970
@@ -290,24 +290,24 @@
 # text_en = that... why did they even bring ah ehm, name today the World Food Day?
 # text_ortho = Wey, why de even bring ah, ehm name today World Food Day?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=49000|AlignEnd=49000
-2	wey	wey	SCONJ	_	_	9	discourse	_	AlignBegin=49000|AlignEnd=49267
+2	wey	wey	SCONJ	_	_	0	root	_	AlignBegin=49000|AlignEnd=49267
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=49267|AlignEnd=49267
 4	why	why	ADV	_	_	2	conj:dicto	_	AlignBegin=49267|AlignEnd=49535
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=49535|AlignEnd=49535
 6	de	dem	PRON	_	_	9	subj	_	AlignBegin=49535|AlignEnd=49802
 7	even	even	ADV	_	_	9	mod	_	AlignBegin=49802|AlignEnd=50070
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=50070|AlignEnd=50070
-9	bring	bring	VERB	_	_	0	root	_	AlignBegin=50070|AlignEnd=50337
+9	bring	bring	VERB	_	_	4	comp:cleft	_	AlignBegin=50070|AlignEnd=50337
 10	ah	ah	INTJ	_	_	9	discourse	_	AlignBegin=50337|AlignEnd=50605
 11	||	||	PUNCT	_	_	13	punct	_	AlignBegin=50605|AlignEnd=50605
 12	ehm	ehm	INTJ	_	_	13	discourse	_	AlignBegin=50605|AlignEnd=50872
 13	name	name	NOUN	_	_	9	conj:dicto	_	AlignBegin=50872|AlignEnd=51140
 14	}	}	PUNCT	_	_	9	punct	_	AlignBegin=51140|AlignEnd=51140
-15	today	today	NOUN	_	_	16	mod	_	AlignBegin=51140|AlignEnd=51407
-16	World	World	NOUN	_	_	9	comp:obj	_	AlignBegin=51407|AlignEnd=51675
-17	Food	Food	NOUN	_	_	16	flat	_	AlignBegin=51675|AlignEnd=51942
-18	Day	Day	NOUN	_	_	17	flat	_	AlignBegin=51942|AlignEnd=52210
-19	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=52210|AlignEnd=52210
+15	today	today	NOUN	_	_	13	mod	_	AlignBegin=51140|AlignEnd=51407
+16	World	World	ADJ	_	_	18	mod	_	AlignBegin=51407|AlignEnd=51675
+17	Food	Food	NOUN	_	_	16	compound	_	AlignBegin=51675|AlignEnd=51942
+18	Day	Day	NOUN	_	_	15	comp:obj	_	AlignBegin=51942|AlignEnd=52210
+19	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=52210|AlignEnd=52210
 
 # sent_id = ENU_28_World-Food-Day_M__13
 # speaker_id = Sp108
@@ -333,9 +333,9 @@
 17	today	today	NOUN	_	_	19	mod:periph	_	AlignBegin=55760|AlignEnd=56064
 18	<	<	PUNCT	_	_	17	punct	_	AlignBegin=56064|AlignEnd=56064
 19	na	na	PART	_	_	15	comp:obj	_	AlignBegin=56064|AlignEnd=56368
-20	World	World	NOUN	_	_	19	comp:pred	_	AlignBegin=56368|AlignEnd=56671
-21	Food	Food	NOUN	_	_	20	flat	_	AlignBegin=56671|AlignEnd=56975
-22	Day	Day	NOUN	_	_	21	flat	_	AlignBegin=56975|AlignEnd=57279
+20	World	World	ADJ	_	_	22	mod	_	AlignBegin=56368|AlignEnd=56671
+21	Food	Food	NOUN	_	_	22	compound	_	AlignBegin=56671|AlignEnd=56975
+22	Day	Day	NOUN	_	_	19	comp:pred	_	AlignBegin=56975|AlignEnd=57279
 23	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=57279|AlignEnd=57279
 24	and	and	CCONJ	_	_	27	cc	_	AlignBegin=57279|AlignEnd=57583
 25	ehn	ehn	INTJ	_	_	27	discourse	_	AlignBegin=57583|AlignEnd=57886
@@ -348,20 +348,20 @@
 32	Pidgin	Pidgin	PROPN	_	_	33	compound	_	AlignBegin=59708|AlignEnd=60012
 33	programme	programme	NOUN	_	_	29	comp:obj	_	AlignBegin=60012|AlignEnd=60316
 34	{	{	PUNCT	_	_	35	punct	_	AlignBegin=60316|AlignEnd=60316
-35	wey	wey	SCONJ	_	_	33	mod:relcl	_	AlignBegin=60316|AlignEnd=60620
+35	wey	wey	SCONJ	_	_	33	mod@relcl	_	AlignBegin=60316|AlignEnd=60620
 36	be	be	VERB	_	_	35	comp:obj	_	AlignBegin=60620|AlignEnd=60923
 37	Otigba	Otigba	PROPN	_	_	36	comp:pred	_	AlignBegin=60923|AlignEnd=61227
 38	Junction	Junction	NOUN	_	_	37	flat	_	AlignBegin=61227|AlignEnd=61531
-39	for	for	ADP	_	_	28	mod	_	AlignBegin=61531|AlignEnd=61834
-40	inside	inside	ADP	_	_	39	comp:obj	_	AlignBegin=61834|AlignEnd=62138
+39	for	for	ADP	_	_	28	comp:obl	_	AlignBegin=61531|AlignEnd=61834
+40	inside	inside	ADP	_	_	39	unk@fixed	_	AlignBegin=61834|AlignEnd=62138
 41	di	di	DET	_	_	44	det	_	AlignBegin=62138|AlignEnd=62442
 42	ogbonge	ogbonge	ADJ	_	_	44	mod	_	AlignBegin=62442|AlignEnd=62746
 43	radio	radio	NOUN	_	_	44	compound	_	AlignBegin=62746|AlignEnd=63049
-44	station	station	NOUN	_	_	39	comp:obj	_	AlignBegin=63049|AlignEnd=63353
+44	station	station	NOUN	_	_	40	comp:obj	_	AlignBegin=63049|AlignEnd=63353
 45	|c	|c	PUNCT	_	_	46	punct	_	AlignBegin=63353|AlignEnd=63353
 46	wey	wey	SCONJ	_	_	35	conj:coord	_	AlignBegin=63353|AlignEnd=63657
 47	be	be	VERB	_	_	46	comp:obj	_	AlignBegin=63657|AlignEnd=63960
-48	Solid	Solid	ADJ	_	_	47	comp:pred	_	AlignBegin=63960|AlignEnd=64264
+48	Solid	Solid	PROPN	_	_	47	comp:pred	_	AlignBegin=63960|AlignEnd=64264
 49	100.9	100.9	NUM	_	_	48	flat	_	AlignBegin=64264|AlignEnd=64568
 50	FM	FM	NOUN	_	_	49	flat	_	AlignBegin=64568|AlignEnd=64872
 51	}	}	PUNCT	_	_	35	punct	_	AlignBegin=64872|AlignEnd=64872
@@ -376,7 +376,7 @@
 2	name	name	NOUN	_	_	3	subj	_	AlignBegin=65257|AlignEnd=65643
 3	na	na	PART	_	_	0	root	_	AlignBegin=65643|AlignEnd=66028
 4	Better	Better	ADJ	_	_	3	comp:pred	_	AlignBegin=66028|AlignEnd=66414
-5	Pikin	Pikin	PROPN	_	_	4	flat	_	AlignBegin=66414|AlignEnd=66800
+5	Pikin	Pikin	NOUN	_	_	4	flat	_	AlignBegin=66414|AlignEnd=66800
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=66800|AlignEnd=66800
 
 # sent_id = ENU_28_World-Food-Day_M__15
@@ -403,7 +403,7 @@
 5	di	di	DET	_	_	7	det	_	AlignBegin=69239|AlignEnd=69425
 6	original	original	ADJ	_	_	7	mod	_	AlignBegin=69425|AlignEnd=69611
 7	one	one	NOUN	_	_	4	comp:pred	_	AlignBegin=69611|AlignEnd=69797
-8	because	because	SCONJ	_	_	1	mod	_	AlignBegin=69797|AlignEnd=69983
+8	because	because	SCONJ	_	_	4	mod	_	AlignBegin=69797|AlignEnd=69983
 9	I	I	PRON	_	_	10	subj	_	AlignBegin=69983|AlignEnd=70169
 10	don	don	AUX	_	_	8	comp:obj	_	AlignBegin=70169|AlignEnd=70356
 11	know	know	VERB	_	_	10	comp:aux	_	AlignBegin=70356|AlignEnd=70542
@@ -421,7 +421,7 @@
 23	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=72217|AlignEnd=72217
 24	and	and	CCONJ	_	_	26	cc	_	AlignBegin=72217|AlignEnd=72403
 25	I	I	PRON	_	_	26	subj	_	AlignBegin=72403|AlignEnd=72589
-26	don	don	AUX	_	_	10	conj:coord	_	AlignBegin=72589|AlignEnd=72775
+26	don	don	AUX	_	_	18	conj:coord	_	AlignBegin=72589|AlignEnd=72775
 27	dey	dey	AUX	_	_	26	comp:aux	_	AlignBegin=72775|AlignEnd=72961
 28	ask	ask	VERB	_	_	27	comp:aux	_	AlignBegin=72961|AlignEnd=73147
 29	the	the	DET	_	_	30	det	_	AlignBegin=73147|AlignEnd=73333
@@ -448,16 +448,16 @@
 # text_ortho = Na because of the better, abi na because of di pikin,
 1	na	na	PART	_	_	0	root	_	AlignBegin=76064|AlignEnd=76290
 2	because	because	SCONJ	_	_	1	comp:pred	_	AlignBegin=76290|AlignEnd=76516
-3	of	of	ADP	_	_	2	comp:obj	_	AlignBegin=76516|AlignEnd=76742
+3	of	of	ADP	_	_	2	unk@fixed	_	AlignBegin=76516|AlignEnd=76742
 4	the	the	DET	_	_	5	det	_	AlignBegin=76742|AlignEnd=76968
-5	better	better	ADJ	_	_	2	comp:obj	_	AlignBegin=76968|AlignEnd=77194
+5	better	better	ADJ	_	_	3	comp:obj	_	AlignBegin=76968|AlignEnd=77194
 6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=77194|AlignEnd=77194
 7	abi	abi	CCONJ	_	_	8	cc	_	AlignBegin=77194|AlignEnd=77421
 8	na	na	PART	_	_	1	conj:coord	_	AlignBegin=77421|AlignEnd=77647
 9	because	because	SCONJ	_	_	8	comp:pred	_	AlignBegin=77647|AlignEnd=77873
-10	of	of	ADP	_	_	9	comp:obj	_	AlignBegin=77873|AlignEnd=78099
+10	of	of	ADP	_	_	9	unk@fixed	_	AlignBegin=77873|AlignEnd=78099
 11	di	di	DET	_	_	12	det	_	AlignBegin=78099|AlignEnd=78325
-12	pikin	pikin	NOUN	_	_	9	comp:obj	_	AlignBegin=78325|AlignEnd=78552
+12	pikin	pikin	NOUN	_	_	10	comp:obj	_	AlignBegin=78325|AlignEnd=78552
 13	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=78552|AlignEnd=78552
 
 # sent_id = ENU_28_World-Food-Day_M__19
@@ -465,7 +465,7 @@
 # text = but den < I know sey [ na because of di Better Pikin ] //
 # text_en = But then I know that It's because of the better Pikin.
 # text_ortho = But den, I know sey na because of di Better Pikin.
-1	but	but	CCONJ	_	_	5	discourse	_	AlignBegin=78552|AlignEnd=78758
+1	but	but	CCONJ	_	_	5	cc	_	AlignBegin=78552|AlignEnd=78758
 2	den	dem	ADV	_	_	5	mod:periph	_	AlignBegin=78758|AlignEnd=78964
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=78964|AlignEnd=78964
 4	I	I	PRON	_	_	5	subj	_	AlignBegin=78964|AlignEnd=79170
@@ -474,10 +474,10 @@
 7	[	[	PUNCT	_	_	8	punct	_	AlignBegin=79582|AlignEnd=79582
 8	na	na	PART	_	_	6	comp:obj	_	AlignBegin=79582|AlignEnd=79789
 9	because	because	SCONJ	_	_	8	comp:pred	_	AlignBegin=79789|AlignEnd=79995
-10	of	of	ADP	_	_	9	comp:obj	_	AlignBegin=79995|AlignEnd=80201
+10	of	of	ADP	_	_	9	unk@fixed	_	AlignBegin=79995|AlignEnd=80201
 11	di	di	DET	_	_	13	det	_	AlignBegin=80201|AlignEnd=80407
-12	Better	Better	ADJ	_	_	9	comp:obj	_	AlignBegin=80407|AlignEnd=80613
-13	Pikin	Pikin	NOUN	_	_	12	flat	_	AlignBegin=80613|AlignEnd=80820
+12	Better	Better	ADJ	_	_	13	mod	_	AlignBegin=80407|AlignEnd=80613
+13	Pikin	Pikin	NOUN	_	_	10	comp:obj	_	AlignBegin=80613|AlignEnd=80820
 14	]	]	PUNCT	_	_	8	punct	_	AlignBegin=80820|AlignEnd=80820
 15	//	//	PUNCT	_	_	5	punct	_	AlignBegin=80820|AlignEnd=80820
 
@@ -500,9 +500,9 @@
 1	alright	alright	ADV	_	_	2	discourse	_	AlignBegin=82540|AlignEnd=82795
 2	make	make	AUX	_	_	0	root	_	AlignBegin=82795|AlignEnd=83050
 3	e	im	PRON	_	_	4	subj	_	AlignBegin=83050|AlignEnd=83305
-4	for	for	ADP	_	_	2	comp:aux	_	AlignBegin=83305|AlignEnd=83560
+4	for	for	AUX	_	_	2	comp:aux	_	AlignBegin=83305|AlignEnd=83560
 5	no	no	PART	_	_	6	mod	_	AlignBegin=83560|AlignEnd=83815
-6	loss	loss	NOUN	_	_	4	comp:aux	_	AlignBegin=83815|AlignEnd=84070
+6	loss	loss	VERB	_	_	4	comp:aux	_	AlignBegin=83815|AlignEnd=84070
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=84070|AlignEnd=84070
 
 # sent_id = ENU_28_World-Food-Day_M__22
@@ -511,7 +511,7 @@
 # text_en = Today as I told you before, it is World Food Day,
 # text_ortho = Ehm eh today, as I tay tell una before, na World Food Day.
 1	ehm	ehm	INTJ	_	_	12	discourse	_	AlignBegin=84070|AlignEnd=84289
-2	eh	eh	INTJ	_	_	3	discourse	_	AlignBegin=84289|AlignEnd=84508
+2	eh	eh	INTJ	_	_	12	discourse	_	AlignBegin=84289|AlignEnd=84508
 3	today	today	NOUN	_	_	12	mod:periph	_	AlignBegin=84508|AlignEnd=84727
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=84727|AlignEnd=84727
 5	as	as	ADP	_	_	12	mod:periph	_	AlignBegin=84727|AlignEnd=84946
@@ -522,9 +522,9 @@
 10	before	before	ADP	_	_	8	mod	_	AlignBegin=85823|AlignEnd=86043
 11	<	<	PUNCT	_	_	5	punct	_	AlignBegin=86043|AlignEnd=86043
 12	na	na	PART	_	_	0	root	_	AlignBegin=86043|AlignEnd=86262
-13	World	World	NOUN	_	_	12	comp:pred	_	AlignBegin=86262|AlignEnd=86481
-14	Food	Food	NOUN	_	_	13	flat	_	AlignBegin=86481|AlignEnd=86700
-15	Day	Day	NOUN	_	_	14	flat	_	AlignBegin=86700|AlignEnd=86920
+13	World	World	ADJ	_	_	15	mod	_	AlignBegin=86262|AlignEnd=86481
+14	Food	Food	NOUN	_	_	15	compound	_	AlignBegin=86481|AlignEnd=86700
+15	Day	Day	NOUN	_	_	12	comp:pred	_	AlignBegin=86700|AlignEnd=86920
 16	//	//	PUNCT	_	_	12	punct	_	AlignBegin=86920|AlignEnd=86920
 
 # sent_id = ENU_28_World-Food-Day_M__23
@@ -532,18 +532,18 @@
 # text = and eh de first bring am for inside di world for 1945 //
 # text_en = And eh, they first introduced it in the world in nineteen forty five.
 # text_ortho = And eh de first bring am for inside di world for 1945.
-1	and	and	CCONJ	_	_	5	discourse	_	AlignBegin=87260|AlignEnd=87523
+1	and	and	CCONJ	_	_	5	cc	_	AlignBegin=87260|AlignEnd=87523
 2	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=87523|AlignEnd=87786
 3	de	dem	PRON	_	_	5	subj	_	AlignBegin=87786|AlignEnd=88050
 4	first	first	ADJ	_	_	5	mod	_	AlignBegin=88050|AlignEnd=88313
 5	bring	bring	VERB	_	_	0	root	_	AlignBegin=88313|AlignEnd=88576
 6	am	am	PRON	_	_	5	comp:obj	_	AlignBegin=88576|AlignEnd=88840
 7	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=88840|AlignEnd=89103
-8	inside	inside	ADP	_	_	7	comp:obj	_	AlignBegin=89103|AlignEnd=89366
+8	inside	inside	ADP	_	_	7	unk@fixed	_	AlignBegin=89103|AlignEnd=89366
 9	di	di	DET	_	_	10	det	_	AlignBegin=89366|AlignEnd=89630
-10	world	world	NOUN	_	_	7	comp:obj	_	AlignBegin=89630|AlignEnd=89893
+10	world	world	NOUN	_	_	8	comp:obj	_	AlignBegin=89630|AlignEnd=89893
 11	for	for	ADP	_	_	5	mod	_	AlignBegin=89893|AlignEnd=90156
-12	1945	1945	NUM	_	_	11	comp:obj	_	AlignBegin=90156|AlignEnd=90420
+12	1945	1945	PROPN	_	_	11	comp:obj	_	AlignBegin=90156|AlignEnd=90420
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=90420|AlignEnd=90420
 
 # sent_id = ENU_28_World-Food-Day_M__24
@@ -551,12 +551,12 @@
 # text = and di reason why dem say [ meh dem dey celebrate dis day ] na because eh { de wan launch eh || na di || de dey launch } am & //
 # text_en = And the reason why they said they should be celebrating this day is because eh they want to launch eh... it was the... they were launching it.
 # text_ortho = And di reason why dem say meh dem dey celebrate dis day na because eh de wan launch eh, na di, de dey launch am...
-1	and	and	CCONJ	_	_	15	discourse	_	AlignBegin=90760|AlignEnd=91044
+1	and	and	CCONJ	_	_	15	cc	_	AlignBegin=90760|AlignEnd=91044
 2	di	di	DET	_	_	3	det	_	AlignBegin=91044|AlignEnd=91328
 3	reason	reason	NOUN	_	_	15	subj	_	AlignBegin=91328|AlignEnd=91612
-4	why	why	ADV	_	_	3	mod:relcl	_	AlignBegin=91612|AlignEnd=91896
+4	why	why	ADV	_	_	3	mod@relcl	_	AlignBegin=91612|AlignEnd=91896
 5	dem	dem	PRON	_	_	6	subj	_	AlignBegin=91896|AlignEnd=92180
-6	say	say	VERB	_	_	4	mod:relcl	_	AlignBegin=92180|AlignEnd=92464
+6	say	say	VERB	_	_	4	mod@relcl	_	AlignBegin=92180|AlignEnd=92464
 7	[	[	PUNCT	_	_	8	punct	_	AlignBegin=92464|AlignEnd=92464
 8	meh	meh	AUX	_	_	6	parataxis:obj	_	AlignBegin=92464|AlignEnd=92749
 9	dem	dem	PRON	_	_	10	subj	_	AlignBegin=92749|AlignEnd=93033
@@ -580,7 +580,7 @@
 27	de	dem	PRON	_	_	28	subj	_	AlignBegin=96727|AlignEnd=97011
 28	dey	dey	AUX	_	_	24	conj:dicto	_	AlignBegin=97011|AlignEnd=97295
 29	launch	launch	VERB	_	_	28	comp:aux	_	AlignBegin=97295|AlignEnd=97579
-30	}	}	PUNCT	_	_	24	punct	_	AlignBegin=97579|AlignEnd=97579
+30	}	}	PUNCT	_	_	20	punct	_	AlignBegin=97579|AlignEnd=97579
 31	am	am	PRON	_	_	29	comp:obj	_	AlignBegin=97579|AlignEnd=97864
 32	&	&	PUNCT	_	_	15	punct	_	AlignBegin=97864|AlignEnd=97864
 33	//	//	PUNCT	_	_	15	punct	_	AlignBegin=97864|AlignEnd=97864
@@ -596,8 +596,8 @@
 4	Nations	Nations	NOUN	_	_	3	flat	_	AlignBegin=98579|AlignEnd=98817
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=98817|AlignEnd=98817
 6	na	na	PART	_	_	1	comp:cleft	_	AlignBegin=98817|AlignEnd=99056
-7	im	im	PRON	_	_	6	comp:pred	_	AlignBegin=99056|AlignEnd=99294
-8	say	say	VERB	_	_	6	comp:obj	_	AlignBegin=99294|AlignEnd=99532
+7	im	im	PRON	_	_	6	comp:pred@fixed	_	AlignBegin=99056|AlignEnd=99294
+8	say	say	VERB	_	_	7	comp:obj	_	AlignBegin=99294|AlignEnd=99532
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=99532|AlignEnd=99532
 10	meh	meh	AUX	_	_	8	parataxis:obj	_	AlignBegin=99532|AlignEnd=99771
 11	de	dem	PRON	_	_	12	subj	_	AlignBegin=99771|AlignEnd=100009
@@ -615,19 +615,19 @@
 # text = and eh { to take eh welcome every || to take } hell !//
 # text_en = and eh, to use eh, to welcome every.. to use...
 # text_ortho = And eh to take eh welcome every, to take hell!
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=101720|AlignEnd=102196
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=101720|AlignEnd=102196
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=102196|AlignEnd=102672
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=102672|AlignEnd=102672
 4	to	to	ADP	_	_	0	root	_	AlignBegin=102672|AlignEnd=103148
 5	take	take	VERB	_	_	4	comp:obj	_	AlignBegin=103148|AlignEnd=103624
 6	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=103624|AlignEnd=104100
-7	welcome	welcome	VERB	_	_	5	compound:svc	_	AlignBegin=104100|AlignEnd=104576
-8	every	every	DET	_	_	7	comp:obj	_	AlignBegin=104576|AlignEnd=105052
+7	welcome	welcome	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=104100|AlignEnd=104576
+8	every	every	DET	_	_	7	comp:obj@scrap	_	AlignBegin=104576|AlignEnd=105052
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=105052|AlignEnd=105052
 10	to	to	ADP	_	_	4	conj:dicto	_	AlignBegin=105052|AlignEnd=105528
 11	take	take	VERB	_	_	10	comp:obj	_	AlignBegin=105528|AlignEnd=106004
 12	}	}	PUNCT	_	_	4	punct	_	AlignBegin=106004|AlignEnd=106004
-13	hell	hell	NOUN	_	_	11	comp:obj	_	AlignBegin=106004|AlignEnd=106480
+13	hell	hell	ADV	_	_	11	comp:obj	_	AlignBegin=106004|AlignEnd=106480
 14	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=106480|AlignEnd=106480
 
 # sent_id = ENU_28_World-Food-Day_M__27
@@ -636,7 +636,7 @@
 # text_en = Haha, can I start again?
 # text_ortho = Can I start again?
 1	can	can	AUX	_	_	0	root	_	AlignBegin=106760|AlignEnd=107155|Lang=en
-2	I	I	PRON	_	_	1	subj	_	AlignBegin=107155|AlignEnd=107550|Lang=en
+2	I	I	PRON	_	_	3	subj	_	AlignBegin=107155|AlignEnd=107550|Lang=en
 3	start	start	VERB	_	_	1	comp:aux	_	AlignBegin=107550|AlignEnd=107945|Lang=en
 4	again	again	ADV	_	_	3	mod	_	AlignBegin=107945|AlignEnd=108340|Lang=en
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=108340|AlignEnd=108340
@@ -656,9 +656,9 @@
 # text_ortho = Alright my people, and eh today na Monday.
 1	alright	alright	ADV	_	_	8	discourse	_	AlignBegin=110780|AlignEnd=111193
 2	my	my	PRON	_	_	3	mod:poss	_	AlignBegin=111193|AlignEnd=111607
-3	people	people	NOUN	_	_	8	vocative	_	AlignBegin=111607|AlignEnd=112021
+3	people	people	NOUN	_	_	8	dislocated	_	AlignBegin=111607|AlignEnd=112021
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=112021|AlignEnd=112021
-5	and	and	CCONJ	_	_	8	discourse	_	AlignBegin=112021|AlignEnd=112435
+5	and	and	CCONJ	_	_	8	cc	_	AlignBegin=112021|AlignEnd=112435
 6	eh	eh	INTJ	_	_	8	discourse	_	AlignBegin=112435|AlignEnd=112848
 7	today	today	NOUN	_	_	8	subj	_	AlignBegin=112848|AlignEnd=113262
 8	na	na	PART	_	_	0	root	_	AlignBegin=113262|AlignEnd=113676
@@ -684,8 +684,8 @@
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=116890|AlignEnd=116890
 13	[	[	PUNCT	_	_	14	punct	_	AlignBegin=116890|AlignEnd=116890
 14	na	na	PART	_	_	11	parataxis:obj	_	AlignBegin=116890|AlignEnd=117240
-15	Men	Men	NOUN	_	_	14	comp:pred	_	AlignBegin=117240|AlignEnd=117590
-16	Crush	Crush	VERB	_	_	15	flat	_	AlignBegin=117590|AlignEnd=117940
+15	Men	Men	NOUN	_	_	16	compound	_	AlignBegin=117240|AlignEnd=117590
+16	Crush	Crush	NOUN	_	_	14	comp:pred	_	AlignBegin=117590|AlignEnd=117940
 17	Monday	Monday	PROPN	_	_	16	flat	_	AlignBegin=117940|AlignEnd=118290
 18	>	>	PUNCT	_	_	19	punct	_	AlignBegin=118290|AlignEnd=118290
 19	MCM	MCM	PROPN	_	_	14	dislocated	_	AlignBegin=118290|AlignEnd=118640
@@ -703,17 +703,17 @@
 4	na	na	PART	_	_	0	root	_	AlignBegin=119596|AlignEnd=119924
 5	Monday	Monday	PROPN	_	_	4	comp:pred	_	AlignBegin=119924|AlignEnd=120252
 6	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=120252|AlignEnd=120252
-7	today	today	NOUN	_	_	8	dislocated	_	AlignBegin=120252|AlignEnd=120580
+7	today	today	NOUN	_	_	8	subj	_	AlignBegin=120252|AlignEnd=120580
 8	na	na	PART	_	_	4	parataxis:conj	_	AlignBegin=120580|AlignEnd=120908
 9	di	di	DET	_	_	11	det	_	AlignBegin=120908|AlignEnd=121236
-10	sixteen	sixteen	NUM	_	_	11	det:num	_	AlignBegin=121236|AlignEnd=121564
+10	sixteen	sixteen	NUM	_	_	11	mod:num	_	AlignBegin=121236|AlignEnd=121564
 11	day	day	NOUN	_	_	8	comp:pred	_	AlignBegin=121564|AlignEnd=121892
-12	for	for	ADP	_	_	11	mod	_	AlignBegin=121892|AlignEnd=122220
-13	inside	inside	ADP	_	_	12	comp:obj	_	AlignBegin=122220|AlignEnd=122548
+12	for	for	ADP	_	_	8	mod	_	AlignBegin=121892|AlignEnd=122220
+13	inside	inside	ADP	_	_	12	unk@fixed	_	AlignBegin=122220|AlignEnd=122548
 14	di	di	DET	_	_	15	det	_	AlignBegin=122548|AlignEnd=122876
-15	month	month	NOUN	_	_	12	comp:obj	_	AlignBegin=122876|AlignEnd=123204
-16	October	October	PROPN	_	_	11	mod:appos	_	AlignBegin=123204|AlignEnd=123532
-17	2017	2017	NUM	_	_	16	flat	_	AlignBegin=123532|AlignEnd=123860
+15	month	month	NOUN	_	_	13	comp:obj	_	AlignBegin=122876|AlignEnd=123204
+16	October	October	PROPN	_	_	15	flat	_	AlignBegin=123204|AlignEnd=123532
+17	2017	2017	NOUN	_	_	16	flat	_	AlignBegin=123532|AlignEnd=123860
 18	//	//	PUNCT	_	_	4	punct	_	AlignBegin=123860|AlignEnd=123860
 
 # sent_id = ENU_28_World-Food-Day_M__32
@@ -721,7 +721,7 @@
 # text = and eh yes sixteen days don comot for where October dey //
 # text_en = And eh, yes! sixteen days have gone from where October is.
 # text_ortho = And eh yes sixteen days don comot for where October dey,
-1	and	and	CCONJ	_	_	6	discourse	_	AlignBegin=124160|AlignEnd=124422
+1	and	and	CCONJ	_	_	6	cc	_	AlignBegin=124160|AlignEnd=124422
 2	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=124422|AlignEnd=124684
 3	yes	yes	INTJ	_	_	6	discourse	_	AlignBegin=124684|AlignEnd=124946
 4	sixteen	sixteen	NUM	_	_	5	det:num	_	AlignBegin=124946|AlignEnd=125208
@@ -731,7 +731,7 @@
 8	for	for	ADP	_	_	7	comp:obl	_	AlignBegin=125994|AlignEnd=126256
 9	where	where	ADV	_	_	8	comp:obj	_	AlignBegin=126256|AlignEnd=126518
 10	October	October	PROPN	_	_	11	subj	_	AlignBegin=126518|AlignEnd=126780
-11	dey	dey	VERB	_	_	9	mod:relcl	_	AlignBegin=126780|AlignEnd=127043
+11	dey	dey	VERB	_	_	9	mod@relcl	_	AlignBegin=126780|AlignEnd=127043
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=127043|AlignEnd=127043
 
 # sent_id = ENU_28_World-Food-Day_M__33
@@ -759,12 +759,12 @@
 18	we	we	PRON	_	_	19	subj	_	AlignBegin=131401|AlignEnd=131691
 19	get	get	VERB	_	_	5	conj:coord	_	AlignBegin=131691|AlignEnd=131982
 20	less	less	ADJ	_	_	19	mod	_	AlignBegin=131982|AlignEnd=132273
-21	than	than	ADP	_	_	20	comp:obj	_	AlignBegin=132273|AlignEnd=132563
-22	dan	dan	ADP	_	_	25	det	_	AlignBegin=132563|AlignEnd=132854
+21	than	than	ADP	_	_	20	mod	_	AlignBegin=132273|AlignEnd=132563
+22	dan	dan	ADP	_	_	21	comp:obj@fixed	_	AlignBegin=132563|AlignEnd=132854
 23	fifty	fifty	NUM	_	_	25	det:num	_	AlignBegin=132854|AlignEnd=133144
 24	someting	someting	PRON	_	_	25	compound	_	AlignBegin=133144|AlignEnd=133435
-25	days	days	NOUN	_	_	21	comp:obj	_	AlignBegin=133435|AlignEnd=133725
-26	before	before	ADP	_	_	19	mod	_	AlignBegin=133725|AlignEnd=134016
+25	days	days	NOUN	_	_	22	comp:obj	_	AlignBegin=133435|AlignEnd=133725
+26	before	before	ADP	_	_	25	mod	_	AlignBegin=133725|AlignEnd=134016
 27	Christmas	Christmas	PROPN	_	_	26	comp:obj	_	AlignBegin=134016|AlignEnd=134307
 28	//	//	PUNCT	_	_	5	punct	_	AlignBegin=134307|AlignEnd=134307
 
@@ -781,7 +781,7 @@
 6	work	work	VERB	_	_	5	comp:cleft	_	AlignBegin=135691|AlignEnd=136037
 7	?//=	?//=	PUNCT	_	_	8	punct	_	AlignBegin=136037|AlignEnd=136037
 8	how	how	ADV	_	_	5	parataxis:conj	_	AlignBegin=136037|AlignEnd=136383
-9	everyting	everyting	PRON	_	_	8	subj	_	AlignBegin=136383|AlignEnd=136730
+9	everyting	everyting	PRON	_	_	8	comp:cleft	_	AlignBegin=136383|AlignEnd=136730
 10	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=136730|AlignEnd=136730
 
 # sent_id = ENU_28_World-Food-Day_M__35
@@ -794,8 +794,8 @@
 3	sey	sey	SCONJ	_	_	2	comp:obj	_	AlignBegin=137487|AlignEnd=137730
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=137730|AlignEnd=137730
 5	una	una	PRON	_	_	6	subj	_	AlignBegin=137730|AlignEnd=137974
-6	dey	dey	AUX	_	_	3	comp:obj	_	AlignBegin=137974|AlignEnd=138217
-7	gallant	gallant	ADJ	_	_	6	comp:aux	_	AlignBegin=138217|AlignEnd=138461
+6	dey	dey	VERB	_	_	3	comp:obj	_	AlignBegin=137974|AlignEnd=138217
+7	gallant	gallant	ADJ	_	_	6	comp:pred	_	AlignBegin=138217|AlignEnd=138461
 8	]	]	PUNCT	_	_	6	punct	_	AlignBegin=138461|AlignEnd=138461
 9	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=138461|AlignEnd=138461
 10	and	and	CCONJ	_	_	12	cc	_	AlignBegin=138461|AlignEnd=138704
@@ -804,9 +804,9 @@
 13	sey	sey	SCONJ	_	_	12	comp:obj	_	AlignBegin=139191|AlignEnd=139435
 14	[	[	PUNCT	_	_	16	punct	_	AlignBegin=139435|AlignEnd=139435
 15	everyting	everyting	PRON	_	_	16	subj	_	AlignBegin=139435|AlignEnd=139678
-16	dey	dey	AUX	_	_	13	comp:obj	_	AlignBegin=139678|AlignEnd=139922
+16	dey	dey	AUX	_	_	19	comp:cleft	_	AlignBegin=139678|AlignEnd=139922
 17	work	work	VERB	_	_	16	comp:aux	_	AlignBegin=139922|AlignEnd=140165
-18	serere	serere	NOUN	_	_	17	comp:obj@lvc	_	AlignBegin=140165|AlignEnd=140409
+18	serere	serere	NOUN	_	_	17	mod	_	AlignBegin=140165|AlignEnd=140409
 19	were	were	VERB	_	_	13	comp:obj	_	AlignBegin=140409|AlignEnd=140652
 20	for	for	ADP	_	_	19	comp:pred	_	AlignBegin=140652|AlignEnd=140896
 21	una	una	PRON	_	_	20	comp:obj	_	AlignBegin=140896|AlignEnd=141140
@@ -819,17 +819,17 @@
 # text_en = Because today is the sixteenth day in the month of October, officially, in the world today, they are calling it the World Food Day.
 # text_ortho = As per sey today na sixteen day for inside di month of October, officially, for di world today, de dey call am di World Food Day.
 1	as	as	ADP	_	_	25	mod:periph	_	AlignBegin=141400|AlignEnd=141673
-2	per	per	ADP	_	_	1	comp:obj	_	AlignBegin=141673|AlignEnd=141946
-3	sey	sey	SCONJ	_	_	2	comp:obj	_	AlignBegin=141946|AlignEnd=142219
+2	per	per	ADP	_	_	1	unk@fixed	_	AlignBegin=141673|AlignEnd=141946
+3	sey	sey	SCONJ	_	_	2	unk@fixed	_	AlignBegin=141946|AlignEnd=142219
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=142219|AlignEnd=142219
 5	today	today	NOUN	_	_	6	subj	_	AlignBegin=142219|AlignEnd=142492
-6	na	na	PART	_	_	1	comp:obj	_	AlignBegin=142492|AlignEnd=142765
+6	na	na	PART	_	_	3	comp:obj	_	AlignBegin=142492|AlignEnd=142765
 7	sixteen	sixteen	NUM	_	_	8	det:num	_	AlignBegin=142765|AlignEnd=143038
 8	day	day	NOUN	_	_	6	comp:pred	_	AlignBegin=143038|AlignEnd=143311
-9	for	for	ADP	_	_	8	mod	_	AlignBegin=143311|AlignEnd=143584
-10	inside	inside	ADP	_	_	9	comp:obj	_	AlignBegin=143584|AlignEnd=143857
+9	for	for	ADP	_	_	6	mod	_	AlignBegin=143311|AlignEnd=143584
+10	inside	inside	ADP	_	_	9	unk@fixed	_	AlignBegin=143584|AlignEnd=143857
 11	di	di	DET	_	_	12	det	_	AlignBegin=143857|AlignEnd=144130
-12	month	month	NOUN	_	_	9	comp:obj	_	AlignBegin=144130|AlignEnd=144403
+12	month	month	NOUN	_	_	10	comp:obj	_	AlignBegin=144130|AlignEnd=144403
 13	of	of	ADP	_	_	12	mod	_	AlignBegin=144403|AlignEnd=144676
 14	October	October	PROPN	_	_	13	comp:obj	_	AlignBegin=144676|AlignEnd=144950
 15	]	]	PUNCT	_	_	6	punct	_	AlignBegin=144950|AlignEnd=144950
@@ -840,15 +840,15 @@
 20	di	di	DET	_	_	21	det	_	AlignBegin=145496|AlignEnd=145769
 21	world	world	NOUN	_	_	19	comp:obj	_	AlignBegin=145769|AlignEnd=146042
 22	today	today	NOUN	_	_	19	mod	_	AlignBegin=146042|AlignEnd=146315
-23	<	<	PUNCT	_	_	17	punct	_	AlignBegin=146315|AlignEnd=146315
+23	<	<	PUNCT	_	_	19	punct	_	AlignBegin=146315|AlignEnd=146315
 24	de	dem	PRON	_	_	25	subj	_	AlignBegin=146315|AlignEnd=146588
 25	dey	dey	AUX	_	_	0	root	_	AlignBegin=146588|AlignEnd=146861
 26	call	call	VERB	_	_	25	comp:aux	_	AlignBegin=146861|AlignEnd=147134
 27	am	am	PRON	_	_	26	comp:obj	_	AlignBegin=147134|AlignEnd=147407
-28	di	di	DET	_	_	29	det	_	AlignBegin=147407|AlignEnd=147680
-29	World	World	NOUN	_	_	26	comp:obj	_	AlignBegin=147680|AlignEnd=147953
-30	Food	Food	NOUN	_	_	29	flat	_	AlignBegin=147953|AlignEnd=148226
-31	Day	Day	NOUN	_	_	30	flat	_	AlignBegin=148226|AlignEnd=148500
+28	di	di	DET	_	_	31	det	_	AlignBegin=147407|AlignEnd=147680
+29	World	World	ADJ	_	_	31	mod	_	AlignBegin=147680|AlignEnd=147953
+30	Food	Food	NOUN	_	_	31	compound	_	AlignBegin=147953|AlignEnd=148226
+31	Day	Day	NOUN	_	_	26	comp:obj	_	AlignBegin=148226|AlignEnd=148500
 32	//	//	PUNCT	_	_	25	punct	_	AlignBegin=148500|AlignEnd=148500
 
 # sent_id = ENU_28_World-Food-Day_M__37
@@ -856,24 +856,24 @@
 # text = yes World Food Day //
 # text_en = Yes, World Food Day.
 # text_ortho = Yes World Food Day.
-1	yes	yes	INTJ	_	_	2	discourse	_	AlignBegin=148820|AlignEnd=149095
-2	World	World	NOUN	_	_	0	root	_	AlignBegin=149095|AlignEnd=149370
-3	Food	Food	NOUN	_	_	2	flat	_	AlignBegin=149370|AlignEnd=149645
-4	Day	Day	NOUN	_	_	3	flat	_	AlignBegin=149645|AlignEnd=149920
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=149920|AlignEnd=149920
+1	yes	yes	INTJ	_	_	4	discourse	_	AlignBegin=148820|AlignEnd=149095
+2	World	World	NOUN	_	_	3	compound	_	AlignBegin=149095|AlignEnd=149370
+3	Food	Food	NOUN	_	_	4	compound	_	AlignBegin=149370|AlignEnd=149645
+4	Day	Day	NOUN	_	_	0	root	_	AlignBegin=149645|AlignEnd=149920
+5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=149920|AlignEnd=149920
 
 # sent_id = ENU_28_World-Food-Day_M__38
 # speaker_id = Sp108
 # text = and de first bring am for 1945 //
 # text_en = and they first brought it 1945.
 # text_ortho = And de first bring am for 1945.
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=150160|AlignEnd=150487
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=150160|AlignEnd=150487
 2	de	dem	PRON	_	_	4	subj	_	AlignBegin=150487|AlignEnd=150814
-3	first	first	ADJ	_	_	4	mod	_	AlignBegin=150814|AlignEnd=151141
+3	first	first	ADV	_	_	4	mod	_	AlignBegin=150814|AlignEnd=151141
 4	bring	bring	VERB	_	_	0	root	_	AlignBegin=151141|AlignEnd=151468
 5	am	am	PRON	_	_	4	comp:obj	_	AlignBegin=151468|AlignEnd=151795
 6	for	for	ADP	_	_	4	mod	_	AlignBegin=151795|AlignEnd=152122
-7	1945	1945	NUM	_	_	6	comp:obj	_	AlignBegin=152122|AlignEnd=152450
+7	1945	1945	PROPN	_	_	6	comp:obj	_	AlignBegin=152122|AlignEnd=152450
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=152450|AlignEnd=152450
 
 # sent_id = ENU_28_World-Food-Day_M__39
@@ -881,21 +881,21 @@
 # text = and dis na di celebration wey di { United Nations Food |c and Agricultural Organisation } >+ say [ dem go dey do for inside we world to take celebrate food ] //
 # text_en = And this one is the celebration that the United Nation Food and Agricultural Organisation they will be doing inside our world to use in celebrating food.
 # text_ortho = And dis na di celebration wey di United Nations Food, and Agricultural Organisation say dem go dey do for inside we world to take celebrate food.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=152450|AlignEnd=152747
-2	dis	dis	PRON	_	_	3	dislocated	_	AlignBegin=152747|AlignEnd=153044
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=152450|AlignEnd=152747
+2	dis	dis	PRON	_	_	3	subj	_	AlignBegin=152747|AlignEnd=153044
 3	na	na	PART	_	_	0	root	_	AlignBegin=153044|AlignEnd=153341
 4	di	di	DET	_	_	5	det	_	AlignBegin=153341|AlignEnd=153639
 5	celebration	celebration	NOUN	_	_	3	comp:pred	_	AlignBegin=153639|AlignEnd=153936
-6	wey	wey	SCONJ	_	_	5	mod:relcl	_	AlignBegin=153936|AlignEnd=154233
-7	di	di	DET	_	_	9	det	_	AlignBegin=154233|AlignEnd=154531
+6	wey	wey	SCONJ	_	_	5	mod@relcl	_	AlignBegin=153936|AlignEnd=154233
+7	di	di	DET	_	_	10	det	_	AlignBegin=154233|AlignEnd=154531
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=154531|AlignEnd=154531
-9	United	United	ADJ	_	_	6	comp:obj	_	AlignBegin=154531|AlignEnd=154828
+9	United	United	ADJ	_	_	11	conj:appos	_	AlignBegin=154531|AlignEnd=154828
 10	Nations	Nations	NOUN	_	_	9	flat	_	AlignBegin=154828|AlignEnd=155125
-11	Food	Food	NOUN	_	_	10	flat	_	AlignBegin=155125|AlignEnd=155423
-12	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=155423|AlignEnd=155423
-13	and	and	CCONJ	_	_	14	cc	_	AlignBegin=155423|AlignEnd=155720
-14	Agricultural	Agricultural	ADJ	_	_	11	conj:coord	_	AlignBegin=155720|AlignEnd=156017
-15	Organisation	Organisation	NOUN	_	_	14	flat	_	AlignBegin=156017|AlignEnd=156315
+11	Food	Food	NOUN	_	_	6	comp:obj	_	AlignBegin=155125|AlignEnd=155423
+12	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=155423|AlignEnd=155423
+13	and	and	CCONJ	_	_	15	cc	_	AlignBegin=155423|AlignEnd=155720
+14	Agricultural	Agricultural	ADJ	_	_	15	conj:coord	_	AlignBegin=155720|AlignEnd=156017
+15	Organisation	Organisation	NOUN	_	_	9	conj:coord	_	AlignBegin=156017|AlignEnd=156315
 16	}	}	PUNCT	_	_	9	punct	_	AlignBegin=156315|AlignEnd=156315
 17	>+	>+	PUNCT	_	_	18	punct	_	AlignBegin=156315|AlignEnd=156315
 18	say	say	VERB	_	_	3	comp:cleft	_	AlignBegin=156315|AlignEnd=156612
@@ -905,9 +905,9 @@
 22	dey	dey	AUX	_	_	21	comp:aux	_	AlignBegin=157206|AlignEnd=157504
 23	do	do	VERB	_	_	22	comp:aux	_	AlignBegin=157504|AlignEnd=157801
 24	for	for	ADP	_	_	23	comp:obl	_	AlignBegin=157801|AlignEnd=158098
-25	inside	inside	ADP	_	_	24	comp:obj	_	AlignBegin=158098|AlignEnd=158396
+25	inside	inside	ADP	_	_	24	unk@fixed	_	AlignBegin=158098|AlignEnd=158396
 26	we	we	PRON	_	_	27	mod:poss	_	AlignBegin=158396|AlignEnd=158693
-27	world	world	NOUN	_	_	24	comp:obj	_	AlignBegin=158693|AlignEnd=158990
+27	world	world	NOUN	_	_	25	comp:obj	_	AlignBegin=158693|AlignEnd=158990
 28	to	to	ADP	_	_	23	mod	_	AlignBegin=158990|AlignEnd=159288
 29	take	take	VERB	_	_	28	comp:obj	_	AlignBegin=159288|AlignEnd=159585
 30	celebrate	celebrate	VERB	_	_	29	compound:svc	_	AlignBegin=159585|AlignEnd=159882
@@ -920,7 +920,7 @@
 # text = and eh today < we go ask one important question //
 # text_en = And eh, today, we will ask one important question.
 # text_ortho = And eh today, we go ask one important question.
-1	and	and	CCONJ	_	_	6	discourse	_	AlignBegin=160480|AlignEnd=160751
+1	and	and	CCONJ	_	_	6	cc	_	AlignBegin=160480|AlignEnd=160751
 2	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=160751|AlignEnd=161022
 3	today	today	NOUN	_	_	6	mod:periph	_	AlignBegin=161022|AlignEnd=161293
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=161293|AlignEnd=161293
@@ -954,7 +954,7 @@
 15	food	food	NOUN	_	_	16	compound	_	AlignBegin=165650|AlignEnd=165840
 16	combination	combination	NOUN	_	_	11	comp:obj	_	AlignBegin=165840|AlignEnd=166030
 17	{	{	PUNCT	_	_	18	punct	_	AlignBegin=166030|AlignEnd=166030
-18	wey	wey	SCONJ	_	_	16	mod:relcl	_	AlignBegin=166030|AlignEnd=166220
+18	wey	wey	SCONJ	_	_	16	mod@relcl	_	AlignBegin=166030|AlignEnd=166220
 19	you	you	PRON	_	_	20	subj	_	AlignBegin=166220|AlignEnd=166410
 20	don	don	AUX	_	_	18	comp:obj	_	AlignBegin=166410|AlignEnd=166600
 21	do	do	VERB	_	_	20	comp:aux	_	AlignBegin=166600|AlignEnd=166790
@@ -963,12 +963,12 @@
 24	e	im	PRON	_	_	26	subj	_	AlignBegin=166980|AlignEnd=167170
 25	no	no	PART	_	_	26	mod	_	AlignBegin=167170|AlignEnd=167360
 26	make	make	VERB	_	_	23	comp:obj	_	AlignBegin=167360|AlignEnd=167550
-27	sense	sense	NOUN	_	_	26	comp:obj@lvc	_	AlignBegin=167550|AlignEnd=167740
+27	sense	sense	NOUN	_	_	26	comp:obj	_	AlignBegin=167550|AlignEnd=167740
 28	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=167740|AlignEnd=167740
 29	or	or	CCONJ	_	_	30	cc	_	AlignBegin=167740|AlignEnd=167930
 30	wey	wey	SCONJ	_	_	23	conj:coord	_	AlignBegin=167930|AlignEnd=168120
 31	you	you	PRON	_	_	32	subj	_	AlignBegin=168120|AlignEnd=168310
-32	don	don	AUX	_	_	30	comp:obj	_	AlignBegin=168310|AlignEnd=168500
+32	don	don	AUX	_	_	23	comp:obj	_	AlignBegin=168310|AlignEnd=168500
 33	hear	hear	VERB	_	_	32	comp:aux	_	AlignBegin=168500|AlignEnd=168690
 34	|c	|c	PUNCT	_	_	35	punct	_	AlignBegin=168690|AlignEnd=168690
 35	wey	wey	SCONJ	_	_	30	conj:coord	_	AlignBegin=168690|AlignEnd=168880
@@ -976,13 +976,13 @@
 37	don	don	AUX	_	_	35	comp:obj	_	AlignBegin=169070|AlignEnd=169260
 38	see	see	VERB	_	_	37	comp:aux	_	AlignBegin=169260|AlignEnd=169450
 39	people	people	NOUN	_	_	38	comp:obj	_	AlignBegin=169450|AlignEnd=169640
-40	dey	dey	AUX	_	_	38	mod	_	AlignBegin=169640|AlignEnd=169830
+40	dey	dey	AUX	_	_	46	mod	_	AlignBegin=169640|AlignEnd=169830
 41	do	do	VERB	_	_	40	comp:aux	_	AlignBegin=169830|AlignEnd=170020
 42	|c	|c	PUNCT	_	_	43	punct	_	AlignBegin=170020|AlignEnd=170020
 43	wey	wey	SCONJ	_	_	35	conj:coord	_	AlignBegin=170020|AlignEnd=170210
 44	you	you	PRON	_	_	45	subj	_	AlignBegin=170210|AlignEnd=170400
 45	done	done	VERB	_	_	43	comp:obj	_	AlignBegin=170400|AlignEnd=170590
-46	hear	hear	VERB	_	_	45	comp:obj@x	_	AlignBegin=170590|AlignEnd=170780
+46	hear	hear	VERB	_	_	45	compound:svc	_	AlignBegin=170590|AlignEnd=170780
 47	as	as	ADP	_	_	46	mod	_	AlignBegin=170780|AlignEnd=170970
 48	well	well	ADV	_	_	47	comp:obj	_	AlignBegin=170970|AlignEnd=171160
 49	|c	|c	PUNCT	_	_	50	punct	_	AlignBegin=171160|AlignEnd=171160
@@ -1050,9 +1050,9 @@
 7	am	am	PRON	_	_	6	comp:obj	_	AlignBegin=178120|AlignEnd=178356
 8	later	later	ADJ	_	_	6	mod	_	AlignBegin=178356|AlignEnd=178592
 9	for	for	ADP	_	_	6	comp:obl	_	AlignBegin=178592|AlignEnd=178828
-10	inside	inside	ADP	_	_	9	comp:obj	_	AlignBegin=178828|AlignEnd=179064
+10	inside	inside	ADP	_	_	9	unk@fixed	_	AlignBegin=178828|AlignEnd=179064
 11	di	di	DET	_	_	12	det	_	AlignBegin=179064|AlignEnd=179300
-12	programme	programme	NOUN	_	_	9	comp:obj	_	AlignBegin=179300|AlignEnd=179537
+12	programme	programme	NOUN	_	_	10	comp:obj	_	AlignBegin=179300|AlignEnd=179537
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=179537|AlignEnd=179537
 
 # sent_id = ENU_28_World-Food-Day_M__44
@@ -1067,21 +1067,21 @@
 5	na	na	PART	_	_	3	comp:obj	_	AlignBegin=180473|AlignEnd=180785
 6	inside	inside	ADP	_	_	5	comp:pred	_	AlignBegin=180785|AlignEnd=181097
 7	dat	dat	DET	_	_	10	det	_	AlignBegin=181097|AlignEnd=181409
-8	ogbonge	ogbonge	ADJ	_	_	10	mod	_	AlignBegin=181409|AlignEnd=181721
+8	ogbonge	ogbonge	ADJ	_	_	9	mod	_	AlignBegin=181409|AlignEnd=181721
 9	Pidgin	Pidgin	PROPN	_	_	10	compound	_	AlignBegin=181721|AlignEnd=182033
 10	Programme	Programme	NOUN	_	_	6	comp:obj	_	AlignBegin=182033|AlignEnd=182345
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=182345|AlignEnd=182345
-12	wey	wey	SCONJ	_	_	10	mod:relcl	_	AlignBegin=182345|AlignEnd=182657
+12	wey	wey	SCONJ	_	_	10	mod@relcl	_	AlignBegin=182345|AlignEnd=182657
 13	be	be	VERB	_	_	12	comp:obj	_	AlignBegin=182657|AlignEnd=182969
 14	Otigba	Otigba	PROPN	_	_	13	comp:pred	_	AlignBegin=182969|AlignEnd=183281
 15	Junction	Junction	NOUN	_	_	14	flat	_	AlignBegin=183281|AlignEnd=183593
-16	for	for	ADP	_	_	13	mod	_	AlignBegin=183593|AlignEnd=183905
-17	inside	inside	ADP	_	_	16	comp:obj	_	AlignBegin=183905|AlignEnd=184218
+16	for	for	ADP	_	_	13	comp:pred	_	AlignBegin=183593|AlignEnd=183905
+17	inside	inside	ADP	_	_	16	unk@fixed	_	AlignBegin=183905|AlignEnd=184218
 18	dat	dat	DET	_	_	21	det	_	AlignBegin=184218|AlignEnd=184530
 19	ogbonge	ogbonge	ADJ	_	_	21	mod	_	AlignBegin=184530|AlignEnd=184842
 20	radio	radio	NOUN	_	_	21	compound	_	AlignBegin=184842|AlignEnd=185154
-21	station	station	NOUN	_	_	16	comp:obj	_	AlignBegin=185154|AlignEnd=185466
-22	wey	wey	SCONJ	_	_	21	mod:relcl	_	AlignBegin=185466|AlignEnd=185778
+21	station	station	NOUN	_	_	17	comp:obj	_	AlignBegin=185154|AlignEnd=185466
+22	wey	wey	SCONJ	_	_	21	mod@relcl	_	AlignBegin=185466|AlignEnd=185778
 23	be	be	VERB	_	_	22	comp:obj	_	AlignBegin=185778|AlignEnd=186090
 24	{	{	PUNCT	_	_	25	punct	_	AlignBegin=186090|AlignEnd=186090
 25	Solid	Solid	ADJ	_	_	23	comp:pred	_	AlignBegin=186090|AlignEnd=186402
@@ -1090,11 +1090,11 @@
 28	|a	|a	PUNCT	_	_	30	punct	_	AlignBegin=187026|AlignEnd=187026
 29	di	di	DET	_	_	30	det	_	AlignBegin=187026|AlignEnd=187338
 30	station	station	NOUN	_	_	25	conj:appos	_	AlignBegin=187338|AlignEnd=187650
-31	wey	wey	SCONJ	_	_	30	mod:relcl	_	AlignBegin=187650|AlignEnd=187962
+31	wey	wey	SCONJ	_	_	30	mod@relcl	_	AlignBegin=187650|AlignEnd=187962
 32	dey	dey	AUX	_	_	31	comp:obj	_	AlignBegin=187962|AlignEnd=188274
 33	rock	rock	NOUN	_	_	32	comp:aux	_	AlignBegin=188274|AlignEnd=188587
 34	}	}	PUNCT	_	_	25	punct	_	AlignBegin=188587|AlignEnd=188587
-35	}	}	PUNCT	_	_	25	punct	_	AlignBegin=188587|AlignEnd=188587
+35	}	}	PUNCT	_	_	12	punct	_	AlignBegin=188587|AlignEnd=188587
 36	]	]	PUNCT	_	_	5	punct	_	AlignBegin=188587|AlignEnd=188587
 37	//	//	PUNCT	_	_	2	punct	_	AlignBegin=188587|AlignEnd=188587
 
@@ -1103,12 +1103,12 @@
 # text = and my name na Better Pikin //
 # text_en = And my name is Better Pikin.
 # text_ortho = And my name na Better Pikin.
-1	and	and	CCONJ	_	_	4	discourse	_	AlignBegin=188587|AlignEnd=188864
+1	and	and	CCONJ	_	_	4	cc	_	AlignBegin=188587|AlignEnd=188864
 2	my	my	PRON	_	_	3	mod:poss	_	AlignBegin=188864|AlignEnd=189141
 3	name	name	NOUN	_	_	4	subj	_	AlignBegin=189141|AlignEnd=189418
 4	na	na	PART	_	_	0	root	_	AlignBegin=189418|AlignEnd=189695
-5	Better	Better	ADJ	_	_	4	comp:pred	_	AlignBegin=189695|AlignEnd=189972
-6	Pikin	Pikin	NOUN	_	_	5	flat	_	AlignBegin=189972|AlignEnd=190250
+5	Better	Better	ADJ	_	_	6	mod	_	AlignBegin=189695|AlignEnd=189972
+6	Pikin	Pikin	PROPN	_	_	4	comp:pred	_	AlignBegin=189972|AlignEnd=190250
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=190250|AlignEnd=190250
 
 # sent_id = ENU_28_World-Food-Day_M__46
@@ -1127,11 +1127,11 @@
 # text = and eh for inside Otigba Junction < we get different segment as I take tell una before //
 # text_en = And eh, for inside Otigba Junction, we have different segments as I have told you before.
 # text_ortho = And eh for inside Otigba Junction, we get different segment as I take tell una before.
-1	and	and	CCONJ	_	_	9	discourse	_	AlignBegin=191620|AlignEnd=191842
+1	and	and	CCONJ	_	_	9	cc	_	AlignBegin=191620|AlignEnd=191842
 2	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=191842|AlignEnd=192065
 3	for	for	ADP	_	_	9	mod:periph	_	AlignBegin=192065|AlignEnd=192287
-4	inside	inside	ADP	_	_	3	comp:obj	_	AlignBegin=192287|AlignEnd=192510
-5	Otigba	Otigba	PROPN	_	_	3	comp:obj	_	AlignBegin=192510|AlignEnd=192732
+4	inside	inside	ADP	_	_	3	unk@fixed	_	AlignBegin=192287|AlignEnd=192510
+5	Otigba	Otigba	PROPN	_	_	4	comp:obj	_	AlignBegin=192510|AlignEnd=192732
 6	Junction	Junction	NOUN	_	_	5	flat	_	AlignBegin=192732|AlignEnd=192955
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=192955|AlignEnd=192955
 8	we	we	PRON	_	_	9	subj	_	AlignBegin=192955|AlignEnd=193177
@@ -1153,7 +1153,7 @@
 # text_ortho = We get basically four segment,
 1	we	we	PRON	_	_	2	subj	_	AlignBegin=195780|AlignEnd=196131
 2	get	get	VERB	_	_	0	root	_	AlignBegin=196131|AlignEnd=196483
-3	basically	basically	ADV	_	_	4	mod	_	AlignBegin=196483|AlignEnd=196834
+3	basically	basically	ADV	_	_	5	mod	_	AlignBegin=196483|AlignEnd=196834
 4	four	four	NUM	_	_	5	det:num	_	AlignBegin=196834|AlignEnd=197186
 5	segment	segment	NOUN	_	_	2	comp:obj	_	AlignBegin=197186|AlignEnd=197538
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=197538|AlignEnd=197538
@@ -1167,7 +1167,7 @@
 2	get	get	VERB	_	_	0	root	_	AlignBegin=197718|AlignEnd=197898
 3	di	di	DET	_	_	4	det	_	AlignBegin=197898|AlignEnd=198078
 4	segment	segment	NOUN	_	_	2	comp:obj	_	AlignBegin=198078|AlignEnd=198258
-5	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=198258|AlignEnd=198438
+5	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=198258|AlignEnd=198438
 6	we	we	PRON	_	_	7	subj	_	AlignBegin=198438|AlignEnd=198619
 7	dey	dey	AUX	_	_	5	comp:obj	_	AlignBegin=198619|AlignEnd=198799
 8	call	call	VERB	_	_	7	comp:aux	_	AlignBegin=198799|AlignEnd=198979
@@ -1185,27 +1185,27 @@
 # text_en = That one is the time for you to know what is happening about things that are happening in our country Nigeria.
 # text_ortho = Dat one na di time for you to know what's up ehn of tings wey dey happen for inside we obodo Naija,
 1	dat	dat	DET	_	_	2	det	_	AlignBegin=199800|AlignEnd=200023
-2	one	one	NOUN	_	_	3	dislocated	_	AlignBegin=200023|AlignEnd=200247
+2	one	one	NOUN	_	_	3	subj	_	AlignBegin=200023|AlignEnd=200247
 3	na	na	PART	_	_	0	root	_	AlignBegin=200247|AlignEnd=200471
 4	di	di	DET	_	_	5	det	_	AlignBegin=200471|AlignEnd=200695
 5	time	time	NOUN	_	_	3	comp:pred	_	AlignBegin=200695|AlignEnd=200919
 6	for	for	ADP	_	_	5	mod	_	AlignBegin=200919|AlignEnd=201143
 7	you	you	PRON	_	_	6	comp:obj	_	AlignBegin=201143|AlignEnd=201367
-8	to	to	ADP	_	_	6	comp:pred	_	AlignBegin=201367|AlignEnd=201591
+8	to	to	ADP	_	_	5	mod	_	AlignBegin=201367|AlignEnd=201591
 9	know	know	VERB	_	_	8	comp:obj	_	AlignBegin=201591|AlignEnd=201815
 10	what's	what's	PRON	_	_	9	comp:obj	_	AlignBegin=201815|AlignEnd=202039
-11	up	up	ADP	_	_	16	comp:aux	_	AlignBegin=202039|AlignEnd=202263
+11	up	up	ADP	_	_	10	flat	_	AlignBegin=202039|AlignEnd=202263
 12	ehn	ehn	INTJ	_	_	13	discourse	_	AlignBegin=202263|AlignEnd=202487
 13	of	of	ADP	_	_	10	mod	_	AlignBegin=202487|AlignEnd=202711
 14	tings	tings	NOUN	_	_	13	comp:obj	_	AlignBegin=202711|AlignEnd=202935
-15	wey	wey	SCONJ	_	_	14	mod:relcl	_	AlignBegin=202935|AlignEnd=203159
+15	wey	wey	SCONJ	_	_	14	mod@relcl	_	AlignBegin=202935|AlignEnd=203159
 16	dey	dey	AUX	_	_	15	comp:obj	_	AlignBegin=203159|AlignEnd=203383
 17	happen	happen	VERB	_	_	16	comp:aux	_	AlignBegin=203383|AlignEnd=203607
 18	for	for	ADP	_	_	17	comp:obl	_	AlignBegin=203607|AlignEnd=203831
-19	inside	inside	ADP	_	_	18	comp:obj	_	AlignBegin=203831|AlignEnd=204055
+19	inside	inside	ADP	_	_	18	unk@fixed	_	AlignBegin=203831|AlignEnd=204055
 20	we	we	PRON	_	_	21	mod:poss	_	AlignBegin=204055|AlignEnd=204279
-21	obodo	obodo	NOUN	_	_	18	comp:obj	_	AlignBegin=204279|AlignEnd=204503
-22	Naija	Naija	PROPN	_	_	21	mod:appos	_	AlignBegin=204503|AlignEnd=204727
+21	obodo	obodo	NOUN	_	_	19	comp:obj	_	AlignBegin=204279|AlignEnd=204503
+22	Naija	Naija	PROPN	_	_	21	flat	_	AlignBegin=204503|AlignEnd=204727
 23	//	//	PUNCT	_	_	3	punct	_	AlignBegin=204727|AlignEnd=204727
 
 # sent_id = ENU_28_World-Food-Day_M__51
@@ -1218,7 +1218,7 @@
 3	di	di	DET	_	_	4	det	_	AlignBegin=205167|AlignEnd=205388
 4	time	time	NOUN	_	_	2	comp:obj	_	AlignBegin=205388|AlignEnd=205608
 5	again	again	ADV	_	_	2	mod	_	AlignBegin=205608|AlignEnd=205829
-6	wey	wey	SCONJ	_	_	4	mod:relcl	_	AlignBegin=205829|AlignEnd=206049
+6	wey	wey	SCONJ	_	_	4	mod@relcl	_	AlignBegin=205829|AlignEnd=206049
 7	we	we	PRON	_	_	8	subj	_	AlignBegin=206049|AlignEnd=206270
 8	go	go	AUX	_	_	6	comp:obj	_	AlignBegin=206270|AlignEnd=206490
 9	bring	bring	VERB	_	_	8	comp:aux	_	AlignBegin=206490|AlignEnd=206711
@@ -1233,16 +1233,16 @@
 18	}	}	PUNCT	_	_	15	punct	_	AlignBegin=208033|AlignEnd=208033
 19	tory	tory	NOUN	_	_	12	comp:obj	_	AlignBegin=208033|AlignEnd=208254
 20	as	as	ADP	_	_	9	mod	_	AlignBegin=208254|AlignEnd=208474
-21	our	our	PRON	_	_	23	mod:poss	_	AlignBegin=208474|AlignEnd=208695
+21	our	our	PRON	_	_	22	mod:poss	_	AlignBegin=208474|AlignEnd=208695
 22	top	top	NOUN	_	_	23	compound	_	AlignBegin=208695|AlignEnd=208915
 23	tory	tory	NOUN	_	_	20	comp:obj	_	AlignBegin=208915|AlignEnd=209135
-24	to	to	ADP	_	_	9	mod	_	AlignBegin=209135|AlignEnd=209356
+24	to	to	ADP	_	_	23	mod	_	AlignBegin=209135|AlignEnd=209356
 25	take	take	VERB	_	_	24	comp:obj	_	AlignBegin=209356|AlignEnd=209576
 26	ask	ask	VERB	_	_	25	compound:svc	_	AlignBegin=209576|AlignEnd=209797
 27	una	una	PRON	_	_	26	comp:obj	_	AlignBegin=209797|AlignEnd=210017
 28	how	how	ADV	_	_	26	comp:obj	_	AlignBegin=210017|AlignEnd=210238
 29	una	una	PRON	_	_	30	subj	_	AlignBegin=210238|AlignEnd=210458
-30	take	take	VERB	_	_	28	mod:relcl	_	AlignBegin=210458|AlignEnd=210679
+30	take	take	VERB	_	_	28	mod@relcl	_	AlignBegin=210458|AlignEnd=210679
 31	reason	reason	VERB	_	_	30	compound:svc	_	AlignBegin=210679|AlignEnd=210899
 32	am	am	PRON	_	_	31	comp:obj	_	AlignBegin=210899|AlignEnd=211120
 33	//	//	PUNCT	_	_	2	punct	_	AlignBegin=211120|AlignEnd=211120
@@ -1267,23 +1267,23 @@
 # text = and we get di time we go still ask una question as I take talk before //
 # text_en = And we have the time we will still ask you question as I said before.
 # text_ortho = And we get di time we go still ask una question as I take talk before.
-1	and	and	CCONJ	_	_	7	discourse	_	AlignBegin=212230|AlignEnd=212407
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=212230|AlignEnd=212407
 2	we	we	PRON	_	_	3	subj	_	AlignBegin=212407|AlignEnd=212585
-3	get	get	VERB	_	_	7	parataxis:discourse	_	AlignBegin=212585|AlignEnd=212762
+3	get	get	VERB	_	_	0	root	_	AlignBegin=212585|AlignEnd=212762
 4	di	di	DET	_	_	5	det	_	AlignBegin=212762|AlignEnd=212940
 5	time	time	NOUN	_	_	3	comp:obj	_	AlignBegin=212940|AlignEnd=213117
 6	we	we	PRON	_	_	7	subj	_	AlignBegin=213117|AlignEnd=213295
-7	go	go	AUX	_	_	0	root	_	AlignBegin=213295|AlignEnd=213472
+7	go	go	AUX	_	_	5	mod@relcl	_	AlignBegin=213295|AlignEnd=213472
 8	still	still	ADV	_	_	9	mod	_	AlignBegin=213472|AlignEnd=213650
 9	ask	ask	VERB	_	_	7	comp:aux	_	AlignBegin=213650|AlignEnd=213827
 10	una	una	PRON	_	_	11	mod:poss	_	AlignBegin=213827|AlignEnd=214005
 11	question	question	NOUN	_	_	9	comp:obj	_	AlignBegin=214005|AlignEnd=214182
-12	as	as	ADP	_	_	11	mod	_	AlignBegin=214182|AlignEnd=214360
+12	as	as	ADP	_	_	9	mod	_	AlignBegin=214182|AlignEnd=214360
 13	I	I	PRON	_	_	14	subj	_	AlignBegin=214360|AlignEnd=214537
 14	take	take	VERB	_	_	12	comp:obj	_	AlignBegin=214537|AlignEnd=214715
 15	talk	talk	VERB	_	_	14	compound:svc	_	AlignBegin=214715|AlignEnd=214892
 16	before	before	ADP	_	_	15	mod	_	AlignBegin=214892|AlignEnd=215070
-17	//	//	PUNCT	_	_	7	punct	_	AlignBegin=215070|AlignEnd=215070
+17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=215070|AlignEnd=215070
 
 # sent_id = ENU_28_World-Food-Day_M__54
 # speaker_id = Sp108
@@ -1306,7 +1306,7 @@
 14	different	different	ADJ	_	_	16	mod	_	AlignBegin=218497|AlignEnd=218761
 15	food	food	NOUN	_	_	16	compound	_	AlignBegin=218761|AlignEnd=219024
 16	combination	combination	NOUN	_	_	11	comp:obj	_	AlignBegin=219024|AlignEnd=219287
-17	wey	wey	SCONJ	_	_	16	mod:relcl	_	AlignBegin=219287|AlignEnd=219550
+17	wey	wey	SCONJ	_	_	16	mod@relcl	_	AlignBegin=219287|AlignEnd=219550
 18	una	una	PRON	_	_	19	subj	_	AlignBegin=219550|AlignEnd=219813
 19	don	don	AUX	_	_	17	comp:obj	_	AlignBegin=219813|AlignEnd=220076
 20	hear	hear	VERB	_	_	19	comp:aux	_	AlignBegin=220076|AlignEnd=220340
@@ -1318,20 +1318,20 @@
 # text = but make you for no lost at dis point < we need bar break small //
 # text_en = But, you should not be lost at this point, we need to go on break a little.
 # text_ortho = But make you for no lost at dis point, we need bar break small.
-1	but	but	CCONJ	_	_	12	discourse	_	AlignBegin=220560|AlignEnd=220764
+1	but	but	CCONJ	_	_	12	cc	_	AlignBegin=220560|AlignEnd=220764
 2	make	make	AUX	_	_	12	parataxis:dislocated	_	AlignBegin=220764|AlignEnd=220968
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=220968|AlignEnd=221172
 4	for	for	AUX	_	_	2	comp:aux	_	AlignBegin=221172|AlignEnd=221377
 5	no	no	PART	_	_	6	mod	_	AlignBegin=221377|AlignEnd=221581
 6	lost	lost	VERB	_	_	4	comp:aux	_	AlignBegin=221581|AlignEnd=221785
-7	at	at	ADP	_	_	6	comp:obl	_	AlignBegin=221785|AlignEnd=221990
+7	at	at	ADP	_	_	6	mod	_	AlignBegin=221785|AlignEnd=221990
 8	dis	dis	DET	_	_	9	det	_	AlignBegin=221990|AlignEnd=222194
 9	point	point	NOUN	_	_	7	comp:obj	_	AlignBegin=222194|AlignEnd=222398
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=222398|AlignEnd=222398
 11	we	we	PRON	_	_	12	subj	_	AlignBegin=222398|AlignEnd=222602
 12	need	need	VERB	_	_	0	root	_	AlignBegin=222602|AlignEnd=222807
 13	bar	bar	NOUN	_	_	12	comp:obj	_	AlignBegin=222807|AlignEnd=223011
-14	break	break	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=223011|AlignEnd=223215
+14	break	break	VERB	_	_	12	compound:svc	_	AlignBegin=223011|AlignEnd=223215
 15	small	small	ADJ	_	_	14	mod	_	AlignBegin=223215|AlignEnd=223420
 16	//	//	PUNCT	_	_	12	punct	_	AlignBegin=223420|AlignEnd=223420
 
@@ -1345,25 +1345,25 @@
 3	to	to	ADP	_	_	2	comp:obl@x	_	AlignBegin=224115|AlignEnd=224322
 4	go	go	VERB	_	_	3	comp:obj	_	AlignBegin=224322|AlignEnd=224530
 5	jollificate	jollificate	VERB	_	_	4	comp:obj@x	_	AlignBegin=224530|AlignEnd=224737
-6	sake	sake	NOUN	_	_	4	mod	_	AlignBegin=224737|AlignEnd=224945
-7	of	of	ADP	_	_	6	comp:obj	_	AlignBegin=224945|AlignEnd=225152
-8	sey	sey	SCONJ	_	_	7	comp:obj	_	AlignBegin=225152|AlignEnd=225360
+6	sake	sake	NOUN	_	_	5	mod	_	AlignBegin=224737|AlignEnd=224945
+7	of	of	ADP	_	_	6	mod@fixed	_	AlignBegin=224945|AlignEnd=225152
+8	sey	sey	SCONJ	_	_	7	comp:obj@fixed	_	AlignBegin=225152|AlignEnd=225360
 9	[	[	PUNCT	_	_	11	punct	_	AlignBegin=225360|AlignEnd=225360
 10	today	today	NOUN	_	_	11	subj	_	AlignBegin=225360|AlignEnd=225568
-11	na	na	PART	_	_	6	comp:obj	_	AlignBegin=225568|AlignEnd=225775
+11	na	na	PART	_	_	8	comp:obj	_	AlignBegin=225568|AlignEnd=225775
 12	Monday	Monday	PROPN	_	_	11	comp:pred	_	AlignBegin=225775|AlignEnd=225983
 13	]	]	PUNCT	_	_	11	punct	_	AlignBegin=225983|AlignEnd=225983
 14	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=225983|AlignEnd=225983
 15	and	and	CCONJ	_	_	16	cc	_	AlignBegin=225983|AlignEnd=226190
-16	to	to	ADP	_	_	6	conj:coord	_	AlignBegin=226190|AlignEnd=226398
+16	to	to	ADP	_	_	2	conj:coord	_	AlignBegin=226190|AlignEnd=226398
 17	tank	tank	VERB	_	_	16	comp:obj	_	AlignBegin=226398|AlignEnd=226605
 18	Baba	Baba	NOUN	_	_	17	comp:obj	_	AlignBegin=226605|AlignEnd=226813
 19	God	God	PROPN	_	_	18	flat	_	AlignBegin=226813|AlignEnd=227021
-20	dere	dere	ADV	_	_	17	mod	_	AlignBegin=227021|AlignEnd=227228
+20	dere	dere	ADV	_	_	17	comp:obj	_	AlignBegin=227021|AlignEnd=227228
 21	for	for	ADP	_	_	17	comp:obl	_	AlignBegin=227228|AlignEnd=227436
 22	dis	dis	DET	_	_	23	det	_	AlignBegin=227436|AlignEnd=227643
 23	ting	ting	NOUN	_	_	21	comp:obj	_	AlignBegin=227643|AlignEnd=227851
-24	wey	wey	SCONJ	_	_	23	mod:relcl	_	AlignBegin=227851|AlignEnd=228058
+24	wey	wey	SCONJ	_	_	23	mod@relcl	_	AlignBegin=227851|AlignEnd=228058
 25	im	im	PRON	_	_	26	subj	_	AlignBegin=228058|AlignEnd=228266
 26	don	don	AUX	_	_	24	comp:obj	_	AlignBegin=228266|AlignEnd=228474
 27	do	do	VERB	_	_	26	comp:aux	_	AlignBegin=228474|AlignEnd=228681
@@ -1371,16 +1371,16 @@
 29	our	our	PRON	_	_	30	mod:poss	_	AlignBegin=228889|AlignEnd=229096
 30	life	life	NOUN	_	_	28	comp:obj	_	AlignBegin=229096|AlignEnd=229304
 31	sake	sake	NOUN	_	_	27	mod	_	AlignBegin=229304|AlignEnd=229511
-32	of	of	ADP	_	_	31	comp:obj	_	AlignBegin=229511|AlignEnd=229719
-33	sey	sey	SCONJ	_	_	32	comp:obj	_	AlignBegin=229719|AlignEnd=229927
+32	of	of	ADP	_	_	31	mod@fixed	_	AlignBegin=229511|AlignEnd=229719
+33	sey	sey	SCONJ	_	_	32	comp:obj@fixed	_	AlignBegin=229719|AlignEnd=229927
 34	[	[	PUNCT	_	_	36	punct	_	AlignBegin=229927|AlignEnd=229927
 35	e	im	PRON	_	_	36	subj	_	AlignBegin=229927|AlignEnd=230134
-36	allow	allow	VERB	_	_	31	comp:obj	_	AlignBegin=230134|AlignEnd=230342
+36	allow	allow	VERB	_	_	33	comp:obj	_	AlignBegin=230134|AlignEnd=230342
 37	us	us	PRON	_	_	36	comp:obj	_	AlignBegin=230342|AlignEnd=230549
 38	moh	moh	AUX	_	_	36	comp:pred	_	AlignBegin=230549|AlignEnd=230757
 39	we	we	PRON	_	_	40	subj	_	AlignBegin=230757|AlignEnd=230964
 40	see	see	VERB	_	_	38	comp:aux	_	AlignBegin=230964|AlignEnd=231172
-41	today	today	NOUN	_	_	40	mod	_	AlignBegin=231172|AlignEnd=231380
+41	today	today	NOUN	_	_	40	comp:obj	_	AlignBegin=231172|AlignEnd=231380
 42	]	]	PUNCT	_	_	36	punct	_	AlignBegin=231380|AlignEnd=231380
 43	//	//	PUNCT	_	_	2	punct	_	AlignBegin=231380|AlignEnd=231380
 
@@ -1408,8 +1408,8 @@
 17	clock	clock	NOUN	_	_	14	comp:pred	_	AlignBegin=235045|AlignEnd=235287
 18	>+	>+	PUNCT	_	_	19	punct	_	AlignBegin=235287|AlignEnd=235287
 19	na	na	PART	_	_	14	comp:cleft	_	AlignBegin=235287|AlignEnd=235529
-20	im	im	PRON	_	_	19	comp:pred	_	AlignBegin=235529|AlignEnd=235770
-21	wake	wake	VERB	_	_	19	comp:obj	_	AlignBegin=235770|AlignEnd=236012
+20	im	im	PRON	_	_	19	comp:pred@fixed	_	AlignBegin=235529|AlignEnd=235770
+21	wake	wake	VERB	_	_	20	comp:obj	_	AlignBegin=235770|AlignEnd=236012
 22	you	you	PRON	_	_	21	comp:obj	_	AlignBegin=236012|AlignEnd=236254
 23	up	up	ADP	_	_	21	compound:prt	_	AlignBegin=236254|AlignEnd=236496
 24	]	]	PUNCT	_	_	14	punct	_	AlignBegin=236496|AlignEnd=236496
@@ -1439,7 +1439,7 @@
 13	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=240178|AlignEnd=240442
 14	where	where	ADV	_	_	13	comp:obj	_	AlignBegin=240442|AlignEnd=240706
 15	dem	dem	PRON	_	_	16	subj	_	AlignBegin=240706|AlignEnd=240971
-16	bury	bury	VERB	_	_	14	mod:relcl	_	AlignBegin=240971|AlignEnd=241235
+16	bury	bury	VERB	_	_	14	mod@relcl	_	AlignBegin=240971|AlignEnd=241235
 17	person	person	NOUN	_	_	16	comp:obj	_	AlignBegin=241235|AlignEnd=241500
 18	//	//	PUNCT	_	_	2	punct	_	AlignBegin=241500|AlignEnd=241500
 
@@ -1454,18 +1454,18 @@
 4	wake	wake	VERB	_	_	1	comp:obj	_	AlignBegin=242349|AlignEnd=242558
 5	up	up	ADP	_	_	4	compound:prt	_	AlignBegin=242558|AlignEnd=242768
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=242768|AlignEnd=242768
-7	come	come	VERB	_	_	12	parataxis:dislocated	_	AlignBegin=242768|AlignEnd=242978
-8	meet	meet	VERB	_	_	12	comp:aux	_	AlignBegin=242978|AlignEnd=243187
+7	come	come	VERB	_	_	12	parataxis:discourse	_	AlignBegin=242768|AlignEnd=242978
+8	meet	meet	VERB	_	_	7	comp:aux	_	AlignBegin=242978|AlignEnd=243187
 9	me	me	PRON	_	_	8	comp:obj	_	AlignBegin=243187|AlignEnd=243397
 10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=243397|AlignEnd=243397
 11	I	I	PRON	_	_	12	subj	_	AlignBegin=243397|AlignEnd=243607
 12	go	go	AUX	_	_	0	root	_	AlignBegin=243607|AlignEnd=243816
 13	dash	dash	VERB	_	_	12	comp:aux	_	AlignBegin=243816|AlignEnd=244026
-14	you	you	PRON	_	_	15	mod:poss	_	AlignBegin=244026|AlignEnd=244236
+14	you	you	PRON	_	_	13	comp:obj	_	AlignBegin=244026|AlignEnd=244236
 15	money	money	NOUN	_	_	13	comp:obj	_	AlignBegin=244236|AlignEnd=244446
 16	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=244446|AlignEnd=244446
 17	but	but	CCONJ	_	_	25	cc	_	AlignBegin=244446|AlignEnd=244655
-18	if	if	SCONJ	_	_	29	mod:periph	_	AlignBegin=244655|AlignEnd=244865
+18	if	if	SCONJ	_	_	25	mod:periph	_	AlignBegin=244655|AlignEnd=244865
 19	dat	dat	DET	_	_	20	det	_	AlignBegin=244865|AlignEnd=245075
 20	person	person	NOUN	_	_	22	subj	_	AlignBegin=245075|AlignEnd=245284
 21	no	no	PART	_	_	22	mod	_	AlignBegin=245284|AlignEnd=245494
@@ -1525,7 +1525,7 @@
 12	dis	dis	DET	_	_	14	det	_	AlignBegin=252732|AlignEnd=252987
 13	ogbonge	ogbonge	ADJ	_	_	14	mod	_	AlignBegin=252987|AlignEnd=253242
 14	song	song	NOUN	_	_	11	comp:obj	_	AlignBegin=253242|AlignEnd=253498
-15	wey	wey	SCONJ	_	_	14	mod:relcl	_	AlignBegin=253498|AlignEnd=253753
+15	wey	wey	SCONJ	_	_	14	mod@relcl	_	AlignBegin=253498|AlignEnd=253753
 16	we	we	PRON	_	_	17	subj	_	AlignBegin=253753|AlignEnd=254008
 17	want	want	VERB	_	_	15	comp:obj	_	AlignBegin=254008|AlignEnd=254263
 18	take	take	VERB	_	_	17	comp:obj@x	_	AlignBegin=254263|AlignEnd=254519
@@ -1540,25 +1540,25 @@
 # text = to tell am tank you { for all di wonderment |c for all di betterment of tings } wey im don dey do for our life //
 # text_en = To tell HIm thank you for all the wondrous all good of things that he has been doing in our life.
 # text_ortho = To tell am tank you for all di wonderment, for all di betterment of tings wey im don dey do for our life.
-1	to	to	ADP	_	_	4	discourse	_	AlignBegin=255940|AlignEnd=256198
+1	to	to	ADP	_	_	0	root@scrap	_	AlignBegin=255940|AlignEnd=256198
 2	tell	tell	VERB	_	_	1	comp:obj	_	AlignBegin=256198|AlignEnd=256456
 3	am	am	PRON	_	_	2	comp:obj	_	AlignBegin=256456|AlignEnd=256714
-4	tank	tank	VERB	_	_	0	root	_	AlignBegin=256714|AlignEnd=256973
+4	tank	tank	VERB	_	_	2	comp:obj@x	_	AlignBegin=256714|AlignEnd=256973
 5	you	you	PRON	_	_	4	comp:obj	_	AlignBegin=256973|AlignEnd=257231
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=257231|AlignEnd=257231
 7	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=257231|AlignEnd=257489
-8	all	all	DET	_	_	10	mod	_	AlignBegin=257489|AlignEnd=257747
+8	all	all	ADV	_	_	10	mod	_	AlignBegin=257489|AlignEnd=257747
 9	di	di	DET	_	_	10	det	_	AlignBegin=257747|AlignEnd=258006
 10	wonderment	wonderment	NOUN	_	_	7	comp:obj	_	AlignBegin=258006|AlignEnd=258264
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=258264|AlignEnd=258264
 12	for	for	ADP	_	_	7	conj:coord	_	AlignBegin=258264|AlignEnd=258522
-13	all	all	DET	_	_	15	mod	_	AlignBegin=258522|AlignEnd=258780
+13	all	all	ADV	_	_	15	mod	_	AlignBegin=258522|AlignEnd=258780
 14	di	di	DET	_	_	15	det	_	AlignBegin=258780|AlignEnd=259039
-15	betterment	betterment	NOUN	_	_	12	conj:coord	_	AlignBegin=259039|AlignEnd=259297
+15	betterment	betterment	NOUN	_	_	12	comp:obj	_	AlignBegin=259039|AlignEnd=259297
 16	of	of	ADP	_	_	15	mod	_	AlignBegin=259297|AlignEnd=259555
 17	tings	tings	NOUN	_	_	16	comp:obj	_	AlignBegin=259555|AlignEnd=259813
 18	}	}	PUNCT	_	_	7	punct	_	AlignBegin=259813|AlignEnd=259813
-19	wey	wey	SCONJ	_	_	15	mod:relcl	_	AlignBegin=259813|AlignEnd=260072
+19	wey	wey	SCONJ	_	_	17	mod@relcl	_	AlignBegin=259813|AlignEnd=260072
 20	im	im	PRON	_	_	21	subj	_	AlignBegin=260072|AlignEnd=260330
 21	don	don	AUX	_	_	19	comp:obj	_	AlignBegin=260330|AlignEnd=260588
 22	dey	dey	AUX	_	_	21	comp:aux	_	AlignBegin=260588|AlignEnd=260846
@@ -1566,7 +1566,7 @@
 24	for	for	ADP	_	_	23	comp:obl	_	AlignBegin=261105|AlignEnd=261363
 25	our	our	PRON	_	_	26	mod:poss	_	AlignBegin=261363|AlignEnd=261621
 26	life	life	NOUN	_	_	24	comp:obj	_	AlignBegin=261621|AlignEnd=261880
-27	//	//	PUNCT	_	_	4	punct	_	AlignBegin=261880|AlignEnd=261880
+27	//	//	PUNCT	_	_	2	punct	_	AlignBegin=261880|AlignEnd=261880
 
 # sent_id = ENU_28_World-Food-Day_M__63
 # speaker_id = Sp108
@@ -1576,7 +1576,7 @@
 1	from	from	ADP	_	_	29	mod:periph	_	AlignBegin=262220|AlignEnd=262475
 2	di	di	DET	_	_	3	det	_	AlignBegin=262475|AlignEnd=262730
 3	day	day	NOUN	_	_	1	comp:obj	_	AlignBegin=262730|AlignEnd=262985
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=262985|AlignEnd=263240
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=262985|AlignEnd=263240
 5	de	dem	PRON	_	_	6	subj	_	AlignBegin=263240|AlignEnd=263495
 6	born	born	VERB	_	_	4	comp:obj	_	AlignBegin=263495|AlignEnd=263750
 7	us	us	PRON	_	_	6	comp:obj	_	AlignBegin=263750|AlignEnd=264005
@@ -1584,7 +1584,7 @@
 9	to	to	ADP	_	_	1	conj:coord	_	AlignBegin=264260|AlignEnd=264515
 10	di	di	DET	_	_	11	det	_	AlignBegin=264515|AlignEnd=264770
 11	day	day	NOUN	_	_	9	comp:obj	_	AlignBegin=264770|AlignEnd=265025
-12	wey	wey	SCONJ	_	_	11	mod:relcl	_	AlignBegin=265025|AlignEnd=265280
+12	wey	wey	SCONJ	_	_	11	mod@relcl	_	AlignBegin=265025|AlignEnd=265280
 13	we	we	PRON	_	_	14	subj	_	AlignBegin=265280|AlignEnd=265535
 14	will	will	AUX	_	_	12	comp:obj	_	AlignBegin=265535|AlignEnd=265790
 15	enter	enter	VERB	_	_	14	comp:aux	_	AlignBegin=265790|AlignEnd=266045
@@ -1608,7 +1608,7 @@
 33	to	to	ADP	_	_	30	comp:obl@x	_	AlignBegin=269615|AlignEnd=269870
 34	take	take	VERB	_	_	33	comp:obj	_	AlignBegin=269870|AlignEnd=270125
 35	{	{	PUNCT	_	_	36	punct	_	AlignBegin=270125|AlignEnd=270125
-36	jollificate	jollificate	VERB	_	_	34	comp:obj@lvc	_	AlignBegin=270125|AlignEnd=270380
+36	jollificate	jollificate	VERB	_	_	34	compound:svc	_	AlignBegin=270125|AlignEnd=270380
 37	|c	|c	PUNCT	_	_	39	punct	_	AlignBegin=270380|AlignEnd=270380
 38	and	and	CCONJ	_	_	39	cc	_	AlignBegin=270380|AlignEnd=270635
 39	tank	tank	VERB	_	_	36	conj:coord	_	AlignBegin=270635|AlignEnd=270890
@@ -1638,19 +1638,19 @@
 14	sharp	sharp	ADJ	_	_	12	compound:redup	_	AlignBegin=273952|AlignEnd=274177
 15	}	}	PUNCT	_	_	12	punct	_	AlignBegin=274177|AlignEnd=274177
 16	tory	tory	NOUN	_	_	8	comp:obj	_	AlignBegin=274177|AlignEnd=274402
-17	wey	wey	SCONJ	_	_	16	mod:relcl	_	AlignBegin=274402|AlignEnd=274627
+17	wey	wey	SCONJ	_	_	16	mod@relcl	_	AlignBegin=274402|AlignEnd=274627
 18	don	don	AUX	_	_	17	comp:obj	_	AlignBegin=274627|AlignEnd=274852
 19	dey	dey	VERB	_	_	18	comp:aux	_	AlignBegin=274852|AlignEnd=275078
 20	ground	ground	NOUN	_	_	19	comp:pred	_	AlignBegin=275078|AlignEnd=275303
-21	base	base	VERB	_	_	19	mod	_	AlignBegin=275303|AlignEnd=275528
-22	on	on	ADP	_	_	21	comp:obl	_	AlignBegin=275528|AlignEnd=275753
+21	base	base	ADP	_	_	19	mod	_	AlignBegin=275303|AlignEnd=275528
+22	on	on	ADP	_	_	21	unk@fixed	_	AlignBegin=275528|AlignEnd=275753
 23	di	di	DET	_	_	24	det	_	AlignBegin=275753|AlignEnd=275978
-24	matter	matter	NOUN	_	_	21	comp:obj	_	AlignBegin=275978|AlignEnd=276204
-25	wey	wey	SCONJ	_	_	24	mod:relcl	_	AlignBegin=276204|AlignEnd=276429
+24	matter	matter	NOUN	_	_	22	comp:obj	_	AlignBegin=275978|AlignEnd=276204
+25	wey	wey	SCONJ	_	_	24	mod@relcl	_	AlignBegin=276204|AlignEnd=276429
 26	we	we	PRON	_	_	27	subj	_	AlignBegin=276429|AlignEnd=276654
 27	go	go	AUX	_	_	25	comp:obj	_	AlignBegin=276654|AlignEnd=276879
 28	talk	talk	VERB	_	_	27	comp:aux	_	AlignBegin=276879|AlignEnd=277104
-29	about	about	ADP	_	_	28	compound:prt	_	AlignBegin=277104|AlignEnd=277330
+29	about	about	ADP	_	_	28	comp:obl	_	AlignBegin=277104|AlignEnd=277330
 30	//	//	PUNCT	_	_	7	punct	_	AlignBegin=277330|AlignEnd=277330
 
 # sent_id = ENU_28_World-Food-Day_M__65
@@ -1663,3 +1663,4 @@
 3	come	come	VERB	_	_	2	comp:aux	_	AlignBegin=277895|AlignEnd=278177
 4	back	back	ADV	_	_	3	mod	_	AlignBegin=278177|AlignEnd=278460
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=278460|AlignEnd=278460
+
