@@ -4,14 +4,14 @@
 # text = ninety nine point five |a Wazobia FM //
 # text_en = Ninety nine point five Wazobia FM.
 # text_ortho = Ninety nine point five, Wazobia FM,
-1	ninety	ninety	NUM	_	_	0	root	_	AlignBegin=2450|AlignEnd=2726
-2	nine	nine	NUM	_	_	1	flat	_	AlignBegin=2726|AlignEnd=3002
+1	ninety	ninety	NUM	_	_	2	compound	_	AlignBegin=2450|AlignEnd=2726
+2	nine	nine	NUM	_	_	0	root	_	AlignBegin=2726|AlignEnd=3002
 3	point	point	NOUN	_	_	2	flat	_	AlignBegin=3002|AlignEnd=3278
-4	five	five	NUM	_	_	3	flat	_	AlignBegin=3278|AlignEnd=3554
+4	five	five	NUM	_	_	3	mod:num	_	AlignBegin=3278|AlignEnd=3554
 5	|a	|a	PUNCT	_	_	6	punct	_	AlignBegin=3554|AlignEnd=3554
-6	Wazobia	Wazobia	PROPN	_	_	1	conj:appos	_	AlignBegin=3554|AlignEnd=3830
+6	Wazobia	Wazobia	PROPN	_	_	2	conj:appos	_	AlignBegin=3554|AlignEnd=3830
 7	FM	FM	NOUN	_	_	6	flat	_	AlignBegin=3830|AlignEnd=4107
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=4107|AlignEnd=4107
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=4107|AlignEnd=4107
 
 # sent_id = WAZA_12_Lady-G_M__2
 # speaker_id = Sp289
@@ -22,7 +22,7 @@
 2	afternoon	afternoon	NOUN	_	_	0	root	_	AlignBegin=4380|AlignEnd=4653
 3	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=4653|AlignEnd=4653
 4	and	and	CCONJ	_	_	5	cc	_	AlignBegin=4653|AlignEnd=4927
-5	welcome	welcome	ADJ	_	_	2	conj:coord	_	AlignBegin=4927|AlignEnd=5200
+5	welcome	welcome	VERB	_	_	2	conj:coord	_	AlignBegin=4927|AlignEnd=5200
 6	to	to	ADP	_	_	5	comp:obl	_	AlignBegin=5200|AlignEnd=5473
 7	Naija	Naija	PROPN	_	_	6	comp:obj	_	AlignBegin=5473|AlignEnd=5747
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=5747|AlignEnd=5747
@@ -44,17 +44,17 @@
 # text_en = Today which is Wednesday the seventh of eh June in two thousand and seventeen. time,
 # text_ortho = Today wey be Wednesday di seventh of eh June for two thousand and seventeen,
 1	today	today	NOUN	_	_	0	root	_	AlignBegin=7217|AlignEnd=7577
-2	wey	wey	SCONJ	_	_	1	mod:relcl	_	AlignBegin=7577|AlignEnd=7937
+2	wey	wey	SCONJ	_	_	1	mod@relcl	_	AlignBegin=7577|AlignEnd=7937
 3	be	be	VERB	_	_	2	comp:obj	_	AlignBegin=7937|AlignEnd=8297
 4	Wednesday	Wednesday	PROPN	_	_	3	comp:pred	_	AlignBegin=8297|AlignEnd=8657
 5	di	di	DET	_	_	6	det	_	AlignBegin=8657|AlignEnd=9018
-6	seventh	seventh	ADJ	_	_	3	mod	_	AlignBegin=9018|AlignEnd=9378
+6	seventh	seventh	ADJ	_	_	4	mod	_	AlignBegin=9018|AlignEnd=9378
 7	of	of	ADP	_	_	6	mod	_	AlignBegin=9378|AlignEnd=9738
 8	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=9738|AlignEnd=10098
 9	June	June	PROPN	_	_	7	comp:obj	_	AlignBegin=10098|AlignEnd=10458
-10	for	for	ADP	_	_	4	mod	_	AlignBegin=10458|AlignEnd=10819
-11	two	two	NUM	_	_	10	comp:obj	_	AlignBegin=10819|AlignEnd=11179
-12	thousand	thousand	NUM	_	_	11	flat	_	AlignBegin=11179|AlignEnd=11539
+10	for	for	ADP	_	_	3	comp:pred	_	AlignBegin=10458|AlignEnd=10819
+11	two	two	NUM	_	_	12	compound	_	AlignBegin=10819|AlignEnd=11179
+12	thousand	thousand	NUM	_	_	10	comp:obj	_	AlignBegin=11179|AlignEnd=11539
 13	and	and	CCONJ	_	_	14	cc	_	AlignBegin=11539|AlignEnd=11899
 14	seventeen	seventeen	NUM	_	_	12	conj:coord	_	AlignBegin=11899|AlignEnd=12260
 15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=12260|AlignEnd=12260
@@ -64,7 +64,7 @@
 # text = and if you check your time < e don take seven minute comot body for three oclock eh //
 # text_en = And if you check your time, it has taken seven minute pass three oclock.
 # text_ortho = And if you check your time, e don take seven minute comot body for three oclock eh.
-1	and	and	CCONJ	_	_	9	discourse	_	AlignBegin=12260|AlignEnd=12492
+1	and	and	CCONJ	_	_	9	cc	_	AlignBegin=12260|AlignEnd=12492
 2	if	if	SCONJ	_	_	9	mod:periph	_	AlignBegin=12492|AlignEnd=12725
 3	you	you	PRON	_	_	4	subj	_	AlignBegin=12725|AlignEnd=12957
 4	check	check	VERB	_	_	2	comp:obj	_	AlignBegin=12957|AlignEnd=13190
@@ -79,9 +79,9 @@
 13	comot	comot	VERB	_	_	10	compound:svc	_	AlignBegin=14817|AlignEnd=15050
 14	body	body	NOUN	_	_	13	comp:obj	_	AlignBegin=15050|AlignEnd=15282
 15	for	for	ADP	_	_	13	comp:obl	_	AlignBegin=15282|AlignEnd=15515
-16	three	three	NUM	_	_	15	comp:obj	_	AlignBegin=15515|AlignEnd=15747
-17	oclock	oclock	VERB	_	_	15	compound:svc	_	AlignBegin=15747|AlignEnd=15980
-18	eh	eh	INTJ	_	_	2	discourse	_	AlignBegin=15980|AlignEnd=16213
+16	three	three	NUM	_	_	17	det:num	_	AlignBegin=15515|AlignEnd=15747
+17	oclock	oclock	NOUN	_	_	15	comp:obj	_	AlignBegin=15747|AlignEnd=15980
+18	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=15980|AlignEnd=16213
 19	//	//	PUNCT	_	_	9	punct	_	AlignBegin=16213|AlignEnd=16213
 
 # sent_id = WAZA_12_Lady-G_M__6
@@ -92,7 +92,7 @@
 1	my	my	PRON	_	_	2	mod:poss	_	AlignBegin=16613|AlignEnd=16897
 2	name	name	NOUN	_	_	3	subj	_	AlignBegin=16897|AlignEnd=17181
 3	na	na	PART	_	_	0	root	_	AlignBegin=17181|AlignEnd=17466
-4	Lady	Lady	NOUN	_	_	3	comp:pred	_	AlignBegin=17466|AlignEnd=17750
+4	Lady	Lady	PROPN	_	_	3	comp:pred	_	AlignBegin=17466|AlignEnd=17750
 5	Gee	Gee	PROPN	_	_	4	flat	_	AlignBegin=17750|AlignEnd=18035
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=18035|AlignEnd=18035
 
@@ -104,27 +104,27 @@
 1	alright	alright	ADV	_	_	10	discourse	_	AlignBegin=18365|AlignEnd=18655
 2	dere	dere	ADV	_	_	10	mod:periph	_	AlignBegin=18655|AlignEnd=18945
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=18945|AlignEnd=18945
-4	and	and	CCONJ	_	_	10	discourse	_	AlignBegin=18945|AlignEnd=19235
+4	and	and	CCONJ	_	_	10	cc	_	AlignBegin=18945|AlignEnd=19235
 5	about	about	ADP	_	_	10	mod:periph	_	AlignBegin=19235|AlignEnd=19525
 6	two	two	NUM	_	_	7	det:num	_	AlignBegin=19525|AlignEnd=19816
 7	days	days	NOUN	_	_	5	comp:obj	_	AlignBegin=19816|AlignEnd=20106
 8	ago	ago	ADV	_	_	7	mod	_	AlignBegin=20106|AlignEnd=20396
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=20396|AlignEnd=20396
 10	na	na	PART	_	_	0	root	_	AlignBegin=20396|AlignEnd=20686
-11	im	im	PRON	_	_	10	comp:pred	_	AlignBegin=20686|AlignEnd=20976
+11	im	im	PRON	_	_	10	comp:pred@fixed	_	AlignBegin=20686|AlignEnd=20976
 12	>+	>+	PUNCT	_	_	14	punct	_	AlignBegin=20976|AlignEnd=20976
 13	I	I	PRON	_	_	14	subj	_	AlignBegin=20976|AlignEnd=21267
 14	bring	bring	VERB	_	_	10	comp:cleft	_	AlignBegin=21267|AlignEnd=21557
 15	one	one	DET	_	_	16	det	_	AlignBegin=21557|AlignEnd=21847
 16	topic	topic	NOUN	_	_	14	comp:obj	_	AlignBegin=21847|AlignEnd=22137
 17	come	come	VERB	_	_	14	compound:svc	_	AlignBegin=22137|AlignEnd=22428
-18	wey	wey	SCONJ	_	_	16	mod:relcl	_	AlignBegin=22428|AlignEnd=22718
+18	wey	wey	SCONJ	_	_	7	mod@relcl	_	AlignBegin=22428|AlignEnd=22718
 19	dey	dey	VERB	_	_	18	comp:obj	_	AlignBegin=22718|AlignEnd=23008
 20	for	for	ADP	_	_	19	comp:pred	_	AlignBegin=23008|AlignEnd=23298
-21	Vanguard	Vanguard	PROPN	_	_	20	comp:obj	_	AlignBegin=23298|AlignEnd=23588
-22	News	News	NOUN	_	_	21	flat	_	AlignBegin=23588|AlignEnd=23879
+21	Vanguard	Vanguard	PROPN	_	_	22	compound	_	AlignBegin=23298|AlignEnd=23588
+22	News	News	NOUN	_	_	20	comp:obj	_	AlignBegin=23588|AlignEnd=23879
 23	for	for	ADP	_	_	19	comp:obl	_	AlignBegin=23879|AlignEnd=24169
-24	internet	internet	NOUN	_	_	20	comp:obj	_	AlignBegin=24169|AlignEnd=24459
+24	internet	internet	NOUN	_	_	23	comp:obj	_	AlignBegin=24169|AlignEnd=24459
 25	talk	talk	VERB	_	_	20	comp:obj	_	AlignBegin=24459|AlignEnd=24749
 26	sey	sey	SCONJ	_	_	25	comp:obj	_	AlignBegin=24749|AlignEnd=25039
 27	[	[	PUNCT	_	_	34	punct	_	AlignBegin=25039|AlignEnd=25039
@@ -138,17 +138,17 @@
 35	sey	sey	SCONJ	_	_	34	comp:obj	_	AlignBegin=26781|AlignEnd=27071
 36	[	[	PUNCT	_	_	45	punct	_	AlignBegin=27071|AlignEnd=27071
 37	ehm	ehm	INTJ	_	_	45	discourse	_	AlignBegin=27071|AlignEnd=27361
-38	South	South	NOUN	_	_	45	subj	_	AlignBegin=27361|AlignEnd=27651
-39	South	South	NOUN	_	_	38	flat	_	AlignBegin=27651|AlignEnd=27942
+38	South	South	PROPN	_	_	41	compound	_	AlignBegin=27361|AlignEnd=27651
+39	South	South	PROPN	_	_	38	flat	_	AlignBegin=27651|AlignEnd=27942
 40	geo-political	geo-political	ADJ	_	_	41	mod	_	AlignBegin=27942|AlignEnd=28232
-41	zone	zone	NOUN	_	_	45	subj	_	AlignBegin=28232|AlignEnd=28522
+41	zone	zone	NOUN	_	_	45	dislocated	_	AlignBegin=28232|AlignEnd=28522
 42	of	of	ADP	_	_	41	mod	_	AlignBegin=28522|AlignEnd=28812
 43	Naija	Naija	PROPN	_	_	42	comp:obj	_	AlignBegin=28812|AlignEnd=29102
 44	<	<	PUNCT	_	_	41	punct	_	AlignBegin=29102|AlignEnd=29102
 45	na	na	PART	_	_	35	comp:obj	_	AlignBegin=29102|AlignEnd=29393
 46	part	part	NOUN	_	_	45	comp:pred	_	AlignBegin=29393|AlignEnd=29683
 47	of	of	ADP	_	_	46	mod	_	AlignBegin=29683|AlignEnd=29973
-48	Biafra	Biafra	PROPN	_	_	49	mod	_	AlignBegin=29973|AlignEnd=30263
+48	Biafra	Biafra	PROPN	_	_	49	compound	_	AlignBegin=29973|AlignEnd=30263
 49	territory	territory	NOUN	_	_	47	comp:obj	_	AlignBegin=30263|AlignEnd=30554
 50	]	]	PUNCT	_	_	45	punct	_	AlignBegin=30554|AlignEnd=30554
 51	]	]	PUNCT	_	_	34	punct	_	AlignBegin=30554|AlignEnd=30554
@@ -159,20 +159,20 @@
 # text = now < today matters < e don be sit it for Vanguard News ontop internet //
 # text_en = Now today's matther has been published on Vanguard News on the internet.
 # text_ortho = Now, today matters, e don be sit it for Vanguard News ontop internet.
-1	now	now	ADV	_	_	7	mod:periph	_	AlignBegin=31014|AlignEnd=31267
+1	now	now	ADV	_	_	7	discourse	_	AlignBegin=31014|AlignEnd=31267
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=31267|AlignEnd=31267
 3	today	today	NOUN	_	_	4	compound	_	AlignBegin=31267|AlignEnd=31521
 4	matters	matters	NOUN	_	_	7	dislocated	_	AlignBegin=31521|AlignEnd=31775
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=31775|AlignEnd=31775
 6	e	im	PRON	_	_	7	subj	_	AlignBegin=31775|AlignEnd=32029
 7	don	don	AUX	_	_	0	root	_	AlignBegin=32029|AlignEnd=32283
-8	be	be	AUX	_	_	7	comp:aux	_	AlignBegin=32283|AlignEnd=32537
+8	be	be	VERB	_	_	7	comp:aux	_	AlignBegin=32283|AlignEnd=32537
 9	sit	sit	VERB	_	_	8	comp:aux	_	AlignBegin=32537|AlignEnd=32791
 10	it	it	PRON	_	_	9	comp:obj	_	AlignBegin=32791|AlignEnd=33045
 11	for	for	ADP	_	_	9	comp:obl	_	AlignBegin=33045|AlignEnd=33299
-12	Vanguard	Vanguard	PROPN	_	_	11	comp:obj	_	AlignBegin=33299|AlignEnd=33553
-13	News	News	NOUN	_	_	12	flat	_	AlignBegin=33553|AlignEnd=33807
-14	ontop	ontop	ADP	_	_	9	mod	_	AlignBegin=33807|AlignEnd=34061
+12	Vanguard	Vanguard	PROPN	_	_	13	compound	_	AlignBegin=33299|AlignEnd=33553
+13	News	News	NOUN	_	_	11	comp:obj	_	AlignBegin=33553|AlignEnd=33807
+14	ontop	ontop	ADP	_	_	9	comp:obl	_	AlignBegin=33807|AlignEnd=34061
 15	internet	internet	NOUN	_	_	14	comp:obj	_	AlignBegin=34061|AlignEnd=34315
 16	//	//	PUNCT	_	_	7	punct	_	AlignBegin=34315|AlignEnd=34315
 
@@ -191,7 +191,7 @@
 8	di	di	DET	_	_	9	det	_	AlignBegin=36527|AlignEnd=36790
 9	matter	matter	NOUN	_	_	7	comp:obj	_	AlignBegin=36790|AlignEnd=37054
 10	dat	dat	DET	_	_	11	det	_	AlignBegin=37054|AlignEnd=37317
-11	picture	picture	NOUN	_	_	7	mod	_	AlignBegin=37317|AlignEnd=37581
+11	picture	picture	NOUN	_	_	7	comp:obj	_	AlignBegin=37317|AlignEnd=37581
 12	so	so	ADV	_	_	7	mod	_	AlignBegin=37581|AlignEnd=37845
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=37845|AlignEnd=37845
 
@@ -200,9 +200,9 @@
 # text = now < { { di former national chairmo of di traditional rulers { for dem community wey dey produce oil minerals |c for inside Naija |a TROMCOM } |c and di paramount ruler of Senbiri kingdom dere for Delta State |a His majesty Pere Charles Ayemi Butu } on Tuesday don talk sey [ South South geo-political zone no be part of Biafra ] //
 # text_en = Now, the former national chairman of the traditional rulers for the communities that produce oil minerals in Nigeria, TROMCOM and the paramount ruler of Senbiri kingdom, there in Delta State, His majesty Pere Charles Ayemi Butu, on Tuesday, has said that South South geo political zone is not part of Biafra.
 # text_ortho = Now, di former national chairmo of di traditional rulers for dem community wey dey produce oil minerals, for inside Naija, TROMCOM, and di paramount ruler of Senbiri kingdom dere for Delta State, His majesty Pere Charles Ayemi Butu on Tuesday don talk sey South South geo-political zone no be part of Biafra.
-1	now	now	ADV	_	_	51	mod:periph	_	AlignBegin=38195|AlignEnd=38594
+1	now	now	ADV	_	_	51	discourse	_	AlignBegin=38195|AlignEnd=38594
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=38594|AlignEnd=38594
-3	{	{	PUNCT	_	_	51	punct	_	AlignBegin=38594|AlignEnd=38594
+3	{	{	PUNCT	_	_	8	punct	_	AlignBegin=38594|AlignEnd=38594
 4	{	{	PUNCT	_	_	8	punct	_	AlignBegin=38594|AlignEnd=38594
 5	di	di	DET	_	_	8	det	_	AlignBegin=38594|AlignEnd=38993
 6	former	former	ADJ	_	_	8	mod	_	AlignBegin=38993|AlignEnd=39392
@@ -216,7 +216,7 @@
 14	for	for	ADP	_	_	12	mod	_	AlignBegin=41786|AlignEnd=42185
 15	dem	dem	PRON	_	_	16	mod:poss	_	AlignBegin=42185|AlignEnd=42584
 16	community	community	NOUN	_	_	14	comp:obj	_	AlignBegin=42584|AlignEnd=42983
-17	wey	wey	SCONJ	_	_	16	mod:relcl	_	AlignBegin=42983|AlignEnd=43382
+17	wey	wey	SCONJ	_	_	16	mod@relcl	_	AlignBegin=42983|AlignEnd=43382
 18	dey	dey	AUX	_	_	17	comp:obj	_	AlignBegin=43382|AlignEnd=43781
 19	produce	produce	VERB	_	_	18	comp:aux	_	AlignBegin=43781|AlignEnd=44180
 20	oil	oil	NOUN	_	_	21	compound	_	AlignBegin=44180|AlignEnd=44579
@@ -224,38 +224,38 @@
 22	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=44978|AlignEnd=44978
 23	for	for	ADP	_	_	14	conj:coord	_	AlignBegin=44978|AlignEnd=45377
 24	inside	inside	ADP	_	_	23	comp:obj	_	AlignBegin=45377|AlignEnd=45776
-25	Naija	Naija	PROPN	_	_	23	comp:obj	_	AlignBegin=45776|AlignEnd=46175
+25	Naija	Naija	PROPN	_	_	24	comp:obj	_	AlignBegin=45776|AlignEnd=46175
 26	|a	|a	PUNCT	_	_	27	punct	_	AlignBegin=46175|AlignEnd=46175
-27	TROMCOM	TROMCOM	PROPN	_	_	25	conj:appos	_	AlignBegin=46175|AlignEnd=46574
+27	TROMCOM	TROMCOM	PROPN	_	_	14	conj:appos	_	AlignBegin=46175|AlignEnd=46574
 28	}	}	PUNCT	_	_	14	punct	_	AlignBegin=46574|AlignEnd=46574
 29	|c	|c	PUNCT	_	_	33	punct	_	AlignBegin=46574|AlignEnd=46574
 30	and	and	CCONJ	_	_	33	cc	_	AlignBegin=46574|AlignEnd=46973
 31	di	di	DET	_	_	33	det	_	AlignBegin=46973|AlignEnd=47372
 32	paramount	paramount	ADJ	_	_	33	mod	_	AlignBegin=47372|AlignEnd=47771
-33	ruler	ruler	NOUN	_	_	16	conj:coord	_	AlignBegin=47771|AlignEnd=48170
+33	ruler	ruler	NOUN	_	_	27	conj:coord	_	AlignBegin=47771|AlignEnd=48170
 34	of	of	ADP	_	_	33	mod	_	AlignBegin=48170|AlignEnd=48570
 35	Senbiri	Senbiri	PROPN	_	_	36	compound	_	AlignBegin=48570|AlignEnd=48969
 36	kingdom	kingdom	NOUN	_	_	34	comp:obj	_	AlignBegin=48969|AlignEnd=49368
 37	dere	dere	ADV	_	_	36	mod	_	AlignBegin=49368|AlignEnd=49767
-38	for	for	ADP	_	_	37	mod	_	AlignBegin=49767|AlignEnd=50166
-39	Delta	Delta	PROPN	_	_	38	comp:obj	_	AlignBegin=50166|AlignEnd=50565
-40	State	State	NOUN	_	_	39	flat	_	AlignBegin=50565|AlignEnd=50964
+38	for	for	ADP	_	_	36	mod	_	AlignBegin=49767|AlignEnd=50166
+39	Delta	Delta	PROPN	_	_	40	compound	_	AlignBegin=50166|AlignEnd=50565
+40	State	State	NOUN	_	_	38	comp:obj	_	AlignBegin=50565|AlignEnd=50964
 41	|a	|a	PUNCT	_	_	43	punct	_	AlignBegin=50964|AlignEnd=50964
 42	His	His	PRON	_	_	43	mod:poss	_	AlignBegin=50964|AlignEnd=51363
 43	majesty	majesty	NOUN	_	_	33	conj:appos	_	AlignBegin=51363|AlignEnd=51762
-44	Pere	Pere	PROPN	_	_	43	mod:appos	_	AlignBegin=51762|AlignEnd=52161
+44	Pere	Pere	PROPN	_	_	43	flat	_	AlignBegin=51762|AlignEnd=52161
 45	Charles	Charles	PROPN	_	_	44	flat	_	AlignBegin=52161|AlignEnd=52560
 46	Ayemi	Ayemi	PROPN	_	_	44	flat	_	AlignBegin=52560|AlignEnd=52959
 47	Butu	Butu	PROPN	_	_	46	flat	_	AlignBegin=52959|AlignEnd=53358
-48	}	}	PUNCT	_	_	14	punct	_	AlignBegin=53358|AlignEnd=53358
-49	on	on	ADP	_	_	43	mod	_	AlignBegin=53358|AlignEnd=53757
+48	}	}	PUNCT	_	_	8	punct	_	AlignBegin=53358|AlignEnd=53358
+49	on	on	ADP	_	_	51	mod:periph	_	AlignBegin=53358|AlignEnd=53757
 50	Tuesday	Tuesday	PROPN	_	_	49	comp:obj	_	AlignBegin=53757|AlignEnd=54156
 51	don	don	AUX	_	_	0	root	_	AlignBegin=54156|AlignEnd=54555
 52	talk	talk	VERB	_	_	51	comp:aux	_	AlignBegin=54555|AlignEnd=54954
 53	sey	sey	SCONJ	_	_	52	comp:obj	_	AlignBegin=54954|AlignEnd=55353
 54	[	[	PUNCT	_	_	60	punct	_	AlignBegin=55353|AlignEnd=55353
-55	South	South	NOUN	_	_	60	subj	_	AlignBegin=55353|AlignEnd=55752
-56	South	South	NOUN	_	_	55	flat	_	AlignBegin=55752|AlignEnd=56151
+55	South	South	PROPN	_	_	58	mod	_	AlignBegin=55353|AlignEnd=55752
+56	South	South	PROPN	_	_	36	compound	_	AlignBegin=55752|AlignEnd=56151
 57	geo-political	geo-political	ADJ	_	_	58	mod	_	AlignBegin=56151|AlignEnd=56550
 58	zone	zone	NOUN	_	_	60	subj	_	AlignBegin=56550|AlignEnd=56949
 59	no	no	PART	_	_	60	mod	_	AlignBegin=56949|AlignEnd=57348
@@ -274,46 +274,46 @@
 1	im	im	PRON	_	_	2	subj	_	AlignBegin=59392|AlignEnd=59787
 2	talk	talk	VERB	_	_	0	root	_	AlignBegin=59787|AlignEnd=60183
 3	sey	sey	SCONJ	_	_	2	comp:obj	_	AlignBegin=60183|AlignEnd=60579
-4	[	[	PUNCT	_	_	9	punct	_	AlignBegin=60579|AlignEnd=60579
+4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=60579|AlignEnd=60579
 5	how	how	ADV	_	_	6	mod	_	AlignBegin=60579|AlignEnd=60975
 6	old	old	ADJ	_	_	2	mod	_	AlignBegin=60975|AlignEnd=61371
 7	Solomon	Solomon	PROPN	_	_	9	subj	_	AlignBegin=61371|AlignEnd=61767
 8	Chukwu	Chukwu	PROPN	_	_	7	flat	_	AlignBegin=61767|AlignEnd=62162
-9	been	been	AUX	_	_	5	comp:cleft	_	AlignBegin=62162|AlignEnd=62558
+9	been	been	VERB	_	_	2	comp:obj@x	_	AlignBegin=62162|AlignEnd=62558
 10	dey	dey	VERB	_	_	9	comp:aux	_	AlignBegin=62558|AlignEnd=62954
 11	when	when	ADV	_	_	10	comp:pred	_	AlignBegin=62954|AlignEnd=63350
 12	di	di	DET	_	_	14	det	_	AlignBegin=63350|AlignEnd=63746
-13	thirty	thirty	NUM	_	_	14	det:num	_	AlignBegin=63746|AlignEnd=64142
-14	months	months	NOUN	_	_	16	mod	_	AlignBegin=64142|AlignEnd=64537
-15	Biafra	Biafra	ADJ	_	_	16	mod	_	AlignBegin=64537|AlignEnd=64933
-16	war	war	NOUN	_	_	17	subj	_	AlignBegin=64933|AlignEnd=65329
-17	start	start	VERB	_	_	11	mod:relcl	_	AlignBegin=65329|AlignEnd=65725
+13	thirty	thirty	NUM	_	_	14	mod:num	_	AlignBegin=63746|AlignEnd=64142
+14	months	months	NOUN	_	_	7	mod	_	AlignBegin=64142|AlignEnd=64537
+15	Biafra	Biafra	PROPN	_	_	14	mod	_	AlignBegin=64537|AlignEnd=64933
+16	war	war	NOUN	_	_	15	flat	_	AlignBegin=64933|AlignEnd=65329
+17	start	start	VERB	_	_	11	mod@relcl	_	AlignBegin=65329|AlignEnd=65725
 18	July	July	PROPN	_	_	17	comp:obj	_	AlignBegin=65725|AlignEnd=66121
 19	sixth	sixth	ADJ	_	_	18	mod	_	AlignBegin=66121|AlignEnd=66517
-20	nineteen	nineteen	NUM	_	_	18	mod	_	AlignBegin=66517|AlignEnd=66912
+20	nineteen	nineteen	NUM	_	_	18	compound	_	AlignBegin=66517|AlignEnd=66912
 21	{	{	PUNCT	_	_	22	punct	_	AlignBegin=66912|AlignEnd=66912
-22	seventy	seventy	NUM	_	_	18	mod	_	AlignBegin=66912|AlignEnd=67308
+22	seventy	seventy	NUM	_	_	26	compound	_	AlignBegin=66912|AlignEnd=67308
 23	||	||	PUNCT	_	_	24	punct	_	AlignBegin=67308|AlignEnd=67308
 24	sixty	sixty	NUM	_	_	22	conj:dicto	_	AlignBegin=67308|AlignEnd=67704
 25	}	}	PUNCT	_	_	22	punct	_	AlignBegin=67704|AlignEnd=67704
-26	seven	seven	NUM	_	_	24	flat	_	AlignBegin=67704|AlignEnd=68100
+26	seven	seven	NUM	_	_	17	comp:obj	_	AlignBegin=67704|AlignEnd=68100
 27	|c	|c	PUNCT	_	_	29	punct	_	AlignBegin=68100|AlignEnd=68100
 28	and	and	CCONJ	_	_	29	cc	_	AlignBegin=68100|AlignEnd=68496
 29	end	end	VERB	_	_	17	conj:coord	_	AlignBegin=68496|AlignEnd=68892
 30	for	for	ADP	_	_	29	comp:obl	_	AlignBegin=68892|AlignEnd=69287
 31	January	January	PROPN	_	_	30	comp:obj	_	AlignBegin=69287|AlignEnd=69683
-32	twelve	twelve	NUM	_	_	31	mod	_	AlignBegin=69683|AlignEnd=70079
-33	nineteen	nineteen	NUM	_	_	32	flat	_	AlignBegin=70079|AlignEnd=70475
-34	seventy	seventy	NUM	_	_	33	flat	_	AlignBegin=70475|AlignEnd=70871
+32	twelve	twelve	NUM	_	_	34	compound	_	AlignBegin=69683|AlignEnd=70079
+33	nineteen	nineteen	NUM	_	_	34	compound	_	AlignBegin=70079|AlignEnd=70475
+34	seventy	seventy	NUM	_	_	29	comp:obj	_	AlignBegin=70475|AlignEnd=70871
 35	|c	|c	PUNCT	_	_	36	punct	_	AlignBegin=70871|AlignEnd=70871
-36	to	to	ADP	_	_	29	none	_	AlignBegin=70871|AlignEnd=71267
+36	to	to	ADP	_	_	29	conj:coord	_	AlignBegin=70871|AlignEnd=71267
 37	take	take	VERB	_	_	36	comp:obj	_	AlignBegin=71267|AlignEnd=71662
 38	know	know	VERB	_	_	37	compound:svc	_	AlignBegin=71662|AlignEnd=72058
 39	di	di	DET	_	_	40	det	_	AlignBegin=72058|AlignEnd=72454
 40	history	history	NOUN	_	_	38	comp:obj	_	AlignBegin=72454|AlignEnd=72850
 41	of	of	ADP	_	_	40	mod	_	AlignBegin=72850|AlignEnd=73246
 42	Biafra	Biafra	PROPN	_	_	41	comp:obj	_	AlignBegin=73246|AlignEnd=73642
-43	]	]	PUNCT	_	_	9	punct	_	AlignBegin=73642|AlignEnd=73642
+43	]	]	PUNCT	_	_	6	punct	_	AlignBegin=73642|AlignEnd=73642
 44	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=73642|AlignEnd=73642
 
 # sent_id = WAZA_12_Lady-G_M__12
@@ -336,18 +336,18 @@
 13	dat	dat	DET	_	_	14	det	_	AlignBegin=78240|AlignEnd=78631
 14	time	time	NOUN	_	_	12	comp:obj	_	AlignBegin=78631|AlignEnd=79022
 15	of	of	ADP	_	_	14	mod	_	AlignBegin=79022|AlignEnd=79414
-16	Biafra	Biafra	PROPN	_	_	17	mod	_	AlignBegin=79414|AlignEnd=79805
+16	Biafra	Biafra	PROPN	_	_	17	compound	_	AlignBegin=79414|AlignEnd=79805
 17	war	war	NOUN	_	_	15	comp:obj	_	AlignBegin=79805|AlignEnd=80197
 18	<	<	PUNCT	_	_	12	punct	_	AlignBegin=80197|AlignEnd=80197
 19	na	na	PART	_	_	11	comp:obj	_	AlignBegin=80197|AlignEnd=80588
-20	only	only	ADV	_	_	22	mod	_	AlignBegin=80588|AlignEnd=80980
+20	only	only	ADV	_	_	21	mod	_	AlignBegin=80588|AlignEnd=80980
 21	four	four	NUM	_	_	22	det:num	_	AlignBegin=80980|AlignEnd=81371
 22	region	region	NOUN	_	_	19	comp:pred	_	AlignBegin=81371|AlignEnd=81763
 23	>+	>+	PUNCT	_	_	24	punct	_	AlignBegin=81763|AlignEnd=81763
 24	dey	dey	VERB	_	_	19	comp:cleft	_	AlignBegin=81763|AlignEnd=82154
 25	for	for	ADP	_	_	24	comp:pred	_	AlignBegin=82154|AlignEnd=82546
-26	inside	inside	ADP	_	_	25	comp:obj	_	AlignBegin=82546|AlignEnd=82937
-27	Naija	Naija	PROPN	_	_	25	comp:obj	_	AlignBegin=82937|AlignEnd=83328
+26	inside	inside	ADP	_	_	25	unk@fixed	_	AlignBegin=82546|AlignEnd=82937
+27	Naija	Naija	PROPN	_	_	26	comp:obj	_	AlignBegin=82937|AlignEnd=83328
 28	|c	|c	PUNCT	_	_	31	punct	_	AlignBegin=83328|AlignEnd=83328
 29	and	and	CCONJ	_	_	31	cc	_	AlignBegin=83328|AlignEnd=83720
 30	dem	dem	PRON	_	_	31	subj	_	AlignBegin=83720|AlignEnd=84111
@@ -355,9 +355,9 @@
 32	{	{	PUNCT	_	_	33	punct	_	AlignBegin=84503|AlignEnd=84503
 33	Northern	Northern	ADJ	_	_	31	comp:pred	_	AlignBegin=84503|AlignEnd=84894
 34	|c	|c	PUNCT	_	_	35	punct	_	AlignBegin=84894|AlignEnd=84894
-35	Eastern	Eastern	ADJ	_	_	33	conj:coord	_	AlignBegin=84894|AlignEnd=85286
+35	Eastern	Eastern	PROPN	_	_	33	conj:coord	_	AlignBegin=84894|AlignEnd=85286
 36	|c	|c	PUNCT	_	_	37	punct	_	AlignBegin=85286|AlignEnd=85286
-37	Western	Western	ADJ	_	_	35	conj:coord	_	AlignBegin=85286|AlignEnd=85677
+37	Western	Western	PROPN	_	_	35	conj:coord	_	AlignBegin=85286|AlignEnd=85677
 38	|c	|c	PUNCT	_	_	40	punct	_	AlignBegin=85677|AlignEnd=85677
 39	and	and	CCONJ	_	_	40	cc	_	AlignBegin=85677|AlignEnd=86069
 40	Mid	Mid	ADJ	_	_	37	conj:coord	_	AlignBegin=86069|AlignEnd=86460
@@ -372,14 +372,14 @@
 # text_en = These four regions, ehn, they said they have their headquarters in Kaduna Enugu, Ibadan and Benin.
 # text_ortho = Dis four region ehn, de say e get deir headquarters for Kaduna, Enugu, Ibadan, and Benin.
 1	dis	dis	DET	_	_	3	det	_	AlignBegin=87135|AlignEnd=87467
-2	four	four	NUM	_	_	3	det:num	_	AlignBegin=87467|AlignEnd=87800
+2	four	four	NUM	_	_	3	mod:num	_	AlignBegin=87467|AlignEnd=87800
 3	region	region	NOUN	_	_	7	dislocated	_	AlignBegin=87800|AlignEnd=88133
 4	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=88133|AlignEnd=88466
-5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=88466|AlignEnd=88466
+5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=88466|AlignEnd=88466
 6	de	dem	PRON	_	_	7	subj	_	AlignBegin=88466|AlignEnd=88799
 7	say	say	VERB	_	_	0	root	_	AlignBegin=88799|AlignEnd=89132
 8	[	[	PUNCT	_	_	10	punct	_	AlignBegin=89132|AlignEnd=89132
-9	e	im	PRON	_	_	10	subj	_	AlignBegin=89132|AlignEnd=89465
+9	e	im	PRON	_	_	10	subj@expl	_	AlignBegin=89132|AlignEnd=89465
 10	get	get	VERB	_	_	7	parataxis:obj	_	AlignBegin=89465|AlignEnd=89798
 11	deir	deir	PRON	_	_	12	mod:poss	_	AlignBegin=89798|AlignEnd=90130
 12	headquarters	headquarters	NOUN	_	_	10	comp:obj	_	AlignBegin=90130|AlignEnd=90463
@@ -393,7 +393,7 @@
 20	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=91795|AlignEnd=91795
 21	and	and	CCONJ	_	_	22	cc	_	AlignBegin=91795|AlignEnd=92128
 22	Benin	Benin	PROPN	_	_	19	conj:coord	_	AlignBegin=92128|AlignEnd=92461
-23	}	}	PUNCT	_	_	15	punct	_	AlignBegin=92461|AlignEnd=92461
+23	}	}	PUNCT	_	_	17	punct	_	AlignBegin=92461|AlignEnd=92461
 24	]	]	PUNCT	_	_	10	punct	_	AlignBegin=92461|AlignEnd=92461
 25	//	//	PUNCT	_	_	7	punct	_	AlignBegin=92461|AlignEnd=92461
 
@@ -419,8 +419,8 @@
 15	yes	yes	INTJ	_	_	21	discourse	_	AlignBegin=96259|AlignEnd=96589
 16	o	o	PART	_	_	15	mod:emph	_	AlignBegin=96589|AlignEnd=96919
 17	ehm	ehm	INTJ	_	_	18	discourse	_	AlignBegin=96919|AlignEnd=97248
-18	South	South	NOUN	_	_	21	subj	_	AlignBegin=97248|AlignEnd=97578
-19	South	South	NOUN	_	_	18	flat	_	AlignBegin=97578|AlignEnd=97907
+18	South	South	PROPN	_	_	21	subj	_	AlignBegin=97248|AlignEnd=97578
+19	South	South	PROPN	_	_	18	flat	_	AlignBegin=97578|AlignEnd=97907
 20	{	{	PUNCT	_	_	21	punct	_	AlignBegin=97907|AlignEnd=97907
 21	be	be	VERB	_	_	13	comp:obj	_	AlignBegin=97907|AlignEnd=98237
 22	||	||	PUNCT	_	_	23	punct	_	AlignBegin=98237|AlignEnd=98237
@@ -430,7 +430,7 @@
 26	of	of	ADP	_	_	25	mod	_	AlignBegin=98896|AlignEnd=99225
 27	ehm	ehm	INTJ	_	_	30	discourse	_	AlignBegin=99225|AlignEnd=99555
 28	eh	eh	INTJ	_	_	30	discourse	_	AlignBegin=99555|AlignEnd=99884
-29	Biafra	Biafra	ADJ	_	_	30	mod	_	AlignBegin=99884|AlignEnd=100214
+29	Biafra	Biafra	PROPN	_	_	30	compound	_	AlignBegin=99884|AlignEnd=100214
 30	movement	movement	NOUN	_	_	26	comp:obj	_	AlignBegin=100214|AlignEnd=100544
 31	]	]	PUNCT	_	_	21	punct	_	AlignBegin=100544|AlignEnd=100544
 32	]	]	PUNCT	_	_	10	punct	_	AlignBegin=100544|AlignEnd=100544
@@ -441,16 +441,16 @@
 # text = because dat time < we no get South South geo-political zone //
 # text_en = Because that time, we didn't have South South geo-political zone.
 # text_ortho = Because dat time, we no get South South geo-political zone.
-1	because	because	SCONJ	_	_	7	discourse	_	AlignBegin=100659|AlignEnd=100935
+1	because	because	SCONJ	_	_	7	cc	_	AlignBegin=100659|AlignEnd=100935
 2	dat	dat	DET	_	_	3	det	_	AlignBegin=100935|AlignEnd=101212
 3	time	time	NOUN	_	_	7	mod:periph	_	AlignBegin=101212|AlignEnd=101489
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=101489|AlignEnd=101489
 5	we	we	PRON	_	_	7	subj	_	AlignBegin=101489|AlignEnd=101766
 6	no	no	PART	_	_	7	mod	_	AlignBegin=101766|AlignEnd=102043
 7	get	get	VERB	_	_	0	root	_	AlignBegin=102043|AlignEnd=102319
-8	South	South	NOUN	_	_	7	comp:obj	_	AlignBegin=102319|AlignEnd=102596
-9	South	South	NOUN	_	_	8	flat	_	AlignBegin=102596|AlignEnd=102873
-10	geo-political	geo-political	ADJ	_	_	11	mod	_	AlignBegin=102873|AlignEnd=103150
+8	South	South	PROPN	_	_	11	compound	_	AlignBegin=102319|AlignEnd=102596
+9	South	South	PROPN	_	_	8	flat	_	AlignBegin=102596|AlignEnd=102873
+10	geo-political	geo-political	NOUN	_	_	11	mod	_	AlignBegin=102873|AlignEnd=103150
 11	zone	zone	NOUN	_	_	7	comp:obj	_	AlignBegin=103150|AlignEnd=103427
 12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=103427|AlignEnd=103427
 
@@ -467,8 +467,8 @@
 6	be	be	AUX	_	_	1	comp:cleft	_	AlignBegin=104834|AlignEnd=105135
 7	dey	dey	VERB	_	_	6	comp:aux	_	AlignBegin=105135|AlignEnd=105435
 8	for	for	ADP	_	_	7	comp:pred	_	AlignBegin=105435|AlignEnd=105735
-9	inside	inside	ADP	_	_	8	comp:obj	_	AlignBegin=105735|AlignEnd=106035
-10	Naija	Naija	PROPN	_	_	8	comp:obj	_	AlignBegin=106035|AlignEnd=106336
+9	inside	inside	ADP	_	_	8	unk@fixed	_	AlignBegin=105735|AlignEnd=106035
+10	Naija	Naija	PROPN	_	_	9	comp:obj	_	AlignBegin=106035|AlignEnd=106336
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=106336|AlignEnd=106336
 
 # sent_id = WAZA_12_Lady-G_M__17
@@ -484,31 +484,31 @@
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=107732|AlignEnd=107732
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=107732|AlignEnd=107732
 8	you	you	PRON	_	_	27	dislocated	_	AlignBegin=107732|AlignEnd=107958
-9	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=107958|AlignEnd=108183
+9	wey	wey	SCONJ	_	_	8	mod@relcl	_	AlignBegin=107958|AlignEnd=108183
 10	from	from	ADP	_	_	9	comp:obj	_	AlignBegin=108183|AlignEnd=108409
-11	South	South	NOUN	_	_	10	comp:obj	_	AlignBegin=108409|AlignEnd=108635
-12	South	South	NOUN	_	_	11	flat	_	AlignBegin=108635|AlignEnd=108861
+11	South	South	PROPN	_	_	10	comp:obj	_	AlignBegin=108409|AlignEnd=108635
+12	South	South	PROPN	_	_	11	flat	_	AlignBegin=108635|AlignEnd=108861
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=108861|AlignEnd=108861
 14	and	and	CCONJ	_	_	15	cc	_	AlignBegin=108861|AlignEnd=109086
 15	you	you	PRON	_	_	8	conj:coord	_	AlignBegin=109086|AlignEnd=109312
-16	wey	wey	SCONJ	_	_	15	mod:relcl	_	AlignBegin=109312|AlignEnd=109538
+16	wey	wey	SCONJ	_	_	15	mod@relcl	_	AlignBegin=109312|AlignEnd=109538
 17	from	from	ADP	_	_	16	comp:obj	_	AlignBegin=109538|AlignEnd=109763
 18	Biafra	Biafra	PROPN	_	_	17	comp:obj	_	AlignBegin=109763|AlignEnd=109989
 19	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=109989|AlignEnd=109989
 20	and	and	CCONJ	_	_	21	cc	_	AlignBegin=109989|AlignEnd=110215
 21	you	you	PRON	_	_	15	conj:coord	_	AlignBegin=110215|AlignEnd=110440
-22	wey	wey	SCONJ	_	_	21	mod:relcl	_	AlignBegin=110440|AlignEnd=110666
+22	wey	wey	SCONJ	_	_	21	mod@relcl	_	AlignBegin=110440|AlignEnd=110666
 23	Naija	Naija	PROPN	_	_	24	mod	_	AlignBegin=110666|AlignEnd=110892
 24	person	person	NOUN	_	_	22	comp:obj	_	AlignBegin=110892|AlignEnd=111118
 25	}	}	PUNCT	_	_	8	punct	_	AlignBegin=111118|AlignEnd=111118
 26	<	<	PUNCT	_	_	8	punct	_	AlignBegin=111118|AlignEnd=111118
-27	how	how	ADV	_	_	4	comp:obj	_	AlignBegin=111118|AlignEnd=111343
+27	how	how	ADV	_	_	4	parataxis:obj	_	AlignBegin=111118|AlignEnd=111343
 28	you	you	PRON	_	_	29	subj	_	AlignBegin=111343|AlignEnd=111569
 29	see	see	VERB	_	_	27	comp:cleft	_	AlignBegin=111569|AlignEnd=111795
 30	dis	dis	DET	_	_	31	det	_	AlignBegin=111795|AlignEnd=112020
 31	oga	oga	NOUN	_	_	29	comp:obj	_	AlignBegin=112020|AlignEnd=112246
 32	talk	talk	VERB	_	_	29	compound:svc	_	AlignBegin=112246|AlignEnd=112472
-33	okay	okay	INTJ	_	_	32	discourse	_	AlignBegin=112472|AlignEnd=112698
+33	okay	okay	INTJ	_	_	32	parataxis:obj	_	AlignBegin=112472|AlignEnd=112698
 34	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=112698|AlignEnd=112698
 
 # sent_id = WAZA_12_Lady-G_M__18
@@ -516,7 +516,7 @@
 # text = wey dey come X < you gree talk sey [ { true |r true } < South South no be ehn Biafra territory ] ?//
 # text_en = That is coming, X, do you agree that sincerely, South South is not ehn Biafra territory?
 # text_ortho = Wey dey come X, you gree talk sey true, true, South South no be ehn Biafra territory?
-1	wey	wey	SCONJ	_	_	7	discourse	_	AlignBegin=112928|AlignEnd=113205
+1	wey	wey	SCONJ	_	_	7	mod:periph	_	AlignBegin=112928|AlignEnd=113205
 2	dey	dey	AUX	_	_	1	comp:obj	_	AlignBegin=113205|AlignEnd=113482
 3	come	come	VERB	_	_	2	comp:aux	_	AlignBegin=113482|AlignEnd=113760
 4	X	X	X	_	_	3	comp:obj	_	AlignBegin=113760|AlignEnd=114037
@@ -532,12 +532,12 @@
 14	true	true	ADJ	_	_	12	compound:redup	_	AlignBegin=115425|AlignEnd=115702
 15	}	}	PUNCT	_	_	12	punct	_	AlignBegin=115702|AlignEnd=115702
 16	<	<	PUNCT	_	_	12	punct	_	AlignBegin=115702|AlignEnd=115702
-17	South	South	NOUN	_	_	20	subj	_	AlignBegin=115702|AlignEnd=115980
-18	South	South	NOUN	_	_	17	flat	_	AlignBegin=115980|AlignEnd=116257
+17	South	South	PROPN	_	_	20	subj	_	AlignBegin=115702|AlignEnd=115980
+18	South	South	PROPN	_	_	17	flat	_	AlignBegin=115980|AlignEnd=116257
 19	no	no	PART	_	_	20	mod	_	AlignBegin=116257|AlignEnd=116535
 20	be	be	VERB	_	_	9	comp:obj	_	AlignBegin=116535|AlignEnd=116812
 21	ehn	ehn	INTJ	_	_	23	discourse	_	AlignBegin=116812|AlignEnd=117090
-22	Biafra	Biafra	PROPN	_	_	23	mod	_	AlignBegin=117090|AlignEnd=117367
+22	Biafra	Biafra	PROPN	_	_	23	compound	_	AlignBegin=117090|AlignEnd=117367
 23	territory	territory	NOUN	_	_	20	comp:pred	_	AlignBegin=117367|AlignEnd=117645
 24	]	]	PUNCT	_	_	20	punct	_	AlignBegin=117645|AlignEnd=117645
 25	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=117645|AlignEnd=117645
@@ -547,12 +547,12 @@
 # text = and you gree for { di kind || ehm di old } fact wey im carry come ?//
 # text_en = And you agreed with the kind... ehm the old fact that he revealed?
 # text_ortho = And you gree for di kind, ehm di old fact wey im carry come,
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=117857|AlignEnd=118075
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=117857|AlignEnd=118075
 2	you	you	PRON	_	_	3	subj	_	AlignBegin=118075|AlignEnd=118294
 3	gree	gree	VERB	_	_	0	root	_	AlignBegin=118294|AlignEnd=118513
 4	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=118513|AlignEnd=118732
 5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=118732|AlignEnd=118732
-6	di	di	DET	_	_	7	det	_	AlignBegin=118732|AlignEnd=118950
+6	di	di	DET	_	_	13	det	_	AlignBegin=118732|AlignEnd=118950
 7	kind	kind	ADJ	_	_	13	mod	_	AlignBegin=118950|AlignEnd=119169
 8	||	||	PUNCT	_	_	11	punct	_	AlignBegin=119169|AlignEnd=119169
 9	ehm	ehm	INTJ	_	_	11	discourse	_	AlignBegin=119169|AlignEnd=119388
@@ -560,7 +560,7 @@
 11	old	old	ADJ	_	_	7	conj:dicto	_	AlignBegin=119607|AlignEnd=119826
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=119826|AlignEnd=119826
 13	fact	fact	NOUN	_	_	4	comp:obj	_	AlignBegin=119826|AlignEnd=120044
-14	wey	wey	SCONJ	_	_	13	mod:relcl	_	AlignBegin=120044|AlignEnd=120263
+14	wey	wey	SCONJ	_	_	13	mod@relcl	_	AlignBegin=120044|AlignEnd=120263
 15	im	im	PRON	_	_	16	subj	_	AlignBegin=120263|AlignEnd=120482
 16	carry	carry	VERB	_	_	14	comp:obj	_	AlignBegin=120482|AlignEnd=120701
 17	come	come	VERB	_	_	16	compound:svc	_	AlignBegin=120701|AlignEnd=120920
@@ -577,11 +577,11 @@
 4	oh	oh	INTJ	_	_	7	discourse	_	AlignBegin=121135|AlignEnd=121351
 5	ehm	ehm	INTJ	_	_	7	discourse	_	AlignBegin=121351|AlignEnd=121566
 6	you	you	PRON	_	_	7	subj	_	AlignBegin=121566|AlignEnd=121782
-7	know	know	VERB	_	_	2	conj:dicto	_	AlignBegin=121782|AlignEnd=121997
-8	di	di	DET	_	_	10	det	_	AlignBegin=121997|AlignEnd=122213
+7	know	know	VERB	_	_	10	parataxis:discourse	_	AlignBegin=121782|AlignEnd=121997
+8	di	di	DET	_	_	2	det	_	AlignBegin=121997|AlignEnd=122213
 9	}	}	PUNCT	_	_	2	punct	_	AlignBegin=122213|AlignEnd=122213
 10	excuse	excuse	NOUN	_	_	0	root	_	AlignBegin=122213|AlignEnd=122428
-11	wey	wey	SCONJ	_	_	10	mod:relcl	_	AlignBegin=122428|AlignEnd=122644
+11	wey	wey	SCONJ	_	_	10	mod@relcl	_	AlignBegin=122428|AlignEnd=122644
 12	e	im	PRON	_	_	13	subj	_	AlignBegin=122644|AlignEnd=122859
 13	carry	carry	VERB	_	_	11	comp:obj	_	AlignBegin=122859|AlignEnd=123075
 14	come	come	VERB	_	_	13	compound:svc	_	AlignBegin=123075|AlignEnd=123290
@@ -592,19 +592,19 @@
 19	dey	dey	VERB	_	_	18	comp:aux	_	AlignBegin=123937|AlignEnd=124152
 20	too	too	ADV	_	_	21	mod	_	AlignBegin=124152|AlignEnd=124368
 21	small	small	ADJ	_	_	19	comp:pred	_	AlignBegin=124368|AlignEnd=124583
-22	for	for	ADP	_	_	21	mod	_	AlignBegin=124583|AlignEnd=124799
+22	for	for	ADP	_	_	21	comp:obl	_	AlignBegin=124583|AlignEnd=124799
 23	am	am	PRON	_	_	22	comp:obj	_	AlignBegin=124799|AlignEnd=125014
-24	to	to	ADP	_	_	19	mod	_	AlignBegin=125014|AlignEnd=125230
+24	to	to	ADP	_	_	21	mod	_	AlignBegin=125014|AlignEnd=125230
 25	even	even	ADV	_	_	26	mod	_	AlignBegin=125230|AlignEnd=125445
 26	know	know	VERB	_	_	24	comp:obj	_	AlignBegin=125445|AlignEnd=125661
 27	how	how	ADV	_	_	26	comp:obj	_	AlignBegin=125661|AlignEnd=125876
-28	ehm	ehm	INTJ	_	_	31	discourse	_	AlignBegin=125876|AlignEnd=126092
+28	ehm	ehm	INTJ	_	_	30	discourse	_	AlignBegin=125876|AlignEnd=126092
 29	di	di	DET	_	_	30	det	_	AlignBegin=126092|AlignEnd=126307
 30	ting	ting	NOUN	_	_	31	subj	_	AlignBegin=126307|AlignEnd=126523
-31	be	be	VERB	_	_	27	mod:relcl	_	AlignBegin=126523|AlignEnd=126738
+31	be	be	AUX	_	_	27	mod@relcl	_	AlignBegin=126523|AlignEnd=126738
 32	work	work	VERB	_	_	31	comp:aux	_	AlignBegin=126738|AlignEnd=126954
 33	dat	dat	DET	_	_	34	det	_	AlignBegin=126954|AlignEnd=127169
-34	time	time	NOUN	_	_	31	mod	_	AlignBegin=127169|AlignEnd=127385
+34	time	time	NOUN	_	_	32	mod	_	AlignBegin=127169|AlignEnd=127385
 35	]	]	PUNCT	_	_	18	punct	_	AlignBegin=127385|AlignEnd=127385
 36	//	//	PUNCT	_	_	10	punct	_	AlignBegin=127385|AlignEnd=127385
 
@@ -619,13 +619,13 @@
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=128377|AlignEnd=128377
 5	age	age	NOUN	_	_	7	subj	_	AlignBegin=128377|AlignEnd=128629
 6	really	really	ADV	_	_	7	mod	_	AlignBegin=128629|AlignEnd=128880
-7	matter	matter	VERB	_	_	3	comp:obj	_	AlignBegin=128880|AlignEnd=129132
-8	for	for	ADP	_	_	7	comp:obl	_	AlignBegin=129132|AlignEnd=129383
+7	matter	matter	NOUN	_	_	3	comp:obj	_	AlignBegin=128880|AlignEnd=129132
+8	for	for	ADP	_	_	7	mod	_	AlignBegin=129132|AlignEnd=129383
 9	person	person	NOUN	_	_	8	comp:obj	_	AlignBegin=129383|AlignEnd=129635
-10	to	to	ADP	_	_	7	comp:pred@agent	_	AlignBegin=129635|AlignEnd=129887
+10	to	to	ADP	_	_	7	mod	_	AlignBegin=129635|AlignEnd=129887
 11	decide	decide	VERB	_	_	10	comp:obj	_	AlignBegin=129887|AlignEnd=130138
 12	on	on	ADP	_	_	11	comp:obl	_	AlignBegin=130138|AlignEnd=130390
-13	top	top	NOUN	_	_	12	comp:obj	_	AlignBegin=130390|AlignEnd=130641
+13	top	top	NOUN	_	_	12	unk@fixed	_	AlignBegin=130390|AlignEnd=130641
 14	dis	dis	DET	_	_	15	det	_	AlignBegin=130641|AlignEnd=130893
 15	matter	matter	NOUN	_	_	12	comp:obj	_	AlignBegin=130893|AlignEnd=131144
 16	for	for	ADP	_	_	11	mod	_	AlignBegin=131144|AlignEnd=131396
@@ -645,12 +645,12 @@
 5	history	history	NOUN	_	_	4	comp:obj	_	AlignBegin=132631|AlignEnd=132828
 6	from	from	ADP	_	_	4	comp:obl	_	AlignBegin=132828|AlignEnd=133025
 7	where	where	ADV	_	_	6	comp:obj	_	AlignBegin=133025|AlignEnd=133222
-8	wey	wey	SCONJ	_	_	7	mod:relcl	_	AlignBegin=133222|AlignEnd=133420
+8	wey	wey	SCONJ	_	_	7	mod@relcl	_	AlignBegin=133222|AlignEnd=133420
 9	tell	tell	VERB	_	_	8	comp:obj	_	AlignBegin=133420|AlignEnd=133617
 10	us	us	PRON	_	_	9	comp:obj	_	AlignBegin=133617|AlignEnd=133814
 11	about	about	ADP	_	_	9	comp:obl	_	AlignBegin=133814|AlignEnd=134011
 12	tings	tings	NOUN	_	_	11	comp:obj	_	AlignBegin=134011|AlignEnd=134208
-13	dey	dey	AUX	_	_	9	mod	_	AlignBegin=134208|AlignEnd=134405
+13	dey	dey	VERB	_	_	11	comp:obj	_	AlignBegin=134208|AlignEnd=134405
 14	<	<	PUNCT	_	_	2	punct	_	AlignBegin=134405|AlignEnd=134405
 15	let	let	VERB	_	_	0	root	_	AlignBegin=134405|AlignEnd=134602
 16	us	us	PRON	_	_	15	comp:obj	_	AlignBegin=134602|AlignEnd=134800
@@ -658,7 +658,7 @@
 18	your	your	PRON	_	_	19	mod:poss	_	AlignBegin=134997|AlignEnd=135194
 19	mind	mind	NOUN	_	_	17	comp:obj	_	AlignBegin=135194|AlignEnd=135391
 20	on	on	ADP	_	_	17	comp:obl	_	AlignBegin=135391|AlignEnd=135588
-21	top	top	NOUN	_	_	20	comp:obj	_	AlignBegin=135588|AlignEnd=135785
+21	top	top	NOUN	_	_	20	unk@fixed	_	AlignBegin=135588|AlignEnd=135785
 22	dis	dis	DET	_	_	23	det	_	AlignBegin=135785|AlignEnd=135982
 23	matter	matter	NOUN	_	_	20	comp:obj	_	AlignBegin=135982|AlignEnd=136180
 24	//	//	PUNCT	_	_	15	punct	_	AlignBegin=136180|AlignEnd=136180
@@ -672,7 +672,7 @@
 2	my	my	PRON	_	_	3	mod:poss	_	AlignBegin=136381|AlignEnd=136583
 3	name	name	NOUN	_	_	4	subj	_	AlignBegin=136583|AlignEnd=136784
 4	na	na	PART	_	_	0	root	_	AlignBegin=136784|AlignEnd=136986
-5	Lady	Lady	NOUN	_	_	4	comp:pred	_	AlignBegin=136986|AlignEnd=137187
+5	Lady	Lady	PROPN	_	_	4	comp:pred	_	AlignBegin=136986|AlignEnd=137187
 6	Gee	Gee	PROPN	_	_	5	flat	_	AlignBegin=137187|AlignEnd=137389
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=137389|AlignEnd=137389
 
@@ -687,7 +687,7 @@
 4	to	to	ADP	_	_	3	comp:obl@x	_	AlignBegin=138709|AlignEnd=139035
 5	join	join	VERB	_	_	4	comp:obj	_	AlignBegin=139035|AlignEnd=139361
 6	me	me	PRON	_	_	5	comp:obj	_	AlignBegin=139361|AlignEnd=139687
-7	for	for	ADP	_	_	5	comp:obl	_	AlignBegin=139687|AlignEnd=140013
+7	for	for	ADP	_	_	5	comp:obl@x	_	AlignBegin=139687|AlignEnd=140013
 8	discuss	discuss	VERB	_	_	7	comp:obj	_	AlignBegin=140013|AlignEnd=140339
 9	dis	dis	DET	_	_	10	det	_	AlignBegin=140339|AlignEnd=140665
 10	matter	matter	NOUN	_	_	8	comp:obj	_	AlignBegin=140665|AlignEnd=140992
@@ -702,18 +702,18 @@
 19	four	four	NUM	_	_	18	conj:coord	_	AlignBegin=142622|AlignEnd=142948
 20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=142948|AlignEnd=142948
 21	six	six	NUM	_	_	18	conj:coord	_	AlignBegin=142948|AlignEnd=143274
-22	zero	zero	NUM	_	_	21	conj:coord	_	AlignBegin=143274|AlignEnd=143600
+22	zero	zero	NUM	_	_	18	conj:coord	_	AlignBegin=143274|AlignEnd=143600
 23	zero	zero	NUM	_	_	22	conj:coord	_	AlignBegin=143600|AlignEnd=143927
 24	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=143927|AlignEnd=143927
 25	nine	nine	NUM	_	_	22	conj:coord	_	AlignBegin=143927|AlignEnd=144253
-26	nine	nine	NUM	_	_	22	conj:coord	_	AlignBegin=144253|AlignEnd=144579
+26	nine	nine	NUM	_	_	25	conj:coord	_	AlignBegin=144253|AlignEnd=144579
 27	five	five	NUM	_	_	26	conj:coord	_	AlignBegin=144579|AlignEnd=144905
 28	}	}	PUNCT	_	_	17	punct	_	AlignBegin=144905|AlignEnd=144905
 29	|c	|c	PUNCT	_	_	33	punct	_	AlignBegin=144905|AlignEnd=144905
-30	or	or	CCONJ	_	_	41	cc	_	AlignBegin=144905|AlignEnd=145231
+30	or	or	CCONJ	_	_	33	cc	_	AlignBegin=144905|AlignEnd=145231
 31	{	{	PUNCT	_	_	33	punct	_	AlignBegin=145231|AlignEnd=145231
 32	{	{	PUNCT	_	_	33	punct	_	AlignBegin=145231|AlignEnd=145231
-33	zero	zero	NUM	_	_	14	conj:coord	_	AlignBegin=145231|AlignEnd=145557
+33	zero	zero	NUM	_	_	17	conj:coord	_	AlignBegin=145231|AlignEnd=145557
 34	nine	nine	NUM	_	_	33	conj:coord	_	AlignBegin=145557|AlignEnd=145883
 35	||	||	PUNCT	_	_	37	punct	_	AlignBegin=145883|AlignEnd=145883
 36	or	or	CCONJ	_	_	37	cc	_	AlignBegin=145883|AlignEnd=146209
@@ -721,14 +721,14 @@
 38	eight	eight	NUM	_	_	37	conj:coord	_	AlignBegin=146535|AlignEnd=146862
 39	zero	zero	NUM	_	_	38	conj:coord	_	AlignBegin=146862|AlignEnd=147188
 40	}	}	PUNCT	_	_	33	punct	_	AlignBegin=147188|AlignEnd=147188
-41	nine	nine	NUM	_	_	39	conj:coord	_	AlignBegin=147188|AlignEnd=147514
+41	nine	nine	NUM	_	_	38	conj:coord	_	AlignBegin=147188|AlignEnd=147514
 42	|c	|c	PUNCT	_	_	43	punct	_	AlignBegin=147514|AlignEnd=147514
 43	zero	zero	NUM	_	_	41	conj:coord	_	AlignBegin=147514|AlignEnd=147840
 44	three	three	NUM	_	_	43	conj:coord	_	AlignBegin=147840|AlignEnd=148166
-45	two	two	NUM	_	_	44	conj:coord	_	AlignBegin=148166|AlignEnd=148492
+45	two	two	NUM	_	_	43	conj:coord	_	AlignBegin=148166|AlignEnd=148492
 46	|c	|c	PUNCT	_	_	47	punct	_	AlignBegin=148492|AlignEnd=148492
-47	zero	zero	NUM	_	_	44	conj:coord	_	AlignBegin=148492|AlignEnd=148818
-48	two	two	NUM	_	_	44	conj:coord	_	AlignBegin=148818|AlignEnd=149144
+47	zero	zero	NUM	_	_	43	conj:coord	_	AlignBegin=148492|AlignEnd=148818
+48	two	two	NUM	_	_	47	conj:coord	_	AlignBegin=148818|AlignEnd=149144
 49	nine	nine	NUM	_	_	48	conj:coord	_	AlignBegin=149144|AlignEnd=149470
 50	eight	eight	NUM	_	_	49	conj:coord	_	AlignBegin=149470|AlignEnd=149797
 51	}	}	PUNCT	_	_	33	punct	_	AlignBegin=149797|AlignEnd=149797
@@ -749,32 +749,32 @@
 7	nine	nine	NUM	_	_	6	conj:coord	_	AlignBegin=151565|AlignEnd=151910
 8	four	four	NUM	_	_	7	conj:coord	_	AlignBegin=151910|AlignEnd=152256
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=152256|AlignEnd=152256
-10	six	six	NUM	_	_	7	conj:coord	_	AlignBegin=152256|AlignEnd=152601
-11	zero	zero	NUM	_	_	7	conj:coord	_	AlignBegin=152601|AlignEnd=152947
+10	six	six	NUM	_	_	6	conj:coord	_	AlignBegin=152256|AlignEnd=152601
+11	zero	zero	NUM	_	_	10	conj:coord	_	AlignBegin=152601|AlignEnd=152947
 12	zero	zero	NUM	_	_	11	conj:coord	_	AlignBegin=152947|AlignEnd=153292
 13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=153292|AlignEnd=153292
 14	nine	nine	NUM	_	_	11	conj:coord	_	AlignBegin=153292|AlignEnd=153637
-15	nine	nine	NUM	_	_	11	conj:coord	_	AlignBegin=153637|AlignEnd=153983
+15	nine	nine	NUM	_	_	14	conj:coord	_	AlignBegin=153637|AlignEnd=153983
 16	five	five	NUM	_	_	15	conj:coord	_	AlignBegin=153983|AlignEnd=154328
 17	}	}	PUNCT	_	_	6	punct	_	AlignBegin=154328|AlignEnd=154328
 18	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=154328|AlignEnd=154328
 19	or	or	CCONJ	_	_	21	cc	_	AlignBegin=154328|AlignEnd=154673
-20	{	{	PUNCT	_	_	21	punct	_	AlignBegin=154673|AlignEnd=154673
-21	zero	zero	NUM	_	_	10	conj:coord	_	AlignBegin=154673|AlignEnd=155019
+20	{	{	PUNCT	_	_	22	punct	_	AlignBegin=154673|AlignEnd=154673
+21	zero	zero	NUM	_	_	6	conj:coord	_	AlignBegin=154673|AlignEnd=155019
 22	eight	eight	NUM	_	_	21	conj:coord	_	AlignBegin=155019|AlignEnd=155364
 23	zero	zero	NUM	_	_	22	conj:coord	_	AlignBegin=155364|AlignEnd=155710
 24	nine	nine	NUM	_	_	23	conj:coord	_	AlignBegin=155710|AlignEnd=156055
 25	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=156055|AlignEnd=156055
-26	zero	zero	NUM	_	_	22	conj:coord	_	AlignBegin=156055|AlignEnd=156400
+26	zero	zero	NUM	_	_	24	conj:coord	_	AlignBegin=156055|AlignEnd=156400
 27	three	three	NUM	_	_	26	conj:coord	_	AlignBegin=156400|AlignEnd=156746
 28	two	two	NUM	_	_	27	conj:coord	_	AlignBegin=156746|AlignEnd=157091
 29	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=157091|AlignEnd=157091
 30	zero	zero	NUM	_	_	26	conj:coord	_	AlignBegin=157091|AlignEnd=157436
-31	two	two	NUM	_	_	27	conj:coord	_	AlignBegin=157436|AlignEnd=157782
+31	two	two	NUM	_	_	30	conj:coord	_	AlignBegin=157436|AlignEnd=157782
 32	nine	nine	NUM	_	_	31	conj:coord	_	AlignBegin=157782|AlignEnd=158127
 33	eight	eight	NUM	_	_	32	conj:coord	_	AlignBegin=158127|AlignEnd=158473
-34	}	}	PUNCT	_	_	21	punct	_	AlignBegin=158473|AlignEnd=158473
-35	}	}	PUNCT	_	_	21	punct	_	AlignBegin=158473|AlignEnd=158473
+34	}	}	PUNCT	_	_	22	punct	_	AlignBegin=158473|AlignEnd=158473
+35	}	}	PUNCT	_	_	6	punct	_	AlignBegin=158473|AlignEnd=158473
 36	//	//	PUNCT	_	_	1	punct	_	AlignBegin=158473|AlignEnd=158473
 
 # sent_id = WAZA_12_Lady-G_M__26
@@ -783,7 +783,7 @@
 # text_en = Our whatsapp number is zero eight zero, nine nine nine three, zero one seven two.
 # text_ortho = Our whatsapp number na zero eight zero nine, nine nine three, zero one seven two.
 1	our	our	PRON	_	_	3	mod:poss	_	AlignBegin=158799|AlignEnd=159070
-2	whatsapp	whatsapp	PRON	_	_	3	compound	_	AlignBegin=159070|AlignEnd=159342
+2	whatsapp	whatsapp	NOUN	_	_	3	compound	_	AlignBegin=159070|AlignEnd=159342
 3	number	number	NOUN	_	_	4	subj	_	AlignBegin=159342|AlignEnd=159614
 4	na	na	PART	_	_	0	root	_	AlignBegin=159614|AlignEnd=159885
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=159885|AlignEnd=159885
@@ -796,7 +796,7 @@
 12	nine	nine	NUM	_	_	11	conj:coord	_	AlignBegin=161244|AlignEnd=161516
 13	three	three	NUM	_	_	12	conj:coord	_	AlignBegin=161516|AlignEnd=161788
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=161788|AlignEnd=161788
-15	zero	zero	NUM	_	_	11	conj:coord	_	AlignBegin=161788|AlignEnd=162059
+15	zero	zero	NUM	_	_	12	conj:coord	_	AlignBegin=161788|AlignEnd=162059
 16	one	one	NUM	_	_	15	conj:coord	_	AlignBegin=162059|AlignEnd=162331
 17	seven	seven	NUM	_	_	16	conj:coord	_	AlignBegin=162331|AlignEnd=162603
 18	two	two	NUM	_	_	17	conj:coord	_	AlignBegin=162603|AlignEnd=162875
@@ -808,18 +808,18 @@
 # text = facebook < { Wazobia fm |a ninety nine point five } Abuja //
 # text_en = Facebook Wazobia fm ninety nine point five Abuja.
 # text_ortho = Facebook, Wazobia fm, ninety nine point five Abuja.
-1	facebook	facebook	NOUN	_	_	4	dislocated	_	AlignBegin=163223|AlignEnd=163501
+1	facebook	facebook	NOUN	_	_	4	conj:appos	_	AlignBegin=163223|AlignEnd=163501
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=163501|AlignEnd=163501
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=163501|AlignEnd=163501
 4	Wazobia	Wazobia	PROPN	_	_	0	root	_	AlignBegin=163501|AlignEnd=163779
-5	fm	fm	NOUN	_	_	4	mod	_	AlignBegin=163779|AlignEnd=164058
-6	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=164058|AlignEnd=164058
-7	ninety	ninety	NUM	_	_	4	conj:appos	_	AlignBegin=164058|AlignEnd=164336
-8	nine	nine	NUM	_	_	7	flat	_	AlignBegin=164336|AlignEnd=164614
+5	fm	fm	INTJ	_	_	4	discourse	_	AlignBegin=163779|AlignEnd=164058
+6	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=164058|AlignEnd=164058
+7	ninety	ninety	NUM	_	_	8	compound	_	AlignBegin=164058|AlignEnd=164336
+8	nine	nine	NUM	_	_	4	conj:coord	_	AlignBegin=164336|AlignEnd=164614
 9	point	point	NOUN	_	_	8	flat	_	AlignBegin=164614|AlignEnd=164893
-10	five	five	NUM	_	_	9	flat	_	AlignBegin=164893|AlignEnd=165171
+10	five	five	NUM	_	_	9	mod:num	_	AlignBegin=164893|AlignEnd=165171
 11	}	}	PUNCT	_	_	4	punct	_	AlignBegin=165171|AlignEnd=165171
-12	Abuja	Abuja	PROPN	_	_	4	mod:appos	_	AlignBegin=165171|AlignEnd=165450
+12	Abuja	Abuja	PROPN	_	_	10	flat	_	AlignBegin=165171|AlignEnd=165450
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=165450|AlignEnd=165450
 
 # sent_id = WAZA_12_Lady-G_M__28
@@ -827,11 +827,11 @@
 # text = twitter at Wazobia fm Abuja //
 # text_en = Twitter at Wazobia fm Abuja.
 # text_ortho = Twitter at Wazobia fm Abuja.
-1	twitter	twitter	VERB	_	_	0	root	_	AlignBegin=165919|AlignEnd=166560
-2	at	at	ADP	_	_	1	comp:obl	_	AlignBegin=166560|AlignEnd=167201
+1	twitter	twitter	NOUN	_	_	0	root	_	AlignBegin=165919|AlignEnd=166560
+2	at	at	ADP	_	_	1	mod	_	AlignBegin=166560|AlignEnd=167201
 3	Wazobia	Wazobia	PROPN	_	_	2	comp:obj	_	AlignBegin=167201|AlignEnd=167842
-4	fm	fm	NOUN	_	_	3	cc	_	AlignBegin=167842|AlignEnd=168483
-5	Abuja	Abuja	PROPN	_	_	3	conj:appos	_	AlignBegin=168483|AlignEnd=169124
+4	fm	fm	INTJ	_	_	5	discourse	_	AlignBegin=167842|AlignEnd=168483
+5	Abuja	Abuja	PROPN	_	_	2	comp:obj	_	AlignBegin=168483|AlignEnd=169124
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=169124|AlignEnd=169124
 
 # sent_id = WAZA_12_Lady-G_M__29
@@ -878,7 +878,7 @@
 1	my	my	PRON	_	_	2	mod:poss	_	AlignBegin=174008|AlignEnd=174146
 2	name	name	NOUN	_	_	3	subj	_	AlignBegin=174146|AlignEnd=174284
 3	na	na	PART	_	_	0	root	_	AlignBegin=174284|AlignEnd=174423
-4	Lady	Lady	NOUN	_	_	3	comp:pred	_	AlignBegin=174423|AlignEnd=174561
+4	Lady	Lady	PROPN	_	_	3	comp:pred	_	AlignBegin=174423|AlignEnd=174561
 5	Gee	Gee	PROPN	_	_	4	flat	_	AlignBegin=174561|AlignEnd=174700
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=174700|AlignEnd=174700
 
@@ -921,7 +921,7 @@
 4	join	join	VERB	_	_	1	conj:coord	_	AlignBegin=179151|AlignEnd=179525
 5	me	me	PRON	_	_	4	comp:obj	_	AlignBegin=179525|AlignEnd=179900
 6	on	on	ADP	_	_	4	comp:obl	_	AlignBegin=179900|AlignEnd=180274
-7	top	top	NOUN	_	_	6	comp:obj	_	AlignBegin=180274|AlignEnd=180649
+7	top	top	NOUN	_	_	6	unk@fixed	_	AlignBegin=180274|AlignEnd=180649
 8	dis	dis	DET	_	_	9	det	_	AlignBegin=180649|AlignEnd=181023
 9	discussion	discussion	NOUN	_	_	6	comp:obj	_	AlignBegin=181023|AlignEnd=181398
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181398|AlignEnd=181398
@@ -935,7 +935,7 @@
 2	dey	dey	AUX	_	_	0	root	_	AlignBegin=182028|AlignEnd=182327
 3	come	come	VERB	_	_	2	comp:aux	_	AlignBegin=182327|AlignEnd=182626
 4	back	back	ADV	_	_	3	mod	_	AlignBegin=182626|AlignEnd=182925
-5	immediately	immediately	ADV	_	_	3	mod	_	AlignBegin=182925|AlignEnd=183223
+5	immediately	immediately	ADV	_	_	6	mod	_	AlignBegin=182925|AlignEnd=183223
 6	after	after	ADP	_	_	3	mod	_	AlignBegin=183223|AlignEnd=183522
 7	di	di	DET	_	_	8	det	_	AlignBegin=183522|AlignEnd=183821
 8	break	break	NOUN	_	_	6	comp:obj	_	AlignBegin=183821|AlignEnd=184120
@@ -960,7 +960,7 @@
 3	my	my	PRON	_	_	4	mod:poss	_	AlignBegin=186332|AlignEnd=186571
 4	name	name	NOUN	_	_	5	subj	_	AlignBegin=186571|AlignEnd=186809
 5	na	na	PART	_	_	0	root	_	AlignBegin=186809|AlignEnd=187048
-6	Lady	Lady	NOUN	_	_	5	comp:pred	_	AlignBegin=187048|AlignEnd=187287
+6	Lady	Lady	PROPN	_	_	5	comp:pred	_	AlignBegin=187048|AlignEnd=187287
 7	||	||	PUNCT	_	_	10	punct	_	AlignBegin=187287|AlignEnd=187287
 8	my	my	PRON	_	_	9	mod:poss	_	AlignBegin=187287|AlignEnd=187525
 9	name	name	NOUN	_	_	10	subj	_	AlignBegin=187525|AlignEnd=187764
@@ -975,12 +975,12 @@
 # text = but people dey call me Lady Gee //
 # text_en = But, people are calling me Lady Gee.
 # text_ortho = But people dey call me Lady Gee.
-1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=188480|AlignEnd=188667
+1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=188480|AlignEnd=188667
 2	people	people	NOUN	_	_	3	subj	_	AlignBegin=188667|AlignEnd=188854
 3	dey	dey	AUX	_	_	0	root	_	AlignBegin=188854|AlignEnd=189041
 4	call	call	VERB	_	_	3	comp:aux	_	AlignBegin=189041|AlignEnd=189228
 5	me	me	PRON	_	_	4	comp:obj	_	AlignBegin=189228|AlignEnd=189415
-6	Lady	Lady	NOUN	_	_	4	comp:obj	_	AlignBegin=189415|AlignEnd=189602
+6	Lady	Lady	PROPN	_	_	4	comp:pred	_	AlignBegin=189415|AlignEnd=189602
 7	Gee	Gee	PROPN	_	_	6	flat	_	AlignBegin=189602|AlignEnd=189790
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=189790|AlignEnd=189790
 
@@ -992,13 +992,13 @@
 1	me	me	PRON	_	_	4	dislocated	_	AlignBegin=190276|AlignEnd=190512
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=190512|AlignEnd=190512
 3	I	I	PRON	_	_	4	subj	_	AlignBegin=190512|AlignEnd=190748
-4	from	from	ADP	_	_	0	root	_	AlignBegin=190748|AlignEnd=190984
-5	Akwa	Akwa	PROPN	_	_	4	comp:obj	_	AlignBegin=190984|AlignEnd=191220
+4	from	from	VERB	_	_	0	root	_	AlignBegin=190748|AlignEnd=190984
+5	Akwa	Akwa	PROPN	_	_	7	compound	_	AlignBegin=190984|AlignEnd=191220
 6	Ibom	Ibom	PROPN	_	_	5	flat	_	AlignBegin=191220|AlignEnd=191456
-7	State	State	NOUN	_	_	6	flat	_	AlignBegin=191456|AlignEnd=191692
+7	State	State	NOUN	_	_	4	comp:obj	_	AlignBegin=191456|AlignEnd=191692
 8	for	for	ADP	_	_	4	mod	_	AlignBegin=191692|AlignEnd=191928
-9	inside	inside	ADP	_	_	8	comp:obj	_	AlignBegin=191928|AlignEnd=192164
-10	Naija	Naija	PROPN	_	_	8	comp:obj	_	AlignBegin=192164|AlignEnd=192400
+9	inside	inside	ADP	_	_	8	unk@fixed	_	AlignBegin=191928|AlignEnd=192164
+10	Naija	Naija	PROPN	_	_	9	comp:obj	_	AlignBegin=192164|AlignEnd=192400
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=192400|AlignEnd=192400
 
 # sent_id = WAZA_12_Lady-G_M__40
@@ -1006,7 +1006,7 @@
 # text = and I dey speak three languages //
 # text_en = And I am speaking three languages.
 # text_ortho = And I dey speak three languages.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=192844|AlignEnd=193066
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=192844|AlignEnd=193066
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=193066|AlignEnd=193289
 3	dey	dey	AUX	_	_	0	root	_	AlignBegin=193289|AlignEnd=193512
 4	speak	speak	VERB	_	_	3	comp:aux	_	AlignBegin=193512|AlignEnd=193734
@@ -1027,19 +1027,19 @@
 6	language	language	NOUN	_	_	3	comp:obj	_	AlignBegin=195205|AlignEnd=195462
 7	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=195462|AlignEnd=195462
 8	or	or	CCONJ	_	_	10	cc	_	AlignBegin=195462|AlignEnd=195718
-9	Ayang	Ayang	PROPN	_	_	10	mod	_	AlignBegin=195718|AlignEnd=195975
+9	Ayang	Ayang	PROPN	_	_	10	compound	_	AlignBegin=195718|AlignEnd=195975
 10	language	language	NOUN	_	_	6	conj:coord	_	AlignBegin=195975|AlignEnd=196231
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=196231|AlignEnd=196231
-12	wey	wey	SCONJ	_	_	10	mod:relcl	_	AlignBegin=196231|AlignEnd=196488
+12	wey	wey	SCONJ	_	_	10	mod@relcl	_	AlignBegin=196231|AlignEnd=196488
 13	be	be	VERB	_	_	12	comp:obj	_	AlignBegin=196488|AlignEnd=196744
-14	my	my	PRON	_	_	13	comp:obj@scrap	_	AlignBegin=196744|AlignEnd=197000
+14	my	my	ADJ	_	_	13	comp:pred@agent	_	AlignBegin=196744|AlignEnd=197000
 15	||	||	PUNCT	_	_	17	punct	_	AlignBegin=197000|AlignEnd=197000
 16	(	(	PUNCT	_	_	17	punct	_	AlignBegin=197000|AlignEnd=197000
 17	to	to	ADP	_	_	12	conj:dicto	_	AlignBegin=197000|AlignEnd=197257
 18	be	be	VERB	_	_	17	comp:obj	_	AlignBegin=197257|AlignEnd=197513
-19	precise	precise	NOUN	_	_	18	comp:pred	_	AlignBegin=197513|AlignEnd=197770
+19	precise	precise	ADJ	_	_	17	comp:obj	_	AlignBegin=197513|AlignEnd=197770
 20	)	)	PUNCT	_	_	17	punct	_	AlignBegin=197770|AlignEnd=197770
-21	wey	wey	SCONJ	_	_	10	mod:relcl	_	AlignBegin=197770|AlignEnd=198026
+21	wey	wey	SCONJ	_	_	12	conj:dicto	_	AlignBegin=197770|AlignEnd=198026
 22	be	be	VERB	_	_	21	comp:obj	_	AlignBegin=198026|AlignEnd=198283
 23	my	my	PRON	_	_	24	mod:poss	_	AlignBegin=198283|AlignEnd=198539
 24	language	language	NOUN	_	_	22	comp:pred	_	AlignBegin=198539|AlignEnd=198796
@@ -1052,7 +1052,7 @@
 # text = and I dey speak Pidgin English //= I dey speak { English |c and a little bit of Hausa } //
 # text_en = And I am speaking Pidgin English; I speak English and a little bit of Hausa.
 # text_ortho = And I dey speak Pidgin English, I dey speak English, and a little bit of Hausa.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=199149|AlignEnd=199407
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=199149|AlignEnd=199407
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=199407|AlignEnd=199666
 3	dey	dey	AUX	_	_	0	root	_	AlignBegin=199666|AlignEnd=199925
 4	speak	speak	VERB	_	_	3	comp:aux	_	AlignBegin=199925|AlignEnd=200184
@@ -1079,12 +1079,12 @@
 # text = well as e be now < I be broadcaster //= I dey do Pidgin in radio //
 # text_en = Well, as it is now, I am a broadcaster; I do Pidgin on radio.
 # text_ortho = Well as e be now, I be broadcaster, I dey do Pidgin in radio.
-1	well	well	ADV	_	_	8	mod:periph	_	AlignBegin=203717|AlignEnd=203979
-2	as	as	ADP	_	_	1	mod:periph	_	AlignBegin=203979|AlignEnd=204241
-3	e	im	PRON	_	_	4	subj:expl	_	AlignBegin=204241|AlignEnd=204503
-4	be	be	VERB	_	_	1	comp:obj	_	AlignBegin=204503|AlignEnd=204765
+1	well	well	ADV	_	_	2	mod	_	AlignBegin=203717|AlignEnd=203979
+2	as	as	ADP	_	_	8	mod:periph	_	AlignBegin=203979|AlignEnd=204241
+3	e	im	PRON	_	_	4	subj@expl	_	AlignBegin=204241|AlignEnd=204503
+4	be	be	VERB	_	_	2	comp:obj	_	AlignBegin=204503|AlignEnd=204765
 5	now	now	ADV	_	_	4	mod	_	AlignBegin=204765|AlignEnd=205027
-6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=205027|AlignEnd=205027
+6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=205027|AlignEnd=205027
 7	I	I	PRON	_	_	8	subj	_	AlignBegin=205027|AlignEnd=205289
 8	be	be	VERB	_	_	0	root	_	AlignBegin=205289|AlignEnd=205551
 9	broadcaster	broadcaster	NOUN	_	_	8	comp:pred	_	AlignBegin=205551|AlignEnd=205813
@@ -1112,48 +1112,48 @@
 8	indigenous	indigenous	ADJ	_	_	9	mod	_	AlignBegin=208553|AlignEnd=208765
 9	language	language	NOUN	_	_	2	comp:obj	_	AlignBegin=208765|AlignEnd=208977
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=208977|AlignEnd=208977
-11	wey	wey	SCONJ	_	_	9	mod:relcl	_	AlignBegin=208977|AlignEnd=209189
-12	be	be	VERB	_	_	11	comp:obj	_	AlignBegin=209189|AlignEnd=209400
-13	sey	sey	SCONJ	_	_	12	comp:obj	_	AlignBegin=209400|AlignEnd=209612
+11	wey	wey	SCONJ	_	_	9	mod@relcl	_	AlignBegin=208977|AlignEnd=209189
+12	be	be	VERB	_	_	11	comp:obj@fixed	_	AlignBegin=209189|AlignEnd=209400
+13	sey	sey	SCONJ	_	_	12	comp:pred@fixed	_	AlignBegin=209400|AlignEnd=209612
 14	[	[	PUNCT	_	_	16	punct	_	AlignBegin=209612|AlignEnd=209612
 15	we	we	PRON	_	_	16	subj	_	AlignBegin=209612|AlignEnd=209824
-16	dey	dey	AUX	_	_	11	comp:obj	_	AlignBegin=209824|AlignEnd=210036
+16	dey	dey	AUX	_	_	13	comp:obj	_	AlignBegin=209824|AlignEnd=210036
 17	use	use	VERB	_	_	16	comp:aux	_	AlignBegin=210036|AlignEnd=210248
 18	communicate	communicate	VERB	_	_	17	compound:svc	_	AlignBegin=210248|AlignEnd=210460
-19	well	well	ADV	_	_	17	mod	_	AlignBegin=210460|AlignEnd=210672
+19	well	well	ADV	_	_	18	mod	_	AlignBegin=210460|AlignEnd=210672
 20	for	for	ADP	_	_	17	comp:obl	_	AlignBegin=210672|AlignEnd=210883
-21	inside	inside	ADP	_	_	20	comp:obj	_	AlignBegin=210883|AlignEnd=211095
-22	Naija	Naija	PROPN	_	_	20	comp:obj	_	AlignBegin=211095|AlignEnd=211307
+21	inside	inside	ADP	_	_	20	unk@fixed	_	AlignBegin=210883|AlignEnd=211095
+22	Naija	Naija	PROPN	_	_	21	comp:obj	_	AlignBegin=211095|AlignEnd=211307
 23	]	]	PUNCT	_	_	16	punct	_	AlignBegin=211307|AlignEnd=211307
 24	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=211307|AlignEnd=211307
 25	wey	wey	SCONJ	_	_	11	conj:coord	_	AlignBegin=211307|AlignEnd=211519
-26	be	be	VERB	_	_	25	comp:obj	_	AlignBegin=211519|AlignEnd=211731
-27	sey	sey	SCONJ	_	_	26	comp:obj	_	AlignBegin=211731|AlignEnd=211943
-28	[	[	PUNCT	_	_	31	punct	_	AlignBegin=211943|AlignEnd=211943
+26	be	be	VERB	_	_	25	comp:obj@fixed	_	AlignBegin=211519|AlignEnd=211731
+27	sey	sey	SCONJ	_	_	26	comp:pred@fixed	_	AlignBegin=211731|AlignEnd=211943
+28	[	[	PUNCT	_	_	29	punct	_	AlignBegin=211943|AlignEnd=211943
 29	wheder	wheder	SCONJ	_	_	31	cc	_	AlignBegin=211943|AlignEnd=212155
 30	you	you	PRON	_	_	31	subj	_	AlignBegin=212155|AlignEnd=212366
-31	be	be	VERB	_	_	25	comp:obj	_	AlignBegin=212366|AlignEnd=212578
+31	be	be	VERB	_	_	16	comp:aux	_	AlignBegin=212366|AlignEnd=212578
 32	rich	rich	ADJ	_	_	33	mod	_	AlignBegin=212578|AlignEnd=212790
 33	person	person	NOUN	_	_	31	comp:pred	_	AlignBegin=212790|AlignEnd=213002
 34	o	o	PART	_	_	33	mod:emph	_	AlignBegin=213002|AlignEnd=213214
 35	|c	|c	PUNCT	_	_	37	punct	_	AlignBegin=213214|AlignEnd=213214
 36	you	you	PRON	_	_	37	subj	_	AlignBegin=213214|AlignEnd=213426
-37	be	be	VERB	_	_	31	parataxis:conj	_	AlignBegin=213426|AlignEnd=213638
+37	be	be	VERB	_	_	31	conj:coord	_	AlignBegin=213426|AlignEnd=213638
 38	poor	poor	ADJ	_	_	39	mod	_	AlignBegin=213638|AlignEnd=213849
 39	person	person	NOUN	_	_	37	comp:pred	_	AlignBegin=213849|AlignEnd=214061
 40	o	o	PART	_	_	39	mod:emph	_	AlignBegin=214061|AlignEnd=214273
 41	|c	|c	PUNCT	_	_	43	punct	_	AlignBegin=214273|AlignEnd=214273
 42	you	you	PRON	_	_	43	subj	_	AlignBegin=214273|AlignEnd=214485
-43	go	go	VERB	_	_	37	parataxis:conj	_	AlignBegin=214485|AlignEnd=214697
+43	go	go	VERB	_	_	37	conj:coord	_	AlignBegin=214485|AlignEnd=214697
 44	school	school	NOUN	_	_	43	comp:obj	_	AlignBegin=214697|AlignEnd=214909
 45	|c	|c	PUNCT	_	_	48	punct	_	AlignBegin=214909|AlignEnd=214909
 46	you	you	PRON	_	_	48	subj	_	AlignBegin=214909|AlignEnd=215121
 47	no	no	PART	_	_	48	mod	_	AlignBegin=215121|AlignEnd=215332
-48	go	go	VERB	_	_	43	parataxis:conj	_	AlignBegin=215332|AlignEnd=215544
+48	go	go	VERB	_	_	43	conj:coord	_	AlignBegin=215332|AlignEnd=215544
 49	school	school	NOUN	_	_	48	comp:obj	_	AlignBegin=215544|AlignEnd=215756
 50	o	o	PART	_	_	49	mod:emph	_	AlignBegin=215756|AlignEnd=215968
-51	}	}	PUNCT	_	_	16	punct	_	AlignBegin=215968|AlignEnd=215968
-52	]	]	PUNCT	_	_	31	punct	_	AlignBegin=215968|AlignEnd=215968
+51	}	}	PUNCT	_	_	29	punct	_	AlignBegin=215968|AlignEnd=215968
+52	]	]	PUNCT	_	_	29	punct	_	AlignBegin=215968|AlignEnd=215968
 53	<	<	PUNCT	_	_	1	punct	_	AlignBegin=215968|AlignEnd=215968
 54	you	you	PRON	_	_	55	subj	_	AlignBegin=215968|AlignEnd=216180
 55	go	go	AUX	_	_	0	root	_	AlignBegin=216180|AlignEnd=216392
@@ -1178,7 +1178,7 @@
 10	fifteenth	fifteenth	NUM	_	_	20	mod:periph	_	AlignBegin=218692|AlignEnd=218977
 11	of	of	ADP	_	_	10	mod	_	AlignBegin=218977|AlignEnd=219262
 12	July	July	PROPN	_	_	11	comp:obj	_	AlignBegin=219262|AlignEnd=219546
-13	wey	wey	SCONJ	_	_	10	mod:relcl	_	AlignBegin=219546|AlignEnd=219831
+13	wey	wey	SCONJ	_	_	12	mod@relcl	_	AlignBegin=219546|AlignEnd=219831
 14	be	be	VERB	_	_	13	comp:obj	_	AlignBegin=219831|AlignEnd=220116
 15	next	next	ADJ	_	_	16	mod	_	AlignBegin=220116|AlignEnd=220400
 16	month	month	NOUN	_	_	14	comp:pred	_	AlignBegin=220400|AlignEnd=220685
@@ -1201,7 +1201,7 @@
 33	eight	eight	NUM	_	_	34	det:num	_	AlignBegin=224102|AlignEnd=224386
 34	years	years	NOUN	_	_	32	comp:pred	_	AlignBegin=224386|AlignEnd=224671
 35	}	}	PUNCT	_	_	20	punct	_	AlignBegin=224671|AlignEnd=224671
-36	for	for	ADP	_	_	34	mod	_	AlignBegin=224671|AlignEnd=224956
+36	for	for	ADP	_	_	32	comp:pred	_	AlignBegin=224671|AlignEnd=224956
 37	broadcasting	broadcasting	NOUN	_	_	36	comp:obj	_	AlignBegin=224956|AlignEnd=225241
 38	//	//	PUNCT	_	_	20	punct	_	AlignBegin=225241|AlignEnd=225241
 
@@ -1216,19 +1216,19 @@
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=226632|AlignEnd=226632
 5	o	o	PART	_	_	3	mod:emph	_	AlignBegin=226632|AlignEnd=226983
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=226983|AlignEnd=226983
-7	jor	jor	INTJ	_	_	5	discourse	_	AlignBegin=226983|AlignEnd=227335
+7	jor	jor	INTJ	_	_	5	conj:dicto	_	AlignBegin=226983|AlignEnd=227335
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=227335|AlignEnd=227335
-9	for	for	ADP	_	_	3	mod	_	AlignBegin=227335|AlignEnd=227686
+9	for	for	ADP	_	_	3	comp:obl	_	AlignBegin=227335|AlignEnd=227686
 10	}	}	PUNCT	_	_	5	punct	_	AlignBegin=227686|AlignEnd=227686
 11	July	July	PROPN	_	_	9	comp:obj	_	AlignBegin=227686|AlignEnd=228037
-12	fifteenth	fifteenth	NUM	_	_	11	mod	_	AlignBegin=228037|AlignEnd=228389
-13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=228389|AlignEnd=228389
-14	two	two	NUM	_	_	11	mod	_	AlignBegin=228389|AlignEnd=228740
-15	thousand	thousand	NUM	_	_	14	flat	_	AlignBegin=228740|AlignEnd=229092
+12	fifteenth	fifteenth	NUM	_	_	11	mod:num	_	AlignBegin=228037|AlignEnd=228389
+13	{	{	PUNCT	_	_	15	punct	_	AlignBegin=228389|AlignEnd=228389
+14	two	two	NUM	_	_	15	compound	_	AlignBegin=228389|AlignEnd=228740
+15	thousand	thousand	NUM	_	_	11	mod	_	AlignBegin=228740|AlignEnd=229092
 16	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=229092|AlignEnd=229092
 17	and	and	CCONJ	_	_	18	cc	_	AlignBegin=229092|AlignEnd=229443
 18	nine	nine	NUM	_	_	15	conj:coord	_	AlignBegin=229443|AlignEnd=229795
-19	}	}	PUNCT	_	_	14	punct	_	AlignBegin=229795|AlignEnd=229795
+19	}	}	PUNCT	_	_	15	punct	_	AlignBegin=229795|AlignEnd=229795
 20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=229795|AlignEnd=229795
 
 # sent_id = WAZA_12_Lady-G_M__47
@@ -1239,19 +1239,19 @@
 1	so	so	ADV	_	_	9	discourse	_	AlignBegin=230038|AlignEnd=230269
 2	by	by	ADP	_	_	9	mod:periph	_	AlignBegin=230269|AlignEnd=230501
 3	July	July	PROPN	_	_	2	comp:obj	_	AlignBegin=230501|AlignEnd=230732
-4	fifteen	fifteen	NUM	_	_	6	det:num	_	AlignBegin=230732|AlignEnd=230964
+4	fifteen	fifteen	NUM	_	_	6	mod:num	_	AlignBegin=230732|AlignEnd=230964
 5	next	next	ADJ	_	_	6	mod	_	AlignBegin=230964|AlignEnd=231196
-6	year	year	NOUN	_	_	3	conj:appos	_	AlignBegin=231196|AlignEnd=231427
+6	year	year	NOUN	_	_	2	comp:obj	_	AlignBegin=231196|AlignEnd=231427
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=231427|AlignEnd=231427
 8	I	I	PRON	_	_	9	subj	_	AlignBegin=231427|AlignEnd=231659
 9	go	go	AUX	_	_	0	root	_	AlignBegin=231659|AlignEnd=231890
 10	be	be	VERB	_	_	9	comp:aux	_	AlignBegin=231890|AlignEnd=232122
 11	nine	nine	NUM	_	_	12	det:num	_	AlignBegin=232122|AlignEnd=232354
 12	years	years	NOUN	_	_	10	comp:pred	_	AlignBegin=232354|AlignEnd=232585
-13	for	for	ADP	_	_	10	mod	_	AlignBegin=232585|AlignEnd=232817
-14	inside	inside	ADP	_	_	13	comp:obj	_	AlignBegin=232817|AlignEnd=233048
+13	for	for	ADP	_	_	10	comp:obl	_	AlignBegin=232585|AlignEnd=232817
+14	inside	inside	ADP	_	_	13	unk@fixed	_	AlignBegin=232817|AlignEnd=233048
 15	broadcasting	broadcasting	NOUN	_	_	16	compound	_	AlignBegin=233048|AlignEnd=233280
-16	work	work	NOUN	_	_	13	comp:obj	_	AlignBegin=233280|AlignEnd=233512
+16	work	work	NOUN	_	_	14	comp:obj	_	AlignBegin=233280|AlignEnd=233512
 17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=233512|AlignEnd=233512
 
 # sent_id = WAZA_12_Lady-G_M__48
@@ -1294,9 +1294,9 @@
 13	dey	dey	VERB	_	_	0	root	_	AlignBegin=241083|AlignEnd=241379
 14	small	small	ADJ	_	_	13	comp:pred	_	AlignBegin=241379|AlignEnd=241675
 15	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=241675|AlignEnd=241675
-16	be	be	VERB	_	_	13	parataxis:conj	_	AlignBegin=241675|AlignEnd=241971
-17	dey	dey	AUX	_	_	16	compound:svc	_	AlignBegin=241971|AlignEnd=242267
-18	fun	fun	ADJ	_	_	17	comp:pred	_	AlignBegin=242267|AlignEnd=242563
+16	be	be	AUX	_	_	13	parataxis:conj	_	AlignBegin=241675|AlignEnd=241971
+17	dey	dey	AUX	_	_	16	comp:aux	_	AlignBegin=241971|AlignEnd=242267
+18	fun	fun	ADJ	_	_	17	comp:aux	_	AlignBegin=242267|AlignEnd=242563
 19	//	//	PUNCT	_	_	13	punct	_	AlignBegin=242563|AlignEnd=242563
 
 # sent_id = WAZA_12_Lady-G_M__50
@@ -1304,28 +1304,28 @@
 # text = but challenge come wey de be sey [ I lost my fader almost twenty six years ago //= about twenty six years ago ] //
 # text_en = But challenge came when I lost my father almost twenty six years ago; about twenty six years ago.
 # text_ortho = But challenge come wey de be sey I lost my fader almost twenty six years ago, about twenty six years ago.
-1	but	but	CCONJ	_	_	3	discourse	_	AlignBegin=242845|AlignEnd=243136
+1	but	but	CCONJ	_	_	3	cc	_	AlignBegin=242845|AlignEnd=243136
 2	challenge	challenge	NOUN	_	_	3	subj	_	AlignBegin=243136|AlignEnd=243428
 3	come	come	VERB	_	_	0	root	_	AlignBegin=243428|AlignEnd=243719
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=243719|AlignEnd=244011
+4	wey	wey	SCONJ	_	_	3	comp:pred	_	AlignBegin=243719|AlignEnd=244011
 5	de	dem	PRON	_	_	6	subj	_	AlignBegin=244011|AlignEnd=244302
-6	be	be	VERB	_	_	4	comp:obj	_	AlignBegin=244302|AlignEnd=244594
-7	sey	sey	SCONJ	_	_	6	comp:pred	_	AlignBegin=244594|AlignEnd=244885
+6	be	be	VERB	_	_	4	comp:obj@fixed	_	AlignBegin=244302|AlignEnd=244594
+7	sey	sey	SCONJ	_	_	6	comp:pred@fixed	_	AlignBegin=244594|AlignEnd=244885
 8	[	[	PUNCT	_	_	10	punct	_	AlignBegin=244885|AlignEnd=244885
 9	I	I	PRON	_	_	10	subj	_	AlignBegin=244885|AlignEnd=245177
 10	lost	lost	VERB	_	_	7	comp:obj	_	AlignBegin=245177|AlignEnd=245468
 11	my	my	PRON	_	_	12	mod:poss	_	AlignBegin=245468|AlignEnd=245760
 12	fader	fader	NOUN	_	_	10	comp:obj	_	AlignBegin=245760|AlignEnd=246051
-13	almost	almost	ADV	_	_	14	mod	_	AlignBegin=246051|AlignEnd=246343
-14	twenty	twenty	NUM	_	_	16	det:num	_	AlignBegin=246343|AlignEnd=246634
-15	six	six	NUM	_	_	14	flat	_	AlignBegin=246634|AlignEnd=246926
+13	almost	almost	ADV	_	_	15	mod	_	AlignBegin=246051|AlignEnd=246343
+14	twenty	twenty	NUM	_	_	15	compound	_	AlignBegin=246343|AlignEnd=246634
+15	six	six	NUM	_	_	16	det:num	_	AlignBegin=246634|AlignEnd=246926
 16	years	years	NOUN	_	_	10	mod	_	AlignBegin=246926|AlignEnd=247217
 17	ago	ago	ADV	_	_	16	mod	_	AlignBegin=247217|AlignEnd=247509
-18	//=	//=	PUNCT	_	_	22	punct	_	AlignBegin=247509|AlignEnd=247509
-19	about	about	ADP	_	_	22	mod	_	AlignBegin=247509|AlignEnd=247800
-20	twenty	twenty	NUM	_	_	22	det:num	_	AlignBegin=247800|AlignEnd=248092
-21	six	six	NUM	_	_	20	flat	_	AlignBegin=248092|AlignEnd=248383
-22	years	years	NOUN	_	_	17	mod	_	AlignBegin=248383|AlignEnd=248675
+18	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=247509|AlignEnd=247509
+19	about	about	ADP	_	_	15	mod	_	AlignBegin=247509|AlignEnd=247800
+20	twenty	twenty	NUM	_	_	21	compound	_	AlignBegin=247800|AlignEnd=248092
+21	six	six	NUM	_	_	22	det:num	_	AlignBegin=248092|AlignEnd=248383
+22	years	years	NOUN	_	_	19	comp:obj	_	AlignBegin=248383|AlignEnd=248675
 23	ago	ago	ADV	_	_	22	mod	_	AlignBegin=248675|AlignEnd=248967
 24	]	]	PUNCT	_	_	10	punct	_	AlignBegin=248967|AlignEnd=248967
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=248967|AlignEnd=248967
@@ -1339,7 +1339,7 @@
 2	dere	dere	ADV	_	_	1	comp:obj	_	AlignBegin=249483|AlignEnd=249712
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=249712|AlignEnd=249712
 4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=249712|AlignEnd=249712
-5	struggle	struggle	VERB	_	_	6	subj	_	AlignBegin=249712|AlignEnd=249941
+5	struggle	struggle	NOUN	_	_	6	subj	_	AlignBegin=249712|AlignEnd=249941
 6	start	start	VERB	_	_	0	root	_	AlignBegin=249941|AlignEnd=250170
 7	on	on	ADP	_	_	6	comp:obl	_	AlignBegin=250170|AlignEnd=250399
 8	mysef	mysef	PRON	_	_	7	comp:obj	_	AlignBegin=250399|AlignEnd=250628
@@ -1351,8 +1351,8 @@
 14	mysef	mysef	PRON	_	_	13	comp:obj	_	AlignBegin=251545|AlignEnd=251774
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=251774|AlignEnd=251774
 16	and	and	CCONJ	_	_	17	cc	_	AlignBegin=251774|AlignEnd=252003
-17	all	all	DET	_	_	11	conj:coord	_	AlignBegin=252003|AlignEnd=252232
-18	of	of	ADP	_	_	17	none	_	AlignBegin=252232|AlignEnd=252461
+17	all	all	ADV	_	_	14	conj:coord	_	AlignBegin=252003|AlignEnd=252232
+18	of	of	ADP	_	_	17	mod	_	AlignBegin=252232|AlignEnd=252461
 19	dat	dat	PRON	_	_	18	comp:obj	_	AlignBegin=252461|AlignEnd=252691
 20	}	}	PUNCT	_	_	6	punct	_	AlignBegin=252691|AlignEnd=252691
 21	//	//	PUNCT	_	_	6	punct	_	AlignBegin=252691|AlignEnd=252691
@@ -1369,13 +1369,13 @@
 5	round	round	VERB	_	_	0	root	_	AlignBegin=253951|AlignEnd=254282
 6	up	up	ADP	_	_	5	compound:prt	_	AlignBegin=254282|AlignEnd=254613
 7	my	my	PRON	_	_	10	mod:poss	_	AlignBegin=254613|AlignEnd=254945
-8	ehn	ehn	INTJ	_	_	7	discourse	_	AlignBegin=254945|AlignEnd=255276
-9	Bsc	Bsc	NOUN	_	_	10	compound	_	AlignBegin=255276|AlignEnd=255608
+8	ehn	ehn	INTJ	_	_	10	discourse	_	AlignBegin=254945|AlignEnd=255276
+9	Bsc	Bsc	PROPN	_	_	10	compound	_	AlignBegin=255276|AlignEnd=255608
 10	programme	programme	NOUN	_	_	5	comp:obj	_	AlignBegin=255608|AlignEnd=255939
 11	on	on	ADP	_	_	10	mod	_	AlignBegin=255939|AlignEnd=256270
-12	Pub	Pub	NOUN	_	_	11	comp:obj	_	AlignBegin=256270|AlignEnd=256602
-13	Admin	Admin	NOUN	_	_	12	flat	_	AlignBegin=256602|AlignEnd=256933
-14	for	for	ADP	_	_	5	mod	_	AlignBegin=256933|AlignEnd=257264
+12	Pub	Pub	NOUN	_	_	13	compound	_	AlignBegin=256270|AlignEnd=256602
+13	Admin	Admin	NOUN	_	_	11	comp:obj	_	AlignBegin=256602|AlignEnd=256933
+14	for	for	ADP	_	_	13	mod	_	AlignBegin=256933|AlignEnd=257264
 15	University	University	NOUN	_	_	14	comp:obj	_	AlignBegin=257264|AlignEnd=257596
 16	of	of	ADP	_	_	15	mod	_	AlignBegin=257596|AlignEnd=257927
 17	Abuja	Abuja	PROPN	_	_	16	comp:obj	_	AlignBegin=257927|AlignEnd=258259
@@ -1390,13 +1390,13 @@
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=258876|AlignEnd=259157
 3	come	come	VERB	_	_	0	root	_	AlignBegin=259157|AlignEnd=259437
 4	Abuja	Abuja	PROPN	_	_	3	comp:obj	_	AlignBegin=259437|AlignEnd=259718
-5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=259718|AlignEnd=259718
-6	two	two	NUM	_	_	3	mod	_	AlignBegin=259718|AlignEnd=259998
-7	thousand	thousand	NUM	_	_	6	flat	_	AlignBegin=259998|AlignEnd=260279
+5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=259718|AlignEnd=259718
+6	two	two	NUM	_	_	7	compound	_	AlignBegin=259718|AlignEnd=259998
+7	thousand	thousand	NUM	_	_	3	mod	_	AlignBegin=259998|AlignEnd=260279
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=260279|AlignEnd=260279
 9	and	and	CCONJ	_	_	10	cc	_	AlignBegin=260279|AlignEnd=260559
 10	eleven	eleven	NUM	_	_	7	conj:coord	_	AlignBegin=260559|AlignEnd=260840
-11	}	}	PUNCT	_	_	6	punct	_	AlignBegin=260840|AlignEnd=260840
+11	}	}	PUNCT	_	_	7	punct	_	AlignBegin=260840|AlignEnd=260840
 12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=260840|AlignEnd=260840
 
 # sent_id = WAZA_12_Lady-G_M__54
@@ -1417,18 +1417,18 @@
 # text = but { two thousand |c and ten } December ehn thirtheth < I move into Abuja //
 # text_en = But in two thousand and ten December ehn thirtheth, I moved into Abuja.
 # text_ortho = But two thousand, and ten December ehn thirtheth, I move into Abuja.
-1	but	but	CCONJ	_	_	14	discourse	_	AlignBegin=263029|AlignEnd=263358
-2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=263358|AlignEnd=263358
-3	two	two	NUM	_	_	11	det:num	_	AlignBegin=263358|AlignEnd=263687
-4	thousand	thousand	NUM	_	_	3	flat	_	AlignBegin=263687|AlignEnd=264017
-5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=264017|AlignEnd=264017
+1	but	but	CCONJ	_	_	14	cc	_	AlignBegin=263029|AlignEnd=263358
+2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=263358|AlignEnd=263358
+3	two	two	NUM	_	_	4	compound	_	AlignBegin=263358|AlignEnd=263687
+4	thousand	thousand	NUM	_	_	14	mod:periph	_	AlignBegin=263687|AlignEnd=264017
+5	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=264017|AlignEnd=264017
 6	and	and	CCONJ	_	_	7	cc	_	AlignBegin=264017|AlignEnd=264346
-7	ten	ten	NUM	_	_	4	conj:coord	_	AlignBegin=264346|AlignEnd=264676
-8	}	}	PUNCT	_	_	3	punct	_	AlignBegin=264676|AlignEnd=264676
-9	December	December	PROPN	_	_	14	mod:periph	_	AlignBegin=264676|AlignEnd=265005
-10	ehn	ehn	INTJ	_	_	9	discourse	_	AlignBegin=265005|AlignEnd=265334
-11	thirtheth	thirtheth	NOUN	_	_	14	dislocated	_	AlignBegin=265334|AlignEnd=265664
-12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=265664|AlignEnd=265664
+7	ten	ten	NUM	_	_	9	conj:coord	_	AlignBegin=264346|AlignEnd=264676
+8	}	}	PUNCT	_	_	4	punct	_	AlignBegin=264676|AlignEnd=264676
+9	December	December	PROPN	_	_	4	mod	_	AlignBegin=264676|AlignEnd=265005
+10	ehn	ehn	INTJ	_	_	11	discourse	_	AlignBegin=265005|AlignEnd=265334
+11	thirtheth	thirtheth	NOUN	_	_	9	mod	_	AlignBegin=265334|AlignEnd=265664
+12	<	<	PUNCT	_	_	4	punct	_	AlignBegin=265664|AlignEnd=265664
 13	I	I	PRON	_	_	14	subj	_	AlignBegin=265664|AlignEnd=265993
 14	move	move	VERB	_	_	0	root	_	AlignBegin=265993|AlignEnd=266323
 15	into	into	ADP	_	_	14	comp:obl	_	AlignBegin=266323|AlignEnd=266652
@@ -1440,42 +1440,42 @@
 # text = and den < { { two thousand and || ehn two thousand |c and ten } < ( moh say as e ) || okay { two thousand |c and ten } December thirtheth < na im >+ I enter Abuja //
 # text_en = And then, two thousand and... ehn two thousand and ten, Let me say as it... okay two thousand and ten, December thirtheth, it was then I entered Abuja.
 # text_ortho = And den, two thousand and, ehn two thousand, and ten, (moh say as e), okay two thousand, and ten December thirtheth, na im I enter Abuja.
-1	and	and	CCONJ	_	_	36	discourse	_	AlignBegin=267331|AlignEnd=267630
+1	and	and	CCONJ	_	_	36	cc	_	AlignBegin=267331|AlignEnd=267630
 2	den	dem	ADV	_	_	36	mod:periph	_	AlignBegin=267630|AlignEnd=267930
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=267930|AlignEnd=267930
-4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=267930|AlignEnd=267930
-5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=267930|AlignEnd=267930
-6	two	two	NUM	_	_	36	dislocated	_	AlignBegin=267930|AlignEnd=268230
-7	thousand	thousand	NUM	_	_	6	flat	_	AlignBegin=268230|AlignEnd=268530
-8	and	and	CCONJ	_	_	7	unk:scrap	_	AlignBegin=268530|AlignEnd=268830
-9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=268830|AlignEnd=268830
-10	ehn	ehn	INTJ	_	_	11	discourse	_	AlignBegin=268830|AlignEnd=269130
-11	two	two	NUM	_	_	7	conj:dicto	_	AlignBegin=269130|AlignEnd=269430
-12	thousand	thousand	NUM	_	_	11	flat	_	AlignBegin=269430|AlignEnd=269730
+4	{	{	PUNCT	_	_	7	punct	_	AlignBegin=267930|AlignEnd=267930
+5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=267930|AlignEnd=267930
+6	two	two	NUM	_	_	7	compound	_	AlignBegin=267930|AlignEnd=268230
+7	thousand	thousand	NUM	_	_	36	mod:periph	_	AlignBegin=268230|AlignEnd=268530
+8	and	and	CCONJ	_	_	7	cc	_	AlignBegin=268530|AlignEnd=268830
+9	||	||	PUNCT	_	_	12	punct	_	AlignBegin=268830|AlignEnd=268830
+10	ehn	ehn	INTJ	_	_	12	discourse	_	AlignBegin=268830|AlignEnd=269130
+11	two	two	NUM	_	_	12	compound	_	AlignBegin=269130|AlignEnd=269430
+12	thousand	thousand	NUM	_	_	7	conj:dicto	_	AlignBegin=269430|AlignEnd=269730
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=269730|AlignEnd=269730
 14	and	and	CCONJ	_	_	15	cc	_	AlignBegin=269730|AlignEnd=270030
 15	ten	ten	NUM	_	_	12	conj:coord	_	AlignBegin=270030|AlignEnd=270330
-16	}	}	PUNCT	_	_	6	punct	_	AlignBegin=270330|AlignEnd=270330
-17	<	<	PUNCT	_	_	6	punct	_	AlignBegin=270330|AlignEnd=270330
+16	}	}	PUNCT	_	_	7	punct	_	AlignBegin=270330|AlignEnd=270330
+17	<	<	PUNCT	_	_	7	punct	_	AlignBegin=270330|AlignEnd=270330
 18	(	(	PUNCT	_	_	19	punct	_	AlignBegin=270330|AlignEnd=270330
-19	moh	moh	AUX	_	_	11	parataxis:parenth	_	AlignBegin=270330|AlignEnd=270630
+19	moh	moh	AUX	_	_	7	parataxis:parenth	_	AlignBegin=270330|AlignEnd=270630
 20	say	say	VERB	_	_	19	comp:aux	_	AlignBegin=270630|AlignEnd=270930
-21	as	as	ADP	_	_	20	mod	_	AlignBegin=270930|AlignEnd=271230
-22	e	im	PRON	_	_	21	comp:obj@scrap	_	AlignBegin=271230|AlignEnd=271530
+21	as	as	ADP	_	_	20	comp:obl	_	AlignBegin=270930|AlignEnd=271230
+22	e	im	PRON	_	_	21	comp:obj	_	AlignBegin=271230|AlignEnd=271530
 23	)	)	PUNCT	_	_	19	punct	_	AlignBegin=271530|AlignEnd=271530
-24	||	||	PUNCT	_	_	36	punct	_	AlignBegin=271530|AlignEnd=271530
-25	okay	okay	INTJ	_	_	36	discourse	_	AlignBegin=271530|AlignEnd=271830
-26	{	{	PUNCT	_	_	27	punct	_	AlignBegin=271830|AlignEnd=271830
-27	two	two	NUM	_	_	34	det:num	_	AlignBegin=271830|AlignEnd=272130
-28	thousand	thousand	NUM	_	_	27	flat	_	AlignBegin=272130|AlignEnd=272430
+24	||	||	PUNCT	_	_	19	punct	_	AlignBegin=271530|AlignEnd=271530
+25	okay	okay	INTJ	_	_	28	discourse	_	AlignBegin=271530|AlignEnd=271830
+26	{	{	PUNCT	_	_	28	punct	_	AlignBegin=271830|AlignEnd=271830
+27	two	two	NUM	_	_	28	compound	_	AlignBegin=271830|AlignEnd=272130
+28	thousand	thousand	NUM	_	_	36	dislocated	_	AlignBegin=272130|AlignEnd=272430
 29	|c	|c	PUNCT	_	_	31	punct	_	AlignBegin=272430|AlignEnd=272430
 30	and	and	CCONJ	_	_	31	cc	_	AlignBegin=272430|AlignEnd=272730
 31	ten	ten	NUM	_	_	28	conj:coord	_	AlignBegin=272730|AlignEnd=273030
 32	}	}	PUNCT	_	_	28	punct	_	AlignBegin=273030|AlignEnd=273030
-33	December	December	PROPN	_	_	34	compound	_	AlignBegin=273030|AlignEnd=273330
-34	thirtheth	thirtheth	NOUN	_	_	36	dislocated	_	AlignBegin=273330|AlignEnd=273630
-35	<	<	PUNCT	_	_	34	punct	_	AlignBegin=273630|AlignEnd=273630
-36	na	na	PART	_	_	0	root:scrap	_	AlignBegin=273630|AlignEnd=273930
+33	December	December	PROPN	_	_	36	dislocated	_	AlignBegin=273030|AlignEnd=273330
+34	thirtheth	thirtheth	ADV	_	_	33	mod	_	AlignBegin=273330|AlignEnd=273630
+35	<	<	PUNCT	_	_	28	punct	_	AlignBegin=273630|AlignEnd=273630
+36	na	na	PART	_	_	0	root	_	AlignBegin=273630|AlignEnd=273930
 37	im	im	PRON	_	_	36	comp:pred	_	AlignBegin=273930|AlignEnd=274230
 38	>+	>+	PUNCT	_	_	40	punct	_	AlignBegin=274230|AlignEnd=274230
 39	I	I	PRON	_	_	40	subj	_	AlignBegin=274230|AlignEnd=274530
@@ -1489,12 +1489,12 @@
 # text_en = Then in two thousand and eleven on January nine, it was then I officially, I started my programme Kulele Zone in ehm Wazobia fm in Abuja here.
 # text_ortho = Den two thousand eleven January nine, naif officially, I start my programme Kulele Zone for inside ehm Wazobia fm for Abuja here.
 1	den	dem	ADV	_	_	12	mod:periph	_	AlignBegin=275395|AlignEnd=275771
-2	two	two	NUM	_	_	12	mod:periph	_	AlignBegin=275771|AlignEnd=276148
-3	thousand	thousand	NUM	_	_	2	flat	_	AlignBegin=276148|AlignEnd=276524
-4	eleven	eleven	NUM	_	_	5	conj:coord	_	AlignBegin=276524|AlignEnd=276901
-5	January	January	PROPN	_	_	2	mod	_	AlignBegin=276901|AlignEnd=277278
-6	nine	nine	NUM	_	_	5	mod	_	AlignBegin=277278|AlignEnd=277654
-7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=277654|AlignEnd=277654
+2	two	two	NUM	_	_	3	compound	_	AlignBegin=275771|AlignEnd=276148
+3	thousand	thousand	NUM	_	_	12	mod:periph	_	AlignBegin=276148|AlignEnd=276524
+4	eleven	eleven	NUM	_	_	3	compound	_	AlignBegin=276524|AlignEnd=276901
+5	January	January	PROPN	_	_	3	flat	_	AlignBegin=276901|AlignEnd=277278
+6	nine	nine	NUM	_	_	5	mod:num	_	AlignBegin=277278|AlignEnd=277654
+7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=277654|AlignEnd=277654
 8	naif	naif	ADV	_	_	12	mod:periph	_	AlignBegin=277654|AlignEnd=278031
 9	officially	officially	ADV	_	_	12	mod:periph	_	AlignBegin=278031|AlignEnd=278408
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=278408|AlignEnd=278408
@@ -1502,14 +1502,14 @@
 12	start	start	VERB	_	_	0	root	_	AlignBegin=278784|AlignEnd=279161
 13	my	my	PRON	_	_	14	mod:poss	_	AlignBegin=279161|AlignEnd=279538
 14	programme	programme	NOUN	_	_	12	comp:obj	_	AlignBegin=279538|AlignEnd=279914
-15	Kulele	Kulele	ADJ	_	_	12	comp:obj	_	AlignBegin=279914|AlignEnd=280291
+15	Kulele	Kulele	PROPN	_	_	12	comp:obj	_	AlignBegin=279914|AlignEnd=280291
 16	Zone	Zone	NOUN	_	_	15	flat	_	AlignBegin=280291|AlignEnd=280667
 17	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=280667|AlignEnd=281044
-18	inside	inside	ADP	_	_	17	comp:obj	_	AlignBegin=281044|AlignEnd=281421
+18	inside	inside	ADP	_	_	17	unk@fixed	_	AlignBegin=281044|AlignEnd=281421
 19	ehm	ehm	INTJ	_	_	20	discourse	_	AlignBegin=281421|AlignEnd=281797
-20	Wazobia	Wazobia	PROPN	_	_	17	comp:obj	_	AlignBegin=281797|AlignEnd=282174
-21	fm	fm	NOUN	_	_	20	mod:relcl	_	AlignBegin=282174|AlignEnd=282551
-22	for	for	ADP	_	_	12	mod	_	AlignBegin=282551|AlignEnd=282927
+20	Wazobia	Wazobia	PROPN	_	_	18	comp:obj	_	AlignBegin=281797|AlignEnd=282174
+21	fm	fm	INTJ	_	_	22	discourse	_	AlignBegin=282174|AlignEnd=282551
+22	for	for	ADP	_	_	17	conj:coord	_	AlignBegin=282551|AlignEnd=282927
 23	Abuja	Abuja	PROPN	_	_	22	comp:obj	_	AlignBegin=282927|AlignEnd=283304
 24	here	here	ADV	_	_	23	mod	_	AlignBegin=283304|AlignEnd=283681
 25	//	//	PUNCT	_	_	12	punct	_	AlignBegin=283681|AlignEnd=283681
@@ -1519,7 +1519,7 @@
 # text = and from dat time < ehn since den < I want to say [ na wonderful time >+ I dey get my fans ] //
 # text_en = And from that time, ehn, since then, I want to say it is a wonderful time I am giving my fans
 # text_ortho = And from dat time, ehn since den, I want to say na wonderful time I dey get my fans.
-1	and	and	CCONJ	_	_	11	discourse	_	AlignBegin=284140|AlignEnd=284415
+1	and	and	CCONJ	_	_	11	cc	_	AlignBegin=284140|AlignEnd=284415
 2	from	from	ADP	_	_	11	mod:periph	_	AlignBegin=284415|AlignEnd=284690
 3	dat	dat	DET	_	_	4	det	_	AlignBegin=284690|AlignEnd=284965
 4	time	time	NOUN	_	_	2	comp:obj	_	AlignBegin=284965|AlignEnd=285240
@@ -1551,10 +1551,10 @@
 # text_en = You know, encouragement from my fans and from my management. And even I have gotten awards.
 # text_ortho = You know encouragement from my fans, from my management, and even I don get award.
 1	you	you	PRON	_	_	2	subj	_	AlignBegin=289656|AlignEnd=289964
-2	know	know	VERB	_	_	0	root	_	AlignBegin=289964|AlignEnd=290272
-3	encouragement	encouragement	NOUN	_	_	2	comp:obj	_	AlignBegin=290272|AlignEnd=290580
+2	know	know	VERB	_	_	3	parataxis:discourse	_	AlignBegin=289964|AlignEnd=290272
+3	encouragement	encouragement	NOUN	_	_	0	root	_	AlignBegin=290272|AlignEnd=290580
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=290580|AlignEnd=290580
-5	from	from	ADP	_	_	2	comp:obl	_	AlignBegin=290580|AlignEnd=290889
+5	from	from	ADP	_	_	3	mod	_	AlignBegin=290580|AlignEnd=290889
 6	my	my	PRON	_	_	7	mod:poss	_	AlignBegin=290889|AlignEnd=291197
 7	fans	fans	NOUN	_	_	5	comp:obj	_	AlignBegin=291197|AlignEnd=291505
 8	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=291505|AlignEnd=291505
@@ -1566,25 +1566,25 @@
 14	and	and	CCONJ	_	_	17	cc	_	AlignBegin=292430|AlignEnd=292738
 15	even	even	ADV	_	_	17	mod	_	AlignBegin=292738|AlignEnd=293046
 16	I	I	PRON	_	_	17	subj	_	AlignBegin=293046|AlignEnd=293355
-17	don	don	AUX	_	_	2	conj:coord	_	AlignBegin=293355|AlignEnd=293663
+17	don	don	AUX	_	_	3	conj:coord	_	AlignBegin=293355|AlignEnd=293663
 18	get	get	VERB	_	_	17	comp:aux	_	AlignBegin=293663|AlignEnd=293971
 19	award	award	NOUN	_	_	18	comp:obj	_	AlignBegin=293971|AlignEnd=294280
-20	//	//	PUNCT	_	_	2	punct	_	AlignBegin=294280|AlignEnd=294280
+20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=294280|AlignEnd=294280
 
 # sent_id = WAZA_12_Lady-G_M__60
 # speaker_id = Sp289
 # text = like last year < Nigeria Merit Broadcaster's Award //
 # text_en = Like last year, Nigeria Merit Broadcaster's Award.
 # text_ortho = Like last year, Nigeria Merit Broadcaster's Award.
-1	like	like	ADP	_	_	5	discourse	_	AlignBegin=294280|AlignEnd=294748
+1	like	like	ADP	_	_	8	discourse	_	AlignBegin=294280|AlignEnd=294748
 2	last	last	ADJ	_	_	3	mod	_	AlignBegin=294748|AlignEnd=295217
-3	year	year	NOUN	_	_	5	mod:periph	_	AlignBegin=295217|AlignEnd=295685
-4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=295685|AlignEnd=295685
-5	Nigeria	Nigeria	PROPN	_	_	0	root	_	AlignBegin=295685|AlignEnd=296154
-6	Merit	Merit	NOUN	_	_	5	flat	_	AlignBegin=296154|AlignEnd=296622
-7	Broadcaster's	Broadcaster's	NOUN	_	_	6	flat	_	AlignBegin=296622|AlignEnd=297091
-8	Award	Award	NOUN	_	_	1	comp:obj	_	AlignBegin=297091|AlignEnd=297560
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=297560|AlignEnd=297560
+3	year	year	NOUN	_	_	1	comp:obj	_	AlignBegin=295217|AlignEnd=295685
+4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=295685|AlignEnd=295685
+5	Nigeria	Nigeria	PROPN	_	_	6	compound	_	AlignBegin=295685|AlignEnd=296154
+6	Merit	Merit	NOUN	_	_	7	compound	_	AlignBegin=296154|AlignEnd=296622
+7	Broadcaster's	Broadcaster's	NOUN	_	_	8	mod	_	AlignBegin=296622|AlignEnd=297091
+8	Award	Award	NOUN	_	_	0	root	_	AlignBegin=297091|AlignEnd=297560
+9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=297560|AlignEnd=297560
 
 # sent_id = WAZA_12_Lady-G_M__61
 # speaker_id = Sp289
@@ -1592,9 +1592,9 @@
 # text_en = The two categories that they nominated me for, I won the award; I won the award.
 # text_ortho = Di two category wey de nominate me for, I win di award, I win di award.
 1	di	di	DET	_	_	3	det	_	AlignBegin=297560|AlignEnd=297831
-2	two	two	NUM	_	_	3	det:num	_	AlignBegin=297831|AlignEnd=298102
+2	two	two	NUM	_	_	3	mod:num	_	AlignBegin=297831|AlignEnd=298102
 3	category	category	NOUN	_	_	11	dislocated	_	AlignBegin=298102|AlignEnd=298373
-4	wey	wey	SCONJ	_	_	3	mod:relcl	_	AlignBegin=298373|AlignEnd=298645
+4	wey	wey	SCONJ	_	_	3	mod@relcl	_	AlignBegin=298373|AlignEnd=298645
 5	de	dem	PRON	_	_	6	subj	_	AlignBegin=298645|AlignEnd=298916
 6	nominate	nominate	VERB	_	_	4	comp:obj	_	AlignBegin=298916|AlignEnd=299187
 7	me	me	PRON	_	_	6	comp:obj	_	AlignBegin=299187|AlignEnd=299458
@@ -1624,12 +1624,12 @@
 6	dis	dis	DET	_	_	9	det	_	AlignBegin=304004|AlignEnd=304380
 7	ehm	ehm	INTJ	_	_	9	discourse	_	AlignBegin=304380|AlignEnd=304757
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=304757|AlignEnd=304757
-9	South	South	ADJ	_	_	5	comp:obj	_	AlignBegin=304757|AlignEnd=305134
-10	Eastern	Eastern	ADJ	_	_	9	flat	_	AlignBegin=305134|AlignEnd=305511
+9	South	South	PROPN	_	_	5	comp:obj	_	AlignBegin=304757|AlignEnd=305134
+10	Eastern	Eastern	PROPN	_	_	9	flat	_	AlignBegin=305134|AlignEnd=305511
 11	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=305511|AlignEnd=305511
 12	and	and	CCONJ	_	_	14	cc	_	AlignBegin=305511|AlignEnd=305888
-13	Northern	Northern	ADJ	_	_	14	mod	_	AlignBegin=305888|AlignEnd=306264
-14	zone}	zone}	NOUN	_	_	10	conj:coord	_	AlignBegin=306264|AlignEnd=306641
+13	Northern	Northern	PROPN	_	_	14	compound	_	AlignBegin=305888|AlignEnd=306264
+14	zone}	zone}	NOUN	_	_	9	conj:coord	_	AlignBegin=306264|AlignEnd=306641
 15	<	<	PUNCT	_	_	4	punct	_	AlignBegin=306641|AlignEnd=306641
 16	na	na	PART	_	_	0	root	_	AlignBegin=306641|AlignEnd=307018
 17	me	me	PRON	_	_	16	comp:pred	_	AlignBegin=307018|AlignEnd=307395
@@ -1643,7 +1643,7 @@
 # text = and den { dis im || dis year } so < by next month < seventh of next month to be precise < in a month tome today < I go dey collect { di award wey nominate me for |a Nigerian Goodwill Ambassador Award } //
 # text_en = And then this his... this year right, by next month, seventh of next month to be precise, in a month time today, I will be collecting the award that they nominated me for, Nigerian Goodwill Ambassador Award.
 # text_ortho = And den dis im, dis year so, by next month, seventh of next month to be precise, in a month tome today, I go dey collect di award wey nominate me for, Nigerian Goodwill Ambassador Award.
-1	and	and	CCONJ	_	_	31	discourse	_	AlignBegin=308397|AlignEnd=308682
+1	and	and	CCONJ	_	_	31	cc	_	AlignBegin=308397|AlignEnd=308682
 2	den	dem	ADV	_	_	31	mod:periph	_	AlignBegin=308682|AlignEnd=308967
 3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=308967|AlignEnd=308967
 4	dis	dis	DET	_	_	5	det	_	AlignBegin=308967|AlignEnd=309252
@@ -1658,18 +1658,18 @@
 13	next	next	ADJ	_	_	14	mod	_	AlignBegin=310677|AlignEnd=310962
 14	month	month	NOUN	_	_	12	comp:obj	_	AlignBegin=310962|AlignEnd=311247
 15	<	<	PUNCT	_	_	12	punct	_	AlignBegin=311247|AlignEnd=311247
-16	seventh	seventh	ADJ	_	_	24	comp:obj	_	AlignBegin=311247|AlignEnd=311532
+16	seventh	seventh	ADJ	_	_	31	mod:periph	_	AlignBegin=311247|AlignEnd=311532
 17	of	of	ADP	_	_	16	mod	_	AlignBegin=311532|AlignEnd=311817
 18	next	next	ADJ	_	_	19	mod	_	AlignBegin=311817|AlignEnd=312102
 19	month	month	NOUN	_	_	17	comp:obj	_	AlignBegin=312102|AlignEnd=312387
-20	to	to	ADP	_	_	16	mod	_	AlignBegin=312387|AlignEnd=312672
+20	to	to	ADP	_	_	12	comp:obj	_	AlignBegin=312387|AlignEnd=312672
 21	be	be	VERB	_	_	20	comp:obj	_	AlignBegin=312672|AlignEnd=312957
-22	precise	precise	NOUN	_	_	21	comp:pred	_	AlignBegin=312957|AlignEnd=313242
+22	precise	precise	ADJ	_	_	38	comp:pred	_	AlignBegin=312957|AlignEnd=313242
 23	<	<	PUNCT	_	_	24	punct	_	AlignBegin=313242|AlignEnd=313242
 24	in	in	ADP	_	_	31	mod:periph	_	AlignBegin=313242|AlignEnd=313528
 25	a	a	DET	_	_	26	det	_	AlignBegin=313528|AlignEnd=313813
 26	month	month	NOUN	_	_	24	comp:obj	_	AlignBegin=313813|AlignEnd=314098
-27	tome	tome	VERB	_	_	26	mod	_	AlignBegin=314098|AlignEnd=314383
+27	tome	tome	ADJ	_	_	26	mod	_	AlignBegin=314098|AlignEnd=314383
 28	today	today	NOUN	_	_	27	mod	_	AlignBegin=314383|AlignEnd=314668
 29	<	<	PUNCT	_	_	24	punct	_	AlignBegin=314668|AlignEnd=314668
 30	I	I	PRON	_	_	31	subj	_	AlignBegin=314668|AlignEnd=314953
@@ -1679,15 +1679,15 @@
 34	{	{	PUNCT	_	_	36	punct	_	AlignBegin=315808|AlignEnd=315808
 35	di	di	DET	_	_	36	det	_	AlignBegin=315808|AlignEnd=316093
 36	award	award	NOUN	_	_	33	comp:obj	_	AlignBegin=316093|AlignEnd=316378
-37	wey	wey	SCONJ	_	_	36	mod:relcl	_	AlignBegin=316378|AlignEnd=316663
+37	wey	wey	SCONJ	_	_	36	mod@relcl	_	AlignBegin=316378|AlignEnd=316663
 38	nominate	nominate	VERB	_	_	37	comp:obj	_	AlignBegin=316663|AlignEnd=316948
 39	me	me	PRON	_	_	38	comp:obj	_	AlignBegin=316948|AlignEnd=317233
 40	for	for	ADP	_	_	38	comp:obl	_	AlignBegin=317233|AlignEnd=317518
-41	|a	|a	PUNCT	_	_	42	punct	_	AlignBegin=317518|AlignEnd=317518
-42	Nigerian	Nigerian	ADJ	_	_	45	mod	_	AlignBegin=317518|AlignEnd=317803
-43	Goodwill	Goodwill	ADJ	_	_	42	flat	_	AlignBegin=317803|AlignEnd=318088
-44	Ambassador	Ambassador	NOUN	_	_	43	flat	_	AlignBegin=318088|AlignEnd=318373
-45	Award	Award	NOUN	_	_	37	comp:obj	_	AlignBegin=318373|AlignEnd=318659
+41	|a	|a	PUNCT	_	_	45	punct	_	AlignBegin=317518|AlignEnd=317518
+42	Nigerian	Nigerian	PROPN	_	_	45	mod	_	AlignBegin=317518|AlignEnd=317803
+43	Goodwill	Goodwill	NOUN	_	_	45	compound	_	AlignBegin=317803|AlignEnd=318088
+44	Ambassador	Ambassador	NOUN	_	_	45	compound	_	AlignBegin=318088|AlignEnd=318373
+45	Award	Award	NOUN	_	_	36	conj:appos	_	AlignBegin=318373|AlignEnd=318659
 46	}	}	PUNCT	_	_	36	punct	_	AlignBegin=318659|AlignEnd=318659
 47	//	//	PUNCT	_	_	31	punct	_	AlignBegin=318659|AlignEnd=318659
 
@@ -1696,7 +1696,7 @@
 # text = and den < I don win some oder awards too like dat //
 # text_en = And then, I have won some other awards too like that.
 # text_ortho = And den, I don win some oder awards too like dat.
-1	and	and	CCONJ	_	_	5	discourse	_	AlignBegin=319018|AlignEnd=319195
+1	and	and	CCONJ	_	_	5	cc	_	AlignBegin=319018|AlignEnd=319195
 2	den	dem	ADV	_	_	5	mod:periph	_	AlignBegin=319195|AlignEnd=319372
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=319372|AlignEnd=319372
 4	I	I	PRON	_	_	5	subj	_	AlignBegin=319372|AlignEnd=319549
@@ -1715,35 +1715,35 @@
 # text = and ehm { { two thousand |c and fourteen dere about } || { two thousand |c and thirteen or dereabout } } < presidential media chat < centenary edition < I be be one of di panelist wit Goodluck Jonathan president dat time //
 # text_en = And ehm in two thousand and fourteen thereabout... two thousand and thirteen or thereabout, during the presidential media chat, the centenary edition, I am one of the panelist with Goodluck Jonathan, the then president.
 # text_ortho = And ehm two thousand, and fourteen dere about, two thousand, and thirteen or dereabout, presidential media chat, centenary edition, I be be one of di panelist wit Goodluck Jonathan president dat time.
-1	and	and	CCONJ	_	_	33	discourse	_	AlignBegin=321342|AlignEnd=321731
+1	and	and	CCONJ	_	_	33	cc	_	AlignBegin=321342|AlignEnd=321731
 2	ehm	ehm	INTJ	_	_	33	discourse	_	AlignBegin=321731|AlignEnd=322121
-3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=322121|AlignEnd=322121
-4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=322121|AlignEnd=322121
-5	two	two	NUM	_	_	33	mod:periph	_	AlignBegin=322121|AlignEnd=322510
-6	thousand	thousand	NUM	_	_	5	flat	_	AlignBegin=322510|AlignEnd=322900
+3	{	{	PUNCT	_	_	6	punct	_	AlignBegin=322121|AlignEnd=322121
+4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=322121|AlignEnd=322121
+5	two	two	NUM	_	_	6	compound	_	AlignBegin=322121|AlignEnd=322510
+6	thousand	thousand	NUM	_	_	33	mod:periph	_	AlignBegin=322510|AlignEnd=322900
 7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=322900|AlignEnd=322900
 8	and	and	CCONJ	_	_	9	cc	_	AlignBegin=322900|AlignEnd=323289
 9	fourteen	fourteen	NUM	_	_	6	conj:coord	_	AlignBegin=323289|AlignEnd=323679
 10	dere	dere	ADV	_	_	9	mod	_	AlignBegin=323679|AlignEnd=324068
 11	about	about	ADP	_	_	10	mod	_	AlignBegin=324068|AlignEnd=324458
-12	}	}	PUNCT	_	_	5	punct	_	AlignBegin=324458|AlignEnd=324458
-13	||	||	PUNCT	_	_	15	punct	_	AlignBegin=324458|AlignEnd=324458
-14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=324458|AlignEnd=324458
-15	two	two	NUM	_	_	6	conj:dicto	_	AlignBegin=324458|AlignEnd=324847
-16	thousand	thousand	NUM	_	_	15	flat	_	AlignBegin=324847|AlignEnd=325237
+12	}	}	PUNCT	_	_	6	punct	_	AlignBegin=324458|AlignEnd=324458
+13	||	||	PUNCT	_	_	16	punct	_	AlignBegin=324458|AlignEnd=324458
+14	{	{	PUNCT	_	_	16	punct	_	AlignBegin=324458|AlignEnd=324458
+15	two	two	NUM	_	_	16	compound	_	AlignBegin=324458|AlignEnd=324847
+16	thousand	thousand	NUM	_	_	6	conj:dicto	_	AlignBegin=324847|AlignEnd=325237
 17	|c	|c	PUNCT	_	_	19	punct	_	AlignBegin=325237|AlignEnd=325237
 18	and	and	CCONJ	_	_	19	cc	_	AlignBegin=325237|AlignEnd=325626
 19	thirteen	thirteen	NUM	_	_	16	conj:coord	_	AlignBegin=325626|AlignEnd=326016
 20	or	or	CCONJ	_	_	21	cc	_	AlignBegin=326016|AlignEnd=326405
 21	dereabout	dereabout	ADV	_	_	16	conj:coord	_	AlignBegin=326405|AlignEnd=326795
-22	}	}	PUNCT	_	_	15	punct	_	AlignBegin=326795|AlignEnd=326795
-23	}	}	PUNCT	_	_	5	punct	_	AlignBegin=326795|AlignEnd=326795
-24	<	<	PUNCT	_	_	5	punct	_	AlignBegin=326795|AlignEnd=326795
-25	presidential	presidential	ADJ	_	_	30	mod	_	AlignBegin=326795|AlignEnd=327184
-26	media	media	NOUN	_	_	30	compound	_	AlignBegin=327184|AlignEnd=327574
-27	chat	chat	VERB	_	_	33	parataxis:discourse	_	AlignBegin=327574|AlignEnd=327963
+22	}	}	PUNCT	_	_	16	punct	_	AlignBegin=326795|AlignEnd=326795
+23	}	}	PUNCT	_	_	6	punct	_	AlignBegin=326795|AlignEnd=326795
+24	<	<	PUNCT	_	_	6	punct	_	AlignBegin=326795|AlignEnd=326795
+25	presidential	presidential	ADJ	_	_	26	mod	_	AlignBegin=326795|AlignEnd=327184
+26	media	media	NOUN	_	_	27	compound	_	AlignBegin=327184|AlignEnd=327574
+27	chat	chat	NOUN	_	_	33	dislocated	_	AlignBegin=327574|AlignEnd=327963
 28	<	<	PUNCT	_	_	27	punct	_	AlignBegin=327963|AlignEnd=327963
-29	centenary	centenary	ADJ	_	_	30	mod	_	AlignBegin=327963|AlignEnd=328353
+29	centenary	centenary	NOUN	_	_	30	compound	_	AlignBegin=327963|AlignEnd=328353
 30	edition	edition	NOUN	_	_	33	dislocated	_	AlignBegin=328353|AlignEnd=328742
 31	<	<	PUNCT	_	_	30	punct	_	AlignBegin=328742|AlignEnd=328742
 32	I	I	PRON	_	_	33	subj	_	AlignBegin=328742|AlignEnd=329132
@@ -1758,7 +1758,7 @@
 41	Jonathan	Jonathan	PROPN	_	_	40	flat	_	AlignBegin=332248|AlignEnd=332637
 42	president	president	NOUN	_	_	39	comp:obj	_	AlignBegin=332637|AlignEnd=333027
 43	dat	dat	DET	_	_	44	det	_	AlignBegin=333027|AlignEnd=333416
-44	time	time	NOUN	_	_	34	mod	_	AlignBegin=333416|AlignEnd=333806
+44	time	time	NOUN	_	_	42	mod	_	AlignBegin=333416|AlignEnd=333806
 45	//	//	PUNCT	_	_	33	punct	_	AlignBegin=333806|AlignEnd=333806
 
 # sent_id = WAZA_12_Lady-G_M__66
@@ -1766,14 +1766,14 @@
 # text = and I want to say [ { Pidgin |r Pidgin } broadcasting < { I am || e dey || dey } rewarding ] //
 # text_en = And I want to say that complete Pidgin broadcasting, I am... it is... is rewarding.
 # text_ortho = And I want to say Pidgin, Pidgin broadcasting, I am, e dey, dey rewarding.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=334154|AlignEnd=334426
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=334154|AlignEnd=334426
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=334426|AlignEnd=334698
 3	want	want	VERB	_	_	0	root	_	AlignBegin=334698|AlignEnd=334970
 4	to	to	ADP	_	_	3	comp:obl@x	_	AlignBegin=334970|AlignEnd=335242
 5	say	say	VERB	_	_	4	comp:obj	_	AlignBegin=335242|AlignEnd=335514
 6	[	[	PUNCT	_	_	16	punct	_	AlignBegin=335514|AlignEnd=335514
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=335514|AlignEnd=335514
-8	Pidgin	Pidgin	PROPN	_	_	12	mod	_	AlignBegin=335514|AlignEnd=335786
+8	Pidgin	Pidgin	PROPN	_	_	12	compound	_	AlignBegin=335514|AlignEnd=335786
 9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=335786|AlignEnd=335786
 10	Pidgin	Pidgin	PROPN	_	_	8	compound:redup	_	AlignBegin=335786|AlignEnd=336058
 11	}	}	PUNCT	_	_	8	punct	_	AlignBegin=336058|AlignEnd=336058
@@ -1786,9 +1786,9 @@
 18	e	im	PRON	_	_	19	subj	_	AlignBegin=336874|AlignEnd=337146
 19	dey	dey	AUX	_	_	16	conj:dicto	_	AlignBegin=337146|AlignEnd=337418
 20	||	||	PUNCT	_	_	21	punct	_	AlignBegin=337418|AlignEnd=337418
-21	dey	dey	VERB	_	_	19	conj:dicto	_	AlignBegin=337418|AlignEnd=337690
+21	dey	dey	AUX	_	_	19	conj:dicto	_	AlignBegin=337418|AlignEnd=337690
 22	}	}	PUNCT	_	_	16	punct	_	AlignBegin=337690|AlignEnd=337690
-23	rewarding	rewarding	ADJ	_	_	21	comp:pred	_	AlignBegin=337690|AlignEnd=337963
+23	rewarding	rewarding	VERB	_	_	21	comp:aux	_	AlignBegin=337690|AlignEnd=337963
 24	]	]	PUNCT	_	_	16	punct	_	AlignBegin=337963|AlignEnd=337963
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=337963|AlignEnd=337963
 
@@ -1801,16 +1801,16 @@
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=338447|AlignEnd=338447
 3	e	im	PRON	_	_	4	subj	_	AlignBegin=338447|AlignEnd=338693
 4	fit	fit	AUX	_	_	0	root	_	AlignBegin=338693|AlignEnd=338940
-5	dey	dey	VERB	_	_	4	comp:aux@scrap	_	AlignBegin=338940|AlignEnd=339186
+5	dey	dey	AUX	_	_	4	comp:aux	_	AlignBegin=338940|AlignEnd=339186
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=339186|AlignEnd=339186
 7	e	im	PRON	_	_	8	subj	_	AlignBegin=339186|AlignEnd=339432
-8	dey	dey	VERB	_	_	5	conj:dicto	_	AlignBegin=339432|AlignEnd=339679
+8	dey	dey	VERB	_	_	4	conj:dicto	_	AlignBegin=339432|AlignEnd=339679
 9	}	}	PUNCT	_	_	4	punct	_	AlignBegin=339679|AlignEnd=339679
 10	challenging	challenging	ADJ	_	_	8	comp:pred	_	AlignBegin=339679|AlignEnd=339925
-11	because	because	SCONJ	_	_	10	mod	_	AlignBegin=339925|AlignEnd=340172
+11	because	because	SCONJ	_	_	15	mod	_	AlignBegin=339925|AlignEnd=340172
 12	getting	gett	VERB	_	_	36	dislocated	_	AlignBegin=340172|AlignEnd=340418
-13	to	to	ADP	_	_	8	comp:obl@x	_	AlignBegin=340418|AlignEnd=340664
-14	ehm	ehm	INTJ	_	_	15	discourse	_	AlignBegin=340664|AlignEnd=340911
+13	to	to	ADP	_	_	8	comp:obl	_	AlignBegin=340418|AlignEnd=340664
+14	ehm	ehm	INTJ	_	_	13	discourse	_	AlignBegin=340664|AlignEnd=340911
 15	enter	enter	VERB	_	_	13	comp:obj	_	AlignBegin=340911|AlignEnd=341157
 16	di	di	DET	_	_	17	det	_	AlignBegin=341157|AlignEnd=341404
 17	language	language	NOUN	_	_	15	comp:obj	_	AlignBegin=341404|AlignEnd=341650
@@ -1822,15 +1822,15 @@
 23	from	from	ADP	_	_	15	comp:obl	_	AlignBegin=342143|AlignEnd=342389
 24	di	di	DET	_	_	25	det	_	AlignBegin=342389|AlignEnd=342636
 25	English	English	PROPN	_	_	23	comp:obj	_	AlignBegin=342636|AlignEnd=342882
-26	wey	wey	SCONJ	_	_	25	mod:relcl	_	AlignBegin=342882|AlignEnd=343128
-27	be	be	VERB	_	_	26	comp:obj	_	AlignBegin=343128|AlignEnd=343375
-28	sey	sey	SCONJ	_	_	27	comp:pred	_	AlignBegin=343375|AlignEnd=343621
+26	wey	wey	SCONJ	_	_	25	mod@relcl	_	AlignBegin=342882|AlignEnd=343128
+27	be	be	VERB	_	_	26	comp:obj@fixed	_	AlignBegin=343128|AlignEnd=343375
+28	sey	sey	SCONJ	_	_	27	comp:pred@fixed	_	AlignBegin=343375|AlignEnd=343621
 29	[	[	PUNCT	_	_	31	punct	_	AlignBegin=343621|AlignEnd=343621
 30	people	people	NOUN	_	_	31	subj	_	AlignBegin=343621|AlignEnd=343868
-31	know	know	VERB	_	_	26	comp:obj	_	AlignBegin=343868|AlignEnd=344114
+31	know	know	VERB	_	_	28	comp:obj	_	AlignBegin=343868|AlignEnd=344114
 32	]	]	PUNCT	_	_	31	punct	_	AlignBegin=344114|AlignEnd=344114
 33	<	<	PUNCT	_	_	12	punct	_	AlignBegin=344114|AlignEnd=344114
-34	e	im	PRON	_	_	36	subj:expl	_	AlignBegin=344114|AlignEnd=344360
+34	e	im	PRON	_	_	36	subj	_	AlignBegin=344114|AlignEnd=344360
 35	no	no	PART	_	_	36	mod	_	AlignBegin=344360|AlignEnd=344607
 36	dey	dey	VERB	_	_	11	comp:obj	_	AlignBegin=344607|AlignEnd=344853
 37	easy	easy	ADJ	_	_	36	comp:pred	_	AlignBegin=344853|AlignEnd=345100
@@ -1841,11 +1841,11 @@
 # text = but God in all < God dey prove himsef faithful //
 # text_en = But God in all, God is proving himself faithful.
 # text_ortho = But God in all, God dey prove himsef faithful.
-1	but	but	CCONJ	_	_	7	discourse	_	AlignBegin=345100|AlignEnd=345419
+1	but	but	CCONJ	_	_	7	cc	_	AlignBegin=345100|AlignEnd=345419
 2	God	God	PROPN	_	_	7	dislocated	_	AlignBegin=345419|AlignEnd=345738
-3	in	in	ADP	_	_	2	mod	_	AlignBegin=345738|AlignEnd=346058
-4	all	all	DET	_	_	3	comp:obj	_	AlignBegin=346058|AlignEnd=346377
-5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=346377|AlignEnd=346377
+3	in	in	ADP	_	_	7	mod:periph	_	AlignBegin=345738|AlignEnd=346058
+4	all	all	ADV	_	_	3	unk@fixed	_	AlignBegin=346058|AlignEnd=346377
+5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=346377|AlignEnd=346377
 6	God	God	PROPN	_	_	7	subj	_	AlignBegin=346377|AlignEnd=346697
 7	dey	dey	AUX	_	_	0	root	_	AlignBegin=346697|AlignEnd=347016
 8	prove	prove	VERB	_	_	7	comp:aux	_	AlignBegin=347016|AlignEnd=347336
@@ -1858,7 +1858,7 @@
 # text = and I do my work well //
 # text_en = And I do my work well.
 # text_ortho = And I do my work well.
-1	and	and	CCONJ	_	_	3	discourse	_	AlignBegin=348285|AlignEnd=348485
+1	and	and	CCONJ	_	_	3	cc	_	AlignBegin=348285|AlignEnd=348485
 2	I	I	PRON	_	_	3	subj	_	AlignBegin=348485|AlignEnd=348686
 3	do	do	VERB	_	_	0	root	_	AlignBegin=348686|AlignEnd=348887
 4	my	my	PRON	_	_	5	mod:poss	_	AlignBegin=348887|AlignEnd=349087
@@ -1871,7 +1871,7 @@
 # text = and my management < de appreciate me //= my fans appreciate me |c and everyting dey { good |r good |r good } //
 # text_en = And my management, they appreciate me; my fans appreciate me, and everyting is completely good.
 # text_ortho = And my management, de appreciate me, my fans appreciate me, and everyting dey good, good, good.
-1	and	and	CCONJ	_	_	6	discourse	_	AlignBegin=349776|AlignEnd=350083
+1	and	and	CCONJ	_	_	6	cc	_	AlignBegin=349776|AlignEnd=350083
 2	my	my	PRON	_	_	3	mod:poss	_	AlignBegin=350083|AlignEnd=350391
 3	management	management	NOUN	_	_	6	dislocated	_	AlignBegin=350391|AlignEnd=350699
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=350699|AlignEnd=350699
@@ -1904,7 +1904,7 @@
 1	financially	financially	ADV	_	_	4	mod:periph	_	AlignBegin=355003|AlignEnd=355277
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=355277|AlignEnd=355277
 3	e	im	PRON	_	_	4	subj	_	AlignBegin=355277|AlignEnd=355552
-4	dey	dey	VERB	_	_	0	root	_	AlignBegin=355552|AlignEnd=355827
+4	dey	dey	AUX	_	_	0	root	_	AlignBegin=355552|AlignEnd=355827
 5	rewarding	reward	VERB	_	_	4	comp:aux	_	AlignBegin=355827|AlignEnd=356102
 6	o	o	PART	_	_	5	mod:emph	_	AlignBegin=356102|AlignEnd=356377
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=356377|AlignEnd=356377
@@ -1914,7 +1914,7 @@
 # text = eh even we never really reach what we really want to reach < but ehm di work dey rewarding //
 # text_en = Eh, even we have never really reached what we really wanted to reach, but ehm, the work is rewarding.
 # text_ortho = Eh even we never really reach what we really want to reach, but ehm di work dey rewarding.
-1	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=356471|AlignEnd=356686
+1	eh	eh	INTJ	_	_	18	discourse	_	AlignBegin=356471|AlignEnd=356686
 2	even	even	ADV	_	_	4	mod:periph	_	AlignBegin=356686|AlignEnd=356901
 3	we	we	PRON	_	_	4	subj	_	AlignBegin=356901|AlignEnd=357116
 4	never	never	AUX	_	_	18	parataxis:dislocated	_	AlignBegin=357116|AlignEnd=357331
@@ -1923,16 +1923,16 @@
 7	what	what	PRON	_	_	6	comp:obj	_	AlignBegin=357761|AlignEnd=357976
 8	we	we	PRON	_	_	10	subj	_	AlignBegin=357976|AlignEnd=358191
 9	really	really	ADV	_	_	10	mod	_	AlignBegin=358191|AlignEnd=358406
-10	want	want	VERB	_	_	7	mod:relcl	_	AlignBegin=358406|AlignEnd=358621
+10	want	want	VERB	_	_	7	mod@relcl	_	AlignBegin=358406|AlignEnd=358621
 11	to	to	ADP	_	_	10	comp:obl@x	_	AlignBegin=358621|AlignEnd=358836
 12	reach	reach	VERB	_	_	11	comp:obj	_	AlignBegin=358836|AlignEnd=359051
-13	<	<	PUNCT	_	_	18	punct	_	AlignBegin=359051|AlignEnd=359051
+13	<	<	PUNCT	_	_	4	punct	_	AlignBegin=359051|AlignEnd=359051
 14	but	but	CCONJ	_	_	18	cc	_	AlignBegin=359051|AlignEnd=359266
 15	ehm	ehm	INTJ	_	_	18	discourse	_	AlignBegin=359266|AlignEnd=359481
 16	di	di	DET	_	_	17	det	_	AlignBegin=359481|AlignEnd=359696
 17	work	work	NOUN	_	_	18	subj	_	AlignBegin=359696|AlignEnd=359911
 18	dey	dey	VERB	_	_	0	root	_	AlignBegin=359911|AlignEnd=360126
-19	rewarding	rewarding	ADJ	_	_	18	comp:pred	_	AlignBegin=360126|AlignEnd=360341
+19	rewarding	rewarding	VERB	_	_	18	comp:aux	_	AlignBegin=360126|AlignEnd=360341
 20	//	//	PUNCT	_	_	18	punct	_	AlignBegin=360341|AlignEnd=360341
 
 # sent_id = WAZA_12_Lady-G_M__73
@@ -1941,29 +1941,29 @@
 # text_en = Well a little... ehn that one is a little about me that I can tell you.
 # text_ortho = Well na little, ehn na little about me wey be sey I fit tell una be dat one.
 1	{	{	PUNCT	_	_	3	punct	_	AlignBegin=360623|AlignEnd=360623
-2	well	well	ADV	_	_	3	discourse	_	AlignBegin=360623|AlignEnd=360823
+2	well	well	ADV	_	_	3	mod	_	AlignBegin=360623|AlignEnd=360823
 3	na	na	PART	_	_	0	root	_	AlignBegin=360823|AlignEnd=361023
 4	little	little	ADJ	_	_	3	comp:pred	_	AlignBegin=361023|AlignEnd=361223
 5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=361223|AlignEnd=361223
 6	ehn	ehn	INTJ	_	_	7	discourse	_	AlignBegin=361223|AlignEnd=361423
 7	na	na	PART	_	_	3	conj:dicto	_	AlignBegin=361423|AlignEnd=361623
-8	little	little	ADJ	_	_	7	comp:pred	_	AlignBegin=361623|AlignEnd=361824
-9	about	about	ADP	_	_	8	mod	_	AlignBegin=361824|AlignEnd=362024
+8	little	little	ADJ	_	_	9	mod	_	AlignBegin=361623|AlignEnd=361824
+9	about	about	ADP	_	_	7	comp:pred	_	AlignBegin=361824|AlignEnd=362024
 10	}	}	PUNCT	_	_	3	punct	_	AlignBegin=362024|AlignEnd=362024
 11	me	me	PRON	_	_	9	comp:obj	_	AlignBegin=362024|AlignEnd=362224
-12	wey	wey	SCONJ	_	_	8	mod:relcl	_	AlignBegin=362224|AlignEnd=362424
-13	be	be	VERB	_	_	12	comp:obj	_	AlignBegin=362424|AlignEnd=362624
-14	sey	sey	SCONJ	_	_	13	comp:pred	_	AlignBegin=362624|AlignEnd=362824
+12	wey	wey	SCONJ	_	_	11	mod@relcl	_	AlignBegin=362224|AlignEnd=362424
+13	be	be	VERB	_	_	12	comp:obj@fixed	_	AlignBegin=362424|AlignEnd=362624
+14	sey	sey	SCONJ	_	_	13	comp:pred@fixed	_	AlignBegin=362624|AlignEnd=362824
 15	[	[	PUNCT	_	_	17	punct	_	AlignBegin=362824|AlignEnd=362824
 16	I	I	PRON	_	_	17	subj	_	AlignBegin=362824|AlignEnd=363025
-17	fit	fit	AUX	_	_	12	comp:obj	_	AlignBegin=363025|AlignEnd=363225
+17	fit	fit	AUX	_	_	14	comp:obj	_	AlignBegin=363025|AlignEnd=363225
 18	tell	tell	VERB	_	_	17	comp:aux	_	AlignBegin=363225|AlignEnd=363425
 19	una	una	PRON	_	_	18	comp:obj	_	AlignBegin=363425|AlignEnd=363625
 20	]	]	PUNCT	_	_	17	punct	_	AlignBegin=363625|AlignEnd=363625
 21	>+	>+	PUNCT	_	_	22	punct	_	AlignBegin=363625|AlignEnd=363625
 22	be	be	VERB	_	_	7	comp:cleft	_	AlignBegin=363625|AlignEnd=363825
 23	dat	dat	DET	_	_	24	det	_	AlignBegin=363825|AlignEnd=364025
-24	one	one	NOUN	_	_	22	comp:pred@agent	_	AlignBegin=364025|AlignEnd=364226
+24	one	one	NOUN	_	_	22	comp:pred	_	AlignBegin=364025|AlignEnd=364226
 25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=364226|AlignEnd=364226
 
 # sent_id = WAZA_12_Lady-G_M__74
@@ -1977,17 +1977,17 @@
 4	say	say	VERB	_	_	3	comp:obj	_	AlignBegin=365137|AlignEnd=365336
 5	[	[	PUNCT	_	_	7	punct	_	AlignBegin=365336|AlignEnd=365336
 6	una	una	PRON	_	_	7	subj	_	AlignBegin=365336|AlignEnd=365535
-7	tank	tank	VERB	_	_	4	parataxis:obj	_	AlignBegin=365535|AlignEnd=365734
+7	tank	tank	VERB	_	_	3	comp:obj	_	AlignBegin=365535|AlignEnd=365734
 8	you	you	PRON	_	_	7	comp:obj	_	AlignBegin=365734|AlignEnd=365933
 9	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=365933|AlignEnd=365933
-10	sey	sey	SCONJ	_	_	12	discourse	_	AlignBegin=365933|AlignEnd=366132
+10	sey	sey	SCONJ	_	_	12	cc	_	AlignBegin=365933|AlignEnd=366132
 11	una	una	PRON	_	_	12	subj	_	AlignBegin=366132|AlignEnd=366331
 12	stop	stop	VERB	_	_	7	parataxis:conj	_	AlignBegin=366331|AlignEnd=366530
 13	for	for	ADP	_	_	12	comp:obl	_	AlignBegin=366530|AlignEnd=366729
 14	our	our	PRON	_	_	15	mod:poss	_	AlignBegin=366729|AlignEnd=366928
 15	doormot	doormot	NOUN	_	_	13	comp:obj	_	AlignBegin=366928|AlignEnd=367127
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=367127|AlignEnd=367127
-17	to	to	ADP	_	_	12	parataxis:conj	_	AlignBegin=367127|AlignEnd=367326
+17	to	to	ADP	_	_	12	conj:coord	_	AlignBegin=367127|AlignEnd=367326
 18	get	get	VERB	_	_	17	comp:obj	_	AlignBegin=367326|AlignEnd=367525
 19	us	us	PRON	_	_	18	comp:obj	_	AlignBegin=367525|AlignEnd=367724
 20	to	to	ADP	_	_	18	comp:obl@x	_	AlignBegin=367724|AlignEnd=367923
@@ -1998,12 +1998,13 @@
 25	English	English	PROPN	_	_	23	comp:obj	_	AlignBegin=368719|AlignEnd=368918
 26	|c	|c	PUNCT	_	_	28	punct	_	AlignBegin=368918|AlignEnd=368918
 27	and	and	CCONJ	_	_	28	cc	_	AlignBegin=368918|AlignEnd=369117
-28	how	how	ADV	_	_	25	conj:coord	_	AlignBegin=369117|AlignEnd=369316
+28	how	how	ADV	_	_	17	conj:coord	_	AlignBegin=369117|AlignEnd=369316
 29	we	we	PRON	_	_	30	subj	_	AlignBegin=369316|AlignEnd=369515
-30	dey	dey	AUX	_	_	28	mod:relcl	_	AlignBegin=369515|AlignEnd=369714
+30	dey	dey	AUX	_	_	28	mod@relcl	_	AlignBegin=369515|AlignEnd=369714
 31	take	take	VERB	_	_	30	comp:aux	_	AlignBegin=369714|AlignEnd=369913
 32	do	do	VERB	_	_	31	compound:svc	_	AlignBegin=369913|AlignEnd=370112
 33	di	di	DET	_	_	34	det	_	AlignBegin=370112|AlignEnd=370311
 34	work	work	NOUN	_	_	32	comp:obj	_	AlignBegin=370311|AlignEnd=370510
 35	]	]	PUNCT	_	_	7	punct	_	AlignBegin=370510|AlignEnd=370510
 36	//	//	PUNCT	_	_	2	punct	_	AlignBegin=370510|AlignEnd=370510
+
