@@ -1,8 +1,8 @@
 import os
 
 misc_features = [
-"AlignBegin",
-"AlignEnd",
+"WordAlignmentBegin", "WordAlignmentBegin",
+"AlignEnd", "WordAlignmentEnd",
 "Gloss",
 "Idiom",
 "InIdiom",
