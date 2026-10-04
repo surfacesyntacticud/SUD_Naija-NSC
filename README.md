@@ -12,7 +12,7 @@ Sentences are annotated with the following metadata :
 + sent_id (which also indicates the sample file)
 + text
 + text_en (English translation)
-+ text_ortho (A simplified version of text where macrosyntactic annotation has been replaced by standard punctuation)
++ text_orthographic (A simplified version of text where macrosyntactic annotation has been replaced by standard punctuation)
 + speaker_id (from the NaijaSynCor Metadata)
 + sound_url (links to the corresponding sound file, WordAlignmentBegin and WordAlignmentEnd features give the miliseconds that allow for a positioning in the soundfile)
 
