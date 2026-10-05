@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = JOS_06_Ear-Piercing_DG__1
 # sound_url = http://naijasyncor.huma-num.fr/carte/mp3/JOS_06_Ear-Piercing_DG.wav
 # speaker_id = Sp119
@@ -450,7 +449,7 @@
 6	simple	simple	ADJ	_	_	1	dislocated	_	WordAlignmentBegin=63408|WordAlignmentEnd=63739
 7	//=	//=	PUNCT	_	_	9	punct	_	WordAlignmentBegin=63739|WordAlignmentEnd=63739
 8	just	just	ADV	_	_	9	mod	_	WordAlignmentBegin=63739|WordAlignmentEnd=64070
-9	one	one	NUM	_	_	6	det:num	_	WordAlignmentBegin=64070|WordAlignmentEnd=64401
+9	one	one	NUM	_	ExtPos=DET	6	det	_	WordAlignmentBegin=64070|WordAlignmentEnd=64401
 10	eighty	eighty	NUM	_	_	9	flat	_	WordAlignmentBegin=64401|WordAlignmentEnd=64732
 11	//	//	PUNCT	_	_	1	punct	_	WordAlignmentBegin=64732|WordAlignmentEnd=64732
 
@@ -631,9 +630,9 @@
 # text = dat's it o //
 # text_en = That's it.
 # text_orthographic = Dat'S it o.
-1	dat's	dat's	PRON	_	_	0	root	_	WordAlignmentBegin=86492|WordAlignmentEnd=86768|Lang=en
-2	it	it	PRON	_	_	1	comp:pred	_	WordAlignmentBegin=86768|WordAlignmentEnd=87044|Lang=en
-3	o	o	PART	_	_	1	mod:emph	_	WordAlignmentBegin=87044|WordAlignmentEnd=87321|Lang=en
+1	dat's	dat's	PRON	_	_	0	root	_	Lang=en|WordAlignmentBegin=86492|WordAlignmentEnd=86768
+2	it	it	PRON	_	_	1	comp:pred	_	Lang=en|WordAlignmentBegin=86768|WordAlignmentEnd=87044
+3	o	o	PART	_	_	1	mod:emph	_	Lang=en|WordAlignmentBegin=87044|WordAlignmentEnd=87321
 4	//	//	PUNCT	_	_	1	punct	_	WordAlignmentBegin=87321|WordAlignmentEnd=87321
 
 # sent_id = JOS_06_Ear-Piercing_DG__32
@@ -2147,7 +2146,7 @@
 # text = five holes !//
 # text_en = Five holes!
 # text_orthographic = Five holes!
-1	five	five	NUM	_	_	2	det:num	_	WordAlignmentBegin=230521|WordAlignmentEnd=231035
+1	five	five	NUM	_	ExtPos=DET	2	det	_	WordAlignmentBegin=230521|WordAlignmentEnd=231035
 2	holes	holes	NOUN	_	_	0	root	_	WordAlignmentBegin=231035|WordAlignmentEnd=231550
 3	!//	!//	PUNCT	_	_	2	punct	_	WordAlignmentBegin=231550|WordAlignmentEnd=231550
 

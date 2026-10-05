@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = IBA_35_Christopher-And-David_DG__1
 # sound_url = http://naijasyncor.huma-num.fr/carte/mp3/IBA_35_Christopher-And-David_DG.wav
 # speaker_id = Sp414
@@ -141,7 +140,7 @@
 # text_en = only one issue.
 # text_orthographic = Only one kpass.
 1	only	only	ADV	_	_	2	mod	_	WordAlignmentBegin=19290|WordAlignmentEnd=19606
-2	one	one	NUM	_	_	3	det:num	_	WordAlignmentBegin=19606|WordAlignmentEnd=19923
+2	one	one	NUM	_	ExtPos=DET	3	det	_	WordAlignmentBegin=19606|WordAlignmentEnd=19923
 3	kpass	kpass	NOUN	_	_	0	root	_	WordAlignmentBegin=19923|WordAlignmentEnd=20240
 4	//	//	PUNCT	_	_	3	punct	_	WordAlignmentBegin=20240|WordAlignmentEnd=20240
 
@@ -494,7 +493,7 @@
 5	//=	//=	PUNCT	_	_	7	punct	_	WordAlignmentBegin=57145|WordAlignmentEnd=57145
 6	pikin	pikin	NOUN	_	_	7	subj	_	WordAlignmentBegin=57145|WordAlignmentEnd=57381
 7	dey	dey	VERB	_	_	3	parataxis:conj	_	WordAlignmentBegin=57381|WordAlignmentEnd=57617
-8	one	one	NUM	_	_	9	det:num	_	WordAlignmentBegin=57617|WordAlignmentEnd=57853
+8	one	one	NUM	_	ExtPos=DET	9	det	_	WordAlignmentBegin=57617|WordAlignmentEnd=57853
 9	side	side	NOUN	_	_	7	comp:pred	_	WordAlignmentBegin=57853|WordAlignmentEnd=58090
 10	//	//	PUNCT	_	_	3	punct	_	WordAlignmentBegin=58090|WordAlignmentEnd=58090
 
@@ -591,7 +590,7 @@
 10	}	}	PUNCT	_	_	5	punct	_	WordAlignmentBegin=67797|WordAlignmentEnd=67797
 11	<	<	PUNCT	_	_	2	punct	_	WordAlignmentBegin=67797|WordAlignmentEnd=67797
 12	dat	dat	DET	_	_	14	det	_	WordAlignmentBegin=67797|WordAlignmentEnd=68074
-13	six	six	NUM	_	_	14	det:num	_	WordAlignmentBegin=68074|WordAlignmentEnd=68351
+13	six	six	NUM	_	ExtPos=DET	14	det	_	WordAlignmentBegin=68074|WordAlignmentEnd=68351
 14	one	one	NOUN	_	_	16	dislocated	_	WordAlignmentBegin=68351|WordAlignmentEnd=68627
 15	<	<	PUNCT	_	_	14	punct	_	WordAlignmentBegin=68627|WordAlignmentEnd=68627
 16	na	na	PART	_	_	0	root	_	WordAlignmentBegin=68627|WordAlignmentEnd=68904
@@ -676,21 +675,21 @@
 # text_en = He said no! You, let me tell you that penalty, was not worth it.
 # text_orthographic = Say no, you, let me tell you, dat penalty does not worth it.
 1	say[	say[	VERB	_	_	0	root	_	WordAlignmentBegin=74915|WordAlignmentEnd=75202
-2	no	no	INTJ	_	_	1	parataxis:obj	_	WordAlignmentBegin=75202|WordAlignmentEnd=75489|Lang=en
+2	no	no	INTJ	_	_	1	parataxis:obj	_	Lang=en|WordAlignmentBegin=75202|WordAlignmentEnd=75489
 3	//+	//+	PUNCT	_	_	6	punct	_	WordAlignmentBegin=75489|WordAlignmentEnd=75489
-4	you	you	PRON	_	_	6	dislocated	_	WordAlignmentBegin=75489|WordAlignmentEnd=75776|Lang=en
+4	you	you	PRON	_	_	6	dislocated	_	Lang=en|WordAlignmentBegin=75489|WordAlignmentEnd=75776
 5	<	<	PUNCT	_	_	4	punct	_	WordAlignmentBegin=75776|WordAlignmentEnd=75776
-6	let	let	VERB	_	_	13	parataxis:mod$cond	_	WordAlignmentBegin=75776|WordAlignmentEnd=76063|Lang=en
-7	me	me	PRON	_	_	6	comp:obj	_	WordAlignmentBegin=76063|WordAlignmentEnd=76351|Lang=en
-8	tell	tell	VERB	_	_	6	comp:obl$modal@x	_	WordAlignmentBegin=76351|WordAlignmentEnd=76638|Lang=en
-9	you	you	PRON	_	_	8	comp:obj	_	WordAlignmentBegin=76638|WordAlignmentEnd=76925|Lang=en
+6	let	let	VERB	_	_	13	parataxis:mod$cond	_	Lang=en|WordAlignmentBegin=75776|WordAlignmentEnd=76063
+7	me	me	PRON	_	_	6	comp:obj	_	Lang=en|WordAlignmentBegin=76063|WordAlignmentEnd=76351
+8	tell	tell	VERB	_	_	6	comp:obl$modal@x	_	Lang=en|WordAlignmentBegin=76351|WordAlignmentEnd=76638
+9	you	you	PRON	_	_	8	comp:obj	_	Lang=en|WordAlignmentBegin=76638|WordAlignmentEnd=76925
 10	<	<	PUNCT	_	_	13	punct	_	WordAlignmentBegin=76925|WordAlignmentEnd=76925
-11	dat	dat	DET	_	_	12	det	_	WordAlignmentBegin=76925|WordAlignmentEnd=77212|Lang=en
-12	penalty	penalty	NOUN	_	_	13	subj	_	WordAlignmentBegin=77212|WordAlignmentEnd=77500|Lang=en
-13	does	does	AUX	_	_	1	parataxis:obj$utter	_	WordAlignmentBegin=77500|WordAlignmentEnd=77787|Lang=en
-14	not	not	PART	_	_	15	mod	_	WordAlignmentBegin=77787|WordAlignmentEnd=78074|Lang=en
-15	worth	worth	ADJ	_	_	13	comp:aux	_	WordAlignmentBegin=78074|WordAlignmentEnd=78361|Lang=en
-16	it	it	PRON	_	_	15	comp:obj	_	WordAlignmentBegin=78361|WordAlignmentEnd=78649|Lang=en
+11	dat	dat	DET	_	_	12	det	_	Lang=en|WordAlignmentBegin=76925|WordAlignmentEnd=77212
+12	penalty	penalty	NOUN	_	_	13	subj	_	Lang=en|WordAlignmentBegin=77212|WordAlignmentEnd=77500
+13	does	does	AUX	_	_	1	parataxis:obj$utter	_	Lang=en|WordAlignmentBegin=77500|WordAlignmentEnd=77787
+14	not	not	PART	_	_	15	mod	_	Lang=en|WordAlignmentBegin=77787|WordAlignmentEnd=78074
+15	worth	worth	ADJ	_	_	13	comp:aux	_	Lang=en|WordAlignmentBegin=78074|WordAlignmentEnd=78361
+16	it	it	PRON	_	_	15	comp:obj	_	Lang=en|WordAlignmentBegin=78361|WordAlignmentEnd=78649
 17	//	//	PUNCT	_	_	2	punct	_	WordAlignmentBegin=78649|WordAlignmentEnd=78649
 18	]	]	PUNCT	_	_	2	punct	_	WordAlignmentBegin=78649|WordAlignmentEnd=78649
 19	//	//	PUNCT	_	_	1	punct	_	WordAlignmentBegin=78649|WordAlignmentEnd=78649
@@ -1053,7 +1052,7 @@
 2	paper	paper	NOUN	_	_	1	comp:obj	_	WordAlignmentBegin=110754|WordAlignmentEnd=110979
 3	|c	|c	PUNCT	_	_	4	punct	_	WordAlignmentBegin=110979|WordAlignmentEnd=110979
 4	pay	pay	VERB	_	_	1	conj:coord	_	WordAlignmentBegin=110979|WordAlignmentEnd=111203
-5	hundred	hundred	NUM	_	_	6	det:num	_	WordAlignmentBegin=111203|WordAlignmentEnd=111428
+5	hundred	hundred	NUM	_	ExtPos=DET	6	det	_	WordAlignmentBegin=111203|WordAlignmentEnd=111428
 6	naira	naira	NOUN	_	_	4	comp:obj	_	WordAlignmentBegin=111428|WordAlignmentEnd=111653
 7	|c	|c	PUNCT	_	_	8	punct	_	WordAlignmentBegin=111653|WordAlignmentEnd=111653
 8	comot	comot	VERB	_	_	4	conj:coord	_	WordAlignmentBegin=111653|WordAlignmentEnd=111877
@@ -1246,7 +1245,7 @@
 36	wheder	wheder	SCONJ	_	_	52	cc	_	WordAlignmentBegin=129477|WordAlignmentEnd=129679
 37	na	na	PART	_	_	11	comp:obj	_	WordAlignmentBegin=129679|WordAlignmentEnd=129881
 38	{	{	PUNCT	_	_	39	punct	_	WordAlignmentBegin=129881|WordAlignmentEnd=129881
-39	twenty|r	twenty|r	NUM	_	_	42	det:num	_	WordAlignmentBegin=129881|WordAlignmentEnd=130084
+39	twenty|r	twenty|r	NUM	_	ExtPos=DET	42	det	_	WordAlignmentBegin=129881|WordAlignmentEnd=130084
 40	twenty	twenty	NUM	_	_	39	compound:redup	_	WordAlignmentBegin=130084|WordAlignmentEnd=130286
 41	}	}	PUNCT	_	_	39	punct	_	WordAlignmentBegin=130286|WordAlignmentEnd=130286
 42	naira	naira	NOUN	_	_	37	comp:pred	_	WordAlignmentBegin=130286|WordAlignmentEnd=130488
@@ -1261,7 +1260,7 @@
 51	you	you	PRON	_	_	52	subj	_	WordAlignmentBegin=131902|WordAlignmentEnd=132104
 52	go	go	AUX	_	_	0	root	_	WordAlignmentBegin=132104|WordAlignmentEnd=132306
 53	pay	pay	VERB	_	_	52	comp:aux	_	WordAlignmentBegin=132306|WordAlignmentEnd=132508
-54	twenty	twenty	NUM	_	_	55	det:num	_	WordAlignmentBegin=132508|WordAlignmentEnd=132710
+54	twenty	twenty	NUM	_	ExtPos=DET	55	det	_	WordAlignmentBegin=132508|WordAlignmentEnd=132710
 55	naira	naira	NOUN	_	_	53	comp:obj	_	WordAlignmentBegin=132710|WordAlignmentEnd=132912
 56	//	//	PUNCT	_	_	52	punct	_	WordAlignmentBegin=132912|WordAlignmentEnd=132912
 57	you	you	PRON	_	_	11	subj	_	WordAlignmentBegin=132912|WordAlignmentEnd=133115
@@ -1578,7 +1577,7 @@
 6	now	now	ADV	_	_	3	mod	_	WordAlignmentBegin=162112|WordAlignmentEnd=162315
 7	<	<	PUNCT	_	_	1	punct	_	WordAlignmentBegin=162315|WordAlignmentEnd=162315
 8	na	na	PART	_	_	0	root	_	WordAlignmentBegin=162315|WordAlignmentEnd=162517
-9	twenty	twenty	NUM	_	_	11	det:num	_	WordAlignmentBegin=162517|WordAlignmentEnd=162720
+9	twenty	twenty	NUM	_	ExtPos=DET	11	det	_	WordAlignmentBegin=162517|WordAlignmentEnd=162720
 10	six	six	NUM	_	_	9	flat	_	WordAlignmentBegin=162720|WordAlignmentEnd=162923
 11	minutes	minutes	NOUN	_	_	8	comp:pred	_	WordAlignmentBegin=162923|WordAlignmentEnd=163125
 12	na	na	PART	_	_	8	comp:cleft	_	WordAlignmentBegin=163125|WordAlignmentEnd=163328
@@ -1616,7 +1615,7 @@
 7	sit	sit	VERB	_	_	6	compound:svc$purp	_	WordAlignmentBegin=166291|WordAlignmentEnd=166549
 8	down	down	ADP	_	_	7	compound:prt	_	WordAlignmentBegin=166549|WordAlignmentEnd=166806
 9	for	for	ADP	_	_	7	comp:obl	_	WordAlignmentBegin=166806|WordAlignmentEnd=167064
-10	five	five	NUM	_	_	12	det:num	_	WordAlignmentBegin=167064|WordAlignmentEnd=167322
+10	five	five	NUM	_	ExtPos=DET	12	det	_	WordAlignmentBegin=167064|WordAlignmentEnd=167322
 11	o'clock	o'clock	ADV	_	_	10	mod	_	WordAlignmentBegin=167322|WordAlignmentEnd=167579
 12	door	door	NOUN	_	_	13	compound	_	WordAlignmentBegin=167579|WordAlignmentEnd=167837
 13	jolokoto	jolokoto	NOUN	_	_	9	comp:obj	_	WordAlignmentBegin=167837|WordAlignmentEnd=168094
@@ -1879,7 +1878,7 @@
 4	dat	dat	DET	_	_	5	det	_	WordAlignmentBegin=195452|WordAlignmentEnd=195713
 5	side	side	NOUN	_	_	3	comp:obj	_	WordAlignmentBegin=195713|WordAlignmentEnd=195974
 6	<	<	PUNCT	_	_	3	punct	_	WordAlignmentBegin=195974|WordAlignmentEnd=195974
-7	it's	it's	PRON	_	_	0	root	_	WordAlignmentBegin=195974|WordAlignmentEnd=196235|Lang=en
+7	it's	it's	PRON	_	_	0	root	_	Lang=en|WordAlignmentBegin=195974|WordAlignmentEnd=196235
 8	siliwin	siliwin	X	_	_	7	comp:pred	_	WordAlignmentBegin=196235|WordAlignmentEnd=196496
 9	//	//	PUNCT	_	_	7	punct	_	WordAlignmentBegin=196496|WordAlignmentEnd=196496
 
@@ -2196,11 +2195,11 @@
 19	talk	talk	VERB	_	_	18	comp:aux	_	WordAlignmentBegin=227783|WordAlignmentEnd=228017
 20	sey	sey	SCONJ	_	_	19	comp:obj	_	WordAlignmentBegin=228017|WordAlignmentEnd=228252
 21	[	[	PUNCT	_	_	24	punct	_	WordAlignmentBegin=228252|WordAlignmentEnd=228252
-22	no	no	INTJ	_	_	24	discourse	_	WordAlignmentBegin=228252|WordAlignmentEnd=228486|Lang=en
+22	no	no	INTJ	_	_	24	discourse	_	Lang=en|WordAlignmentBegin=228252|WordAlignmentEnd=228486
 23	<	<	PUNCT	_	_	22	punct	_	WordAlignmentBegin=228486|WordAlignmentEnd=228486
-24	it's	it's	PART	_	_	20	comp:obj	_	WordAlignmentBegin=228486|WordAlignmentEnd=228721|Lang=en
-25	my	my	PRON	_	_	26	mod:poss	_	WordAlignmentBegin=228721|WordAlignmentEnd=228955|Lang=en
-26	right	right	NOUN	_	_	24	comp:pred	_	WordAlignmentBegin=228955|WordAlignmentEnd=229190|Lang=en
+24	it's	it's	PART	_	_	20	comp:obj	_	Lang=en|WordAlignmentBegin=228486|WordAlignmentEnd=228721
+25	my	my	PRON	_	_	26	mod:poss	_	Lang=en|WordAlignmentBegin=228721|WordAlignmentEnd=228955
+26	right	right	NOUN	_	_	24	comp:pred	_	Lang=en|WordAlignmentBegin=228955|WordAlignmentEnd=229190
 27	//]	//]	PUNCT	_	_	24	punct	_	WordAlignmentBegin=229190|WordAlignmentEnd=229190
 28	//	//	PUNCT	_	_	2	punct	_	WordAlignmentBegin=229190|WordAlignmentEnd=229190
 
@@ -2216,10 +2215,10 @@
 4	am	am	PRON	_	_	3	comp:obl	_	WordAlignmentBegin=229806|WordAlignmentEnd=229988
 5	sey	sey	SCONJ	_	_	3	comp:obj$utter	_	WordAlignmentBegin=229988|WordAlignmentEnd=230170
 6	[	[	PUNCT	_	_	8	punct	_	WordAlignmentBegin=230170|WordAlignmentEnd=230170
-7	ona	ona	NOUN	_	_	8	subj	_	WordAlignmentBegin=230170|WordAlignmentEnd=230352|Lang=yo
-8	temi	temi	NOUN	_	_	5	comp:obj	_	WordAlignmentBegin=230352|WordAlignmentEnd=230535|Lang=yo
-9	gangan	gangan	NOUN	_	_	8	flat:foreign	_	WordAlignmentBegin=230535|WordAlignmentEnd=230717|Lang=yo
-10	ni	ni	PART	_	_	9	flat:foreign	_	WordAlignmentBegin=230717|WordAlignmentEnd=230899|Lang=yo
+7	ona	ona	NOUN	_	_	8	subj	_	Lang=yo|WordAlignmentBegin=230170|WordAlignmentEnd=230352
+8	temi	temi	NOUN	_	_	5	comp:obj	_	Lang=yo|WordAlignmentBegin=230352|WordAlignmentEnd=230535
+9	gangan	gangan	NOUN	_	_	8	flat:foreign	_	Lang=yo|WordAlignmentBegin=230535|WordAlignmentEnd=230717
+10	ni	ni	PART	_	_	9	flat:foreign	_	Lang=yo|WordAlignmentBegin=230717|WordAlignmentEnd=230899
 11	//+	//+	PUNCT	_	_	12	punct	_	WordAlignmentBegin=230899|WordAlignmentEnd=230899
 12	na	na	PART	_	_	8	comp:cleft	_	WordAlignmentBegin=230899|WordAlignmentEnd=231081
 13	me	me	PRON	_	_	12	comp:pred	_	WordAlignmentBegin=231081|WordAlignmentEnd=231263
